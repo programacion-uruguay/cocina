@@ -64,8 +64,19 @@ class RadialMenu {
   render() {
     this.container.innerHTML = "";
 
+    // Contamos cuántos anillos están abiertos para ajustar el viewBox dinámicamente
+    let openRings = 1;
+    for (let i = 1; i < this.levels.length; i++) {
+      if (this.selectedPath[this.levels[i - 1].key]) {
+        openRings = i + 1;
+      } else {
+        break;
+      }
+    }
+    const maxR = this.ringRadii[openRings - 1].rOut + 16;
+
     const svg = this.createEl("svg", {
-      viewBox: "-398 -398 796 796",
+      viewBox: `${-maxR} ${-maxR} ${maxR * 2} ${maxR * 2}`,
       class: "radial-svg",
       role: "navigation",
       "aria-label": "Menú circular de categorías de recetas"
@@ -236,13 +247,13 @@ class RadialMenu {
       svg.appendChild(ringGroup);
     }
 
-    // Centro blanco (Hub)
-    const hasSelection = Object.keys(this.selectedPath).length > 0;
+    // Centro blanco (Hub): abre el modal con todas las recetas de la selección actual
+    const totalCount = this.getItemCount(null, null);
     const hubGroup = this.createEl("g", {
       class: "radial-hub",
       tabindex: "0",
       role: "button",
-      "aria-label": hasSelection ? "Volver un nivel atrás" : "Menú principal de cocina"
+      "aria-label": `Ver ${totalCount ?? ""} recetas en modal`
     });
 
     const hubCircle = this.createEl("circle", {
@@ -257,44 +268,42 @@ class RadialMenu {
     hubGroup.appendChild(hubCircle);
 
     const hubIcon = this.createEl("svg", {
-      x: "-14",
-      y: "-26",
-      width: "28",
-      height: "28",
+      x: "-13",
+      y: "-28",
+      width: "26",
+      height: "26",
       viewBox: "0 0 24 24",
       fill: "none",
-      stroke: hasSelection ? "#ef4444" : "#2d3032",
+      stroke: "#2563eb",
       "stroke-width": "2.2",
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     });
-    hubIcon.innerHTML = hasSelection
-      ? '<path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/>'
-      : '<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>';
+    hubIcon.innerHTML =
+      '<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>';
     hubGroup.appendChild(hubIcon);
 
     const hubTitle = this.createEl("text", {
       x: "0",
-      y: "14",
+      y: "11",
       "text-anchor": "middle",
       "dominant-baseline": "central",
-      fill: "#1f2937",
-      "font-size": "12",
-      "font-weight": "700"
+      fill: "#111827",
+      "font-size": "11.5",
+      "font-weight": "800"
     });
-    hubTitle.textContent = hasSelection ? "Volver" : "Recetario";
+    hubTitle.textContent = "Ver recetas";
     hubGroup.appendChild(hubTitle);
 
-    const totalCount = this.getItemCount(null, null);
     if (totalCount !== null) {
       const hubSub = this.createEl("text", {
         x: "0",
-        y: "31",
+        y: "28",
         "text-anchor": "middle",
         "dominant-baseline": "central",
-        fill: "#6b7280",
+        fill: "#2563eb",
         "font-size": "10",
-        "font-weight": "500"
+        "font-weight": "700"
       });
       hubSub.textContent = `${totalCount} ${totalCount === 1 ? "receta" : "recetas"}`;
       hubGroup.appendChild(hubSub);

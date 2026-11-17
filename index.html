@@ -19,7 +19,7 @@
       </div>
 
       <div class="topbar-controls">
-        <div class="search-box">
+        <form id="search-form" class="search-box">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -27,13 +27,14 @@
           <input
             type="search"
             id="search-input"
-            placeholder="Buscar receta o ingrediente..."
+            placeholder="Buscar receta o ingrediente (Enter)..."
             autocomplete="off"
             aria-label="Buscar receta o ingrediente"
           />
-        </div>
+          <button type="submit" id="search-submit-btn" class="search-submit" hidden>Ver</button>
+        </form>
 
-        <button type="button" id="favorites-toggle" class="btn-fav-filter" aria-pressed="false">
+        <button type="button" id="favorites-toggle" class="btn-fav-filter">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
           </svg>
@@ -44,14 +45,14 @@
     </div>
   </header>
 
-  <main class="main-layout">
-    <!-- Panel izquierdo: Menú Circular Multinivel -->
+  <main class="main-stage">
     <section class="wheel-section" aria-label="Menú circular de categorías">
       <div class="wheel-header">
         <div id="breadcrumb" class="breadcrumb" aria-live="polite"></div>
-        <button type="button" id="reset-wheel-btn" class="btn-reset" hidden>
-          Reiniciar menú
-        </button>
+        <div class="wheel-actions">
+          <button type="button" id="back-wheel-btn" class="btn-back" hidden>← Atrás</button>
+          <button type="button" id="reset-wheel-btn" class="btn-reset" hidden>Reiniciar</button>
+        </div>
       </div>
 
       <div id="radial-menu-container" class="radial-menu-container">
@@ -66,33 +67,36 @@
         <span class="legend-item"><strong>3.</strong> Categoría</span>
         <span class="legend-sep">→</span>
         <span class="legend-item"><strong>4.</strong> Estilo</span>
+        <span class="legend-sep">·</span>
+        <span class="legend-tip">Tocá el centro del círculo en cualquier momento para ver las recetas</span>
       </div>
     </section>
+  </main>
 
-    <!-- Panel derecho: Resultados de Recetas -->
-    <section class="recipes-section" aria-label="Listado de recetas">
-      <div class="recipes-header">
+  <!-- Modal 1: Lista de Resultados (Centro del círculo / Final del menú / Búsqueda / Favoritos) -->
+  <div id="results-modal" class="modal-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="results-modal-title">
+    <div class="modal-card modal-card-list">
+      <button type="button" id="results-modal-close" class="modal-close" aria-label="Cerrar resultados">✕</button>
+      <div class="results-modal-header">
         <div>
-          <h2 id="results-title">Todas las recetas</h2>
-          <p id="results-subtitle" class="results-subtitle">Hacé clic en un anillo del menú para filtrar</p>
+          <h2 id="results-modal-title">Recetas encontradas</h2>
+          <p id="results-modal-subtitle" class="results-subtitle"></p>
         </div>
-        <span id="results-count" class="results-pill">0 recetas</span>
+        <span id="results-modal-count" class="results-pill">0 recetas</span>
       </div>
 
-      <div id="recipes-grid" class="recipes-grid">
-        <!-- Tarjetas generadas por js/app.js -->
-      </div>
+      <div id="results-modal-grid" class="recipes-grid"></div>
 
-      <div id="empty-state" class="empty-state" hidden>
+      <div id="results-empty-state" class="empty-state" hidden>
         <div class="empty-icon">🍽️</div>
         <h3>No encontramos recetas con esa combinación</h3>
         <p>Probá retroceder un nivel en el menú circular o limpiar la búsqueda.</p>
         <button type="button" id="empty-reset-btn" class="btn-primary">Ver todas las recetas</button>
       </div>
-    </section>
-  </main>
+    </div>
+  </div>
 
-  <!-- Modal de Ficha Completa de Receta -->
+  <!-- Modal 2: Ficha Completa de Receta -->
   <div id="recipe-modal" class="modal-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal-card">
       <button type="button" id="modal-close" class="modal-close" aria-label="Cerrar receta">✕</button>

@@ -99,7 +99,7 @@ body {
 
 .search-box input {
   width: 100%;
-  padding: 0.6rem 0.9rem 0.6rem 2.4rem;
+  padding: 0.6rem 3.4rem 0.6rem 2.4rem;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface-muted);
@@ -107,6 +107,25 @@ body {
   color: var(--text);
   outline: none;
   transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.search-submit {
+  position: absolute;
+  right: 0.35rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.32rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.search-submit:hover {
+  background: var(--accent-dark);
 }
 
 .search-box input:focus {
@@ -161,47 +180,51 @@ body {
   background: rgba(255, 255, 255, 0.25);
 }
 
-/* Main Layout */
-.main-layout {
-  max-width: 1440px;
+/* Main Stage (Centrado en el menú circular) */
+.main-stage {
+  max-width: 820px;
   margin: 0 auto;
   padding: 1.5rem;
-  display: grid;
-  grid-template-columns: minmax(340px, 560px) 1fr;
-  gap: 1.75rem;
-  align-items: start;
-}
-
-@media (max-width: 1024px) {
-  .main-layout {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Wheel Section */
 .wheel-section {
   background: var(--surface);
   border-radius: var(--radius);
-  padding: 1.25rem;
+  padding: 1.35rem 1.5rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--border);
-  position: sticky;
-  top: 84px;
-}
-
-@media (max-width: 1024px) {
-  .wheel-section {
-    position: static;
-  }
 }
 
 .wheel-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
   min-height: 34px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.wheel-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.btn-back {
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background: #e5e7eb;
 }
 
 .breadcrumb {
@@ -262,7 +285,7 @@ body {
 
 .radial-menu-container {
   width: 100%;
-  max-width: 520px;
+  max-width: 600px;
   margin: 0 auto;
   aspect-ratio: 1 / 1;
   display: flex;
@@ -480,7 +503,57 @@ body {
   font-weight: 600;
 }
 
-/* Empty State */
+.card-footer {
+  padding-top: 0.4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-view-link {
+  color: var(--accent-dark);
+  font-size: 0.84rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.recipe-card:hover .card-view-link {
+  text-decoration: underline;
+}
+
+.modal-card-list {
+  max-width: 960px;
+}
+
+.results-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-right: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.results-modal-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.btn-back-results {
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+}
+
+.btn-back-results:hover {
+  background: #e5e7eb;
+}
 .empty-state {
   background: var(--surface);
   border: 1px dashed #cbd5e1;
