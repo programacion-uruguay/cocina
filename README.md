@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cocina Radial — Recetario Interactivo
 
-## Getting Started
+Web de recetas de cocina hecha con **HTML, CSS y JavaScript puro**, sin frameworks ni paso de compilación, lista para publicar en **GitHub Pages**.
 
-First, run the development server:
+## Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Menú circular multinivel (4 anillos)**:
+  1. **Método / Equipo**: Freidora de aire, Horno, Cocina / Olla, Parrilla / Plancha, Microondas, Sin cocción.
+  2. **Momento del día**: Desayuno, Almuerzo, Merienda, Cena, Snacks / Postres.
+  3. **Tipo de plato**: Pollo, Carnes, Verduras, Pastas y Arroz, Pescados, Dulces y Panes.
+  4. **Estilo / Tiempo**: Express (<20 min), Saludable / Fit, Clásico, Económico.
+- **Buscador** por nombre o ingrediente.
+- **Favoritos** guardados en el navegador (`localStorage`).
+- **Ficha de receta interactiva**:
+  - Calculadora de porciones (ajusta las cantidades automáticamente).
+  - Checklist de ingredientes para ir marcando mientras cocinás.
+  - Temporizador de cocina integrado en los pasos con alerta sonora.
+
+## Cómo agregar más recetas
+
+Editá el archivo [`data/recipes.json`](data/recipes.json) agregando un objeto con la siguiente estructura:
+
+```json
+{
+  "id": "mi-receta",
+  "title": "Nombre de la receta",
+  "metodo": "freidora",
+  "momento": "almuerzo",
+  "categoria": "pollo",
+  "estilo": "express",
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "temperatureC": 190,
+  "servings": 2,
+  "difficulty": "Fácil",
+  "description": "Breve descripción del plato.",
+  "ingredients": [
+    { "amount": 300, "unit": "g", "item": "pechuga de pollo" }
+  ],
+  "steps": [
+    { "text": "Precalentar la freidora a 190 °C.", "timerMinutes": 3 },
+    { "text": "Cocinar 15 minutos dando vuelta a la mitad.", "timerMinutes": 15 }
+  ]
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Publicar en GitHub Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Subí los cambios a tu repositorio en GitHub (`git add . && git commit -m "Recetario radial" && git push`).
+2. En GitHub, andá a **Settings → Pages**.
+3. En **Source**, seleccioná **GitHub Actions** (ya incluye `.github/workflows/pages.yml`) o **Deploy from a branch** (`main` / `(root)`).
+4. En unos segundos tu web quedará publicada en `https://<tu-usuario>.github.io/<tu-repo>/`.

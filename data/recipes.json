@@ -1,0 +1,577 @@
+[
+  {
+    "id": "freidora-pollo-crujiente",
+    "title": "Pechuga de Pollo Crujiente con Pimentón",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "temperatureC": 195,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tiras de pechuga doradas por fuera y jugosas por dentro sin aceite extra, ideales para almuerzo rápido.",
+    "ingredients": [
+      { "amount": 400, "unit": "g", "item": "pechuga de pollo en tiras" },
+      { "amount": 1, "unit": "cdta", "item": "pimentón dulce" },
+      { "amount": 0.5, "unit": "cdta", "item": "ajo en polvo" },
+      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
+      { "amount": 30, "unit": "g", "item": "pan rallado o avena molida" },
+      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+    ],
+    "steps": [
+      { "text": "Precalentar la freidora de aire a 195 °C.", "timerMinutes": 3 },
+      { "text": "Mezclar el pollo con el aceite, pimentón, ajo, sal y pimienta; luego rebozar con el pan rallado." },
+      { "text": "Cocinar en la canasta sin encimar las piezas durante 16 minutos, agitando a la mitad.", "timerMinutes": 16 }
+    ]
+  },
+  {
+    "id": "freidora-papas-rusticas",
+    "title": "Papas Rústicas al Romero en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Gajos de papa bien crocantes con romero y ajo, listos en menos de 20 minutos de cocción.",
+    "ingredients": [
+      { "amount": 500, "unit": "g", "item": "papas lavadas con cáscara" },
+      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
+      { "amount": 1, "unit": "cdta", "item": "romero seco o fresco" },
+      { "amount": 0.5, "unit": "cdta", "item": "sal fina" }
+    ],
+    "steps": [
+      { "text": "Cortar las papas en gajos parejos, secarlas bien con papel y mezclarlas con aceite, romero y sal." },
+      { "text": "Cocinar a 200 °C durante 18 minutos, sacudiendo la canasta cada 6 minutos.", "timerMinutes": 18 }
+    ]
+  },
+  {
+    "id": "freidora-salmon-limon",
+    "title": "Salmón al Limón y Eneldo en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "temperatureC": 185,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Postas de salmón tiernas con costra cítrica en solo 10 minutos.",
+    "ingredients": [
+      { "amount": 2, "unit": "filetes", "item": "salmón fresco (180 g c/u)" },
+      { "amount": 1, "unit": "cda", "item": "jugo de limón" },
+      { "amount": 1, "unit": "cdta", "item": "eneldo picado" },
+      { "amount": 1, "unit": "cdta", "item": "aceite de oliva" },
+      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+    ],
+    "steps": [
+      { "text": "Pincelar los filetes con aceite, jugo de limón, eneldo, sal y pimienta." },
+      { "text": "Llevar a la freidora de aire a 185 °C durante 10 minutos.", "timerMinutes": 10 }
+    ]
+  },
+  {
+    "id": "freidora-tostada-huevo",
+    "title": "Pan Tostado con Huevo y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Desayuno salado en un solo paso: pan crocante con huevo cocido en el centro.",
+    "ingredients": [
+      { "amount": 2, "unit": "rebanadas", "item": "pan de molde integral" },
+      { "amount": 2, "unit": "unidades", "item": "huevos" },
+      { "amount": 40, "unit": "g", "item": "queso rallado" },
+      { "amount": 1, "unit": "pizca", "item": "sal y orégano" }
+    ],
+    "steps": [
+      { "text": "Presionar el centro de cada rebanada con una cuchara para formar un hueco y colocar queso alrededor." },
+      { "text": "Cascar un huevo en cada hueco, salpimentar y cocinar a 180 °C por 7 minutos.", "timerMinutes": 7 }
+    ]
+  },
+  {
+    "id": "freidora-manzanas-canela",
+    "title": "Chips de Manzana y Canela",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "temperatureC": 160,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Snack dulce y liviano sin azúcar agregado, ideal para la merienda.",
+    "ingredients": [
+      { "amount": 2, "unit": "unidades", "item": "manzanas rojas" },
+      { "amount": 1, "unit": "cdta", "item": "canela molida" }
+    ],
+    "steps": [
+      { "text": "Cortar las manzanas en láminas finas (sin semillas) y espolvorear con canela." },
+      { "text": "Cocinar a 160 °C durante 12 minutos, moviendo a mitad de cocción.", "timerMinutes": 12 }
+    ]
+  },
+  {
+    "id": "horno-pollo-limon",
+    "title": "Muslos de Pollo al Horno con Limón y Ajo",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 40,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Un clásico familiar con piel dorada y salsa jugosa de limón y ajo.",
+    "ingredients": [
+      { "amount": 4, "unit": "unidades", "item": "muslos de pollo" },
+      { "amount": 1, "unit": "unidad", "item": "limón en rodajas" },
+      { "amount": 4, "unit": "dientes", "item": "ajo machacados" },
+      { "amount": 2, "unit": "cdas", "item": "aceite de oliva" },
+      { "amount": 1, "unit": "cdta", "item": "orégano" },
+      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+    ],
+    "steps": [
+      { "text": "Precalentar el horno a 200 °C.", "timerMinutes": 10 },
+      { "text": "Acomodar el pollo en una fuente con el ajo, rodajas de limón, aceite, orégano, sal y pimienta." },
+      { "text": "Hornear durante 40 minutos hasta que esté bien dorado.", "timerMinutes": 40 }
+    ]
+  },
+  {
+    "id": "horno-lasagna-verduras",
+    "title": "Lasaña de Verduras y Ricota",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Capas de masa, espinaca, calabacín, ricota y queso gratinado al horno.",
+    "ingredients": [
+      { "amount": 250, "unit": "g", "item": "placas de lasaña" },
+      { "amount": 300, "unit": "g", "item": "espinaca cocida y escurrida" },
+      { "amount": 250, "unit": "g", "item": "ricota" },
+      { "amount": 400, "unit": "ml", "item": "salsa de tomate" },
+      { "amount": 150, "unit": "g", "item": "queso mozzarella rallado" }
+    ],
+    "steps": [
+      { "text": "Mezclar la espinaca con la ricota y salpimentar." },
+      { "text": "Armar capas en fuente aceitada: salsa, placas, relleno, salsa y mozzarella." },
+      { "text": "Hornear a 190 °C durante 30 minutos hasta gratinar.", "timerMinutes": 30 }
+    ]
+  },
+  {
+    "id": "horno-budin-banana",
+    "title": "Budín Húmedo de Banana y Avena",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Budín casero sin harina refinada, perfecto para acompañar el mate o café.",
+    "ingredients": [
+      { "amount": 3, "unit": "unidades", "item": "bananas maduras" },
+      { "amount": 2, "unit": "unidades", "item": "huevos" },
+      { "amount": 180, "unit": "g", "item": "avena arrollada" },
+      { "amount": 1, "unit": "cdta", "item": "polvo de hornear" },
+      { "amount": 1, "unit": "cdta", "item": "esencia de vainilla" }
+    ],
+    "steps": [
+      { "text": "Pisar las bananas y mezclar con los huevos y la vainilla." },
+      { "text": "Incorporar la avena y el polvo de hornear. Volcar en budinera." },
+      { "text": "Hornear a 180 °C durante 35 minutos.", "timerMinutes": 35 }
+    ]
+  },
+  {
+    "id": "horno-colita-cuadril",
+    "title": "Colita de Cuadril al Horno con Mostaza",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 45,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Corte tierno de carne vacuna untado con mostaza y hierbas.",
+    "ingredients": [
+      { "amount": 1, "unit": "kg", "item": "colita de cuadril" },
+      { "amount": 2, "unit": "cdas", "item": "mostaza" },
+      { "amount": 2, "unit": "cdas", "item": "aceite" },
+      { "amount": 1, "unit": "cdta", "item": "pimienta negra y sal" }
+    ],
+    "steps": [
+      { "text": "Untar la carne con mostaza, aceite, sal y pimienta." },
+      { "text": "Hornear a 190 °C por 45 minutos y dejar reposar 5 minutos antes de cortar.", "timerMinutes": 45 }
+    ]
+  },
+  {
+    "id": "cocina-arroz-pollo",
+    "title": "Arroz con Pollo en Una Olla",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Plato rendidor y sabroso hecho en una sola cacerola.",
+    "ingredients": [
+      { "amount": 350, "unit": "g", "item": "suprema de pollo en cubos" },
+      { "amount": 300, "unit": "g", "item": "arroz largo fino" },
+      { "amount": 1, "unit": "unidad", "item": "cebolla picada" },
+      { "amount": 1, "unit": "unidad", "item": "morrón rojo picado" },
+      { "amount": 700, "unit": "ml", "item": "caldo de verduras" }
+    ],
+    "steps": [
+      { "text": "Dorar el pollo en la olla con un chorrito de aceite. Agregar cebolla y morrón por 5 minutos.", "timerMinutes": 5 },
+      { "text": "Sumar el arroz y el caldo caliente. Cocinar tapado a fuego bajo por 18 minutos.", "timerMinutes": 18 }
+    ]
+  },
+  {
+    "id": "cocina-pasta-ajo-oliva",
+    "title": "Spaghetti Aglio e Olio Express",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Pasta italiana clásica lista en 15 minutos con ingredientes básicos de alacena.",
+    "ingredients": [
+      { "amount": 200, "unit": "g", "item": "spaghetti" },
+      { "amount": 3, "unit": "dientes", "item": "ajo laminados" },
+      { "amount": 3, "unit": "cdas", "item": "aceite de oliva" },
+      { "amount": 1, "unit": "cda", "item": "perejil fresco picado" },
+      { "amount": 1, "unit": "pizca", "item": "ají molido y sal" }
+    ],
+    "steps": [
+      { "text": "Hervir los spaghetti en agua con sal durante 10 minutos.", "timerMinutes": 10 },
+      { "text": "En sartén aparte, dorar suavemente el ajo en aceite de oliva sin quemarlo." },
+      { "text": "Mezclar la pasta con el aceite, un cucharón de agua de cocción y perejil." }
+    ]
+  },
+  {
+    "id": "cocina-revuelto-zapallitos",
+    "title": "Revuelto de Zapallitos y Huevo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Cena liviana, económica y rica en proteínas.",
+    "ingredients": [
+      { "amount": 3, "unit": "unidades", "item": "zapallitos verdes en cubos" },
+      { "amount": 1, "unit": "unidad", "item": "cebolla picada" },
+      { "amount": 3, "unit": "unidades", "item": "huevos batidos" },
+      { "amount": 1, "unit": "cda", "item": "aceite" }
+    ],
+    "steps": [
+      { "text": "Saltear la cebolla y los zapallitos a fuego medio por 8 minutos.", "timerMinutes": 8 },
+      { "text": "Agregar los huevos batidos, salpimentar y revolver 3 minutos hasta cuajar.", "timerMinutes": 3 }
+    ]
+  },
+  {
+    "id": "cocina-panqueques-avena",
+    "title": "Panqueques de Avena y Banana",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Desayuno energético en sartén sin harinas refinadas.",
+    "ingredients": [
+      { "amount": 1, "unit": "unidad", "item": "banana madura" },
+      { "amount": 2, "unit": "unidades", "item": "huevos" },
+      { "amount": 60, "unit": "g", "item": "avena fina" },
+      { "amount": 1, "unit": "cdta", "item": "canela" }
+    ],
+    "steps": [
+      { "text": "Procesar o mezclar bien la banana pisada con huevos, avena y canela." },
+      { "text": "Cocinar porciones en sartén antiadherente 2 minutos de cada lado.", "timerMinutes": 4 }
+    ]
+  },
+  {
+    "id": "cocina-bifes-criolla",
+    "title": "Bifes a la Criolla en Sartén",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Bifes tiernos cocidos con cebolla, morrón, tomate y rodajas de papa.",
+    "ingredients": [
+      { "amount": 500, "unit": "g", "item": "bifes de nalga o cuadril" },
+      { "amount": 2, "unit": "unidades", "item": "papas en rodajas finas" },
+      { "amount": 1, "unit": "unidad", "item": "cebolla en aros" },
+      { "amount": 1, "unit": "unidad", "item": "tomate en rodajas" },
+      { "amount": 100, "unit": "ml", "item": "caldo o agua" }
+    ],
+    "steps": [
+      { "text": "Sellar los bifes en sartén profunda 2 minutos por lado." },
+      { "text": "Cubrir con capas de cebolla, tomate y papa, agregar el caldo y tapar 20 minutos.", "timerMinutes": 20 }
+    ]
+  },
+  {
+    "id": "parrilla-bife-chorizo",
+    "title": "Bife a la Plancha con Chimichurri",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Corte jugoso sellado a fuego fuerte en plancha o parrilla.",
+    "ingredients": [
+      { "amount": 2, "unit": "unidades", "item": "bifes de chorizo (250 g c/u)" },
+      { "amount": 2, "unit": "cdas", "item": "chimichurri" },
+      { "amount": 1, "unit": "cdta", "item": "sal gruesa" }
+    ],
+    "steps": [
+      { "text": "Calentar bien la plancha o parrilla durante 4 minutos.", "timerMinutes": 4 },
+      { "text": "Cocinar los bifes 4 a 5 minutos de cada lado según el punto deseado.", "timerMinutes": 9 },
+      { "text": "Servir con chimichurri por encima." }
+    ]
+  },
+  {
+    "id": "parrilla-verduras-asadas",
+    "title": "Vegetales Grillados con Aceto",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Berenjena, zucchini y morrón marcados a la plancha con toque de aceto.",
+    "ingredients": [
+      { "amount": 1, "unit": "unidad", "item": "zucchini en láminas" },
+      { "amount": 1, "unit": "unidad", "item": "berenjena en rodajas" },
+      { "amount": 1, "unit": "unidad", "item": "morrón en tiras" },
+      { "amount": 2, "unit": "cdas", "item": "aceite de oliva y aceto" }
+    ],
+    "steps": [
+      { "text": "Pincelar los vegetales con aceite y sal." },
+      { "text": "Grillar 5 minutos por lado hasta que queden marcados y tiernos.", "timerMinutes": 10 }
+    ]
+  },
+  {
+    "id": "parrilla-merluza-plancha",
+    "title": "Filet de Merluza a la Plancha con Ajo y Perejil",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Pescado dorado y liviano en pocos minutos.",
+    "ingredients": [
+      { "amount": 2, "unit": "filetes", "item": "merluza sin espinas" },
+      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
+      { "amount": 1, "unit": "cda", "item": "perejil y ajo picados" },
+      { "amount": 1, "unit": "unidad", "item": "limón" }
+    ],
+    "steps": [
+      { "text": "Calentar la plancha aceitada y colocar los filetes salpimentados." },
+      { "text": "Cocinar 4 minutos por lado con ajo y perejil por encima.", "timerMinutes": 8 }
+    ]
+  },
+  {
+    "id": "parrilla-pechuga-mariposa",
+    "title": "Pechuga a la Plancha con Hierbas",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Pechuga abierta en mariposa para cocción rápida y pareja.",
+    "ingredients": [
+      { "amount": 350, "unit": "g", "item": "pechuga de pollo abierta" },
+      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
+      { "amount": 1, "unit": "cdta", "item": "tomillo y romero" }
+    ],
+    "steps": [
+      { "text": "Condimentar la pechuga con aceite, hierbas, sal y pimienta." },
+      { "text": "Cocinar 5 minutos por lado en plancha bien caliente.", "timerMinutes": 10 }
+    ]
+  },
+  {
+    "id": "microondas-mugcake-cacao",
+    "title": "Mug Cake de Cacao en 2 Minutos",
+    "metodo": "microondas",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 2,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Bizcochuelo individual esponjoso directo en taza, listo al instante.",
+    "ingredients": [
+      { "amount": 4, "unit": "cdas", "item": "harina leudante" },
+      { "amount": 2, "unit": "cdas", "item": "cacao amargo" },
+      { "amount": 2, "unit": "cdas", "item": "azúcar" },
+      { "amount": 4, "unit": "cdas", "item": "leche" },
+      { "amount": 1, "unit": "cda", "item": "aceite neutro" }
+    ],
+    "steps": [
+      { "text": "Mezclar todos los ingredientes dentro de una taza apta para microondas hasta lograr masa lisa." },
+      { "text": "Cocinar a potencia máxima durante 2 minutos.", "timerMinutes": 2 }
+    ]
+  },
+  {
+    "id": "microondas-omelette-taza",
+    "title": "Omelette Express en Taza",
+    "metodo": "microondas",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 2,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Desayuno proteico sin ensuciar sartenes.",
+    "ingredients": [
+      { "amount": 2, "unit": "unidades", "item": "huevos" },
+      { "amount": 30, "unit": "g", "item": "queso en cubitos" },
+      { "amount": 1, "unit": "cda", "item": "tomate y cebollín picados" },
+      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+    ],
+    "steps": [
+      { "text": "Batir los huevos en una taza aceitada junto con el queso, tomate y cebollín." },
+      { "text": "Llevar al microondas 2 minutos (en intervalos de 1 minuto).", "timerMinutes": 2 }
+    ]
+  },
+  {
+    "id": "microondas-papas-rellenas",
+    "title": "Papa al Microondas con Queso y Verdeo",
+    "metodo": "microondas",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 4,
+    "cookMinutes": 8,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Papa tierna tipo al plomo en menos de 10 minutos.",
+    "ingredients": [
+      { "amount": 1, "unit": "unidad", "item": "papa grande lavada" },
+      { "amount": 40, "unit": "g", "item": "queso crema o muzzarella" },
+      { "amount": 1, "unit": "cda", "item": "cebolla de verdeo picada" }
+    ],
+    "steps": [
+      { "text": "Pinchar la papa con tenedor y cocinar en microondas 7 minutos.", "timerMinutes": 7 },
+      { "text": "Abrir al medio, agregar queso y verdeo, y calentar 1 minuto más.", "timerMinutes": 1 }
+    ]
+  },
+  {
+    "id": "sin-coccion-overnight-oats",
+    "title": "Avena Nocturna con Chía y Frutos Rojos",
+    "metodo": "sin_coccion",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Desayuno frío preparado la noche anterior, cremoso y nutritivo.",
+    "ingredients": [
+      { "amount": 50, "unit": "g", "item": "avena arrollada" },
+      { "amount": 150, "unit": "ml", "item": "leche o bebida vegetal" },
+      { "amount": 1, "unit": "cda", "item": "semillas de chía" },
+      { "amount": 60, "unit": "g", "item": "frutos rojos" },
+      { "amount": 1, "unit": "cdta", "item": "miel" }
+    ],
+    "steps": [
+      { "text": "Mezclar avena, leche, chía y miel en un frasco." },
+      { "text": "Refrigerar al menos 4 horas o toda la noche y servir con frutos rojos." }
+    ]
+  },
+  {
+    "id": "sin-coccion-ensalada-cesar",
+    "title": "Ensalada Fresca de Atún, Palta y Garbanzos",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Almuerzo completo sin prender la cocina, fresco y saciante.",
+    "ingredients": [
+      { "amount": 1, "unit": "lata", "item": "atún al natural escurrido" },
+      { "amount": 200, "unit": "g", "item": "garbanzos cocidos" },
+      { "amount": 1, "unit": "unidad", "item": "palta en cubos" },
+      { "amount": 10, "unit": "unidades", "item": "tomates cherry" },
+      { "amount": 2, "unit": "cdas", "item": "aceite de oliva y jugo de limón" }
+    ],
+    "steps": [
+      { "text": "Cortar la palta y los tomates cherry a la mitad." },
+      { "text": "Mezclar en un bowl con el atún, garbanzos, oliva, limón y sal." }
+    ]
+  },
+  {
+    "id": "sin-coccion-trufas-datiles",
+    "title": "Bolitas Energéticas de Avena, Maní y Cacao",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Bocaditos dulces sin horno para tener siempre en la heladera.",
+    "ingredients": [
+      { "amount": 100, "unit": "g", "item": "avena fina" },
+      { "amount": 3, "unit": "cdas", "item": "mantequilla de maní" },
+      { "amount": 2, "unit": "cdas", "item": "miel" },
+      { "amount": 1, "unit": "cda", "item": "cacao amargo" }
+    ],
+    "steps": [
+      { "text": "Integrar todos los ingredientes en un bowl hasta formar una pasta moldeable." },
+      { "text": "Armar bolitas con las manos y llevar 15 minutos a la heladera.", "timerMinutes": 15 }
+    ]
+  }
+]
