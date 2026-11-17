@@ -19,6 +19,12 @@
       </div>
 
       <div class="topbar-controls">
+        <div class="theme-switcher" role="group" aria-label="Selector de tema">
+          <button type="button" class="theme-btn" data-theme-btn="light">☀️ Claro</button>
+          <button type="button" class="theme-btn" data-theme-btn="warm">🔥 Cálido</button>
+          <button type="button" class="theme-btn" data-theme-btn="dark">🌙 Oscuro</button>
+        </div>
+
         <form id="search-form" class="search-box">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
@@ -57,6 +63,11 @@
 
       <div id="radial-menu-container" class="radial-menu-container">
         <!-- SVG generado dinámicamente por js/radial-menu.js -->
+      </div>
+
+      <div class="wheel-quick-bar">
+        <button type="button" id="surprise-btn" class="btn-surprise">🎲 ¡Sorprendeme con una receta!</button>
+        <div id="quick-suggestions" class="quick-suggestions" aria-label="Sugerencias rápidas"></div>
       </div>
 
       <div class="wheel-legend">

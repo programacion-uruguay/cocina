@@ -14,10 +14,10 @@ class RadialMenu {
     this.selectedPath = {}; // { metodo: 'freidora', momento: 'almuerzo', ... }
 
     this.ringRadii = [
-      { rIn: 72, rOut: 148, fullCircle: true, spanDeg: 360, badgeR: 13.5, fontSize: 10 },
-      { rIn: 154, rOut: 228, fullCircle: false, spanDeg: 205, badgeR: 13, fontSize: 9.5 },
-      { rIn: 234, rOut: 308, fullCircle: false, spanDeg: 216, badgeR: 13, fontSize: 9.5 },
-      { rIn: 314, rOut: 386, fullCircle: false, spanDeg: 160, badgeR: 13, fontSize: 9.5 }
+      { rIn: 72, rOut: 148, fullCircle: true, spanDeg: 360, badgeR: 13.5, fontSize: 10, baseFill: "#24272b", selectedFill: "#3b4046" },
+      { rIn: 154, rOut: 228, fullCircle: false, spanDeg: 205, badgeR: 13, fontSize: 9.5, baseFill: "#2c3035", selectedFill: "#434950" },
+      { rIn: 234, rOut: 308, fullCircle: false, spanDeg: 216, badgeR: 13, fontSize: 9.5, baseFill: "#343940", selectedFill: "#4b525a" },
+      { rIn: 314, rOut: 386, fullCircle: false, spanDeg: 160, badgeR: 13, fontSize: 9.5, baseFill: "#3c424a", selectedFill: "#535b64" }
     ];
 
     this.svgNS = "http://www.w3.org/2000/svg";
@@ -95,6 +95,41 @@ class RadialMenu {
     svg.appendChild(defs);
 
     let parentMidAngle = -45; // Ángulo inicial por defecto
+    let parentColor = null;
+    const defaultHubIcon =
+      '<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>';
+
+    const totalCount = this.getItemCount(null, null);
+    let hubCircle = null;
+    let hubIcon = null;
+    let hubTitle = null;
+    let hubSub = null;
+
+    const showHubPreview = (item, count) => {
+      if (!hubCircle) return;
+      hubCircle.setAttribute("stroke", item.color);
+      hubCircle.setAttribute("stroke-width", "3.5");
+      hubIcon.setAttribute("stroke", item.color);
+      hubIcon.innerHTML = item.icon;
+      hubTitle.textContent = item.shortLabel;
+      if (hubSub) {
+        hubSub.textContent = `${count ?? 0} ${count === 1 ? "receta" : "recetas"}`;
+        hubSub.setAttribute("fill", item.color);
+      }
+    };
+
+    const resetHubPreview = () => {
+      if (!hubCircle) return;
+      hubCircle.setAttribute("stroke", "#e5e7eb");
+      hubCircle.setAttribute("stroke-width", "2");
+      hubIcon.setAttribute("stroke", "#2563eb");
+      hubIcon.innerHTML = defaultHubIcon;
+      hubTitle.textContent = "Ver recetas";
+      if (hubSub) {
+        hubSub.textContent = `${totalCount ?? 0} ${totalCount === 1 ? "receta" : "recetas"}`;
+        hubSub.setAttribute("fill", "#2563eb");
+      }
+    };
 
     for (let levelIdx = 0; levelIdx < this.levels.length; levelIdx++) {
       const level = this.levels[levelIdx];
@@ -116,6 +151,7 @@ class RadialMenu {
       });
 
       const selectedId = this.selectedPath[level.key];
+      let nextParentColor = null;
 
       items.forEach((item, idx) => {
         const startAngle = startOffset + idx * stepDeg;
@@ -125,6 +161,7 @@ class RadialMenu {
 
         if (isSelected) {
           parentMidAngle = midAngle;
+          nextParentColor = item.color;
         }
 
         const recipeCount = this.getItemCount(level.key, item.id);
@@ -138,6 +175,7 @@ class RadialMenu {
           ]
             .filter(Boolean)
             .join(" "),
+          style: `--sector-color: ${item.color}`,
           tabindex: "0",
           role: "button",
           "aria-label": `${level.title}: ${item.label}${recipeCount !== null ? ` (${recipeCount} recetas)` : ""}`,
@@ -148,7 +186,7 @@ class RadialMenu {
         const wedge = this.createEl("path", {
           d: pathD,
           class: "sector-wedge",
-          fill: isSelected ? "#454a4f" : "#2d3032",
+          fill: isSelected ? cfg.selectedFill : cfg.baseFill,
           stroke: "#ffffff",
           "stroke-width": "2"
         });
@@ -229,12 +267,31 @@ class RadialMenu {
           sectorGroup.appendChild(countText);
         }
 
+        // Muesca/flecha conectora triangular en el borde exterior del sector seleccionado
+        if (isSelected && levelIdx < this.levels.length - 1) {
+          const tip = this.polarToCartesian(0, 0, cfg.rOut + 7, midAngle);
+          const base1 = this.polarToCartesian(0, 0, cfg.rOut - 2, midAngle - 4.5);
+          const base2 = this.polarToCartesian(0, 0, cfg.rOut - 2, midAngle + 4.5);
+          const notch = this.createEl("polygon", {
+            points: `${tip.x.toFixed(2)},${tip.y.toFixed(2)} ${base1.x.toFixed(2)},${base1.y.toFixed(2)} ${base2.x.toFixed(2)},${base2.y.toFixed(2)}`,
+            fill: item.color,
+            stroke: "#ffffff",
+            "stroke-width": "1.5",
+            class: "sector-connector"
+          });
+          sectorGroup.appendChild(notch);
+        }
+
         const handleActivate = (e) => {
           e.preventDefault();
           this.onSelect(level.key, item.id);
         };
 
         sectorGroup.addEventListener("click", handleActivate);
+        sectorGroup.addEventListener("mouseenter", () => showHubPreview(item, recipeCount));
+        sectorGroup.addEventListener("mouseleave", resetHubPreview);
+        sectorGroup.addEventListener("focus", () => showHubPreview(item, recipeCount));
+        sectorGroup.addEventListener("blur", resetHubPreview);
         sectorGroup.addEventListener("keydown", (e) => {
           if (e.key === "Enter" || e.key === " ") {
             handleActivate(e);
@@ -244,11 +301,21 @@ class RadialMenu {
         ringGroup.appendChild(sectorGroup);
       });
 
+      // Arco interior de acento con el color de la categoría padre seleccionada
+      if (levelIdx > 0 && parentColor) {
+        const parentTintArc = this.createEl("path", {
+          d: this.describeAnnularSector(0, 0, cfg.rIn, cfg.rIn + 3.5, startOffset + 0.4, startOffset + cfg.spanDeg - 0.4),
+          fill: parentColor,
+          class: "ring-parent-tint"
+        });
+        ringGroup.appendChild(parentTintArc);
+      }
+
+      parentColor = nextParentColor;
       svg.appendChild(ringGroup);
     }
 
     // Centro blanco (Hub): abre el modal con todas las recetas de la selección actual
-    const totalCount = this.getItemCount(null, null);
     const hubGroup = this.createEl("g", {
       class: "radial-hub",
       tabindex: "0",
@@ -256,7 +323,7 @@ class RadialMenu {
       "aria-label": `Ver ${totalCount ?? ""} recetas en modal`
     });
 
-    const hubCircle = this.createEl("circle", {
+    hubCircle = this.createEl("circle", {
       cx: "0",
       cy: "0",
       r: "66",
@@ -267,7 +334,7 @@ class RadialMenu {
     });
     hubGroup.appendChild(hubCircle);
 
-    const hubIcon = this.createEl("svg", {
+    hubIcon = this.createEl("svg", {
       x: "-13",
       y: "-28",
       width: "26",
@@ -279,11 +346,10 @@ class RadialMenu {
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     });
-    hubIcon.innerHTML =
-      '<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>';
+    hubIcon.innerHTML = defaultHubIcon;
     hubGroup.appendChild(hubIcon);
 
-    const hubTitle = this.createEl("text", {
+    hubTitle = this.createEl("text", {
       x: "0",
       y: "11",
       "text-anchor": "middle",
@@ -296,7 +362,7 @@ class RadialMenu {
     hubGroup.appendChild(hubTitle);
 
     if (totalCount !== null) {
-      const hubSub = this.createEl("text", {
+      hubSub = this.createEl("text", {
         x: "0",
         y: "28",
         "text-anchor": "middle",

@@ -7,6 +7,7 @@
 
 (function () {
   const FAVORITES_KEY = "cocina_radial_favorites_v1";
+  const THEME_KEY = "cocina_radial_theme_v1";
 
   const state = {
     recipes: [],
@@ -14,9 +15,11 @@
     searchQuery: "",
     onlyFavorites: false,
     favorites: loadFavorites(),
+    theme: loadTheme(),
     activeRecipe: null,
     currentServings: 2,
-    cameFromResultsModal: false
+    cameFromResultsModal: false,
+    cookingStepIndex: null
   };
 
   const els = {
@@ -24,6 +27,9 @@
     breadcrumb: document.getElementById("breadcrumb"),
     backWheelBtn: document.getElementById("back-wheel-btn"),
     resetWheelBtn: document.getElementById("reset-wheel-btn"),
+    surpriseBtn: document.getElementById("surprise-btn"),
+    quickSuggestions: document.getElementById("quick-suggestions"),
+    themeButtons: document.querySelectorAll("[data-theme-btn]"),
     searchForm: document.getElementById("search-form"),
     searchInput: document.getElementById("search-input"),
     searchSubmitBtn: document.getElementById("search-submit-btn"),
@@ -52,6 +58,30 @@
     } catch {
       return [];
     }
+  }
+
+  function loadTheme() {
+    try {
+      const saved = localStorage.getItem(THEME_KEY);
+      return ["light", "warm", "dark"].includes(saved) ? saved : "warm";
+    } catch {
+      return "warm";
+    }
+  }
+
+  function applyTheme(theme) {
+    state.theme = theme;
+    document.documentElement.setAttribute("data-theme", theme);
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch {
+      // Ignorar errores de almacenamiento privado
+    }
+    els.themeButtons.forEach((btn) => {
+      const active = btn.dataset.themeBtn === theme;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-pressed", String(active));
+    });
   }
 
   function saveFavorites() {
@@ -258,31 +288,35 @@
         const estilo = getMenuItemById("estilo", r.estilo);
         const totalMin = (r.prepMinutes || 0) + (r.cookMinutes || 0);
         const fav = isFavorite(r.id);
+        const bannerColor = metodo?.color || "#3b82f6";
 
         return `
           <article class="recipe-card" data-id="${r.id}">
-            <div class="card-top">
-              <span class="method-pill" style="--pill-color:${metodo?.color || "#3b82f6"}">
-                ${metodo?.label || r.metodo}
-              </span>
+            <div class="card-banner" style="--banner-color:${bannerColor}">
+              <div class="card-banner-left">
+                <span class="card-banner-emoji" aria-hidden="true">${categoria?.emoji || "🍽️"}</span>
+                <span class="card-banner-method">${metodo?.emoji || ""} ${metodo?.label || r.metodo}</span>
+              </div>
               <button type="button" class="card-fav-btn ${fav ? "is-fav" : ""}" data-fav-id="${r.id}" aria-label="${fav ? "Quitar de favoritos" : "Agregar a favoritos"}">
                 ${fav ? "♥" : "♡"}
               </button>
             </div>
-            <h3 class="card-title">${r.title}</h3>
-            <p class="card-desc">${r.description}</p>
-            <div class="card-tags">
-              ${momento ? `<span class="tag">${momento.shortLabel}</span>` : ""}
-              ${categoria ? `<span class="tag">${categoria.shortLabel}</span>` : ""}
-              ${estilo ? `<span class="tag">${estilo.shortLabel}</span>` : ""}
-            </div>
-            <div class="card-meta">
-              <span>⏱️ ${totalMin} min</span>
-              ${r.temperatureC ? `<span>🌡️ ${r.temperatureC} °C</span>` : ""}
-              <span>🍽️ ${r.servings} porc.</span>
-            </div>
-            <div class="card-footer">
-              <a href="#receta-${r.id}" class="card-view-link" data-view-id="${r.id}">Ver receta →</a>
+            <div class="card-body">
+              <h3 class="card-title">${r.title}</h3>
+              <p class="card-desc">${r.description}</p>
+              <div class="card-tags">
+                ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.shortLabel}</span>` : ""}
+                ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.shortLabel}</span>` : ""}
+                ${estilo ? `<span class="tag">${estilo.emoji || ""} ${estilo.shortLabel}</span>` : ""}
+              </div>
+              <div class="card-meta">
+                <span>⏱️ ${totalMin} min</span>
+                ${r.temperatureC ? `<span>🌡️ ${r.temperatureC} °C</span>` : ""}
+                <span>🍽️ ${r.servings} porc.</span>
+              </div>
+              <div class="card-footer">
+                <a href="#receta-${r.id}" class="card-view-link" data-view-id="${r.id}">Ver receta →</a>
+              </div>
             </div>
           </article>
         `;
@@ -318,6 +352,7 @@
     state.activeRecipe = recipe;
     state.currentServings = recipe.servings || 2;
     state.cameFromResultsModal = fromResults;
+    state.cookingStepIndex = null;
     if (fromResults) {
       els.resultsModal.hidden = true;
     }
@@ -329,6 +364,7 @@
   function closeRecipeModal() {
     els.modal.hidden = true;
     state.activeRecipe = null;
+    state.cookingStepIndex = null;
     if (els.resultsModal.hidden) {
       document.body.style.overflow = "";
     }
@@ -337,7 +373,45 @@
   function backToResultsModal() {
     els.modal.hidden = true;
     state.activeRecipe = null;
+    state.cookingStepIndex = null;
     openResultsModal();
+  }
+
+  function renderStepFocusView(r) {
+    const idx = state.cookingStepIndex;
+    const total = r.steps.length;
+    const step = r.steps[idx];
+    const progressPct = Math.round(((idx + 1) / total) * 100);
+    const isLast = idx === total - 1;
+
+    return `
+      <div class="step-focus-view">
+        <div class="step-focus-topbar">
+          <span class="step-focus-counter">Paso ${idx + 1} de ${total}</span>
+          <button type="button" id="exit-step-mode-btn" class="btn-exit-step-mode">Salir del modo paso a paso</button>
+        </div>
+        <div class="step-progress-track" aria-hidden="true">
+          <div class="step-progress-fill" style="width:${progressPct}%"></div>
+        </div>
+        <div class="step-focus-card">
+          <div class="step-focus-badge">Paso ${idx + 1}</div>
+          <p class="step-focus-text">${step.text}</p>
+          ${
+            step.timerMinutes
+              ? `<button type="button" class="btn-step-timer btn-step-timer-lg" data-minutes="${step.timerMinutes}" data-label="${r.title} · Paso ${idx + 1}">
+                  ⏱️ Iniciar timer (${step.timerMinutes} min)
+                </button>`
+              : ""
+          }
+        </div>
+        <div class="step-focus-nav">
+          <button type="button" id="step-prev-btn" class="btn-step-nav" ${idx === 0 ? "disabled" : ""}>← Anterior</button>
+          <button type="button" id="step-next-btn" class="btn-step-nav is-primary">
+            ${isLast ? "✅ Finalizar" : "Siguiente →"}
+          </button>
+        </div>
+      </div>
+    `;
   }
 
   function renderRecipeModalContent() {
@@ -350,6 +424,7 @@
     const estilo = getMenuItemById("estilo", r.estilo);
     const multiplier = state.currentServings / (r.servings || 1);
     const fav = isFavorite(r.id);
+    const isStepMode = state.cookingStepIndex !== null && r.steps.length > 0;
 
     els.modalBody.innerHTML = `
       ${
@@ -359,10 +434,10 @@
       }
       <div class="modal-header">
         <div class="modal-badges">
-          ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.label}</span>` : ""}
-          ${momento ? `<span class="tag">${momento.label}</span>` : ""}
-          ${categoria ? `<span class="tag">${categoria.label}</span>` : ""}
-          ${estilo ? `<span class="tag">${estilo.label}</span>` : ""}
+          ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${metodo.label}</span>` : ""}
+          ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.label}</span>` : ""}
+          ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.label}</span>` : ""}
+          ${estilo ? `<span class="tag">${estilo.emoji || ""} ${estilo.label}</span>` : ""}
         </div>
         <div class="modal-title-row">
           <h2 id="modal-title">${r.title}</h2>
@@ -379,6 +454,10 @@
         </div>
       </div>
 
+      ${
+        isStepMode
+          ? renderStepFocusView(r)
+          : `
       <div class="modal-columns">
         <section class="modal-ingredients">
           <div class="section-head">
@@ -408,7 +487,14 @@
         </section>
 
         <section class="modal-steps">
-          <h3>Preparación paso a paso</h3>
+          <div class="steps-head">
+            <h3>Preparación paso a paso</h3>
+            ${
+              r.steps.length > 0
+                ? `<button type="button" id="enter-step-mode-btn" class="btn-step-mode">👨‍🍳 Modo Paso a Paso Grande</button>`
+                : ""
+            }
+          </div>
           <ol class="steps-list">
             ${r.steps
               .map(
@@ -432,6 +518,8 @@
           </ol>
         </section>
       </div>
+      `
+      }
     `;
 
     const backBtn = document.getElementById("back-to-results-btn");
@@ -441,19 +529,48 @@
 
     document.getElementById("modal-fav-btn").addEventListener("click", () => toggleFavorite(r.id));
 
-    document.getElementById("servings-minus").addEventListener("click", () => {
-      if (state.currentServings > 1) {
-        state.currentServings -= 1;
+    if (isStepMode) {
+      document.getElementById("exit-step-mode-btn").addEventListener("click", () => {
+        state.cookingStepIndex = null;
         renderRecipeModalContent();
-      }
-    });
+      });
+      document.getElementById("step-prev-btn").addEventListener("click", () => {
+        if (state.cookingStepIndex > 0) {
+          state.cookingStepIndex -= 1;
+          renderRecipeModalContent();
+        }
+      });
+      document.getElementById("step-next-btn").addEventListener("click", () => {
+        if (state.cookingStepIndex < r.steps.length - 1) {
+          state.cookingStepIndex += 1;
+        } else {
+          state.cookingStepIndex = null;
+        }
+        renderRecipeModalContent();
+      });
+    } else {
+      document.getElementById("servings-minus").addEventListener("click", () => {
+        if (state.currentServings > 1) {
+          state.currentServings -= 1;
+          renderRecipeModalContent();
+        }
+      });
 
-    document.getElementById("servings-plus").addEventListener("click", () => {
-      if (state.currentServings < 24) {
-        state.currentServings += 1;
-        renderRecipeModalContent();
+      document.getElementById("servings-plus").addEventListener("click", () => {
+        if (state.currentServings < 24) {
+          state.currentServings += 1;
+          renderRecipeModalContent();
+        }
+      });
+
+      const enterStepBtn = document.getElementById("enter-step-mode-btn");
+      if (enterStepBtn) {
+        enterStepBtn.addEventListener("click", () => {
+          state.cookingStepIndex = 0;
+          renderRecipeModalContent();
+        });
       }
-    });
+    }
 
     els.modalBody.querySelectorAll(".btn-step-timer").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -463,12 +580,55 @@
     });
   }
 
+  function renderQuickSuggestions() {
+    if (!els.quickSuggestions) return;
+    const list = getFilteredRecipes();
+    const fastest = [...list]
+      .sort((a, b) => (a.prepMinutes + a.cookMinutes) - (b.prepMinutes + b.cookMinutes))
+      .slice(0, 2);
+
+    if (fastest.length === 0) {
+      els.quickSuggestions.innerHTML = "";
+      return;
+    }
+
+    els.quickSuggestions.innerHTML = fastest
+      .map((r) => {
+        const totalMin = (r.prepMinutes || 0) + (r.cookMinutes || 0);
+        const cat = getMenuItemById("categoria", r.categoria);
+        return `<button type="button" class="quick-pill" data-quick-id="${r.id}">${cat?.emoji || "⚡"} ${r.title} <span class="quick-pill-time">${totalMin}m</span></button>`;
+      })
+      .join("");
+
+    els.quickSuggestions.querySelectorAll("[data-quick-id]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const recipe = state.recipes.find((item) => item.id === btn.dataset.quickId);
+        if (recipe) openRecipeModal(recipe, false);
+      });
+    });
+  }
+
   function syncUI() {
     radialMenu.setSelectedPath(state.selectedPath);
     renderBreadcrumb();
+    renderQuickSuggestions();
   }
 
   function bindGlobalEvents() {
+    els.themeButtons.forEach((btn) => {
+      btn.addEventListener("click", () => applyTheme(btn.dataset.themeBtn));
+    });
+
+    if (els.surpriseBtn) {
+      els.surpriseBtn.addEventListener("click", () => {
+        const filtered = getFilteredRecipes();
+        const pool = filtered.length > 0 ? filtered : state.recipes;
+        if (pool.length === 0) return;
+        const randomRecipe = pool[Math.floor(Math.random() * pool.length)];
+        openRecipeModal(randomRecipe, false);
+      });
+    }
+
     els.searchInput.addEventListener("input", (e) => {
       state.searchQuery = e.target.value;
       els.searchSubmitBtn.hidden = !state.searchQuery.trim();
@@ -534,6 +694,7 @@
   }
 
   async function init() {
+    applyTheme(state.theme);
     updateFavBadge();
     bindGlobalEvents();
 
