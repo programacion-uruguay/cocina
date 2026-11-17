@@ -19,7 +19,14 @@
     activeRecipe: null,
     currentServings: 2,
     cameFromResultsModal: false,
-    cookingStepIndex: null
+    cookingStepIndex: null,
+    showSupermarketView: false,
+    marketSortBy: "price",
+    selectedBarrio: "cordon",
+    userGpsCoords: null,
+    gpsStatus: "",
+    selectedChainId: null,
+    checkedIngredients: {}
   };
 
   const els = {
@@ -353,6 +360,9 @@
     state.currentServings = recipe.servings || 2;
     state.cameFromResultsModal = fromResults;
     state.cookingStepIndex = null;
+    state.showSupermarketView = false;
+    state.selectedChainId = null;
+    state.checkedIngredients = {};
     if (fromResults) {
       els.resultsModal.hidden = true;
     }
@@ -365,6 +375,9 @@
     els.modal.hidden = true;
     state.activeRecipe = null;
     state.cookingStepIndex = null;
+    state.showSupermarketView = false;
+    state.selectedChainId = null;
+    state.checkedIngredients = {};
     if (els.resultsModal.hidden) {
       document.body.style.overflow = "";
     }
@@ -374,7 +387,156 @@
     els.modal.hidden = true;
     state.activeRecipe = null;
     state.cookingStepIndex = null;
+    state.showSupermarketView = false;
+    state.selectedChainId = null;
+    state.checkedIngredients = {};
     openResultsModal();
+  }
+
+  function getActiveMontevideoCoords() {
+    if (state.userGpsCoords) return state.userGpsCoords;
+    const barrio = MDEO_BARRIOS.find((b) => b.id === state.selectedBarrio) || MDEO_BARRIOS[0];
+    return { lat: barrio.lat, lng: barrio.lng };
+  }
+
+  function requestMontevideoGps() {
+    if (!navigator.geolocation) {
+      state.gpsStatus = "Tu navegador no soporta GPS; usá el selector de barrio.";
+      renderRecipeModalContent();
+      return;
+    }
+    state.gpsStatus = "Obteniendo ubicación...";
+    renderRecipeModalContent();
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        state.userGpsCoords = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        state.gpsStatus = "GPS activo en tu ubicación actual";
+        renderRecipeModalContent();
+      },
+      () => {
+        state.gpsStatus = "No se pudo obtener el GPS; elegí tu barrio en Montevideo.";
+        renderRecipeModalContent();
+      },
+      { enableHighAccuracy: false, timeout: 8000 }
+    );
+  }
+
+  function renderSupermarketComparisonView(r, multiplier) {
+    const coords = getActiveMontevideoCoords();
+    const comparisons = compareRecipeInMontevideo(
+      r,
+      multiplier,
+      coords,
+      state.marketSortBy,
+      state.checkedIngredients
+    );
+
+    const activeChain =
+      comparisons.find((c) => c.chainId === state.selectedChainId) || comparisons[0];
+    state.selectedChainId = activeChain.chainId;
+
+    return `
+      <div class="market-view">
+        <div class="market-controls">
+          <div class="market-location-bar">
+            <label for="market-barrio-select" class="market-label">📍 Barrio en Montevideo:</label>
+            <select id="market-barrio-select" class="market-select">
+              ${MDEO_BARRIOS.map(
+                (b) => `<option value="${b.id}" ${!state.userGpsCoords && state.selectedBarrio === b.id ? "selected" : ""}>${b.label}</option>`
+              ).join("")}
+            </select>
+            <button type="button" id="market-gps-btn" class="btn-gps ${state.userGpsCoords ? "is-active" : ""}">
+              ${state.userGpsCoords ? "📡 GPS activo" : "📍 Usar mi ubicación GPS"}
+            </button>
+            ${state.gpsStatus ? `<span class="gps-status">${state.gpsStatus}</span>` : ""}
+          </div>
+
+          <div class="market-sort-row">
+            <div class="market-sort-pills" role="group" aria-label="Criterio de comparación">
+              <button type="button" class="sort-pill ${state.marketSortBy === "price" ? "is-active" : ""}" data-market-sort="price">💰 Mejor precio ($ UYU)</button>
+              <button type="button" class="sort-pill ${state.marketSortBy === "distance" ? "is-active" : ""}" data-market-sort="distance">📍 Más cerca mío</button>
+              <button type="button" class="sort-pill ${state.marketSortBy === "smart" ? "is-active" : ""}" data-market-sort="smart">⚖️ Precio + Cercanía</button>
+            </div>
+            <div class="servings-calc" aria-label="Calculadora de porciones">
+              <button type="button" id="servings-minus" class="calc-btn" aria-label="Menos porciones">−</button>
+              <span id="servings-value">${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"}</span>
+              <button type="button" id="servings-plus" class="calc-btn" aria-label="Más porciones">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-chains-grid">
+          ${comparisons
+            .map((c, idx) => {
+              const isSelected = c.chainId === activeChain.chainId;
+              let badgeText = "";
+              if (c.isCheapest && state.marketSortBy === "price") badgeText = "🏆 Más barato";
+              else if (c.isNearest && state.marketSortBy === "distance") badgeText = "📍 Más cerca";
+              else if (c.isSmartest && state.marketSortBy === "smart") badgeText = "⭐ Mejor balance";
+              else if (c.isCheapest) badgeText = "💰 Mejor precio";
+              else if (c.isNearest) badgeText = "📍 Más cercano";
+
+              return `
+                <article class="market-chain-card ${isSelected ? "is-selected" : ""}" data-chain-id="${c.chainId}" style="--chain-color:${c.color}" tabindex="0" role="button">
+                  <div class="chain-card-top">
+                    <span class="chain-rank">#${idx + 1}</span>
+                    ${badgeText ? `<span class="chain-badge">${badgeText}</span>` : ""}
+                  </div>
+                  <h4 class="chain-name">${c.chainName}</h4>
+                  <div class="chain-price">$ ${c.totalUYU} <small>UYU</small></div>
+                  <div class="chain-branch">
+                    <strong>${c.closestBranch.name}</strong>
+                    <span>${c.closestBranch.address}</span>
+                    <div class="chain-dist-row">
+                      <span>📏 ${c.closestBranch.distanceKm} km (~${c.closestBranch.blocks} cuadras)</span>
+                      <a href="${c.closestBranch.mapsUrl}" target="_blank" rel="noopener noreferrer" class="chain-map-link" data-stop-card="true">Mapa ↗</a>
+                    </div>
+                  </div>
+                </article>
+              `;
+            })
+            .join("")}
+        </div>
+
+        <div class="market-breakdown">
+          <div class="market-breakdown-head">
+            <div>
+              <h4>Desglose de ingredientes en <span style="color:${activeChain.color}">${activeChain.chainName}</span></h4>
+              <p class="market-note">Precios estimados de referencia en Montevideo ($ UYU). Marcá «Ya tengo» para descontar lo que tenés en casa o abrí el producto directo en la góndola online.</p>
+            </div>
+            <strong class="breakdown-total">A comprar: $ ${activeChain.totalUYU} UYU</strong>
+          </div>
+
+          <ul class="market-items-list">
+            ${activeChain.items
+              .map((item) => {
+                const qty = formatAmount(item.amount, multiplier);
+                const unit = item.unit ? ` ${item.unit}` : "";
+                return `
+                  <li class="market-item-row ${item.checked ? "is-owned" : ""}">
+                    <label class="market-item-check">
+                      <input type="checkbox" class="market-own-checkbox" data-ing-idx="${item.index}" ${item.checked ? "checked" : ""} />
+                      <span>
+                        <strong>${qty}${unit}</strong> ${item.item}
+                        <small class="market-search-tag">(${item.searchTerm})</small>
+                      </span>
+                    </label>
+                    <div class="market-item-actions">
+                      <span class="market-item-price">
+                        ${item.checked ? "<s>$ " + item.estimatedFullPriceUYU + "</s> $ 0" : "$ " + item.priceUYU}
+                      </span>
+                      <a href="${item.gondolaUrl}" target="_blank" rel="noopener noreferrer" class="btn-gondola">
+                        Ver en góndola ↗
+                      </a>
+                    </div>
+                  </li>
+                `;
+              })
+              .join("")}
+          </ul>
+        </div>
+      </div>
+    `;
   }
 
   function renderStepFocusView(r) {
@@ -425,6 +587,7 @@
     const multiplier = state.currentServings / (r.servings || 1);
     const fav = isFavorite(r.id);
     const isStepMode = state.cookingStepIndex !== null && r.steps.length > 0;
+    const isMarketView = state.showSupermarketView;
 
     els.modalBody.innerHTML = `
       ${
@@ -441,9 +604,14 @@
         </div>
         <div class="modal-title-row">
           <h2 id="modal-title">${r.title}</h2>
-          <button type="button" id="modal-fav-btn" class="btn-fav-modal ${fav ? "is-fav" : ""}">
-            ${fav ? "♥ En favoritos" : "♡ Guardar favorito"}
-          </button>
+          <div class="modal-title-actions">
+            <button type="button" id="toggle-market-btn" class="btn-market-toggle ${isMarketView ? "is-active" : ""}">
+              ${isMarketView ? "📖 Volver a la receta" : "🛒 Comparar en Supermercados (Mdeo)"}
+            </button>
+            <button type="button" id="modal-fav-btn" class="btn-fav-modal ${fav ? "is-fav" : ""}">
+              ${fav ? "♥ En favoritos" : "♡ Guardar favorito"}
+            </button>
+          </div>
         </div>
         <p class="modal-desc">${r.description}</p>
         <div class="modal-stats">
@@ -455,7 +623,9 @@
       </div>
 
       ${
-        isStepMode
+        isMarketView
+          ? renderSupermarketComparisonView(r, multiplier)
+          : isStepMode
           ? renderStepFocusView(r)
           : `
       <div class="modal-columns">
@@ -473,10 +643,11 @@
               .map((ing, idx) => {
                 const qty = formatAmount(ing.amount, multiplier);
                 const unit = ing.unit ? ` ${ing.unit}` : "";
+                const checked = Boolean(state.checkedIngredients[idx]);
                 return `
                   <li>
                     <label class="check-item">
-                      <input type="checkbox" id="ing-${idx}" />
+                      <input type="checkbox" class="recipe-ing-checkbox" data-ing-idx="${idx}" id="ing-${idx}" ${checked ? "checked" : ""} />
                       <span><strong>${qty}${unit}</strong> ${ing.item}</span>
                     </label>
                   </li>
@@ -527,9 +698,53 @@
       backBtn.addEventListener("click", backToResultsModal);
     }
 
+    document.getElementById("toggle-market-btn").addEventListener("click", () => {
+      state.showSupermarketView = !state.showSupermarketView;
+      if (state.showSupermarketView) state.cookingStepIndex = null;
+      renderRecipeModalContent();
+    });
+
     document.getElementById("modal-fav-btn").addEventListener("click", () => toggleFavorite(r.id));
 
-    if (isStepMode) {
+    if (isMarketView) {
+      document.getElementById("market-barrio-select").addEventListener("change", (e) => {
+        state.selectedBarrio = e.target.value;
+        state.userGpsCoords = null;
+        state.gpsStatus = "";
+        renderRecipeModalContent();
+      });
+
+      document.getElementById("market-gps-btn").addEventListener("click", requestMontevideoGps);
+
+      els.modalBody.querySelectorAll("[data-market-sort]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          state.marketSortBy = btn.dataset.marketSort;
+          renderRecipeModalContent();
+        });
+      });
+
+      els.modalBody.querySelectorAll(".market-chain-card").forEach((card) => {
+        const selectChain = (e) => {
+          if (e.target.closest("[data-stop-card]")) return;
+          state.selectedChainId = card.dataset.chainId;
+          renderRecipeModalContent();
+        };
+        card.addEventListener("click", selectChain);
+        card.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            selectChain(e);
+          }
+        });
+      });
+
+      els.modalBody.querySelectorAll(".market-own-checkbox").forEach((cb) => {
+        cb.addEventListener("change", (e) => {
+          state.checkedIngredients[e.target.dataset.ingIdx] = e.target.checked;
+          renderRecipeModalContent();
+        });
+      });
+    } else if (isStepMode) {
       document.getElementById("exit-step-mode-btn").addEventListener("click", () => {
         state.cookingStepIndex = null;
         renderRecipeModalContent();
@@ -549,18 +764,10 @@
         renderRecipeModalContent();
       });
     } else {
-      document.getElementById("servings-minus").addEventListener("click", () => {
-        if (state.currentServings > 1) {
-          state.currentServings -= 1;
-          renderRecipeModalContent();
-        }
-      });
-
-      document.getElementById("servings-plus").addEventListener("click", () => {
-        if (state.currentServings < 24) {
-          state.currentServings += 1;
-          renderRecipeModalContent();
-        }
+      els.modalBody.querySelectorAll(".recipe-ing-checkbox").forEach((cb) => {
+        cb.addEventListener("change", (e) => {
+          state.checkedIngredients[e.target.dataset.ingIdx] = e.target.checked;
+        });
       });
 
       const enterStepBtn = document.getElementById("enter-step-mode-btn");
@@ -570,6 +777,26 @@
           renderRecipeModalContent();
         });
       }
+    }
+
+    const minusBtn = document.getElementById("servings-minus");
+    if (minusBtn) {
+      minusBtn.addEventListener("click", () => {
+        if (state.currentServings > 1) {
+          state.currentServings -= 1;
+          renderRecipeModalContent();
+        }
+      });
+    }
+
+    const plusBtn = document.getElementById("servings-plus");
+    if (plusBtn) {
+      plusBtn.addEventListener("click", () => {
+        if (state.currentServings < 24) {
+          state.currentServings += 1;
+          renderRecipeModalContent();
+        }
+      });
     }
 
     els.modalBody.querySelectorAll(".btn-step-timer").forEach((btn) => {

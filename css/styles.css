@@ -772,7 +772,7 @@ body {
   position: relative;
   background: var(--surface);
   width: 100%;
-  max-width: 860px;
+  max-width: 940px;
   max-height: 90vh;
   overflow-y: auto;
   border-radius: 20px;
@@ -1229,4 +1229,345 @@ body {
 
 .timer-btn:hover {
   background: rgba(255, 255, 255, 0.28);
+}
+
+/* Comparador de Supermercados en Montevideo */
+.modal-title-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-market-toggle {
+  border: 1px solid var(--accent);
+  background: rgba(59, 130, 246, 0.12);
+  color: var(--accent-dark);
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-market-toggle:hover,
+.btn-market-toggle.is-active {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.market-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.market-controls {
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 0.95rem 1.05rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.market-location-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.market-label {
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.market-select {
+  padding: 0.4rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.btn-gps {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-gps:hover {
+  background: var(--hover-bg);
+}
+
+.btn-gps.is-active {
+  border-color: #16a34a;
+  background: rgba(22, 163, 74, 0.15);
+  color: #16a34a;
+}
+
+.gps-status {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.market-sort-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.market-sort-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.sort-pill {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.sort-pill:hover {
+  background: var(--hover-bg);
+}
+
+.sort-pill.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.market-chains-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 0.75rem;
+}
+
+.market-chain-card {
+  background: var(--surface-muted);
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: transform 0.14s ease, border-color 0.14s ease, box-shadow 0.14s ease;
+}
+
+.market-chain-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--chain-color, var(--accent));
+}
+
+.market-chain-card.is-selected {
+  background: var(--surface);
+  border-color: var(--chain-color, var(--accent));
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.chain-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+}
+
+.chain-rank {
+  font-size: 0.76rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.chain-badge {
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.14rem 0.48rem;
+  border-radius: 999px;
+  background: var(--chain-color, var(--accent));
+  color: #ffffff;
+}
+
+.chain-name {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--chain-color, var(--text));
+}
+
+.chain-price {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--text);
+}
+
+.chain-price small {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.chain-branch {
+  margin-top: auto;
+  padding-top: 0.45rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.chain-branch strong {
+  color: var(--text);
+  font-size: 0.78rem;
+}
+
+.chain-dist-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+  margin-top: 0.15rem;
+}
+
+.chain-map-link {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.chain-map-link:hover {
+  text-decoration: underline;
+}
+
+.market-breakdown {
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+}
+
+.market-breakdown-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+}
+
+.market-breakdown-head h4 {
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.market-note {
+  margin: 0.25rem 0 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.breakdown-total {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.market-items-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.market-item-row {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.55rem 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.market-item-row.is-owned {
+  opacity: 0.65;
+}
+
+.market-item-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.market-search-tag {
+  color: var(--text-muted);
+  font-size: 0.76rem;
+}
+
+.market-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-left: auto;
+}
+
+.market-item-price {
+  font-weight: 800;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+
+.market-item-price s {
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.btn-gondola {
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent-dark);
+  padding: 0.28rem 0.65rem;
+  border-radius: 8px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-gondola:hover {
+  background: var(--accent);
+  color: #ffffff;
 }
