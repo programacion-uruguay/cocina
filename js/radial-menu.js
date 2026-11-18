@@ -15,9 +15,9 @@ class RadialMenu {
 
     this.ringRadii = [
       { rIn: 80, rOut: 172, fullCircle: true, spanDeg: 360, badgeR: 18.5, fontSize: 13.5, baseFill: "#24272b", selectedFill: "#3b4046" },
-      { rIn: 178, rOut: 270, fullCircle: false, spanDeg: 225, badgeR: 17.5, fontSize: 13, baseFill: "#2c3035", selectedFill: "#434950" },
-      { rIn: 276, rOut: 368, fullCircle: false, spanDeg: 234, badgeR: 17.5, fontSize: 13, baseFill: "#343940", selectedFill: "#4b525a" },
-      { rIn: 374, rOut: 466, fullCircle: false, spanDeg: 176, badgeR: 17.5, fontSize: 13, baseFill: "#3c424a", selectedFill: "#535b64" }
+      { rIn: 178, rOut: 270, fullCircle: false, spanDeg: 220, badgeR: 17.5, fontSize: 13, baseFill: "#2c3035", selectedFill: "#434950" },
+      { rIn: 276, rOut: 368, fullCircle: false, spanDeg: 220, badgeR: 17.5, fontSize: 13, baseFill: "#343940", selectedFill: "#4b525a" },
+      { rIn: 374, rOut: 466, fullCircle: false, spanDeg: 160, badgeR: 17.5, fontSize: 13, baseFill: "#3c424a", selectedFill: "#535b64" }
     ];
 
     this.svgNS = "http://www.w3.org/2000/svg";

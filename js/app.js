@@ -210,7 +210,7 @@
 
     if (keys.length === 0) {
       els.breadcrumb.innerHTML =
-        '<span class="crumb-root">Inicio · Elegí un método o tocá el centro para ver todas</span>';
+        '<span class="crumb-root">Inicio · Elegí un momento del día o tocá el centro para ver todas</span>';
       return;
     }
 
