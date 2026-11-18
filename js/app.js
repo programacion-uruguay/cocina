@@ -161,6 +161,14 @@
     return getFilteredRecipes(testPath).length;
   }
 
+  function openRecipeInNewTab(recipeId) {
+    const url = `./receta.html?id=${encodeURIComponent(recipeId)}`;
+    const win = window.open(url, "_blank", "noopener");
+    if (!win) {
+      window.location.href = url;
+    }
+  }
+
   function handleWheelSelect(levelKey, itemId) {
     const levelIndex = MENU_LEVELS.findIndex((l) => l.key === levelKey);
     const alreadySelected = state.selectedPath[levelKey] === itemId;
@@ -179,12 +187,12 @@
     state.resultsPage = 0;
     syncUI();
 
-    // Si eligió una opción del último nivel (Nivel 4: estilo), abrir directo si queda 1 receta o mostrar grilla paginada
+    // Si eligió una opción del último nivel (Nivel 4: estilo), abrir directo en nueva pestaña si queda 1 receta o mostrar grilla paginada
     const isLastLevel = levelIndex === MENU_LEVELS.length - 1;
     if (isLastLevel && !alreadySelected) {
       const filtered = getFilteredRecipes();
       if (filtered.length === 1) {
-        openRecipeModal(filtered[0], false);
+        openRecipeInNewTab(filtered[0].id);
       } else {
         openResultsModal();
       }
@@ -198,7 +206,7 @@
       Boolean(state.searchQuery.trim()) ||
       state.onlyFavorites;
     if (hasFilters && filtered.length === 1) {
-      openRecipeModal(filtered[0], false);
+      openRecipeInNewTab(filtered[0].id);
       return;
     }
     openResultsModal();
@@ -394,7 +402,7 @@
                   ${r.temperatureC ? `<span>🌡️ ${r.temperatureC}°</span>` : ""}
                   <span>🍽️ ${r.servings}p</span>
                 </div>
-                <a href="#receta-${r.id}" class="card-view-link" data-view-id="${r.id}">Ver receta →</a>
+                <a href="./receta.html?id=${encodeURIComponent(r.id)}" target="_blank" rel="noopener" class="card-view-link" data-view-id="${r.id}">Abrir receta ↗</a>
               </div>
             </div>
           </article>
@@ -439,10 +447,9 @@
 
     els.resultsModalGrid.querySelectorAll(".recipe-card").forEach((card) => {
       card.addEventListener("click", (e) => {
-        if (e.target.closest("[data-fav-id]")) return;
+        if (e.target.closest("[data-fav-id]") || e.target.closest("a.card-view-link")) return;
         e.preventDefault();
-        const recipe = state.recipes.find((item) => item.id === card.dataset.id);
-        if (recipe) openRecipeModal(recipe, true);
+        openRecipeInNewTab(card.dataset.id);
       });
     });
 
@@ -970,8 +977,7 @@
 
     els.quickSuggestions.querySelectorAll("[data-quick-id]").forEach((btn) => {
       btn.addEventListener("click", () => {
-        const recipe = state.recipes.find((item) => item.id === btn.dataset.quickId);
-        if (recipe) openRecipeModal(recipe, false);
+        openRecipeInNewTab(btn.dataset.quickId);
       });
     });
   }
@@ -1003,9 +1009,19 @@
         const pool = filtered.length > 0 ? filtered : state.recipes;
         if (pool.length === 0) return;
         const randomRecipe = pool[Math.floor(Math.random() * pool.length)];
-        openRecipeModal(randomRecipe, false);
+        openRecipeInNewTab(randomRecipe.id);
       });
     }
+
+    window.addEventListener("storage", (e) => {
+      if (e.key === FAVORITES_KEY) {
+        state.favorites = loadFavorites();
+        updateFavBadge();
+        if (!els.resultsModal.hidden) renderResultsModal();
+      } else if (e.key === THEME_KEY && e.newValue) {
+        applyTheme(e.newValue);
+      }
+    });
 
     els.searchInput.addEventListener("input", (e) => {
       state.searchQuery = e.target.value;
