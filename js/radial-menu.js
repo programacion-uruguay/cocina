@@ -14,10 +14,10 @@ class RadialMenu {
     this.selectedPath = {}; // { metodo: 'freidora', momento: 'almuerzo', ... }
 
     this.ringRadii = [
-      { rIn: 72, rOut: 148, fullCircle: true, spanDeg: 360, badgeR: 13.5, fontSize: 10, baseFill: "#24272b", selectedFill: "#3b4046" },
-      { rIn: 154, rOut: 228, fullCircle: false, spanDeg: 205, badgeR: 13, fontSize: 9.5, baseFill: "#2c3035", selectedFill: "#434950" },
-      { rIn: 234, rOut: 308, fullCircle: false, spanDeg: 216, badgeR: 13, fontSize: 9.5, baseFill: "#343940", selectedFill: "#4b525a" },
-      { rIn: 314, rOut: 386, fullCircle: false, spanDeg: 160, badgeR: 13, fontSize: 9.5, baseFill: "#3c424a", selectedFill: "#535b64" }
+      { rIn: 80, rOut: 172, fullCircle: true, spanDeg: 360, badgeR: 18.5, fontSize: 13.5, baseFill: "#24272b", selectedFill: "#3b4046" },
+      { rIn: 178, rOut: 270, fullCircle: false, spanDeg: 225, badgeR: 17.5, fontSize: 13, baseFill: "#2c3035", selectedFill: "#434950" },
+      { rIn: 276, rOut: 368, fullCircle: false, spanDeg: 234, badgeR: 17.5, fontSize: 13, baseFill: "#343940", selectedFill: "#4b525a" },
+      { rIn: 374, rOut: 466, fullCircle: false, spanDeg: 176, badgeR: 17.5, fontSize: 13, baseFill: "#3c424a", selectedFill: "#535b64" }
     ];
 
     this.svgNS = "http://www.w3.org/2000/svg";
@@ -64,19 +64,14 @@ class RadialMenu {
   render() {
     this.container.innerHTML = "";
 
-    // Contamos cuántos anillos están abiertos para ajustar el viewBox dinámicamente
-    let openRings = 1;
-    for (let i = 1; i < this.levels.length; i++) {
-      if (this.selectedPath[this.levels[i - 1].key]) {
-        openRings = i + 1;
-      } else {
-        break;
-      }
-    }
-    const maxR = this.ringRadii[openRings - 1].rOut + 16;
+    // Límites iniciales basados en el anillo central completo (Anillo 0)
+    let minX = -this.ringRadii[0].rOut;
+    let maxX = this.ringRadii[0].rOut;
+    let minY = -this.ringRadii[0].rOut;
+    let maxY = this.ringRadii[0].rOut;
 
     const svg = this.createEl("svg", {
-      viewBox: `${-maxR} ${-maxR} ${maxR * 2} ${maxR * 2}`,
+      viewBox: `${minX - 16} ${minY - 16} ${(maxX - minX) + 32} ${(maxY - minY) + 32}`,
       class: "radial-svg",
       role: "navigation",
       "aria-label": "Menú circular de categorías de recetas"
@@ -153,6 +148,24 @@ class RadialMenu {
       const selectedId = this.selectedPath[level.key];
       let nextParentColor = null;
 
+      // Actualizamos la caja delimitadora real del SVG según los sectores desplegados
+      if (levelIdx > 0) {
+        const endOffset = startOffset + cfg.spanDeg;
+        const sampleR = cfg.rOut + 6;
+        for (let a = startOffset; a < endOffset; a += 2) {
+          const pt = this.polarToCartesian(0, 0, sampleR, a);
+          if (pt.x < minX) minX = pt.x;
+          if (pt.x > maxX) maxX = pt.x;
+          if (pt.y < minY) minY = pt.y;
+          if (pt.y > maxY) maxY = pt.y;
+        }
+        const ptEnd = this.polarToCartesian(0, 0, sampleR, endOffset);
+        if (ptEnd.x < minX) minX = ptEnd.x;
+        if (ptEnd.x > maxX) maxX = ptEnd.x;
+        if (ptEnd.y < minY) minY = ptEnd.y;
+        if (ptEnd.y > maxY) maxY = ptEnd.y;
+      }
+
       items.forEach((item, idx) => {
         const startAngle = startOffset + idx * stepDeg;
         const endAngle = startAngle + stepDeg;
@@ -205,7 +218,7 @@ class RadialMenu {
         // Posición del contenido (badge arriba + texto abajo en coordenadas de pantalla)
         const rMid = (cfg.rIn + cfg.rOut) / 2;
         const sectorCenter = this.polarToCartesian(0, 0, rMid, midAngle);
-        const badgePos = { x: sectorCenter.x, y: sectorCenter.y - 9 };
+        const badgePos = { x: sectorCenter.x, y: sectorCenter.y - 12 };
 
         // Círculo de color del icono
         const badgeCircle = this.createEl("circle", {
@@ -236,7 +249,7 @@ class RadialMenu {
         sectorGroup.appendChild(iconSvg);
 
         // Etiqueta debajo del badge
-        const labelPos = { x: sectorCenter.x, y: sectorCenter.y + 15 };
+        const labelPos = { x: sectorCenter.x, y: sectorCenter.y + 19 };
         const text = this.createEl("text", {
           x: labelPos.x.toFixed(2),
           y: labelPos.y.toFixed(2),
@@ -252,15 +265,15 @@ class RadialMenu {
 
         // Contador discreto si hay recetas
         if (recipeCount !== null && recipeCount > 0) {
-          const countPos = this.polarToCartesian(0, 0, cfg.rOut - 11, midAngle + stepDeg * 0.28);
+          const countPos = this.polarToCartesian(0, 0, cfg.rOut - 14, midAngle + stepDeg * 0.3);
           const countText = this.createEl("text", {
             x: countPos.x.toFixed(2),
             y: countPos.y.toFixed(2),
             "text-anchor": "middle",
             "dominant-baseline": "central",
-            fill: "rgba(255,255,255,0.65)",
-            "font-size": "8.5",
-            "font-weight": "600",
+            fill: "rgba(255,255,255,0.68)",
+            "font-size": "11",
+            "font-weight": "700",
             class: "sector-count"
           });
           countText.textContent = recipeCount;
@@ -269,7 +282,7 @@ class RadialMenu {
 
         // Muesca/flecha conectora triangular en el borde exterior del sector seleccionado
         if (isSelected && levelIdx < this.levels.length - 1) {
-          const tip = this.polarToCartesian(0, 0, cfg.rOut + 7, midAngle);
+          const tip = this.polarToCartesian(0, 0, cfg.rOut + 8, midAngle);
           const base1 = this.polarToCartesian(0, 0, cfg.rOut - 2, midAngle - 4.5);
           const base2 = this.polarToCartesian(0, 0, cfg.rOut - 2, midAngle + 4.5);
           const notch = this.createEl("polygon", {
@@ -326,7 +339,7 @@ class RadialMenu {
     hubCircle = this.createEl("circle", {
       cx: "0",
       cy: "0",
-      r: "66",
+      r: "74",
       fill: "#ffffff",
       stroke: "#e5e7eb",
       "stroke-width": "2",
@@ -335,10 +348,10 @@ class RadialMenu {
     hubGroup.appendChild(hubCircle);
 
     hubIcon = this.createEl("svg", {
-      x: "-13",
-      y: "-28",
-      width: "26",
-      height: "26",
+      x: "-16",
+      y: "-34",
+      width: "32",
+      height: "32",
       viewBox: "0 0 24 24",
       fill: "none",
       stroke: "#2563eb",
@@ -351,11 +364,11 @@ class RadialMenu {
 
     hubTitle = this.createEl("text", {
       x: "0",
-      y: "11",
+      y: "12",
       "text-anchor": "middle",
       "dominant-baseline": "central",
       fill: "#111827",
-      "font-size": "11.5",
+      "font-size": "14.5",
       "font-weight": "800"
     });
     hubTitle.textContent = "Ver recetas";
@@ -364,11 +377,11 @@ class RadialMenu {
     if (totalCount !== null) {
       hubSub = this.createEl("text", {
         x: "0",
-        y: "28",
+        y: "33",
         "text-anchor": "middle",
         "dominant-baseline": "central",
         fill: "#2563eb",
-        "font-size": "10",
+        "font-size": "12",
         "font-weight": "700"
       });
       hubSub.textContent = `${totalCount} ${totalCount === 1 ? "receta" : "recetas"}`;
@@ -382,6 +395,14 @@ class RadialMenu {
         this.onCenterClick();
       }
     });
+
+    // Encuadre inteligente recortando el espacio vacío del SVG
+    const pad = 16;
+    const vbX = Math.floor(minX - pad);
+    const vbY = Math.floor(minY - pad);
+    const vbW = Math.ceil(maxX - minX + pad * 2);
+    const vbH = Math.ceil(maxY - minY + pad * 2);
+    svg.setAttribute("viewBox", `${vbX} ${vbY} ${vbW} ${vbH}`);
 
     svg.appendChild(hubGroup);
     this.container.appendChild(svg);
