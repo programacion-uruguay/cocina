@@ -8,6 +8,7 @@
 (function () {
   const FAVORITES_KEY = "cocina_radial_favorites_v1";
   const THEME_KEY = "cocina_radial_theme_v1";
+  const ACTIVE_FILTER_KEY = "cocina_radial_active_filter_v1";
 
   const state = {
     recipes: [],
@@ -161,8 +162,37 @@
     return getFilteredRecipes(testPath).length;
   }
 
+  function saveActiveFilter() {
+    try {
+      localStorage.setItem(
+        ACTIVE_FILTER_KEY,
+        JSON.stringify({
+          selectedPath: state.selectedPath,
+          searchQuery: state.searchQuery,
+          onlyFavorites: state.onlyFavorites
+        })
+      );
+    } catch {
+      // Ignorar errores de almacenamiento privado
+    }
+  }
+
+  function buildRecipeUrl(recipeId) {
+    saveActiveFilter();
+    const params = new URLSearchParams();
+    params.set("id", recipeId);
+    MENU_LEVELS.forEach((l) => {
+      const val = state.selectedPath[l.key];
+      if (val) params.set(l.key, val);
+    });
+    const q = state.searchQuery.trim();
+    if (q) params.set("q", q);
+    if (state.onlyFavorites) params.set("fav", "1");
+    return `./receta.html?${params.toString()}`;
+  }
+
   function openRecipeInNewTab(recipeId) {
-    const url = `./receta.html?id=${encodeURIComponent(recipeId)}`;
+    const url = buildRecipeUrl(recipeId);
     const win = window.open(url, "_blank", "noopener");
     if (!win) {
       window.location.href = url;
@@ -402,7 +432,7 @@
                   ${r.temperatureC ? `<span>🌡️ ${r.temperatureC}°</span>` : ""}
                   <span>🍽️ ${r.servings}p</span>
                 </div>
-                <a href="./receta.html?id=${encodeURIComponent(r.id)}" target="_blank" rel="noopener" class="card-view-link" data-view-id="${r.id}">Abrir receta ↗</a>
+                <a href="${buildRecipeUrl(r.id)}" target="_blank" rel="noopener" class="card-view-link" data-view-id="${r.id}">Abrir receta ↗</a>
               </div>
             </div>
           </article>
@@ -987,6 +1017,7 @@
     renderBreadcrumb();
     renderLegend();
     renderQuickSuggestions();
+    saveActiveFilter();
   }
 
   function bindGlobalEvents() {

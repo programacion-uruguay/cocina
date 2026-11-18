@@ -9,10 +9,12 @@
   const THEME_KEY = "cocina_radial_theme_v1";
   const DIET_PLAN_KEY = "cocina_radial_diet_plan_v1";
   const CUSTOM_MEDIA_KEY = "cocina_radial_custom_media_v1";
+  const ACTIVE_FILTER_KEY = "cocina_radial_active_filter_v1";
 
   const state = {
     recipes: [],
     activeRecipe: null,
+    activeFilter: null,
     theme: loadStorage(THEME_KEY, "warm", (v) => ["light", "warm", "dark"].includes(v)),
     favorites: loadJsonStorage(FAVORITES_KEY, []),
     dietPlan: loadStorage(DIET_PLAN_KEY, "balanced", (v) => Boolean(DIET_PLANS[v])),
@@ -141,7 +143,86 @@
       state.favorites.push(id);
     }
     saveJsonStorage(FAVORITES_KEY, state.favorites);
+    populateQuickSelect();
     syncHeaderState();
+  }
+
+  function hasUrlFilterParams() {
+    const params = new URLSearchParams(window.location.search);
+    return (
+      MENU_LEVELS.some((l) => Boolean(params.get(l.key))) ||
+      Boolean(params.get("q")) ||
+      params.get("fav") === "1"
+    );
+  }
+
+  function getActiveFilterContext() {
+    const params = new URLSearchParams(window.location.search);
+    if (hasUrlFilterParams()) {
+      const selectedPath = {};
+      MENU_LEVELS.forEach((l) => {
+        const val = params.get(l.key);
+        if (val) selectedPath[l.key] = val;
+      });
+      return {
+        selectedPath,
+        searchQuery: params.get("q") || "",
+        onlyFavorites: params.get("fav") === "1"
+      };
+    }
+
+    const stored = loadJsonStorage(ACTIVE_FILTER_KEY, null);
+    if (stored && typeof stored === "object") {
+      return {
+        selectedPath: stored.selectedPath || {},
+        searchQuery: stored.searchQuery || "",
+        onlyFavorites: Boolean(stored.onlyFavorites)
+      };
+    }
+
+    return {
+      selectedPath: {},
+      searchQuery: "",
+      onlyFavorites: false
+    };
+  }
+
+  function getFilteredRecipesForSelect() {
+    const ctx = state.activeFilter || getActiveFilterContext();
+    const path = ctx.selectedPath || {};
+    const q = (ctx.searchQuery || "").trim().toLowerCase();
+
+    const filtered = state.recipes.filter((r) => {
+      if (ctx.onlyFavorites && !isFavorite(r.id)) return false;
+      if (path.momento && r.momento !== path.momento) return false;
+      if (path.categoria && r.categoria !== path.categoria) return false;
+      if (path.metodo && r.metodo !== path.metodo) return false;
+      if (path.estilo && r.estilo !== path.estilo) return false;
+
+      if (q) {
+        const inTitle = r.title.toLowerCase().includes(q);
+        const inDesc = (r.description || "").toLowerCase().includes(q);
+        const inIng = r.ingredients.some((ing) => ing.item.toLowerCase().includes(q));
+        if (!inTitle && !inDesc && !inIng) return false;
+      }
+      return true;
+    });
+
+    if (state.activeRecipe && !filtered.some((r) => r.id === state.activeRecipe.id)) {
+      return [state.activeRecipe, ...filtered];
+    }
+    return filtered;
+  }
+
+  function populateQuickSelect() {
+    if (!els.quickSelect) return;
+    const filteredList = getFilteredRecipesForSelect();
+    els.quickSelect.innerHTML = filteredList
+      .map((r) => `<option value="${escapeHtml(r.id)}">${escapeHtml(r.title)}</option>`)
+      .join("");
+    if (state.activeRecipe) {
+      els.quickSelect.value = state.activeRecipe.id;
+    }
   }
 
   function syncHeaderState() {
@@ -152,9 +233,23 @@
     els.favBtn.setAttribute("aria-pressed", String(fav));
     els.favBtn.textContent = fav ? "♥ En favoritos" : "♡ Guardar";
 
-    const metodo = getMenuItemById("metodo", r.metodo);
-    const momento = getMenuItemById("momento", r.momento);
-    els.breadcrumbMeta.textContent = [momento?.label, metodo?.label].filter(Boolean).join(" · ") || "Estudio de receta";
+    const ctx = state.activeFilter || getActiveFilterContext();
+    const path = ctx.selectedPath || {};
+    const filterLabels = MENU_LEVELS.map((l) => {
+      const id = path[l.key];
+      return id ? getMenuItemById(l.key, id)?.shortLabel : null;
+    }).filter(Boolean);
+    if (ctx.onlyFavorites) filterLabels.unshift("Favoritos");
+    if ((ctx.searchQuery || "").trim()) filterLabels.push(`"${ctx.searchQuery.trim()}"`);
+
+    const count = getFilteredRecipesForSelect().length;
+    if (filterLabels.length > 0) {
+      els.breadcrumbMeta.textContent = `${filterLabels.join(" · ")} (${count} ${count === 1 ? "receta" : "recetas"})`;
+    } else {
+      const metodo = getMenuItemById("metodo", r.metodo);
+      const momento = getMenuItemById("momento", r.momento);
+      els.breadcrumbMeta.textContent = `${[momento?.label, metodo?.label].filter(Boolean).join(" · ")} (${count} recetas)`;
+    }
     document.title = `${r.title} — Cocina Radial`;
   }
 
@@ -1110,9 +1205,7 @@
     state.lightMode = false;
     state.mediaFeedback = "";
 
-    if (els.quickSelect) {
-      els.quickSelect.value = found.id;
-    }
+    populateQuickSelect();
 
     if (pushUrl && window.history?.replaceState) {
       const url = new URL(window.location.href);
@@ -1135,6 +1228,20 @@
     els.quickSelect.addEventListener("change", (e) => {
       if (e.target.value) selectRecipeById(e.target.value, true);
     });
+
+    window.addEventListener("storage", (e) => {
+      if (e.key === FAVORITES_KEY) {
+        state.favorites = loadJsonStorage(FAVORITES_KEY, []);
+        populateQuickSelect();
+        syncHeaderState();
+      } else if (e.key === ACTIVE_FILTER_KEY && !hasUrlFilterParams()) {
+        state.activeFilter = getActiveFilterContext();
+        populateQuickSelect();
+        syncHeaderState();
+      } else if (e.key === THEME_KEY && e.newValue) {
+        applyTheme(e.newValue);
+      }
+    });
   }
 
   async function init() {
@@ -1152,13 +1259,12 @@
       return;
     }
 
-    els.quickSelect.innerHTML = state.recipes
-      .map((r) => `<option value="${escapeHtml(r.id)}">${escapeHtml(r.title)}</option>`)
-      .join("");
-
+    state.activeFilter = getActiveFilterContext();
     const params = new URLSearchParams(window.location.search);
     const requestedId = params.get("id");
-    selectRecipeById(requestedId || state.recipes[0]?.id, !requestedId);
+    const initialPool = getFilteredRecipesForSelect();
+    const fallbackId = initialPool[0]?.id || state.recipes[0]?.id;
+    selectRecipeById(requestedId || fallbackId, !requestedId);
   }
 
   init();
