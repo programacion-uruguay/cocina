@@ -609,33 +609,21 @@ button {
 .radial-sector:focus-visible .sector-halo,
 .radial-sector.is-selected .sector-halo {
   opacity: 0.28;
-  transform: scale(1.16);
+  transform: scale(1.12);
 }
 
 .radial-sector .sector-badge {
-  transition: transform 0.25s ease, filter 0.25s ease;
-  transform-box: fill-box;
-  transform-origin: center;
+  transition: filter 0.25s ease;
 }
 
 .radial-sector:hover .sector-badge,
 .radial-sector:focus-visible .sector-badge,
 .radial-sector.is-selected .sector-badge {
-  transform: scale(1.1);
   filter: drop-shadow(0 3px 8px rgba(15, 23, 42, 0.22));
 }
 
 .radial-sector .sector-icon {
   pointer-events: none;
-  transition: transform 0.25s ease;
-  transform-box: fill-box;
-  transform-origin: center;
-}
-
-.radial-sector:hover .sector-icon,
-.radial-sector:focus-visible .sector-icon,
-.radial-sector.is-selected .sector-icon {
-  transform: scale(1.08);
 }
 
 .radial-sector .sector-label {
