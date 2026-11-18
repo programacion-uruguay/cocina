@@ -2240,15 +2240,7 @@ button {
   display: grid;
   grid-template-columns: minmax(340px, 5fr) minmax(0, 7fr);
   gap: var(--space-4);
-  align-items: start;
-}
-
-.studio-col-left,
-.studio-col-right {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-  min-width: 0;
+  align-items: stretch;
 }
 
 .studio-card {
@@ -2257,6 +2249,38 @@ button {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
+}
+
+.studio-visual-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.visual-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.visual-key-facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.15rem;
+}
+
+.fact-pill {
+  padding: 0.22rem 0.6rem;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
 }
 
 /* Media Studio */
@@ -2610,11 +2634,9 @@ button {
   border-radius: var(--radius-sm);
 }
 
-/* Ficha técnica izquierda */
-.tech-sheet-card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
+/* Cabecera visual integrada */
+.studio-visual-card .media-tabs-bar {
+  margin-bottom: 0;
 }
 
 .tech-sheet-badges {
@@ -2625,7 +2647,7 @@ button {
 }
 
 .studio-recipe-title {
-  font-size: clamp(1.35rem, 1.1rem + 0.9vw, 1.85rem);
+  font-size: clamp(1.3rem, 1.05rem + 0.85vw, 1.75rem);
   font-weight: 800;
   line-height: 1.2;
 }
@@ -2636,21 +2658,51 @@ button {
   color: var(--text-muted);
 }
 
-.tech-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--space-2);
+/* Panel derecho único con 4 pestañas */
+.studio-tabbed-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
 }
 
-.tech-summary-foot {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: var(--space-2);
-  padding-top: var(--space-3);
+.studio-main-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.35rem;
+  padding: 0.32rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.studio-main-tab-btn {
+  padding: 0.55rem 0.65rem;
   font-size: var(--fs-xs);
+  font-weight: 700;
+  white-space: nowrap;
   color: var(--text-muted);
-  border-top: 1px solid var(--border);
+  background: transparent;
+  border: 0;
+  border-radius: var(--radius-sm);
+  transition: var(--ease);
+}
+
+.studio-main-tab-btn:hover:not(.is-active) {
+  color: var(--text);
+  background: var(--hover);
+}
+
+.studio-main-tab-btn.is-active {
+  color: var(--on-primary);
+  background: var(--primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.studio-tab-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 /* Control de Calorías y Dietas */
@@ -2855,47 +2907,6 @@ button {
   color: var(--text-muted);
 }
 
-/* Workspace (Ingredientes + Pasos lado a lado / Supermercados) */
-.studio-workspace-card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-}
-
-.workspace-topbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
-  padding-bottom: var(--space-3);
-  border-bottom: 1px solid var(--border);
-}
-
-.workspace-tabs {
-  display: inline-grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 0.35rem;
-  padding: 0.25rem;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-}
-
-.workspace-columns {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
-  gap: var(--space-4);
-  align-items: start;
-}
-
-.workspace-ingredients,
-.workspace-steps {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-}
-
 /* ---------- 9. Responsive ---------- */
 @media (max-width: 1080px) {
   .recipe-studio-grid {
@@ -2912,13 +2923,13 @@ button {
     overflow-y: auto;
   }
 
-  .recipes-grid {
+  .recipes-grid,
+  .studio-main-tabs {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .market-split-layout,
-  .checklist-grid,
-  .workspace-columns {
+  .checklist-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -2933,9 +2944,12 @@ button {
     flex-basis: 100%;
   }
 
-  .workspace-tabs,
   .media-tabs-bar {
     grid-template-columns: 1fr;
+  }
+
+  .studio-main-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .macros-grid {

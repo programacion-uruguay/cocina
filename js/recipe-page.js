@@ -1,7 +1,7 @@
 /**
  * Página dedicada del Estudio de Receta (`receta.html?id=<id>`):
- * - Columna izquierda: Media Studio (Fotos, Video paso a paso y carga personalizada) + Ficha técnica
- * - Columna derecha: Control de Calorías, Macros y Dietas + Espacio de Trabajo (Ingredientes + Pasos lado a lado / Supermercados Mdeo)
+ * - Panel izquierdo ("Split Minimalista"): Visuales (Fotos/Video), título e información clave mínima
+ * - Panel derecho: 1 sola sección visible por vez (Ingredientes, Preparación, Calorías/Dieta, Supermercados)
  */
 
 (function () {
@@ -26,7 +26,7 @@
     videoChapterIndex: 0,
     sessionVideoBlobUrl: "",
     mediaFeedback: "",
-    workspaceTab: "cook", // "cook" | "market"
+    rightTab: "ingredients", // "ingredients" | "steps" | "nutrition" | "market"
     cookingStepIndex: null,
     marketSortBy: "price",
     selectedBarrio: "cordon",
@@ -330,7 +330,7 @@
     });
   }
 
-  function renderMediaStudio(r, baseMedia) {
+  function renderLeftVisualPane(r, baseMedia, evalResult) {
     const photos = getRecipePhotos(r, baseMedia);
     state.activePhotoIndex = Math.min(state.activePhotoIndex, Math.max(0, photos.length - 1));
     const currentPhoto = photos[state.activePhotoIndex];
@@ -340,6 +340,12 @@
     const chapters = baseMedia.videoChapters || [];
     state.videoChapterIndex = Math.min(state.videoChapterIndex, Math.max(0, chapters.length - 1));
     const activeChapter = chapters[state.videoChapterIndex];
+
+    const metodo = getMenuItemById("metodo", r.metodo);
+    const momento = getMenuItemById("momento", r.momento);
+    const categoria = getMenuItemById("categoria", r.categoria);
+    const estilo = getMenuItemById("estilo", r.estilo);
+    const totalMin = (r.prepMinutes || 0) + (r.cookMinutes || 0);
 
     let stageHtml = "";
 
@@ -474,7 +480,26 @@
     }
 
     return `
-      <section class="studio-card media-studio-card" aria-label="Galería de fotos y video">
+      <section class="studio-card studio-visual-card" aria-label="Vista visual y resumen de la receta">
+        <div class="visual-header">
+          <div class="tech-sheet-badges">
+            ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${escapeHtml(metodo.label)}</span>` : ""}
+            ${momento ? `<span class="tag">${momento.emoji || ""} ${escapeHtml(momento.shortLabel)}</span>` : ""}
+            ${categoria ? `<span class="tag">${categoria.emoji || ""} ${escapeHtml(categoria.shortLabel)}</span>` : ""}
+            ${estilo ? `<span class="tag">${estilo.emoji || ""} ${escapeHtml(estilo.shortLabel)}</span>` : ""}
+          </div>
+
+          <h1 class="studio-recipe-title">${escapeHtml(r.title)}</h1>
+          <p class="studio-recipe-desc">${escapeHtml(r.description)}</p>
+
+          <div class="visual-key-facts">
+            <span class="fact-pill">⏱️ ${totalMin} min</span>
+            ${r.temperatureC ? `<span class="fact-pill">🌡️ ${r.temperatureC} °C</span>` : ""}
+            <span class="fact-pill">🔥 ${evalResult.perServing.kcal} kcal / porc.</span>
+            <span class="fact-pill">📊 ${escapeHtml(r.difficulty || "Fácil")}</span>
+          </div>
+        </div>
+
         <div class="media-tabs-bar" role="tablist">
           <button type="button" role="tab" class="media-tab-btn ${state.mediaTab === "photos" ? "is-active" : ""}" data-media-tab="photos" aria-selected="${state.mediaTab === "photos"}">
             📸 Fotos (${photos.length})
@@ -491,53 +516,100 @@
     `;
   }
 
-  function renderTechSheet(r, evalResult) {
-    const metodo = getMenuItemById("metodo", r.metodo);
-    const momento = getMenuItemById("momento", r.momento);
-    const categoria = getMenuItemById("categoria", r.categoria);
-    const estilo = getMenuItemById("estilo", r.estilo);
-    const totalMin = (r.prepMinutes || 0) + (r.cookMinutes || 0);
-
+  function renderIngredientsTab(r, multiplier) {
     return `
-      <section class="studio-card tech-sheet-card" aria-label="Ficha técnica">
-        <div class="tech-sheet-badges">
-          ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${escapeHtml(metodo.label)}</span>` : ""}
-          ${momento ? `<span class="tag">${momento.emoji || ""} ${escapeHtml(momento.label)}</span>` : ""}
-          ${categoria ? `<span class="tag">${categoria.emoji || ""} ${escapeHtml(categoria.label)}</span>` : ""}
-          ${estilo ? `<span class="tag">${estilo.emoji || ""} ${escapeHtml(estilo.label)}</span>` : ""}
-        </div>
-
-        <h1 class="studio-recipe-title">${escapeHtml(r.title)}</h1>
-        <p class="studio-recipe-desc">${escapeHtml(r.description)}</p>
-
-        <div class="tech-stats-grid">
-          <div class="stat-box"><span>Preparación</span><strong>${r.prepMinutes} min</strong></div>
-          <div class="stat-box"><span>Cocción</span><strong>${r.cookMinutes} min</strong></div>
-          <div class="stat-box"><span>Tiempo total</span><strong>${totalMin} min</strong></div>
-          <div class="stat-box">
-            <span>${r.temperatureC ? "Temperatura" : "Dificultad"}</span>
-            <strong>${r.temperatureC ? `${r.temperatureC} °C` : escapeHtml(r.difficulty || "Fácil")}</strong>
+      <div class="recipe-tab-panel">
+        <div class="section-head">
+          <div>
+            <h3>Ingredientes necesarios</h3>
+            <p class="tab-helper">Marcá lo que ya tenés en casa para descontarlo automáticamente en Supermercados.</p>
+          </div>
+          <div class="servings-calc" aria-label="Calculadora de porciones">
+            <button type="button" id="servings-minus" class="calc-btn" aria-label="Menos porciones">−</button>
+            <span id="servings-value">${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"}</span>
+            <button type="button" id="servings-plus" class="calc-btn" aria-label="Más porciones">+</button>
           </div>
         </div>
 
-        <div class="tech-summary-foot">
-          <span>📊 Dificultad: <strong>${escapeHtml(r.difficulty || "Fácil")}</strong></span>
-          <span>🔥 Energía: <strong>${evalResult.perServing.kcal} kcal / porción</strong></span>
+        <ul class="checklist checklist-grid">
+          ${r.ingredients
+            .map((ing, idx) => {
+              const qty = formatAmount(ing.amount, multiplier);
+              const unit = ing.unit ? ` ${ing.unit}` : "";
+              const checked = Boolean(state.checkedIngredients[idx]);
+              return `
+                <li>
+                  <label class="check-item">
+                    <input type="checkbox" class="recipe-ing-checkbox" data-ing-idx="${idx}" id="ing-${idx}" ${checked ? "checked" : ""} />
+                    <span><strong>${escapeHtml(qty)}${escapeHtml(unit)}</strong> ${escapeHtml(ing.item)}</span>
+                  </label>
+                </li>
+              `;
+            })
+            .join("")}
+        </ul>
+
+        <div class="tab-footer-actions">
+          <button type="button" class="btn-tab-nav" data-goto-right-tab="steps">👩‍🍳 Ir a Preparación →</button>
+          <button type="button" class="btn-tab-nav is-accent" data-goto-right-tab="market">🛒 Comparar en Supermercados →</button>
         </div>
-      </section>
+      </div>
     `;
   }
 
-  function renderNutritionControlPanel(baseMedia, evalResult) {
+  function renderStepsTab(r) {
+    if (state.cookingStepIndex !== null && r.steps.length > 0) {
+      return renderStepFocusView(r);
+    }
+
+    return `
+      <div class="recipe-tab-panel">
+        <div class="steps-head">
+          <div>
+            <h3>Preparación paso a paso</h3>
+            <p class="tab-helper">Seguí los pasos en orden o iniciá el temporizador en cada etapa.</p>
+          </div>
+          ${
+            r.steps.length > 0
+              ? `<button type="button" id="enter-step-mode-btn" class="btn-step-mode">👨‍🍳 Modo Paso a Paso Grande</button>`
+              : ""
+          }
+        </div>
+        <ol class="steps-list steps-list-compact">
+          ${r.steps
+            .map(
+              (step, idx) => `
+            <li class="step-item">
+              <div class="step-num">${idx + 1}</div>
+              <div class="step-content">
+                <p>${escapeHtml(step.text)}</p>
+                ${
+                  step.timerMinutes
+                    ? `<button type="button" class="btn-step-timer" data-minutes="${step.timerMinutes}" data-label="${escapeHtml(r.title)} · Paso ${idx + 1}">
+                        ⏱️ Iniciar timer (${step.timerMinutes} min)
+                      </button>`
+                    : ""
+                }
+              </div>
+            </li>
+          `
+            )
+            .join("")}
+        </ol>
+      </div>
+    `;
+  }
+
+  function renderNutritionTab(baseMedia, evalResult) {
     const { plan, perServing, kcalPct, proteinPct, carbsPct, fatPct, status, message } = evalResult;
     const totalBatchKcal = perServing.kcal * state.currentServings;
     const clampPct = (pct) => Math.min(100, Math.max(4, pct));
 
     return `
-      <section class="studio-card nutrition-diet-card" aria-label="Control de calorías y dietas">
+      <div class="recipe-tab-panel">
         <div class="nutrition-head">
           <div>
-            <h2>⚖️ Control de Calorías y Dietas</h2>
+            <h3>Control de Calorías y Dietas</h3>
             <p class="nutrition-sub">Valores estimados por porción · ${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"} suman <strong>${totalBatchKcal} kcal</strong> totales.</p>
           </div>
           <div class="diet-select-wrap">
@@ -609,7 +681,7 @@
           </label>
           <p class="light-tip-text">💡 ${escapeHtml(baseMedia.nutrition.lightTip)}</p>
         </div>
-      </section>
+      </div>
     `;
   }
 
@@ -666,7 +738,7 @@
 
     return `
       <div class="market-view market-view-compact">
-        <div class="market-controls market-controls-compact">
+        <div class="market-controls">
           <div class="market-location-bar">
             <label for="market-barrio-select" class="market-label">📍 Barrio:</label>
             <select id="market-barrio-select" class="market-select">
@@ -680,10 +752,17 @@
             ${state.gpsStatus ? `<span class="gps-status">${escapeHtml(state.gpsStatus)}</span>` : ""}
           </div>
 
-          <div class="market-sort-pills" role="group" aria-label="Criterio de comparación">
-            <button type="button" class="sort-pill ${state.marketSortBy === "price" ? "is-active" : ""}" data-market-sort="price">💰 Mejor precio</button>
-            <button type="button" class="sort-pill ${state.marketSortBy === "distance" ? "is-active" : ""}" data-market-sort="distance">📍 Más cerca</button>
-            <button type="button" class="sort-pill ${state.marketSortBy === "smart" ? "is-active" : ""}" data-market-sort="smart">⚖️ Balance</button>
+          <div class="market-sort-row">
+            <div class="market-sort-pills" role="group" aria-label="Criterio de comparación">
+              <button type="button" class="sort-pill ${state.marketSortBy === "price" ? "is-active" : ""}" data-market-sort="price">💰 Mejor precio</button>
+              <button type="button" class="sort-pill ${state.marketSortBy === "distance" ? "is-active" : ""}" data-market-sort="distance">📍 Más cerca</button>
+              <button type="button" class="sort-pill ${state.marketSortBy === "smart" ? "is-active" : ""}" data-market-sort="smart">⚖️ Balance</button>
+            </div>
+            <div class="servings-calc" aria-label="Calculadora de porciones">
+              <button type="button" id="servings-minus" class="calc-btn" aria-label="Menos porciones">−</button>
+              <span id="servings-value">${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"}</span>
+              <button type="button" id="servings-plus" class="calc-btn" aria-label="Más porciones">+</button>
+            </div>
           </div>
         </div>
 
@@ -758,97 +837,40 @@
     `;
   }
 
-  function renderWorkspacePanel(r, multiplier) {
-    const isCook = state.workspaceTab === "cook";
-    const isStepMode = isCook && state.cookingStepIndex !== null && r.steps.length > 0;
+  function renderRightTabbedPane(r, baseMedia, evalResult, multiplier) {
+    const activeTab = state.rightTab || "ingredients";
+    let tabContentHtml = "";
 
-    let bodyHtml = "";
-    if (!isCook) {
-      bodyHtml = renderSupermarketWorkspace(r, multiplier);
-    } else if (isStepMode) {
-      bodyHtml = renderStepFocusView(r);
+    if (activeTab === "steps") {
+      tabContentHtml = renderStepsTab(r);
+    } else if (activeTab === "nutrition") {
+      tabContentHtml = renderNutritionTab(baseMedia, evalResult);
+    } else if (activeTab === "market") {
+      tabContentHtml = renderSupermarketWorkspace(r, multiplier);
     } else {
-      bodyHtml = `
-        <div class="workspace-columns">
-          <div class="workspace-ingredients">
-            <div class="section-head">
-              <h3>🧺 Ingredientes (${r.ingredients.length})</h3>
-            </div>
-            <p class="tab-helper">Marcá lo que ya tenés en casa; se descuenta automáticamente en Supermercados.</p>
-            <ul class="checklist">
-              ${r.ingredients
-                .map((ing, idx) => {
-                  const qty = formatAmount(ing.amount, multiplier);
-                  const unit = ing.unit ? ` ${ing.unit}` : "";
-                  const checked = Boolean(state.checkedIngredients[idx]);
-                  return `
-                    <li>
-                      <label class="check-item">
-                        <input type="checkbox" class="recipe-ing-checkbox" data-ing-idx="${idx}" id="ing-${idx}" ${checked ? "checked" : ""} />
-                        <span><strong>${escapeHtml(qty)}${escapeHtml(unit)}</strong> ${escapeHtml(ing.item)}</span>
-                      </label>
-                    </li>
-                  `;
-                })
-                .join("")}
-            </ul>
-          </div>
-
-          <div class="workspace-steps">
-            <div class="steps-head">
-              <h3>👩‍🍳 Preparación (${r.steps.length} pasos)</h3>
-              ${
-                r.steps.length > 0
-                  ? `<button type="button" id="enter-step-mode-btn" class="btn-step-mode">👨‍🍳 Modo Grande</button>`
-                  : ""
-              }
-            </div>
-            <ol class="steps-list steps-list-compact">
-              ${r.steps
-                .map(
-                  (step, idx) => `
-                <li class="step-item">
-                  <div class="step-num">${idx + 1}</div>
-                  <div class="step-content">
-                    <p>${escapeHtml(step.text)}</p>
-                    ${
-                      step.timerMinutes
-                        ? `<button type="button" class="btn-step-timer" data-minutes="${step.timerMinutes}" data-label="${escapeHtml(r.title)} · Paso ${idx + 1}">
-                            ⏱️ Iniciar timer (${step.timerMinutes} min)
-                          </button>`
-                        : ""
-                    }
-                  </div>
-                </li>
-              `
-                )
-                .join("")}
-            </ol>
-          </div>
-        </div>
-      `;
+      tabContentHtml = renderIngredientsTab(r, multiplier);
     }
 
     return `
-      <section class="studio-card studio-workspace-card" aria-label="Espacio de preparación y compras">
-        <div class="workspace-topbar">
-          <div class="workspace-tabs" role="tablist">
-            <button type="button" role="tab" class="recipe-tab-btn ${isCook ? "is-active" : ""}" data-workspace-tab="cook" aria-selected="${isCook}">
-              📖 Ingredientes y Preparación
-            </button>
-            <button type="button" role="tab" class="recipe-tab-btn ${!isCook ? "is-active" : ""}" data-workspace-tab="market" aria-selected="${!isCook}">
-              🛒 Supermercados en Montevideo
-            </button>
-          </div>
-
-          <div class="servings-calc" aria-label="Calculadora de porciones">
-            <button type="button" id="servings-minus" class="calc-btn" aria-label="Menos porciones">−</button>
-            <span id="servings-value">${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"}</span>
-            <button type="button" id="servings-plus" class="calc-btn" aria-label="Más porciones">+</button>
-          </div>
+      <section class="studio-card studio-tabbed-card" aria-label="Detalle interactivo de la receta">
+        <div class="studio-main-tabs" role="tablist" aria-label="Secciones de la receta">
+          <button type="button" role="tab" class="studio-main-tab-btn ${activeTab === "ingredients" ? "is-active" : ""}" data-right-tab="ingredients" aria-selected="${activeTab === "ingredients"}">
+            🧺 Ingredientes (${r.ingredients.length})
+          </button>
+          <button type="button" role="tab" class="studio-main-tab-btn ${activeTab === "steps" ? "is-active" : ""}" data-right-tab="steps" aria-selected="${activeTab === "steps"}">
+            👩‍🍳 Preparación (${r.steps.length})
+          </button>
+          <button type="button" role="tab" class="studio-main-tab-btn ${activeTab === "nutrition" ? "is-active" : ""}" data-right-tab="nutrition" aria-selected="${activeTab === "nutrition"}">
+            ⚖️ Calorías y Dieta
+          </button>
+          <button type="button" role="tab" class="studio-main-tab-btn ${activeTab === "market" ? "is-active" : ""}" data-right-tab="market" aria-selected="${activeTab === "market"}">
+            🛒 Supermercados
+          </button>
         </div>
 
-        ${bodyHtml}
+        <div class="studio-tab-content">
+          ${tabContentHtml}
+        </div>
       </section>
     `;
   }
@@ -864,14 +886,8 @@
 
     els.studio.innerHTML = `
       <div class="recipe-studio-grid">
-        <div class="studio-col-left">
-          ${renderMediaStudio(r, baseMedia)}
-          ${renderTechSheet(r, evalResult)}
-        </div>
-        <div class="studio-col-right">
-          ${renderNutritionControlPanel(baseMedia, evalResult)}
-          ${renderWorkspacePanel(r, multiplier)}
-        </div>
+        ${renderLeftVisualPane(r, baseMedia, evalResult)}
+        ${renderRightTabbedPane(r, baseMedia, evalResult, multiplier)}
       </div>
     `;
 
@@ -1058,13 +1074,19 @@
       });
     }
 
-    // Workspace tabs & servings
-    els.studio.querySelectorAll("[data-workspace-tab]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        state.workspaceTab = btn.dataset.workspaceTab;
-        if (state.workspaceTab !== "cook") state.cookingStepIndex = null;
-        renderStudio();
-      });
+    // Panel derecho: 4 pestañas principales (1 sola visible a la vez) y porciones
+    const switchRightTab = (nextTab) => {
+      state.rightTab = nextTab;
+      if (nextTab !== "steps") state.cookingStepIndex = null;
+      renderStudio();
+    };
+
+    els.studio.querySelectorAll("[data-right-tab]").forEach((btn) => {
+      btn.addEventListener("click", () => switchRightTab(btn.dataset.rightTab));
+    });
+
+    els.studio.querySelectorAll("[data-goto-right-tab]").forEach((btn) => {
+      btn.addEventListener("click", () => switchRightTab(btn.dataset.gotoRightTab));
     });
 
     const minusBtn = document.getElementById("servings-minus");
