@@ -11,14 +11,17 @@
 
   const state = {
     recipes: [],
-    selectedPath: {}, // { metodo?, momento?, categoria?, estilo? }
+    selectedPath: {}, // { momento?, categoria?, metodo?, estilo? }
     searchQuery: "",
     onlyFavorites: false,
+    resultsPage: 0,
+    resultsPageSize: 6,
     favorites: loadFavorites(),
     theme: loadTheme(),
     activeRecipe: null,
     currentServings: 2,
     cameFromResultsModal: false,
+    recipeTab: "ingredients", // "ingredients" | "steps" | "market"
     cookingStepIndex: null,
     showSupermarketView: false,
     marketSortBy: "price",
@@ -49,6 +52,7 @@
     resultsModalSubtitle: document.getElementById("results-modal-subtitle"),
     resultsModalCount: document.getElementById("results-modal-count"),
     resultsModalGrid: document.getElementById("results-modal-grid"),
+    resultsPagination: document.getElementById("results-pagination"),
     resultsEmptyState: document.getElementById("results-empty-state"),
     emptyResetBtn: document.getElementById("empty-reset-btn"),
     modal: document.getElementById("recipe-modal"),
@@ -172,17 +176,31 @@
     }
 
     state.selectedPath = nextPath;
+    state.resultsPage = 0;
     syncUI();
 
-    // Si eligió una opción del último nivel (Nivel 4: estilo), abrir el modal de resultados
+    // Si eligió una opción del último nivel (Nivel 4: estilo), abrir directo si queda 1 receta o mostrar grilla paginada
     const isLastLevel = levelIndex === MENU_LEVELS.length - 1;
     if (isLastLevel && !alreadySelected) {
-      openResultsModal();
+      const filtered = getFilteredRecipes();
+      if (filtered.length === 1) {
+        openRecipeModal(filtered[0], false);
+      } else {
+        openResultsModal();
+      }
     }
   }
 
   function handleCenterClick() {
-    // El centro del círculo abre el modal con las recetas de la selección actual (o todas)
+    const filtered = getFilteredRecipes();
+    const hasFilters =
+      Object.keys(state.selectedPath).length > 0 ||
+      Boolean(state.searchQuery.trim()) ||
+      state.onlyFavorites;
+    if (hasFilters && filtered.length === 1) {
+      openRecipeModal(filtered[0], false);
+      return;
+    }
     openResultsModal();
   }
 
@@ -190,6 +208,7 @@
     const keys = MENU_LEVELS.map((l) => l.key).filter((k) => state.selectedPath[k]);
     if (keys.length === 0) return;
     delete state.selectedPath[keys[keys.length - 1]];
+    state.resultsPage = 0;
     syncUI();
   }
 
@@ -200,6 +219,7 @@
       if (state.selectedPath[k]) nextPath[k] = state.selectedPath[k];
     }
     state.selectedPath = nextPath;
+    state.resultsPage = 0;
     syncUI();
   }
 
@@ -237,6 +257,7 @@
     state.selectedPath = {};
     state.searchQuery = "";
     state.onlyFavorites = false;
+    state.resultsPage = 0;
     els.searchInput.value = "";
     els.searchSubmitBtn.hidden = true;
     els.favToggleBtn.classList.remove("is-active");
@@ -283,6 +304,7 @@
           }
           state.selectedPath = nextPath;
         }
+        state.resultsPage = 0;
         syncUI();
       });
     });
@@ -323,12 +345,21 @@
 
     if (list.length === 0) {
       els.resultsModalGrid.innerHTML = "";
+      if (els.resultsPagination) {
+        els.resultsPagination.innerHTML = "";
+        els.resultsPagination.hidden = true;
+      }
       els.resultsEmptyState.hidden = false;
       return;
     }
 
     els.resultsEmptyState.hidden = true;
-    els.resultsModalGrid.innerHTML = list
+    const totalPages = Math.ceil(list.length / state.resultsPageSize);
+    state.resultsPage = Math.min(state.resultsPage, Math.max(0, totalPages - 1));
+    const startIdx = state.resultsPage * state.resultsPageSize;
+    const pageItems = list.slice(startIdx, startIdx + state.resultsPageSize);
+
+    els.resultsModalGrid.innerHTML = pageItems
       .map((r) => {
         const metodo = getMenuItemById("metodo", r.metodo);
         const momento = getMenuItemById("momento", r.momento);
@@ -339,7 +370,7 @@
         const bannerColor = metodo?.color || "#3b82f6";
 
         return `
-          <article class="recipe-card" data-id="${r.id}">
+          <article class="recipe-card recipe-card-compact" data-id="${r.id}">
             <div class="card-banner" style="--banner-color:${bannerColor}">
               <div class="card-banner-left">
                 <span class="card-banner-emoji" aria-hidden="true">${categoria?.emoji || "🍽️"}</span>
@@ -357,12 +388,12 @@
                 ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.shortLabel}</span>` : ""}
                 ${estilo ? `<span class="tag">${estilo.emoji || ""} ${estilo.shortLabel}</span>` : ""}
               </div>
-              <div class="card-meta">
-                <span>⏱️ ${totalMin} min</span>
-                ${r.temperatureC ? `<span>🌡️ ${r.temperatureC} °C</span>` : ""}
-                <span>🍽️ ${r.servings} porc.</span>
-              </div>
-              <div class="card-footer">
+              <div class="card-footer-bar">
+                <div class="card-meta-inline">
+                  <span>⏱️ ${totalMin}m</span>
+                  ${r.temperatureC ? `<span>🌡️ ${r.temperatureC}°</span>` : ""}
+                  <span>🍽️ ${r.servings}p</span>
+                </div>
                 <a href="#receta-${r.id}" class="card-view-link" data-view-id="${r.id}">Ver receta →</a>
               </div>
             </div>
@@ -370,6 +401,41 @@
         `;
       })
       .join("");
+
+    if (els.resultsPagination) {
+      if (totalPages > 1) {
+        const pageButtons = Array.from({ length: totalPages }, (_, i) => {
+          return `<button type="button" class="page-num ${i === state.resultsPage ? "is-active" : ""}" data-page-idx="${i}" aria-label="Página ${i + 1}" ${i === state.resultsPage ? 'aria-current="page"' : ""}>${i + 1}</button>`;
+        }).join("");
+
+        els.resultsPagination.innerHTML = `
+          <button type="button" class="page-btn" data-page-dir="-1" ${state.resultsPage === 0 ? "disabled" : ""}>‹ Anterior</button>
+          <div class="page-numbers" role="group" aria-label="Páginas">${pageButtons}</div>
+          <button type="button" class="page-btn" data-page-dir="1" ${state.resultsPage >= totalPages - 1 ? "disabled" : ""}>Siguiente ›</button>
+        `;
+        els.resultsPagination.hidden = false;
+
+        els.resultsPagination.querySelectorAll("[data-page-dir]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const next = state.resultsPage + Number(btn.dataset.pageDir);
+            if (next >= 0 && next < totalPages) {
+              state.resultsPage = next;
+              renderResultsModal();
+            }
+          });
+        });
+
+        els.resultsPagination.querySelectorAll("[data-page-idx]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            state.resultsPage = Number(btn.dataset.pageIdx);
+            renderResultsModal();
+          });
+        });
+      } else {
+        els.resultsPagination.innerHTML = "";
+        els.resultsPagination.hidden = true;
+      }
+    }
 
     els.resultsModalGrid.querySelectorAll(".recipe-card").forEach((card) => {
       card.addEventListener("click", (e) => {
@@ -396,12 +462,13 @@
     return rounded.toFixed(1).replace(/\.0$/, "");
   }
 
-  function openRecipeModal(recipe, fromResults = false) {
+  function openRecipeModal(recipe, fromResults = false, initialTab = "ingredients") {
     state.activeRecipe = recipe;
     state.currentServings = recipe.servings || 2;
     state.cameFromResultsModal = fromResults;
+    state.recipeTab = initialTab;
     state.cookingStepIndex = null;
-    state.showSupermarketView = false;
+    state.showSupermarketView = initialTab === "market";
     state.selectedChainId = null;
     state.checkedIngredients = {};
     if (fromResults) {
@@ -415,6 +482,7 @@
   function closeRecipeModal() {
     els.modal.hidden = true;
     state.activeRecipe = null;
+    state.recipeTab = "ingredients";
     state.cookingStepIndex = null;
     state.showSupermarketView = false;
     state.selectedChainId = null;
@@ -427,6 +495,7 @@
   function backToResultsModal() {
     els.modal.hidden = true;
     state.activeRecipe = null;
+    state.recipeTab = "ingredients";
     state.cookingStepIndex = null;
     state.showSupermarketView = false;
     state.selectedChainId = null;
@@ -477,26 +546,26 @@
     state.selectedChainId = activeChain.chainId;
 
     return `
-      <div class="market-view">
-        <div class="market-controls">
+      <div class="market-view market-view-compact">
+        <div class="market-controls market-controls-compact">
           <div class="market-location-bar">
-            <label for="market-barrio-select" class="market-label">📍 Barrio en Montevideo:</label>
+            <label for="market-barrio-select" class="market-label">📍 Barrio:</label>
             <select id="market-barrio-select" class="market-select">
               ${MDEO_BARRIOS.map(
                 (b) => `<option value="${b.id}" ${!state.userGpsCoords && state.selectedBarrio === b.id ? "selected" : ""}>${b.label}</option>`
               ).join("")}
             </select>
             <button type="button" id="market-gps-btn" class="btn-gps ${state.userGpsCoords ? "is-active" : ""}">
-              ${state.userGpsCoords ? "📡 GPS activo" : "📍 Usar mi ubicación GPS"}
+              ${state.userGpsCoords ? "📡 GPS activo" : "📍 GPS"}
             </button>
             ${state.gpsStatus ? `<span class="gps-status">${state.gpsStatus}</span>` : ""}
           </div>
 
           <div class="market-sort-row">
             <div class="market-sort-pills" role="group" aria-label="Criterio de comparación">
-              <button type="button" class="sort-pill ${state.marketSortBy === "price" ? "is-active" : ""}" data-market-sort="price">💰 Mejor precio ($ UYU)</button>
-              <button type="button" class="sort-pill ${state.marketSortBy === "distance" ? "is-active" : ""}" data-market-sort="distance">📍 Más cerca mío</button>
-              <button type="button" class="sort-pill ${state.marketSortBy === "smart" ? "is-active" : ""}" data-market-sort="smart">⚖️ Precio + Cercanía</button>
+              <button type="button" class="sort-pill ${state.marketSortBy === "price" ? "is-active" : ""}" data-market-sort="price">💰 Mejor precio</button>
+              <button type="button" class="sort-pill ${state.marketSortBy === "distance" ? "is-active" : ""}" data-market-sort="distance">📍 Más cerca</button>
+              <button type="button" class="sort-pill ${state.marketSortBy === "smart" ? "is-active" : ""}" data-market-sort="smart">⚖️ Balance</button>
             </div>
             <div class="servings-calc" aria-label="Calculadora de porciones">
               <button type="button" id="servings-minus" class="calc-btn" aria-label="Menos porciones">−</button>
@@ -506,75 +575,74 @@
           </div>
         </div>
 
-        <div class="market-chains-grid">
-          ${comparisons
-            .map((c, idx) => {
-              const isSelected = c.chainId === activeChain.chainId;
-              let badgeText = "";
-              if (c.isCheapest && state.marketSortBy === "price") badgeText = "🏆 Más barato";
-              else if (c.isNearest && state.marketSortBy === "distance") badgeText = "📍 Más cerca";
-              else if (c.isSmartest && state.marketSortBy === "smart") badgeText = "⭐ Mejor balance";
-              else if (c.isCheapest) badgeText = "💰 Mejor precio";
-              else if (c.isNearest) badgeText = "📍 Más cercano";
+        <div class="market-split-layout">
+          <div class="market-chains-list">
+            ${comparisons
+              .map((c, idx) => {
+                const isSelected = c.chainId === activeChain.chainId;
+                let badgeText = "";
+                if (c.isCheapest && state.marketSortBy === "price") badgeText = "🏆 Más barato";
+                else if (c.isNearest && state.marketSortBy === "distance") badgeText = "📍 Más cerca";
+                else if (c.isSmartest && state.marketSortBy === "smart") badgeText = "⭐ Mejor balance";
+                else if (c.isCheapest) badgeText = "💰 Mejor precio";
+                else if (c.isNearest) badgeText = "📍 Cercano";
 
-              return `
-                <article class="market-chain-card ${isSelected ? "is-selected" : ""}" data-chain-id="${c.chainId}" style="--chain-color:${c.color}" tabindex="0" role="button">
-                  <div class="chain-card-top">
-                    <span class="chain-rank">#${idx + 1}</span>
-                    ${badgeText ? `<span class="chain-badge">${badgeText}</span>` : ""}
-                  </div>
-                  <h4 class="chain-name">${c.chainName}</h4>
-                  <div class="chain-price">$ ${c.totalUYU} <small>UYU</small></div>
-                  <div class="chain-branch">
-                    <strong>${c.closestBranch.name}</strong>
-                    <span>${c.closestBranch.address}</span>
-                    <div class="chain-dist-row">
-                      <span>📏 ${c.closestBranch.distanceKm} km (~${c.closestBranch.blocks} cuadras)</span>
-                      <a href="${c.closestBranch.mapsUrl}" target="_blank" rel="noopener noreferrer" class="chain-map-link" data-stop-card="true">Mapa ↗</a>
-                    </div>
-                  </div>
-                </article>
-              `;
-            })
-            .join("")}
-        </div>
-
-        <div class="market-breakdown">
-          <div class="market-breakdown-head">
-            <div>
-              <h4>Desglose de ingredientes en <span style="color:${activeChain.color}">${activeChain.chainName}</span></h4>
-              <p class="market-note">Precios estimados de referencia en Montevideo ($ UYU). Marcá «Ya tengo» para descontar lo que tenés en casa o abrí el producto directo en la góndola online.</p>
-            </div>
-            <strong class="breakdown-total">A comprar: $ ${activeChain.totalUYU} UYU</strong>
-          </div>
-
-          <ul class="market-items-list">
-            ${activeChain.items
-              .map((item) => {
-                const qty = formatAmount(item.amount, multiplier);
-                const unit = item.unit ? ` ${item.unit}` : "";
                 return `
-                  <li class="market-item-row ${item.checked ? "is-owned" : ""}">
-                    <label class="market-item-check">
-                      <input type="checkbox" class="market-own-checkbox" data-ing-idx="${item.index}" ${item.checked ? "checked" : ""} />
-                      <span>
-                        <strong>${qty}${unit}</strong> ${item.item}
-                        <small class="market-search-tag">(${item.searchTerm})</small>
-                      </span>
-                    </label>
-                    <div class="market-item-actions">
-                      <span class="market-item-price">
-                        ${item.checked ? "<s>$ " + item.estimatedFullPriceUYU + "</s> $ 0" : "$ " + item.priceUYU}
-                      </span>
-                      <a href="${item.gondolaUrl}" target="_blank" rel="noopener noreferrer" class="btn-gondola">
-                        Ver en góndola ↗
-                      </a>
+                  <article class="market-chain-card market-chain-row ${isSelected ? "is-selected" : ""}" data-chain-id="${c.chainId}" style="--chain-color:${c.color}" tabindex="0" role="button">
+                    <div class="chain-row-main">
+                      <div class="chain-row-title">
+                        <span class="chain-rank">#${idx + 1}</span>
+                        <h4 class="chain-name">${c.chainName}</h4>
+                        ${badgeText ? `<span class="chain-badge">${badgeText}</span>` : ""}
+                      </div>
+                      <div class="chain-branch-compact">
+                        <span>${c.closestBranch.name} · ${c.closestBranch.distanceKm} km (~${c.closestBranch.blocks} cuadras)</span>
+                        <a href="${c.closestBranch.mapsUrl}" target="_blank" rel="noopener noreferrer" class="chain-map-link" data-stop-card="true">Mapa ↗</a>
+                      </div>
                     </div>
-                  </li>
+                    <div class="chain-price">$ ${c.totalUYU} <small>UYU</small></div>
+                  </article>
                 `;
               })
               .join("")}
-          </ul>
+          </div>
+
+          <div class="market-breakdown market-breakdown-compact">
+            <div class="market-breakdown-head">
+              <div>
+                <h4>En <span style="color:${activeChain.color}">${activeChain.chainName}</span></h4>
+                <p class="market-note">Marcá lo que ya tenés en casa o abrí directo en góndola.</p>
+              </div>
+              <strong class="breakdown-total">$ ${activeChain.totalUYU} UYU</strong>
+            </div>
+
+            <ul class="market-items-list market-items-compact">
+              ${activeChain.items
+                .map((item) => {
+                  const qty = formatAmount(item.amount, multiplier);
+                  const unit = item.unit ? ` ${item.unit}` : "";
+                  return `
+                    <li class="market-item-row ${item.checked ? "is-owned" : ""}">
+                      <label class="market-item-check">
+                        <input type="checkbox" class="market-own-checkbox" data-ing-idx="${item.index}" ${item.checked ? "checked" : ""} />
+                        <span>
+                          <strong>${qty}${unit}</strong> ${item.item}
+                        </span>
+                      </label>
+                      <div class="market-item-actions">
+                        <span class="market-item-price">
+                          ${item.checked ? "<s>$ " + item.estimatedFullPriceUYU + "</s> $ 0" : "$ " + item.priceUYU}
+                        </span>
+                        <a href="${item.gondolaUrl}" target="_blank" rel="noopener noreferrer" class="btn-gondola">
+                          Góndola ↗
+                        </a>
+                      </div>
+                    </li>
+                  `;
+                })
+                .join("")}
+            </ul>
+          </div>
         </div>
       </div>
     `;
@@ -627,59 +695,64 @@
     const estilo = getMenuItemById("estilo", r.estilo);
     const multiplier = state.currentServings / (r.servings || 1);
     const fav = isFavorite(r.id);
-    const isStepMode = state.cookingStepIndex !== null && r.steps.length > 0;
-    const isMarketView = state.showSupermarketView;
+    const activeTab = state.recipeTab || "ingredients";
+    const isStepMode = activeTab === "steps" && state.cookingStepIndex !== null && r.steps.length > 0;
+    state.showSupermarketView = activeTab === "market";
 
-    els.modalBody.innerHTML = `
-      ${
-        state.cameFromResultsModal
-          ? `<button type="button" id="back-to-results-btn" class="btn-back-results">← Volver a la lista</button>`
-          : ""
-      }
-      <div class="modal-header">
-        <div class="modal-badges">
-          ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${metodo.label}</span>` : ""}
-          ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.label}</span>` : ""}
-          ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.label}</span>` : ""}
-          ${estilo ? `<span class="tag">${estilo.emoji || ""} ${estilo.label}</span>` : ""}
-        </div>
-        <div class="modal-title-row">
-          <h2 id="modal-title">${r.title}</h2>
-          <div class="modal-title-actions">
-            <button type="button" id="toggle-market-btn" class="btn-market-toggle ${isMarketView ? "is-active" : ""}">
-              ${isMarketView ? "📖 Volver a la receta" : "🛒 Comparar en Supermercados (Mdeo)"}
-            </button>
-            <button type="button" id="modal-fav-btn" class="btn-fav-modal ${fav ? "is-fav" : ""}">
-              ${fav ? "♥ En favoritos" : "♡ Guardar favorito"}
-            </button>
+    let tabPanelHtml = "";
+    if (activeTab === "market") {
+      tabPanelHtml = renderSupermarketComparisonView(r, multiplier);
+    } else if (activeTab === "steps") {
+      tabPanelHtml = isStepMode
+        ? renderStepFocusView(r)
+        : `
+          <div class="recipe-tab-panel">
+            <div class="steps-head">
+              <h3>Preparación paso a paso</h3>
+              ${
+                r.steps.length > 0
+                  ? `<button type="button" id="enter-step-mode-btn" class="btn-step-mode">👨‍🍳 Modo Paso a Paso Grande</button>`
+                  : ""
+              }
+            </div>
+            <ol class="steps-list steps-list-compact">
+              ${r.steps
+                .map(
+                  (step, idx) => `
+                <li class="step-item">
+                  <div class="step-num">${idx + 1}</div>
+                  <div class="step-content">
+                    <p>${step.text}</p>
+                    ${
+                      step.timerMinutes
+                        ? `<button type="button" class="btn-step-timer" data-minutes="${step.timerMinutes}" data-label="${r.title} · Paso ${idx + 1}">
+                            ⏱️ Iniciar timer (${step.timerMinutes} min)
+                          </button>`
+                        : ""
+                    }
+                  </div>
+                </li>
+              `
+                )
+                .join("")}
+            </ol>
           </div>
-        </div>
-        <p class="modal-desc">${r.description}</p>
-        <div class="modal-stats">
-          <div class="stat-box"><span>Preparación</span><strong>${r.prepMinutes} min</strong></div>
-          <div class="stat-box"><span>Cocción</span><strong>${r.cookMinutes} min</strong></div>
-          ${r.temperatureC ? `<div class="stat-box"><span>Temperatura</span><strong>${r.temperatureC} °C</strong></div>` : ""}
-          <div class="stat-box"><span>Dificultad</span><strong>${r.difficulty || "Fácil"}</strong></div>
-        </div>
-      </div>
-
-      ${
-        isMarketView
-          ? renderSupermarketComparisonView(r, multiplier)
-          : isStepMode
-          ? renderStepFocusView(r)
-          : `
-      <div class="modal-columns">
-        <section class="modal-ingredients">
+        `;
+    } else {
+      tabPanelHtml = `
+        <div class="recipe-tab-panel">
           <div class="section-head">
-            <h3>Ingredientes</h3>
+            <div>
+              <h3>Ingredientes</h3>
+              <p class="tab-helper">Marcá lo que ya tenés en casa para descontarlo en Supermercados.</p>
+            </div>
             <div class="servings-calc" aria-label="Calculadora de porciones">
               <button type="button" id="servings-minus" class="calc-btn" aria-label="Menos porciones">−</button>
               <span id="servings-value">${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"}</span>
               <button type="button" id="servings-plus" class="calc-btn" aria-label="Más porciones">+</button>
             </div>
           </div>
-          <ul class="checklist">
+          <ul class="checklist checklist-grid">
             ${r.ingredients
               .map((ing, idx) => {
                 const qty = formatAmount(ing.amount, multiplier);
@@ -696,42 +769,60 @@
               })
               .join("")}
           </ul>
-        </section>
-
-        <section class="modal-steps">
-          <div class="steps-head">
-            <h3>Preparación paso a paso</h3>
-            ${
-              r.steps.length > 0
-                ? `<button type="button" id="enter-step-mode-btn" class="btn-step-mode">👨‍🍳 Modo Paso a Paso Grande</button>`
-                : ""
-            }
+          <div class="tab-footer-actions">
+            <button type="button" class="btn-tab-nav" data-goto-tab="steps">Ir a Preparación paso a paso →</button>
+            <button type="button" class="btn-tab-nav is-accent" data-goto-tab="market">🛒 Comparar precios en Montevideo →</button>
           </div>
-          <ol class="steps-list">
-            ${r.steps
-              .map(
-                (step, idx) => `
-              <li class="step-item">
-                <div class="step-num">${idx + 1}</div>
-                <div class="step-content">
-                  <p>${step.text}</p>
-                  ${
-                    step.timerMinutes
-                      ? `<button type="button" class="btn-step-timer" data-minutes="${step.timerMinutes}" data-label="${r.title} · Paso ${idx + 1}">
-                          ⏱️ Iniciar timer (${step.timerMinutes} min)
-                        </button>`
-                      : ""
-                  }
-                </div>
-              </li>
-            `
-              )
-              .join("")}
-          </ol>
-        </section>
+        </div>
+      `;
+    }
+
+    els.modalBody.innerHTML = `
+      <div class="modal-header-compact">
+        <div class="modal-top-meta">
+          ${
+            state.cameFromResultsModal
+              ? `<button type="button" id="back-to-results-btn" class="btn-back-results">← Lista</button>`
+              : ""
+          }
+          <div class="modal-badges">
+            ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${metodo.label}</span>` : ""}
+            ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.shortLabel}</span>` : ""}
+            ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.shortLabel}</span>` : ""}
+            ${estilo ? `<span class="tag">${estilo.emoji || ""} ${estilo.shortLabel}</span>` : ""}
+          </div>
+          <div class="modal-mini-stats">
+            <span class="mini-stat">⏱️ Prep ${r.prepMinutes}m</span>
+            <span class="mini-stat">🔥 Cocción ${r.cookMinutes}m</span>
+            ${r.temperatureC ? `<span class="mini-stat">🌡️ ${r.temperatureC}°C</span>` : ""}
+            <span class="mini-stat">📊 ${r.difficulty || "Fácil"}</span>
+          </div>
+          <button type="button" id="modal-fav-btn" class="btn-fav-modal ${fav ? "is-fav" : ""}">
+            ${fav ? "♥ En favoritos" : "♡ Guardar"}
+          </button>
+        </div>
+
+        <div class="modal-title-row">
+          <h2 id="modal-title">${r.title}</h2>
+        </div>
+        <p class="modal-desc modal-desc-compact">${r.description}</p>
       </div>
-      `
-      }
+
+      <div class="recipe-tabs" role="tablist" aria-label="Secciones de la receta">
+        <button type="button" role="tab" class="recipe-tab-btn ${activeTab === "ingredients" ? "is-active" : ""}" data-recipe-tab="ingredients" aria-selected="${activeTab === "ingredients"}">
+          🧺 Ingredientes (${r.ingredients.length})
+        </button>
+        <button type="button" role="tab" class="recipe-tab-btn ${activeTab === "steps" ? "is-active" : ""}" data-recipe-tab="steps" aria-selected="${activeTab === "steps"}">
+          👩‍🍳 Preparación (${r.steps.length} pasos)
+        </button>
+        <button type="button" role="tab" class="recipe-tab-btn ${activeTab === "market" ? "is-active" : ""}" data-recipe-tab="market" aria-selected="${activeTab === "market"}">
+          🛒 Supermercados en Mdeo
+        </button>
+      </div>
+
+      <div class="recipe-tab-body">
+        ${tabPanelHtml}
+      </div>
     `;
 
     const backBtn = document.getElementById("back-to-results-btn");
@@ -739,15 +830,24 @@
       backBtn.addEventListener("click", backToResultsModal);
     }
 
-    document.getElementById("toggle-market-btn").addEventListener("click", () => {
-      state.showSupermarketView = !state.showSupermarketView;
-      if (state.showSupermarketView) state.cookingStepIndex = null;
-      renderRecipeModalContent();
-    });
-
     document.getElementById("modal-fav-btn").addEventListener("click", () => toggleFavorite(r.id));
 
-    if (isMarketView) {
+    const switchTab = (nextTab) => {
+      state.recipeTab = nextTab;
+      state.showSupermarketView = nextTab === "market";
+      if (nextTab !== "steps") state.cookingStepIndex = null;
+      renderRecipeModalContent();
+    };
+
+    els.modalBody.querySelectorAll("[data-recipe-tab]").forEach((btn) => {
+      btn.addEventListener("click", () => switchTab(btn.dataset.recipeTab));
+    });
+
+    els.modalBody.querySelectorAll("[data-goto-tab]").forEach((btn) => {
+      btn.addEventListener("click", () => switchTab(btn.dataset.gotoTab));
+    });
+
+    if (activeTab === "market") {
       document.getElementById("market-barrio-select").addEventListener("change", (e) => {
         state.selectedBarrio = e.target.value;
         state.userGpsCoords = null;
@@ -804,13 +904,7 @@
         }
         renderRecipeModalContent();
       });
-    } else {
-      els.modalBody.querySelectorAll(".recipe-ing-checkbox").forEach((cb) => {
-        cb.addEventListener("change", (e) => {
-          state.checkedIngredients[e.target.dataset.ingIdx] = e.target.checked;
-        });
-      });
-
+    } else if (activeTab === "steps") {
       const enterStepBtn = document.getElementById("enter-step-mode-btn");
       if (enterStepBtn) {
         enterStepBtn.addEventListener("click", () => {
@@ -818,6 +912,12 @@
           renderRecipeModalContent();
         });
       }
+    } else {
+      els.modalBody.querySelectorAll(".recipe-ing-checkbox").forEach((cb) => {
+        cb.addEventListener("change", (e) => {
+          state.checkedIngredients[e.target.dataset.ingIdx] = e.target.checked;
+        });
+      });
     }
 
     const minusBtn = document.getElementById("servings-minus");
@@ -909,17 +1009,20 @@
 
     els.searchInput.addEventListener("input", (e) => {
       state.searchQuery = e.target.value;
+      state.resultsPage = 0;
       els.searchSubmitBtn.hidden = !state.searchQuery.trim();
       syncUI();
     });
 
     els.searchForm.addEventListener("submit", (e) => {
       e.preventDefault();
+      state.resultsPage = 0;
       openResultsModal();
     });
 
     els.favToggleBtn.addEventListener("click", () => {
       state.onlyFavorites = true;
+      state.resultsPage = 0;
       els.favToggleBtn.classList.add("is-active");
       syncUI();
       openResultsModal();
@@ -929,6 +1032,7 @@
 
     els.resetWheelBtn.addEventListener("click", () => {
       state.selectedPath = {};
+      state.resultsPage = 0;
       syncUI();
     });
 
@@ -938,6 +1042,7 @@
 
     els.resultsModalClose.addEventListener("click", () => {
       state.onlyFavorites = false;
+      state.resultsPage = 0;
       els.favToggleBtn.classList.remove("is-active");
       closeResultsModal();
       syncUI();
@@ -946,6 +1051,7 @@
     els.resultsModal.addEventListener("click", (e) => {
       if (e.target === els.resultsModal) {
         state.onlyFavorites = false;
+        state.resultsPage = 0;
         els.favToggleBtn.classList.remove("is-active");
         closeResultsModal();
         syncUI();
@@ -963,9 +1069,23 @@
           closeRecipeModal();
         } else if (!els.resultsModal.hidden) {
           state.onlyFavorites = false;
+          state.resultsPage = 0;
           els.favToggleBtn.classList.remove("is-active");
           closeResultsModal();
           syncUI();
+        }
+      } else if (!els.resultsModal.hidden && els.modal.hidden) {
+        if (e.key === "ArrowLeft" && state.resultsPage > 0) {
+          e.preventDefault();
+          state.resultsPage -= 1;
+          renderResultsModal();
+        } else if (e.key === "ArrowRight") {
+          const totalPages = Math.ceil(getFilteredRecipes().length / state.resultsPageSize);
+          if (state.resultsPage < totalPages - 1) {
+            e.preventDefault();
+            state.resultsPage += 1;
+            renderResultsModal();
+          }
         }
       }
     });
