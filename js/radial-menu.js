@@ -200,15 +200,15 @@ class RadialMenu {
           d: pathD,
           class: "sector-wedge",
           fill: isSelected ? cfg.selectedFill : cfg.baseFill,
-          stroke: "#ffffff",
-          "stroke-width": "2"
+          stroke: isSelected ? item.color : "rgba(255, 255, 255, 0.88)",
+          "stroke-width": isSelected ? "2.5" : "1.8"
         });
         sectorGroup.appendChild(wedge);
 
-        // Si está seleccionado, agregamos un arco de acento de color en el borde exterior
+        // Si está seleccionado, destacamos el sector con un borde y un arco exterior elegante
         if (isSelected) {
           const accentArc = this.createEl("path", {
-            d: this.describeAnnularSector(0, 0, cfg.rOut - 4, cfg.rOut, startAngle + 0.5, endAngle - 0.5),
+            d: this.describeAnnularSector(0, 0, cfg.rOut - 5, cfg.rOut, startAngle + 0.5, endAngle - 0.5),
             fill: item.color,
             class: "sector-accent"
           });
@@ -280,21 +280,6 @@ class RadialMenu {
           sectorGroup.appendChild(countText);
         }
 
-        // Muesca/flecha conectora triangular en el borde exterior del sector seleccionado
-        if (isSelected && levelIdx < this.levels.length - 1) {
-          const tip = this.polarToCartesian(0, 0, cfg.rOut + 8, midAngle);
-          const base1 = this.polarToCartesian(0, 0, cfg.rOut - 2, midAngle - 4.5);
-          const base2 = this.polarToCartesian(0, 0, cfg.rOut - 2, midAngle + 4.5);
-          const notch = this.createEl("polygon", {
-            points: `${tip.x.toFixed(2)},${tip.y.toFixed(2)} ${base1.x.toFixed(2)},${base1.y.toFixed(2)} ${base2.x.toFixed(2)},${base2.y.toFixed(2)}`,
-            fill: item.color,
-            stroke: "#ffffff",
-            "stroke-width": "1.5",
-            class: "sector-connector"
-          });
-          sectorGroup.appendChild(notch);
-        }
-
         const handleActivate = (e) => {
           e.preventDefault();
           this.onSelect(level.key, item.id);
@@ -313,16 +298,6 @@ class RadialMenu {
 
         ringGroup.appendChild(sectorGroup);
       });
-
-      // Arco interior de acento con el color de la categoría padre seleccionada
-      if (levelIdx > 0 && parentColor) {
-        const parentTintArc = this.createEl("path", {
-          d: this.describeAnnularSector(0, 0, cfg.rIn, cfg.rIn + 3.5, startOffset + 0.4, startOffset + cfg.spanDeg - 0.4),
-          fill: parentColor,
-          class: "ring-parent-tint"
-        });
-        ringGroup.appendChild(parentTintArc);
-      }
 
       parentColor = nextParentColor;
       svg.appendChild(ringGroup);
