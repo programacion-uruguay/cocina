@@ -34,6 +34,16 @@
   --success: #16a34a;
 
   --wheel-bg: radial-gradient(circle at 50% 45%, rgba(79, 70, 229, 0.07), var(--surface) 70%);
+  --wheel-backdrop: #e9ecf5;
+  --wheel-wedge: #ffffff;
+  --wheel-wedge-hover: #f4f6ff;
+  --wheel-divider: #e4e8f3;
+  --wheel-step-bg: #eef1f9;
+  --wheel-step-active: #ffffff;
+  --wheel-step-done: #f5f7ff;
+  --wheel-hub-bg: #ffffff;
+  --wheel-pill-bg: rgba(15, 23, 42, 0.065);
+  --wheel-pill-text: #475569;
   --overlay: rgba(15, 23, 42, 0.55);
 }
 
@@ -57,6 +67,16 @@
   --danger: #c92a2a;
 
   --wheel-bg: radial-gradient(circle at 50% 45%, rgba(217, 72, 15, 0.09), var(--surface) 70%);
+  --wheel-backdrop: #f1e6d8;
+  --wheel-wedge: #fffcf8;
+  --wheel-wedge-hover: #fff4e8;
+  --wheel-divider: #ecdcc9;
+  --wheel-step-bg: #f6ece0;
+  --wheel-step-active: #ffffff;
+  --wheel-step-done: #fff8f0;
+  --wheel-hub-bg: #ffffff;
+  --wheel-pill-bg: rgba(42, 27, 16, 0.065);
+  --wheel-pill-text: #624a38;
   --overlay: rgba(42, 27, 16, 0.55);
 }
 
@@ -81,6 +101,16 @@
   --success: #4ade80;
 
   --wheel-bg: radial-gradient(circle at 50% 45%, rgba(99, 102, 241, 0.2), var(--surface) 72%);
+  --wheel-backdrop: #161e36;
+  --wheel-wedge: #1b2440;
+  --wheel-wedge-hover: #232f54;
+  --wheel-divider: #2e3b63;
+  --wheel-step-bg: #141a2e;
+  --wheel-step-active: #232d4f;
+  --wheel-step-done: #1f2947;
+  --wheel-hub-bg: #182039;
+  --wheel-pill-bg: rgba(255, 255, 255, 0.10);
+  --wheel-pill-text: #cbd5e1;
   --overlay: rgba(3, 6, 18, 0.72);
 }
 
@@ -485,8 +515,8 @@ button {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 920px;
-  height: clamp(340px, 68vh, 760px);
+  max-width: 620px;
+  height: clamp(360px, 64vh, 600px);
   margin: 0 auto;
 }
 
@@ -499,15 +529,15 @@ button {
   user-select: none;
 }
 
-.radial-ring {
+.radial-ring-main.is-entering {
   transform-origin: 0 0;
   animation: ringPop 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes ringPop {
   from {
-    opacity: 0;
-    transform: scale(0.92);
+    opacity: 0.4;
+    transform: scale(0.95);
   }
   to {
     opacity: 1;
@@ -516,36 +546,70 @@ button {
 }
 
 .radial-svg text {
-  font-family: var(--font-heading);
+  font-family: var(--font-display);
   letter-spacing: 0.01em;
   user-select: none;
 }
 
+.main-ring-backdrop {
+  stroke: var(--wheel-backdrop);
+}
+
+/* Sectores del anillo principal (Corona 3) */
 .radial-sector {
   cursor: pointer;
   outline: none;
 }
 
 .radial-sector .sector-wedge {
-  transition: fill 0.25s ease, opacity 0.25s ease, stroke 0.25s ease;
+  fill: var(--wheel-wedge);
+  stroke: var(--wheel-divider);
+  transition: fill 0.25s ease, stroke 0.25s ease;
 }
 
-.radial-sector.is-selected .sector-wedge {
-  filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.45));
-}
-
-.radial-sector .sector-accent {
+.radial-sector .sector-tint {
   pointer-events: none;
-  filter: drop-shadow(0 0 5px var(--sector-color, rgba(255, 255, 255, 0.5)));
+  opacity: 0.9;
+  transition: opacity 0.25s ease;
 }
 
 .radial-sector:hover .sector-wedge,
 .radial-sector:focus-visible .sector-wedge {
-  fill: #444b55;
+  fill: var(--wheel-wedge-hover);
 }
 
-.radial-sector.is-empty {
-  opacity: 0.55;
+.radial-sector:hover .sector-tint,
+.radial-sector:focus-visible .sector-tint,
+.radial-sector.is-selected .sector-tint {
+  opacity: 1;
+}
+
+.radial-sector .sector-accent {
+  pointer-events: none;
+  opacity: 0.78;
+  transition: opacity 0.25s ease, filter 0.25s ease;
+}
+
+.radial-sector:hover .sector-accent,
+.radial-sector:focus-visible .sector-accent,
+.radial-sector.is-selected .sector-accent {
+  opacity: 1;
+  filter: drop-shadow(0 0 6px var(--sector-color, rgba(255, 255, 255, 0.5)));
+}
+
+.radial-sector .sector-halo {
+  pointer-events: none;
+  opacity: 0.16;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.radial-sector:hover .sector-halo,
+.radial-sector:focus-visible .sector-halo,
+.radial-sector.is-selected .sector-halo {
+  opacity: 0.28;
+  transform: scale(1.16);
 }
 
 .radial-sector .sector-badge {
@@ -555,23 +619,140 @@ button {
 }
 
 .radial-sector:hover .sector-badge,
-.radial-sector:focus-visible .sector-badge {
-  transform: scale(1.14);
-  filter: drop-shadow(0 0 7px var(--sector-color, #ffffff));
+.radial-sector:focus-visible .sector-badge,
+.radial-sector.is-selected .sector-badge {
+  transform: scale(1.1);
+  filter: drop-shadow(0 3px 8px rgba(15, 23, 42, 0.22));
 }
 
+.radial-sector .sector-icon {
+  pointer-events: none;
+  transition: transform 0.25s ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.radial-sector:hover .sector-icon,
+.radial-sector:focus-visible .sector-icon,
+.radial-sector.is-selected .sector-icon {
+  transform: scale(1.08);
+}
+
+.radial-sector .sector-label {
+  fill: var(--text);
+  pointer-events: none;
+}
+
+.radial-sector .sector-count-pill {
+  pointer-events: none;
+}
+
+.radial-sector .sector-pill-bg {
+  fill: var(--wheel-pill-bg);
+  transition: fill 0.25s ease;
+}
+
+.radial-sector:hover .sector-pill-bg,
+.radial-sector.is-selected .sector-pill-bg {
+  fill: var(--primary-soft);
+}
+
+.radial-sector .sector-pill-text {
+  fill: var(--wheel-pill-text);
+}
+
+.radial-sector.is-empty {
+  opacity: 0.48;
+}
+
+/* Anillo interior de pasos (Corona 2) */
+.inner-step-sector {
+  outline: none;
+}
+
+.inner-step-sector.is-done {
+  cursor: pointer;
+}
+
+.inner-step-wedge {
+  fill: var(--wheel-step-bg);
+  stroke: var(--wheel-divider);
+  transition: fill 0.25s ease, stroke 0.25s ease;
+}
+
+.inner-step-sector.is-done .inner-step-wedge {
+  fill: var(--wheel-step-done);
+}
+
+.inner-step-sector.is-done:hover .inner-step-wedge,
+.inner-step-sector.is-done:focus-visible .inner-step-wedge {
+  fill: var(--wheel-wedge-hover);
+}
+
+.inner-step-sector.is-active-step .inner-step-wedge {
+  fill: var(--wheel-step-active);
+}
+
+.inner-step-accent {
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.inner-step-accent-primary {
+  fill: var(--primary);
+  pointer-events: none;
+}
+
+.inner-step-label {
+  fill: var(--text-muted);
+  pointer-events: none;
+}
+
+.inner-step-sector.is-done .inner-step-label {
+  fill: var(--text);
+}
+
+.inner-step-sector.is-active-step .inner-step-label {
+  fill: var(--primary-text);
+}
+
+/* Centro del círculo / Hub (Corona 1) */
 .radial-hub {
   cursor: pointer;
   outline: none;
 }
 
-.radial-hub circle {
-  transition: stroke 0.25s ease, stroke-width 0.25s ease, fill 0.25s ease;
+.radial-hub .hub-circle {
+  fill: var(--wheel-hub-bg);
+  stroke: var(--border);
+  transition: stroke 0.25s ease, stroke-width 0.25s ease, fill 0.25s ease, transform 0.25s ease;
 }
 
-.radial-hub:hover circle,
-.radial-hub:focus-visible circle {
-  fill: #f8fafc;
+.radial-hub:hover .hub-circle,
+.radial-hub:focus-visible .hub-circle {
+  fill: var(--wheel-wedge-hover);
+  stroke: var(--primary);
+}
+
+.radial-hub .hub-step-label {
+  fill: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: fill 0.25s ease;
+}
+
+.radial-hub .hub-icon {
+  stroke: var(--primary);
+  transition: stroke 0.25s ease;
+}
+
+.radial-hub .hub-title {
+  fill: var(--text);
+}
+
+.radial-hub .hub-sub {
+  fill: var(--primary-text);
+  transition: fill 0.25s ease;
 }
 
 .wheel-quick-bar {
@@ -637,6 +818,7 @@ button {
 .wheel-legend {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: var(--space-2);
   margin-top: var(--space-4);
@@ -644,6 +826,43 @@ button {
   font-size: var(--fs-xs);
   color: var(--text-muted);
   border-top: 1px solid var(--border);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.28rem 0.7rem;
+  font: inherit;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  transition: all 0.25s ease;
+}
+
+.legend-item:disabled {
+  cursor: default;
+}
+
+.legend-item.is-active {
+  color: var(--primary-text);
+  background: var(--primary-soft);
+  border-color: var(--primary-soft);
+  font-weight: 700;
+}
+
+.legend-item.is-done {
+  cursor: pointer;
+  color: var(--text);
+  background: var(--surface-2);
+  border-color: var(--legend-color, var(--border));
+}
+
+.legend-item.is-done:hover {
+  background: var(--hover);
+  transform: translateY(-1px);
 }
 
 .legend-sep {
@@ -1771,8 +1990,13 @@ button {
   }
 
   .radial-menu-container {
-    height: min(118vw, 70vh);
-    min-height: 320px;
+    height: min(94vw, 66vh);
+    min-height: 310px;
+  }
+
+  .legend-tip {
+    flex-basis: 100%;
+    text-align: center;
   }
 
   .modal-overlay {

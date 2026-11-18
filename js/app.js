@@ -34,6 +34,7 @@
     breadcrumb: document.getElementById("breadcrumb"),
     backWheelBtn: document.getElementById("back-wheel-btn"),
     resetWheelBtn: document.getElementById("reset-wheel-btn"),
+    legendItems: document.querySelectorAll("#wheel-legend .legend-item"),
     surpriseBtn: document.getElementById("surprise-btn"),
     quickSuggestions: document.getElementById("quick-suggestions"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
@@ -190,6 +191,46 @@
     if (keys.length === 0) return;
     delete state.selectedPath[keys[keys.length - 1]];
     syncUI();
+  }
+
+  function jumpToLevel(targetLevelIdx) {
+    const nextPath = {};
+    for (let i = 0; i < targetLevelIdx; i++) {
+      const k = MENU_LEVELS[i].key;
+      if (state.selectedPath[k]) nextPath[k] = state.selectedPath[k];
+    }
+    state.selectedPath = nextPath;
+    syncUI();
+  }
+
+  function renderLegend() {
+    if (!els.legendItems) return;
+    const firstUnselectedIdx = MENU_LEVELS.findIndex((l) => !state.selectedPath[l.key]);
+    const allDone = firstUnselectedIdx === -1;
+
+    els.legendItems.forEach((btn) => {
+      const idx = Number(btn.dataset.stepIndex);
+      const level = MENU_LEVELS[idx];
+      const selectedId = level ? state.selectedPath[level.key] : null;
+      const selectedItem = selectedId ? getMenuItemById(level.key, selectedId) : null;
+      const isDone = Boolean(selectedItem);
+      const isActive = (!allDone && idx === firstUnselectedIdx) || (allDone && idx === MENU_LEVELS.length - 1);
+
+      btn.classList.toggle("is-done", isDone);
+      btn.classList.toggle("is-active", isActive);
+      btn.disabled = !isDone;
+
+      const strong = document.createElement("strong");
+      strong.textContent = `${idx + 1}.`;
+      const labelText = selectedItem ? ` ${selectedItem.shortLabel}` : level ? ` ${level.title}` : "";
+      btn.replaceChildren(strong, document.createTextNode(labelText));
+
+      if (selectedItem) {
+        btn.style.setProperty("--legend-color", selectedItem.color);
+      } else {
+        btn.style.removeProperty("--legend-color");
+      }
+    });
   }
 
   function resetAllFilters() {
@@ -838,6 +879,7 @@
   function syncUI() {
     radialMenu.setSelectedPath(state.selectedPath);
     renderBreadcrumb();
+    renderLegend();
     renderQuickSuggestions();
   }
 
@@ -845,6 +887,15 @@
     els.themeButtons.forEach((btn) => {
       btn.addEventListener("click", () => applyTheme(btn.dataset.themeBtn));
     });
+
+    if (els.legendItems) {
+      els.legendItems.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const idx = Number(btn.dataset.stepIndex);
+          if (!Number.isNaN(idx)) jumpToLevel(idx);
+        });
+      });
+    }
 
     if (els.surpriseBtn) {
       els.surpriseBtn.addEventListener("click", () => {
@@ -937,6 +988,7 @@
     radialMenu = new RadialMenu(els.wheelContainer, MENU_LEVELS, {
       onSelect: handleWheelSelect,
       onCenterClick: handleCenterClick,
+      onStepClick: jumpToLevel,
       getItemCount: countForWheelSector
     });
 
