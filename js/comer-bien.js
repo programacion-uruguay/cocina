@@ -81,6 +81,36 @@
 
     if (showCB) renderCBStage();
     if (window.CB_REFRESH_RADIAL) window.CB_REFRESH_RADIAL();
+
+    // Banner contextual cuando viene desde "Buscar más en Menú Radial" en Inicio
+    let pickBanner = document.getElementById('cb-pick-banner');
+    if (state.user && state.mode === 'radial' && state.pickingForInicio) {
+      if (!pickBanner) {
+        pickBanner = document.createElement('div');
+        pickBanner.id = 'cb-pick-banner';
+        pickBanner.className = 'cb-mode-bar';
+        pickBanner.style.background = '#ecfdf5';
+        pickBanner.style.borderColor = '#a7f3d0';
+        els.wheelSection.parentNode.insertBefore(pickBanner, els.wheelSection);
+      }
+      const dietLabel = window.CB_GET_ACTIVE_DIET_LABEL();
+      pickBanner.innerHTML = `
+        <span style="font-size:13px;font-weight:700;color:#065f46;">
+          🌿 Elegí un momento y tocá <strong>“✓ Elegir para hoy”</strong> en la receta (${esc(dietLabel)})
+        </span>
+        <button type="button" id="cb-cancel-pick" class="cb-btn cb-btn-sm cb-btn-outline">← Volver a Inicio</button>
+      `;
+      pickBanner.classList.remove('cb-hidden');
+      document.getElementById('cb-cancel-pick').addEventListener('click', () => {
+        state.pickingForInicio = false;
+        localStorage.removeItem('comer_bien_picking_for_inicio');
+        state.mode = 'comerbien';
+        state.cbRoute = 'inicio';
+        syncTopbarAndMode();
+      });
+    } else if (pickBanner) {
+      pickBanner.classList.add('cb-hidden');
+    }
   }
 
   // ===========================================================================
@@ -1769,6 +1799,12 @@
   // ===========================================================================
 
   window.CB_IS_LOGGED_IN = () => Boolean(state.user);
+  window.CB_IS_PICKING_FOR_INICIO = () => Boolean(state.pickingForInicio);
+  window.CB_GET_ACTIVE_DIET_LABEL = () => {
+    if (!state.user) return '';
+    const p = D.DIET_PATTERNS.find((x) => x.id === (state.user.dietPattern || 'equilibrada'));
+    return p ? `${p.emoji} ${p.label}` : '';
+  };
 
   window.CB_IS_RADIAL_RECIPE_COMPATIBLE = (radialRecipe) => {
     if (!state.user) return true;

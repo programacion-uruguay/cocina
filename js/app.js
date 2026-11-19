@@ -433,7 +433,14 @@
                   ${r.temperatureC ? `<span>🌡️ ${r.temperatureC}°</span>` : ""}
                   <span>🍽️ ${r.servings}p</span>
                 </div>
-                <a href="${buildRecipeUrl(r.id)}" target="_blank" rel="noopener" class="card-view-link" data-view-id="${r.id}">Abrir receta ↗</a>
+                <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                  ${
+                    window.CB_IS_LOGGED_IN && window.CB_IS_LOGGED_IN()
+                      ? `<button type="button" class="cb-btn cb-btn-sm cb-btn-primary" data-cb-pick-id="${r.id}">✓ Elegir para hoy</button>`
+                      : ""
+                  }
+                  <a href="${buildRecipeUrl(r.id)}" target="_blank" rel="noopener" class="card-view-link" data-view-id="${r.id}">Abrir receta ↗</a>
+                </div>
               </div>
             </div>
           </article>
@@ -476,9 +483,25 @@
       }
     }
 
+    els.resultsModalGrid.querySelectorAll("[data-cb-pick-id]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const rec = state.recipes.find((item) => item.id === btn.dataset.cbPickId);
+        if (!rec || !window.CB_LOG_RADIAL_RECIPE) return;
+        window.CB_LOG_RADIAL_RECIPE(rec, "planned");
+        closeResultsModal();
+      });
+    });
+
     els.resultsModalGrid.querySelectorAll(".recipe-card").forEach((card) => {
       card.addEventListener("click", (e) => {
-        if (e.target.closest("[data-fav-id]") || e.target.closest("a.card-view-link")) return;
+        if (
+          e.target.closest("[data-fav-id]") ||
+          e.target.closest("[data-cb-pick-id]") ||
+          e.target.closest("a.card-view-link")
+        ) {
+          return;
+        }
         e.preventDefault();
         openRecipeInNewTab(card.dataset.id);
       });
