@@ -498,6 +498,16 @@
             <span class="fact-pill">🔥 ${evalResult.perServing.kcal} kcal / porc.</span>
             <span class="fact-pill">📊 ${escapeHtml(r.difficulty || "Fácil")}</span>
           </div>
+          ${
+            window.CB_STORAGE && window.CB_STORAGE.getActiveUser()
+              ? `<div class="cb-radial-log-bar" style="margin-top:12px;">
+                  <span style="font-size:12px;font-weight:700;color:#22533a;">🌿 COMER BIEN:</span>
+                  <button type="button" id="cb-studio-eat" class="cb-btn cb-btn-sm cb-btn-primary">✓ Ya lo comí hoy</button>
+                  <button type="button" id="cb-studio-plan" class="cb-btn cb-btn-sm cb-btn-outline">📅 Pienso comer esto hoy</button>
+                  <span id="cb-studio-fb" style="font-size:12px;font-weight:700;color:#065f46;"></span>
+                </div>`
+              : ""
+          }
         </div>
 
         <div class="media-tabs-bar" role="tablist">
@@ -896,6 +906,69 @@
 
   function bindStudioEvents(r, baseMedia) {
     // Media tabs
+    const backBtn = document.querySelector(".btn-back-menu");
+    if (backBtn && localStorage.getItem("comer_bien_picking_for_inicio") === "1") {
+      backBtn.textContent = "← Volver a Inicio";
+    }
+
+    const saveStudioToComerBien = (status) => {
+      if (!window.CB_STORAGE || !window.CB_DATA || !window.CB_ENGINE) return;
+      const user = window.CB_STORAGE.getActiveUser();
+      if (!user) return;
+      const userData = window.CB_STORAGE.getUserData(user.username);
+      const validMoment = window.CB_DATA.MOMENTS_ORDER.includes(r.momento) ? r.momento : "almuerzo";
+      const catMap = {
+        pollo: ["proteinas_animales"],
+        carnes: ["proteinas_animales"],
+        pescados: ["proteinas_animales"],
+        verduras: ["verduras"],
+        pastas: ["cereales_tuberculos"],
+        dulces: ["cereales_tuberculos"],
+      };
+      const fg = catMap[r.categoria] || ["cereales_tuberculos", "verduras"];
+      const today = window.CB_STORAGE.getTodayIso();
+      const todayIdx = window.CB_ENGINE.getTodayDayIndex();
+
+      userData.dailyLogs = userData.dailyLogs.filter(
+        (l) => !(l.logDate === today && l.moment === validMoment)
+      );
+      userData.dailyLogs.unshift({
+        id: "log-" + Date.now(),
+        logDate: today,
+        moment: validMoment,
+        recipeId: r.id,
+        title: r.title,
+        status,
+        foodGroups: fg,
+      });
+
+      if (userData.menuSlots.some((s) => s.dayIndex === todayIdx && s.moment === validMoment)) {
+        userData.menuSlots = userData.menuSlots.map((s) =>
+          s.dayIndex === todayIdx && s.moment === validMoment
+            ? { ...s, recipeId: r.id, customTitle: null, status }
+            : s
+        );
+      }
+
+      window.CB_STORAGE.saveUserData(user.username, userData);
+
+      if (localStorage.getItem("comer_bien_picking_for_inicio") === "1") {
+        localStorage.removeItem("comer_bien_picking_for_inicio");
+        localStorage.setItem("comer_bien_return_to_inicio", "1");
+        window.location.href = "./index.html";
+        return;
+      }
+
+      const fb = document.getElementById("cb-studio-fb");
+      if (fb) {
+        fb.textContent =
+          status === "eaten" ? "✓ Actualizado como comido hoy" : "✓ Actualizado para hoy";
+      }
+    };
+
+    document.getElementById("cb-studio-eat")?.addEventListener("click", () => saveStudioToComerBien("eaten"));
+    document.getElementById("cb-studio-plan")?.addEventListener("click", () => saveStudioToComerBien("planned"));
+
     els.studio.querySelectorAll("[data-media-tab]").forEach((btn) => {
       btn.addEventListener("click", () => {
         state.mediaTab = btn.dataset.mediaTab;

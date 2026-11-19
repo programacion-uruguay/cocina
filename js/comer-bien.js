@@ -404,6 +404,7 @@
 
     document.getElementById('cb-go-radial').addEventListener('click', () => {
       state.pickingForInicio = true;
+      localStorage.setItem('comer_bien_picking_for_inicio', '1');
       state.mode = 'radial';
       syncTopbarAndMode();
     });
@@ -1900,6 +1901,11 @@
   if (existing) {
     state.user = existing;
     state.userData = S.getUserData(existing.username);
+    if (localStorage.getItem('comer_bien_return_to_inicio') === '1') {
+      localStorage.removeItem('comer_bien_return_to_inicio');
+      state.mode = 'comerbien';
+      state.cbRoute = 'inicio';
+    }
   }
   syncTopbarAndMode();
 })();
