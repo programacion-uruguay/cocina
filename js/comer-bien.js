@@ -911,15 +911,16 @@
   ];
 
   function buildPantryWheelSvg(pantry, matchCount) {
-    const cx = 180;
-    const cy = 180;
-    const rOuter = 168;
-    const rInner = 64;
+    const cx = 210;
+    const cy = 210;
+    const rOuter = 192;
+    const rMid = 96;
+    const rInner = 54;
     const path = state.pantryWheelPath;
 
     let level = 1;
     let segments = PANTRY_TREE;
-    let centerTitle = '1. Elegí grupo';
+    let stepTitle = 'PASO 1 · GRUPO';
 
     const groupObj = path.group ? PANTRY_TREE.find((g) => g.id === path.group) : null;
     const subObj =
@@ -928,59 +929,127 @@
     if (subObj) {
       level = 3;
       segments = subObj.items;
-      centerTitle = '3. Ingredientes';
+      stepTitle = 'PASO 3 · INGREDIENTES';
     } else if (groupObj) {
       level = 2;
       segments = groupObj.subgroups;
-      centerTitle = '2. Subtipo';
+      stepTitle = 'PASO 2 · SUBTIPO';
     }
 
+    const polar = (r, angle) => [cx + r * Math.cos(angle), cy + r * Math.sin(angle)];
+
+    const ringArc = (rIn, rOut, a1, a2) => {
+      const [x1, y1] = polar(rOut, a1);
+      const [x2, y2] = polar(rOut, a2);
+      const [x3, y3] = polar(rIn, a2);
+      const [x4, y4] = polar(rIn, a1);
+      const large = a2 - a1 > Math.PI ? 1 : 0;
+      return [
+        `M ${x1.toFixed(1)} ${y1.toFixed(1)}`,
+        `A ${rOut} ${rOut} 0 ${large} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`,
+        `L ${x3.toFixed(1)} ${y3.toFixed(1)}`,
+        `A ${rIn} ${rIn} 0 ${large} 0 ${x4.toFixed(1)} ${y4.toFixed(1)}`,
+        'Z',
+      ].join(' ');
+    };
+
+    const outerRimArc = (r, a1, a2) => {
+      const [x1, y1] = polar(r, a1);
+      const [x2, y2] = polar(r, a2);
+      const large = a2 - a1 > Math.PI ? 1 : 0;
+      return `M ${x1.toFixed(1)} ${y1.toFixed(1)} A ${r} ${r} 0 ${large} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+    };
+
+    const accentPalette = ['#22C55E', '#F59E0B', '#06B6D4', '#EC4899', '#3B82F6', '#8B5CF6'];
     const total = segments.length;
     const step = (2 * Math.PI) / total;
-    const polar = (r, angle) => [cx + r * Math.cos(angle), cy + r * Math.sin(angle)];
+
+    const defs = segments
+      .map(
+        (item, idx) => `
+          <radialGradient id="cb-grad-${idx}" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+            <stop offset="100%" stop-color="${item.color}" stop-opacity="1" />
+          </radialGradient>
+          <linearGradient id="cb-sel-${idx}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2F6F4E" />
+            <stop offset="100%" stop-color="#22533A" />
+          </linearGradient>`
+      )
+      .join('');
 
     const wedges = segments
       .map((item, idx) => {
-        const a1 = -Math.PI / 2 + idx * step + 0.018;
-        const a2 = -Math.PI / 2 + (idx + 1) * step - 0.018;
+        const a1 = -Math.PI / 2 + idx * step + 0.012;
+        const a2 = -Math.PI / 2 + (idx + 1) * step - 0.012;
         const mid = (a1 + a2) / 2;
-
-        const [x1, y1] = polar(rOuter, a1);
-        const [x2, y2] = polar(rOuter, a2);
-        const [x3, y3] = polar(rInner, a2);
-        const [x4, y4] = polar(rInner, a1);
-
-        const d = [
-          `M ${x1.toFixed(1)} ${y1.toFixed(1)}`,
-          `A ${rOuter} ${rOuter} 0 0 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`,
-          `L ${x3.toFixed(1)} ${y3.toFixed(1)}`,
-          `A ${rInner} ${rInner} 0 0 0 ${x4.toFixed(1)} ${y4.toFixed(1)}`,
-          'Z',
-        ].join(' ');
-
-        const [tx, ty] = polar((rOuter + rInner) / 2, mid);
+        const accent = accentPalette[idx % accentPalette.length];
         const isSelected = level === 3 && pantry.includes(item.id);
-        const fill = isSelected ? '#2F6F4E' : item.color;
-        const stroke = isSelected ? '#22533A' : '#D4C8AE';
-        const textFill = isSelected ? '#FFFFFF' : '#1F2933';
+
+        const [tx, ty] = polar((rOuter + rMid) / 2 + 2, mid);
+        const subText =
+          level === 1
+            ? `${item.subgroups.length} subtipos`
+            : level === 2
+            ? `${item.items.length} ing.`
+            : isSelected
+            ? '✓ Elegido'
+            : 'Tocar';
 
         return `
         <g class="cb-pantry-wedge" data-wheel-seg="${item.id}" data-wheel-level="${level}" role="button" tabindex="0">
-          <path d="${d}" fill="${fill}" stroke="${stroke}" stroke-width="${isSelected ? '2.5' : '1.4'}" />
-          <text x="${tx.toFixed(1)}" y="${(ty - 7).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="20">${item.emoji}</text>
-          <text x="${tx.toFixed(1)}" y="${(ty + 13).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="10.5" font-weight="700" fill="${textFill}">${item.label}</text>
+          <path d="${ringArc(rMid + 2, rOuter, a1, a2)}" fill="url(#cb-${isSelected ? 'sel' : 'grad'}-${idx})" stroke="#E5E7EB" stroke-width="1" />
+          <path d="${outerRimArc(rOuter - 1.5, a1, a2)}" fill="none" stroke="${isSelected ? '#166534' : accent}" stroke-width="3.5" stroke-linecap="round" />
+          <circle cx="${tx.toFixed(1)}" cy="${(ty - 14).toFixed(1)}" r="15" fill="${isSelected ? 'rgba(255,255,255,0.22)' : accent}" />
+          <text x="${tx.toFixed(1)}" y="${(ty - 13).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="14">${item.emoji}</text>
+          <text x="${tx.toFixed(1)}" y="${(ty + 9).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="11.5" font-weight="700" fill="${isSelected ? '#FFFFFF' : '#1F2933'}">${item.label}</text>
+          <rect x="${(tx - 24).toFixed(1)}" y="${(ty + 18).toFixed(1)}" width="48" height="15" rx="7.5" fill="${isSelected ? 'rgba(255,255,255,0.2)' : 'rgba(15,23,42,0.06)'}" />
+          <text x="${tx.toFixed(1)}" y="${(ty + 25.5).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="8.5" font-weight="700" fill="${isSelected ? '#E6F0EA' : '#475569'}">${subText}</text>
+        </g>`;
+      })
+      .join('');
+
+    const stepLabels = [
+      { id: 1, text: '1 · Grupo' },
+      { id: 2, text: '2 · Subtipo' },
+      { id: 3, text: '3 · Ingredientes' },
+    ];
+    const stepAngle = (2 * Math.PI) / 3;
+    const stepRing = stepLabels
+      .map((st, i) => {
+        const a1 = -Math.PI / 2 - stepAngle / 2 + i * stepAngle + 0.02;
+        const a2 = -Math.PI / 2 - stepAngle / 2 + (i + 1) * stepAngle - 0.02;
+        const mid = (a1 + a2) / 2;
+        const isActive = st.id === level;
+        const [lx, ly] = polar((rMid + rInner) / 2, mid);
+        let rot = (mid * 180) / Math.PI + 90;
+        if (rot > 90 && rot < 270) rot += 180;
+
+        return `
+        <g data-wheel-step="${st.id}" style="cursor:${st.id < level ? 'pointer' : 'default'};">
+          <path d="${ringArc(rInner, rMid, a1, a2)}" fill="${isActive ? '#FFFFFF' : '#F1F5F9'}" stroke="#CBD5E1" stroke-width="1" />
+          ${isActive ? `<path d="${outerRimArc(rMid - 1.5, a1, a2)}" fill="none" stroke="#2F6F4E" stroke-width="3" stroke-linecap="round" />` : ''}
+          <text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="9" font-weight="${isActive ? '800' : '600'}" fill="${isActive ? '#2F6F4E' : '#64748B'}" transform="rotate(${rot.toFixed(1)} ${lx.toFixed(1)} ${ly.toFixed(1)})">${st.text}</text>
         </g>`;
       })
       .join('');
 
     return `
-      <svg viewBox="0 0 360 360" class="cb-pantry-svg" aria-label="Rueda multinivel de ingredientes">
+      <svg viewBox="0 0 420 420" class="cb-pantry-svg" style="max-width:400px;" aria-label="Rueda multinivel de ingredientes">
+        <defs>
+          ${defs}
+          <filter id="cb-hub-shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12" />
+          </filter>
+        </defs>
         ${wedges}
+        ${stepRing}
         <g class="cb-pantry-center" id="cb-wheel-center-btn">
-          <circle cx="${cx}" cy="${cy}" r="${rInner - 5}" fill="#2F6F4E" stroke="#FFFFFF" stroke-width="3" />
-          <text x="${cx}" y="${cy - 16}" text-anchor="middle" font-size="10" font-weight="700" fill="#C8E6C9">${centerTitle}</text>
-          <text x="${cx}" y="${cy + 3}" text-anchor="middle" font-size="12.5" font-weight="800" fill="#FFFFFF">${pantry.length} elegidos</text>
-          <text x="${cx}" y="${cy + 20}" text-anchor="middle" font-size="10" font-weight="600" fill="#D1FAE5">${matchCount} recetas ↓</text>
+          <circle cx="${cx}" cy="${cy}" r="${rInner - 4}" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#cb-hub-shadow)" />
+          <text x="${cx}" y="${cy - 22}" text-anchor="middle" font-size="7.5" font-weight="800" fill="#64748B" letter-spacing="0.4">${stepTitle}</text>
+          <text x="${cx}" y="${cy - 4}" text-anchor="middle" font-size="18">🍳</text>
+          <text x="${cx}" y="${cy + 14}" text-anchor="middle" font-size="11.5" font-weight="800" fill="#1E293B">Ver recetas</text>
+          <text x="${cx}" y="${cy + 28}" text-anchor="middle" font-size="9.5" font-weight="700" fill="#2F6F4E">${matchCount} posibles (${pantry.length} ing.)</text>
         </g>
       </svg>`;
   }
@@ -1113,6 +1182,19 @@
       state.pantryWheelPath = { group: null, subgroup: null };
       renderCBStage();
     });
+
+    view.querySelectorAll('[data-wheel-step]').forEach((g) =>
+      g.addEventListener('click', () => {
+        const stepNum = Number(g.dataset.wheelStep);
+        if (stepNum === 1) {
+          state.pantryWheelPath = { group: null, subgroup: null };
+          renderCBStage();
+        } else if (stepNum === 2 && state.pantryWheelPath.group) {
+          state.pantryWheelPath = { ...state.pantryWheelPath, subgroup: null };
+          renderCBStage();
+        }
+      })
+    );
 
     document.getElementById('cb-wheel-center-btn')?.addEventListener('click', () => {
       document.getElementById('cb-pantry-results')?.scrollIntoView({ behavior: 'smooth' });
