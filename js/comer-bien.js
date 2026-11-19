@@ -8,7 +8,8 @@
     userData: null,
     mode: 'radial', // 'radial' | 'comerbien'
     cbRoute: 'inicio',
-    recipeFilters: { query: '', moment: 'all', maxCost: 'all', onlyFav: false, respectProfile: true },
+    recipeFilters: { query: '', moment: 'all', maxCost: 'all', focus: 'all', onlyFav: false, respectProfile: true },
+    recipeWheelStep: 1, // 1: Presupuesto, 2: Momento, 3: Enfoque
     pantry: ['huevo', 'papa', 'cebolla'],
     pantryWheelPath: { group: null, subgroup: null },
   };
@@ -657,70 +658,268 @@
     bindCBRecipes(view);
   }
 
-  // 3. RECETAS ECONÓMICAS
-  function renderRecetas(view) {
+  // 3. RECETAS ECONÓMICAS (con Rueda Radial de Presupuesto -> Momento -> Enfoque)
+  const RECIPE_WHEEL_LEVELS = {
+    1: {
+      title: 'PASO 1 · PRESUPUESTO',
+      items: [
+        { id: '120', label: 'Hasta $U 120', emoji: '🪙', color: '#DCFCE7' },
+        { id: '220', label: 'Hasta $U 220', emoji: '💵', color: '#FEF3C7' },
+        { id: '350', label: 'Hasta $U 350', emoji: '🛒', color: '#E0F2FE' },
+        { id: 'all', label: 'Todos los $U', emoji: '🌟', color: '#FCE7F3' },
+      ],
+    },
+    2: {
+      title: 'PASO 2 · MOMENTO',
+      items: [
+        { id: 'desayuno', label: 'Desayuno', emoji: '☀️', color: '#FEF3C7' },
+        { id: 'almuerzo', label: 'Almuerzo', emoji: '🍽️', color: '#DCFCE7' },
+        { id: 'merienda', label: 'Merienda', emoji: '🧉', color: '#E0F2FE' },
+        { id: 'cena', label: 'Cena', emoji: '🌙', color: '#EDE9FE' },
+        { id: 'all', label: 'Todos', emoji: '✨', color: '#FCE7F3' },
+      ],
+    },
+    3: {
+      title: 'PASO 3 · ENFOQUE',
+      items: [
+        { id: 'verduras', label: 'Con verduras', emoji: '🥦', color: '#DCFCE7' },
+        { id: 'legumbres', label: 'Legumbres', emoji: '🫘', color: '#FFEDD5' },
+        { id: 'rapido', label: 'Rápidas ≤20m', emoji: '⏱️', color: '#FEF3C7' },
+        { id: 'all', label: 'Variado', emoji: '🌿', color: '#E0F2FE' },
+      ],
+    },
+  };
+
+  function filterRecipesList() {
     const f = state.recipeFilters;
     const q = f.query.trim().toLowerCase();
-    const list = D.RECIPES.filter((r) => {
+    return D.RECIPES.filter((r) => {
       if (f.respectProfile && !E.isRecipeCompatible(r, state.user)) return false;
       if (f.moment !== 'all' && r.moment !== f.moment) return false;
       if (f.maxCost !== 'all' && r.estimatedCostUyu > Number(f.maxCost)) return false;
+      if (f.focus === 'verduras' && !r.foodGroups.includes('verduras')) return false;
+      if (f.focus === 'legumbres' && !r.foodGroups.includes('legumbres')) return false;
+      if (f.focus === 'rapido' && r.prepMinutes > 20) return false;
       if (f.onlyFav && !state.userData.favorites.includes(r.id)) return false;
       if (q && !r.title.toLowerCase().includes(q) && !r.ingredients.some((i) => i.name.toLowerCase().includes(q))) return false;
       return true;
     });
+  }
+
+  function buildRecipeWheelSvg(matchCount) {
+    const cx = 210;
+    const cy = 210;
+    const rOuter = 192;
+    const rMid = 96;
+    const rInner = 54;
+    const level = state.recipeWheelStep;
+    const cfg = RECIPE_WHEEL_LEVELS[level];
+    const segments = cfg.items;
+    const f = state.recipeFilters;
+
+    const polar = (r, angle) => [cx + r * Math.cos(angle), cy + r * Math.sin(angle)];
+    const ringArc = (rIn, rOut, a1, a2) => {
+      const [x1, y1] = polar(rOut, a1);
+      const [x2, y2] = polar(rOut, a2);
+      const [x3, y3] = polar(rIn, a2);
+      const [x4, y4] = polar(rIn, a1);
+      const large = a2 - a1 > Math.PI ? 1 : 0;
+      return `M ${x1.toFixed(1)} ${y1.toFixed(1)} A ${rOut} ${rOut} 0 ${large} 1 ${x2.toFixed(1)} ${y2.toFixed(1)} L ${x3.toFixed(1)} ${y3.toFixed(1)} A ${rIn} ${rIn} 0 ${large} 0 ${x4.toFixed(1)} ${y4.toFixed(1)} Z`;
+    };
+    const outerRimArc = (r, a1, a2) => {
+      const [x1, y1] = polar(r, a1);
+      const [x2, y2] = polar(r, a2);
+      const large = a2 - a1 > Math.PI ? 1 : 0;
+      return `M ${x1.toFixed(1)} ${y1.toFixed(1)} A ${r} ${r} 0 ${large} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+    };
+
+    const accentPalette = ['#22C55E', '#F59E0B', '#06B6D4', '#EC4899', '#3B82F6'];
+    const total = segments.length;
+    const step = (2 * Math.PI) / total;
+
+    const defs = segments
+      .map(
+        (item, idx) => `
+        <radialGradient id="cbr-grad-${idx}" cx="50%" cy="50%" r="70%">
+          <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+          <stop offset="100%" stop-color="${item.color}" stop-opacity="1" />
+        </radialGradient>`
+      )
+      .join('');
+
+    const wedges = segments
+      .map((item, idx) => {
+        const a1 = -Math.PI / 2 + idx * step + 0.012;
+        const a2 = -Math.PI / 2 + (idx + 1) * step - 0.012;
+        const mid = (a1 + a2) / 2;
+        const accent = accentPalette[idx % accentPalette.length];
+        const [tx, ty] = polar((rOuter + rMid) / 2 + 2, mid);
+
+        const activeVal = level === 1 ? f.maxCost : level === 2 ? f.moment : f.focus;
+        const isSelected = activeVal === item.id;
+
+        return `
+        <g class="cb-pantry-wedge" data-rw-seg="${item.id}" role="button" tabindex="0">
+          <path d="${ringArc(rMid + 2, rOuter, a1, a2)}" fill="${isSelected ? '#2F6F4E' : `url(#cbr-grad-${idx})`}" stroke="#E5E7EB" stroke-width="1" />
+          <path d="${outerRimArc(rOuter - 1.5, a1, a2)}" fill="none" stroke="${isSelected ? '#166534' : accent}" stroke-width="3.5" stroke-linecap="round" />
+          <circle cx="${tx.toFixed(1)}" cy="${(ty - 12).toFixed(1)}" r="15" fill="${isSelected ? 'rgba(255,255,255,0.22)' : accent}" />
+          <text x="${tx.toFixed(1)}" y="${(ty - 11).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="14">${item.emoji}</text>
+          <text x="${tx.toFixed(1)}" y="${(ty + 11).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="11" font-weight="700" fill="${isSelected ? '#FFFFFF' : '#1F2933'}">${item.label}</text>
+        </g>`;
+      })
+      .join('');
+
+    const stepLabels = [
+      { id: 1, text: '1 · Presupuesto' },
+      { id: 2, text: '2 · Momento' },
+      { id: 3, text: '3 · Enfoque' },
+    ];
+    const stepAngle = (2 * Math.PI) / 3;
+    const stepRing = stepLabels
+      .map((st, i) => {
+        const a1 = -Math.PI / 2 - stepAngle / 2 + i * stepAngle + 0.02;
+        const a2 = -Math.PI / 2 - stepAngle / 2 + (i + 1) * stepAngle - 0.02;
+        const mid = (a1 + a2) / 2;
+        const isActive = st.id === level;
+        const [lx, ly] = polar((rMid + rInner) / 2, mid);
+        let rot = (mid * 180) / Math.PI + 90;
+        if (rot > 90 && rot < 270) rot += 180;
+
+        return `
+        <g data-rw-step="${st.id}" style="cursor:pointer;">
+          <path d="${ringArc(rInner, rMid, a1, a2)}" fill="${isActive ? '#FFFFFF' : '#F1F5F9'}" stroke="#CBD5E1" stroke-width="1" />
+          ${isActive ? `<path d="${outerRimArc(rMid - 1.5, a1, a2)}" fill="none" stroke="#2F6F4E" stroke-width="3" stroke-linecap="round" />` : ''}
+          <text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="8.8" font-weight="${isActive ? '800' : '600'}" fill="${isActive ? '#2F6F4E' : '#64748B'}" transform="rotate(${rot.toFixed(1)} ${lx.toFixed(1)} ${ly.toFixed(1)})">${st.text}</text>
+        </g>`;
+      })
+      .join('');
+
+    return `
+      <svg viewBox="0 0 420 420" class="cb-pantry-svg" style="max-width:400px;" aria-label="Rueda de recetas económicas">
+        <defs>
+          ${defs}
+          <filter id="cbr-hub-shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12" />
+          </filter>
+        </defs>
+        ${wedges}
+        ${stepRing}
+        <g class="cb-pantry-center" id="cb-rw-center-btn">
+          <circle cx="${cx}" cy="${cy}" r="${rInner - 4}" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#cbr-hub-shadow)" />
+          <text x="${cx}" y="${cy - 22}" text-anchor="middle" font-size="7.2" font-weight="800" fill="#64748B">${cfg.title}</text>
+          <text x="${cx}" y="${cy - 4}" text-anchor="middle" font-size="18">📖</text>
+          <text x="${cx}" y="${cy + 14}" text-anchor="middle" font-size="11.5" font-weight="800" fill="#1E293B">Ver recetas</text>
+          <text x="${cx}" y="${cy + 28}" text-anchor="middle" font-size="9.5" font-weight="700" fill="#2F6F4E">${matchCount} encontradas ↓</text>
+        </g>
+      </svg>`;
+  }
+
+  function renderRecetas(view) {
+    const f = state.recipeFilters;
+    const list = filterRecipesList();
+
+    const crumbParts = [
+      f.maxCost === 'all' ? 'Todos los $U' : `Hasta $U ${f.maxCost}`,
+      f.moment === 'all' ? 'Todos los momentos' : D.MOMENT_LABELS[f.moment].label,
+      f.focus === 'all' ? 'Enfoque variado' : f.focus,
+    ];
 
     view.innerHTML = `
-      <div class="cb-card" style="margin-bottom:16px;display:flex;flex-direction:column;gap:10px;">
-        <div class="cb-grid-3">
-          <div class="cb-field"><label>Buscar</label><input id="cbr-q" value="${esc(f.query)}" placeholder="lentejas, boniato..." /></div>
-          <div class="cb-field">
-            <label>Momento</label>
-            <select id="cbr-m">
-              <option value="all">Todos</option>
-              <option value="desayuno" ${f.moment === 'desayuno' ? 'selected' : ''}>Desayuno</option>
-              <option value="almuerzo" ${f.moment === 'almuerzo' ? 'selected' : ''}>Almuerzo</option>
-              <option value="merienda" ${f.moment === 'merienda' ? 'selected' : ''}>Merienda</option>
-              <option value="cena" ${f.moment === 'cena' ? 'selected' : ''}>Cena</option>
-            </select>
+      <div class="cb-card" style="margin-bottom:16px;">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px;">
+          <div style="font-size:13px;font-weight:700;color:var(--cb-forest);">
+            ${crumbParts.join(' → ')}
           </div>
-          <div class="cb-field">
-            <label>Costo máximo ($U)</label>
-            <select id="cbr-c">
-              <option value="all">Cualquier costo</option>
-              <option value="120" ${f.maxCost === '120' ? 'selected' : ''}>Hasta $U 120</option>
-              <option value="220" ${f.maxCost === '220' ? 'selected' : ''}>Hasta $U 220</option>
-              <option value="320" ${f.maxCost === '320' ? 'selected' : ''}>Hasta $U 320</option>
-            </select>
+          <div style="display:flex;gap:6px;">
+            ${state.recipeWheelStep > 1 ? '<button type="button" class="cb-btn cb-btn-sm cb-btn-outline" id="cb-rw-back">← Atrás</button>' : ''}
+            <button type="button" class="cb-btn cb-btn-sm cb-btn-ghost" id="cb-rw-reset">Reiniciar filtros</button>
           </div>
         </div>
-        <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:13px;">
-          <label><input type="checkbox" id="cbr-resp" ${f.respectProfile ? 'checked' : ''} /> Respetar mis restricciones</label>
-          <label><input type="checkbox" id="cbr-fav" ${f.onlyFav ? 'checked' : ''} /> Solo favoritas (${state.userData.favorites.length})</label>
+
+        <div class="cb-pantry-wheel-wrap">
+          <div>${buildRecipeWheelSvg(list.length)}</div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div>
+              <h3 style="margin:0 0 4px;">Buscador Económico Radial</h3>
+              <p style="font-size:13px;color:var(--cb-muted);margin:0;">
+                Elegí presupuesto en $U, momento del día y enfoque en la rueda, o buscá por palabra clave.
+              </p>
+            </div>
+            <div class="cb-field">
+              <label>Buscar por nombre o ingrediente</label>
+              <input id="cbr-q" value="${esc(f.query)}" placeholder="Ej: lentejas, boniato, avena..." />
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:13px;">
+              <label style="cursor:pointer;"><input type="checkbox" id="cbr-resp" ${f.respectProfile ? 'checked' : ''} /> Respetar mis restricciones</label>
+              <label style="cursor:pointer;"><input type="checkbox" id="cbr-fav" ${f.onlyFav ? 'checked' : ''} /> Solo favoritas (${state.userData.favorites.length})</label>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="cb-grid-3">
-        ${list
-          .map(
-            (r) => `
-          <article class="cb-recipe-card" data-cb-open="${r.id}">
-            <div class="cb-recipe-thumb"><img src="${r.imageUrl}" alt="${esc(r.title)}" loading="lazy" /></div>
-            <div class="cb-recipe-body">
-              <div>
-                <div style="font-weight:700;font-size:15px;">${esc(r.title)}</div>
-                <p style="font-size:12px;color:var(--cb-muted);margin-top:4px;">${esc(r.description)}</p>
-              </div>
-              <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--cb-cream-dark);padding-top:8px;">
-                <span style="font-size:12px;color:var(--cb-muted);">⏱ ${r.prepMinutes}m · ${r.servings} porc.</span>
-                <span class="cb-badge cb-badge-sage">~$U ${r.estimatedCostUyu}</span>
-              </div>
-            </div>
-          </article>`
-          )
-          .join('')}
+      <div id="cb-rec-results" class="cb-grid-3">
+        ${
+          list.length
+            ? list
+                .map(
+                  (r) => `
+                <article class="cb-recipe-card" data-cb-open="${r.id}">
+                  <div class="cb-recipe-thumb"><img src="${r.imageUrl}" alt="${esc(r.title)}" loading="lazy" /></div>
+                  <div class="cb-recipe-body">
+                    <div>
+                      <div style="font-weight:700;font-size:15px;">${esc(r.title)}</div>
+                      <p style="font-size:12px;color:var(--cb-muted);margin-top:4px;">${esc(r.description)}</p>
+                    </div>
+                    <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--cb-cream-dark);padding-top:8px;">
+                      <span style="font-size:12px;color:var(--cb-muted);">⏱ ${r.prepMinutes}m · ${r.servings} porc.</span>
+                      <span class="cb-badge cb-badge-sage">~$U ${r.estimatedCostUyu}</span>
+                    </div>
+                  </div>
+                </article>`
+                )
+                .join('')
+            : '<div class="cb-card">No encontramos recetas con esa combinación. Probá reiniciar filtros.</div>'
+        }
       </div>
     `;
+
+    view.querySelectorAll('[data-rw-seg]').forEach((g) =>
+      g.addEventListener('click', () => {
+        const val = g.dataset.rwSeg;
+        if (state.recipeWheelStep === 1) {
+          state.recipeFilters.maxCost = val;
+          state.recipeWheelStep = 2;
+        } else if (state.recipeWheelStep === 2) {
+          state.recipeFilters.moment = val;
+          state.recipeWheelStep = 3;
+        } else {
+          state.recipeFilters.focus = val;
+        }
+        renderCBStage();
+      })
+    );
+
+    view.querySelectorAll('[data-rw-step]').forEach((g) =>
+      g.addEventListener('click', () => {
+        state.recipeWheelStep = Number(g.dataset.rwStep);
+        renderCBStage();
+      })
+    );
+
+    document.getElementById('cb-rw-back')?.addEventListener('click', () => {
+      state.recipeWheelStep = Math.max(1, state.recipeWheelStep - 1);
+      renderCBStage();
+    });
+
+    document.getElementById('cb-rw-reset')?.addEventListener('click', () => {
+      state.recipeFilters = { ...state.recipeFilters, query: '', moment: 'all', maxCost: 'all', focus: 'all' };
+      state.recipeWheelStep = 1;
+      renderCBStage();
+    });
+
+    document.getElementById('cb-rw-center-btn')?.addEventListener('click', () => {
+      document.getElementById('cb-rec-results')?.scrollIntoView({ behavior: 'smooth' });
+    });
 
     document.getElementById('cbr-q').addEventListener('input', (e) => {
       state.recipeFilters.query = e.target.value;
@@ -728,14 +927,6 @@
       const el = document.getElementById('cbr-q');
       el.focus();
       el.setSelectionRange(el.value.length, el.value.length);
-    });
-    document.getElementById('cbr-m').addEventListener('change', (e) => {
-      state.recipeFilters.moment = e.target.value;
-      renderCBStage();
-    });
-    document.getElementById('cbr-c').addEventListener('change', (e) => {
-      state.recipeFilters.maxCost = e.target.value;
-      renderCBStage();
     });
     document.getElementById('cbr-resp').addEventListener('change', (e) => {
       state.recipeFilters.respectProfile = e.target.checked;
