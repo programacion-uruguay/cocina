@@ -8,6 +8,7 @@
     userData: null,
     mode: 'radial', // 'radial' | 'comerbien'
     cbRoute: 'inicio',
+    pickingForInicio: false,
     recipeFilters: { query: '', moment: 'all', maxCost: 'all', focus: 'all', onlyFav: false, respectProfile: true },
     recipeWheelStep: 1, // 1: Presupuesto, 2: Momento, 3: Enfoque
     pantry: ['huevo', 'papa', 'cebolla'],
@@ -402,6 +403,7 @@
     `;
 
     document.getElementById('cb-go-radial').addEventListener('click', () => {
+      state.pickingForInicio = true;
       state.mode = 'radial';
       syncTopbarAndMode();
     });
@@ -1821,17 +1823,45 @@
       dulces: ['cereales_tuberculos'],
     };
     const fg = recipe.foodGroups || catMap[recipe.categoria] || ['cereales_tuberculos', 'verduras'];
+    const today = S.getTodayIso();
+    const todayIdx = E.getTodayDayIndex();
 
+    // Reemplazar el registro de hoy para ese momento (ej: si eligió Merienda, actualiza la Merienda de hoy)
+    state.userData.dailyLogs = state.userData.dailyLogs.filter(
+      (l) => !(l.logDate === today && l.moment === validMoment)
+    );
     state.userData.dailyLogs.unshift({
       id: 'log-' + Date.now(),
-      logDate: S.getTodayIso(),
+      logDate: today,
       moment: validMoment,
       recipeId: recipe.id,
       title: recipe.title,
       status,
       foodGroups: fg,
     });
+
+    // Sincronizar también el slot de hoy en el planificador semanal
+    const hasSlot = state.userData.menuSlots.some(
+      (s) => s.dayIndex === todayIdx && s.moment === validMoment
+    );
+    if (hasSlot) {
+      state.userData.menuSlots = state.userData.menuSlots.map((s) =>
+        s.dayIndex === todayIdx && s.moment === validMoment
+          ? { ...s, recipeId: recipe.id, customTitle: null, status }
+          : s
+      );
+    }
+
     persist();
+
+    if (state.pickingForInicio) {
+      state.pickingForInicio = false;
+      state.mode = 'comerbien';
+      state.cbRoute = 'inicio';
+      syncTopbarAndMode();
+      return 'returned';
+    }
+
     if (state.mode === 'comerbien' && state.cbRoute === 'inicio') renderCBStage();
     return true;
   };

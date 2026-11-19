@@ -885,14 +885,24 @@
     const cbFb = document.getElementById("cb-radial-fb");
     if (cbEatBtn && window.CB_LOG_RADIAL_RECIPE) {
       cbEatBtn.addEventListener("click", () => {
-        window.CB_LOG_RADIAL_RECIPE(r, "eaten");
-        if (cbFb) cbFb.textContent = "✓ Registrado como comido hoy";
+        const res = window.CB_LOG_RADIAL_RECIPE(r, "eaten");
+        if (res === "returned") {
+          closeRecipeModal();
+          closeResultsModal();
+          return;
+        }
+        if (cbFb) cbFb.textContent = "✓ Actualizado como comido hoy";
       });
     }
     if (cbPlanBtn && window.CB_LOG_RADIAL_RECIPE) {
       cbPlanBtn.addEventListener("click", () => {
-        window.CB_LOG_RADIAL_RECIPE(r, "planned");
-        if (cbFb) cbFb.textContent = "✓ Anotado para hoy";
+        const res = window.CB_LOG_RADIAL_RECIPE(r, "planned");
+        if (res === "returned") {
+          closeRecipeModal();
+          closeResultsModal();
+          return;
+        }
+        if (cbFb) cbFb.textContent = "✓ Actualizado para hoy";
       });
     }
 
