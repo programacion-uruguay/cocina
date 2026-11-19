@@ -79,6 +79,7 @@
     });
 
     if (showCB) renderCBStage();
+    if (window.CB_REFRESH_RADIAL) window.CB_REFRESH_RADIAL();
   }
 
   // ===========================================================================
@@ -1104,6 +1105,46 @@
     },
   ];
 
+  function isIngredientAllowedForProfile(ingId, profile) {
+    const pattern = (profile.dietPattern || 'equilibrada').toLowerCase();
+    const restrictions = (profile.restrictions || []).map((r) => r.toLowerCase());
+    const has = (kw) => restrictions.some((r) => r.includes(kw));
+
+    const meatFish = ['pollo', 'merluza', 'atún'];
+    const dairy = ['queso', 'ricota', 'yogur', 'leche'];
+    const gluten = ['avena', 'fideos', 'pan'];
+
+    if ((pattern === 'vegana' || has('vegano')) && (meatFish.includes(ingId) || dairy.includes(ingId) || ingId === 'huevo')) {
+      return false;
+    }
+    if ((pattern === 'vegetariana' || has('vegetariano')) && meatFish.includes(ingId)) {
+      return false;
+    }
+    if ((pattern === 'sin_lactosa' || has('lactosa') || has('lácteo')) && dairy.includes(ingId)) {
+      return false;
+    }
+    if ((pattern === 'sin_gluten' || has('gluten') || has('celiaqu')) && gluten.includes(ingId)) {
+      return false;
+    }
+    if ((has('huevo')) && ingId === 'huevo') return false;
+    if ((has('pescado') || has('marisco')) && ['merluza', 'atún'].includes(ingId)) return false;
+    if ((has('frutos secos') || has('maní')) && ingId === 'maní') return false;
+    if ((pattern === 'bajo_sodio' || has('sodio')) && ingId === 'atún') return false;
+    return true;
+  }
+
+  function getFilteredPantryTree(profile) {
+    return PANTRY_TREE.map((g) => {
+      const subs = g.subgroups
+        .map((s) => ({
+          ...s,
+          items: s.items.filter((it) => isIngredientAllowedForProfile(it.id, profile)),
+        }))
+        .filter((s) => s.items.length > 0);
+      return { ...g, subgroups: subs };
+    }).filter((g) => g.subgroups.length > 0);
+  }
+
   function buildPantryWheelSvg(pantry, matchCount) {
     const cx = 210;
     const cy = 210;
@@ -1111,12 +1152,13 @@
     const rMid = 96;
     const rInner = 54;
     const path = state.pantryWheelPath;
+    const tree = getFilteredPantryTree(state.user);
 
     let level = 1;
-    let segments = PANTRY_TREE;
+    let segments = tree;
     let stepTitle = 'PASO 1 · GRUPO';
 
-    const groupObj = path.group ? PANTRY_TREE.find((g) => g.id === path.group) : null;
+    const groupObj = path.group ? tree.find((g) => g.id === path.group) : null;
     const subObj =
       groupObj && path.subgroup ? groupObj.subgroups.find((s) => s.id === path.subgroup) : null;
 
@@ -1249,11 +1291,16 @@
   }
 
   function renderQueCocino(view) {
-    const pantry = state.pantry;
+    const pantry = state.pantry.filter((id) => isIngredientAllowedForProfile(id, state.user));
+    state.pantry = pantry;
+    const tree = getFilteredPantryTree(state.user);
     const path = state.pantryWheelPath;
-    const groupObj = path.group ? PANTRY_TREE.find((g) => g.id === path.group) : null;
+    const groupObj = path.group ? tree.find((g) => g.id === path.group) : null;
     const subObj =
       groupObj && path.subgroup ? groupObj.subgroups.find((s) => s.id === path.subgroup) : null;
+
+    const activePatternObj =
+      D.DIET_PATTERNS.find((p) => p.id === (state.user.dietPattern || 'equilibrada')) || D.DIET_PATTERNS[0];
 
     const compatible = D.RECIPES.filter((r) => E.isRecipeCompatible(r, state.user));
     const matches = compatible
@@ -1300,9 +1347,12 @@
           </div>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <div>
-              <h3 style="margin:0 0 4px;">Explorá por categoría en el círculo</h3>
+              <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px;">
+                <h3 style="margin:0;">Explorá por categoría en el círculo</h3>
+                <span class="cb-badge cb-badge-sage">${activePatternObj.emoji} ${esc(activePatternObj.label)}</span>
+              </div>
               <p style="font-size:13px;color:var(--cb-muted);margin:0;">
-                Elegí primero el grupo (Verduras, Frutas, Proteínas, Legumbres...), luego el subtipo y al final tocá los ingredientes que tenés en casa.
+                Solo mostramos ingredientes y recetas compatibles con tu tipo de alimentación.
               </p>
             </div>
             <form id="cb-pform" style="display:flex;gap:8px;">
@@ -1716,6 +1766,46 @@
   // ===========================================================================
 
   window.CB_IS_LOGGED_IN = () => Boolean(state.user);
+
+  window.CB_IS_RADIAL_RECIPE_COMPATIBLE = (radialRecipe) => {
+    if (!state.user) return true;
+    const pattern = (state.user.dietPattern || 'equilibrada').toLowerCase();
+    const restrictions = (state.user.restrictions || []).map((r) => r.toLowerCase());
+    const has = (kw) => restrictions.some((r) => r.includes(kw));
+
+    const text = [
+      radialRecipe.title || '',
+      radialRecipe.categoria || '',
+      ...(radialRecipe.ingredients || []).map((i) => i.item || ''),
+    ]
+      .join(' ')
+      .toLowerCase();
+
+    if (pattern === 'sin_gluten' || has('gluten') || has('celiaqu')) {
+      if (/(trigo|harina|pan |pan$|fideo|pasta|avena|galleta|tarta|masa)/.test(text) && !/sin tacc|maíz|arroz/.test(text)) {
+        return false;
+      }
+    }
+    if (pattern === 'sin_lactosa' || has('lactosa') || has('lácteo')) {
+      if (/(leche|queso|yogur|ricota|crema|manteca|muzzarella)/.test(text) && !/sin lactosa|vegetal/.test(text)) {
+        return false;
+      }
+    }
+    if (has('huevo') && /huevo|clara|yema/.test(text)) return false;
+    if ((has('pescado') || has('marisco')) && /(salmón|salmon|merluza|atún|pescado|brótola|camar)/.test(text)) return false;
+    if ((pattern === 'bajo_sodio' || has('sodio')) && /(lata|fiambre|jamón|panceta|salame|soja)/.test(text)) return false;
+
+    if (pattern === 'vegana' || has('vegano')) {
+      if (/(pollo|carne|vaca|cerdo|jamón|pescado|salmón|merluza|atún|huevo|leche|queso|yogur|ricota|manteca|crema|miel)/.test(text)) {
+        return false;
+      }
+    } else if (pattern === 'vegetariana' || has('vegetariano')) {
+      if (/(pollo|carne|vaca|cerdo|jamón|pescado|salmón|merluza|atún|lomo|asado|milanesa de)/.test(text)) {
+        return false;
+      }
+    }
+    return true;
+  };
 
   window.CB_LOG_RADIAL_RECIPE = (recipe, status = 'eaten') => {
     if (!state.user || !state.userData) return false;

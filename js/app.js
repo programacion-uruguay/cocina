@@ -132,6 +132,7 @@
 
     return state.recipes.filter((r) => {
       if (state.onlyFavorites && !isFavorite(r.id)) return false;
+      if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
       if (customPath.metodo && r.metodo !== customPath.metodo) return false;
       if (customPath.momento && r.momento !== customPath.momento) return false;
       if (customPath.categoria && r.categoria !== customPath.categoria) return false;
@@ -1187,6 +1188,11 @@
 
     syncUI();
   }
+
+  window.CB_REFRESH_RADIAL = () => {
+    if (radialMenu) radialMenu.render();
+    if (!els.resultsModal.hidden) renderResultsModal();
+  };
 
   init();
 })();
