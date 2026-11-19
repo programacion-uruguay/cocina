@@ -66,6 +66,16 @@ window.CB_DATA = (() => {
     'Control de azúcares simples',
   ];
 
+  const DIET_PATTERNS = [
+    { id: 'equilibrada', label: 'Equilibrada (MSP)', emoji: '🌿', desc: 'Variedad de todos los grupos, natural y económica.', clinical: false },
+    { id: 'vegetariana', label: 'Vegetariana', emoji: '🥬', desc: 'Sin carnes ni pescado; incluye huevo y lácteos.', clinical: false },
+    { id: 'vegana', label: '100% Vegetal', emoji: '🌱', desc: 'Solo alimentos de origen vegetal.', clinical: false },
+    { id: 'sin_gluten', label: 'Sin gluten (TACC)', emoji: '🌾', desc: 'Arroz, papa, boniato, zapallo y harina de garbanzos.', clinical: true },
+    { id: 'sin_lactosa', label: 'Sin lactosa', emoji: '🥛', desc: 'Excluye lácteos comunes.', clinical: true },
+    { id: 'bajo_sodio', label: 'Baja en sodio', emoji: '🧂', desc: 'Comida casera fresca, evitando enlatados.', clinical: true },
+    { id: 'sin_azucar', label: 'Sin azúcar agregada', emoji: '🍯', desc: 'Prioriza fibra, granos integrales y fruta entera.', clinical: true },
+  ];
+
   const PREFERENCE_OPTIONS = [
     'Platos de olla económicos',
     'Comidas rápidas (< 25 min)',
@@ -565,6 +575,7 @@ window.CB_DATA = (() => {
     DAYS_OF_WEEK,
     FOOD_GROUP_META,
     RESTRICTION_OPTIONS,
+    DIET_PATTERNS,
     PREFERENCE_OPTIONS,
     SHOPPING_CATEGORIES,
     COMMON_UY_PANTRY,

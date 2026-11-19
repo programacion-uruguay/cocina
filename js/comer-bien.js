@@ -252,6 +252,32 @@
       { id: 'perfil', label: '👤 Mi Perfil' },
     ];
 
+    const activePattern = state.user.dietPattern || 'equilibrada';
+    const activePatternObj = D.DIET_PATTERNS.find((p) => p.id === activePattern) || D.DIET_PATTERNS[0];
+    const compatibleCount = D.RECIPES.filter((r) => E.isRecipeCompatible(r, state.user)).length;
+
+    const dietBarHtml = `
+      <div class="cb-card" style="margin-bottom:16px;padding:12px 16px;background:var(--cb-cream);">
+        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;">
+          <div style="font-size:13px;font-weight:700;color:var(--cb-forest-dark);">
+            🍽️ Tipo de alimentación: <span style="color:var(--cb-forest);">${activePatternObj.emoji} ${activePatternObj.label}</span>
+          </div>
+          <span class="cb-badge cb-badge-sage">${compatibleCount} recetas adaptadas</span>
+        </div>
+        <div class="cb-chip-row">
+          ${D.DIET_PATTERNS.map(
+            (p) =>
+              `<button type="button" class="cb-chip ${activePattern === p.id ? 'active' : ''}" data-diet-pat="${p.id}" title="${esc(p.desc)}">${p.emoji} ${p.label}</button>`
+          ).join('')}
+        </div>
+        ${
+          activePatternObj.clinical
+            ? '<div style="font-size:11.5px;color:#78350f;margin-top:8px;">⚕️ Recordá que las situaciones clínicas requieren orientación de médico o nutricionista.</div>'
+            : `<div style="font-size:11.5px;color:var(--cb-muted);margin-top:6px;">${esc(activePatternObj.desc)}</div>`
+        }
+      </div>
+    `;
+
     const subnavHtml = `
       <nav class="cb-subnav">
         ${routes
@@ -263,9 +289,18 @@
           )
           .join('')}
       </nav>
+      ${dietBarHtml}
       <div id="cb-view"></div>
     `;
     els.cbStage.innerHTML = subnavHtml;
+
+    els.cbStage.querySelectorAll('[data-diet-pat]').forEach((b) =>
+      b.addEventListener('click', () => {
+        state.user.dietPattern = b.dataset.dietPat;
+        S.saveProfile(state.user);
+        renderCBStage();
+      })
+    );
 
     els.cbStage.querySelectorAll('[data-cb-route]').forEach((b) =>
       b.addEventListener('click', () => {

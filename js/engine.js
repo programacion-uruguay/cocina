@@ -2,16 +2,26 @@ window.CB_ENGINE = (() => {
   const { RECIPES, MOMENTS_ORDER, MOMENT_LABELS, FOOD_GROUP_META } = window.CB_DATA;
 
   function isRecipeCompatible(recipe, profile) {
+    const pattern = (profile.dietPattern || 'equilibrada').toLowerCase();
     const restrictions = (profile.restrictions || []).map((r) => r.toLowerCase());
     const has = (kw) => restrictions.some((r) => r.includes(kw));
 
-    if ((has('gluten') || has('celiaqu')) && recipe.allergens.includes('gluten')) return false;
-    if ((has('lactosa') || has('lácteo') || has('lacteo')) && recipe.allergens.includes('lactosa')) return false;
+    if (pattern === 'sin_gluten' || has('gluten') || has('celiaqu')) {
+      if (recipe.allergens.includes('gluten')) return false;
+    }
+    if (pattern === 'sin_lactosa' || has('lactosa') || has('lácteo') || has('lacteo')) {
+      if (recipe.allergens.includes('lactosa')) return false;
+    }
     if (has('huevo') && recipe.allergens.includes('huevo')) return false;
     if ((has('pescado') || has('marisco')) && recipe.allergens.includes('pescado')) return false;
     if ((has('frutos secos') || has('maní') || has('mani')) && recipe.allergens.includes('frutos_secos')) return false;
 
-    if (has('vegano')) {
+    if (pattern === 'bajo_sodio' || has('sodio') || has('hipertens')) {
+      const hasCanned = recipe.ingredients.some((i) => /lata|enlatad|fiambre|jamón|panceta/i.test(i.name));
+      if (hasCanned) return false;
+    }
+
+    if (pattern === 'vegana' || has('vegano')) {
       if (
         recipe.foodGroups.includes('proteinas_animales') ||
         recipe.foodGroups.includes('lacteos') ||
@@ -21,7 +31,7 @@ window.CB_ENGINE = (() => {
       ) {
         return false;
       }
-    } else if (has('vegetariano')) {
+    } else if (pattern === 'vegetariana' || has('vegetariano')) {
       const meatOrFish = recipe.ingredients.some((i) =>
         /pollo|carne|merluza|brótola|atún|pescado|cerdo|jamón/i.test(i.name)
       );
