@@ -10,6 +10,7 @@
     cbRoute: 'inicio',
     recipeFilters: { query: '', moment: 'all', maxCost: 'all', onlyFav: false, respectProfile: true },
     pantry: ['huevo', 'papa', 'cebolla'],
+    pantryWheelPath: { group: null, subgroup: null },
   };
 
   const els = {
@@ -747,22 +748,166 @@
     bindCBRecipes(view);
   }
 
-  // 4. ¿QUÉ COCINO HOY? (Rueda circular multi-selección de ingredientes)
-  const WHEEL_INGREDIENTS = [
-    { id: 'huevo', label: 'Huevo', emoji: '🥚', color: '#FEF3C7' },
-    { id: 'papa', label: 'Papa', emoji: '🥔', color: '#FDE68A' },
-    { id: 'boniato', label: 'Boniato', emoji: '🍠', color: '#FED7AA' },
-    { id: 'cebolla', label: 'Cebolla', emoji: '🧅', color: '#FCE7F3' },
-    { id: 'zapallo', label: 'Zapallo', emoji: '🎃', color: '#FFEDD5' },
-    { id: 'tomate', label: 'Tomate', emoji: '🍅', color: '#FEE2E2' },
-    { id: 'zanahoria', label: 'Zanahoria', emoji: '🥕', color: '#FFEDD5' },
-    { id: 'acelga', label: 'Acelga', emoji: '🥬', color: '#DCFCE7' },
-    { id: 'pollo', label: 'Pollo', emoji: '🍗', color: '#FEF3C7' },
-    { id: 'lentejas', label: 'Lentejas', emoji: '🫘', color: '#E0E7FF' },
-    { id: 'arroz', label: 'Arroz', emoji: '🍚', color: '#F3F4F6' },
-    { id: 'garbanzos', label: 'Garbanzos', emoji: '🧆', color: '#FEF9C3' },
-    { id: 'queso', label: 'Queso', emoji: '🧀', color: '#FEF3C7' },
-    { id: 'manzana', label: 'Manzana', emoji: '🍎', color: '#FFE4E6' },
+  // 4. ¿QUÉ COCINO HOY? (Rueda radial multinivel: 1. Grupo -> 2. Subtipo -> 3. Ingrediente)
+  const PANTRY_TREE = [
+    {
+      id: 'verduras',
+      label: 'Verduras',
+      emoji: '🥦',
+      color: '#DCFCE7',
+      subgroups: [
+        {
+          id: 'raices',
+          label: 'Papa y Zapallo',
+          emoji: '🥔',
+          color: '#FEF3C7',
+          items: [
+            { id: 'papa', label: 'Papa', emoji: '🥔', color: '#FDE68A' },
+            { id: 'boniato', label: 'Boniato', emoji: '🍠', color: '#FED7AA' },
+            { id: 'zapallo', label: 'Zapallo', emoji: '🎃', color: '#FFEDD5' },
+            { id: 'zanahoria', label: 'Zanahoria', emoji: '🥕', color: '#FED7AA' },
+          ],
+        },
+        {
+          id: 'hojas',
+          label: 'Hojas verdes',
+          emoji: '🥬',
+          color: '#D1FAE5',
+          items: [
+            { id: 'acelga', label: 'Acelga', emoji: '🥬', color: '#A7F3D0' },
+            { id: 'espinaca', label: 'Espinaca', emoji: '🌿', color: '#BBF7D0' },
+            { id: 'brócoli', label: 'Brócoli', emoji: '🥦', color: '#DCFCE7' },
+            { id: 'lechuga', label: 'Lechuga', emoji: '🥗', color: '#D1FAE5' },
+          ],
+        },
+        {
+          id: 'frescas',
+          label: 'Tomate y Cebolla',
+          emoji: '🍅',
+          color: '#FEE2E2',
+          items: [
+            { id: 'tomate', label: 'Tomate', emoji: '🍅', color: '#FECACA' },
+            { id: 'cebolla', label: 'Cebolla', emoji: '🧅', color: '#FCE7F3' },
+            { id: 'morrón', label: 'Morrón', emoji: '🫑', color: '#DCFCE7' },
+            { id: 'berenjena', label: 'Berenjena', emoji: '🍆', color: '#EDE9FE' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'frutas',
+      label: 'Frutas',
+      emoji: '🍎',
+      color: '#FFE4E6',
+      subgroups: [
+        {
+          id: 'citricos',
+          label: 'Cítricos',
+          emoji: '🍊',
+          color: '#FFEDD5',
+          items: [
+            { id: 'naranja', label: 'Naranja', emoji: '🍊', color: '#FED7AA' },
+            { id: 'limón', label: 'Limón', emoji: '🍋', color: '#FEF9C3' },
+            { id: 'mandarina', label: 'Mandarina', emoji: '🍊', color: '#FFEDD5' },
+          ],
+        },
+        {
+          id: 'estacion',
+          label: 'Dulces',
+          emoji: '🍌',
+          color: '#FEF3C7',
+          items: [
+            { id: 'banana', label: 'Banana', emoji: '🍌', color: '#FEF08A' },
+            { id: 'manzana', label: 'Manzana', emoji: '🍎', color: '#FFE4E6' },
+            { id: 'pera', label: 'Pera', emoji: '🍐', color: '#ECFCCB' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'proteinas',
+      label: 'Proteínas',
+      emoji: '🥚',
+      color: '#FEF3C7',
+      subgroups: [
+        {
+          id: 'carnes_huevo',
+          label: 'Huevo y Carnes',
+          emoji: '🍗',
+          color: '#FFEDD5',
+          items: [
+            { id: 'huevo', label: 'Huevo', emoji: '🥚', color: '#FEF3C7' },
+            { id: 'pollo', label: 'Pollo', emoji: '🍗', color: '#FED7AA' },
+            { id: 'merluza', label: 'Merluza', emoji: '🐟', color: '#E0F2FE' },
+            { id: 'atún', label: 'Atún', emoji: '🥫', color: '#DBEAFE' },
+          ],
+        },
+        {
+          id: 'lacteos',
+          label: 'Lácteos',
+          emoji: '🧀',
+          color: '#E0F2FE',
+          items: [
+            { id: 'queso', label: 'Queso', emoji: '🧀', color: '#FEF3C7' },
+            { id: 'ricota', label: 'Ricota', emoji: '🥛', color: '#F3F4F6' },
+            { id: 'yogur', label: 'Yogur', emoji: '🥣', color: '#E0F2FE' },
+            { id: 'leche', label: 'Leche', emoji: '🥛', color: '#EFF6FF' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'almacen',
+      label: 'Legumbres y Arroz',
+      emoji: '🫘',
+      color: '#FFEDD5',
+      subgroups: [
+        {
+          id: 'legumbres',
+          label: 'Legumbres',
+          emoji: '🫘',
+          color: '#FDE68A',
+          items: [
+            { id: 'lentejas', label: 'Lentejas', emoji: '🫘', color: '#FED7AA' },
+            { id: 'garbanzos', label: 'Garbanzos', emoji: '🧆', color: '#FEF3C7' },
+            { id: 'porotos', label: 'Porotos', emoji: '🫘', color: '#E0E7FF' },
+            { id: 'arvejas', label: 'Arvejas', emoji: '🫛', color: '#DCFCE7' },
+          ],
+        },
+        {
+          id: 'cereales',
+          label: 'Cereales y Pan',
+          emoji: '🌾',
+          color: '#FEF9C3',
+          items: [
+            { id: 'arroz', label: 'Arroz', emoji: '🍚', color: '#F3F4F6' },
+            { id: 'avena', label: 'Avena', emoji: '🌾', color: '#FEF3C7' },
+            { id: 'fideos', label: 'Fideos', emoji: '🍝', color: '#FDE68A' },
+            { id: 'pan', label: 'Pan', emoji: '🍞', color: '#FFEDD5' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'extras',
+      label: 'Grasas y Semillas',
+      emoji: '🥑',
+      color: '#ECFCCB',
+      subgroups: [
+        {
+          id: 'saludables',
+          label: 'Palta y Semillas',
+          emoji: '🥑',
+          color: '#D9F99D',
+          items: [
+            { id: 'palta', label: 'Palta', emoji: '🥑', color: '#DCFCE7' },
+            { id: 'maní', label: 'Maní', emoji: '🥜', color: '#FED7AA' },
+            { id: 'semillas', label: 'Semillas', emoji: '🌻', color: '#FEF9C3' },
+            { id: 'choclo', label: 'Choclo', emoji: '🌽', color: '#FEF08A' },
+          ],
+        },
+      ],
+    },
   ];
 
   function buildPantryWheelSvg(pantry, matchCount) {
@@ -770,57 +915,83 @@
     const cy = 180;
     const rOuter = 168;
     const rInner = 64;
-    const total = WHEEL_INGREDIENTS.length;
-    const step = (2 * Math.PI) / total;
+    const path = state.pantryWheelPath;
 
+    let level = 1;
+    let segments = PANTRY_TREE;
+    let centerTitle = '1. Elegí grupo';
+
+    const groupObj = path.group ? PANTRY_TREE.find((g) => g.id === path.group) : null;
+    const subObj =
+      groupObj && path.subgroup ? groupObj.subgroups.find((s) => s.id === path.subgroup) : null;
+
+    if (subObj) {
+      level = 3;
+      segments = subObj.items;
+      centerTitle = '3. Ingredientes';
+    } else if (groupObj) {
+      level = 2;
+      segments = groupObj.subgroups;
+      centerTitle = '2. Subtipo';
+    }
+
+    const total = segments.length;
+    const step = (2 * Math.PI) / total;
     const polar = (r, angle) => [cx + r * Math.cos(angle), cy + r * Math.sin(angle)];
 
-    const wedges = WHEEL_INGREDIENTS.map((item, idx) => {
-      const a1 = -Math.PI / 2 + idx * step + 0.015;
-      const a2 = -Math.PI / 2 + (idx + 1) * step - 0.015;
-      const mid = (a1 + a2) / 2;
+    const wedges = segments
+      .map((item, idx) => {
+        const a1 = -Math.PI / 2 + idx * step + 0.018;
+        const a2 = -Math.PI / 2 + (idx + 1) * step - 0.018;
+        const mid = (a1 + a2) / 2;
 
-      const [x1, y1] = polar(rOuter, a1);
-      const [x2, y2] = polar(rOuter, a2);
-      const [x3, y3] = polar(rInner, a2);
-      const [x4, y4] = polar(rInner, a1);
+        const [x1, y1] = polar(rOuter, a1);
+        const [x2, y2] = polar(rOuter, a2);
+        const [x3, y3] = polar(rInner, a2);
+        const [x4, y4] = polar(rInner, a1);
 
-      const d = [
-        `M ${x1.toFixed(1)} ${y1.toFixed(1)}`,
-        `A ${rOuter} ${rOuter} 0 0 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`,
-        `L ${x3.toFixed(1)} ${y3.toFixed(1)}`,
-        `A ${rInner} ${rInner} 0 0 0 ${x4.toFixed(1)} ${y4.toFixed(1)}`,
-        'Z',
-      ].join(' ');
+        const d = [
+          `M ${x1.toFixed(1)} ${y1.toFixed(1)}`,
+          `A ${rOuter} ${rOuter} 0 0 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`,
+          `L ${x3.toFixed(1)} ${y3.toFixed(1)}`,
+          `A ${rInner} ${rInner} 0 0 0 ${x4.toFixed(1)} ${y4.toFixed(1)}`,
+          'Z',
+        ].join(' ');
 
-      const [tx, ty] = polar((rOuter + rInner) / 2, mid);
-      const selected = pantry.includes(item.id);
-      const fill = selected ? '#2F6F4E' : item.color;
-      const stroke = selected ? '#22533A' : '#D4C8AE';
-      const textFill = selected ? '#FFFFFF' : '#1F2933';
+        const [tx, ty] = polar((rOuter + rInner) / 2, mid);
+        const isSelected = level === 3 && pantry.includes(item.id);
+        const fill = isSelected ? '#2F6F4E' : item.color;
+        const stroke = isSelected ? '#22533A' : '#D4C8AE';
+        const textFill = isSelected ? '#FFFFFF' : '#1F2933';
 
-      return `
-        <g class="cb-pantry-wedge" data-wheel-ing="${item.id}" role="button" tabindex="0" aria-pressed="${selected}">
-          <path d="${d}" fill="${fill}" stroke="${stroke}" stroke-width="${selected ? '2.5' : '1.2'}" />
-          <text x="${tx.toFixed(1)}" y="${(ty - 5).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="16">${item.emoji}</text>
-          <text x="${tx.toFixed(1)}" y="${(ty + 11).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="9.5" font-weight="700" fill="${textFill}">${item.label}</text>
+        return `
+        <g class="cb-pantry-wedge" data-wheel-seg="${item.id}" data-wheel-level="${level}" role="button" tabindex="0">
+          <path d="${d}" fill="${fill}" stroke="${stroke}" stroke-width="${isSelected ? '2.5' : '1.4'}" />
+          <text x="${tx.toFixed(1)}" y="${(ty - 7).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="20">${item.emoji}</text>
+          <text x="${tx.toFixed(1)}" y="${(ty + 13).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="10.5" font-weight="700" fill="${textFill}">${item.label}</text>
         </g>`;
-    }).join('');
+      })
+      .join('');
 
     return `
-      <svg viewBox="0 0 360 360" class="cb-pantry-svg" aria-label="Rueda de ingredientes disponibles">
+      <svg viewBox="0 0 360 360" class="cb-pantry-svg" aria-label="Rueda multinivel de ingredientes">
         ${wedges}
         <g class="cb-pantry-center" id="cb-wheel-center-btn">
           <circle cx="${cx}" cy="${cy}" r="${rInner - 5}" fill="#2F6F4E" stroke="#FFFFFF" stroke-width="3" />
-          <text x="${cx}" y="${cy - 14}" text-anchor="middle" font-size="18">🍳</text>
-          <text x="${cx}" y="${cy + 5}" text-anchor="middle" font-size="12" font-weight="800" fill="#FFFFFF">${pantry.length} elegidos</text>
-          <text x="${cx}" y="${cy + 21}" text-anchor="middle" font-size="10" font-weight="600" fill="#D1FAE5">${matchCount} recetas ↓</text>
+          <text x="${cx}" y="${cy - 16}" text-anchor="middle" font-size="10" font-weight="700" fill="#C8E6C9">${centerTitle}</text>
+          <text x="${cx}" y="${cy + 3}" text-anchor="middle" font-size="12.5" font-weight="800" fill="#FFFFFF">${pantry.length} elegidos</text>
+          <text x="${cx}" y="${cy + 20}" text-anchor="middle" font-size="10" font-weight="600" fill="#D1FAE5">${matchCount} recetas ↓</text>
         </g>
       </svg>`;
   }
 
   function renderQueCocino(view) {
     const pantry = state.pantry;
+    const path = state.pantryWheelPath;
+    const groupObj = path.group ? PANTRY_TREE.find((g) => g.id === path.group) : null;
+    const subObj =
+      groupObj && path.subgroup ? groupObj.subgroups.find((s) => s.id === path.subgroup) : null;
+
     const compatible = D.RECIPES.filter((r) => E.isRecipeCompatible(r, state.user));
     const matches = compatible
       .map((rec) => {
@@ -836,37 +1007,55 @@
       .filter((m) => m.have.length > 0)
       .sort((a, b) => b.ratio - a.ratio);
 
-    const extraPantry = D.COMMON_UY_PANTRY.filter(
-      (x) => !WHEEL_INGREDIENTS.some((w) => w.id === x) && !pantry.includes(x)
-    );
+    const crumb = ['1. Grupos'];
+    if (groupObj) crumb.push(`${groupObj.emoji} ${groupObj.label}`);
+    if (subObj) crumb.push(`${subObj.emoji} ${subObj.label}`);
 
     view.innerHTML = `
       <div class="cb-card" style="margin-bottom:16px;">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px;">
+          <div style="font-size:13px;font-weight:700;color:var(--cb-forest);">
+            ${crumb.join(' → ')}
+          </div>
+          <div style="display:flex;gap:6px;">
+            ${
+              path.group
+                ? '<button type="button" class="cb-btn cb-btn-sm cb-btn-outline" id="cb-pw-back">← Atrás</button>'
+                : ''
+            }
+            ${
+              path.group
+                ? '<button type="button" class="cb-btn cb-btn-sm cb-btn-ghost" id="cb-pw-reset">Reiniciar rueda</button>'
+                : ''
+            }
+          </div>
+        </div>
+
         <div class="cb-pantry-wheel-wrap">
           <div>
             ${buildPantryWheelSvg(pantry, matches.length)}
           </div>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <div>
-              <h3 style="margin:0 0 4px;">Tocá el círculo para elegir lo que tenés</h3>
+              <h3 style="margin:0 0 4px;">Explorá por categoría en el círculo</h3>
               <p style="font-size:13px;color:var(--cb-muted);margin:0;">
-                Podés marcar varios ingredientes en la rueda o sumar otros de tu alacena.
+                Elegí primero el grupo (Verduras, Frutas, Proteínas, Legumbres...), luego el subtipo y al final tocá los ingredientes que tenés en casa.
               </p>
             </div>
             <form id="cb-pform" style="display:flex;gap:8px;">
-              <input id="cb-pinp" placeholder="Otro ingrediente (ej: atún, fideos)..." style="flex:1;padding:9px 12px;border-radius:10px;border:1px solid #d4c8ae;" />
+              <input id="cb-pinp" placeholder="O escribí otro ingrediente..." style="flex:1;padding:9px 12px;border-radius:10px;border:1px solid #d4c8ae;" />
               <button type="submit" class="cb-btn cb-btn-primary">+ Agregar</button>
             </form>
-            <div class="cb-chip-row">
-              ${pantry.map((p) => `<button type="button" class="cb-chip active" data-prem="${esc(p)}">${esc(p)} ✕</button>`).join('')}
+            <div>
+              <div style="font-size:12px;font-weight:700;color:var(--cb-muted);margin-bottom:6px;">Tus ingredientes seleccionados (${pantry.length}):</div>
+              <div class="cb-chip-row">
+                ${
+                  pantry.length
+                    ? pantry.map((p) => `<button type="button" class="cb-chip active" data-prem="${esc(p)}">${esc(p)} ✕</button>`).join('')
+                    : '<span style="font-size:12px;color:var(--cb-muted);">Ninguno seleccionado todavía.</span>'
+                }
+              </div>
             </div>
-            ${
-              extraPantry.length
-                ? `<div class="cb-chip-row">${extraPantry
-                    .map((x) => `<button type="button" class="cb-chip" data-padd="${x}">+ ${x}</button>`)
-                    .join('')}</div>`
-                : ''
-            }
           </div>
         </div>
       </div>
@@ -887,22 +1076,43 @@
                 </div>`
                 )
                 .join('')
-            : '<div class="cb-card">Tocá ingredientes en la rueda para ver recetas posibles.</div>'
+            : '<div class="cb-card">Elegí ingredientes en la rueda para ver recetas posibles.</div>'
         }
       </div>
     `;
 
-    view.querySelectorAll('[data-wheel-ing]').forEach((g) =>
+    view.querySelectorAll('[data-wheel-seg]').forEach((g) =>
       g.addEventListener('click', () => {
-        const id = g.dataset.wheelIng;
-        if (state.pantry.includes(id)) {
-          state.pantry = state.pantry.filter((x) => x !== id);
-        } else {
-          state.pantry.push(id);
+        const segId = g.dataset.wheelSeg;
+        const lvl = Number(g.dataset.wheelLevel);
+        if (lvl === 1) {
+          state.pantryWheelPath = { group: segId, subgroup: null };
+        } else if (lvl === 2) {
+          state.pantryWheelPath = { ...state.pantryWheelPath, subgroup: segId };
+        } else if (lvl === 3) {
+          if (state.pantry.includes(segId)) {
+            state.pantry = state.pantry.filter((x) => x !== segId);
+          } else {
+            state.pantry.push(segId);
+          }
         }
         renderCBStage();
       })
     );
+
+    document.getElementById('cb-pw-back')?.addEventListener('click', () => {
+      if (state.pantryWheelPath.subgroup) {
+        state.pantryWheelPath = { ...state.pantryWheelPath, subgroup: null };
+      } else {
+        state.pantryWheelPath = { group: null, subgroup: null };
+      }
+      renderCBStage();
+    });
+
+    document.getElementById('cb-pw-reset')?.addEventListener('click', () => {
+      state.pantryWheelPath = { group: null, subgroup: null };
+      renderCBStage();
+    });
 
     document.getElementById('cb-wheel-center-btn')?.addEventListener('click', () => {
       document.getElementById('cb-pantry-results')?.scrollIntoView({ behavior: 'smooth' });
@@ -919,12 +1129,6 @@
     view.querySelectorAll('[data-prem]').forEach((b) =>
       b.addEventListener('click', () => {
         state.pantry = state.pantry.filter((x) => x !== b.dataset.prem);
-        renderCBStage();
-      })
-    );
-    view.querySelectorAll('[data-padd]').forEach((b) =>
-      b.addEventListener('click', () => {
-        state.pantry.push(b.dataset.padd);
         renderCBStage();
       })
     );
