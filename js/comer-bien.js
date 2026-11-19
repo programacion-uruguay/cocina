@@ -244,12 +244,12 @@
 
   function renderCBStage() {
     const routes = [
-      { id: 'inicio', label: '🏠 Inicio y Sugerencias' },
-      { id: 'planificador', label: '📅 Planificador Semanal' },
-      { id: 'recetas', label: '📖 Recetas Económicas' },
-      { id: 'que-cocino', label: '🍳 ¿Qué cocino hoy?' },
-      { id: 'compras', label: '🛒 Lista de Compras' },
-      { id: 'educacion', label: '🎓 Guía MSP / OMS' },
+      { id: 'inicio', label: '🏠 Inicio' },
+      { id: 'planificador', label: '📅 Semanal' },
+      { id: 'recetas', label: '📖 Económicas' },
+      { id: 'que-cocino', label: '🍳 ¿Qué cocino?' },
+      { id: 'compras', label: '🛒 Compras' },
+      { id: 'educacion', label: '🎓 Guía MSP' },
       { id: 'perfil', label: '👤 Mi Perfil' },
     ];
 
@@ -764,11 +764,11 @@
 
         return `
         <g class="cb-pantry-wedge" data-rw-seg="${item.id}" role="button" tabindex="0">
-          <path d="${ringArc(rMid + 2, rOuter, a1, a2)}" fill="${isSelected ? '#2F6F4E' : `url(#cbr-grad-${idx})`}" stroke="#E5E7EB" stroke-width="1" />
-          <path d="${outerRimArc(rOuter - 1.5, a1, a2)}" fill="none" stroke="${isSelected ? '#166534' : accent}" stroke-width="3.5" stroke-linecap="round" />
-          <circle cx="${tx.toFixed(1)}" cy="${(ty - 12).toFixed(1)}" r="15" fill="${isSelected ? 'rgba(255,255,255,0.22)' : accent}" />
+          <path d="${ringArc(rMid + 2, rOuter, a1, a2)}" fill="${isSelected ? '#D1FAE5' : `url(#cbr-grad-${idx})`}" stroke="${isSelected ? '#10B981' : '#E5E7EB'}" stroke-width="${isSelected ? '1.8' : '1'}" />
+          <path d="${outerRimArc(rOuter - 1.5, a1, a2)}" fill="none" stroke="${isSelected ? '#059669' : accent}" stroke-width="${isSelected ? '4.5' : '3.5'}" stroke-linecap="round" />
+          <circle cx="${tx.toFixed(1)}" cy="${(ty - 12).toFixed(1)}" r="15" fill="${isSelected ? '#059669' : accent}" />
           <text x="${tx.toFixed(1)}" y="${(ty - 11).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="14">${item.emoji}</text>
-          <text x="${tx.toFixed(1)}" y="${(ty + 11).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="11" font-weight="700" fill="${isSelected ? '#FFFFFF' : '#1F2933'}">${item.label}</text>
+          <text x="${tx.toFixed(1)}" y="${(ty + 11).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="11" font-weight="700" fill="${isSelected ? '#064E3B' : '#1F2933'}">${item.label}</text>
         </g>`;
       })
       .join('');
@@ -1234,13 +1234,13 @@
 
         return `
         <g class="cb-pantry-wedge" data-wheel-seg="${item.id}" data-wheel-level="${level}" role="button" tabindex="0">
-          <path d="${ringArc(rMid + 2, rOuter, a1, a2)}" fill="url(#cb-${isSelected ? 'sel' : 'grad'}-${idx})" stroke="#E5E7EB" stroke-width="1" />
-          <path d="${outerRimArc(rOuter - 1.5, a1, a2)}" fill="none" stroke="${isSelected ? '#166534' : accent}" stroke-width="3.5" stroke-linecap="round" />
-          <circle cx="${tx.toFixed(1)}" cy="${(ty - 14).toFixed(1)}" r="15" fill="${isSelected ? 'rgba(255,255,255,0.22)' : accent}" />
+          <path d="${ringArc(rMid + 2, rOuter, a1, a2)}" fill="${isSelected ? '#D1FAE5' : `url(#cb-grad-${idx})`}" stroke="${isSelected ? '#10B981' : '#E5E7EB'}" stroke-width="${isSelected ? '1.8' : '1'}" />
+          <path d="${outerRimArc(rOuter - 1.5, a1, a2)}" fill="none" stroke="${isSelected ? '#059669' : accent}" stroke-width="${isSelected ? '4.5' : '3.5'}" stroke-linecap="round" />
+          <circle cx="${tx.toFixed(1)}" cy="${(ty - 14).toFixed(1)}" r="15" fill="${isSelected ? '#059669' : accent}" />
           <text x="${tx.toFixed(1)}" y="${(ty - 13).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="14">${item.emoji}</text>
-          <text x="${tx.toFixed(1)}" y="${(ty + 9).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="11.5" font-weight="700" fill="${isSelected ? '#FFFFFF' : '#1F2933'}">${item.label}</text>
-          <rect x="${(tx - 24).toFixed(1)}" y="${(ty + 18).toFixed(1)}" width="48" height="15" rx="7.5" fill="${isSelected ? 'rgba(255,255,255,0.2)' : 'rgba(15,23,42,0.06)'}" />
-          <text x="${tx.toFixed(1)}" y="${(ty + 25.5).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="8.5" font-weight="700" fill="${isSelected ? '#E6F0EA' : '#475569'}">${subText}</text>
+          <text x="${tx.toFixed(1)}" y="${(ty + 9).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="11.5" font-weight="700" fill="${isSelected ? '#064E3B' : '#1F2933'}">${item.label}</text>
+          <rect x="${(tx - 24).toFixed(1)}" y="${(ty + 18).toFixed(1)}" width="48" height="15" rx="7.5" fill="${isSelected ? 'rgba(5,150,105,0.16)' : 'rgba(15,23,42,0.06)'}" />
+          <text x="${tx.toFixed(1)}" y="${(ty + 25.5).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="8.5" font-weight="700" fill="${isSelected ? '#065F46' : '#475569'}">${subText}</text>
         </g>`;
       })
       .join('');
