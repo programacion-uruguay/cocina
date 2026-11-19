@@ -843,6 +843,16 @@
           <h2 id="modal-title">${r.title}</h2>
         </div>
         <p class="modal-desc modal-desc-compact">${r.description}</p>
+        ${
+          window.CB_IS_LOGGED_IN && window.CB_IS_LOGGED_IN()
+            ? `<div class="cb-radial-log-bar">
+                <span style="font-size:12px;font-weight:700;color:#22533a;">🌿 COMER BIEN:</span>
+                <button type="button" id="cb-radial-eat" class="cb-btn cb-btn-sm cb-btn-primary">✓ Ya lo comí hoy</button>
+                <button type="button" id="cb-radial-plan" class="cb-btn cb-btn-sm cb-btn-outline">📅 Pienso comer esto hoy</button>
+                <span id="cb-radial-fb" style="font-size:12px;font-weight:700;color:#065f46;"></span>
+              </div>`
+            : ""
+        }
       </div>
 
       <div class="recipe-tabs" role="tablist" aria-label="Secciones de la receta">
@@ -868,6 +878,22 @@
     }
 
     document.getElementById("modal-fav-btn").addEventListener("click", () => toggleFavorite(r.id));
+
+    const cbEatBtn = document.getElementById("cb-radial-eat");
+    const cbPlanBtn = document.getElementById("cb-radial-plan");
+    const cbFb = document.getElementById("cb-radial-fb");
+    if (cbEatBtn && window.CB_LOG_RADIAL_RECIPE) {
+      cbEatBtn.addEventListener("click", () => {
+        window.CB_LOG_RADIAL_RECIPE(r, "eaten");
+        if (cbFb) cbFb.textContent = "✓ Registrado como comido hoy";
+      });
+    }
+    if (cbPlanBtn && window.CB_LOG_RADIAL_RECIPE) {
+      cbPlanBtn.addEventListener("click", () => {
+        window.CB_LOG_RADIAL_RECIPE(r, "planned");
+        if (cbFb) cbFb.textContent = "✓ Anotado para hoy";
+      });
+    }
 
     const switchTab = (nextTab) => {
       state.recipeTab = nextTab;
