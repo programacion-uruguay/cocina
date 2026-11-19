@@ -519,6 +519,43 @@
   gap: 14px;
 }
 
+/* Rueda circular de ingredientes para ¿Qué cocino hoy? */
+.cb-pantry-wheel-wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  align-items: center;
+}
+@media (min-width: 820px) {
+  .cb-pantry-wheel-wrap {
+    grid-template-columns: 360px 1fr;
+  }
+}
+
+.cb-pantry-svg {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  user-select: none;
+}
+
+.cb-pantry-wedge {
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.cb-pantry-wedge:hover path {
+  filter: brightness(0.95);
+}
+
+.cb-pantry-center {
+  cursor: pointer;
+}
+.cb-pantry-center:hover circle {
+  fill: var(--cb-forest-dark);
+}
+
 /* Barra rápida dentro de receta.modal de Cocina Radial */
 .cb-radial-log-bar {
   display: flex;

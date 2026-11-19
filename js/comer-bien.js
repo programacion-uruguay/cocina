@@ -747,7 +747,78 @@
     bindCBRecipes(view);
   }
 
-  // 4. ¿QUÉ COCINO HOY?
+  // 4. ¿QUÉ COCINO HOY? (Rueda circular multi-selección de ingredientes)
+  const WHEEL_INGREDIENTS = [
+    { id: 'huevo', label: 'Huevo', emoji: '🥚', color: '#FEF3C7' },
+    { id: 'papa', label: 'Papa', emoji: '🥔', color: '#FDE68A' },
+    { id: 'boniato', label: 'Boniato', emoji: '🍠', color: '#FED7AA' },
+    { id: 'cebolla', label: 'Cebolla', emoji: '🧅', color: '#FCE7F3' },
+    { id: 'zapallo', label: 'Zapallo', emoji: '🎃', color: '#FFEDD5' },
+    { id: 'tomate', label: 'Tomate', emoji: '🍅', color: '#FEE2E2' },
+    { id: 'zanahoria', label: 'Zanahoria', emoji: '🥕', color: '#FFEDD5' },
+    { id: 'acelga', label: 'Acelga', emoji: '🥬', color: '#DCFCE7' },
+    { id: 'pollo', label: 'Pollo', emoji: '🍗', color: '#FEF3C7' },
+    { id: 'lentejas', label: 'Lentejas', emoji: '🫘', color: '#E0E7FF' },
+    { id: 'arroz', label: 'Arroz', emoji: '🍚', color: '#F3F4F6' },
+    { id: 'garbanzos', label: 'Garbanzos', emoji: '🧆', color: '#FEF9C3' },
+    { id: 'queso', label: 'Queso', emoji: '🧀', color: '#FEF3C7' },
+    { id: 'manzana', label: 'Manzana', emoji: '🍎', color: '#FFE4E6' },
+  ];
+
+  function buildPantryWheelSvg(pantry, matchCount) {
+    const cx = 180;
+    const cy = 180;
+    const rOuter = 168;
+    const rInner = 64;
+    const total = WHEEL_INGREDIENTS.length;
+    const step = (2 * Math.PI) / total;
+
+    const polar = (r, angle) => [cx + r * Math.cos(angle), cy + r * Math.sin(angle)];
+
+    const wedges = WHEEL_INGREDIENTS.map((item, idx) => {
+      const a1 = -Math.PI / 2 + idx * step + 0.015;
+      const a2 = -Math.PI / 2 + (idx + 1) * step - 0.015;
+      const mid = (a1 + a2) / 2;
+
+      const [x1, y1] = polar(rOuter, a1);
+      const [x2, y2] = polar(rOuter, a2);
+      const [x3, y3] = polar(rInner, a2);
+      const [x4, y4] = polar(rInner, a1);
+
+      const d = [
+        `M ${x1.toFixed(1)} ${y1.toFixed(1)}`,
+        `A ${rOuter} ${rOuter} 0 0 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`,
+        `L ${x3.toFixed(1)} ${y3.toFixed(1)}`,
+        `A ${rInner} ${rInner} 0 0 0 ${x4.toFixed(1)} ${y4.toFixed(1)}`,
+        'Z',
+      ].join(' ');
+
+      const [tx, ty] = polar((rOuter + rInner) / 2, mid);
+      const selected = pantry.includes(item.id);
+      const fill = selected ? '#2F6F4E' : item.color;
+      const stroke = selected ? '#22533A' : '#D4C8AE';
+      const textFill = selected ? '#FFFFFF' : '#1F2933';
+
+      return `
+        <g class="cb-pantry-wedge" data-wheel-ing="${item.id}" role="button" tabindex="0" aria-pressed="${selected}">
+          <path d="${d}" fill="${fill}" stroke="${stroke}" stroke-width="${selected ? '2.5' : '1.2'}" />
+          <text x="${tx.toFixed(1)}" y="${(ty - 5).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="16">${item.emoji}</text>
+          <text x="${tx.toFixed(1)}" y="${(ty + 11).toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="9.5" font-weight="700" fill="${textFill}">${item.label}</text>
+        </g>`;
+    }).join('');
+
+    return `
+      <svg viewBox="0 0 360 360" class="cb-pantry-svg" aria-label="Rueda de ingredientes disponibles">
+        ${wedges}
+        <g class="cb-pantry-center" id="cb-wheel-center-btn">
+          <circle cx="${cx}" cy="${cy}" r="${rInner - 5}" fill="#2F6F4E" stroke="#FFFFFF" stroke-width="3" />
+          <text x="${cx}" y="${cy - 14}" text-anchor="middle" font-size="18">🍳</text>
+          <text x="${cx}" y="${cy + 5}" text-anchor="middle" font-size="12" font-weight="800" fill="#FFFFFF">${pantry.length} elegidos</text>
+          <text x="${cx}" y="${cy + 21}" text-anchor="middle" font-size="10" font-weight="600" fill="#D1FAE5">${matchCount} recetas ↓</text>
+        </g>
+      </svg>`;
+  }
+
   function renderQueCocino(view) {
     const pantry = state.pantry;
     const compatible = D.RECIPES.filter((r) => E.isRecipeCompatible(r, state.user));
@@ -765,38 +836,77 @@
       .filter((m) => m.have.length > 0)
       .sort((a, b) => b.ratio - a.ratio);
 
+    const extraPantry = D.COMMON_UY_PANTRY.filter(
+      (x) => !WHEEL_INGREDIENTS.some((w) => w.id === x) && !pantry.includes(x)
+    );
+
     view.innerHTML = `
-      <div class="cb-card" style="margin-bottom:16px;display:flex;flex-direction:column;gap:12px;">
-        <form id="cb-pform" style="display:flex;gap:8px;">
-          <input id="cb-pinp" placeholder="Ingresá un ingrediente (ej: lentejas, zapallo)..." style="flex:1;padding:9px 12px;border-radius:10px;border:1px solid #d4c8ae;" />
-          <button type="submit" class="cb-btn cb-btn-primary">+ Agregar</button>
-        </form>
-        <div class="cb-chip-row">
-          ${pantry.map((p) => `<button type="button" class="cb-chip active" data-prem="${esc(p)}">${esc(p)} ✕</button>`).join('')}
-        </div>
-        <div class="cb-chip-row">
-          ${D.COMMON_UY_PANTRY.filter((x) => !pantry.includes(x))
-            .map((x) => `<button type="button" class="cb-chip" data-padd="${x}">+ ${x}</button>`)
-            .join('')}
+      <div class="cb-card" style="margin-bottom:16px;">
+        <div class="cb-pantry-wheel-wrap">
+          <div>
+            ${buildPantryWheelSvg(pantry, matches.length)}
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div>
+              <h3 style="margin:0 0 4px;">Tocá el círculo para elegir lo que tenés</h3>
+              <p style="font-size:13px;color:var(--cb-muted);margin:0;">
+                Podés marcar varios ingredientes en la rueda o sumar otros de tu alacena.
+              </p>
+            </div>
+            <form id="cb-pform" style="display:flex;gap:8px;">
+              <input id="cb-pinp" placeholder="Otro ingrediente (ej: atún, fideos)..." style="flex:1;padding:9px 12px;border-radius:10px;border:1px solid #d4c8ae;" />
+              <button type="submit" class="cb-btn cb-btn-primary">+ Agregar</button>
+            </form>
+            <div class="cb-chip-row">
+              ${pantry.map((p) => `<button type="button" class="cb-chip active" data-prem="${esc(p)}">${esc(p)} ✕</button>`).join('')}
+            </div>
+            ${
+              extraPantry.length
+                ? `<div class="cb-chip-row">${extraPantry
+                    .map((x) => `<button type="button" class="cb-chip" data-padd="${x}">+ ${x}</button>`)
+                    .join('')}</div>`
+                : ''
+            }
+          </div>
         </div>
       </div>
 
-      <div class="cb-grid-2">
-        ${matches
-          .map(
-            (m) => `
-          <div class="cb-card" style="display:flex;gap:12px;cursor:pointer;" data-cb-open="${m.rec.id}">
-            <img src="${m.rec.imageUrl}" alt="${esc(m.rec.title)}" style="width:88px;height:88px;border-radius:12px;object-fit:cover;flex-shrink:0;" />
-            <div>
-              <strong>${esc(m.rec.title)}</strong>
-              <div style="font-size:12px;color:#065f46;margin-top:4px;">✓ Tenés: ${esc(m.have.join(', '))}</div>
-              ${m.miss.length ? `<div style="font-size:12px;color:#92400e;">⚠ Falta: ${esc(m.miss.join(', '))}</div>` : '<div style="font-size:12px;color:var(--cb-forest);font-weight:700;">¡Tenés todo!</div>'}
-            </div>
-          </div>`
-          )
-          .join('')}
+      <div id="cb-pantry-results" class="cb-grid-2">
+        ${
+          matches.length
+            ? matches
+                .map(
+                  (m) => `
+                <div class="cb-card" style="display:flex;gap:12px;cursor:pointer;" data-cb-open="${m.rec.id}">
+                  <img src="${m.rec.imageUrl}" alt="${esc(m.rec.title)}" style="width:88px;height:88px;border-radius:12px;object-fit:cover;flex-shrink:0;" />
+                  <div>
+                    <strong>${esc(m.rec.title)}</strong>
+                    <div style="font-size:12px;color:#065f46;margin-top:4px;">✓ Tenés: ${esc(m.have.join(', '))}</div>
+                    ${m.miss.length ? `<div style="font-size:12px;color:#92400e;">⚠ Falta: ${esc(m.miss.join(', '))}</div>` : '<div style="font-size:12px;color:var(--cb-forest);font-weight:700;">¡Tenés todo!</div>'}
+                  </div>
+                </div>`
+                )
+                .join('')
+            : '<div class="cb-card">Tocá ingredientes en la rueda para ver recetas posibles.</div>'
+        }
       </div>
     `;
+
+    view.querySelectorAll('[data-wheel-ing]').forEach((g) =>
+      g.addEventListener('click', () => {
+        const id = g.dataset.wheelIng;
+        if (state.pantry.includes(id)) {
+          state.pantry = state.pantry.filter((x) => x !== id);
+        } else {
+          state.pantry.push(id);
+        }
+        renderCBStage();
+      })
+    );
+
+    document.getElementById('cb-wheel-center-btn')?.addEventListener('click', () => {
+      document.getElementById('cb-pantry-results')?.scrollIntoView({ behavior: 'smooth' });
+    });
 
     document.getElementById('cb-pform').addEventListener('submit', (e) => {
       e.preventDefault();
