@@ -14,6 +14,7 @@ class RadialMenu {
     this.onCenterClick = options.onCenterClick || (() => {});
     this.onStepClick = options.onStepClick || (() => {});
     this.getItemCount = options.getItemCount || (() => null);
+    this.isItemDisabled = options.isItemDisabled || (() => false);
     this.selectedPath = {};
     this.lastActiveLevelKey = null;
 
@@ -229,6 +230,7 @@ class RadialMenu {
       const endAngle = startAngle + stepDeg;
       const midAngle = (startAngle + endAngle) / 2;
       const isSelected = selectedId === item.id;
+      const isDisabled = Boolean(this.isItemDisabled(activeLevel.key, item.id));
       const recipeCount = this.getItemCount(activeLevel.key, item.id);
       const isEmpty = recipeCount === 0;
 
@@ -236,14 +238,16 @@ class RadialMenu {
         class: [
           "radial-sector",
           isSelected ? "is-selected" : "",
-          isEmpty ? "is-empty" : ""
+          isEmpty ? "is-empty" : "",
+          isDisabled ? "is-disabled" : ""
         ]
           .filter(Boolean)
           .join(" "),
         style: `--sector-color: ${item.color}`,
-        tabindex: "0",
+        tabindex: isDisabled ? "-1" : "0",
         role: "button",
-        "aria-label": `${activeLevel.title}: ${item.label}${recipeCount !== null ? ` (${recipeCount} recetas)` : ""}`,
+        "aria-disabled": isDisabled ? "true" : "false",
+        "aria-label": `${activeLevel.title}: ${item.label}${isDisabled ? " (horario pasado)" : recipeCount !== null ? ` (${recipeCount} recetas)` : ""}`,
         "aria-pressed": isSelected ? "true" : "false"
       });
 
@@ -365,13 +369,14 @@ class RadialMenu {
           "font-weight": "700",
           class: "sector-pill-text"
         });
-        countText.textContent = recipeCount > 0 ? `${recipeCount} rec.` : "Sin rec.";
+        countText.textContent = isDisabled ? "Pasado" : recipeCount > 0 ? `${recipeCount} rec.` : "Sin rec.";
         pillGroup.appendChild(countText);
         sectorGroup.appendChild(pillGroup);
       }
 
       const handleActivate = (e) => {
         e.preventDefault();
+        if (isDisabled) return;
         this.onSelect(activeLevel.key, item.id);
       };
 

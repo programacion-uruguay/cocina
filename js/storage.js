@@ -15,9 +15,43 @@ window.CB_STORAGE = (() => {
     return `comer_bien_data_${username.toLowerCase()}_v2`;
   }
 
-  function getTodayIso() {
-    const d = new Date();
+  function formatIso(d) {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  }
+
+  function getTodayIso() {
+    return formatIso(new Date());
+  }
+
+  function getPlanningContext(now = new Date()) {
+    const mins = now.getHours() * 60 + now.getMinutes();
+    const todayDow = now.getDay();
+    const todayIdx = todayDow === 0 ? 6 : todayDow - 1;
+
+    if (now.getHours() >= 22) {
+      const tom = new Date(now);
+      tom.setDate(tom.getDate() + 1);
+      return {
+        isTomorrow: true,
+        dayWord: 'mañana',
+        targetDateIso: formatIso(tom),
+        targetDayIndex: (todayIdx + 1) % 7,
+        disabledMoments: [],
+      };
+    }
+
+    const disabledMoments = [];
+    if (mins >= 10 * 60) disabledMoments.push('desayuno');
+    if (mins >= 14 * 60 + 30) disabledMoments.push('almuerzo');
+    if (mins >= 18 * 60 + 30) disabledMoments.push('merienda');
+
+    return {
+      isTomorrow: false,
+      dayWord: 'hoy',
+      targetDateIso: formatIso(now),
+      targetDayIndex: todayIdx,
+      disabledMoments,
+    };
   }
 
   function ensureSeeded() {
@@ -213,6 +247,7 @@ window.CB_STORAGE = (() => {
 
   return {
     getTodayIso,
+    getPlanningContext,
     getActiveUser,
     login,
     register,

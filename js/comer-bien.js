@@ -318,15 +318,18 @@
 
   // 1. INICIO Y SUGERENCIAS
   function renderInicio(view) {
-    const today = S.getTodayIso();
-    const todayIdx = E.getTodayDayIndex();
+    const ctx = S.getPlanningContext();
+    const today = ctx.targetDateIso;
+    const todayIdx = ctx.targetDayIndex;
+    const dayWord = ctx.dayWord;
     const todayLogs = state.userData.dailyLogs.filter((l) => l.logDate === today);
     const todaySlots = state.userData.menuSlots.filter((s) => s.dayIndex === todayIdx);
-    const summary = E.analyzeDayAndSuggest(todayLogs, todaySlots, state.user);
+    const summary = E.analyzeDayAndSuggest(todayLogs, todaySlots, state.user, ctx.disabledMoments, dayWord);
     const firstName = (state.user.fullName || state.user.username).split(' ')[0];
 
     const momentsHtml = D.MOMENTS_ORDER.map((m) => {
       const meta = D.MOMENT_LABELS[m];
+      const isDisabled = ctx.disabledMoments.includes(m);
       const logs = todayLogs.filter((l) => l.moment === m);
       const slot = todaySlots.find((s) => s.moment === m);
       const plannedRec = slot?.recipeId ? D.RECIPES.find((r) => r.id === slot.recipeId) : null;
@@ -367,10 +370,14 @@
       }
 
       return `
-        <div class="cb-card ${covered ? '' : 'cb-card-dashed'}">
+        <div class="cb-card ${covered ? '' : 'cb-card-dashed'}" style="${isDisabled ? 'opacity:0.55;filter:grayscale(0.5);' : ''}">
           <div style="display:flex;justify-content:space-between;align-items:center;">
-            <div><strong>${meta.emoji} ${meta.label}</strong> <small style="color:var(--cb-muted);">(${meta.timeHint})</small></div>
-            <button type="button" class="cb-btn cb-btn-sm cb-btn-secondary" data-qlog="${m}">+ Registrar</button>
+            <div>
+              <strong>${meta.emoji} ${meta.label}</strong>
+              <small style="color:var(--cb-muted);">(${meta.timeHint})</small>
+              ${isDisabled ? '<span class="cb-badge cb-badge-amber" style="margin-left:6px;">Horario pasado</span>' : ''}
+            </div>
+            <button type="button" class="cb-btn cb-btn-sm cb-btn-secondary" data-qlog="${m}" ${isDisabled ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>+ Registrar</button>
           </div>
           ${body}
         </div>`;
@@ -414,18 +421,18 @@
     view.innerHTML = `
       <div class="cb-hero">
         <div style="max-width:620px;">
-          <div style="font-size:12px;font-weight:700;color:#c8e6c9;">RESUMEN DE HOY · ${activePatternObj.emoji} ${esc(activePatternObj.label.toUpperCase())}</div>
+          <div style="font-size:12px;font-weight:700;color:#c8e6c9;">RESUMEN DE ${dayWord.toUpperCase()} · ${activePatternObj.emoji} ${esc(activePatternObj.label.toUpperCase())}</div>
           <h2>¡Hola, ${esc(firstName)}! ${esc(summary.headline)}</h2>
           <p style="font-size:14px;color:#e6f0ea;margin:0;">${esc(summary.encouragement)}</p>
         </div>
         <div class="cb-hero-stats">
-          <div class="cb-stat"><small>Momentos hoy</small><strong>${summary.coveredMoments.length} / 4</strong></div>
+          <div class="cb-stat"><small>Momentos ${dayWord}</small><strong>${summary.coveredMoments.length} / 4</strong></div>
           <div class="cb-stat"><small>Meta de agua</small><strong>💧 ${state.user.habits.waterGlassesGoal}</strong></div>
         </div>
       </div>
 
       <div class="cb-section-head">
-        <h3>Tus 4 momentos de hoy</h3>
+        <h3>Tus 4 momentos de ${dayWord}</h3>
         <button type="button" class="cb-btn cb-btn-sm cb-btn-outline" id="cb-go-radial">🎡 Buscar más en Menú Radial</button>
       </div>
       <div class="cb-grid-2">${momentsHtml}</div>
@@ -1800,6 +1807,8 @@
 
   window.CB_IS_LOGGED_IN = () => Boolean(state.user);
   window.CB_IS_PICKING_FOR_INICIO = () => Boolean(state.pickingForInicio);
+  window.CB_IS_MOMENT_DISABLED = (momentId) => S.getPlanningContext().disabledMoments.includes(momentId);
+  window.CB_GET_DAY_WORD = () => S.getPlanningContext().dayWord;
   window.CB_GET_ACTIVE_DIET_LABEL = () => {
     if (!state.user) return '';
     const p = D.DIET_PATTERNS.find((x) => x.id === (state.user.dietPattern || 'equilibrada'));
@@ -1860,8 +1869,9 @@
       dulces: ['cereales_tuberculos'],
     };
     const fg = recipe.foodGroups || catMap[recipe.categoria] || ['cereales_tuberculos', 'verduras'];
-    const today = S.getTodayIso();
-    const todayIdx = E.getTodayDayIndex();
+    const ctx = S.getPlanningContext();
+    const today = ctx.targetDateIso;
+    const todayIdx = ctx.targetDayIndex;
 
     // Reemplazar el registro de hoy para ese momento (ej: si eligió Merienda, actualiza la Merienda de hoy)
     state.userData.dailyLogs = state.userData.dailyLogs.filter(

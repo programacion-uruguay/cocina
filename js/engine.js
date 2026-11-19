@@ -73,7 +73,7 @@ window.CB_ENGINE = (() => {
     return d === 0 ? 6 : d - 1;
   }
 
-  function analyzeDayAndSuggest(todayLogs, todaySlots, profile) {
+  function analyzeDayAndSuggest(todayLogs, todaySlots, profile, disabledMoments = [], dayWord = 'hoy') {
     const coveredSet = new Set();
     const foodGroupSet = new Set();
     let eatenCount = 0;
@@ -98,7 +98,7 @@ window.CB_ENGINE = (() => {
     }
 
     const coveredMoments = MOMENTS_ORDER.filter((m) => coveredSet.has(m));
-    const missingMoments = MOMENTS_ORDER.filter((m) => !coveredSet.has(m));
+    const missingMoments = MOMENTS_ORDER.filter((m) => !coveredSet.has(m) && !disabledMoments.includes(m));
     const priorityGroups = ['verduras', 'frutas', 'legumbres', 'cereales_tuberculos'];
     const missingKeyGroups = priorityGroups.filter((fg) => !foodGroupSet.has(fg));
 
@@ -122,23 +122,23 @@ window.CB_ENGINE = (() => {
         moment,
         recipe: rec,
         reason: missingNames
-          ? `Te falta el ${MOMENT_LABELS[moment].label.toLowerCase()}. Esta opción suma ${missingNames} y respeta tu perfil.`
-          : `Completá tu ${MOMENT_LABELS[moment].label.toLowerCase()} con una opción práctica.`,
+          ? `Te falta el ${MOMENT_LABELS[moment].label.toLowerCase()} de ${dayWord}. Esta opción suma ${missingNames} y respeta tu perfil.`
+          : `Completá tu ${MOMENT_LABELS[moment].label.toLowerCase()} de ${dayWord} con una opción práctica.`,
       };
     });
 
-    let headline = '¡Día completo y variado!';
-    let encouragement = 'Tenés los cuatro momentos del día cubiertos. Recordá tomar agua durante la jornada.';
+    let headline = dayWord === 'mañana' ? '¡Mañana completa y variada!' : '¡Día completo y variado!';
+    let encouragement =
+      dayWord === 'mañana'
+        ? 'Ya dejaste organizados los cuatro momentos de mañana.'
+        : 'Tenés los momentos disponibles cubiertos. Recordá tomar agua durante la jornada.';
 
-    if (missingMoments.length === 4) {
-      headline = 'Todavía no registraste tus comidas de hoy';
-      encouragement = 'Anotá lo que pensás comer o lo que ya comiste en cada momento para recibir sugerencias personalizadas.';
-    } else if (missingMoments.length > 0) {
+    if (missingMoments.length > 0) {
       const list = missingMoments.map((m) => MOMENT_LABELS[m].label.toLowerCase()).join(', ');
-      headline = `Te falta registrar o planificar: ${list}`;
+      headline = `Para ${dayWord} te falta: ${list}`;
       if (missingKeyGroups.length > 0) {
         const grp = missingKeyGroups.slice(0, 2).map((g) => FOOD_GROUP_META[g].shortLabel.toLowerCase()).join(' y ');
-        encouragement = `Venís muy bien; para sumar variedad hoy vendría bárbaro incorporar ${grp}.`;
+        encouragement = `Para sumar variedad ${dayWord}, vendría bárbaro incorporar ${grp}.`;
       }
     }
 

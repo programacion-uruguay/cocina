@@ -436,7 +436,7 @@
                 <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
                   ${
                     window.CB_IS_LOGGED_IN && window.CB_IS_LOGGED_IN()
-                      ? `<button type="button" class="cb-btn cb-btn-sm cb-btn-primary" data-cb-pick-id="${r.id}">✓ Elegir para hoy</button>`
+                      ? `<button type="button" class="cb-btn cb-btn-sm cb-btn-primary" data-cb-pick-id="${r.id}">✓ Elegir para ${window.CB_GET_DAY_WORD ? window.CB_GET_DAY_WORD() : "hoy"}</button>`
                       : ""
                   }
                   <a href="${buildRecipeUrl(r.id)}" target="_blank" rel="noopener" class="card-view-link" data-view-id="${r.id}">Abrir receta ↗</a>
@@ -1216,7 +1216,11 @@
       onSelect: handleWheelSelect,
       onCenterClick: handleCenterClick,
       onStepClick: jumpToLevel,
-      getItemCount: countForWheelSector
+      getItemCount: countForWheelSector,
+      isItemDisabled: (levelKey, itemId) =>
+        levelKey === "momento" && window.CB_IS_MOMENT_DISABLED
+          ? window.CB_IS_MOMENT_DISABLED(itemId)
+          : false
     });
 
     syncUI();
