@@ -55,13 +55,13 @@
 
   function syncTopbarAndMode() {
     if (state.user) {
-      els.authBtn.textContent = `👤 @${state.user.username}`;
+      els.authBtn.innerHTML = `<span>👤 @${esc(state.user.username)}</span>`;
       els.authBtn.classList.add('is-logged');
       els.guestBanner?.classList.add('cb-hidden');
       els.modeBar.classList.remove('cb-hidden');
       els.userStatusLabel.textContent = `Sesión: ${state.user.fullName || state.user.username}`;
     } else {
-      els.authBtn.textContent = '👤 Ingresar / Registrarse';
+      els.authBtn.innerHTML = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg><span>Ingresar</span>`;
       els.authBtn.classList.remove('is-logged');
       els.guestBanner?.classList.remove('cb-hidden');
       els.modeBar.classList.add('cb-hidden');

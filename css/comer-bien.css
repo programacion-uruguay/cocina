@@ -19,14 +19,37 @@
   display: none !important;
 }
 
-/* Botón en topbar */
+/* Ajuste armónico en la topbar de Cocina Radial */
+.topbar-inner {
+  max-width: 1280px;
+}
+
+.topbar-controls {
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.topbar-controls .search-box {
+  flex: 1 1 200px;
+  max-width: 280px;
+  min-width: 160px;
+}
+
+@media (max-width: 980px) {
+  .topbar-controls {
+    flex-wrap: wrap;
+  }
+}
+
+/* Botón en topbar alineado con Favoritos */
 .cb-auth-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
+  gap: 7px;
+  height: 40px;
+  padding: 0 15px;
   border-radius: 999px;
-  border: 1.5px solid var(--cb-forest);
+  border: 1px solid var(--cb-forest);
   background: var(--cb-forest);
   color: #fff;
   font-family: inherit;
@@ -35,6 +58,7 @@
   cursor: pointer;
   transition: 0.16s ease;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 .cb-auth-btn:hover {
   background: var(--cb-forest-dark);
@@ -44,38 +68,32 @@
   color: var(--cb-forest-dark);
 }
 
-/* Banner de invitación al logueo en la página principal */
-.cb-guest-banner {
-  max-width: 1120px;
-  margin: 14px auto 0;
-  padding: 10px 16px;
-  border-radius: 14px;
-  background: var(--cb-sage);
-  border: 1px solid #c6dec9;
-  color: var(--cb-forest-dark);
+/* Link sutil y armónico debajo de la leyenda del menú radial */
+.cb-guest-inline {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border, #e6dec8);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  justify-content: center;
+  gap: 8px;
   font-size: 13px;
+  color: var(--text-muted, #5c6670);
 }
 
-.cb-guest-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 14px;
-  border-radius: 999px;
-  background: var(--cb-forest);
-  color: #fff;
-  text-decoration: none;
+.cb-guest-inline-link {
+  color: var(--cb-forest);
   font-weight: 700;
-  font-size: 13px;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--cb-sage);
   transition: 0.15s ease;
 }
-.cb-guest-link:hover {
-  background: var(--cb-forest-dark);
+.cb-guest-inline-link:hover {
+  background: var(--cb-forest);
+  color: #fff;
 }
 
 /* Barra de cambio entre Menú Radial y COMER BIEN */
