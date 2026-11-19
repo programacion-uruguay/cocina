@@ -252,32 +252,6 @@
       { id: 'perfil', label: '👤 Mi Perfil' },
     ];
 
-    const activePattern = state.user.dietPattern || 'equilibrada';
-    const activePatternObj = D.DIET_PATTERNS.find((p) => p.id === activePattern) || D.DIET_PATTERNS[0];
-    const compatibleCount = D.RECIPES.filter((r) => E.isRecipeCompatible(r, state.user)).length;
-
-    const dietBarHtml = `
-      <div class="cb-card" style="margin-bottom:16px;padding:12px 16px;background:var(--cb-cream);">
-        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;">
-          <div style="font-size:13px;font-weight:700;color:var(--cb-forest-dark);">
-            🍽️ Tipo de alimentación: <span style="color:var(--cb-forest);">${activePatternObj.emoji} ${activePatternObj.label}</span>
-          </div>
-          <span class="cb-badge cb-badge-sage">${compatibleCount} recetas adaptadas</span>
-        </div>
-        <div class="cb-chip-row">
-          ${D.DIET_PATTERNS.map(
-            (p) =>
-              `<button type="button" class="cb-chip ${activePattern === p.id ? 'active' : ''}" data-diet-pat="${p.id}" title="${esc(p.desc)}">${p.emoji} ${p.label}</button>`
-          ).join('')}
-        </div>
-        ${
-          activePatternObj.clinical
-            ? '<div style="font-size:11.5px;color:#78350f;margin-top:8px;">⚕️ Recordá que las situaciones clínicas requieren orientación de médico o nutricionista.</div>'
-            : `<div style="font-size:11.5px;color:var(--cb-muted);margin-top:6px;">${esc(activePatternObj.desc)}</div>`
-        }
-      </div>
-    `;
-
     const subnavHtml = `
       <nav class="cb-subnav">
         ${routes
@@ -289,18 +263,9 @@
           )
           .join('')}
       </nav>
-      ${dietBarHtml}
       <div id="cb-view"></div>
     `;
     els.cbStage.innerHTML = subnavHtml;
-
-    els.cbStage.querySelectorAll('[data-diet-pat]').forEach((b) =>
-      b.addEventListener('click', () => {
-        state.user.dietPattern = b.dataset.dietPat;
-        S.saveProfile(state.user);
-        renderCBStage();
-      })
-    );
 
     els.cbStage.querySelectorAll('[data-cb-route]').forEach((b) =>
       b.addEventListener('click', () => {
@@ -411,10 +376,13 @@
       </div>`
         : '';
 
+    const activePatternObj =
+      D.DIET_PATTERNS.find((p) => p.id === (state.user.dietPattern || 'equilibrada')) || D.DIET_PATTERNS[0];
+
     view.innerHTML = `
       <div class="cb-hero">
         <div style="max-width:620px;">
-          <div style="font-size:12px;font-weight:700;color:#c8e6c9;">RESUMEN DE HOY</div>
+          <div style="font-size:12px;font-weight:700;color:#c8e6c9;">RESUMEN DE HOY · ${activePatternObj.emoji} ${esc(activePatternObj.label.toUpperCase())}</div>
           <h2>¡Hola, ${esc(firstName)}! ${esc(summary.headline)}</h2>
           <p style="font-size:14px;color:#e6f0ea;margin:0;">${esc(summary.encouragement)}</p>
         </div>
@@ -1572,6 +1540,9 @@
   // 7. PERFIL
   function renderPerfil(view) {
     const u = state.user;
+    const activePattern = u.dietPattern || 'equilibrada';
+    const activePatternObj = D.DIET_PATTERNS.find((p) => p.id === activePattern) || D.DIET_PATTERNS[0];
+
     view.innerHTML = `
       <form id="cb-pf-form" style="display:flex;flex-direction:column;gap:14px;max-width:780px;">
         <div class="cb-section-head">
@@ -1586,6 +1557,21 @@
           <div class="cb-field"><label>Meta de vasos de agua</label><input id="cb-pf-w" type="number" min="1" value="${u.habits.waterGlassesGoal}" /></div>
         </div>
         <div class="cb-card">
+          <strong style="display:block;margin-bottom:4px;">Tipo de alimentación o dieta actual</strong>
+          <p style="font-size:12px;color:var(--cb-muted);margin:0 0 10px;">
+            Las recetas, sugerencias, menú semanal y rueda de ingredientes se adaptarán automáticamente a tu elección.
+          </p>
+          <div class="cb-chip-row">
+            ${D.DIET_PATTERNS.map(
+              (p) =>
+                `<button type="button" class="cb-chip ${activePattern === p.id ? 'active' : ''}" data-pf-diet="${p.id}" title="${esc(p.desc)}">${p.emoji} ${esc(p.label)}</button>`
+            ).join('')}
+          </div>
+          <div id="cb-pf-diet-note" style="font-size:12px;color:${activePatternObj.clinical ? '#78350f' : 'var(--cb-muted)'};margin-top:8px;">
+            ${activePatternObj.clinical ? '⚕️ Recordá que las situaciones clínicas requieren orientación profesional.' : esc(activePatternObj.desc)}
+          </div>
+        </div>
+        <div class="cb-card">
           <strong style="display:block;margin-bottom:8px;">Alergias, intolerancias y restricciones</strong>
           <div class="cb-chip-row">
             ${D.RESTRICTION_OPTIONS.map(
@@ -1595,6 +1581,23 @@
         </div>
       </form>
     `;
+    view.querySelectorAll('[data-pf-diet]').forEach((b) =>
+      b.addEventListener('click', () => {
+        const val = b.dataset.pfDiet;
+        state.user.dietPattern = val;
+        view.querySelectorAll('[data-pf-diet]').forEach((btn) =>
+          btn.classList.toggle('active', btn.dataset.pfDiet === val)
+        );
+        const obj = D.DIET_PATTERNS.find((p) => p.id === val);
+        const noteEl = document.getElementById('cb-pf-diet-note');
+        if (obj && noteEl) {
+          noteEl.style.color = obj.clinical ? '#78350f' : 'var(--cb-muted)';
+          noteEl.textContent = obj.clinical
+            ? '⚕️ Recordá que las situaciones clínicas requieren orientación profesional.'
+            : obj.desc;
+        }
+      })
+    );
     view.querySelectorAll('[data-pfr]').forEach((b) =>
       b.addEventListener('click', () => {
         const val = b.dataset.pfr;
