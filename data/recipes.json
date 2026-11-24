@@ -17240,5 +17240,3076 @@
         "text": "Apagar el fuego, incorporar la mozzarella rallada mezclando apenas para formar hilos fundidos y servir sobre fideos al dente."
       }
     ]
+  },
+  {
+    "id": "sandwich-tostado-pavita-cheddar",
+    "title": "Tostado Caliente de Pavita, Cheddar y Verdeo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Tostados dorados en manteca a la sartén con pavita feteada, queso cheddar fundido y mayonesa con verdeo.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan blanco de molde (lactal)"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "pavita o pollo cocido en fetas"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso cheddar"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "mayonesa"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "salsa picante suave"
+      },
+      {
+        "amount": 2,
+        "unit": "ramas",
+        "item": "cebolla de verdeo picada"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la mayonesa con la salsa picante y la cebolla de verdeo; untar las rebanadas de pan, rellenar 4 con pavita y queso cheddar y tapar."
+      },
+      {
+        "text": "Derretir la manteca en sartén amplia a fuego medio y dorar los sándwiches unos 3 minutos por lado hasta fundir el queso.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-pollo-apio-light",
+    "title": "Sándwich Liviano de Pollo y Apio",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Sándwich fresco y proteico de pechuga hervida picada, apio crocante y mayonesa liviana en pan de molde integral.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "pechuga de pollo cocida sin piel"
+      },
+      {
+        "amount": 2,
+        "unit": "ramas",
+        "item": "apio blanco picado fino"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa light o queso blanco"
+      },
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan de molde integral o light"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Desmenuzar o picar fina la pechuga de pollo cocida y mezclarla con el apio en cubitos chicos, la mayonesa light, sal y pimienta."
+      },
+      {
+        "text": "Rellenar las rebanadas de pan y servir frío."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-panini-pollo-pesto",
+    "title": "Panini Tostado de Pollo al Pesto y Morrón",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pan tipo ciabatta o focaccia relleno de pollo en cubos, pesto de albahaca, morrón verde, cebolla morada y queso fundido.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "panes ciabatta o focaccia chicos"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "pesto de albahaca"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "pechuga de pollo cocida en cubitos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón verde y 1/4 cebolla morada picados"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "queso Colonia o Cheddar rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Abrir los panes al medio horizontalmente, untar ambas caras con pesto y rellenar con el pollo, morrón verde, cebolla morada y queso."
+      },
+      {
+        "text": "Dorar 5 minutos en tostadora de paninis o plancha presionando hasta que el queso se funda.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "sandwich-pollo-brotes-palta",
+    "title": "Sándwich Fresco de Pollo, Palta y Brotes",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Triple o doble integral tostado a la plancha con pechuga fileteada, puré de palta al limón, tomate, cebolla marinada y brotes.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "rebanadas",
+        "item": "pan integral"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "pechuga de pollo cocida en láminas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "palta pisada con jugo de limón"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates en rodajas finas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla morada fina y brotes de alfalfa"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa liviana con cilantro y 1 cdta oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Marinar la cebolla morada en jugo de limón, aceite de oliva y pimienta; pisar la palta con gotas de limón."
+      },
+      {
+        "text": "Tostar las rebanadas de pan en plancha 2 minutos por lado.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Armar intercalando mayonesa con cilantro, puré de palta, pollo, cebolla, tomate y brotes de alfalfa."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-pavita-barbacoa-pan-arabe",
+    "title": "Pan Árabe Caliente de Pavita y Barbacoa",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Panes árabes tibios rellenos de pavita o pollo salteado con morrones, cebolla morada y salsa barbacoa.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "panes árabes (pita)"
+      },
+      {
+        "amount": 260,
+        "unit": "g",
+        "item": "pavita o pechuga de pollo hervida picada"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas moradas picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo y 1 morrón verde picados"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite vegetal y 1 sobre condimento barbacoa"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "ají molido y 2 cdas de agua"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Saltear la pavita o pollo en aceite con el condimento barbacoa, el agua, las cebollas, los morrones y el ají molido durante 12 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Entibiar los panes árabes, abrir como bolsillo y rellenar con la mezcla caliente."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-suizo-pavita-chucrut",
+    "title": "Sándwich Suizo Tostado de Pavita y Gruyere",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 8,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Inspirado en el clásico Reuben: pan de centeno o integral tostado en manteca con pavita, queso gruyere, repollo avinagrado y salsa tártara.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan integral o de centeno"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "pavita feteada"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso gruyere o Colonia"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "repollo fino con vinagre (o chucrut escurrido)"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "salsa tártara"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar el lado interno del pan con salsa tártara y el externo con manteca; rellenar con pavita, repollo escurrido y queso."
+      },
+      {
+        "text": "Dorar en sartén a fuego medio-bajo unos 3 minutos por lado hasta fundir el queso.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-completo-pavita-fiambres",
+    "title": "Sándwich Horneado Completo de Pavita y Tres Quesos",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 220,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Flauta o pan francés grande gratinado con manteca de ajo y parmesano, relleno de fiambres, tres quesos, champiñones y vegetales.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "baguette o pan francés grande (500 g)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "pavita en fetas y 150 g de jamón cocido"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "salame en fetas finas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "mozzarella y 150 g queso provolone en fetas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso parmesano rallado, 40 g manteca y 1 diente de ajo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "aceitunas negras y 100 g champiñones fileteados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón verde, 2 tomates, 1 cebolla y lechuga"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Abrir el pan a lo largo, untar con manteca mezclada con ajo y espolvorear parmesano; hornear a 220 °C hasta dorar apenas.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Rellenar en capas con lechuga, los fiambres, los quesos, tomate, cebolla, morrón, aceitunas y champiñones; cortar en 8 porciones."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tipico-pavita-guacamole",
+    "title": "Sándwich Típico de Pavita Ahumada y Guacamole",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Tostadas integrales con pavita ahumada, guacamole, palta en láminas, queso en barra, tomate y hojas verdes.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan integral tostado"
+      },
+      {
+        "amount": 3,
+        "unit": "fetas",
+        "item": "pavita o pollo ahumado"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "guacamole y 1/4 palta en rodajas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso en barra o Dambo en fetas"
+      },
+      {
+        "amount": 2,
+        "unit": "rodajas",
+        "item": "tomate y hojas de lechuga"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mayonesa y 1 cdta de mostaza"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar una tostada con mayonesa y la otra con mostaza."
+      },
+      {
+        "text": "Colocar la pavita, el guacamole, las hojas de lechuga, palta, queso y rodajas de tomate; cerrar y servir."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-natural-palta-pepino",
+    "title": "Sándwich Natural de Palta, Pepino y Brotes",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 6,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Opción vegetariana liviana y crocante con pan integral tostado, palta, pepino largo, tomate y brotes de alfalfa.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan integral ligeramente tostado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "palta en rodajas"
+      },
+      {
+        "amount": 3,
+        "unit": "rodajas",
+        "item": "tomate grueso"
+      },
+      {
+        "amount": 4,
+        "unit": "láminas",
+        "item": "pepino fresco cortado a lo largo"
+      },
+      {
+        "amount": 1,
+        "unit": "puñado",
+        "item": "brotes de alfalfa y hojas de lechuga"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mostaza o mayonesa liviana"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar el pan integral apenas tostado con mostaza o mayonesa."
+      },
+      {
+        "text": "Disponer en capas tomate, pepino, palta, lechuga y brotes de alfalfa; cerrar y disfrutar en el momento."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-vegetal-pepinillos-palta",
+    "title": "Sándwich Vegetal de Pepinillos, Palta y Queso Crema",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Pan integral casero untado con queso crema (o versión vegetal) y puré de palta, pepinillos agridulces, pepino, tomate y brotes.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan integral casero"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "queso crema"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "palta hecha puré"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "pepinillos en vinagre en rodajas"
+      },
+      {
+        "amount": 6,
+        "unit": "rodajas",
+        "item": "pepino fresco y 1 tomate en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "brotes de alfalfa, lechuga, 1 cdta oliva y vinagre"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar las rebanadas con queso crema y una capa de puré de palta."
+      },
+      {
+        "text": "Acomodar pepinillos, brotes rociados con oliva y vinagre, rodajas de tomate y lechuga; cerrar y servir."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-verduras-asadas-feta",
+    "title": "Sándwich Abierto de Verduras Asadas y Queso Blanco",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Focaccia o pan rústico grillado con queso desgranado y verduras asadas a la plancha con aliño de ajo y limón.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "panes focaccia chicos divididos al medio"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso feta o queso blanco firme desgranado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo y 1 cebolla morada en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zucchinis chicos en rodajas"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "mayonesa, 2 dientes de ajo y 1 cda jugo de limón"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Asar en plancha caliente los vegetales pincelados con oliva 3 minutos por lado hasta marcarlos bien.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Untar la focaccia con mayonesa al ajo y limón, cubrir con queso desgranado y tapar en la plancha 2 minutos hasta fundir.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Servir cubierto con las verduras grilladas."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-vegetales-albahaca-doble-pesto",
+    "title": "Sándwich de Morrones Asados, Albahaca y Doble Pesto",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 6,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Aromático sándwich mediterráneo en focaccia con morrones asados, queso firme, hojas de albahaca y pesto verde y rojo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "porción",
+        "item": "pan focaccia abierto al medio"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "morrones rojos asados en tiras"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "queso blanco firme o feta desgranado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "hojas de albahaca fresca"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "pesto de albahaca + 1 cda mayonesa"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "pesto o pasta de tomates secos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la mayonesa con el pesto de albahaca y untar una mitad del pan; untar la otra con pasta de tomates secos."
+      },
+      {
+        "text": "Rellenar con los morrones asados, el queso y las hojas frescas de albahaca; cerrar y servir."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-crocante-papa-jamon",
+    "title": "Sándwich Crocante de Papa, Jamón y Cheddar al Horno",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 220,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Original sándwich sin harina armado entre capas crocantes de láminas de papa horneadas con relleno de puré, queso y jamón cocido.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "papas medianas (mitad para puré, mitad en láminas finas)"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla picada fina"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "yema de huevo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso cheddar rallado"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "jamón cocido picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir 250 g de papas y pisarlas con cebolla rehogada en manteca, yema, cheddar y jamón cocido.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Acomodar láminas finas de papa cruda sobre placa enmantecada, distribuir el puré, tapar con más láminas pintadas con manteca y hornear a 220 °C por 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-zucchini-mozzarella",
+    "title": "Tostado Caliente de Zucchini, Tomate y Mozzarella",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 12,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Figacitas rellenas de zucchini salteado en salsa de tomate picante y abundante mozzarella gratinada al horno.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "panes tipo figacitas abiertos al medio"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zucchinis medianos en cubitos"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "salsa de tomate"
+      },
+      {
+        "amount": 185,
+        "unit": "g",
+        "item": "queso mozzarella rallado"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "ají molido, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Saltear los cubitos de zucchini en manteca hasta dorar; sumar ají molido y salsa de tomate calentando 5 minutos.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Rellenar las figacitas, cubrir con mozzarella, envolver en aluminio y hornear 15 minutos a 180 °C hasta fundir.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "sandwich-clasico-berenjena-grilla",
+    "title": "Sándwich Clásico de Berenjena Grillada y Queso",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Figacitas tostadas con rodajas de berenjena grilladas al oliva, tomate fresco, albahaca, queso firme y mayonesa al ajo.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "panes tipo figacitas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "berenjena chica en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en rodajas"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "queso feta o blanco firme desgranado"
+      },
+      {
+        "amount": 0.25,
+        "unit": "taza",
+        "item": "albahaca fresca picada"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "mayonesa, 2 dientes de ajo y 1 cda aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Grillar las rodajas de berenjena pinceladas con oliva unos 10 minutos hasta que estén tiernas y doradas.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Tostar los panes, untar con mayonesa mezclada con ajo picado y armar con berenjena, tomate, queso y albahaca."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-arabe-brie-coulis-morron",
+    "title": "Pan Árabe Tibio de Queso Brie, Lomito y Coulis de Morrón",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Bolsillos de pan árabe horneados con láminas de queso Brie fundido, lomito ahumado y coulis dulce de morrones asados al ajo.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "panes árabes"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso Brie nacional en láminas"
+      },
+      {
+        "amount": 8,
+        "unit": "fetas",
+        "item": "lomito ahumado"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "morrones colorados asados y procesados con 2 ajos y oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Abrir un borde de los panes árabes como bolsillo y untar con el coulis de morrones asados al ajo."
+      },
+      {
+        "text": "Rellenar con queso Brie y lomito ahumado; hornear 8 a 10 minutos a 180 °C hasta dorar y fundir.",
+        "timerMinutes": 9
+      }
+    ]
+  },
+  {
+    "id": "sandwich-liviano-atun-aceitunas",
+    "title": "Sándwich Liviano de Atún, Queso Blanco y Aceitunas",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Sándwich de pan negro o salvado con pasta liviana de queso blanco light, ciboulette, aceitunas verdes, atún al natural y huevo duro.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan de molde negro (salvado)"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "atún al natural escurrido"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos duros picados"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "queso blanco bajas calorías"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "aceitunas verdes picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "ciboulette picado, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el queso blanco con el ciboulette, las aceitunas verdes picadas, sal y pimienta."
+      },
+      {
+        "text": "Untar el pan de salvado y distribuir el atún desmenuzado y el huevo duro picado; cerrar y servir."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-atun-hummus-romero",
+    "title": "Sándwich Proteico de Atún y Hummus al Romero",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Pasta cremosa de atún al agua ligado con hummus de garbanzos, cebolla morada, orégano y romero fresco en pan integral.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan de centeno o integral"
+      },
+      {
+        "amount": 185,
+        "unit": "g",
+        "item": "atún al natural en lata escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "hummus de garbanzos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla morada picada fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano fresco, 1 cdta romero fresco y ají verde picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combinar en un bol el atún desmenuzado con el hummus, la cebolla morada, las hierbas frescas, ají verde y pimienta negra."
+      },
+      {
+        "text": "Untar generosamente entre las rebanadas de pan y servir al instante."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-atun-choclo-nueces",
+    "title": "Sándwich Combinado de Atún, Choclo y Nueces",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Triángulos de pan integral sin corteza con relleno fresco de atún, granos de choclo dulce, lechuga y nueces picadas.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "rebanadas",
+        "item": "pan integral sin corteza"
+      },
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "atún en aceite escurrido"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "choclo en grano cocido"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "nueces picadas chicas"
+      },
+      {
+        "amount": 6,
+        "unit": "hojas",
+        "item": "lechuga lavada y picada"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "mayonesa, 1 cda mostaza y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la mayonesa con la mostaza y unir con el atún, la lechuga, el choclo y las nueces."
+      },
+      {
+        "text": "Rellenar los sándwiches y cortar en triángulos para servir."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-clasico-atun",
+    "title": "Tostado Clásico de Atún, Tomate y Queso al Horno",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 6,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sándwiches abiertos o cerrados al horno con pasta de atún al apio y perejil, rodajas de tomate maduro y queso fundido.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan de centeno o integral"
+      },
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "atún al agua escurrido"
+      },
+      {
+        "amount": 4,
+        "unit": "rodajas",
+        "item": "tomate maduro"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso Colonia o Gruyere"
+      },
+      {
+        "amount": 0.25,
+        "unit": "taza",
+        "item": "apio picado fino, cebolla y perejil"
+      },
+      {
+        "amount": 0.25,
+        "unit": "taza",
+        "item": "mayonesa, 1 cdta vinagre y pimentón dulce"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el atún con la mayonesa, apio, cebolla, perejil, vinagre, sal y pimienta."
+      },
+      {
+        "text": "Tostar apenas el pan en horno fuerte, untar la pasta de atún, cubrir con queso y tomate y gratinar 4 minutos.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "sandwich-atun-estragon-provolone",
+    "title": "Sándwich Aromático de Atún, Limón y Provolone",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Atún desmenuzado perfumado con perejil, ciboulette, estragón, ralladura de limón y mostaza Dijon, con tomate y provolone.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan blanco o integral de molde"
+      },
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "atún al natural escurrido"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso provolone"
+      },
+      {
+        "amount": 8,
+        "unit": "rodajas",
+        "item": "tomate fresco"
+      },
+      {
+        "amount": 0.33,
+        "unit": "taza",
+        "item": "mayonesa y 1 cdta mostaza Dijon"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "perejil, ciboulette y estragón picados + ralladura de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Integrar la mayonesa con las hierbas frescas, ralladura y jugo de limón, mostaza y pimienta; incorporar el atún y enfriar 20 minutos."
+      },
+      {
+        "text": "Armar los sándwiches con la pasta de atún, rodajas de tomate y fetas de provolone."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-hojaldre-atun-espinacas",
+    "title": "Cuadrados de Hojaldre Rellenos de Atún y Espinaca",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Sándwiches horneados en masa de hojaldre rellenos con espinaca salteada, atún, tomate fresco y mozzarella gratinada.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "planchas",
+        "item": "masa de hojaldre rectangular"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún en aceite grande escurrido"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "espinaca cocida, escurrida y picada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla grande y 1 tomate en rodajas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso mozzarella rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo, 3 cdas aceite, nuez moscada y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Saltear la cebolla y la espinaca con nuez moscada; al enfriar unir 1 huevo batido, colocar entre las dos planchas de hojaldre y hornear 30 minutos hasta dorar.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Abrir al medio horizontalmente, cubrir con atún escurrido, rodajas de tomate y mozzarella, y gratinar 5 minutos; cortar en cuadrados.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "sandwich-atun-palmitos-tartara",
+    "title": "Sándwich Fresco de Atún, Palmitos y Salsa Tártara",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Pan integral casero relleno de atún al oliva ligado con salsa tártara, palmitos en láminas, tomate y albahaca.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan integral de molde"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún en aceite de oliva escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "palmitos en láminas"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "salsa tártara con huevo duro picado"
+      },
+      {
+        "amount": 3,
+        "unit": "hojas",
+        "item": "lechuga, 1/2 tomate y albahaca fresca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la lechuga en juliana con el atún y la salsa tártara."
+      },
+      {
+        "text": "Distribuir sobre el pan, sumar rodajas de tomate, láminas de palmito y hojitas de albahaca; cerrar y servir."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-bocata-dorado-atun",
+    "title": "Bocata Dorado de Atún, Apio y Pepinillos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Sándwiches rellenos de crema de atún, huevo duro, pepinillos y apio, pasados por huevo batido con leche y dorados en manteca.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "rebanadas",
+        "item": "pan blanco de molde"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros picados"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "pepinillos dulces picados y 1 rama de apio"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "mayonesa y 1 cdta jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo, chorrito de leche y 25 g manteca para dorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Formar una pasta con el atún, huevos duros, pepinillos, apio, mayonesa y limón; rellenar y cerrar los sándwiches."
+      },
+      {
+        "text": "Pasar apenas por huevo batido con leche y dorar en sartén con manteca 3 minutos por lado.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-atun-huevo-repollo-morado",
+    "title": "Sándwich Integral de Atún, Huevo y Repollo Morado",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Triángulos integrales livianos sin mayonesa, con atún al oliva, huevo duro picado y repollo morado crocante.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan de sándwich integral"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "atún en aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros picados finos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "repollo morado en tiras finas o brotes"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "pimienta blanca molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el atún con su aceite y el huevo duro picado, condimentando con pimienta blanca."
+      },
+      {
+        "text": "Distribuir sobre el pan integral, sumar el repollo morado crocante, tapar y cortar en triángulos."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-mediterraneo-atun-anchoas",
+    "title": "Sándwich Mediterráneo Express de Atún y Morrón",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 6,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Sándwiches de miga sin corteza resueltos en 5 minutos con atún, tiras de morrón asado, aceitunas rellenas y anchoas.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan de molde sin corteza"
+      },
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "atún en aceite escurrido"
+      },
+      {
+        "amount": 8,
+        "unit": "filetes",
+        "item": "anchoas en aceite"
+      },
+      {
+        "amount": 8,
+        "unit": "tiras",
+        "item": "morrón rojo asado en conserva"
+      },
+      {
+        "amount": 16,
+        "unit": "u",
+        "item": "aceitunas verdes rellenas en rodajas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Repartir sobre 4 rebanadas de pan el atún escurrido, las tiras de morrón, las aceitunas y 2 filetes de anchoa por sándwich."
+      },
+      {
+        "text": "Cubrir con las rebanadas restantes y servir."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-negro-pastron-gruyere",
+    "title": "Sándwich Caliente de Centeno, Pastrón y Gruyere",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 8,
+    "cookMinutes": 5,
+    "temperatureC": 220,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Pan negro de centeno gratinado al horno con pastrón feteado, repollo avinagrado (chucrut), queso fundido y salsa tártara.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan negro de centeno"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "pastrón o lomito en fetas finas"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso gruyere o suizo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "chucrut o repollo fino escurrido"
+      },
+      {
+        "amount": 0.25,
+        "unit": "taza",
+        "item": "salsa tártara"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Acomodar dos rebanadas de pan en asadera, colocar capas de pastrón, chucrut y queso, y tapar."
+      },
+      {
+        "text": "Gratinar en horno bien caliente 4 minutos hasta que el queso se funda y servir con salsa tártara.",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "sandwich-italiano-baguette-fiambres",
+    "title": "Sándwich Italiano en Baguette con Tres Quesos y Fiambres",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Baguette fresca perfumada con oliva, orégano, albahaca y parmesano, rellena de salame, jamón cocido, provolone, mozzarella y aceitunas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "baguette fresca grande (500 g)"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "salame en fetas finas y 125 g jamón cocido"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "provolone y 125 g mozzarella en fetas"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 16,
+        "unit": "u",
+        "item": "aceitunas verdes y negras picadas"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva, 1 cda albahaca y 1 cda orégano"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Abrir la baguette a lo largo, rociar con aceite de oliva y espolvorear parmesano, albahaca y orégano."
+      },
+      {
+        "text": "Rellenar con las aceitunas picadas, el salame, jamón cocido, provolone y mozzarella; cerrar y cortar en 4 porciones."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-clasico-queso-crema",
+    "title": "Tostado Cremoso de Cheddar y Queso Crema",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 6,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ultra cremoso por dentro y dorado en manteca por fuera: mezcla batida de queso crema, cheddar, mayonesa y ajo.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan blanco de molde"
+      },
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "queso cheddar rallado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "mayonesa y 1/2 cdta ajo en polvo"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir el queso crema con el cheddar rallado, la mayonesa y el ajo en polvo hasta lograr una pasta lisa."
+      },
+      {
+        "text": "Armar los sándwiches, untar por fuera con manteca y dorar en sartén 4 minutos por lado.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "sandwich-parrilla-mozzarella-albahaca",
+    "title": "Sándwich a la Plancha de Mozzarella, Tomate y Albahaca",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Estilo caprese caliente en pan ciabatta dorado al oliva con mozzarella fundida, tomate fresco, cebolla morada y albahaca.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan ciabatta chico"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "queso mozzarella en 4 fetas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates sin semillas en rodajas finas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla morada en aros finos"
+      },
+      {
+        "amount": 8,
+        "unit": "hojas",
+        "item": "albahaca fresca"
+      },
+      {
+        "amount": 4,
+        "unit": "cdtas",
+        "item": "aceite de oliva, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Armar los 4 sándwiches con mozzarella, rodajas de tomate, cebolla morada, albahaca, sal y pimienta."
+      },
+      {
+        "text": "Dorar en sartén o plancha con aceite de oliva presionando con espátula 2 minutos por lado.",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "sandwich-croque-monsieur-doble-queso",
+    "title": "Croque-Monsieur Doble Queso a la Sartén",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Clásico bistró francés pasado por leche con gruyere rallado y dorado en manteca con doble queso y jamón cocido.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan de molde tostado"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso Colonia o Emmental"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso gruyere rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "fetas",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "leche"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Armar los sándwiches con doble queso Colonia y jamón cocido en el centro."
+      },
+      {
+        "text": "Batir la leche con el gruyere rallado, humedecer apenas los sándwiches y dorarlos en manteca a fuego medio hasta fundir.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-frances-gruyere-bechamel",
+    "title": "Tostado Gratinado con Salsa Blanca y Gruyere",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Rodajas de pan francés rellenas de jamón y gruyere, cubiertas con salsa blanca y queso rallado y gratinadas al horno.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rodajas",
+        "item": "pan francés"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "queso gruyere en fetas"
+      },
+      {
+        "amount": 2,
+        "unit": "fetas",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "salsa blanca (bechamel)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "queso rallado y 15 g manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar el pan con manteca y rellenar con el gruyere y el jamón cocido."
+      },
+      {
+        "text": "Mezclar la salsa blanca con queso rallado, cubrir por encima y gratinar en horno a 200 °C unos 10 minutos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-queso-aji-tomate",
+    "title": "Tostado de Cheddar, Tomate y Ají Picante",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Tostado rápido de sartén en manteca con cheddar fundido, tomate fresco, albahaca y un toque de ají picante.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan lacteado"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso cheddar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate grande en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "ají picante fresco sin semillas en rodajitas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "albahaca seca, sal y pimienta"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar el exterior del pan con manteca y rellenar con cheddar, tomate, ají y albahaca."
+      },
+      {
+        "text": "Dorar en sartén a fuego medio de 2 a 3 minutos por lado.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-queso-albahaca",
+    "title": "Tostado Express de Queso Cheddar y Albahaca",
+    "metodo": "parrilla",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 4,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Clásico tostado de plancha en 10 minutos con cheddar fundido, rodajas de tomate y albahaca.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan de molde"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso cheddar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate grande en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "albahaca, sal y pimienta"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Enmantecar la cara externa del pan y colocar en el interior queso cheddar, tomate y albahaca."
+      },
+      {
+        "text": "Cocinar en plancha caliente 2 a 3 minutos por lado hasta dorar.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "sandwich-arabe-dos-quesos-hummus",
+    "title": "Pan Árabe Horneado de Dos Quesos y Hummus",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Bolsillos de pan árabe rellenos con mezcla de queso firme, parmesano, hummus, morrones asados y aceitunas negras.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "panes árabes cortados al medio"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "queso blanco firme desmenuzado y 2 cdas parmesano"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "hummus de garbanzos"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "morrones rojos asados picados"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceitunas negras picadas y 1 cda tomillo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar ambos quesos con el hummus, morrones asados, aceitunas y tomillo; rellenar los bolsillos de pan árabe."
+      },
+      {
+        "text": "Hornear 8 minutos a 180 °C hasta dorar y fundir, y cortar en cuartos.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "sandwich-abierto-jamon-queso-huevo-frito",
+    "title": "Clásico Gratinado de Jamón, Doble Queso y Huevo Frito",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Rebanadas doradas en manteca, gratinadas al horno con jamón, doble queso y coronadas con huevo frito.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan de molde"
+      },
+      {
+        "amount": 8,
+        "unit": "fetas",
+        "item": "queso cheddar o Dambo"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos fritos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa, 1 cda mostaza, manteca y pimentón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dorar brevemente el pan en manteca, untar con mezcla de mostaza y mayonesa y cubrir con queso, jamón y pimentón."
+      },
+      {
+        "text": "Gratinar en horno hasta fundir el queso y servir coronado con un huevo frito caliente.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "sandwich-calentito-expres-atun",
+    "title": "Calentito Exprés de Atún y Cheddar",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Sándwich gratinado rápido de pan integral con atún al natural, doble capa de queso cheddar y orégano.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan integral de molde"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún al natural bien escurrido"
+      },
+      {
+        "amount": 8,
+        "unit": "fetas",
+        "item": "queso cheddar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano seco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tostar 2 rebanadas, cubrir con atún, cheddar y orégano y llevar a gratinar 3 minutos."
+      },
+      {
+        "text": "Sumar otra capa de cheddar, tapar con las rebanadas restantes y gratinar 3 minutos más hasta dorar.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-coliflor-zanahoria",
+    "title": "Sándwich Tostado de Coliflor al Vapor y Zanahoria",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Relleno suave de coliflor pisada con mayonesa, mostaza y apio, acompañado de zanahoria rallada y brotes en pan integral tostado.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan integral"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "coliflor cocida al vapor"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "mayonesa y 1/4 cdta mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "zanahoria rallada y 1 cdta apio picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "brotes de alfalfa o lechuga fina"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca y pizca de sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pisar la coliflor con mayonesa, mostaza, apio y sal; untar sobre el pan junto con la zanahoria rallada y los brotes."
+      },
+      {
+        "text": "Cerrar con manteca hacia afuera y dorar en sartén o tostador 3 minutos por lado.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-tostado-verduras-chauchas",
+    "title": "Sándwich Tostado de Verduras al Vapor y Brotes",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Pan integral tostado relleno de puré tibio de chauchas, zanahoria y coliflor al vapor con brotes frescos.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan integral"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "verduras al vapor (chauchas, zanahoria y coliflor)"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "mayonesa"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "brotes de alfalfa"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca o margarina vegetal y pizca de sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pisar ligeramente las verduras cocidas con la mayonesa y sal; distribuir sobre el pan con los brotes."
+      },
+      {
+        "text": "Untar el exterior con manteca vegetal y tostar 3 minutos por lado.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-focaccia-caliente-atun",
+    "title": "Focaccia Caliente a la Plancha con Atún y Provolone",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Focaccia crocante por fuera al aceite de oliva y jugosa por dentro con atún al limón, lechuga y doble provolone.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "porciones",
+        "item": "pan focaccia (10 x 10 cm)"
+      },
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "atún escurrido"
+      },
+      {
+        "amount": 8,
+        "unit": "fetas",
+        "item": "queso provolone"
+      },
+      {
+        "amount": 0.25,
+        "unit": "taza",
+        "item": "mayonesa y 2 cdas jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "puñado",
+        "item": "lechuga limpia"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el atún con mayonesa, jugo de limón, sal y pimienta; armar la focaccia intercalando provolone, atún, lechuga y provolone."
+      },
+      {
+        "text": "Pincelar por fuera con aceite de oliva y dorar en plancha 5 minutos hasta fundir el queso.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "sandwich-caliente-queso-crema-leche",
+    "title": "Tostada Gratinada de Jamón, Queso y Crema de Leche",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "temperatureC": 200,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Rodaja de flautita o baguette horneada con jamón cocido, queso Colonia rallado y un toque de crema de leche.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "rodaja",
+        "item": "baguette o flautita"
+      },
+      {
+        "amount": 1,
+        "unit": "feta",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso Colonia o Emmental rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 1,
+        "unit": "puñado",
+        "item": "hojas verdes y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar sobre la rodaja de pan el jamón cocido, el queso rallado y rociar con la crema de leche."
+      },
+      {
+        "text": "Hornear a 200 °C unos 6 minutos hasta gratinar y servir con hojas verdes.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-calentito-brioche-jamon-crudo",
+    "title": "Calentito de Pan Brioche, Jamón Crudo y Gruyere",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Contraste irresistible entre pan brioche tibio con manteca, jamón crudo feteado, mostaza Dijon y queso gruyere.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan brioche"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "jamón crudo"
+      },
+      {
+        "amount": 8,
+        "unit": "fetas",
+        "item": "queso gruyere"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mostaza Dijon"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar el pan brioche con manteca y mostaza, rellenar con jamón crudo y doble feta de gruyere."
+      },
+      {
+        "text": "Hornear 10 minutos a 190 °C hasta dorar y fundir.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "sandwich-bagels-pavita-fontina-arandanos",
+    "title": "Bagels Tostados de Pavita, Fontina y Arándanos",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 8,
+    "cookMinutes": 4,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Bagels tostados con manteca, mermelada de arándanos, pavita fría y queso Colonia/Fontina gratinado.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "bagels cortados al medio"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "pavita cocida en láminas finas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso Fontina o Colonia en fetas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mermelada de arándanos"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca, gajos de naranja y lechuga para servir"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tostar los bagels, untar con manteca y mermelada de arándanos, y cubrir con pavita y queso."
+      },
+      {
+        "text": "Gratinar 2 minutos al horno hasta fundir el queso y servir con lechuga y gajos de naranja.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "sandwich-integral-huevo-rucula",
+    "title": "Sándwich Integral de Huevo Duro y Rúcula",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Triángulos integrales livianos y rápidos con huevo duro picado ligado con mayonesa light, mostaza y abundante rúcula fresca.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan integral de molde"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos duros picados"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "rúcula fresca limpia"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "mayonesa light y 1 cdta de mostaza"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tostar apenas el pan integral y mezclar los huevos duros picados con la mayonesa light y la mostaza."
+      },
+      {
+        "text": "Untar el relleno, sumar abundante rúcula fresca, cerrar y cortar en triángulos."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-intenso-panceta-especiada",
+    "title": "Sándwich Intenso de Panceta Especiada al Curry",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 6,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Panceta dorada en sartén con mezcla aromática de mostaza, curry y ají molido, servida con tomate y lechuga en pan tostado.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan de molde tostado"
+      },
+      {
+        "amount": 2,
+        "unit": "fetas",
+        "item": "panceta ahumada"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "mostaza en polvo, 0.5 cdta curry y 0.5 cdta ají molido"
+      },
+      {
+        "amount": 2,
+        "unit": "rodajas",
+        "item": "tomate y hojas de lechuga"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dorar la panceta en sartén a fuego medio espolvoreando la mezcla de especias al darla vuelta.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Untar el pan tostado con manteca, armar con lechuga, tomate y panceta crocante."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-fresco-pan-arabe-jamon",
+    "title": "Sándwich Fresco de Pan Árabe, Jamón y Zanahoria",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Pan árabe relleno en 5 minutos con jamón cocido picado, lechuga, zanahoria rallada y aderezo de queso crema y mayonesa.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pan árabe abierto al medio"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "jamón cocido picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "lechuga picada y 1/4 taza zanahoria rallada"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa mezclada con 2 cdas queso crema"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el jamón picado con la lechuga y la zanahoria rallada."
+      },
+      {
+        "text": "Rellenar el pan árabe, salsear con la crema de mayonesa y queso crema y servir fresco."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-frances-dulce-ciruelas",
+    "title": "Tostado Francés Dulce de Mermelada de Ciruelas y Canela",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Versión dulce para desayuno o merienda: sándwiches de mermelada de ciruelas pasados por leche y huevo, dorados con canela.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan blanco de molde"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "mermelada de ciruelas"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos batidos"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "manteca y canela molida a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar dos rebanadas con mermelada de ciruelas, tapar, pasar rápido por leche y luego por huevo batido."
+      },
+      {
+        "text": "Dorar ambos lados en sartén con manteca y espolvorear canela al servir.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "sandwich-yogur-sesamo-pasas",
+    "title": "Sándwich Integral con Pasta de Yogur, Sésamo y Queso",
+    "metodo": "sin_coccion",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Sándwiches frescos con untable casero de yogur natural descremado, semillas de sésamo tostadas y pasas, queso, tomate y pepino.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan de molde integral"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "yogur natural descremado"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "semillas de sésamo tostadas y 20 g pasas sin semillas"
+      },
+      {
+        "amount": 160,
+        "unit": "g",
+        "item": "queso magro en fetas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate, 1 pepino en rodajas y hojas de lechuga"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el yogur natural con el sésamo tostado y las pasas picadas formando un untable cremoso."
+      },
+      {
+        "text": "Untar las rebanadas integrales y armar con queso, lechuga, tomate y pepino."
+      }
+    ]
+  },
+  {
+    "id": "sandwich-cerdo-limon-cilantro",
+    "title": "Baguette de Costillitas de Cerdo al Limón y Pepino",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Panes franceses rellenos de bife de cerdo dorado a la sartén, salsa picante al ajo, cebolla morada, pepino, cilantro y jugo de limón.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "panes franceses o baguetines"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "costillitas de cerdo deshuesadas finas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla morada y 1 pepino en láminas largas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "cilantro fresco picado y 1 limón (jugo)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa, 1.5 cdas salsa de ajo/chile y 15 g manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dorar los bifes de cerdo en sartén con manteca de 3 a 4 minutos por lado.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Abrir los panes, untar mayonesa y rellenar con el cerdo, salsa de ajo y chile, jugo de limón, cebolla, pepino y cilantro."
+      }
+    ]
+  },
+  {
+    "id": "pan-blanco-basico-casero",
+    "title": "Pan Blanco Básico Casero en Molde",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 150,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 14,
+    "difficulty": "Media",
+    "description": "Pan casero rendidor y esponjoso con corteza dorada, ideal para tostadas y sándwiches de todos los días.",
+    "ingredients": [
+      {
+        "amount": 750,
+        "unit": "g",
+        "item": "harina de trigo 000"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 425,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "sal y 2 cdtas de azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo batido para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Espumar la levadura con la mitad del agua tibia y el azúcar; sumar oliva, resto del agua, harina y sal y amasar 10 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Dejar levar 2 horas tapado; desgasificar, dar forma en budinera enharinada y levar 30 minutos más.",
+        "timerMinutes": 150
+      },
+      {
+        "text": "Pintar con huevo batido y hornear 30 minutos a 200 °C hasta dorar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "pan-integral-maiz-miel",
+    "title": "Pan Integral Casero con Harina de Maíz y Miel",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 75,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Pan de molde nutritivo que combina harina integral y harina de maíz con un toque de miel, manteca y huevos.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "harina integral"
+      },
+      {
+        "amount": 130,
+        "unit": "g",
+        "item": "harina de maíz"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "miel y 75 g de manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "agua tibia y 2 cdtas de sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fermentar la levadura con agua tibia y 1 cdta de azúcar; unir ambas harinas, miel, sal, manteca blanda, huevos y fermento."
+      },
+      {
+        "text": "Dejar leudar 30 minutos, amasar, colocar en budinera aceitada y leudar nuevamente.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Pintar con huevo y hornear 30 minutos a 180 °C hasta dorar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "pan-grant-integral-rapido",
+    "title": "Pan Integral Rápido Sin Amasado (Pan Grant)",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 35,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Pan integral sin amasado tradicional: solo mezclar con cuchara, un único levado de 30 minutos en el molde y al horno.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "harina integral para pan"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "item": "levadura seca (1 sobre)"
+      },
+      {
+        "amount": 450,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "miel o azúcar rubia y 1 cdta sal"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina blanca para espolvorear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la harina integral con levadura, sal, miel y agua tibia batiendo 2 minutos hasta obtener masa suave y húmeda."
+      },
+      {
+        "text": "Volcar en budinera engrasada y dejar levar en lugar cálido 30 minutos hasta alcanzar el borde.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Espolvorear harina blanca y hornear 35 minutos a 200 °C hasta que suene hueco al golpear la base.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "pan-brioche-trenzado",
+    "title": "Pan Brioche Trenzado con Sésamo",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 120,
+    "cookMinutes": 45,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Alta",
+    "description": "Miga suave, aireada y ligeramente dulce ideal para tostados gourmet y sándwiches de jamón y queso.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "harina de trigo común"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca activa"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "leche tibia descremada y 180 ml agua"
+      },
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "manteca y 85 g azúcar"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "huevos (4 masa + 1 para pintar)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "sal y 2 cdas semillas de sésamo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Activar la levadura en agua tibia; mezclar leche tibia con azúcar, manteca y sal, incorporar 4 huevos batidos, levadura y harina amasando 10 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Levar 1 hora tapado, desgasificar y reposar 30 minutos; formar tres rollos, trenzar en placa y volver a levar.",
+        "timerMinutes": 90
+      },
+      {
+        "text": "Pintar con huevo batido, espolvorear sésamo y hornear a 180 °C unos 45 minutos.",
+        "timerMinutes": 45
+      }
+    ]
+  },
+  {
+    "id": "pan-ciabatta-artesanal",
+    "title": "Pan Ciabatta Artesanal de Miga Alveolada",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 180,
+    "cookMinutes": 20,
+    "temperatureC": 220,
+    "servings": 12,
+    "difficulty": "Alta",
+    "description": "Pan italiano de corteza fina y crocante con miga súper aireada hecha con esponja previa, perfecto para paninis.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "harina de trigo (leudante y panadera)"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua tibia y 2 cdas leche tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdtas",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Preparar una esponja previa con 1/3 de la harina, agua y pizca de levadura dejándola reposar varias horas."
+      },
+      {
+        "text": "Unir la esponja con el resto de harina, leche con levadura, aceite y sal; amasar 8 minutos y levar 1 hora y media.",
+        "timerMinutes": 90
+      },
+      {
+        "text": "Dividir en dos óvalos sobre papel manteca, espolvorear harina, levar 1 hora más y hornear 20 minutos a 220 °C.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "pan-centeno-molde-casero",
+    "title": "Pan de Centeno Oscuro en Molde",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 90,
+    "cookMinutes": 60,
+    "temperatureC": 200,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Pan firme de sabor profundo y excelente conservación para sándwiches de pastrón, atún o quesos estacionados.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "harina de centeno"
+      },
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "harina para pan"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 600,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdtas",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar las harinas con la levadura y agregar el agua tibia amasando bien; reposar 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Incorporar la sal, volver a amasar, levar 30 minutos, pasar al molde de budín inglés y levar otros 30 minutos.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Hornear 10 minutos a 240 °C y luego bajar a 200 °C por 50 minutos más.",
+        "timerMinutes": 60
+      }
+    ]
+  },
+  {
+    "id": "pan-bollitos-franceses-caseros",
+    "title": "Bollitos Franceses Caseros (16 Unidades)",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 110,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 16,
+    "difficulty": "Media",
+    "description": "Pancitos individuales dorados y tiernos de corteza liviana ideales para sándwiches de fiesta o merienda.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "harina para pan"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca activa"
+      },
+      {
+        "amount": 350,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar y 2 cdas aceite vegetal"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disolver levadura y azúcar en el agua tibia 10 minutos; sumar aceite, sal y harina amasando 8 minutos.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Dejar levar 1 hora, dividir en 16 bollitos sobre placa aceitada dejando espacio y levar 40 minutos más.",
+        "timerMinutes": 100
+      },
+      {
+        "text": "Hornear a 200 °C de 18 a 20 minutos hasta dorar.",
+        "timerMinutes": 19
+      }
+    ]
+  },
+  {
+    "id": "pan-bagels-sesamo-caseros",
+    "title": "Bagels Caseros con Semillas de Sésamo (12 Unidades)",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 90,
+    "cookMinutes": 25,
+    "temperatureC": 190,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Clásicas roscas hervidas brevemente antes de hornear para lograr textura elástica y corteza brillante con sésamo.",
+    "ingredients": [
+      {
+        "amount": 560,
+        "unit": "g",
+        "item": "harina común"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "azúcar y 2 cdtas sal"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo batido y 4 cdas semillas de sésamo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Amasar la harina con agua tibia, manteca, 3 cdas de azúcar, sal y levadura 8 minutos; levar hasta duplicar y reposar 15 minutos.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Formar 12 roscas con hueco central y escaldarlas en sartén con agua hirviendo y 1 cda de azúcar 3 minutos por lado.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Pasar a placa enmantecada, pintar con huevo, espolvorear sésamo y hornear a 190 °C de 20 a 25 minutos.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "pan-focaccia-oliva-casera",
+    "title": "Pan Focaccia Casero al Aceite de Oliva",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 50,
+    "cookMinutes": 18,
+    "temperatureC": 240,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Masa aireada y aromática al aceite de oliva y sal gruesa, lista en poco tiempo para cortar en cuadrados y armar paninis.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 130,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva y sal a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Espumar la levadura con azúcar y agua tibia 10 minutos; unir con la harina y 2 cdas de oliva amasando brevemente.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Dejar levar 30 minutos tapado, estirar en placa aceitada formando un rectángulo, pintar con oliva y espolvorear sal.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Hornear a 240 °C entre 12 y 18 minutos según qué tan crocante se prefiera.",
+        "timerMinutes": 15
+      }
+    ]
   }
 ]
