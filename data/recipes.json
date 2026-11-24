@@ -8942,5 +8942,1743 @@
         "text": "Mezclá con la harina batida en agua y cuajá la tortilla en sartén aceitada por ambos lados."
       }
     ]
+  },
+  {
+    "id": "rapida-hamburguesa-clasica-salsa-especial",
+    "title": "Hamburguesa Clásica Doble con Salsa Especial",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Hamburguesa doble casera en pan con sésamo, queso cheddar, pepinillos agridulces y salsa especial de la casa.",
+    "ingredients": [
+      "4 panes para hamburguesa con sésamo",
+      "640 g de carne picada de ternera",
+      "4 fetas de queso cheddar",
+      "4 pepinillos agridulces en rodajas",
+      "1/4 de lechuga repollada en tiras finas",
+      "1 cebolla chica picada fina",
+      "8 cucharadas de mayonesa espesa",
+      "1 cucharada de kétchup",
+      "1 cucharada de crema de leche",
+      "1 cucharadita de pepinillo picado, 1 cucharadita de mostaza y 1/2 cucharadita de azúcar",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Mezclar la mayonesa, kétchup, crema de leche, pepinillo picado, mostaza, azúcar y una pizca de cebolla picada para formar la salsa especial. Reservar en heladera.",
+      "Salpimentar la carne picada y dividirla en 8 bollos de 80 g; aplastarlos formando hamburguesas finas.",
+      "Tostar ligeramente las mitades de pan en plancha o sartén y reservar.",
+      "Cocinar las hamburguesas a la plancha caliente 3 a 4 minutos por lado.",
+      "Armar con pan base, salsa, lechuga, queso cheddar, hamburguesa, cebolla, pepinillos, otra hamburguesa y tapa de pan."
+    ]
+  },
+  {
+    "id": "rapida-hamburguesa-texana-panceta-barbacoa",
+    "title": "Hamburguesa Texana con Panceta y Salsa Barbacoa",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Hamburguesa casera a la plancha con panceta dorada, queso cheddar, salsa barbacoa, tomate y aros de cebolla.",
+    "ingredients": [
+      "1 pan para hamburguesa con sésamo",
+      "120 g de carne picada magra",
+      "2 fetas finas de queso cheddar",
+      "3 fetas finas de panceta",
+      "4 aros de cebolla blanca",
+      "2 rodajas de tomate redondo",
+      "4 rodajas de pepinillo agridulce",
+      "2 hojas de lechuga",
+      "Salsa barbacoa y mayonesa a gusto",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Formar la hamburguesa con la carne salpimentada y refrigerar 30 minutos para que mantenga firmeza.",
+      "Cocinar a la plancha bien caliente 3 a 4 minutos por lado y dorar al mismo tiempo las fetas de panceta.",
+      "Entibiar las caras del pan en tostadora o plancha.",
+      "Armar con base de pan, carne, queso cheddar, panceta crocante, salsa barbacoa, pepinillos, cebolla, tomate, lechuga y tapa untada con mayonesa."
+    ]
+  },
+  {
+    "id": "rapida-hamburguesa-pescado-crocante",
+    "title": "Hamburguesa de Pescado Crocante con Salsa Tártara",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Filetes de merluza empanados y crocantes servidos en pan de hamburguesa con queso cheddar y salsa tártara.",
+    "ingredients": [
+      "2 filetes de merluza sin espinas",
+      "2 panes para hamburguesa",
+      "2 fetas de queso cheddar",
+      "2 cucharadas de salsa tártara",
+      "1 huevo batido con 2 cucharadas de agua",
+      "1/2 taza de harina",
+      "1/2 taza de pan rallado",
+      "1/2 cucharadita de ajo en polvo y 1/2 cucharadita de cebolla en polvo",
+      "Sal, pimienta y aceite para freír"
+    ],
+    "steps": [
+      "Mezclar la harina con sal, pimienta, ajo y cebolla en polvo.",
+      "Pasar los filetes de merluza por la harina condimentada, luego por huevo batido y finalmente por pan rallado.",
+      "Freír en aceite moderado hasta que estén dorados y crocantes; escurrir sobre papel absorbente.",
+      "Untar el pan tibio con salsa tártara, colocar el pescado frito, el queso cheddar y cerrar."
+    ]
+  },
+  {
+    "id": "rapida-hamburguesa-griega-pan-arabe",
+    "title": "Hamburguesa a la Griega en Pan Árabe",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Hamburguesas servidas en pan árabe con pasta fresca de queso feta, aceitunas verdes, yogur natural y menta.",
+    "ingredients": [
+      "6 hamburguesas caseras cocidas",
+      "3 panes árabes cortados por la mitad",
+      "100 g de queso feta desgranado",
+      "1/4 taza de aceitunas verdes sin carozo picadas",
+      "1 cucharada de jugo de limón",
+      "2 cucharadas de yogur natural",
+      "1 cucharadita de hojas de menta picadas",
+      "6 rodajas de tomate"
+    ],
+    "steps": [
+      "Precalentar el horno a 180 °C.",
+      "Combinar en un bol el queso feta desgranado, aceitunas, jugo de limón y yogur natural.",
+      "Colocar las hamburguesas recién cocidas dentro de cada mitad de pan árabe y repartir la mezcla de queso.",
+      "Agregar una rodaja de tomate y menta picada; hornear 5 minutos en placa y servir caliente."
+    ]
+  },
+  {
+    "id": "rapida-hamburguesa-mediterranea-rucula",
+    "title": "Hamburguesa Mediterránea con Rúcula y Tomates Secos",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Hamburguesa de carne magra con tomates secos y cilantro acompañada de rúcula y salsa fresca de morrón.",
+    "ingredients": [
+      "500 g de carne picada magra",
+      "1/4 taza de pan integral rallado",
+      "2 dientes de ajo machacados",
+      "1/4 taza de tomates secos en aceite escurridos y picados",
+      "2 cucharadas de cilantro o perejil fresco picado",
+      "4 panes de hamburguesa con sésamo",
+      "50 g de rúcula fresca",
+      "250 g de tomates maduros y 1 morrón rojo picados finos",
+      "1 ají suave picado, 2 cucharaditas de aceto balsámico y verdeo picado"
+    ],
+    "steps": [
+      "Mezclar los tomates frescos, morrón rojo, ají, aceto balsámico y verdeo en un bol (o procesar ligeramente) para hacer la salsa. Reservar.",
+      "Unir la carne picada con pan rallado, ajo, tomates secos y cilantro; formar 4 hamburguesas de unos 10 cm.",
+      "Cocinar en plancha aceitada 3 a 4 minutos por lado hasta dorar.",
+      "Tostar ligeramente los panes, colocar hojas de rúcula, la hamburguesa y una cucharada de salsa."
+    ]
+  },
+  {
+    "id": "rapida-bocaditos-pollo-nuggets",
+    "title": "Bocaditos Crocantes de Pollo (Nuggets Caseros)",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 10,
+    "temperatureC": 160,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Bocaditos caseros de pechuga de pollo rebozados, fritos hasta dorar y terminados al horno para quedar bien crocantes.",
+    "ingredients": [
+      "4 pechugas de pollo picadas o procesadas",
+      "1 huevo batido con 1/2 taza de agua",
+      "2/3 taza de harina",
+      "1 taza de pan rallado",
+      "2 cucharaditas de sal y 1/4 cucharadita de pimienta",
+      "1 cucharadita de cebolla en polvo y 1/8 cucharadita de ajo en polvo",
+      "Aceite vegetal para freír"
+    ],
+    "steps": [
+      "Salpimentar el pollo picado y formar 25 porciones de unos 20 g con forma de lágrima.",
+      "Mezclar la harina con cebolla y ajo en polvo; pasar cada bocadito por harina, huevo batido y pan rallado.",
+      "Reposar 1 hora en heladera para fijar el rebozado.",
+      "Freír en aceite a 160 °C hasta dorar, escurrir en papel absorbente y dar un golpe de horno a 180 °C por 5 minutos."
+    ]
+  },
+  {
+    "id": "rapida-salsa-barbacoa-casera",
+    "title": "Salsa Barbacoa Casera Rápida",
+    "metodo": "olla",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Salsa barbacoa agridulce y especiada lista en minutos para acompañar hamburguesas, carnes o papas.",
+    "ingredients": [
+      "100 g de kétchup",
+      "25 g de azúcar rubio o moreno",
+      "1 cucharadita de cebolla en polvo",
+      "1/2 cucharadita de ajo en polvo",
+      "1 clavo de olor",
+      "10 g de salsa de soja",
+      "150 ml de agua",
+      "3 cucharadas de vinagre blanco",
+      "1 cucharada rasa de fécula de maíz",
+      "5 g de sal (o sal ahumada)"
+    ],
+    "steps": [
+      "Colocar todos los ingredientes en una cacerola chica y batir bien con varillas hasta disolver la fécula.",
+      "Llevar a fuego medio removiendo constantemente hasta que rompa hervor.",
+      "Cocinar a fuego suave unos minutos hasta que espese, colar y dejar enfriar en heladera antes de servir."
+    ]
+  },
+  {
+    "id": "rapida-pollo-frito-extra-crujiente",
+    "title": "Presas de Pollo Frito Extra Crujiente",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 15,
+    "temperatureC": 170,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Presas de pollo maceradas en salmuera y con doble rebozado especiado para lograr una cobertura súper crocante.",
+    "ingredients": [
+      "1 pollo entero trozado (o pechugas y alitas)",
+      "4 tazas de agua fría y 2 cucharadas de sal (para la salmuera)",
+      "2 tazas de harina",
+      "1 cucharada de sal y 1/2 cucharadita de pimienta negra",
+      "1/2 cucharadita de pimienta de cayena y 1/2 cucharadita de pimentón",
+      "1/2 cucharadita de salvia molida y 1/2 cucharadita de coriandro molido",
+      "1/4 cucharadita de tomillo y 1/4 cucharadita de ajo en polvo",
+      "Aceite vegetal para freír"
+    ],
+    "steps": [
+      "Disolver la sal en el agua fría y sumergir las presas de pollo durante 20 minutos.",
+      "Mezclar la harina con todas las especias en un bol.",
+      "Pasar cada presa por la harina condimentada, volver a sumergir brevemente en la salmuera y rebozar una segunda vez apretando bien.",
+      "Reposar 5 minutos y freír de a 3 o 4 presas por tanda durante 12 a 15 minutos dando vuelta a mitad de cocción. Escurrir sobre rejilla."
+    ]
+  },
+  {
+    "id": "rapida-choclos-tostados-manteca",
+    "title": "Choclos Tiernos a la Manteca y Hierbas",
+    "metodo": "olla",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Choclos hervidos con un toque de leche y manteca para realzar su dulzor natural, terminados con hierbas.",
+    "ingredients": [
+      "4 choclos frescos o congelados",
+      "1/2 cucharadita de sal",
+      "1/2 cucharadita de azúcar",
+      "1/4 cucharadita de pimienta",
+      "1/4 cucharadita de mix de hierbas secas",
+      "1 cucharada de manteca derretida",
+      "1 chorrito de leche"
+    ],
+    "steps": [
+      "Hervir los choclos en agua con sal, un chorrito de leche y un poco de manteca durante al menos 20 minutos hasta que estén tiernos.",
+      "Retirar, escurrir bien y pincelar con manteca derretida.",
+      "Espolvorear con azúcar, pimienta y hierbas; servir tibios."
+    ]
+  },
+  {
+    "id": "rapida-cazuelitas-pollo-hojaldre",
+    "title": "Cazuelitas de Pollo, Papa y Hojaldre (Pot Pie)",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 220,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Cazuelitas individuales cremosas de pollo y verduras cubiertas con tapa dorada de masa de hojaldre.",
+    "ingredients": [
+      "1 tapa de masa de hojaldre para tarta",
+      "2 tazas de pechuga de pollo cocida en cubitos",
+      "2 papas cocidas sin piel en cubitos",
+      "2 zanahorias cocidas en cubitos",
+      "2/3 taza de arvejas",
+      "2 cucharaditas de cebolla picada",
+      "1 taza de sopa crema de pollo concentrada o salsa blanca espesa",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Mezclar en un bol el pollo, papas, zanahorias, arvejas, cebolla y la crema de pollo; salpimentar.",
+      "Distribuir en 4 cazuelitas aptas para horno previamente enmantecadas.",
+      "Cortar 4 discos de masa de hojaldre y cubrir cada cazuelita.",
+      "Hornear a 220-240 °C durante 15 a 25 minutos hasta que el hojaldre esté bien dorado."
+    ]
+  },
+  {
+    "id": "rapida-papas-gajos-salsa-crema",
+    "title": "Papas Fritas en Gajos Especiadas con Salsa Crema",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 160,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Gajos de papa con piel crujientes por fuera y tiernos por dentro, acompañados de salsa crema con ciboulette.",
+    "ingredients": [
+      "1 kg de papas bien lavadas con piel",
+      "100 g de harina",
+      "15 g de pimentón dulce y 10 g de ajo en polvo",
+      "3 cucharaditas de orégano, 1 de tomillo y 1 de estragón",
+      "15 g de sal fina",
+      "100 g de queso crema y 150 g de mayonesa",
+      "1 cucharada de verdeo o ciboulette picada, 1 cucharadita de albahaca, 1 de orégano y 1/2 de mostaza",
+      "Aceite para freír"
+    ],
+    "steps": [
+      "Cortar las papas con piel en gajos, lavarlas para quitar almidón y blanquearlas 2 minutos en agua hirviendo; escurrir bien.",
+      "Mezclar la harina con pimentón, ajo en polvo, hierbas y sal; rebozar los gajos por tandas.",
+      "Freír a 160 °C hasta que estén dorados y tiernos.",
+      "Para la salsa, batir el queso crema con mayonesa, ciboulette, albahaca, orégano y mostaza; servir fría junto a las papas."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-huevo-panceta-desayuno",
+    "title": "Sándwich Caliente de Huevo, Queso y Panceta",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Panecillo tostado relleno con huevo cocido redondo, feta de queso cheddar y panceta crocante.",
+    "ingredients": [
+      "1 panecillo redondo (english muffin o pan de hamburguesa)",
+      "1 huevo",
+      "1 feta de queso cheddar",
+      "1 feta de panceta",
+      "Manteca para untar",
+      "Rocío vegetal o aceite"
+    ],
+    "steps": [
+      "Cortar el panecillo al medio y tostarlo ligeramente en plancha caliente.",
+      "Cocinar el huevo en sartén aceitada (usando un aro si se desea redondo) hasta que quede bien cocido.",
+      "Dorar la feta de panceta en la misma sartén.",
+      "Untar el pan con manteca, colocar el queso cheddar, el huevo caliente y la panceta; cerrar y servir."
+    ]
+  },
+  {
+    "id": "rapida-burritos-desayuno-huevo-queso",
+    "title": "Burritos Mexicanos de Huevo y Queso con Salsa Picante",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tortillas de harina rellenas de huevos revueltos con tomate, cebolla, queso cheddar y salsa picante casera.",
+    "ingredients": [
+      "8 tortillas de harina (tipo Rapiditas)",
+      "4 huevos batidos",
+      "1 cucharadita de cebolla picada, 1 de tomate picado y 1 de ají verde picado",
+      "Queso cheddar rallado a gusto",
+      "2 tomates maduros, 1/2 cebolla roja y 1/2 morrón verde picados (para la salsa)",
+      "1 diente de ajo, pimentón picante, comino, cilantro, vinagre, limón, azúcar, sal y pimienta"
+    ],
+    "steps": [
+      "Para la salsa picante, cocinar en sartén los tomates, cebolla roja, morrón, ajo, especias, vinagre, limón y un chorrito de agua 15 minutos hasta reducir. Dejar enfriar.",
+      "Saltear en otra sartén la cebolla, ají verde y tomate picado; agregar los huevos batidos y revolver hasta cuajar.",
+      "Entibiar las tortillas, rellenar con el revuelto de huevo, salsa picante y queso cheddar rallado; enrollar cerrando una punta."
+    ]
+  },
+  {
+    "id": "rapida-fajitas-pollo-salsa-especial",
+    "title": "Fajitas de Pollo con Morrón y Salsa Especial",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tiras de pechuga de pollo salteadas con morrón verde y cebolla, envueltas en tortillas con queso cheddar y salsa especiada.",
+    "ingredients": [
+      "6 tortillas de harina",
+      "2 pechugas de pollo en tiras finas",
+      "1/2 taza de morrón verde en tiras",
+      "1/2 taza de cebolla picada",
+      "3 fetas de queso cheddar cortadas al medio",
+      "1 cucharada de vinagre, 1 de jugo de limón y 1 de aceite",
+      "1 cucharadita de fécula de maíz, 1 de pimentón, 1 de comino, 1 de ajo en polvo, 1 de cebolla en polvo, chili y azúcar",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Saltear las tiras de pollo en sartén o wok con un poco de aceite; sumar el morrón y la cebolla hasta cocer y salpimentar.",
+      "En una cacerola chica mezclar vinagre, limón, aceite, fécula y especias de la salsa; llevar a fuego medio hasta espesar ligeramente.",
+      "Untar cada tortilla con la salsa especial, colocar el pollo con verduras y media feta de cheddar; enrollar y servir tibio."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-pollo-crocante-tender",
+    "title": "Sándwich de Pollo Crocante (Tender Crisp)",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 175,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Filetes de pechuga sumergidos en masa ligera especiada y harina gruesa para lograr un sándwich súper crocante.",
+    "ingredients": [
+      "2 pechugas de pollo cortadas en 4 filetes gruesos",
+      "4 panes para hamburguesa",
+      "112 g de harina y 125 cc de agua",
+      "2,5 g de polvo de hornear",
+      "1,5 g de ajo en polvo, 3 g de apio en polvo (o sal de apio), 5 g de sal y 1 g de pimienta",
+      "Harina extra para rebozar y aceite para freír",
+      "Hojas de lechuga, 12 rodajas de tomate y mayonesa"
+    ],
+    "steps": [
+      "Salpimentar los filetes de pollo. Batir los 112 g de harina con el agua, polvo de hornear, ajo, apio en polvo, sal y pimienta.",
+      "Pasar cada filete por la masa líquida y luego por harina seca compactando suavemente.",
+      "Freír en aceite caliente hasta dorar bien por ambos lados y escurrir.",
+      "Tostar el interior de los panes, untar con mayonesa y armar con pollo, tomate y lechuga."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-cerdo-barbacoa",
+    "title": "Sándwich de Costillitas de Cerdo a la Barbacoa",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Sándwich tibio en pan largo con carne de costillitas de cerdo deshuesada, salsa barbacoa, cebolla y pepinillos dulces.",
+    "ingredients": [
+      "2 panes largos tipo flauta o baguette chica",
+      "2 costillitas de cerdo sazonadas",
+      "4 cucharaditas de salsa barbacoa",
+      "2 cucharaditas de cebolla picada",
+      "4 rodajas de pepinillos dulces"
+    ],
+    "steps": [
+      "Asar las costillitas al horno fuerte hasta que estén bien cocidas y doradas; retirar los huesos manteniendo la carne caliente.",
+      "Tostar ligeramente los panes abiertos.",
+      "Rellenar con la carne de cerdo, cubrir con salsa barbacoa, pepinillos dulces y cebolla picada; servir de inmediato."
+    ]
+  },
+  {
+    "id": "rapida-sloppy-joes-ensalada-repollo",
+    "title": "Sloppy Joes con Ensalada de Repollo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Clásico sándwich caliente de carne picada en salsa agridulce de tomate y especias, coronado con ensalada fresca de repollo.",
+    "ingredients": [
+      "4 panes para hamburguesa cortados y tostados",
+      "450 g de carne picada magra",
+      "1 cebolla, 1 tallo de apio y 1 morrón verde picados finos",
+      "1 lata (400 g) de tomates perita picados",
+      "1 cucharada de salsa picante, 2 cucharaditas de salsa inglesa y 2 de vinagre de manzana",
+      "350 g de repollo blanco rallado y 1 zanahoria en juliana fina",
+      "1,5 cucharadas de aceite de oliva y 1 cucharada de vinagre de manzana (para el repollo)",
+      "Pimienta negra y sal a gusto"
+    ],
+    "steps": [
+      "Dorar la carne picada en sartén antiadherente 5 minutos; añadir cebolla, apio y morrón y cocinar 5 minutos más.",
+      "Incorporar los tomates, salsa picante, salsa inglesa, vinagre y pimienta; cocinar 15 a 20 minutos hasta espesar.",
+      "Aparte, mezclar el repollo con la zanahoria, aceite de oliva y vinagre.",
+      "Colocar la carne caliente sobre la base de los panes tostados, sumar ensalada de repollo encima y tapar."
+    ]
+  },
+  {
+    "id": "rapida-pan-arabe-carne-asada",
+    "title": "Pan Árabe Relleno con Carne Asada y Pepinillos",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Práctica receta de aprovechamiento con carne al horno salteada en oliva dentro de pan árabe tibio con tomate y pepinillos.",
+    "ingredients": [
+      "2 panes árabes",
+      "200 g de carne al horno cocida cortada en fetas finas",
+      "1 tomate en rodajas",
+      "4 pepinillos en vinagre cortados",
+      "1 cucharadita de salsa picante y 1 cucharadita de salsa de ajo y hierbas",
+      "2 cucharadas de aceite de oliva"
+    ],
+    "steps": [
+      "Calentar el pan árabe en tostadora u hornito eléctrico.",
+      "Saltear brevemente las fetas de carne en sartén con aceite de oliva.",
+      "Abrir el pan árabe como bolsillo y rellenar con carne, tomate, pepinillos y las salsas."
+    ]
+  },
+  {
+    "id": "rapida-pan-arabe-revuelto-huevo",
+    "title": "Pan Árabe con Revuelto de Huevo y Tomates Cherry",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Desayuno o cena exprés de pan árabe tostado relleno con huevos revueltos cremosos, tomates cherry y verdeo.",
+    "ingredients": [
+      "2 panes árabes tostados",
+      "4 huevos",
+      "100 g de tomates cherry cortados al medio",
+      "2 cebollitas de verdeo picadas",
+      "1 cucharada de aceite",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Saltear las cebollitas de verdeo y los tomates cherry en aceite durante 1 minuto.",
+      "Verter los huevos batidos salpimentados y revolver 3 minutos hasta lograr un revuelto jugoso.",
+      "Abrir los panes árabes en bolsillo, rellenar y servir caliente."
+    ]
+  },
+  {
+    "id": "rapida-tostado-jamon-huevo-anchoas",
+    "title": "Tostado de Jamón, Huevo Frito y Anchoas",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Sándwich tostado intenso con manteca, jamón cocido o ahumado, filetes de anchoa y huevo frito.",
+    "ingredients": [
+      "2 rebanadas de pan blanco de molde",
+      "1 feta gruesa de jamón ahumado o cocido",
+      "3 filetes chicos de anchoas en aceite",
+      "30 g de manteca",
+      "1 huevo",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Untar el pan con parte de la manteca, disponer las anchoas y el jamón encima.",
+      "Freír el huevo en el resto de la manteca, salpimentar y colocarlo sobre el jamón.",
+      "Cerrar el sándwich y dorar en tostadora o plancha un par de minutos por lado."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-crocante-tomate-parmesano",
+    "title": "Sándwich Crocante de Tomate Marinado y Parmesano",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tostadas al horno con tomates marinados en oliva y aceto balsámico cubiertos de mayonesa con queso parmesano gratinado.",
+    "ingredients": [
+      "4 rebanadas de pan de molde ligeramente tostado",
+      "4 tomates maduros en rodajas",
+      "4 cucharadas de queso parmesano rallado",
+      "2 cucharadas de aceite de oliva y 2 de aceto balsámico",
+      "3 cucharadas de mayonesa",
+      "1/2 cucharadita de perejil seco, 1/4 de orégano y 1/4 de pimienta negra"
+    ],
+    "steps": [
+      "Marinar las rodajas de tomate en aceite de oliva y aceto balsámico.",
+      "Mezclar la mayonesa con perejil, orégano, pimienta y 3 cucharadas de parmesano; untar sobre los panes.",
+      "Colocar los tomates encima, espolvorear con el resto del parmesano y gratinar al horno 5 minutos."
+    ]
+  },
+  {
+    "id": "rapida-tostado-jamon-queso-olivas-morron",
+    "title": "Tostados al Horno de Jamón, Queso, Aceitunas y Morrón",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 14,
+    "temperatureC": 230,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tanda rápida de 8 tostados horneados con manteca, jamón cocido, queso cheddar, aceitunas verdes y morrón picado.",
+    "ingredients": [
+      "16 rebanadas de pan blanco de molde",
+      "8 fetas de queso cheddar",
+      "8 fetas de jamón cocido",
+      "10 aceitunas verdes descarozadas picadas",
+      "1/2 morrón cocido o asado picado",
+      "4 cucharadas de manteca"
+    ],
+    "steps": [
+      "Precalentar el horno a 230 °C. Untar manteca en una cara de 8 rebanadas y apoyarlas boca abajo en una placa.",
+      "Colocar encima jamón, queso cheddar, aceitunas y morrón picado.",
+      "Cubrir con las rebanadas restantes untadas con manteca hacia arriba y hornear 6 a 8 minutos por lado hasta dorar."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-mexicano-guacamole-panceta",
+    "title": "Sándwich Tostado con Guacamole y Panceta Crocante",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sándwich en pan lactal tostado con panceta ahumada bien crocante, guacamole fresco, queso crema, lechuga y tomate.",
+    "ingredients": [
+      "8 rebanadas de pan de molde tostado",
+      "8 fetas de panceta ahumada",
+      "1/4 taza de guacamole casero",
+      "1/4 taza de queso crema",
+      "4 hojas de lechuga",
+      "4 rodajas de tomate"
+    ],
+    "steps": [
+      "Dorar las fetas de panceta en sartén a fuego medio-alto unos 10 minutos hasta que queden crocantes; escurrir sobre papel.",
+      "Untar 4 rebanadas de pan tibio con guacamole y las otras 4 con queso crema.",
+      "Armar con lechuga, tomate y dos fetas de panceta por sándwich."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-roquefort-jamon-rabanitos",
+    "title": "Sándwich Frío de Roquefort, Jamón, Rabanitos y Mostaza",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Sándwich largo de contraste intenso entre queso azul, jamón cocido, rabanitos frescos crocantes y mostaza.",
+    "ingredients": [
+      "1 pan flauta o baguette de 35 cm",
+      "100 g de queso azul (roquefort) desgranado",
+      "3 fetas de jamón cocido",
+      "12 rodajas finas de rabanitos",
+      "1 cucharada de queso crema",
+      "Mostaza y hojas de lechuga a gusto"
+    ],
+    "steps": [
+      "Abrir el pan al medio a lo largo y untar ambas caras con mostaza.",
+      "Distribuir las rodajas de rabanito, trozos de roquefort, las fetas de jamón dobladas, queso crema y lechuga.",
+      "Cerrar, cortar al medio y servir fresco."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-atun-huevo-tartara",
+    "title": "Sándwich de Atún, Huevo Duro y Salsa Tártara",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Sándwich triple de atún en aceite y huevo duro picado con salsa tártara casera de queso crema, pickles y alcaparras.",
+    "ingredients": [
+      "1 pan largo blanco de 35 cm cortado en tres capas",
+      "50 g de atún en lata en aceite escurrido",
+      "1 huevo duro picado",
+      "Hojas de lechuga",
+      "100 g de queso crema",
+      "1/2 taza de mezcla picada de pickles, verdeo, alcaparras y aceite de oliva",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Mezclar el queso crema con los pickles, verdeo, alcaparras, oliva y sal para preparar la salsa tártara.",
+      "Untar la primera capa de pan con salsa tártara y cubrir con lechuga.",
+      "Untar la segunda capa con salsa, agregar el atún desmenuzado y el huevo duro salpimentado; tapar con la tercera capa."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-american-club",
+    "title": "Sándwich American Club Triple",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Clásico sándwich de tres pisos en triángulos con pollo cocido en fetas, panceta crocante, tomate, lechuga y mayonesa.",
+    "ingredients": [
+      "12 rebanadas de pan lactal",
+      "16 fetas de pechuga de pollo cocida o pavita",
+      "16 fetas de panceta cocida y bien crocante",
+      "8 hojas de lechuga",
+      "3 a 4 tomates en rodajas",
+      "80 g de mayonesa",
+      "Sal, pimienta y escarbadientes"
+    ],
+    "steps": [
+      "Untar las rebanadas de pan con mayonesa.",
+      "Sobre una base colocar lechuga, tomate, panceta y pollo salpimentados.",
+      "Repetir en una segunda rebanada, apilar sobre la primera y cerrar con una tercera rebanada invertida; sujetar con escarbadientes y cortar en diagonal."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-parisino-baguette",
+    "title": "Sándwich Parisino en Baguette",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Bocado francés simple y crocante con baguette fresca, manteca, mostaza Dijon, jamón cocido y pickles en tiritas.",
+    "ingredients": [
+      "1/2 baguette bien crocante",
+      "1 feta gruesa de jamón cocido",
+      "1 cucharada de manteca",
+      "1 cucharada de mostaza Dijon",
+      "5 pickles cortados en tiritas finas"
+    ],
+    "steps": [
+      "Abrir la baguette a lo largo y untar una cara con manteca y la otra con mostaza Dijon.",
+      "Colocar el jamón cocido doblado y distribuir las tiritas de pickles; cerrar y disfrutar."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-berenjena-escabeche",
+    "title": "Sándwich Intenso de Berenjena en Escabeche",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Sándwich sabroso en pan tostado con berenjenas al escabeche, mozzarella, huevo duro picado, tomate y orégano.",
+    "ingredients": [
+      "2 rebanadas de pan de molde tostado",
+      "4 rodajas finas de berenjena en escabeche",
+      "2 fetas de queso mozzarella",
+      "1 huevo duro picado fino",
+      "1/2 tomate en rodajas",
+      "2 hojas de lechuga",
+      "1 cucharada de mayonesa, 1 cucharadita de mostaza, orégano y sal"
+    ],
+    "steps": [
+      "Untar una rebanada de pan tostado con mayonesa y la otra con mostaza.",
+      "Colocar lechuga, tomate salado con orégano, las rodajas de berenjena en escabeche, huevo picado y mozzarella.",
+      "Cerrar con la tapa de mostaza y servir."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-arabe-hummus-vegetales",
+    "title": "Sándwich Árabe Relleno de Hummus y Vegetales",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Panes árabes frescos rellenos con puré de garbanzos al pimentón, pepino, tomate y aceitunas negras.",
+    "ingredients": [
+      "4 panes árabes",
+      "1/2 taza de hummus (puré de garbanzos) con pimentón rojo",
+      "1 pepino pelado en rodajas finas",
+      "1 tomate grande en rodajas finas",
+      "16 aceitunas negras descarozadas al medio"
+    ],
+    "steps": [
+      "Cortar el borde de cada pan árabe hasta la mitad para formar un bolsillo.",
+      "Untar el interior con hummus y repartir en partes iguales el pepino, tomate y aceitunas negras."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-mediterraneo-portobello",
+    "title": "Sándwich Mediterráneo de Berenjena, Morrón y Portobello",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pan largo relleno con vegetales asados al horno, hongos portobello salteados y mayonesa casera de ajo.",
+    "ingredients": [
+      "1 pan largo de 35 cm",
+      "1 berenjena cortada a lo largo",
+      "2 morrones rojos cortados al medio",
+      "2 hongos portobello o champiñones grandes en tiras",
+      "3 dientes de ajo picados",
+      "3 cucharadas de mayonesa",
+      "2 cucharadas de aceite de oliva"
+    ],
+    "steps": [
+      "Pintar la berenjena y morrones con 1 cucharada de oliva y hornear a 200 °C unos 25 minutos hasta tiernizar; pelar los morrones y picarlos.",
+      "Saltear los portobello en la otra cucharada de oliva hasta dorar y mezclar el ajo con la mayonesa.",
+      "Rellenar el pan con los vegetales asados, hongos y mayonesa de ajo; dar un golpe de horno de 5 minutos envuelto en aluminio y dividir en 4."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-palta-tomate-anchoa",
+    "title": "Sándwich Clásico de Palta, Tomate y Anchoa",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Pan integral tostado con crema de palta, limón, aceitunas negras y un toque salado de anchoa.",
+    "ingredients": [
+      "1 pan integral para sándwich cortado al medio",
+      "1/2 palta pisada con jugo de limón",
+      "1 a 2 cucharadas de mayonesa",
+      "1/4 cucharadita de mostaza",
+      "1/2 tomate en rodajas y 2 hojas de lechuga",
+      "4 aceitunas negras sin carozo y 1 anchoa picada",
+      "Sal a gusto"
+    ],
+    "steps": [
+      "Mezclar la palta con mayonesa, sal, aceitunas picadas y anchoa.",
+      "Tostar el pan y untar el interior con mostaza.",
+      "Armar con lechuga, tomate y la mezcla de palta; servir de inmediato."
+    ]
+  },
+  {
+    "id": "rapida-sandwich-pollo-palta-queso-azul",
+    "title": "Sándwich de Pollo con Palta, Panceta y Queso Azul",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sándwich completo con pechuga de pollo, palta madura, panceta tostada, huevo duro y aderezo cremoso de queso azul.",
+    "ingredients": [
+      "8 rebanadas de pan blanco de molde",
+      "2 pechugas de pollo cocidas en rodajas",
+      "1 palta madura en rodajas",
+      "8 fetas de panceta ahumada tostada",
+      "2 huevos duros en cubitos",
+      "4 hojas de lechuga",
+      "1/2 taza de mayonesa y 1/4 taza de aderezo de queso azul"
+    ],
+    "steps": [
+      "Mezclar la mayonesa con el aderezo de queso azul y untar las rebanadas de pan.",
+      "Distribuir partes iguales de pollo, palta, panceta, huevo duro y lechuga sobre 4 rebanadas y cubrir."
+    ]
+  },
+  {
+    "id": "rapida-baguette-rellena-atun",
+    "title": "Baguette Rellena con Atún, Tomate y Aceitunas",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Baguette ahuecada rellena con atún al natural, tomates jugosos, cebolla, morrón verde, aceitunas y vinagreta al ajo.",
+    "ingredients": [
+      "1 baguette entera",
+      "1 lata de atún al natural escurrido",
+      "2 tomates grandes pelados y picados",
+      "1 cebolla grande y 1 morrón verde grande en rodajas finas",
+      "5 aceitunas negras picadas finas",
+      "2 dientes de ajo picados",
+      "1,5 cucharaditas de aceite de oliva y 2 cucharadas de vinagre de vino blanco"
+    ],
+    "steps": [
+      "Dejar reposar 15 minutos los tomates con las aceitunas en un bol para que suelten jugo.",
+      "Abrir la baguette a lo largo sin separar del todo, quitar algo de miga y extender el tomate con su jugo.",
+      "Colocar capas de cebolla, morrón y atún; rociar con el vinagre batido con ajo y oliva, cerrar y cortar en 4 porciones."
+    ]
+  },
+  {
+    "id": "rapida-pizza-pepperoni-morron",
+    "title": "Pizza Estilo Cadena de Pepperoni y Morrón Verde",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 55,
+    "cookMinutes": 20,
+    "temperatureC": 205,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Masa esponjosa rápida con leche y aceite de oliva, salsa casera de ajo y tomate, mozzarella, pepperoni y morrón verde.",
+    "ingredients": [
+      "330 g de harina, 1 sobre (7 g) de polvo de hornear y 1/2 cucharadita de sal",
+      "200 ml de leche descremada tibia, 2 cucharadas de aceite de oliva y 2 cucharaditas de azúcar",
+      "300 g de tomate triturado natural y 2 dientes de ajo",
+      "250 g de pepperoni o salame en rodajas",
+      "1 morrón verde en tiras finas",
+      "2 tazas de queso mozzarella rallado"
+    ],
+    "steps": [
+      "Unir harina, polvo de hornear y sal con la leche, azúcar y oliva hasta lograr masa lisa; reposar 30 minutos tapada y estirar en dos moldes aceitados.",
+      "Dorar el ajo picado en una cucharada de oliva, sumar el tomate triturado y cocinar 15 minutos.",
+      "Cubrir las masas con salsa, mozzarella, pepperoni y tiras de morrón; hornear a 205 °C durante 20 minutos."
+    ]
+  },
+  {
+    "id": "rapida-pizza-margarita-albahaca",
+    "title": "Pizza Margarita Clásica con Albahaca",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 22,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Clásica pizza italiana de masa crocante, salsa de tomate al orégano, mozzarella fundida y albahaca fresca.",
+    "ingredients": [
+      "1 bollo de masa para pizza leudado",
+      "1,5 tazas de salsa de tomate",
+      "220 g de queso mozzarella en hebras",
+      "150 g de hojas de albahaca fresca cortadas en juliana",
+      "3 cucharadas de aceite de oliva",
+      "1,5 cucharaditas de orégano, sal y pimienta a gusto"
+    ],
+    "steps": [
+      "Estirar el bollo en pizzera aceitada y pintar con aceite de oliva.",
+      "Mezclar la salsa de tomate con orégano, sal y pimienta; cubrir la masa y agregar la mozzarella.",
+      "Esparcir la albahaca y hornear a 200 °C durante 20 a 25 minutos."
+    ]
+  },
+  {
+    "id": "rapida-pizza-mozzarella-morrones",
+    "title": "Pizza de Mozzarella y Morrones Salteados",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza casera cubierta con salteado de morrón rojo, ajo y tomate en cubos, mozzarella y aceitunas negras.",
+    "ingredients": [
+      "1 bollo de masa para pizza leudado",
+      "1 morrón rojo grande en trozos",
+      "220 g de queso mozzarella en hebras",
+      "2 cucharadas de tomates en cubos",
+      "1 diente de ajo",
+      "3 cucharadas de aceite de oliva, orégano, sal y pimienta",
+      "8 aceitunas negras para decorar"
+    ],
+    "steps": [
+      "Rehogar el morrón en sartén con oliva; agregar el ajo, tomate en cubos, orégano y salpimentar hasta tiernizar.",
+      "Estirar la masa en pizzera aceitada, cubrir con el rehogado de morrones y la mozzarella.",
+      "Hornear a 200 °C hasta dorar y decorar con aceitunas negras."
+    ]
+  },
+  {
+    "id": "rapida-pizza-fugazzetta-verdeo",
+    "title": "Fugazzetta Casera con Cebolla y Verdeo",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza tradicional rioplatense con abundante cebolla en aros salteada, cebollita de verdeo, orégano y aceitunas negras.",
+    "ingredients": [
+      "1 bollo de masa para pizza leudado",
+      "500 g de cebolla cortada en aros",
+      "1 taza de cebolla de verdeo picada fina",
+      "4 cucharadas de salsa para pizza",
+      "3 cucharadas de aceite de oliva",
+      "Orégano, sal, pimienta y 8 aceitunas negras"
+    ],
+    "steps": [
+      "Saltear las cebollas y el verdeo en aceite de oliva durante 5 a 8 minutos; salpimentar.",
+      "Estirar el bollo en pizzera aceitada, pintar con salsa y precocinar 8 minutos a 200 °C.",
+      "Cubrir con el salteado de cebollas y hornear 12 minutos más; decorar con aceitunas y orégano."
+    ]
+  },
+  {
+    "id": "rapida-pizzetas-puerro-jamon",
+    "title": "Pizzetas Rápidas de Puerro, Jamón y Rúcula",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pizzetas individuales exprés sobre panecillos tostados con puerros rehogados, albahaca, jamón, mozzarella y rúcula.",
+    "ingredients": [
+      "4 panecillos redondos (english muffins o figacitas) al medio",
+      "250 g de puerros en rodajas finas",
+      "100 g de mozzarella en tiras",
+      "4 fetas de jamón crudo o cocido al medio",
+      "4 cucharadas de albahaca fresca en tiras y 4 de rúcula picada",
+      "1 cucharada de aceite de oliva y pimienta a gusto"
+    ],
+    "steps": [
+      "Rehogar los puerros en oliva 5 minutos hasta que estén tiernos; condimentar con pimienta.",
+      "Tostar ligeramente los panecillos, repartir el puerro, albahaca, jamón y mozzarella encima.",
+      "Gratinar 4 a 5 minutos hasta burbujear el queso y terminar con rúcula picada."
+    ]
+  },
+  {
+    "id": "rapida-pizza-mozzarella-panceta",
+    "title": "Pizza de Mozzarella y Panceta Ahumada",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza dorada cubierta con mozzarella fundida, panceta ahumada salteada con cebolla en juliana y queso parmesano.",
+    "ingredients": [
+      "1 bollo de masa para pizza leudado",
+      "150 g de queso mozzarella rallado",
+      "200 g de panceta ahumada en fetas picada",
+      "1 cebolla en juliana",
+      "1/2 taza de queso parmesano rallado",
+      "1 pizca de orégano"
+    ],
+    "steps": [
+      "Dorar la panceta en sartén sin aceite; cuando suelte grasa sumar la cebolla y saltear hasta dorar.",
+      "Estirar la masa en pizzera aceitada, distribuir la mozzarella, la panceta con cebolla, el parmesano y orégano.",
+      "Hornear a 200 °C unos 15 minutos hasta que el queso funda y los bordes doren."
+    ]
+  },
+  {
+    "id": "rapida-pizza-atun-tomates-alcaparras",
+    "title": "Pizza Integral de Atún, Tomates y Alcaparras",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 220,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza liviana sobre masa integral con salsa casera de tomate y cebolla, atún, alcaparras, aceitunas negras y albahaca.",
+    "ingredients": [
+      "1 bollo de masa integral para pizza leudado",
+      "1 lata de atún al natural escurrido",
+      "2 cucharadas de puré de tomate y 1/2 lata de tomates picados",
+      "1 cebolla picada fina",
+      "4 cucharaditas de alcaparras y 8 aceitunas negras rebanadas",
+      "3 cucharaditas de aceite de oliva, orégano, pizca de azúcar, pimienta y albahaca fresca"
+    ],
+    "steps": [
+      "Rehogar la cebolla en oliva 4 minutos; añadir los tomates picados, orégano, azúcar y pimienta y hervir 10 minutos.",
+      "Estirar la masa en pizzera aceitada, untar con puré de tomate, la salsa cocida, el atún, alcaparras y aceitunas.",
+      "Hornear a 220 °C unos 10 a 15 minutos hasta dorar; decorar con albahaca fresca."
+    ]
+  },
+  {
+    "id": "rapida-pizza-chorizo-radicchio",
+    "title": "Pizza de Chorizo de Cerdo y Radicchio",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza rústica con salchicha parrillera o chorizo de cerdo dorado, radicchio salteado al ajo, mozzarella y parmesano.",
+    "ingredients": [
+      "1 bollo de masa para pizza leudado",
+      "250 g de salchicha parrillera o chorizo de cerdo sin piel desmenuzado",
+      "1 atado de radicchio (o achicoria)",
+      "100 g de mozzarella en cubitos",
+      "2 cucharadas de queso parmesano rallado",
+      "1 diente de ajo aplastado, ají picante a gusto, sal y pimienta"
+    ],
+    "steps": [
+      "Hervir el radicchio 1 minuto, escurrir, picar y saltear con oliva, ajo y ají picante; retirar el ajo y salpimentar.",
+      "Dorar en la misma sartén el chorizo desmenuzado.",
+      "Estirar la masa, cubrir con mozzarella, chorizo, radicchio salteado y parmesano; hornear 15 minutos a 200 °C."
+    ]
+  },
+  {
+    "id": "rapida-masa-base-pizza",
+    "title": "Masa Base de Pizza Casera (4 Bollos)",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 50,
+    "cookMinutes": 15,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Receta base rendidora para preparar 4 pizzas caseras o prepizzas listas para freezar hasta 30 días.",
+    "ingredients": [
+      "1 kg de harina común",
+      "50 g de levadura fresca (o 1 sobre de levadura seca)",
+      "1 cucharada sopera rasa de sal",
+      "600 cc de agua tibia",
+      "Aceite vegetal cantidad necesaria",
+      "Salsa de tomate y orégano opcional para precocinar"
+    ],
+    "steps": [
+      "Disolver la levadura en el agua tibia. Formar una corona con la harina y la sal por fuera; incorporar el agua en el centro y amasar hasta lograr un bollo suave.",
+      "Dejar leudar tapado hasta duplicar volumen, desgasificar y dividir en 4 bollos; dejar levar nuevamente.",
+      "Estirar en pizzeras aceitadas, pintar opcionalmente con salsa de tomate y precocinar 15 minutos a horno fuerte."
+    ]
+  },
+  {
+    "id": "rapida-masa-integral-pizza",
+    "title": "Masa Integral de Pizza Casera (4 Bollos)",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 50,
+    "cookMinutes": 15,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Masa equilibrada mitad harina integral y mitad harina común, tierna y rica en fibra para 4 pizzas medianas.",
+    "ingredients": [
+      "500 g de harina integral",
+      "500 g de harina común",
+      "50 g de levadura fresca",
+      "3 cucharadas de aceite de oliva",
+      "1/2 pocillo de leche tibia",
+      "Agua cantidad necesaria",
+      "Sal a gusto"
+    ],
+    "steps": [
+      "Diluir la levadura en la leche tibia. Mezclar ambas harinas con la sal y formar una corona.",
+      "Sumar el aceite, la levadura y agua necesaria hasta formar una masa tierna; dejar leudar 1 hora.",
+      "Dividir en 4 bollos, estirar en asaderas aceitadas, dejar leudar y precocinar 15 minutos a horno moderado."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-papa-cremosa-kfc",
+    "title": "Ensalada de Papa Cremosa con Apio y Pepinillos",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada fría de papas en cubos con aderezo cremoso de mayonesa, mostaza, pepinillo dulce, apio y morrón.",
+    "ingredients": [
+      "900 g de papas peladas en cubos chicos",
+      "1 taza de mayonesa",
+      "4 cucharaditas de pepinillo dulce picado",
+      "4 cucharaditas de azúcar y 1 cucharadita de vinagre",
+      "2 cucharaditas de cebolla en polvo y 2 de mostaza",
+      "1 cucharadita de apio picado, 1 de morrón en cubitos y 1/2 de zanahoria rallada",
+      "Perejil seco, pimienta y sal a gusto"
+    ],
+    "steps": [
+      "Hervir las papas en agua con sal de 10 a 15 minutos hasta que estén tiernas; escurrir y enfriar.",
+      "Mezclar con mayonesa, pepinillos, azúcar, cebolla en polvo, mostaza, vinagre, apio, morrón, zanahoria y condimentos.",
+      "Refrigerar 2 horas antes de servir como guarnición."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-fideos-repollo",
+    "title": "Ensalada Rápida de Fideos Coditos y Repollo",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 5,
+    "difficulty": "Fácil",
+    "description": "Ensalada fría y rendidora de fideos coditos con repollo, apio, zanahoria y pepinillos.",
+    "ingredients": [
+      "500 g de fideos coditos",
+      "2 tazas de repollo picado fino",
+      "1/4 taza de apio picado fino",
+      "1/4 de zanahoria picada fina",
+      "1 cucharadita de cebolla en polvo",
+      "1 cucharadita de pepinillo picado",
+      "Pimienta blanca a gusto"
+    ],
+    "steps": [
+      "Hervir los fideos coditos 12 a 15 minutos, colar y pasar por agua fría 10 minutos.",
+      "Combinar en un bol grande con el repollo, apio, zanahoria, pepinillo, cebolla en polvo y pimienta.",
+      "Refrigerar 2 horas y servir bien fresca."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-tibia-porotos-arroz",
+    "title": "Ensalada Tibia de Porotos Rojos y Arroz",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Guarnición tibia cremosa de porotos rojos pisados con especias, manteca y arroz blanco.",
+    "ingredients": [
+      "1 lata de porotos rojos",
+      "1,5 tazas de arroz cocido",
+      "4 cucharaditas de manteca",
+      "1 cucharadita de pimienta blanca",
+      "1/4 cucharadita de pimentón",
+      "1 pizca de cayena y 1 pizca de ajo en polvo"
+    ],
+    "steps": [
+      "Cocinar los porotos con un poco de agua, la manteca y las especias a fuego medio hasta hervir.",
+      "Aplastar ligeramente los porotos con tenedor y cocinar 10 minutos más hasta que queden cremosos.",
+      "Incorporar el arroz cocido, mezclar 2 minutos y servir tibio."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-coleslaw-intensa",
+    "title": "Ensalada Intensa de Repollo (Coleslaw)",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 5,
+    "difficulty": "Fácil",
+    "description": "Clásica ensalada americana de repollo picado muy fino y zanahoria con aderezo cremoso agridulce.",
+    "ingredients": [
+      "1 repollo mediano limpio y picado bien fino",
+      "1/3 taza de zanahoria rallada",
+      "1 cucharadita de cebolla picada fina",
+      "1/2 taza de mayonesa",
+      "1/4 taza de manteca derretida tibia o crema",
+      "1/8 taza de leche",
+      "2 cucharaditas de jugo de limón, 1/3 taza de azúcar, 1/2 cucharadita de sal y pimienta"
+    ],
+    "steps": [
+      "Picar finamente el repollo sin el centro duro y mezclar con zanahoria y cebolla.",
+      "Combinar con mayonesa, leche, manteca, jugo de limón, sal, pimienta y azúcar hasta integrar.",
+      "Dejar macerar en heladera al menos unas horas (ideal 12 horas) antes de servir."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-cesar-croutons",
+    "title": "Ensalada César Clásica con Croutons al Ajo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Lechuga romana fresca con vinagreta intensa de ajo, limón y mostaza Dijon, acompañada de croutons caseros.",
+    "ingredients": [
+      "1 lechuga romana chica troceada",
+      "1 diente de ajo aplastado",
+      "3 cucharadas de aceite de oliva",
+      "1 a 2 cucharadas de jugo de limón fresco",
+      "1 cucharadita de mostaza Dijon",
+      "1/4 cucharadita de sal y pimienta negra recién molida",
+      "1 rebanada de pan integral en cubitos dorada en 2 cucharaditas de manteca con ajo"
+    ],
+    "steps": [
+      "Para los croutons, dorar los cubitos de pan en sartén con manteca aromatizada con ajo hasta que queden crocantes.",
+      "En un tazón batir el oliva con el ajo aplastado (luego retirar el ajo), jugo de limón, mostaza Dijon, sal y pimienta.",
+      "Incorporar la lechuga bien seca, mezclar con el aderezo y sumar los croutons al momento de servir."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-verduras-jamon-queso",
+    "title": "Ensalada de Verduras, Jamón y Queso",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Ensalada completa de verduras hervidas al dente con cubitos de jamón cocido, queso semiduro, tomate y salsa ligera.",
+    "ingredients": [
+      "900 g de mix de verduras congeladas o frescas (zanahoria, arvejas, chauchas, choclo)",
+      "200 g de jamón cocido en cubitos",
+      "100 g de queso semiduro (tipo Emmental o Colonia) en cubitos",
+      "4 tomates medianos pelados y sin semillas en tiras",
+      "100 g de mayonesa",
+      "2 cucharaditas de pimentón dulce, perejil picado, sal y pimienta blanca"
+    ],
+    "steps": [
+      "Hervir las verduras con poca agua y sal hasta que estén al dente; escurrir reservando un chorrito del agua de cocción y enfriar.",
+      "Aligerar la mayonesa con un poco de agua de cocción hasta lograr una salsa cremosa.",
+      "Mezclar las verduras con el tomate, jamón y queso; salpimentar, verter la salsa y espolvorear con pimentón y perejil."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-alemana-papa-panceta",
+    "title": "Ensalada Alemana Tibia de Papa y Panceta",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Clásica ensalada tibia centroeuropea de papas en rodajas maceradas con panceta y cebolla doradas, caldo y vinagre.",
+    "ingredients": [
+      "2 kg de papas cocidas con piel, peladas tibias y en rodajas",
+      "250 g de panceta picada",
+      "2 cebollas picadas finas",
+      "50 cc de caldo de verduras caliente",
+      "100 cc de vinagre de vino",
+      "200 cc de aceite de oliva",
+      "1 cucharada de perejil picado, sal y pimienta"
+    ],
+    "steps": [
+      "Hervir las papas con piel, pelarlas tibias y cortarlas en rodajas en un bol grande.",
+      "Rehogar la cebolla con la panceta en un poco de aceite; volcar sobre las papas junto con el caldo caliente y el vinagre.",
+      "Dejar macerar 1 hora, agregar el aceite de oliva, rectificar sal y pimienta y espolvorear con perejil."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-aragonesa-jamon-crudo",
+    "title": "Ensalada Aragonesa de Lechuga, Huevo y Jamón Crudo",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Ensalada fresca y rápida de hojas verdes, tomate, morrón verde, huevos duros, aceitunas negras y jamón crudo.",
+    "ingredients": [
+      "1 lechuga troceada",
+      "1 morrón verde en juliana",
+      "1 tomate en gajos",
+      "2 huevos duros en cuartos",
+      "4 fetas de jamón crudo troceadas",
+      "12 aceitunas negras",
+      "Sal, aceite y vinagre de vino a gusto"
+    ],
+    "steps": [
+      "Disponer la lechuga limpia en el fondo de una fuente.",
+      "Distribuir encima el tomate, morrón en juliana, huevos duros, jamón crudo y aceitunas.",
+      "Aliñar con sal, aceite y vinagre justo antes de llevar a la mesa."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-vegetales-asados-vega",
+    "title": "Ensalada Tibia de Vegetales Asados (De la Vega)",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Morrones, berenjenas, cebollas y tomates asados al horno y aliñados con ajo fresco, oliva y jugo de limón.",
+    "ingredients": [
+      "3 morrones rojos",
+      "3 berenjenas",
+      "4 tomates rojos medianos",
+      "4 cebollas medianas",
+      "3 dientes de ajo picados chicos",
+      "100 cc de aceite de oliva",
+      "Jugo de 1 limón y sal a gusto"
+    ],
+    "steps": [
+      "Asar los morrones, berenjenas, cebollas y tomates enteros en placa de horno a 200 °C dándoles vuelta hasta que la piel casi se queme.",
+      "Envolver morrones, cebollas y berenjenas en un paño para pelarlos mejor una vez fríos y quitar semillas.",
+      "Acomodar en fuente en tiras y gajos, salpicar con ajo picado, sal, oliva y jugo de limón; servir tibia."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-garbanzos-salmon",
+    "title": "Ensalada de Garbanzos y Salmón Ahumado",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Garbanzos cocidos en caldo con apio servidos fríos sobre láminas de salmón ahumado con vinagreta agridulce.",
+    "ingredients": [
+      "400 g de garbanzos cocidos (o en caldo de pescado con 1 rama de apio)",
+      "250 g de salmón ahumado en láminas",
+      "1 cebolleta o verdeo en juliana",
+      "Perejil picado a gusto",
+      "2 cucharaditas de azúcar, un chorro de vinagre y un poco de agua",
+      "Aceite de oliva y sal a gusto"
+    ],
+    "steps": [
+      "Cocer los garbanzos en caldo con apio hasta tiernizar y dejar enfriar bien.",
+      "Acomodar el salmón ahumado en un plato grande, cubrir con los garbanzos escurridos, cebolleta y perejil.",
+      "Reducir en un cazo el agua con azúcar y vinagre a la mitad, enfriar y aliñar junto con aceite de oliva."
+    ]
+  },
+  {
+    "id": "rapida-ensaladilla-rusa-atun-remolacha",
+    "title": "Ensaladilla Rusa con Atún y Remolacha",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Versión colorida de la clásica ensalada rusa con papa, zanahoria, arvejas, remolacha cocida, atún y huevo duro.",
+    "ingredients": [
+      "4 papas medianas",
+      "2 zanahorias",
+      "1 remolacha cocida",
+      "1 latita de arvejas escurridas",
+      "1 latita de atún en aceite",
+      "1 cucharada de cebolla picada fina",
+      "1 huevo duro en rodajas",
+      "Mayonesa y sal a gusto"
+    ],
+    "steps": [
+      "Hervir las papas y zanahorias hasta que estén tiernas; dejar enfriar, pelar y cortar en cubitos iguales junto con la remolacha.",
+      "Mezclar en un bol con el atún desmenuzado, cebolla y arvejas; ligar suavemente con mayonesa.",
+      "Decorar con rodajas de huevo duro y servir bien fría."
+    ]
+  },
+  {
+    "id": "rapida-ensalada-waldorf-clasica",
+    "title": "Ensalada Waldorf Clásica",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Clásica combinación fresca y crocante de manzana verde, apio, nueces y crema con mayonesa.",
+    "ingredients": [
+      "3 manzanas verdes peladas en cubitos",
+      "1 apio blanco tierno picado chico",
+      "100 g de nueces peladas picadas gruesas",
+      "1/2 taza de mayonesa",
+      "1/2 taza de crema de leche",
+      "Jugo de 1/2 limón, 1/2 cucharada de vinagre y sal a gusto"
+    ],
+    "steps": [
+      "Rociar los cubitos de manzana verde con jugo de limón para evitar que se oxiden.",
+      "Mezclar la crema de leche con sal, vinagre y mayonesa.",
+      "Unir la manzana, el apio, las nueces y el aderezo; llevar 30 minutos a la heladera antes de servir."
+    ]
+  },
+  {
+    "id": "rapida-pan-hamburguesa-sesamo",
+    "title": "Pan Casero para Hamburguesa con Sésamo",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 70,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 24,
+    "difficulty": "Media",
+    "description": "Panes tiernos y esponjosos para hamburguesas caseras pintados con huevo y cubiertos con semillas de sésamo.",
+    "ingredients": [
+      "600 g de harina",
+      "25 g de levadura fresca",
+      "100 g de azúcar (más 1 cucharadita para el fermento)",
+      "60 ml + 3/4 taza de leche",
+      "75 g de manteca o grasa blanda",
+      "3 huevos (+ 1 huevo para pintar)",
+      "1 cucharadita de sal y 20 g de semillas de sésamo"
+    ],
+    "steps": [
+      "Desgranar la levadura en los 60 ml de leche tibia con 1 cucharadita de azúcar y dejar espumar.",
+      "Formar una corona con harina, azúcar y sal; sumar manteca, 3 huevos, fermento y leche restante hasta lograr una masa tierna.",
+      "Dejar duplicar volumen, formar 24 bollitos de 35-40 g, aplastar un poco en placa y dejar levar.",
+      "Pintar con huevo, espolvorear sésamo y hornear a 200 °C durante 25 minutos."
+    ]
+  },
+  {
+    "id": "rapida-pan-blanco-sandwich-avena",
+    "title": "Pan Blanco Largo para Sándwich con Avena",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 90,
+    "cookMinutes": 30,
+    "temperatureC": 220,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Panes largos estilo sandwichería, súper tiernos por dentro y cubiertos con avena extrafina.",
+    "ingredients": [
+      "600 g de harina 000",
+      "50 g de avena extrafina (+ 50 g para espolvorear)",
+      "20 g de levadura fresca",
+      "1 cucharada de miel y 1 cucharada de sal fina",
+      "80 g de manteca derretida",
+      "1 huevo (+ 1 huevo batido para pintar)",
+      "400 cc de agua tibia en total"
+    ],
+    "steps": [
+      "Fermentar la levadura con la miel, 100 cc de agua y 2 cucharadas de harina.",
+      "Mezclar la harina con sal, huevo, manteca, fermento y 300 cc de agua; amasar 5 minutos y dejar leudar 1 hora.",
+      "Formar 4 a 6 cilindros de unos 35 cm sobre placa enmantecada con avena, hacer cortes diagonales y levar 20 minutos.",
+      "Pintar con huevo, espolvorear avena y hornear a 220 °C durante 30 minutos."
+    ]
+  },
+  {
+    "id": "rapida-pan-integral-sandwich-salvado",
+    "title": "Pan Integral Largo con Salvado y Avena",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 90,
+    "cookMinutes": 30,
+    "temperatureC": 220,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Versión integral con salvado de trigo y avena extrafina ideal para sándwiches largos saludables.",
+    "ingredients": [
+      "350 g de harina integral superfina y 250 g de harina 000",
+      "50 g de salvado de trigo y 50 g de avena extrafina (+ extra para espolvorear)",
+      "30 g de levadura fresca",
+      "1 cucharada de miel y 1 y 1/4 cucharada de sal fina",
+      "60 g de manteca derretida",
+      "1 huevo (+ 1 para pintar)",
+      "480 cc de agua en total"
+    ],
+    "steps": [
+      "Preparar un fermento previo con la levadura, miel, 100 cc de agua y 2 cucharadas de harina.",
+      "Unir las harinas, salvado, avena, sal, manteca, huevo, fermento y 380 cc de agua; amasar suavemente y dejar leudar 1 hora.",
+      "Formar 4 a 6 cilindros largos, realizar cortes diagonales, levar 20 minutos, pintar con huevo, espolvorear avena y hornear 30 minutos a 220 °C."
+    ]
+  },
+  {
+    "id": "rapida-pan-blanco-molde-lactal",
+    "title": "Pan Blanco de Molde Casero (Lactal)",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 60,
+    "cookMinutes": 50,
+    "temperatureC": 180,
+    "servings": 14,
+    "difficulty": "Media",
+    "description": "Pan de molde suave con leche, manteca y miel para tostados y sándwiches de miga o club.",
+    "ingredients": [
+      "450 g de harina común",
+      "250 cc de leche tibia",
+      "75 cc de agua tibia",
+      "30 g de manteca derretida",
+      "3 cucharadas de miel",
+      "1 sobre de levadura seca y 2 cucharaditas de sal"
+    ],
+    "steps": [
+      "Mezclar leche, agua, manteca y miel; sumar harina, sal y levadura y amasar hasta que no se pegue.",
+      "Estirar en rectángulo, enrollar firme en cilindro, sellar bordes y colocar en budinera; dejar levar 30 minutos.",
+      "Hornear a 180 °C unos 50 minutos colocando una fuente con agua hirviendo en el estante inferior para dar vapor."
+    ]
+  },
+  {
+    "id": "rapida-pan-baguette-polenta-sesamo",
+    "title": "Pan Baguette Casero con Polenta y Sésamo",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 100,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Dos baguettes caseras de corteza crocante sobre base de polenta, pintadas con clara y sésamo.",
+    "ingredients": [
+      "800 g de harina para pan",
+      "15 g de levadura seca",
+      "100 cc de agua tibia + 450 cc de agua natural",
+      "1 cucharada de sal y 1 cucharada de azúcar",
+      "5 cucharadas de aceite vegetal",
+      "2 cucharadas de polenta",
+      "1 clara batida y 1 cucharada de semillas de sésamo"
+    ],
+    "steps": [
+      "Disolver la levadura en los 100 cc de agua tibia 10 minutos; mezclar con el resto del agua, sal, azúcar, aceite y la harina de a poco; amasar 8 minutos.",
+      "Dejar levar 1 hora, dividir en 2, enrollar en cilindros largos y apoyar sobre placa espolvoreada con polenta.",
+      "Hacer 3 cortes diagonales, pintar con clara, espolvorear sésamo, levar 30 minutos y hornear a 200 °C por 35 minutos."
+    ]
+  },
+  {
+    "id": "rapida-english-muffins-sarten",
+    "title": "English Muffins (Panecillos Redondos a la Sartén)",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 75,
+    "cookMinutes": 16,
+    "temperatureC": 0,
+    "servings": 9,
+    "difficulty": "Media",
+    "description": "Clásicos panecillos redondos cocidos lentamente en sartén tapada, ideales para sándwiches de desayuno o pizzetas.",
+    "ingredients": [
+      "250 g de harina de trigo común",
+      "5 g de levadura fresca de panadero",
+      "5 g de sal y 1/2 cucharadita de azúcar",
+      "30 g de manteca",
+      "75 ml de leche entera y 75 ml de agua templadas",
+      "Aceite vegetal para engrasar la sartén"
+    ],
+    "steps": [
+      "Unir harina, sal, levadura y azúcar con leche y agua templadas; sumar la manteca y amasar hasta lograr masa lisa.",
+      "Dejar duplicar volumen, estirar a 2 cm de espesor, cortar 9 discos con un vaso y dejar fermentar 30 minutos más.",
+      "Cocinar en sartén apenas aceitada y tapada a fuego medio unos 8 minutos por lado hasta dorar."
+    ]
+  },
+  {
+    "id": "rapida-pan-arabe-pita-casero",
+    "title": "Pan Árabe Casero (Pan de Pita)",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 75,
+    "cookMinutes": 10,
+    "temperatureC": 240,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Panecillos finos horneados a alta temperatura para que se inflen formando el clásico bolsillo para rellenar.",
+    "ingredients": [
+      "800 g de harina",
+      "50 g de levadura fresca",
+      "400 cc de agua tibia",
+      "4 cucharadas de aceite de oliva",
+      "1 cucharada de sal"
+    ],
+    "steps": [
+      "Formar una corona con harina y sal por fuera; disolver en el centro la levadura con aceite y agua tibia, amasar hasta lograr bollo liso.",
+      "Dejar duplicar volumen, formar bollitos chicos y aplastar a 5 mm de espesor; reposar tapados 30 minutos.",
+      "Apoyar sobre placa bien caliente en horno precalentado a 240 °C y cocinar 6 a 10 minutos hasta que inflen."
+    ]
   }
 ]
