@@ -672,7 +672,7 @@
             <div class="market-breakdown-head">
               <div>
                 <h4>En <span style="color:${activeChain.color}">${activeChain.chainName}</span></h4>
-                <p class="market-note">Marcá lo que ya tenés en casa o abrí directo en góndola.</p>
+                <p class="market-note">Productos reales de <strong>precios.db</strong> · Envases: <strong>$ ${activeChain.totalPacksUYU || activeChain.totalUYU} UYU</strong></p>
               </div>
               <strong class="breakdown-total">$ ${activeChain.totalUYU} UYU</strong>
             </div>
@@ -682,12 +682,26 @@
                 .map((item) => {
                   const qty = formatAmount(item.amount, multiplier);
                   const unit = item.unit ? ` ${item.unit}` : "";
+                  const tags = item.matchedDietTags || [];
+                  let dietBadge = "";
+                  if (tags.includes("sin_tacc")) dietBadge = "🌾 Sin TACC";
+                  else if (tags.includes("sin_lactosa")) dietBadge = "🥛 Sin lactosa";
+                  else if (tags.includes("sin_azucar")) dietBadge = "🍯 Sin azúcar";
+
                   return `
                     <li class="market-item-row ${item.checked ? "is-owned" : ""}">
                       <label class="market-item-check">
                         <input type="checkbox" class="market-own-checkbox" data-ing-idx="${item.index}" ${item.checked ? "checked" : ""} />
                         <span>
                           <strong>${qty}${unit}</strong> ${item.item}
+                          ${
+                            item.matchedProductName
+                              ? `<small class="ing-adapt-meta">
+                                  ${dietBadge ? `<span class="ing-adapt-badge">${dietBadge}</span>` : ""}
+                                  📦 ${item.matchedProductName} · Envase: $ ${item.packPriceUYU || item.estimatedFullPriceUYU}
+                                </small>`
+                              : ""
+                          }
                         </span>
                       </label>
                       <div class="market-item-actions">

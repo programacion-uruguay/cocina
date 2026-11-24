@@ -950,9 +950,12 @@
             <div class="market-breakdown-head">
               <div>
                 <h4>En <span style="color:${activeChain.color}">${escapeHtml(activeChain.chainName)}</span></h4>
-                <p class="market-note">Marcá lo que ya tenés en casa o abrí directo en góndola.</p>
+                <p class="market-note">Productos reales de <strong>precios.db</strong> · Envases cerrados: <strong>$ ${activeChain.totalPacksUYU || activeChain.totalUYU} UYU</strong></p>
               </div>
-              <strong class="breakdown-total">$ ${activeChain.totalUYU} UYU</strong>
+              <div style="text-align:right;">
+                <strong class="breakdown-total">$ ${activeChain.totalUYU} UYU</strong>
+                <small style="display:block;font-size:0.7rem;color:var(--text-muted);">costo receta</small>
+              </div>
             </div>
 
             <ul class="market-items-list market-items-compact">
@@ -960,14 +963,32 @@
                 .map((item) => {
                   const qty = formatAmount(item.amount, multiplier);
                   const unit = item.unit ? ` ${item.unit}` : "";
+                  const tags = item.matchedDietTags || [];
+                  let dietBadge = "";
+                  if (tags.includes("sin_tacc")) dietBadge = "🌾 Sin TACC";
+                  else if (tags.includes("sin_lactosa")) dietBadge = "🥛 Sin lactosa";
+                  else if (tags.includes("sin_azucar")) dietBadge = "🍯 Sin azúcar";
+                  else if (tags.includes("vegano")) dietBadge = "🌱 Vegano";
+                  else if (tags.includes("integral")) dietBadge = "🌾 Integral";
+
                   return `
                     <li class="market-item-row ${item.checked ? "is-owned" : ""}">
                       <label class="market-item-check">
                         <input type="checkbox" class="market-own-checkbox" data-ing-idx="${item.index}" ${item.checked ? "checked" : ""} />
-                        <span><strong>${escapeHtml(qty)}${escapeHtml(unit)}</strong> ${escapeHtml(item.item)}</span>
+                        <span>
+                          <strong>${escapeHtml(qty)}${escapeHtml(unit)}</strong> ${escapeHtml(item.item)}
+                          ${
+                            item.matchedProductName
+                              ? `<small class="ing-adapt-meta">
+                                  ${dietBadge ? `<span class="ing-adapt-badge">${escapeHtml(dietBadge)}</span>` : ""}
+                                  📦 ${escapeHtml(item.matchedProductName)} · <strong>Envase: $ ${item.packPriceUYU || item.estimatedFullPriceUYU}</strong>
+                                </small>`
+                              : ""
+                          }
+                        </span>
                       </label>
                       <div class="market-item-actions">
-                        <span class="market-item-price">
+                        <span class="market-item-price" title="Costo proporcional para la receta">
                           ${item.checked ? "<s>$ " + item.estimatedFullPriceUYU + "</s> $ 0" : "$ " + item.priceUYU}
                         </span>
                         <a href="${escapeHtml(item.gondolaUrl)}" target="_blank" rel="noopener noreferrer" class="btn-gondola">
