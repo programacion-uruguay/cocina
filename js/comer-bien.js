@@ -11,6 +11,7 @@
     pickingForInicio: false,
     recipeFilters: { query: '', moment: 'all', maxCost: 'all', focus: 'all', onlyFav: false, respectProfile: true },
     recipeWheelStep: 1, // 1: Presupuesto, 2: Momento, 3: Enfoque
+    preferredSupermarket: '', // '' = mejor precio entre supermercados de Montevideo
     pantry: ['huevo', 'papa', 'cebolla'],
     pantryWheelPath: { group: null, subgroup: null },
   };
@@ -404,8 +405,8 @@
                   <p style="font-size:12px;color:var(--cb-muted);margin-top:4px;">${esc(s.reason)}</p>
                 </div>
                 <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--cb-cream-dark);padding-top:8px;">
-                  <span style="font-size:12px;color:var(--cb-muted);">⏱ ${s.recipe.prepMinutes}m · ~$U ${s.recipe.estimatedCostUyu}</span>
-                  <button type="button" class="cb-btn cb-btn-sm cb-btn-secondary" data-acsug="${s.moment}:${s.recipe.id}">Planificar hoy</button>
+                  <span style="font-size:12px;color:var(--cb-muted);">⏱ ${s.recipe.prepMinutes}m · ~$U ${E.getRecipeMarketInfo(s.recipe, s.recipe.servings, state.preferredSupermarket || null).costUyu}</span>
+                  <button type="button" class="cb-btn cb-btn-sm cb-btn-secondary" data-acsug="${s.moment}:${s.recipe.id}">Planificar ${dayWord}</button>
                 </div>
               </div>
             </article>`
@@ -576,10 +577,11 @@
   // 2. PLANIFICADOR SEMANAL
   function renderPlanificador(view) {
     const slots = state.userData.menuSlots;
+    const chainId = state.preferredSupermarket || null;
     const weeklyCost = slots.reduce((acc, s) => {
       if (s.status === 'skipped' || !s.recipeId) return acc;
       const rec = D.RECIPES.find((r) => r.id === s.recipeId);
-      return rec ? acc + Math.round((rec.estimatedCostUyu * (s.servings || 2)) / rec.servings) : acc;
+      return rec ? acc + E.getRecipeMarketInfo(rec, s.servings || 2, chainId).costUyu : acc;
     }, 0);
 
     view.innerHTML = `
@@ -740,7 +742,7 @@
     return D.RECIPES.filter((r) => {
       if (f.respectProfile && !E.isRecipeCompatible(r, state.user)) return false;
       if (f.moment !== 'all' && r.moment !== f.moment) return false;
-      if (f.maxCost !== 'all' && r.estimatedCostUyu > Number(f.maxCost)) return false;
+      if (f.maxCost !== 'all' && E.getRecipeMarketInfo(r, r.servings, state.preferredSupermarket || null).costUyu > Number(f.maxCost)) return false;
       if (f.focus === 'verduras' && !r.foodGroups.includes('verduras')) return false;
       if (f.focus === 'legumbres' && !r.foodGroups.includes('legumbres')) return false;
       if (f.focus === 'rapido' && r.prepMinutes > 20) return false;
@@ -916,7 +918,7 @@
                     </div>
                     <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--cb-cream-dark);padding-top:8px;">
                       <span style="font-size:12px;color:var(--cb-muted);">⏱ ${r.prepMinutes}m · ${r.servings} porc.</span>
-                      <span class="cb-badge cb-badge-sage">~$U ${r.estimatedCostUyu}</span>
+                      <span class="cb-badge cb-badge-sage" title="Precio alimentado de supermercados de Montevideo">~$U ${E.getRecipeMarketInfo(r, r.servings, state.preferredSupermarket || null).costUyu} (${E.getRecipeMarketInfo(r, r.servings, state.preferredSupermarket || null).chainName})</span>
                     </div>
                   </div>
                 </article>`
@@ -1501,24 +1503,44 @@
     bindCBRecipes(view);
   }
 
-  // 5. LISTA DE COMPRAS
+  // 5. LISTA DE COMPRAS (Precios autoalimentados por Supermercados de Montevideo)
   function renderCompras(view) {
-    const items = state.userData.shoppingList;
+    const chainId = state.preferredSupermarket || null;
+    const chains = typeof MDEO_SUPERMARKETS !== 'undefined' ? MDEO_SUPERMARKETS : [];
+
+    // Recalcular precios en vivo desde el comparador de supermercados
+    const items = state.userData.shoppingList.map((item) => {
+      if (typeof window.estimateItemSupermarketUYU === 'function') {
+        const est = window.estimateItemSupermarketUYU(item.name, item.quantity, item.unit, chainId);
+        return {
+          ...item,
+          estimatedUyu: est.priceUYU,
+          chainName: est.chainName,
+          gondolaUrl: est.gondolaUrl,
+        };
+      }
+      return item;
+    });
     const total = items.reduce((s, i) => s + (i.estimatedUyu || 0), 0);
+
     view.innerHTML = `
       <div class="cb-section-head">
         <div>
           <h3>Lista de Compras</h3>
-          <small style="color:var(--cb-muted);">Total estimado: $U ${total.toLocaleString('es-UY')}</small>
+          <small style="color:var(--cb-muted);">Total estimado en supermercados: <strong>$U ${total.toLocaleString('es-UY')}</strong></small>
         </div>
-        <div style="display:flex;gap:8px;">
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+          <select id="cb-sh-chain" style="padding:8px 12px;border-radius:10px;border:1px solid #d4c8ae;font-size:13px;background:#fff;">
+            <option value="" ${!chainId ? 'selected' : ''}>🏆 Mejor precio (todos los súper)</option>
+            ${chains.map((c) => `<option value="${c.id}" ${chainId === c.id ? 'selected' : ''}>🏪 ${esc(c.name)}</option>`).join('')}
+          </select>
           <button type="button" class="cb-btn cb-btn-primary" id="cb-sh-sync">🔄 Generar desde mi menú</button>
           ${items.some((i) => i.checked) ? '<button type="button" class="cb-btn cb-btn-outline" id="cb-sh-clr">Limpiar comprados</button>' : ''}
         </div>
       </div>
 
       <form id="cb-sh-add" class="cb-card" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin-bottom:16px;align-items:end;">
-        <div class="cb-field"><label>Producto</label><input id="cb-sa-n" required placeholder="Ej: Yerba" /></div>
+        <div class="cb-field"><label>Producto</label><input id="cb-sa-n" required placeholder="Ej: Yerba, arroz..." /></div>
         <div class="cb-field"><label>Cant.</label><input id="cb-sa-q" type="number" step="0.5" value="1" /></div>
         <div class="cb-field"><label>Unidad</label><input id="cb-sa-u" value="u" /></div>
         <div class="cb-field"><label>Rubro</label><select id="cb-sa-c">${D.SHOPPING_CATEGORIES.map((c) => `<option>${c}</option>`).join('')}</select></div>
@@ -1535,12 +1557,18 @@
               ${ci
                 .map(
                   (i) => `
-                <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--cb-cream-dark);${i.checked ? 'opacity:0.55;text-decoration:line-through;' : ''}">
-                  <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--cb-cream-dark);${i.checked ? 'opacity:0.55;text-decoration:line-through;' : ''}">
+                  <label style="display:flex;align-items:center;gap:8px;cursor:pointer;flex:1;">
                     <input type="checkbox" data-shchk="${i.id}" ${i.checked ? 'checked' : ''} />
-                    <span style="font-size:13px;"><strong>${esc(i.name)}</strong> (${i.quantity} ${esc(i.unit)})</span>
+                    <div style="font-size:13px;">
+                      <strong>${esc(i.name)}</strong> (${i.quantity} ${esc(i.unit)})
+                      <div style="font-size:11px;color:var(--cb-muted);">~$U ${i.estimatedUyu} · ${esc(i.chainName || 'Súper Mdeo')}</div>
+                    </div>
                   </label>
-                  <button type="button" class="cb-btn cb-btn-sm cb-btn-ghost" data-shdel="${i.id}">✕</button>
+                  <div style="display:flex;align-items:center;gap:4px;">
+                    ${i.gondolaUrl ? `<a href="${i.gondolaUrl}" target="_blank" rel="noopener" class="cb-btn cb-btn-sm cb-btn-outline" title="Buscar en góndola online" style="text-decoration:none;">🛒</a>` : ''}
+                    <button type="button" class="cb-btn cb-btn-sm cb-btn-ghost" data-shdel="${i.id}">✕</button>
+                  </div>
                 </div>`
                 )
                 .join('')}
@@ -1549,8 +1577,13 @@
       </div>
     `;
 
+    document.getElementById('cb-sh-chain').addEventListener('change', (e) => {
+      state.preferredSupermarket = e.target.value;
+      renderCBStage();
+    });
+
     document.getElementById('cb-sh-sync').addEventListener('click', () => {
-      const fromMenu = E.buildShoppingListFromMenu(state.userData.menuSlots);
+      const fromMenu = E.buildShoppingListFromMenu(state.userData.menuSlots, state.preferredSupermarket || null);
       const manual = state.userData.shoppingList.filter((i) => !i.fromMenu);
       state.userData.shoppingList = [...manual, ...fromMenu];
       persist();
@@ -1723,7 +1756,8 @@
 
     function draw() {
       const scale = servings / Math.max(1, rec.servings);
-      const cost = Math.round(rec.estimatedCostUyu * scale);
+      const market = E.getRecipeMarketInfo(rec, servings, state.preferredSupermarket || null);
+      const cost = market.costUyu;
       openModal(`
         <div style="position:relative;height:200px;">
           <img src="${rec.imageUrl}" alt="${esc(rec.title)}" style="width:100%;height:100%;object-fit:cover;" />
@@ -1731,7 +1765,7 @@
         </div>
         <div class="cb-modal-body">
           <h3 style="margin:0;">${esc(rec.title)}</h3>
-          <div style="font-size:12px;color:var(--cb-muted);">⏱ ${rec.prepMinutes} min · ~$U ${cost} (${servings} porciones)</div>
+          <div style="font-size:12px;color:var(--cb-muted);">⏱ ${rec.prepMinutes} min · ~$U ${cost} en ${esc(market.chainName)} (${servings} porciones)</div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
             <button type="button" class="cb-btn cb-btn-primary cb-btn-sm" id="cb-rm-eat">✓ Ya lo comí hoy</button>
             <button type="button" class="cb-btn cb-btn-secondary cb-btn-sm" id="cb-rm-plan">📅 Pienso comer esto hoy</button>

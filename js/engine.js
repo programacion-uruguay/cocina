@@ -152,7 +152,24 @@ window.CB_ENGINE = (() => {
     };
   }
 
-  function buildShoppingListFromMenu(slots) {
+  function getRecipeMarketInfo(recipe, servings = recipe.servings, chainId = null) {
+    const mult = Math.max(1, servings || recipe.servings || 1) / Math.max(1, recipe.servings || 1);
+    if (typeof window.estimateRecipeSupermarketSummary === 'function') {
+      const info = window.estimateRecipeSupermarketSummary(recipe, mult, chainId);
+      return {
+        costUyu: info.cheapestTotalUYU,
+        chainName: info.cheapestChainName,
+        chainId: info.cheapestChainId,
+      };
+    }
+    return {
+      costUyu: Math.round((recipe.estimatedCostUyu || 150) * mult),
+      chainName: 'Estimado',
+      chainId: null,
+    };
+  }
+
+  function buildShoppingListFromMenu(slots, preferredChainId = null) {
     const map = new Map();
     for (const slot of slots) {
       if (slot.status === 'skipped' || !slot.recipeId) continue;
@@ -160,7 +177,6 @@ window.CB_ENGINE = (() => {
       if (!recipe) continue;
 
       const factor = (slot.servings || 2) / Math.max(1, recipe.servings);
-      const costPerIng = (recipe.estimatedCostUyu * factor) / Math.max(1, recipe.ingredients.length);
 
       for (const ing of recipe.ingredients) {
         const key = `${ing.name.toLowerCase()}__${ing.unit.toLowerCase()}`;
@@ -168,7 +184,6 @@ window.CB_ENGINE = (() => {
         if (map.has(key)) {
           const ex = map.get(key);
           ex.quantity = Math.round((ex.quantity + qty) * 10) / 10;
-          ex.estimatedUyu += Math.round(costPerIng);
         } else {
           map.set(key, {
             id: 'menu-' + key,
@@ -176,14 +191,26 @@ window.CB_ENGINE = (() => {
             quantity: qty,
             unit: ing.unit,
             category: ing.category,
-            estimatedUyu: Math.max(10, Math.round(costPerIng)),
+            estimatedUyu: 0,
             checked: false,
             fromMenu: true,
           });
         }
       }
     }
-    return Array.from(map.values());
+
+    return Array.from(map.values()).map((item) => {
+      if (typeof window.estimateItemSupermarketUYU === 'function') {
+        const est = window.estimateItemSupermarketUYU(item.name, item.quantity, item.unit, preferredChainId);
+        return {
+          ...item,
+          estimatedUyu: est.priceUYU,
+          chainName: est.chainName,
+          gondolaUrl: est.gondolaUrl,
+        };
+      }
+      return { ...item, estimatedUyu: 50 };
+    });
   }
 
   return {
@@ -191,6 +218,7 @@ window.CB_ENGINE = (() => {
     generateWeeklyMenu,
     getTodayDayIndex,
     analyzeDayAndSuggest,
+    getRecipeMarketInfo,
     buildShoppingListFromMenu,
   };
 })();

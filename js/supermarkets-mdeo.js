@@ -137,7 +137,7 @@ function hashCode(str) {
 }
 
 function estimateIngredientBaseUYU(ing, multiplier) {
-  const name = ing.item.toLowerCase();
+  const name = (ing.item || ing.name || "").toLowerCase();
   const unit = (ing.unit || "").toLowerCase();
   const qty = (Number(ing.amount) || 1) * multiplier;
 
@@ -146,13 +146,15 @@ function estimateIngredientBaseUYU(ing, multiplier) {
   if (name.includes("salmón") || name.includes("salmon")) unitPrice = 490;
   else if (name.includes("colita") || name.includes("bife") || name.includes("carne")) unitPrice = 280;
   else if (name.includes("pollo") || name.includes("suprema") || name.includes("muslo")) unitPrice = 195;
-  else if (name.includes("merluza") || name.includes("atún")) unitPrice = 185;
+  else if (name.includes("merluza") || name.includes("brótola") || name.includes("atún")) unitPrice = 185;
   else if (name.includes("queso") || name.includes("ricota") || name.includes("mozzarella") || name.includes("muzzarella")) unitPrice = 145;
+  else if (name.includes("yogur") || name.includes("leche")) unitPrice = 62;
   else if (name.includes("mantequilla de maní") || name.includes("aceite de oliva")) unitPrice = 110;
   else if (name.includes("palta")) unitPrice = 85;
   else if (name.includes("huevo")) unitPrice = 14;
-  else if (name.includes("papa") || name.includes("cebolla") || name.includes("tomate") || name.includes("zapallito") || name.includes("manzana") || name.includes("banana")) unitPrice = 45;
-  else if (name.includes("avena") || name.includes("arroz") || name.includes("spaghetti") || name.includes("lasaña") || name.includes("harina")) unitPrice = 68;
+  else if (name.includes("lenteja") || name.includes("garbanzo") || name.includes("poroto")) unitPrice = 82;
+  else if (name.includes("papa") || name.includes("boniato") || name.includes("zapallo") || name.includes("calabaza") || name.includes("zanahoria") || name.includes("cebolla") || name.includes("tomate") || name.includes("zapallito") || name.includes("berenjena") || name.includes("acelga") || name.includes("espinaca") || name.includes("brócoli") || name.includes("manzana") || name.includes("banana") || name.includes("naranja") || name.includes("mandarina") || name.includes("pera")) unitPrice = 45;
+  else if (name.includes("avena") || name.includes("arroz") || name.includes("fideos") || name.includes("spaghetti") || name.includes("lasaña") || name.includes("harina") || name.includes("pan")) unitPrice = 68;
   else if (name.includes("sal") || name.includes("pimienta") || name.includes("orégano") || name.includes("pimentón") || name.includes("canela") || name.includes("romero") || name.includes("eneldo") || name.includes("perejil") || name.includes("ají") || name.includes("vainilla")) unitPrice = 18;
 
   // Ajuste según si la cantidad está en gramos/ml o por unidad
@@ -162,10 +164,69 @@ function estimateIngredientBaseUYU(ing, multiplier) {
   if (unit === "kg" || unit === "l") {
     return Math.max(40, Math.round(qty * unitPrice * 2.1));
   }
+  if (unit === "rebanadas") {
+    return Math.max(15, Math.round(qty * 14));
+  }
   if (unit === "cda" || unit === "cdas" || unit === "cdta" || unit === "pizca" || unit === "dientes") {
     return Math.max(12, Math.round(Math.min(qty, 6) * 14));
   }
   return Math.max(20, Math.round(qty * unitPrice));
+}
+
+function estimateItemSupermarketUYU(name, amount, unit, preferredChainId = null) {
+  const base = estimateIngredientBaseUYU({ item: name, amount, unit }, 1);
+  const chains = preferredChainId
+    ? MDEO_SUPERMARKETS.filter((c) => c.id === preferredChainId)
+    : MDEO_SUPERMARKETS;
+  const list = chains.length ? chains : MDEO_SUPERMARKETS;
+
+  let bestPrice = Infinity;
+  let bestChain = list[0];
+  const term = cleanSearchTerm(name) || name;
+
+  for (const chain of list) {
+    const variance = ((hashCode(`${chain.id}-${name}`) % 13) - 6) / 100;
+    const price = Math.max(10, Math.round(base * chain.priceFactor * (1 + variance)));
+    if (price < bestPrice) {
+      bestPrice = price;
+      bestChain = chain;
+    }
+  }
+
+  return {
+    priceUYU: bestPrice,
+    chainId: bestChain.id,
+    chainName: bestChain.name,
+    gondolaUrl: bestChain.buildSearchUrl(term),
+  };
+}
+
+function estimateRecipeSupermarketSummary(recipe, servingsMultiplier = 1, preferredChainId = null) {
+  const normalized = {
+    ...recipe,
+    ingredients: (recipe.ingredients || []).map((i) => ({
+      ...i,
+      item: i.item || i.name || "",
+    })),
+  };
+  const compared = compareRecipeInMontevideo(
+    normalized,
+    servingsMultiplier,
+    MDEO_BARRIOS[0],
+    "price",
+    {}
+  );
+  const chosen = preferredChainId
+    ? compared.find((c) => c.chainId === preferredChainId) || compared[0]
+    : compared[0];
+  const avg = Math.round(compared.reduce((s, c) => s + c.totalUYU, 0) / Math.max(1, compared.length));
+  return {
+    cheapestChainId: chosen.chainId,
+    cheapestChainName: chosen.chainName,
+    cheapestTotalUYU: chosen.totalUYU,
+    averageTotalUYU: avg,
+    byChain: compared,
+  };
 }
 
 function compareRecipeInMontevideo(recipe, servingsMultiplier, userCoords, sortBy = "price", checkedMap = {}) {
