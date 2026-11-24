@@ -13,17 +13,49 @@
     "difficulty": "Fácil",
     "description": "Tiras de pechuga doradas por fuera y jugosas por dentro sin aceite extra, ideales para almuerzo rápido.",
     "ingredients": [
-      { "amount": 400, "unit": "g", "item": "pechuga de pollo en tiras" },
-      { "amount": 1, "unit": "cdta", "item": "pimentón dulce" },
-      { "amount": 0.5, "unit": "cdta", "item": "ajo en polvo" },
-      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
-      { "amount": 30, "unit": "g", "item": "pan rallado o avena molida" },
-      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "pechuga de pollo en tiras"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "pimentón dulce"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "pan rallado o avena molida"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
     ],
     "steps": [
-      { "text": "Precalentar la freidora de aire a 195 °C.", "timerMinutes": 3 },
-      { "text": "Mezclar el pollo con el aceite, pimentón, ajo, sal y pimienta; luego rebozar con el pan rallado." },
-      { "text": "Cocinar en la canasta sin encimar las piezas durante 16 minutos, agitando a la mitad.", "timerMinutes": 16 }
+      {
+        "text": "Precalentar la freidora de aire a 195 °C.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Mezclar el pollo con el aceite, pimentón, ajo, sal y pimienta; luego rebozar con el pan rallado."
+      },
+      {
+        "text": "Cocinar en la canasta sin encimar las piezas durante 16 minutos, agitando a la mitad.",
+        "timerMinutes": 16
+      }
     ]
   },
   {
@@ -40,14 +72,35 @@
     "difficulty": "Fácil",
     "description": "Gajos de papa bien crocantes con romero y ajo, listos en menos de 20 minutos de cocción.",
     "ingredients": [
-      { "amount": 500, "unit": "g", "item": "papas lavadas con cáscara" },
-      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
-      { "amount": 1, "unit": "cdta", "item": "romero seco o fresco" },
-      { "amount": 0.5, "unit": "cdta", "item": "sal fina" }
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "papas lavadas con cáscara"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "romero seco o fresco"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal fina"
+      }
     ],
     "steps": [
-      { "text": "Cortar las papas en gajos parejos, secarlas bien con papel y mezclarlas con aceite, romero y sal." },
-      { "text": "Cocinar a 200 °C durante 18 minutos, sacudiendo la canasta cada 6 minutos.", "timerMinutes": 18 }
+      {
+        "text": "Cortar las papas en gajos parejos, secarlas bien con papel y mezclarlas con aceite, romero y sal."
+      },
+      {
+        "text": "Cocinar a 200 °C durante 18 minutos, sacudiendo la canasta cada 6 minutos.",
+        "timerMinutes": 18
+      }
     ]
   },
   {
@@ -64,15 +117,40 @@
     "difficulty": "Fácil",
     "description": "Postas de salmón tiernas con costra cítrica en solo 10 minutos.",
     "ingredients": [
-      { "amount": 2, "unit": "filetes", "item": "salmón fresco (180 g c/u)" },
-      { "amount": 1, "unit": "cda", "item": "jugo de limón" },
-      { "amount": 1, "unit": "cdta", "item": "eneldo picado" },
-      { "amount": 1, "unit": "cdta", "item": "aceite de oliva" },
-      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+      {
+        "amount": 2,
+        "unit": "filetes",
+        "item": "salmón fresco (180 g c/u)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "eneldo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
     ],
     "steps": [
-      { "text": "Pincelar los filetes con aceite, jugo de limón, eneldo, sal y pimienta." },
-      { "text": "Llevar a la freidora de aire a 185 °C durante 10 minutos.", "timerMinutes": 10 }
+      {
+        "text": "Pincelar los filetes con aceite, jugo de limón, eneldo, sal y pimienta."
+      },
+      {
+        "text": "Llevar a la freidora de aire a 185 °C durante 10 minutos.",
+        "timerMinutes": 10
+      }
     ]
   },
   {
@@ -89,14 +167,35 @@
     "difficulty": "Muy fácil",
     "description": "Desayuno salado en un solo paso: pan crocante con huevo cocido en el centro.",
     "ingredients": [
-      { "amount": 2, "unit": "rebanadas", "item": "pan de molde integral" },
-      { "amount": 2, "unit": "unidades", "item": "huevos" },
-      { "amount": 40, "unit": "g", "item": "queso rallado" },
-      { "amount": 1, "unit": "pizca", "item": "sal y orégano" }
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan de molde integral"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y orégano"
+      }
     ],
     "steps": [
-      { "text": "Presionar el centro de cada rebanada con una cuchara para formar un hueco y colocar queso alrededor." },
-      { "text": "Cascar un huevo en cada hueco, salpimentar y cocinar a 180 °C por 7 minutos.", "timerMinutes": 7 }
+      {
+        "text": "Presionar el centro de cada rebanada con una cuchara para formar un hueco y colocar queso alrededor."
+      },
+      {
+        "text": "Cascar un huevo en cada hueco, salpimentar y cocinar a 180 °C por 7 minutos.",
+        "timerMinutes": 7
+      }
     ]
   },
   {
@@ -113,12 +212,25 @@
     "difficulty": "Muy fácil",
     "description": "Snack dulce y liviano sin azúcar agregado, ideal para la merienda.",
     "ingredients": [
-      { "amount": 2, "unit": "unidades", "item": "manzanas rojas" },
-      { "amount": 1, "unit": "cdta", "item": "canela molida" }
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "manzanas rojas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela molida"
+      }
     ],
     "steps": [
-      { "text": "Cortar las manzanas en láminas finas (sin semillas) y espolvorear con canela." },
-      { "text": "Cocinar a 160 °C durante 12 minutos, moviendo a mitad de cocción.", "timerMinutes": 12 }
+      {
+        "text": "Cortar las manzanas en láminas finas (sin semillas) y espolvorear con canela."
+      },
+      {
+        "text": "Cocinar a 160 °C durante 12 minutos, moviendo a mitad de cocción.",
+        "timerMinutes": 12
+      }
     ]
   },
   {
@@ -135,17 +247,49 @@
     "difficulty": "Fácil",
     "description": "Un clásico familiar con piel dorada y salsa jugosa de limón y ajo.",
     "ingredients": [
-      { "amount": 4, "unit": "unidades", "item": "muslos de pollo" },
-      { "amount": 1, "unit": "unidad", "item": "limón en rodajas" },
-      { "amount": 4, "unit": "dientes", "item": "ajo machacados" },
-      { "amount": 2, "unit": "cdas", "item": "aceite de oliva" },
-      { "amount": 1, "unit": "cdta", "item": "orégano" },
-      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "muslos de pollo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "limón en rodajas"
+      },
+      {
+        "amount": 4,
+        "unit": "dientes",
+        "item": "ajo machacados"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
     ],
     "steps": [
-      { "text": "Precalentar el horno a 200 °C.", "timerMinutes": 10 },
-      { "text": "Acomodar el pollo en una fuente con el ajo, rodajas de limón, aceite, orégano, sal y pimienta." },
-      { "text": "Hornear durante 40 minutos hasta que esté bien dorado.", "timerMinutes": 40 }
+      {
+        "text": "Precalentar el horno a 200 °C.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Acomodar el pollo en una fuente con el ajo, rodajas de limón, aceite, orégano, sal y pimienta."
+      },
+      {
+        "text": "Hornear durante 40 minutos hasta que esté bien dorado.",
+        "timerMinutes": 40
+      }
     ]
   },
   {
@@ -162,16 +306,43 @@
     "difficulty": "Media",
     "description": "Capas de masa, espinaca, calabacín, ricota y queso gratinado al horno.",
     "ingredients": [
-      { "amount": 250, "unit": "g", "item": "placas de lasaña" },
-      { "amount": 300, "unit": "g", "item": "espinaca cocida y escurrida" },
-      { "amount": 250, "unit": "g", "item": "ricota" },
-      { "amount": 400, "unit": "ml", "item": "salsa de tomate" },
-      { "amount": 150, "unit": "g", "item": "queso mozzarella rallado" }
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "placas de lasaña"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "espinaca cocida y escurrida"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "salsa de tomate"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso mozzarella rallado"
+      }
     ],
     "steps": [
-      { "text": "Mezclar la espinaca con la ricota y salpimentar." },
-      { "text": "Armar capas en fuente aceitada: salsa, placas, relleno, salsa y mozzarella." },
-      { "text": "Hornear a 190 °C durante 30 minutos hasta gratinar.", "timerMinutes": 30 }
+      {
+        "text": "Mezclar la espinaca con la ricota y salpimentar."
+      },
+      {
+        "text": "Armar capas en fuente aceitada: salsa, placas, relleno, salsa y mozzarella."
+      },
+      {
+        "text": "Hornear a 190 °C durante 30 minutos hasta gratinar.",
+        "timerMinutes": 30
+      }
     ]
   },
   {
@@ -188,16 +359,43 @@
     "difficulty": "Fácil",
     "description": "Budín casero sin harina refinada, perfecto para acompañar el mate o café.",
     "ingredients": [
-      { "amount": 3, "unit": "unidades", "item": "bananas maduras" },
-      { "amount": 2, "unit": "unidades", "item": "huevos" },
-      { "amount": 180, "unit": "g", "item": "avena arrollada" },
-      { "amount": 1, "unit": "cdta", "item": "polvo de hornear" },
-      { "amount": 1, "unit": "cdta", "item": "esencia de vainilla" }
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "bananas maduras"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "avena arrollada"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      }
     ],
     "steps": [
-      { "text": "Pisar las bananas y mezclar con los huevos y la vainilla." },
-      { "text": "Incorporar la avena y el polvo de hornear. Volcar en budinera." },
-      { "text": "Hornear a 180 °C durante 35 minutos.", "timerMinutes": 35 }
+      {
+        "text": "Pisar las bananas y mezclar con los huevos y la vainilla."
+      },
+      {
+        "text": "Incorporar la avena y el polvo de hornear. Volcar en budinera."
+      },
+      {
+        "text": "Hornear a 180 °C durante 35 minutos.",
+        "timerMinutes": 35
+      }
     ]
   },
   {
@@ -214,14 +412,35 @@
     "difficulty": "Fácil",
     "description": "Corte tierno de carne vacuna untado con mostaza y hierbas.",
     "ingredients": [
-      { "amount": 1, "unit": "kg", "item": "colita de cuadril" },
-      { "amount": 2, "unit": "cdas", "item": "mostaza" },
-      { "amount": 2, "unit": "cdas", "item": "aceite" },
-      { "amount": 1, "unit": "cdta", "item": "pimienta negra y sal" }
+      {
+        "amount": 1,
+        "unit": "kg",
+        "item": "colita de cuadril"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mostaza"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "pimienta negra y sal"
+      }
     ],
     "steps": [
-      { "text": "Untar la carne con mostaza, aceite, sal y pimienta." },
-      { "text": "Hornear a 190 °C por 45 minutos y dejar reposar 5 minutos antes de cortar.", "timerMinutes": 45 }
+      {
+        "text": "Untar la carne con mostaza, aceite, sal y pimienta."
+      },
+      {
+        "text": "Hornear a 190 °C por 45 minutos y dejar reposar 5 minutos antes de cortar.",
+        "timerMinutes": 45
+      }
     ]
   },
   {
@@ -237,15 +456,41 @@
     "difficulty": "Fácil",
     "description": "Plato rendidor y sabroso hecho en una sola cacerola.",
     "ingredients": [
-      { "amount": 350, "unit": "g", "item": "suprema de pollo en cubos" },
-      { "amount": 300, "unit": "g", "item": "arroz largo fino" },
-      { "amount": 1, "unit": "unidad", "item": "cebolla picada" },
-      { "amount": 1, "unit": "unidad", "item": "morrón rojo picado" },
-      { "amount": 700, "unit": "ml", "item": "caldo de verduras" }
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "suprema de pollo en cubos"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "arroz largo fino"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "morrón rojo picado"
+      },
+      {
+        "amount": 700,
+        "unit": "ml",
+        "item": "caldo de verduras"
+      }
     ],
     "steps": [
-      { "text": "Dorar el pollo en la olla con un chorrito de aceite. Agregar cebolla y morrón por 5 minutos.", "timerMinutes": 5 },
-      { "text": "Sumar el arroz y el caldo caliente. Cocinar tapado a fuego bajo por 18 minutos.", "timerMinutes": 18 }
+      {
+        "text": "Dorar el pollo en la olla con un chorrito de aceite. Agregar cebolla y morrón por 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sumar el arroz y el caldo caliente. Cocinar tapado a fuego bajo por 18 minutos.",
+        "timerMinutes": 18
+      }
     ]
   },
   {
@@ -261,16 +506,43 @@
     "difficulty": "Muy fácil",
     "description": "Pasta italiana clásica lista en 15 minutos con ingredientes básicos de alacena.",
     "ingredients": [
-      { "amount": 200, "unit": "g", "item": "spaghetti" },
-      { "amount": 3, "unit": "dientes", "item": "ajo laminados" },
-      { "amount": 3, "unit": "cdas", "item": "aceite de oliva" },
-      { "amount": 1, "unit": "cda", "item": "perejil fresco picado" },
-      { "amount": 1, "unit": "pizca", "item": "ají molido y sal" }
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "spaghetti"
+      },
+      {
+        "amount": 3,
+        "unit": "dientes",
+        "item": "ajo laminados"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "ají molido y sal"
+      }
     ],
     "steps": [
-      { "text": "Hervir los spaghetti en agua con sal durante 10 minutos.", "timerMinutes": 10 },
-      { "text": "En sartén aparte, dorar suavemente el ajo en aceite de oliva sin quemarlo." },
-      { "text": "Mezclar la pasta con el aceite, un cucharón de agua de cocción y perejil." }
+      {
+        "text": "Hervir los spaghetti en agua con sal durante 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "En sartén aparte, dorar suavemente el ajo en aceite de oliva sin quemarlo."
+      },
+      {
+        "text": "Mezclar la pasta con el aceite, un cucharón de agua de cocción y perejil."
+      }
     ]
   },
   {
@@ -286,14 +558,36 @@
     "difficulty": "Fácil",
     "description": "Cena liviana, económica y rica en proteínas.",
     "ingredients": [
-      { "amount": 3, "unit": "unidades", "item": "zapallitos verdes en cubos" },
-      { "amount": 1, "unit": "unidad", "item": "cebolla picada" },
-      { "amount": 3, "unit": "unidades", "item": "huevos batidos" },
-      { "amount": 1, "unit": "cda", "item": "aceite" }
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "zapallitos verdes en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos batidos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite"
+      }
     ],
     "steps": [
-      { "text": "Saltear la cebolla y los zapallitos a fuego medio por 8 minutos.", "timerMinutes": 8 },
-      { "text": "Agregar los huevos batidos, salpimentar y revolver 3 minutos hasta cuajar.", "timerMinutes": 3 }
+      {
+        "text": "Saltear la cebolla y los zapallitos a fuego medio por 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Agregar los huevos batidos, salpimentar y revolver 3 minutos hasta cuajar.",
+        "timerMinutes": 3
+      }
     ]
   },
   {
@@ -309,14 +603,35 @@
     "difficulty": "Muy fácil",
     "description": "Desayuno energético en sartén sin harinas refinadas.",
     "ingredients": [
-      { "amount": 1, "unit": "unidad", "item": "banana madura" },
-      { "amount": 2, "unit": "unidades", "item": "huevos" },
-      { "amount": 60, "unit": "g", "item": "avena fina" },
-      { "amount": 1, "unit": "cdta", "item": "canela" }
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "banana madura"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "avena fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela"
+      }
     ],
     "steps": [
-      { "text": "Procesar o mezclar bien la banana pisada con huevos, avena y canela." },
-      { "text": "Cocinar porciones en sartén antiadherente 2 minutos de cada lado.", "timerMinutes": 4 }
+      {
+        "text": "Procesar o mezclar bien la banana pisada con huevos, avena y canela."
+      },
+      {
+        "text": "Cocinar porciones en sartén antiadherente 2 minutos de cada lado.",
+        "timerMinutes": 4
+      }
     ]
   },
   {
@@ -332,15 +647,40 @@
     "difficulty": "Fácil",
     "description": "Bifes tiernos cocidos con cebolla, morrón, tomate y rodajas de papa.",
     "ingredients": [
-      { "amount": 500, "unit": "g", "item": "bifes de nalga o cuadril" },
-      { "amount": 2, "unit": "unidades", "item": "papas en rodajas finas" },
-      { "amount": 1, "unit": "unidad", "item": "cebolla en aros" },
-      { "amount": 1, "unit": "unidad", "item": "tomate en rodajas" },
-      { "amount": 100, "unit": "ml", "item": "caldo o agua" }
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "bifes de nalga o cuadril"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "papas en rodajas finas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla en aros"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "tomate en rodajas"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "caldo o agua"
+      }
     ],
     "steps": [
-      { "text": "Sellar los bifes en sartén profunda 2 minutos por lado." },
-      { "text": "Cubrir con capas de cebolla, tomate y papa, agregar el caldo y tapar 20 minutos.", "timerMinutes": 20 }
+      {
+        "text": "Sellar los bifes en sartén profunda 2 minutos por lado."
+      },
+      {
+        "text": "Cubrir con capas de cebolla, tomate y papa, agregar el caldo y tapar 20 minutos.",
+        "timerMinutes": 20
+      }
     ]
   },
   {
@@ -356,14 +696,34 @@
     "difficulty": "Fácil",
     "description": "Corte jugoso sellado a fuego fuerte en plancha o parrilla.",
     "ingredients": [
-      { "amount": 2, "unit": "unidades", "item": "bifes de chorizo (250 g c/u)" },
-      { "amount": 2, "unit": "cdas", "item": "chimichurri" },
-      { "amount": 1, "unit": "cdta", "item": "sal gruesa" }
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "bifes de chorizo (250 g c/u)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "chimichurri"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal gruesa"
+      }
     ],
     "steps": [
-      { "text": "Calentar bien la plancha o parrilla durante 4 minutos.", "timerMinutes": 4 },
-      { "text": "Cocinar los bifes 4 a 5 minutos de cada lado según el punto deseado.", "timerMinutes": 9 },
-      { "text": "Servir con chimichurri por encima." }
+      {
+        "text": "Calentar bien la plancha o parrilla durante 4 minutos.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Cocinar los bifes 4 a 5 minutos de cada lado según el punto deseado.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Servir con chimichurri por encima."
+      }
     ]
   },
   {
@@ -379,14 +739,35 @@
     "difficulty": "Fácil",
     "description": "Berenjena, zucchini y morrón marcados a la plancha con toque de aceto.",
     "ingredients": [
-      { "amount": 1, "unit": "unidad", "item": "zucchini en láminas" },
-      { "amount": 1, "unit": "unidad", "item": "berenjena en rodajas" },
-      { "amount": 1, "unit": "unidad", "item": "morrón en tiras" },
-      { "amount": 2, "unit": "cdas", "item": "aceite de oliva y aceto" }
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zucchini en láminas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "berenjena en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "morrón en tiras"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva y aceto"
+      }
     ],
     "steps": [
-      { "text": "Pincelar los vegetales con aceite y sal." },
-      { "text": "Grillar 5 minutos por lado hasta que queden marcados y tiernos.", "timerMinutes": 10 }
+      {
+        "text": "Pincelar los vegetales con aceite y sal."
+      },
+      {
+        "text": "Grillar 5 minutos por lado hasta que queden marcados y tiernos.",
+        "timerMinutes": 10
+      }
     ]
   },
   {
@@ -402,14 +783,35 @@
     "difficulty": "Fácil",
     "description": "Pescado dorado y liviano en pocos minutos.",
     "ingredients": [
-      { "amount": 2, "unit": "filetes", "item": "merluza sin espinas" },
-      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
-      { "amount": 1, "unit": "cda", "item": "perejil y ajo picados" },
-      { "amount": 1, "unit": "unidad", "item": "limón" }
+      {
+        "amount": 2,
+        "unit": "filetes",
+        "item": "merluza sin espinas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil y ajo picados"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "limón"
+      }
     ],
     "steps": [
-      { "text": "Calentar la plancha aceitada y colocar los filetes salpimentados." },
-      { "text": "Cocinar 4 minutos por lado con ajo y perejil por encima.", "timerMinutes": 8 }
+      {
+        "text": "Calentar la plancha aceitada y colocar los filetes salpimentados."
+      },
+      {
+        "text": "Cocinar 4 minutos por lado con ajo y perejil por encima.",
+        "timerMinutes": 8
+      }
     ]
   },
   {
@@ -425,13 +827,30 @@
     "difficulty": "Muy fácil",
     "description": "Pechuga abierta en mariposa para cocción rápida y pareja.",
     "ingredients": [
-      { "amount": 350, "unit": "g", "item": "pechuga de pollo abierta" },
-      { "amount": 1, "unit": "cda", "item": "aceite de oliva" },
-      { "amount": 1, "unit": "cdta", "item": "tomillo y romero" }
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "pechuga de pollo abierta"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "tomillo y romero"
+      }
     ],
     "steps": [
-      { "text": "Condimentar la pechuga con aceite, hierbas, sal y pimienta." },
-      { "text": "Cocinar 5 minutos por lado en plancha bien caliente.", "timerMinutes": 10 }
+      {
+        "text": "Condimentar la pechuga con aceite, hierbas, sal y pimienta."
+      },
+      {
+        "text": "Cocinar 5 minutos por lado en plancha bien caliente.",
+        "timerMinutes": 10
+      }
     ]
   },
   {
@@ -447,15 +866,40 @@
     "difficulty": "Muy fácil",
     "description": "Bizcochuelo individual esponjoso directo en taza, listo al instante.",
     "ingredients": [
-      { "amount": 4, "unit": "cdas", "item": "harina leudante" },
-      { "amount": 2, "unit": "cdas", "item": "cacao amargo" },
-      { "amount": 2, "unit": "cdas", "item": "azúcar" },
-      { "amount": 4, "unit": "cdas", "item": "leche" },
-      { "amount": 1, "unit": "cda", "item": "aceite neutro" }
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "harina leudante"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "cacao amargo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite neutro"
+      }
     ],
     "steps": [
-      { "text": "Mezclar todos los ingredientes dentro de una taza apta para microondas hasta lograr masa lisa." },
-      { "text": "Cocinar a potencia máxima durante 2 minutos.", "timerMinutes": 2 }
+      {
+        "text": "Mezclar todos los ingredientes dentro de una taza apta para microondas hasta lograr masa lisa."
+      },
+      {
+        "text": "Cocinar a potencia máxima durante 2 minutos.",
+        "timerMinutes": 2
+      }
     ]
   },
   {
@@ -471,14 +915,35 @@
     "difficulty": "Muy fácil",
     "description": "Desayuno proteico sin ensuciar sartenes.",
     "ingredients": [
-      { "amount": 2, "unit": "unidades", "item": "huevos" },
-      { "amount": 30, "unit": "g", "item": "queso en cubitos" },
-      { "amount": 1, "unit": "cda", "item": "tomate y cebollín picados" },
-      { "amount": 1, "unit": "pizca", "item": "sal y pimienta" }
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "tomate y cebollín picados"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
     ],
     "steps": [
-      { "text": "Batir los huevos en una taza aceitada junto con el queso, tomate y cebollín." },
-      { "text": "Llevar al microondas 2 minutos (en intervalos de 1 minuto).", "timerMinutes": 2 }
+      {
+        "text": "Batir los huevos en una taza aceitada junto con el queso, tomate y cebollín."
+      },
+      {
+        "text": "Llevar al microondas 2 minutos (en intervalos de 1 minuto).",
+        "timerMinutes": 2
+      }
     ]
   },
   {
@@ -494,13 +959,31 @@
     "difficulty": "Muy fácil",
     "description": "Papa tierna tipo al plomo en menos de 10 minutos.",
     "ingredients": [
-      { "amount": 1, "unit": "unidad", "item": "papa grande lavada" },
-      { "amount": 40, "unit": "g", "item": "queso crema o muzzarella" },
-      { "amount": 1, "unit": "cda", "item": "cebolla de verdeo picada" }
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "papa grande lavada"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso crema o muzzarella"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla de verdeo picada"
+      }
     ],
     "steps": [
-      { "text": "Pinchar la papa con tenedor y cocinar en microondas 7 minutos.", "timerMinutes": 7 },
-      { "text": "Abrir al medio, agregar queso y verdeo, y calentar 1 minuto más.", "timerMinutes": 1 }
+      {
+        "text": "Pinchar la papa con tenedor y cocinar en microondas 7 minutos.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Abrir al medio, agregar queso y verdeo, y calentar 1 minuto más.",
+        "timerMinutes": 1
+      }
     ]
   },
   {
@@ -516,15 +999,39 @@
     "difficulty": "Muy fácil",
     "description": "Desayuno frío preparado la noche anterior, cremoso y nutritivo.",
     "ingredients": [
-      { "amount": 50, "unit": "g", "item": "avena arrollada" },
-      { "amount": 150, "unit": "ml", "item": "leche o bebida vegetal" },
-      { "amount": 1, "unit": "cda", "item": "semillas de chía" },
-      { "amount": 60, "unit": "g", "item": "frutos rojos" },
-      { "amount": 1, "unit": "cdta", "item": "miel" }
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "avena arrollada"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "leche o bebida vegetal"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de chía"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "frutos rojos"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "miel"
+      }
     ],
     "steps": [
-      { "text": "Mezclar avena, leche, chía y miel en un frasco." },
-      { "text": "Refrigerar al menos 4 horas o toda la noche y servir con frutos rojos." }
+      {
+        "text": "Mezclar avena, leche, chía y miel en un frasco."
+      },
+      {
+        "text": "Refrigerar al menos 4 horas o toda la noche y servir con frutos rojos."
+      }
     ]
   },
   {
@@ -540,15 +1047,39 @@
     "difficulty": "Muy fácil",
     "description": "Almuerzo completo sin prender la cocina, fresco y saciante.",
     "ingredients": [
-      { "amount": 1, "unit": "lata", "item": "atún al natural escurrido" },
-      { "amount": 200, "unit": "g", "item": "garbanzos cocidos" },
-      { "amount": 1, "unit": "unidad", "item": "palta en cubos" },
-      { "amount": 10, "unit": "unidades", "item": "tomates cherry" },
-      { "amount": 2, "unit": "cdas", "item": "aceite de oliva y jugo de limón" }
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún al natural escurrido"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "garbanzos cocidos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "palta en cubos"
+      },
+      {
+        "amount": 10,
+        "unit": "unidades",
+        "item": "tomates cherry"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva y jugo de limón"
+      }
     ],
     "steps": [
-      { "text": "Cortar la palta y los tomates cherry a la mitad." },
-      { "text": "Mezclar en un bowl con el atún, garbanzos, oliva, limón y sal." }
+      {
+        "text": "Cortar la palta y los tomates cherry a la mitad."
+      },
+      {
+        "text": "Mezclar en un bowl con el atún, garbanzos, oliva, limón y sal."
+      }
     ]
   },
   {
@@ -564,14 +1095,1040 @@
     "difficulty": "Muy fácil",
     "description": "Bocaditos dulces sin horno para tener siempre en la heladera.",
     "ingredients": [
-      { "amount": 100, "unit": "g", "item": "avena fina" },
-      { "amount": 3, "unit": "cdas", "item": "mantequilla de maní" },
-      { "amount": 2, "unit": "cdas", "item": "miel" },
-      { "amount": 1, "unit": "cda", "item": "cacao amargo" }
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "avena fina"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "mantequilla de maní"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cacao amargo"
+      }
     ],
     "steps": [
-      { "text": "Integrar todos los ingredientes en un bowl hasta formar una pasta moldeable." },
-      { "text": "Armar bolitas con las manos y llevar 15 minutos a la heladera.", "timerMinutes": 15 }
+      {
+        "text": "Integrar todos los ingredientes en un bowl hasta formar una pasta moldeable."
+      },
+      {
+        "text": "Armar bolitas con las manos y llevar 15 minutos a la heladera.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "drive-albondigas-salsa-queso",
+    "title": "Albóndigas en Salsa de Queso",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Albóndigas caseras de carne mixta cubiertas con una salsa cremosa de queso parmesano.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne picada mixta"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "panceta o beicon"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pan remojado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "orégano, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la carne picada con el pan remojado y escurrido, panceta picada, ajo, huevo, orégano, sal y pimienta."
+      },
+      {
+        "text": "Formá bolitas, pasalas por harina y doralas en sartén hasta que estén cocidas.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "En una olla derretí la manteca, sumá la crema de leche y el queso parmesano cocinando 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Incorporá las albóndigas en la salsa y cociná 5 minutos más a fuego suave.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "drive-burrito-atun-saludable",
+    "title": "Burrito de Atún Saludable",
+    "metodo": "fresco",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Wraps frescos y completos con atún al natural, palta, tomate, lechuga y choclo.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tortillas integrales o sin gluten"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún al natural escurrido"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "lechuga picada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate perita en rodajas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "palta en rodajas"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "choclo en grano"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "cebolla de verdeo picada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Entibiá ligeramente las tortillas si lo deseás."
+      },
+      {
+        "text": "Distribuí la lechuga, el tomate, el choclo, la palta, la cebolla de verdeo y el atún escurrido."
+      },
+      {
+        "text": "Enrollá firme formando los burritos y cortalos al medio para servir."
+      }
+    ]
+  },
+  {
+    "id": "drive-tacos-carne-asada",
+    "title": "Tacos de Carne Asada con Cilantro y Limón",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tiritas de carne doradas con cebolla, cilantro fresco y jugo de limón sobre tortillas de maíz.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne de res en tiras finas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla grande picada"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "cilantro fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (jugo)"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "tortillas de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salpimentá la carne en tiras y sellala a fuego fuerte con aceite de oliva durante 5 a 7 minutos.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Sumá la cebolla picada y salteá hasta que dore ligeramente.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Agregá el cilantro y jugo de limón; serví sobre tortillas de maíz tibias."
+      }
+    ]
+  },
+  {
+    "id": "drive-pan-almendras-sin-gluten",
+    "title": "Bocadillos de Pan Sin Gluten (Almendras y Lino)",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Pan casero esponjoso sin TACC elaborado con harina de almendras y lino dorado.",
+    "ingredients": [
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "harina de almendras"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "harina de lino dorado"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "levadura seca para pan"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar mascabo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá todos los ingredientes secos en un bowl."
+      },
+      {
+        "text": "Batí bien los huevos e incorporalos a los secos hasta lograr masa pareja."
+      },
+      {
+        "text": "Colocá en molde aceitado, dejá levar tapado en lugar tibio y horneá 35 a 40 minutos a 190 °C.",
+        "timerMinutes": 38
+      }
+    ]
+  },
+  {
+    "id": "drive-churros-caseros",
+    "title": "Churros Caseros Fáciles con Salsa de Cacao",
+    "metodo": "olla",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Churros tradicionales hechos en casa acompañados con sirope rápido de cacao.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 140,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "cacao amargo en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el agua con la manteca, azúcar y pizca de sal; agregá la harina de golpe y mezclá hasta formar bola."
+      },
+      {
+        "text": "Entibiá, integrá el huevo y la vainilla. Formá los churros con manga y cociná hasta dorar.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Para la salsa, herví 1 taza de agua con cacao y azúcar hasta espesar.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "drive-albondigas-rellenas-mozzarella",
+    "title": "Albóndigas Rellenas de Queso Mozzarella",
+    "metodo": "olla",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Albóndigas bajas en carbohidratos con corazón fundente de queso mozzarella y albahaca.",
+    "ingredients": [
+      {
+        "amount": 700,
+        "unit": "g",
+        "item": "carne picada magra"
+      },
+      {
+        "amount": 110,
+        "unit": "g",
+        "item": "queso mozzarella en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "albahaca seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "manteca o aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la carne con albahaca, sal, pimienta y 2 cdas de agua fría."
+      },
+      {
+        "text": "Formá 10 discos, colocá un cubo de mozzarella en el centro de cada uno y cerrá formando albóndigas."
+      },
+      {
+        "text": "Cociná en sartén a fuego medio hasta dorar parejo por todos lados.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "drive-champinones-espinaca-alcachofa",
+    "title": "Champiñones Rellenos con Espinaca y Queso",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 190,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Hongos horneados rellenos de espinaca salteada, ajo, queso crema y parmesano.",
+    "ingredients": [
+      {
+        "amount": 15,
+        "unit": "u",
+        "item": "champiñones frescos"
+      },
+      {
+        "amount": 3,
+        "unit": "tazas",
+        "item": "espinaca fresca picada"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "manteca o aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Limpiá los champiñones y separá los cabos picados. Salteá los cabos con ajo y espinaca 4 minutos.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Mezclá con el queso crema y la mitad del parmesano; rellená los champiñones."
+      },
+      {
+        "text": "Espolvoreá el resto de parmesano y horneá a 190 °C por 18 a 20 minutos.",
+        "timerMinutes": 19
+      }
+    ]
+  },
+  {
+    "id": "drive-ensalada-pollo-zapallito-pesto",
+    "title": "Ensalada de Pollo con Espaguetis de Zapallito y Pesto",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Plato fresco y liviano con pollo desmenuzado, tiritas de zapallito, tomates cherry, mozzarella y pesto.",
+    "ingredients": [
+      {
+        "amount": 160,
+        "unit": "g",
+        "item": "pechuga o muslo de pollo sin piel"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zapallitos en tiras finas"
+      },
+      {
+        "amount": 35,
+        "unit": "g",
+        "item": "tomates cherry"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso mozzarella o feta"
+      },
+      {
+        "amount": 20,
+        "unit": "ml",
+        "item": "pesto verde sin azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el pollo en agua 15 minutos hasta que esté cocido y desmenuzalo con dos tenedores.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cortá los zapallitos en tiras bien finas y mezclalos con el pesto."
+      },
+      {
+        "text": "Sumá el pollo, los cherry al medio, el queso y un hilo de aceite de oliva."
+      }
+    ]
+  },
+  {
+    "id": "drive-huevos-rellenos-pimenton",
+    "title": "Huevos Rellenos al Pimentón Ahumado",
+    "metodo": "olla",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Entrada o snack proteico, económico y clásico con yema cremosa y pimentón.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "mayonesa o yogur natural"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "vinagre blanco"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "pimentón ahumado, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví los huevos 10 minutos, enfriá, pelá y cortalos al medio a lo largo.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pisá las yemas con mayonesa, mostaza, vinagre, sal y pimienta."
+      },
+      {
+        "text": "Rellená las claras y espolvoreá con pimentón ahumado."
+      }
+    ]
+  },
+  {
+    "id": "drive-lasagna-pollo-carne",
+    "title": "Lasagna de Pollo, Carne y Mozzarella Sin Harinas",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Lasagna sin masa donde láminas finas de pollo reemplazan la pasta tradicional.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "pechuga de pollo en láminas finas"
+      },
+      {
+        "amount": 340,
+        "unit": "g",
+        "item": "salsa de tomate casera sin azúcar"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "queso mozzarella rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano, ajo en polvo y albahaca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dorá la carne picada en sartén con orégano, ajo y albahaca; sumá la salsa de tomate y cociná 5 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "En fuente de horno alterná capas de carne con salsa, láminas de pollo y queso mozzarella."
+      },
+      {
+        "text": "Terminá con mozzarella arriba y horneá a 200 °C durante 15 minutos.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "drive-mini-tacos-pollo",
+    "title": "Mini Tacos Crocantes de Queso y Pollo",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Discos de queso horneados rellenos con pollo desmenuzado, cebolla de verdeo y queso crema.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso mozzarella rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "pechugas de pollo cocidas y desmenuzadas"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "queso crema o crema agria"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebolla de verdeo picada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá 4 montoncitos de mozzarella sobre papel manteca y horneá a 180 °C hasta que derritan y doren los bordes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Dejá entibiar 1 minuto, rellená con pollo, queso crema y verdeo, y doblá en forma de taco."
+      }
+    ]
+  },
+  {
+    "id": "drive-omelette-champinones-queso",
+    "title": "Omelette con Champiñones, Cebolla y Queso",
+    "metodo": "olla",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Desayuno o cena rápida de 15 minutos con huevos, hongos frescos y queso.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "champiñones fileteados"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso rallado o en hebras"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "manteca o aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con sal y pimienta."
+      },
+      {
+        "text": "Salteá la cebolla y los champiñones en sartén con manteca hasta que estén tiernos.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Volcá los huevos, agregá el queso cuando cuaje por debajo y doblá al medio.",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "drive-ensalada-pollo-repollo",
+    "title": "Ensalada Práctica de Pollo y Repollo",
+    "metodo": "fresco",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Cena rápida sin cocción para aprovechar pollo asado o hervido con repollo crocante.",
+    "ingredients": [
+      {
+        "amount": 220,
+        "unit": "g",
+        "item": "pollo cocido (asado o hervido)"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "repollo verde en tiras finas"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "cebolla morada fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "mayonesa o yogur natural"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá el repollo en tiras bien finas y la cebolla en pluma."
+      },
+      {
+        "text": "Mezclá en un plato con el pollo desmenuzado, aceite de oliva, mayonesa o yogur, sal y pimienta."
+      }
+    ]
+  },
+  {
+    "id": "drive-rollitos-jamon-espinaca",
+    "title": "Rollitos de Jamón, Queso Crema y Espinaca",
+    "metodo": "fresco",
+    "momento": "merienda",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Rollitos frescos en menos de 10 minutos con espinaca, morrón y queso crema.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "espinaca picada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo en tiritas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untá cada feta de jamón con queso crema."
+      },
+      {
+        "text": "Agregá espinaca picada y una tira de morrón rojo; enrollá firme y serví."
+      }
+    ]
+  },
+  {
+    "id": "drive-lehmeyun-carne-casero",
+    "title": "Lehmeyun de Carne Casero al Horno",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Clásico plato armenio-uruguayo con masa casera crocante, carne picada, tomate, menta y limón.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 12,
+        "unit": "g",
+        "item": "levadura"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "tomates pelados picados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "menta fresca picada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Activá la levadura en 200 ml de agua tibia, sumá aceite y harina hasta lograr masa elástica; dejá levar 45 minutos.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Mezclá la carne cruda con cebolla, tomate, menta, jugo de limón, sal y pimienta."
+      },
+      {
+        "text": "Estirá porciones de masa, cubrí con el relleno y horneá a 200 °C unos 25 a 30 minutos.",
+        "timerMinutes": 28
+      }
+    ]
+  },
+  {
+    "id": "drive-masa-ravioles-empanadas",
+    "title": "Masa Casera Sencilla para Ravioles y Empanadas",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 25,
+    "cookMinutes": 5,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Masa básica y rendidora con solo harina, huevo, aceite y agua tibia.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina común"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Formá una corona con la harina y sal; colocá el huevo y aceite en el centro."
+      },
+      {
+        "text": "Uní de a poco con agua tibia hasta formar masa lisa; dejá descansar 15 minutos tapada.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Estirá bien fina con palo de amasar para armar ravioles o discos de empanada."
+      }
+    ]
+  },
+  {
+    "id": "drive-masa-tacos-rapiditas",
+    "title": "Masa Casera para Tacos y Wraps (15 unidades)",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "servings": 5,
+    "difficulty": "Fácil",
+    "description": "Tortillas caseras económicas y flexibles para rellenar con verduras, pollo o legumbres.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina de trigo 0000"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá harina, sal, aceite y agua en un bowl y amasá hasta que quede pareja."
+      },
+      {
+        "text": "Dividí en 15 bollitos, dejá descansar 15 minutos y estirá discos finos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cociná vuelta y vuelta en sartén bien caliente unos 40 segundos por lado."
+      }
+    ]
+  },
+  {
+    "id": "drive-omelette-jamon-queso",
+    "title": "Omelette Clásico de Jamón y Queso",
+    "metodo": "olla",
+    "momento": "desayuno",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 7,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Tortilla francesa rápida, proteica y clásica para resolver el desayuno en 10 minutos.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "queso en fetas o rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "manteca o aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con sal y pimienta."
+      },
+      {
+        "text": "Cocinalos a fuego mínimo en sartén con manteca; cuando empiece a cuajar, agregá jamón y queso.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Doblá al medio con espátula y serví enseguida."
+      }
     ]
   }
 ]
