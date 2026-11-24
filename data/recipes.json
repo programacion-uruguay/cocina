@@ -5372,5 +5372,2824 @@
         "text": "Rociá con el jugo de naranja natural y serví bien fresco."
       }
     ]
+  },
+  {
+    "id": "infusion-limon-jengibre-te-verde",
+    "title": "Agua Infusionada de Limón, Jengibre y Té Verde",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Infusión refrescante de 1 litro de agua con limón en rodajas, jengibre fresco rallado y té verde.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua fría"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "limones en rodajas"
+      },
+      {
+        "amount": 3,
+        "unit": "cm",
+        "item": "jengibre fresco pelado y rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "saquito de té verde"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá las rodajas de limón, el jengibre rallado y el saquito de té verde en una jarra de vidrio con 1 litro de agua."
+      },
+      {
+        "text": "Dejá reposar en la heladera al menos 1 hora antes de servir con hielo."
+      }
+    ]
+  },
+  {
+    "id": "infusion-naranja-curcuma-limon",
+    "title": "Agua Infusionada de Naranja, Cúrcuma y Limón",
+    "metodo": "sin_coccion",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Bebida natural antioxidante con cítricos en rodajas y cúrcuma en polvo.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "limones en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "naranja en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "cúrcuma en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá los cítricos cortados en rodajas finas y la cúrcuma en una jarra con 1 litro de agua."
+      },
+      {
+        "text": "Mezclá bien y dejá reposar al menos 1 hora en heladera antes de tomar."
+      }
+    ]
+  },
+  {
+    "id": "infusion-naranja-albahaca-romero",
+    "title": "Agua Infusionada de Naranja, Albahaca y Romero",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Infusión aromática y herbal de naranja fresca con hojas de albahaca y romero.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "naranja en rodajas"
+      },
+      {
+        "amount": 10,
+        "unit": "hojas",
+        "item": "albahaca fresca machacada"
+      },
+      {
+        "amount": 1,
+        "unit": "rama",
+        "item": "romero fresco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Machacá suavemente la albahaca para liberar su aroma y ponela en una jarra con la naranja y el romero."
+      },
+      {
+        "text": "Cubrí con 1 litro de agua y dejá reposar 1 hora en heladera."
+      }
+    ]
+  },
+  {
+    "id": "infusion-sandia-hierbabuena-limon",
+    "title": "Agua Infusionada de Sandía, Hierbabuena y Limón",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Agua saborizada de verano con sandía fresca, limón, hierbabuena y un toque de perejil.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón en rodajas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "sandía en trozos"
+      },
+      {
+        "amount": 8,
+        "unit": "hojas",
+        "item": "hierbabuena o menta fresca"
+      },
+      {
+        "amount": 1,
+        "unit": "rama",
+        "item": "perejil fresco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá la sandía troceada en el fondo de la jarra junto con el limón, la hierbabuena y el perejil."
+      },
+      {
+        "text": "Llená con 1 litro de agua y refrigerá 1 hora mínimo."
+      }
+    ]
+  },
+  {
+    "id": "infusion-pepino-limon-te-verde-menta",
+    "title": "Agua Infusionada de Pepino, Limón, Té Verde y Menta",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Bebida hidratante súper fresca con pepino en láminas, limón, menta y té verde.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pepino chico en rodajas finas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón en rodajas"
+      },
+      {
+        "amount": 5,
+        "unit": "hojas",
+        "item": "menta fresca machacada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "saquito de té verde"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disponé el pepino, el limón, la menta machacada y el té verde en una jarra con agua fría."
+      },
+      {
+        "text": "Dejá reposar al menos 1 hora antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "infusion-manzana-canela-limon",
+    "title": "Agua Infusionada de Manzana, Canela, Limón y Jengibre",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Infusión especiada con manzana en láminas, ramas de canela, limón y jengibre.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "manzana en rodajas finas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "ramas de canela"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "cm",
+        "item": "jengibre fresco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá la manzana, las ramas de canela, el limón y el jengibre en 1 litro de agua."
+      },
+      {
+        "text": "Dejá macerar en heladera al menos 1 hora."
+      }
+    ]
+  },
+  {
+    "id": "infusion-anana-menta-frutillas",
+    "title": "Agua Infusionada de Ananá, Menta y Frutillas",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Agua frutal dulce natural con ananá, frutillas laminadas y hojas de menta.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "rodaja",
+        "item": "ananá (piña) en trozos"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "frutillas en rodajas finas"
+      },
+      {
+        "amount": 10,
+        "unit": "hojas",
+        "item": "menta fresca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Poné el ananá, las frutillas y la menta en una jarra de vidrio con 1 litro de agua."
+      },
+      {
+        "text": "Dejá reposar 1 hora en heladera y serví con hielo."
+      }
+    ]
+  },
+  {
+    "id": "infusion-pomelo-pepino-anana",
+    "title": "Agua Infusionada de Pomelo, Pepino y Ananá",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Combinación cítrica y refrescante de pomelo rosado, pepino y ananá.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pomelo en rodajas finas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "pepino en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "rodaja",
+        "item": "ananá fresco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá el pomelo, el pepino y el ananá en 1 litro de agua fría y dejá reposar 1 hora en heladera."
+      }
+    ]
+  },
+  {
+    "id": "infusion-durazno-vainilla-frutillas",
+    "title": "Agua Infusionada de Durazno, Vainilla y Frutillas",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Agua saborizada suave y perfumada con durazno, frutillas machacadas y vainilla.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "durazno en rodajas"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "frutillas machacadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "esencia de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá el durazno, las frutillas machacadas y la vainilla en una jarra con 1 litro de agua; enfriá 1 hora."
+      }
+    ]
+  },
+  {
+    "id": "infusion-uvas-kiwi-frutillas-menta",
+    "title": "Agua Infusionada de Uvas, Kiwi, Frutillas y Menta",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Infusión frutal antioxidante con uvas, kiwi, frutillas y menta fresca.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "kiwi en rodajas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "frutillas en rodajas"
+      },
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "uvas cortadas al medio"
+      },
+      {
+        "amount": 5,
+        "unit": "hojas",
+        "item": "menta fresca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá todas las frutas y la menta en 1 litro de agua fría y dejá reposar 1 hora antes de beber."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-salmorejo-sin-gluten",
+    "title": "Salmorejo Cordobés Sin Gluten",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Crema fría de tomates maduros ligada con miga de pan sin gluten (o manzana), aceite de oliva, huevo duro y jamón.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "tomates muy maduros"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "diente de ajo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "miga de pan sin gluten (o manzana)"
+      },
+      {
+        "amount": 75,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo duro y 50 g de jamón crudo picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuá los tomates con el ajo y sal; agregá la miga de pan remojada y escurrida (o manzana) y el vinagre."
+      },
+      {
+        "text": "Con la licuadora en marcha, incorporá el aceite de oliva en hilo hasta emulsionar. Enfriá y serví con huevo duro y jamón picado."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-arroz-tres-delicias",
+    "title": "Arroz Tres Delicias Sin Gluten",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Arroz salteado con zanahoria, arvejas, tortilla de huevo y pechuga de pollo, naturalmente libre de gluten.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "arroz blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria en cubitos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "arvejas"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "pechuga de pollo cocida en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el arroz y aparte cociná la zanahoria en cubitos y las arvejas.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Hacé una tortilla fina con el huevo y cortala en cuadraditos."
+      },
+      {
+        "text": "Salteá todo junto en sartén con el pollo unos minutos y serví caliente."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-papas-alioli",
+    "title": "Papas al Ali-Oli Casero (Sin TACC)",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Papas hervidas en cubos cubiertas con salsa ali-oli casera de ajo y perejil.",
+    "ingredients": [
+      {
+        "amount": 7,
+        "unit": "u",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "diente de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "jugo de limón y perejil picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas con piel en agua con sal 20-25 minutos; dejá enfriar, pelá y cortá en cubos.",
+        "timerMinutes": 22
+      },
+      {
+        "text": "Prepará una mayonesa licuando huevo, sal, limón y aceite en hilo; mezclá con ajo machacado, cubrí las papas y espolvoreá perejil."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-papas-rellenas-jamon-queso",
+    "title": "Papas Rellenas al Horno con Jamón y Queso (Sin TACC)",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Papas hervidas ahuecadas, rellenas de puré con jamón, queso y perejil, gratinadas al horno.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "jamón cocido sin TACC picado"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso para gratinar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "perejil picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas enteras 20 minutos, cortales una tapa y ahuecalas con cuidado.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Pisá la pulpa con el jamón, queso rallado y perejil; rellená las papas, cubrí con feta de queso y gratiná a 200 °C 15-20 minutos.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pasta-fresca",
+    "title": "Masa de Pasta Fresca Sin Gluten",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 4,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Masa básica casera para tallarines o cintas sin gluten con harina panificable sin TACC y huevos.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "harina panificable sin TACC"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos grandes"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tamizá la harina, hacé un hueco y sumá huevos, aceite y sal; amasá hasta lograr una masa lisa y dejá reposar 20 minutos."
+      },
+      {
+        "text": "Estirá bien fino sobre papel manteca enharinado, cortá las cintas y herví 2-3 minutos en agua salada.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "celiaco-berenjenas-rellenas",
+    "title": "Berenjenas Rellenas con Bechamel Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Mitades de berenjena rellenas de carne picada y jamón, cubiertas con salsa bechamel sin gluten y queso gratinado.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "berenjenas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "jamón picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla y 1 diente de ajo"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "fécula de maíz (para la bechamel)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca y queso rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las berenjenas partidas al medio 20 minutos y ahuecalas. Salteá cebolla, ajo, carne y la pulpa picada; sumá el jamón.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Prepará una bechamel con manteca, fécula de maíz, leche y nuez moscada."
+      },
+      {
+        "text": "Rellená las berenjenas, cubrí con bechamel y queso rallado, y horneá a 180 °C 15 minutos hasta gratinar.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pastel-berenjenas",
+    "title": "Pastel de Berenjenas, Carne y Queso Sin Gluten",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pastel en capas de puré de berenjenas, carne picada, salsa de tomate y queso gratinado.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "berenjenas"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "salsa de tomate sin TACC"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso en fetas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las berenjenas peladas en cubos, salteá y procesalas. Aparte rehogá la cebolla y la carne picada."
+      },
+      {
+        "text": "Armá en fuente capas de berenjena, carne, salsa de tomate y queso; espolvoreá orégano y horneá a 180 °C 15 minutos.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-tortilla-champinones",
+    "title": "Tortilla de Champiñones y Jamón",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Tortilla rápida en sartén con champiñones salteados y jamón picado, naturalmente sin gluten.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "champiñones frescos"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "jamón sin TACC picado"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá los champiñones picados 5-8 minutos, agregando el jamón a mitad de cocción."
+      },
+      {
+        "text": "Mezclá con los huevos batidos, volcá en sartén aceitada y cuajá por ambos lados.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "celiaco-merluza-camarones",
+    "title": "Merluza con Camarones y Mejillones al Vino Blanco (Sin TACC)",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Postas de merluza en salsa verde ligada con harina de arroz, camarones y mejillones.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "postas o filetes de merluza"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "camarones pelados"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "mejillones o almejas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla chica y 1 diente de ajo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "vino blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pasá la merluza salpimentada por harina de arroz y sellala vuelta y vuelta en sartén."
+      },
+      {
+        "text": "Rehogá cebolla y ajo, agregá 1 cda de harina de arroz, vino blanco y un poco de agua o caldo; cociná 10 minutos."
+      },
+      {
+        "text": "Sumá la merluza, los mejillones, los camarones y perejil; cociná 10 minutos moviendo la cazuela.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pescado-a-la-sal",
+    "title": "Pescado Entero a la Sal al Horno",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Corvina o pescado entero horneado en costra de sal gruesa para conservar toda su jugosidad, 100% libre de gluten.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pescado entero limpio (corvina o brótola de 1 kg aprox.)"
+      },
+      {
+        "amount": 1.5,
+        "unit": "kg",
+        "item": "sal gruesa"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "agua"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cubrí el fondo de una asadera con una capa de sal gruesa, apoyá el pescado seco encima y tapalo por completo con más sal."
+      },
+      {
+        "text": "Humedecé ligeramente la sal con agua para que forme costra y horneá a 200 °C de 30 a 40 minutos.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Rompé la costra de sal, retirá la piel y serví los lomos."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-milanesas-carne-sin-tacc",
+    "title": "Milanesas de Carne Sin Gluten",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Escalopes o milanesas de carne rebozadas con harina de arroz, huevo y pan rallado sin TACC.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "milanesas de nalga o peceto"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "pan rallado sin TACC"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite para freír"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salpimentá los bifes, pasalos por harina de arroz, luego por huevo batido y finalmente por pan rallado sin TACC."
+      },
+      {
+        "text": "Freí en aceite caliente (o cociná al horno aceitadas) hasta dorar por ambos lados y escurrí en papel absorbente.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "celiaco-leche-frita",
+    "title": "Leche Frita Sin Gluten",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Postre tradicional de crema espesa de leche, canela y limón cortada en cuadrados, rebozada sin gluten y dorada.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cáscara de limón y rama de canela"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo y harina sin TACC para rebozar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disolvé la fécula de maíz en un poco de leche fría; herví el resto con limón, canela y azúcar, sumá la fécula y cociná 5-6 min hasta espesar. Agregá manteca y enfriá en fuente plana."
+      },
+      {
+        "text": "Cortá en cuadrados, pasá por harina sin TACC y huevo batido, freí hasta dorar y rebozá en azúcar con canela.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "celiaco-budin-de-pan-sin-gluten",
+    "title": "Budín de Pan Sin Gluten al Baño María",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Budín de pan casero sin TACC con miga de pan sin gluten remojada, huevos, leche y caramelo.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "miga de pan sin gluten"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "pasas de uva (opcional)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Remojá el pan sin gluten en leche tibia con azúcar; agregá los huevos batidos y pasas."
+      },
+      {
+        "text": "Volcá en budinera acaramelada y horneá a baño María a 180 °C unos 35 minutos hasta cuajar.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "celiaco-tarta-tres-chocolates",
+    "title": "Tarta Tres Chocolates Sin Gluten",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Tarta fría en tres capas (chocolate negro, con leche y blanco) sobre base de galletitas sin gluten.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "galletitas sin gluten"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "chocolate negro sin TACC"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "chocolate con leche sin TACC"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "chocolate blanco sin TACC"
+      },
+      {
+        "amount": 375,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 375,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 6,
+        "unit": "cda",
+        "item": "fécula de maíz (2 por capa) y 75 g azúcar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá las galletitas con manteca blanda y presioná en la base de un molde desmontable."
+      },
+      {
+        "text": "Cociná cada capa por separado (100 g chocolate + 125 ml crema + 125 ml leche + 2 cdas fécula + 25 g azúcar) 8 minutos hasta espesar y volcá sucesivamente dejando entibiar en heladera entre capas.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pastel-boniato-chocolate",
+    "title": "Pastel de Boniato y Chocolate Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 45,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pastel húmedo de boniato cocido en leche, huevos y manteca, cubierto con baño de chocolate sin TACC.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "boniato pelado y troceado"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "chocolate cobertura sin TACC"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el boniato en la leche hasta que esté bien blando; dejá enfriar y procesalo con los huevos, manteca y azúcar."
+      },
+      {
+        "text": "Volcá en molde acaramelado y horneá a 180 °C unos 45 minutos. Desmoldá frío y cubrí con chocolate fundido.",
+        "timerMinutes": 45
+      }
+    ]
+  },
+  {
+    "id": "celiaco-peras-vino-tinto",
+    "title": "Peras al Vino Tinto y Canela",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Peras cocidas en vino tinto con cáscara de limón, canela y clavo de olor, naturalmente sin gluten.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "peras firmes peladas"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "vino tinto"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "rama de canela, cáscara de limón y 1 clavo de olor"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná las peras en olla con el vino, azúcar, cáscara de limón, canela y clavo a fuego medio 20 minutos hasta que estén tiernas.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Retirá las peras, reducí el vino unos minutos y servilas con su salsa."
+      }
+    ]
+  },
+  {
+    "id": "vegano-bizcocho-marmol",
+    "title": "Bizcochuelo Mármol Vegano",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Bizcochuelo marmolado 100% vegetal de vainilla y cacao hecho con yogur vegetal y leche de soja.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "cacao en polvo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "yogures vegetales (vainilla y chocolate)"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche de soja"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Prepará dos mezclas por separado (una con cacao y otra con esencia de vainilla) integrando harina, polvo de hornear, azúcar, yogur, leche vegetal y aceite."
+      },
+      {
+        "text": "Alterná cucharadas de ambas masas en budinera aceitada y horneá a 200 °C unos 30 minutos.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "vegano-brownie-nueces",
+    "title": "Brownie Vegano de Cacao y Nueces",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "temperatureC": 175,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Brownie húmedo sin huevo ni lácteos con harina integral, cacao amargo, nueces y chips de chocolate.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina (mitad integral, mitad común)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar rubio"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "cacao puro en polvo"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceite de oliva suave o girasol"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche vegetal o agua"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "nueces picadas y chips de chocolate"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los líquidos (leche vegetal, aceite) con el azúcar y el cacao; incorporá la harina con polvo de hornear, pizca de bicarbonato, nueces y chips."
+      },
+      {
+        "text": "Volcá en molde cuadrado con papel manteca y horneá a 175 °C de 45 a 55 minutos hasta que al pinchar salga limpio.",
+        "timerMinutes": 50
+      }
+    ]
+  },
+  {
+    "id": "vegano-tarta-manzana-coca",
+    "title": "Tarta Vegana de Manzana (Coca de Poma)",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Fácil",
+    "description": "Masa fina crocante con aceite y cerveza cubierta de láminas de manzana, pasas y nueces.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "cerveza"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "manzanas en láminas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "nueces y azúcar integral"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Formá una masa elástica mezclando harina, polvo de hornear, aceite y cerveza; estirá en placa aceitada."
+      },
+      {
+        "text": "Cubrí con las manzanas laminadas, espolvoreá azúcar integral y horneá a 180 °C unos 30 minutos. Decorá con nueces.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "vegano-flan-chocolate-agar",
+    "title": "Flan Vegano de Chocolate y Almendra",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Flan vegetal firme gelificado con agar-agar, leche vegetal, cacao puro y almendras molidas.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "leche vegetal (soja o almendras)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "agar-agar en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "almendras molidas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cacao puro en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "azúcar integral"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Calentá a fuego bajo la leche vegetal con agar-agar y azúcar; agregá el cacao y almendras molidas sin dejar de revolver hasta espesar.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Licuá si es necesario, volcá en flaneras húmedas y llevá a la heladera hasta cuajar."
+      }
+    ]
+  },
+  {
+    "id": "vegano-galletas-soja-naranja",
+    "title": "Galletitas Veganas de Soja y Naranja",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 170,
+    "servings": 16,
+    "difficulty": "Fácil",
+    "description": "Galletitas tiernas sin huevo ni lácteos con harina de soja, ralladura y jugo de naranja y nueces.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de soja"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "margarina vegetal"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "naranja (jugo y ralladura)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "nueces o almendras picadas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdita",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí margarina y azúcar; agregá ralladura, jugo de media naranja y nueces. Sumá las harinas con polvo de hornear."
+      },
+      {
+        "text": "Estirá de 5 mm, cortá círculos y horneá a 170 °C unos 15 minutos sin dejar endurecer.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "vegano-muffins-quinoa-naranja",
+    "title": "Muffins Veganos de Quinoa, Polenta y Naranja",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 28,
+    "temperatureC": 200,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Magdalenas nutritivas sin huevo ni lácteos hechas con quinoa cocida, polenta, avena y naranja fresca.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "quinoa cocida"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "polenta"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "avena arrollada o harina de arroz"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "naranjas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "banana madura"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "miel de caña o azúcar mascabo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la quinoa cocida, polenta, avena, polvo de hornear, canela y sal."
+      },
+      {
+        "text": "Procesá las naranjas peladas con la banana, aceite, endulzante y leche vegetal; integrá con los secos sin batir de más."
+      },
+      {
+        "text": "Horneá en moldes para muffins a 200 °C de 25 a 30 minutos.",
+        "timerMinutes": 28
+      }
+    ]
+  },
+  {
+    "id": "vegano-marquesa-chocolate",
+    "title": "Torta Helada Marquesa de Chocolate Vegana",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Postre frío en capas de pan integral embebido en leche vegetal y crema batida de chocolate amargo.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "fetas",
+        "item": "pan integral de molde sin bordes"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche vegetal de avena o soja"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "chocolate negro para fundir"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "crema vegetal para montar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fundí el chocolate a baño María, dejá entibiar y mezclalo batiendo con la crema vegetal fría."
+      },
+      {
+        "text": "Forrá una budinera con film, alterná capas de pan humedecido en leche vegetal y crema de chocolate."
+      },
+      {
+        "text": "Llevá a la heladera al menos 2 horas, desmoldá y espolvoreá con canela."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tarta-cruda-zanahoria",
+    "title": "Tarta Cruda (Raw) de Zanahoria y Nueces",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Tarta crudivegana sin horno de base de nueces, dátiles y zanahoria con cobertura especiada a la naranja.",
+    "ingredients": [
+      {
+        "amount": 15,
+        "unit": "u",
+        "item": "nueces peladas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zanahorias medianas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "dátiles sin carozo"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "naranja (su jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "cacao o algarroba en polvo y canela"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá las nueces, 1 zanahoria, los dátiles y medio jugo de naranja hasta lograr una pasta firme; presioná en un aro sobre un plato."
+      },
+      {
+        "text": "Macerá la otra zanahoria rallada con el resto del jugo, limón, canela y cacao; escurrí y cubrí la base tras 2 horas de heladera."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tarta-fria-yogur",
+    "title": "Tarta Fría Vegana de Yogur y Frutos Rojos",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 3,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Cheesecake vegano sin horno sobre base de galletitas, crema de yogur vegetal ligada con agar-agar y mermelada.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "galletitas veganas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "margarina vegetal"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "yogures vegetales"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche vegetal"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "agar-agar en polvo"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "jugo de limón y mermelada de frutos rojos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Triturá las galletitas con margarina derretida y formá la base en un molde."
+      },
+      {
+        "text": "Disolvé el agar-agar en leche vegetal fría, herví 1 minuto, mezclá con los yogures y limón, volcá sobre la base y enfriá 30 min."
+      },
+      {
+        "text": "Cubrí con mermelada de frutos rojos y serví bien fría."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tartaletas-durazno",
+    "title": "Tartaletas Veganas de Durazno y Almendras",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Tartaletas sin cocción con base de almendras, dátiles y cacao, rellenas de crema de durazno fresco.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "almendras hidratadas"
+      },
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "dátiles sin carozo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "cacao puro y 1 cda miel de caña"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "duraznos frescos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "nueces o castañas de cajú hidratadas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá almendras, dátiles, cacao, canela y vainilla; forrá moldes de tartaletas y llevá a heladera."
+      },
+      {
+        "text": "Licuá 1 durazno con las nueces hidratadas, limón y canela; mezclá con los otros 2 duraznos picados, rellená y enfriá 2 horas."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tomates-rellenos-tofu",
+    "title": "Tomates Rellenos con Tofu y Ciboulette",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Tomates ahuecados rellenos de tofu, crema vegetal y su propia pulpa, horneados brevemente sobre galleta integral.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "tomates firmes"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "tofu en cubitos"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "crema vegetal (o queso crema vegano)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "ciboulette picado"
+      },
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "galletitas integrales"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Ahuecá los tomates reservando la pulpa; mezclá el tofu en cubitos con la crema vegetal y la pulpa."
+      },
+      {
+        "text": "Rellená los tomates, espolvoreá ciboulette, apoyá cada uno sobre una galleta integral y horneá 10 minutos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "vegano-zapallitos-rellenos-porotos",
+    "title": "Zapallitos Rellenos con Porotos y Salsa de Albahaca",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Zucchinis o zapallitos rellenos de porotos cocidos y cebolla con salsa casera de tomate y albahaca.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "zapallitos o zucchinis al medio"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "porotos cocidos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla en pluma"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates machacados"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "albahaca fresca picada"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de sésamo y salsa de soja"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná los tomates con salsa de soja 15 min; retirá y agregá albahaca. Ahuecá los zapallitos y mezclá la pulpa con porotos y cebolla.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Rellená los zapallitos, cubrí con salsa, horneá 20 minutos y serví con semillas de sésamo.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "vegano-morrones-rellenos-berenjena",
+    "title": "Morrones Rojos Asados Rellenos con Berenjena",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Mitades de morrón rojo asado rellenas de berenjena, cebolla, tomate y albahaca al aceto balsámico.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "morrones rojos al medio"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "berenjenas en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla en pluma"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates en cubos"
+      },
+      {
+        "amount": 8,
+        "unit": "hojas",
+        "item": "albahaca fresca y 1 cdita aceto balsámico"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Asá los morrones boca abajo 10 min; aparte asá las berenjenas y cebolla pinceladas con aceite, sumando el tomate al final.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Mezclá las verduras asadas con aceto y albahaca, rellená los morrones y serví tibios."
+      }
+    ]
+  },
+  {
+    "id": "vegano-ensalada-lentejas",
+    "title": "Ensalada de Lentejas, Aceitunas y Limón",
+    "metodo": "fresco",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada proteica vegana de lentejas frías con cebolla, ajo, aceitunas negras, salsa de soja y limón.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "lentejas secas (remojadas)"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas picadas finas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "diente de ajo"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "aceitunas negras"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "salsa de soja, aceite y gotas de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las lentejas remojadas hasta que estén tiernas, escurrí y dejá enfriar.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Mezclá con cebolla, ajo, aceitunas, aceite, salsa de soja y limón."
+      }
+    ]
+  },
+  {
+    "id": "vegano-ensalada-pomelo-palta",
+    "title": "Ensalada Fresca de Pomelo, Palta y Kiwi",
+    "metodo": "fresco",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada agridulce y crujiente con lechuga, apio, pomelo, palta, kiwi, champiñones y rabanitos.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pomelo grande a vivo"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "paltas en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "kiwi en trozos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "champiñones fileteados"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "rabanitos y hojas de lechuga"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá y cortá la lechuga, apio, champiñones y rabanitos; sumá el pomelo sin piel blanca, la palta y el kiwi. Rociá con vinagreta."
+      }
+    ]
+  },
+  {
+    "id": "vegano-ensalada-quinoa-verduras",
+    "title": "Ensalada Tibia de Quinoa y Verduras Salteadas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Quinoa bien lavada y cocida mezclada con zanahoria, morrón, apio, choclo, palta y aderezo de mostaza.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "quinoa lavada"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zanahorias en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo y 2 tallos de apio"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "granos de choclo"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "paltas en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "vinagre de manzana, cilantro y verdeo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cocé la quinoa en agua hirviendo a fuego bajo 15 minutos hasta que absorba.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Salteá las verduras 8 minutos al dente, mezclá con la quinoa fría, cilantro, verdeo y palta."
+      }
+    ]
+  },
+  {
+    "id": "vegano-sopa-crema-cebollas",
+    "title": "Sopa Crema de Cebollas Vegana",
+    "metodo": "olla",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Sopa cremosa reconfortante de cebollas cocidas lentamente con harina integral y salsa de soja.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "cebollas cortadas finas"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "harina integral"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "aceite"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "salsa de soja"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá las cebollas en aceite hasta ablandar; sumá la harina integral, revolvé y cubrí con agua caliente."
+      },
+      {
+        "text": "Cociná 30 minutos hasta lograr textura cremosa y condimentá con salsa de soja.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "vegano-sopa-fria-tomate-choclo",
+    "title": "Sopa Fría de Tomates y Choclos Asados",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sopa fría de verano licuada con tomates, choclos, cebolla y ajos asados al horno con albahaca.",
+    "ingredients": [
+      {
+        "amount": 1500,
+        "unit": "g",
+        "item": "tomates en cubos"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "choclos en trozos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla y 3 dientes de ajo"
+      },
+      {
+        "amount": 2,
+        "unit": "taza",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 5,
+        "unit": "hojas",
+        "item": "albahaca fresca y 3 cdas aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Horneá tomates, choclos, cebolla y ajos con aceite de oliva 35 minutos.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Desgraná los choclos, licuá todo con el caldo y albahaca, colá y serví bien frío."
+      }
+    ]
+  },
+  {
+    "id": "vegano-crema-zapallo",
+    "title": "Crema de Zapallo con Pan Tostado",
+    "metodo": "olla",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Sopa crema aterciopelada de zapallo con un toque de pasta de sésamo (tahini) y croutones integrales.",
+    "ingredients": [
+      {
+        "amount": 1500,
+        "unit": "g",
+        "item": "zapallo pelado en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "pasta de sésamo (tahini, opcional)"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pan integral tostado en cubos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá el zapallo en aceite, cubrí con agua y herví 30 minutos hasta que esté bien blando.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Procesá hasta lograr crema, condimentá con sal y tahini, y serví con pan integral tostado."
+      }
+    ]
+  },
+  {
+    "id": "vegano-gazpacho-andaluz",
+    "title": "Gazpacho Andaluz Vegano",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Sopa fría clásica de tomate, morrón rojo, pepino, ajo, vinagre y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates maduros pelados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pepino pelado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "diente de ajo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "vinagre y 4 cdas aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá tomates, morrón, pepino, ajo y vinagre; colá, agregá aceite de oliva, sal y agua fría."
+      },
+      {
+        "text": "Refrigerá y serví bien frío con cubitos de verdura por encima."
+      }
+    ]
+  },
+  {
+    "id": "vegano-noquis-espinaca-tofu",
+    "title": "Ñoquis Veganos de Espinaca y Tofu",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Ñoquis verdes sin papa ni huevo elaborados con espinaca cocida, tofu triturado, harina y nuez moscada.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "espinacas cocidas y bien escurridas"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "tofu triturado"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "nuez moscada y 1 hoja de laurel"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Picá bien la espinaca y mezclá con el tofu, harina, sal, pimienta y nuez moscada hasta formar masa suave."
+      },
+      {
+        "text": "Formá los ñoquis con manos enharinadas y herví en agua con laurel hasta que suban a la superficie.",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "vegano-guiso-soja-porotos-negros",
+    "title": "Guiso Vegano de Soja Texturizada y Porotos Negros",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Guiso sustancioso 100% vegetal de carne de soja hidratada con porotos negros, morrones y salsa de tomate.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "soja texturizada (carne de soja)"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "porotos negros cocidos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "morrones rojos y 1 cebolla"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "salsa de tomate y 1 taza caldo de verduras"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "orégano, laurel y pimentón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá cebolla, ajo y morrones; sumá la soja hidratada y cociná 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Agregá caldo, salsa de tomate, porotos negros, laurel y orégano; cociná 10 minutos más.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "vegano-croquetas-garbanzos",
+    "title": "Croquetas Veganas de Garbanzos y Zanahoria",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Croquetas doradas a base de puré de garbanzos cocidos, zanahoria, cebolla, comino y perejil.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "garbanzos cocidos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria cocida picada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla y 2 dientes de ajo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "perejil picado y comino"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Sofríe cebolla y ajo; pisá los garbanzos y mezclá con la zanahoria, perejil, comino y harina hasta lograr masa compacta."
+      },
+      {
+        "text": "Formá las croquetas y dorá en sartén con poco aceite por ambos lados.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "vegano-hamburguesas-polenta-tofu",
+    "title": "Hamburguesas de Polenta Rellenas de Tofu",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Medallones crocantes de polenta cocida en leche vegetal rellenos con un corazón de tofu.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "polenta (harina de maíz)"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche de soja"
+      },
+      {
+        "amount": 750,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "tofu en cubos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná la polenta en agua y leche vegetal hirviendo con sal hasta espesar y dejá enfriar.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Formá medallones colocando un trozo de tofu en el centro y dorá a la plancha por ambos lados.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "vegano-hamburguesas-porotos",
+    "title": "Hamburguesas de Porotos y Zanahoria",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Hamburguesas caseras vegetales de puré de porotos con zanahoria, papa rallada, salsa de soja y ketchup.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "porotos cocidos hechos puré"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zanahorias ralladas y 1 papa rallada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla grande picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "salsa de tomate, ketchup y salsa de soja"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina para ligar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá la cebolla, sumá zanahoria, papa y puré de porotos; cociná 10 minutos y condimentá.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Agregá harina hasta dar consistencia, armá las hamburguesas, enfriá en freezer y dorá por ambos lados."
+      }
+    ]
+  },
+  {
+    "id": "vegano-hummus-garbanzos",
+    "title": "Hummus Clásico (Paté de Garbanzos)",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Crema untable árabe de garbanzos cocidos, ajo, limón, aceite de oliva y pasta de sésamo opcional.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "garbanzos cocidos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "dientes de ajo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "tahini (pasta de sésamo, opcional)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá los garbanzos con el ajo, jugo de limón, aceite, tahini y un chorrito de agua hasta obtener una pasta cremosa."
+      }
+    ]
+  },
+  {
+    "id": "vegano-pate-berenjenas",
+    "title": "Paté de Berenjenas Asadas",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Untable vegano de berenjenas asadas procesadas con tomate, verdeo, ajo y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "berenjenas medianas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate maduro sin semillas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas de verdeo y 1 diente de ajo"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "aceite de oliva y perejil"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Asá las berenjenas enteras envueltas en papel aluminio hasta que estén tiernas.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Pelalas y procesá la pulpa con tomate, verdeo, ajo, aceite, sal y pimienta. Serví frío con perejil."
+      }
+    ]
+  },
+  {
+    "id": "vegano-mayonesa-zanahoria",
+    "title": "Mayonesa Vegana de Zanahoria y Limón",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Aderezo cremoso sin huevo a base de zanahorias hervidas, jugo de limón, ajo y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "zanahorias cocidas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "dientes de ajo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuá las zanahorias hervidas con el jugo de limón, ajo, aceite de oliva, sal y agua de cocción de a poco hasta lograr textura de mayonesa."
+      }
+    ]
+  },
+  {
+    "id": "vegano-budin-zapallo-nueces",
+    "title": "Budín Vegano de Zapallo, Pasas y Nueces",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Fácil",
+    "description": "Queque húmedo sin huevo ni lácteos preparado con puré de zapallo, ralladura de limón, pasas y nueces.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite"
+      },
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "puré de zapallo cocido"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "pasas y nueces picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "ralladura de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá harina, azúcar, polvo de hornear y ralladura de limón; agregá aceite, agua tibia y el puré de zapallo."
+      },
+      {
+        "text": "Sumá las pasas y nueces, volcá en molde aceitado y horneá a 180 °C unos 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "vegano-galletas-ciruela-avena",
+    "title": "Galletas Veganas de Ciruela y Avena",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 18,
+    "difficulty": "Fácil",
+    "description": "Galletas integrales sin huevo con avena arrollada, ciruelas cortadas, vainilla y semillas de sésamo.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "ciruelas frescas o desecadas cortadas"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "harina integral"
+      },
+      {
+        "amount": 175,
+        "unit": "g",
+        "item": "avena"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "polvo de hornear y 1 cdita bicarbonato"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los ingredientes secos; agregá aceite, ciruelas, vainilla y 1/3 taza de agua hasta formar una masa blanda."
+      },
+      {
+        "text": "Estirá de 1 cm, cortá círculos, espolvoreá sésamo y horneá a 180 °C unos 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
   }
 ]
