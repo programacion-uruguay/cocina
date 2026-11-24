@@ -20311,5 +20311,6232 @@
         "timerMinutes": 15
       }
     ]
+  },
+  {
+    "id": "light-almuerzo-1-trucha-papas-ensalada",
+    "title": "Almuerzo Light: Trucha con Papas y Ensalada Variada",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Menú individual de 409 kcal: trucha hervida con puerro, papas y manteca al limón, acompañada de ensalada fresca con vinagreta de mostaza.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "trucha fresca"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "papas chicas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "puerro"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "lechuga"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pepino"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "rabanitos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "hierbas aromáticas frescas picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelá y lavá las papas. Poné a hervir agua con un chorrito de vinagre y sal, agregá las papas y el puerro cortado en trozos medianos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sumá la trucha lavada a la olla y dejá cocinar todo a fuego suave durante unos 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Mientras se cocina la trucha, lavá la lechuga, el pepino y los rabanitos. Cortá el pepino y los rabanitos en rodajas finas.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Prepará una vinagreta mezclando el aceite, 1 cucharada de vinagre, la mostaza, 1 cucharada de agua, la cebolla picada fina, las hierbas, sal y pimienta."
+      },
+      {
+        "text": "Serví la trucha con las papas rociadas con la manteca derretida y el jugo de limón, y acompañá con la ensalada aliñada."
+      }
+    ]
+  },
+  {
+    "id": "light-almuerzo-2-albondigas-champinones",
+    "title": "Almuerzo Light: Albóndigas de Carne y Champiñones a las Hierbas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Menú individual de 393 kcal: albóndigas magras de carne picada con queso fresco descremado y guarnición de champiñones salteados con zanahoria.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "carne picada magra"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso fresco descremado"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "mostaza"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "champiñones"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zanahorias"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "tomillo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "cilantro molido"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "orégano o mejorana"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelá las zanahorias y la cebolla y cortalas en rodajas bien finas. Salteá la cebolla en una sartén con 1/2 cucharadita de aceite hasta que empiece a dorarse."
+      },
+      {
+        "text": "Agregá las zanahorias y 1 cucharada de agua, tapá y cociná unos 15 minutos a fuego suave.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Sumá los champiñones limpios cortados en mitades o cuartos, el tomillo, el perejil y el cilantro. Cociná a fuego lento hasta que estén tiernos.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Mientras tanto, mezclá la carne picada con el queso desmenuzado, la mostaza, tomillo, orégano, sal y pimienta. Formá albóndigas chicas."
+      },
+      {
+        "text": "Dorá las albóndigas en una sartén con 1 cucharada de aceite caliente, escurrilas sobre papel absorbente y servilas junto a los champiñones.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "light-almuerzo-3-pescado-salsa-ensalada-morrones",
+    "title": "Almuerzo Light: Filetes de Pescado Gratinados y Ensalada de Morrones",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Menú individual de 334 kcal: filetes de salmón o merluza en salsa de tomate gratinados al horno con ensalada fresca de morrón y aderezo de yogur.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "filete de salmón o merluza"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "tomates medianos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "vinagre"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "queso rallado light"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "pimentón"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón rojo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "lechuga"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "yogur natural descremado"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pepinillos en vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "hierbas aromáticas picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentá el horno a 200 °C. Cortá el pescado en 3 trozos, salalos y rocialos con 1 cucharada de jugo de limón."
+      },
+      {
+        "text": "En una sartén con un hilo de aceite, poné 2 tomates en cubitos, media cebolla picada, el vinagre y una pizca de canela opcional. Llevá a hervor."
+      },
+      {
+        "text": "Agregá el pescado con cuidado y cociná a fuego lento 10 minutos, dándolo vuelta una vez. Pasá el pescado a una fuente apta para horno.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Disolvé la harina en un chorrito de agua, sumala a la salsa de la sartén y cociná hasta que espese. Cubrí el pescado con la salsa, pimentón y queso rallado y horneá 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Armá la ensalada con el morrón sin semillas, el tomate restante en rodajas, la cebolla restante, pepinillos y lechuga en tiras. Mezclá el yogur con 1 cucharada de limón, gotas de vinagre, hierbas, sal y pimienta y aliñá."
+      }
+    ]
+  },
+  {
+    "id": "light-almuerzo-4-lentejas-manzanas-gratinadas",
+    "title": "Almuerzo Light: Lentejas con Verduras y Manzanas Gratinadas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 220,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Menú vegetariano individual de 392 kcal: guisado suave de lentejas con verduras y sofrito de ajo y pimentón, más manzanas gratinadas con pasas.",
+    "ingredients": [
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "lentejas secas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria chica"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate chico"
+      },
+      {
+        "amount": 1,
+        "unit": "tallo",
+        "item": "apio"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla chica"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "pimentón dulce"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "comino y orégano"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "manzana grande"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "pasas de uva"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá y remojá las lentejas previamente (7 a 11 horas) o usá lentejas de cocción rápida. Poné las lentejas en una olla con agua fría, tomate pelado y picado, cebolla, zanahoria en cubitos, apio y sal.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Cuando estén casi tiernas, dorá el ajo fileteado en una sartén chica con el aceite de oliva. Retirá del fuego un instante, agregá el pimentón y volcá el sofrito en la olla."
+      },
+      {
+        "text": "Condimentá las lentejas con comino y orégano y cociná unos minutos más hasta que queden a punto.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Para el postre, remojá las pasas en agua tibia y precalentá el horno a 220 °C. Pelá la manzana, cortala en gajos finos y acomodala en una fuente chica."
+      },
+      {
+        "text": "Distribuí por encima la manteca en trocitos, las pasas escurridas, el pan rallado y el azúcar. Gratiná hasta dorar y serví tibio.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "light-almuerzo-5-merluza-salsa-frutas-miel",
+    "title": "Almuerzo Light: Merluza en Salsa con Papa y Frutas con Miel",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Menú individual de 445 kcal: merluza hervida con verduras y salsa de huevo picado, más ensalada fresca de frutas con limón, miel y sésamo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "papa mediana"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "merluza en posta o filete"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo duro chico"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "anchoas en aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "leche descremada"
+      },
+      {
+        "amount": 0.25,
+        "unit": "u",
+        "item": "cebolla chica"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "zanahoria chica"
+      },
+      {
+        "amount": 0.5,
+        "unit": "diente",
+        "item": "ajo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vino blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "hoja",
+        "item": "laurel"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "frutillas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "kiwi"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "manzana chica"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "durazno chico"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "semillas de sésamo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelá la papa, cortala en rodajas y hervila en agua con sal hasta que esté tierna.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "En otra olla colocá la zanahoria, el ajo, la cebolla, el laurel y la merluza. Cubrí con agua, salá y cociná 15 minutos desde que rompe el hervor.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Picá fino el huevo duro y pisalo en un bol con las anchoas picadas, perejil, leche descremada, vino blanco, sal y pimienta hasta armar la salsa."
+      },
+      {
+        "text": "Serví las rodajas de papa escurridas con la merluza y verduras encima y cubrí con la salsa de huevo."
+      },
+      {
+        "text": "Para el postre, cortá las frutillas, kiwi, manzana y durazno en cubos. Mezclá el jugo de limón con la miel, bañá las frutas y espolvoreá con sésamo."
+      }
+    ]
+  },
+  {
+    "id": "light-almuerzo-6-salmon-verduras-ensalada-esparragos",
+    "title": "Almuerzo Light: Salmón con Verduras y Ensalada de Huevo y Espárragos",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Menú individual de 442 kcal: dados de salmón salteados con verduras en juliana y ensalada de espárragos marinados al limón con huevo duro.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "salmón fresco"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria chica"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "zapallito o zucchini"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "berenjena chica"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "puerro"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "espárragos blancos frescos o en conserva"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo duro"
+      },
+      {
+        "amount": 4,
+        "unit": "hojas",
+        "item": "lechuga"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "crema de leche light batida"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "azúcar, sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Si usás espárragos frescos, hervilos 12-15 minutos en agua con sal, 1 cucharada de vinagre y una pizca de azúcar. Escurrí y marinalos 30 minutos en jugo de limón, 1/2 cucharada de aceite, sal y pimienta.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cortá el salmón en cubos, salpimentá y saltealo en una sartén con un poco de aceite hasta dorar por fuera. Retirá a un plato.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Cortá la zanahoria, zapallito, berenjena y puerro en juliana y saltealos en la misma sartén con apenas aceite y sal hasta que estén tiernos.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Reincorporá el salmón a las verduras, mezclá suavemente y serví enseguida."
+      },
+      {
+        "text": "Armá la ensalada sobre lechuga troceada con los espárragos marinados, su marinada, la crema batida light y el huevo duro en rodajas."
+      }
+    ]
+  },
+  {
+    "id": "light-cena-1-tortilla-hongos-ensalada-anana",
+    "title": "Cena Light: Tortilla de Champiñones y Ensalada de Ananá",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Cena vegetariana individual de 280 kcal: tortilla individual de champiñones o gírgolas al ajo y nuez moscada, con ensalada fresca de ananá y rabanitos.",
+    "ingredients": [
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "champiñones o gírgolas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo grande"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "nuez moscada"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "ananá fresco pelado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate chico"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "rabanitos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "ciboulette picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre de vino blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "ají molido, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Limpiá los hongos y saltealos en una sartén chica con la manteca durante 3 minutos, agregando el ajo picado fino al final.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Batí el huevo con el perejil, la nuez moscada, sal y pimienta. Volcá sobre los hongos y cuajá la tortilla dándola vuelta con un plato.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Para la ensalada, cortá el ananá en dados, el tomate en rodajas y los rabanitos en láminas finas."
+      },
+      {
+        "text": "Aliñá con aceite, vinagre, una pizca de ají molido, sal y pimienta, y espolvoreá con ciboulette antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "light-cena-2-berenjena-horno-ensalada-repollo-manzana",
+    "title": "Cena Light: Berenjena al Horno y Ensalada de Repollo y Manzana",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 190,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Cena vegetariana individual de 272 kcal: berenjena asada con pimentón y oliva acompañada de ensalada cremosa de repollo, manzana y yogur.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "berenjena grande"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "pimentón dulce"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "repollo blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "manzana chica"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria chica"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "yogur natural descremado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "nueces peladas"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "pasas de uva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá la berenjena al medio a lo largo, salá la pulpa y dejala boca abajo 15 minutos en un escurridor para que suelte el amargor.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Precalentá el horno a 190 °C. Hacé cortes en diagonal en la pulpa sin perforar la piel, rociá con aceite, pimentón y sal, y horneá 20-25 minutos (o 6 minutos en microondas tapada).",
+        "timerMinutes": 22
+      },
+      {
+        "text": "Mientras tanto, cortá el repollo en tiras finas y la zanahoria y cebolla en juliana. Pelá la manzana, cortala en cubos y rociala con el jugo de limón."
+      },
+      {
+        "text": "Mezclá los vegetales con las nueces picadas y las pasas. Batí el yogur con sal y pimienta, aliñá la ensalada y serví junto a la berenjena."
+      }
+    ]
+  },
+  {
+    "id": "light-cena-3-brochetas-verduras-ensalada-pollo-esparragos",
+    "title": "Cena Light: Brochetas de Verduras y Ensalada de Pollo y Espárragos",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Cena individual de 266 kcal: brochetas gratinadas de zapallito, morrón y champiñones junto a ensalada tibia de pollo y espárragos.",
+    "ingredients": [
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "zapallito o zucchini"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón rojo chico"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "champiñones chicos"
+      },
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "tomates cherry"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "pechuga de pollo cocida o a la plancha"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "espárragos verdes"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "lechuga"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "ciboulette picado"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo chico"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "hierbas aromáticas"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentá el horno a 180 °C. Cortá el morrón en cuadrados y el zapallito en cubos. Salteá ambos junto a los champiñones y 2 cherrys en 1 cucharada de aceite por 4-5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Pasá los vegetales a una fuente y gratiná 8 minutos en el horno. Luego armá 2 brochetas y rocialas con hierbas aromáticas y un hilo de aceite.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Limpiá los espárragos quitando la base dura y saltealos en una sartén con unas gotas de aceite y el ajo picado fino.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Armá la ensalada con la lechuga en tiras, el pollo cortado, los espárragos salteados y los 4 tomates cherry al medio. Aliñá con aceite, vinagre, sal y ciboulette."
+      }
+    ]
+  },
+  {
+    "id": "light-cena-4-pure-tomate-coliflor-ajada",
+    "title": "Cena Light: Puré de Tomate y Zanahoria con Coliflor a la Ajada",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Cena vegetariana individual de 324 kcal: crema suave de tomate y zanahoria acompañada de coliflor y papa hervidas con ajada clásica al pimentón.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria grande"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "tomate maduro"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla chica"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "papa mediana"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "coliflor en ramilletes"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "pimentón dulce"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá la cebolla y 1 diente de ajo picado en 1.5 cucharadas de aceite. Sumá la zanahoria picada, 1/2 cucharadita de pimentón, sal y pimienta."
+      },
+      {
+        "text": "Agregá el tomate pelado y picado, remové 2 minutos, sumá 1 vaso de agua y herví 7-10 minutos. Procesá hasta lograr un puré liso y decorá con perejil.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Mientras tanto, herví la papa pelada en rodajas y los ramilletes de coliflor en agua con sal hasta que estén tiernos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "En una sartén chica calentá el resto del aceite, dorá el otro ajo picado, apagá el fuego y mezclá enseguida con el resto del pimentón."
+      },
+      {
+        "text": "Escurrí la papa y la coliflor, rocialas con la ajada y un chorrito de vinagre de manzana, y serví junto al puré."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-arroz-andaluza",
+    "title": "Ensalada de Arroz a la Andaluza",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fresca y colorida de arroz blanco frío con tomate, morrón, repollo, chauchas, pepino y aceitunas negras.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "arroz blanco cocido frío"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates en trozos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla picada fina"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón rojo o verde en trozos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "repollo picado"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "chauchas cocidas"
+      },
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "aceitunas negras"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pepino en trozos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo machacado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá el arroz cocido frío en una ensaladera junto con el tomate, la cebolla, el morrón, el repollo, las chauchas, el pepino y las aceitunas."
+      },
+      {
+        "text": "Prepará un aderezo mezclando el aceite de oliva, el vinagre, el ajo machacado y la sal."
+      },
+      {
+        "text": "Verté el aderezo sobre la ensalada, mezclá bien y espolvoreá con pimienta y perejil."
+      }
+    ]
+  },
+  {
+    "id": "fit250-arroz-frio-ensalada-arvejas",
+    "title": "Arroz Frío en Ensalada con Arvejas y Chauchas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 5,
+    "difficulty": "Fácil",
+    "description": "Ensalada clásica liviana de arroz largo fino con chauchas, arvejas, huevo duro y tomate en cubitos.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "arroz blanco largo fino"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "chauchas"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "arvejas peladas"
+      },
+      {
+        "amount": 4,
+        "unit": "hojas",
+        "item": "lechuga"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado fino"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví por separado el arroz en agua con sal (20 minutos), las chauchas troceadas (15 minutos) y las arvejas (15-20 minutos). Enfriá y escurrí bien.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Mezclá el arroz con las chauchas, las arvejas, 2 huevos duros picados y el tomate en cubitos dentro de un molde y desmoldá en una fuente."
+      },
+      {
+        "text": "Decorá alrededor con la lechuga en juliana y el tercer huevo duro picado por encima. Rociá con la vinagreta de aceite, vinagre, sal y perejil."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-arroz-mediterraneo",
+    "title": "Ensalada de Arroz Integral Tipo Mediterráneo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Arroz integral tibio o frío combinado con zapallitos salteados a la albahaca, espinaca fresca, brotes de alfalfa y aceitunas.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "arroz integral cocido"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "zapallitos o zucchinis en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "albahaca seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano seco"
+      },
+      {
+        "amount": 4,
+        "unit": "tazas",
+        "item": "lechuga variada"
+      },
+      {
+        "amount": 2,
+        "unit": "tazas",
+        "item": "espinaca fresca picada"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "brotes de alfalfa"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "aceitunas rellenas en rodajas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Calentá el aceite en una sartén grande y salteá las rodajas de zapallito con 1 o 2 cucharadas de agua hasta que queden tiernas y brillantes.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Agregá la albahaca y el orégano, remové suavemente y retirá del fuego."
+      },
+      {
+        "text": "Mezclá en un bol los zapallitos salteados con el arroz integral, las hojas verdes, los brotes y las aceitunas."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-arroz-jamon-cocido",
+    "title": "Ensalada de Arroz con Jamón Cocido y Choclo",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada rápida de arroz blanco cocido con cebolla de verdeo, zanahoria en juliana, arvejas, choclo y jamón cocido.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "arroz blanco cocido"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla de verdeo picada"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "zanahoria en juliana"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "arvejas cocidas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "choclo en grano cocido"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "jamón cocido magro en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá el arroz cocido en una ensaladera y sumale la cebolla de verdeo, la zanahoria en juliana, las arvejas, el choclo y el jamón cocido."
+      },
+      {
+        "text": "Mezclá aparte el aceite, el vinagre y la sal, verté sobre la ensalada e integrá con cuidado."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-clasica-papas-huevo-atun",
+    "title": "Ensalada Clásica de Papas, Huevo y Atún",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada completa de papas hervidas, atún, huevo duro, tomate, aceitunas y morrón sobre colchón de lechuga.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "planta",
+        "item": "lechuga"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla en rodajas finas"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates de ensalada"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "aceitunas rellenas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo en tiras"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa light"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas en agua con sal hasta que estén tiernas, pelalas y dejalas enfriar.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "En el fondo de una ensaladera disponé la lechuga lavada y picada fina, la cebolla, las aceitunas y el atún mezclado con un chorrito de vinagre y aceite."
+      },
+      {
+        "text": "Acomodá alrededor los huevos duros en gajos, los tomates y las papas en rodajas alternando con tiras de morrón. Terminá con la mayonesa light."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-esparragos-huevos",
+    "title": "Ensalada de Espárragos y Huevos con Mayonesa Liviana",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fresca de espárragos, huevos duros, pepinillos y aceitunas con aderezo aligerado de mayonesa y perejil.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "u",
+        "item": "espárragos en conserva"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 0.5,
+        "unit": "planta",
+        "item": "lechuga"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "mayonesa"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "pepinillos en vinagre"
+      },
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "aceitunas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "agua o caldo de espárragos"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá la lechuga lavada en juliana y colocá como base en una fuente."
+      },
+      {
+        "text": "Disponé encima los espárragos, los huevos duros en cuartos, las aceitunas y los pepinillos cortados en láminas."
+      },
+      {
+        "text": "Aligerá la mayonesa con 2 cucharadas del líquido de los espárragos o agua, sumá el perejil picado, salá y aliñá la ensalada."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-escarola-huevo-duro",
+    "title": "Ensalada de Escarola y Huevo Duro",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada liviana y crujiente de escarola fresca, cebolla de verdeo, tomate, aceitunas y huevo duro.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "planta",
+        "item": "escarola"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "aceitunas negras o verdes"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla de verdeo picada"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de maíz o girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá bien la escarola, escurrila y troceala con las manos en una ensaladera."
+      },
+      {
+        "text": "Agregá la cebolla de verdeo y las aceitunas, aliñá con sal, pimienta, vinagre y aceite, y cubrí con los tomates y huevos duros en rodajas."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-colores-papa-remolacha-salmon",
+    "title": "Ensalada de Colores con Papa, Remolacha y Salmón",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Capas coloridas de remolacha cocida y papa hervida coronadas con rollitos de salmón ahumado y huevo picado.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "papas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "remolachas cocidas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros picados"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "salmón ahumado en fetas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas enteras en agua durante 20 minutos, dejá enfriar, pelalas y cortalas en rodajas.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Cortá las remolachas cocidas en rodajas finas y acomodalas en la base de una fuente, cubriendo con las rodajas de papa."
+      },
+      {
+        "text": "Decorá con el salmón ahumado en rollitos y el huevo picado, y aliñá con aceite, vinagre y sal."
+      }
+    ]
+  },
+  {
+    "id": "fit250-cogollos-lechuga-tomates-atun",
+    "title": "Cogollos de Lechuga con Tomates y Atún",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Entrada o cena fresca con cogollos de lechuga, rodajas de tomate, atún, huevo duro y salsa de mayonesa con mostaza.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "cogollos de lechuga"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 12,
+        "unit": "u",
+        "item": "aceitunas rellenas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "atún escurrido"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla de verdeo en aros"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "mayonesa"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disponé las rodajas de tomate en el centro de una fuente y los cogollos de lechuga cortados en cuartos en el borde."
+      },
+      {
+        "text": "Repartí encima los huevos duros en gajos, el atún desmenuzado, las aceitunas y la cebolla de verdeo. Salá a gusto y aliñá con la mezcla de mayonesa y mostaza."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-porotos-blancos",
+    "title": "Ensalada de Porotos Blancos",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada proteica y económica de porotos blancos cocidos con tomate, morrón verde, cebolla de verdeo y huevo picado.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "porotos blancos cocidos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón verde picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla de verdeo picada"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros picados"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, orégano y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Enjuagá y escurrí bien los porotos blancos cocidos."
+      },
+      {
+        "text": "Mezclá en una ensaladera los porotos con el tomate, morrón, cebolla de verdeo y huevos picados."
+      },
+      {
+        "text": "Aliñá con aceite, vinagre, sal, orégano y pimienta negra antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-garbanzos-catalana",
+    "title": "Ensalada de Garbanzos a la Catalana",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fresca y saciante de garbanzos cocidos con huevo duro, tomate maduro, cebolla y perejil.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "garbanzos cocidos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates rojos maduros"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla mediana picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre de vino"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá los garbanzos bien escurridos en una ensaladera y sumá los huevos duros y los tomates troceados junto con la cebolla."
+      },
+      {
+        "text": "Aliñá con aceite de oliva, vinagre de vino y sal, y serví espolvoreada con perejil fresco."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-fria-lentejas-morron-tomate",
+    "title": "Ensalada Fría de Lentejas, Morrón y Tomate",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada rápida de lentejas cocidas frías con cebolla, morrón verde, tomate y vinagreta al ajo.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "lentejas cocidas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón verde picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 0.5,
+        "unit": "diente",
+        "item": "ajo machacado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá las lentejas cocidas y frías con la cebolla, el morrón verde, el tomate y el perejil."
+      },
+      {
+        "text": "Prepará una vinagreta con aceite, vinagre, ajo machacado, sal y pimienta, verté encima y serví."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-chauchas-choclo-papas",
+    "title": "Ensalada de Chauchas y Choclo con Papas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada sencilla y nutritiva de chauchas cocidas, papas en cubos, granos de choclo y cebolla picada.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "chauchas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "choclo en grano hervido"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "papas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla picada bien fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las chauchas y las papas hasta que estén tiernas; dejá enfriar y cortá las papas en cubos.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Mezclá en una ensaladera las chauchas, papas, choclo y cebolla, y aliñá con aceite, vinagre y sal."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-chauchas-zanahorias",
+    "title": "Ensalada Express de Chauchas y Zanahorias",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Guarnición o cena ultra rápida de chauchas cocidas y zanahoria en juliana con cebolla, perejil y oliva.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "chauchas cocidas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "zanahoria cocida en juliana"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá las chauchas con la zanahoria, la cebolla y el perejil, rociá con el aceite de oliva y condimentá con sal y pimienta."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-legumbres-jamon-crudo",
+    "title": "Ensalada de Cuatro Legumbres con Jamón Crudo",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Mix proteico de lentejas, garbanzos, arvejas y porotos blancos sobre colchón de lechuga y endibias con fetas de jamón crudo.",
+    "ingredients": [
+      {
+        "amount": 175,
+        "unit": "g",
+        "item": "lentejas cocidas"
+      },
+      {
+        "amount": 175,
+        "unit": "g",
+        "item": "garbanzos cocidos"
+      },
+      {
+        "amount": 175,
+        "unit": "g",
+        "item": "arvejas cocidas"
+      },
+      {
+        "amount": 175,
+        "unit": "g",
+        "item": "porotos blancos cocidos"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "jamón crudo en fetas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "endibia"
+      },
+      {
+        "amount": 0.5,
+        "unit": "planta",
+        "item": "lechuga"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Escurrí y enfriá bien las cuatro legumbres. Disponé en el fondo de una fuente la lechuga en juliana apenas salada."
+      },
+      {
+        "text": "Agregá por encima las legumbres frías y las hojas de endibia en tiras, cubrí con las fetas de jamón crudo y aliñá con aceite de oliva."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-anana-mariscos",
+    "title": "Ensalada de Ananá con Camarones y Kanikama",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Copa fresca de lechuga en juliana, ananá en cubitos, camarones cocidos y kanikama con salsa golf casera y limón.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "ananá fresco en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "planta",
+        "item": "lechuga"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "camarones cocidos pelados"
+      },
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "kanikama (palitos de surimi)"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "mayonesa"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "kétchup"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá la lechuga en juliana fina, el ananá en cubitos y el kanikama en trozos."
+      },
+      {
+        "text": "Mezclá 4 partes de mayonesa con 1 parte de kétchup para preparar la salsa golf."
+      },
+      {
+        "text": "Armá en copas o platos con base de lechuga, unas gotas de limón, los camarones, el kanikama y el ananá. Salpimentá y coroná con la salsa y una rodaja de limón."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-campera-camarones",
+    "title": "Ensalada Campera con Camarones y Atún",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada completa de papas hervidas, morrones, pepino, tomate, cebolla de verdeo, atún, camarones y huevo duro.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "papas grandes"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón verde"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas de verdeo"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates grandes maduros"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pepino mediano"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún en aceite"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "camarones cocidos pelados"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas con cáscara 20-25 minutos hasta que estén tiernas, dejalas entibiar, pelalas y cortalas en cubos.",
+        "timerMinutes": 22
+      },
+      {
+        "text": "Cortá los morrones, pepino, tomates pelados sin semillas y cebolla de verdeo en trozos pequeños."
+      },
+      {
+        "text": "Mezclá todo con el atún escurrido y los camarones, aliñá con aceite de oliva, vinagre y sal, y serví con los huevos duros y perejil."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-arroz-kanikama",
+    "title": "Ensalada de Arroz con Kanikama y Morrones",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fresca y práctica de arroz blanco, morrones en conserva, choclo en grano, kanikama y huevos duros.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "arroz blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "morrones en conserva"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "choclo en grano amarillo"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "kanikama picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el arroz en agua con sal, escurrilo y dejalo enfriar en una fuente.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Sumá los morrones en tiras, el choclo y el kanikama en trocitos. Aliñá con aceite, vinagre y sal, decorá con huevo duro en rodajas y llevá a la heladera antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-camarones-papa",
+    "title": "Ensalada Fría de Camarones, Papa y Arvejas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada cremosa bien fría de papas, zanahoria, arvejas, camarones pelados y mayonesa.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "arvejas escurridas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla picada bien fina"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "camarones cocidos y pelados"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "mayonesa"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas y la zanahoria hasta que estén tiernas, dejá enfriar, pelá y cortá en cubitos chicos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Mezclá en un bol las papas, zanahoria, arvejas, cebolla, camarones, mayonesa y sal. Llevá 1 hora a la heladera antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-pasta-langostinos",
+    "title": "Ensalada de Pasta con Langostinos y Chauchas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada liviana de pasta fría con tomate en cubitos, chauchas cocidas, lechuga y colas de langostinos al vinagre de manzana.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "pasta corta cocida y fría"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "colas de langostinos cocidos"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "chauchas cocidas"
+      },
+      {
+        "amount": 2,
+        "unit": "hojas",
+        "item": "lechuga"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "tomate en cubitos"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal gruesa"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá la pasta fría como base en una fuente y disponé encima el tomate en cubitos, las chauchas y la lechuga en los bordes."
+      },
+      {
+        "text": "Acomodá los langostinos cortados al medio a lo largo y aliñá con aceite de oliva, vinagre de manzana y sal."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-lentejas-langostinos",
+    "title": "Ensalada de Lentejas, Chauchas y Langostinos",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Combinación fresca y proteica de lentejas cocidas, chauchas, tomate en gajos, lechuga, cebolla de verdeo y langostinos.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "lentejas cocidas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas de verdeo en juliana"
+      },
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "colas de langostinos cocidos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en gajos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "chauchas cocidas"
+      },
+      {
+        "amount": 1,
+        "unit": "planta",
+        "item": "lechuga"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disponé en una fuente hojas limpias de lechuga, el tomate en gajos, las chauchas y las lentejas sazonadas."
+      },
+      {
+        "text": "Decorá con los langostinos cortados al medio y la cebolla de verdeo en juliana, aliñá con aceite, vinagre y sal y serví."
+      }
+    ]
+  },
+  {
+    "id": "fit250-cogollos-lechuga-anchoas",
+    "title": "Cogollos de Lechuga con Anchoas y Vinagreta de Huevo",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Entrada liviana de cogollos de lechuga con filetes de anchoa y vinagreta picada de ajo, perejil y huevo duro.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "cogollos chicos de lechuga"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 24,
+        "unit": "u",
+        "item": "anchoas en aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo duro"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá los cogollos de lechuga y cortalos en cuartos a lo largo."
+      },
+      {
+        "text": "Machacá el ajo con el perejil y sal, sumá el aceite, el vinagre y el huevo duro pisado con tenedor."
+      },
+      {
+        "text": "Acomodá una anchoa sobre cada cuarto de cogollo y rociá con la vinagreta."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-atun-tomate-papas",
+    "title": "Ensalada de Atún, Papas, Arvejas y Tomate",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Ensalada marinada de papas firmes, arvejas frescas, tomate, cebolla y atún al natural con vinagreta suave.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "papas firmes"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "arvejas"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates en gajos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas en cubitos"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "atún al natural escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, azúcar y pimienta blanca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas con cáscara 20-25 minutos, pelalas tibias y cortalas en cubos. Herví las arvejas 4 minutos y refrescalas en agua fría.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Desmenuzá el atún y mezclalo con las papas, arvejas, tomates y cebolla."
+      },
+      {
+        "text": "Batí el vinagre con sal, una pizca de azúcar, pimienta y aceite, aliñá y dejá reposar en frío para que tome sabor."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-atun-morrones",
+    "title": "Ensalada de Atún y Morrones",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fresca sin cocción de atún escurrido, morrón rojo y verde, cebolla en aros, pepinillos y cebolla de verdeo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "atún en aceite escurrido"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón verde en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla en aros finos"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "pepinillos en vinagre"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas de verdeo"
+      },
+      {
+        "amount": 2.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá en un bol el atún desmenuzado con los morrones y la cebolla."
+      },
+      {
+        "text": "Batí el aceite de oliva con el vinagre y la sal, aliñá y decorá con los pepinillos y la cebolla de verdeo."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-atun-vinagreta",
+    "title": "Ensalada de Atún a la Vinagreta de Morrón",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Atún en trozos sobre hojas de lechuga con aceitunas verdes y vinagreta picada de huevo duro, tomate, pepinillo y morrón asado.",
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "latas",
+        "item": "atún escurrido"
+      },
+      {
+        "amount": 8,
+        "unit": "hojas",
+        "item": "lechuga"
+      },
+      {
+        "amount": 20,
+        "unit": "u",
+        "item": "aceitunas verdes"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate pelado sin semillas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "pepinillos en vinagre"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón rojo asado"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Acomodá las hojas de lechuga en una fuente con el atún en trozos y las aceitunas encima."
+      },
+      {
+        "text": "Picá bien fino los huevos duros, el tomate, los pepinillos y el morrón asado; mezclá con aceite, vinagre, perejil y sal, y aliñá."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-berros-salmon",
+    "title": "Ensalada de Berros, Champiñones y Salmón Ahumado",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Plato liviano y gourmet con láminas de salmón ahumado, champiñones crudos fileteados, berro fresco, alcaparras y aderezo de limón y mostaza.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "salmón ahumado en fetas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "alcaparras"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "berro fresco"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "champiñones frescos fileteados"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá y escurrí bien el berro sin los tallos gruesos. Limpiá y fileteá fino los champiñones."
+      },
+      {
+        "text": "Distribuí las fetas de salmón en los platos con los champiñones y el berro en el centro."
+      },
+      {
+        "text": "Mezclá jugo de limón, mostaza, aceite de oliva y sal, rociá la ensalada y terminá con alcaparras."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-pasta-atun-escarola",
+    "title": "Ensalada de Pasta con Atún y Escarola",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Pasta corta al dente mezclada con aceite de oliva, escarola fresca en tiras y atún escurrido.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "pasta corta (moñitas o caracoles)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "escarola en tiras"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "atún en lata escurrido"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví la pasta en agua con sal hasta que esté al dente, escurrí, mezclá con el aceite de oliva y dejá enfriar 5 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Sumá la escarola cortada en tiras y el atún desmenuzado, salpimentá a gusto y serví."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-arroz-pollo-champinones",
+    "title": "Ensalada de Arroz con Pollo y Champiñones",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada fría de arroz largo al laurel con pechuga de pollo cocida, choclo, champiñones y aceto balsámico.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "arroz largo fino"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "champiñones en conserva fileteados"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "ciboulette picado"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "hoja",
+        "item": "laurel"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "pechuga de pollo cocida picada"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "choclo en grano en conserva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el arroz con sal y laurel durante 18-20 minutos, enjuagá bajo agua fría y escurrí muy bien.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Mezclá el arroz con el pollo troceado, choclo y champiñones. Aliñá con aceite, aceto balsámico y sal, espolvoreá ciboulette y enfriá en heladera."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-endibias-pollo",
+    "title": "Ensalada de Endibias y Pollo a la Mostaza",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pechugas de pollo doradas en fetas sobre lechuga y hojas de endibia con vinagreta fresca de tomate y mostaza.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "endibias"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "pechugas de pollo sin piel"
+      },
+      {
+        "amount": 4,
+        "unit": "hojas",
+        "item": "lechuga"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mostaza"
+      },
+      {
+        "amount": 2.5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salpimentá las pechugas y doralas a la plancha o sartén con 1 cucharadita de aceite hasta que estén cocidas.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Colocá la lechuga en juliana en el centro del plato, rodeá con las hojas de endibia y disponé encima el pollo fileteado."
+      },
+      {
+        "text": "Mezclá el resto del aceite con vinagre, mostaza, sal, pimienta y tomate en cubitos para aliñar."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-clasica-pollo",
+    "title": "Ensalada Clásica de Pollo Desmenuzado",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada práctica para aprovechar pollo asado o hervido en tiritas sobre lechuga, con huevo duro, morrón y pepinillos.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "pollo cocido sin piel desmenuzado"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa light"
+      },
+      {
+        "amount": 8,
+        "unit": "hojas",
+        "item": "lechuga en juliana fina"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón rojo en tiras"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "pepinillos en vinagre"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Repartí la lechuga en tiritas finas en los platos, colocá encima el pollo desmenuzado y cubrí con la mayonesa light."
+      },
+      {
+        "text": "Decorá con los huevos duros en gajos, tiras de morrón, pepinillos y perejil picado."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-valencia-arroz-pollo",
+    "title": "Ensalada de Valencia con Arroz y Pollo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Cama de arroz blanco con pollo hervido en tiras, arvejas, tomate en rodajas, pepinillos y cebolla en juliana.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "arroz largo fino"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pechuga de pollo sin piel"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "pepinillos picados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en rodajas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "arvejas cocidas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla de verdeo en juliana"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal gruesa"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví la pechuga en agua con sal hasta que esté cocida, escurrila y cortala en tiras. Aparte herví el arroz 20 minutos, refrescá y escurrí.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Armá una base con el arroz, rodeá con las rodajas de tomate y colocá encima el pollo, ajo picado, arvejas, pepinillos y cebolla de verdeo."
+      },
+      {
+        "text": "Aliñá con aceite, vinagre y sal antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensaladilla-andaluza-pollo-jamon",
+    "title": "Ensaladilla Andaluza de Pollo y Jamón Crudo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Capas frescas de pechuga hervida picada, lechuga, jamón crudo, cebolla tierna y un toque de mayonesa light.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "pechugas de pollo"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "jamón crudo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla tierna picada"
+      },
+      {
+        "amount": 0.5,
+        "unit": "planta",
+        "item": "lechuga picada fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mayonesa light"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las pechugas, dejalas enfriar y picalas en trocitos chicos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Disponé en un bol por capas sin mezclar: primero pollo, luego lechuga, jamón crudo y cebolla. Agregá la mayonesa light al servir."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensaladilla-primavera-pollo",
+    "title": "Ensaladilla Primavera con Pollo",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensaladilla rápida con mix de verduras cocidas, pechuga de pollo asada desmenuzada, huevo duro, tomate y morrón.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "jardinera o mix de verduras cocidas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "pechugas de pollo cocidas desmenuzadas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en cubitos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "lata",
+        "item": "morrones en conserva en tiras"
+      },
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "aceitunas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa light"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá en un bol la jardinera de verduras escurrida con los huevos duros picados, el pollo desmenuzado y el tomate en cubitos."
+      },
+      {
+        "text": "Adorná con tiras de morrón y aceitunas, y serví con la mayonesa light."
+      }
+    ]
+  },
+  {
+    "id": "fit250-pollo-salpicon",
+    "title": "Salpicón Frío de Pollo",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Muy fácil",
+    "description": "Clásico salpicón bien frío de pollo desmenuzado, huevo duro, tomate sin piel, cebolla, aceitunas negras y vinagreta al ajo y perejil.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "pollo cocido sin piel desmenuzado"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "aceitunas negras descarozadas en rodajas"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos duros picados"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "cebollas en cubitos"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates pelados en cubitos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá en una fuente la cebolla, tomate, ajo, perejil y aceitunas con el aceite de oliva y el vinagre."
+      },
+      {
+        "text": "Sumá el pollo desmenuzado y los huevos duros picados, integrá bien y enfriá en heladera hasta servir."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-berros-rabanitos",
+    "title": "Ensalada de Berros, Rabanitos y Jamón Cocido",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fresca y liviana de berro, rabanitos crujientes, jamón cocido, queso suave y cebolla de verdeo.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "berro fresco"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "jamón cocido en cubitos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso suave en cubitos"
+      },
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "rabanitos en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla de verdeo en juliana"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre de vino"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá bien el berro y los rabanitos. Acomodá el berro en el centro del plato junto al jamón cocido, queso, rabanitos y cebolla de verdeo."
+      },
+      {
+        "text": "Aliñá con vinagre de vino, aceite de oliva y sal."
+      }
+    ]
+  },
+  {
+    "id": "fit250-ensalada-campesina-papa-remolacha",
+    "title": "Ensalada Campesina de Papa y Remolacha",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada vegetal rústica de papas firmes, remolacha cocida, tomate, morrón rojo y verde y cebolla con vinagreta.",
+    "ingredients": [
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla en tiras"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón verde en tiras"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo en tiras"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "remolacha cocida en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas con cáscara sin que se deshagan, pelalas y cortalas en cubos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Mezclá en una fuente con los morrones, cebolla, remolacha y tomate, aliñá con aceite, vinagre y sal y dejá reposar unos minutos."
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-intensa-puerros-hongos",
+    "title": "Sopa Intensa de Puerros y Hongos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sopa reconfortante y espesa de puerros, hongos secos hidratados, champiñones fileteados y un toque de jengibre y nuez moscada.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "puerros picados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla blanca chica picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "hongos secos remojados y picados"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina integral de arroz"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "jengibre, mostaza y nuez moscada"
+      },
+      {
+        "amount": 1500,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "champiñones fileteados"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá en el aceite de oliva los puerros, la cebolla y los hongos secos hidratados.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Licuá con la mitad del agua. Volvé a la olla, agregá el resto del agua con la harina disuelta, las especias y el agua del remojo filtrada."
+      },
+      {
+        "text": "Cociná a fuego mínimo revolviendo unos minutos, sumá los champiñones fileteados y herví 3 minutos más.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-intensa-agridulce-porotos",
+    "title": "Sopa Agridulce de Verduras y Porotos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Sopa especiada y saciante con hinojo, boniato, zapallito, porotos blancos o negros, morrón amarillo y jugo de cítricos.",
+    "ingredients": [
+      {
+        "amount": 900,
+        "unit": "ml",
+        "item": "caldo de verduras light"
+      },
+      {
+        "amount": 2,
+        "unit": "cabezas",
+        "item": "hinojo picado"
+      },
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "cebollas de verdeo en rodajas"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "zapallito o zucchini en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "boniato pelado en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo machacados"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "jengibre fresco rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "cúrcuma y coriandro molido"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "naranja (su jugo)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "lima o limón (su jugo)"
+      },
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "porotos cocidos escurridos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón amarillo asado sin piel"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "perejil y cilantro picados"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Poné en una cacerola 300 ml de caldo con el hinojo, cebolla de verdeo, zapallito, boniato, ajo, jengibre, especias y jugos cítricos. Tapá y herví 5 minutos, luego destapá hasta que tiernicen.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Agregá los porotos, el morrón en trozos y el resto del caldo; cociná 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Licuá 300 ml de la sopa para espesar, volvé a la olla, calentá, condimentá y serví con perejil y cilantro."
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-aromatica-verduras-choclo-fideos",
+    "title": "Sopa Aromática de Verduras, Choclo y Fideos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Sopa completa de morrones, papa, zapallito, choclo, tomate y fideos finos aromatizada con comino, naranja y lima.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla morada picada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria picada"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "morrones (rojo y amarillo) picados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "lima o limón (jugo y ralladura)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "naranja (su jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "comino molido"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "pimentón"
+      },
+      {
+        "amount": 1800,
+        "unit": "ml",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "papas en cubos"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "tomates en lata escurridos"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "choclo en grano"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zapallitos o zucchinis en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "extracto o puré de tomate"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "fideos para sopa"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná cebolla, zanahoria, morrones, especias y mitad del jugo cítrico con 300 ml de caldo tapado 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Agregá 150 ml de caldo y las papas (7 min), luego tomates (5 min) y después choclo y zapallito (4 min).",
+        "timerMinutes": 16
+      },
+      {
+        "text": "Licuá un poco de caldo con el puré de tomate y reincorporá con el resto del caldo, jugos cítricos y fideos. Cociná 8 minutos hasta tiernizar y serví con perejil.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-crema-coliflor-arvejas",
+    "title": "Sopa Crema de Coliflor y Arvejas",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Crema verde suave de coliflor, arvejas, apio y hierbas aromáticas terminada con un toque de manteca.",
+    "ingredients": [
+      {
+        "amount": 1200,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla blanca picada"
+      },
+      {
+        "amount": 1,
+        "unit": "tallo",
+        "item": "apio picado"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas de verdeo picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "coliflor mediana en ramilletes"
+      },
+      {
+        "amount": 1,
+        "unit": "cubo",
+        "item": "caldo de verduras (o 1 cda miso)"
+      },
+      {
+        "amount": 2,
+        "unit": "tazas",
+        "item": "arvejas frescas o congeladas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "albahaca seca y eneldo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el agua con cebolla, apio, cebolla de verdeo, coliflor, sal y caldo durante 10 minutos tapado.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Agregá las arvejas y las hierbas, y cociná tapado 10 minutos más.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Licuá hasta obtener una crema lisa, volvé a calentar, integrá la manteca y rectificá la sal."
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-clasica-rapida-verduras-fideos",
+    "title": "Sopa Clásica Rápida de Verduras y Fideos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Sopa liviana y saciante de apio, puerro, zanahoria rallada, papa en cubos y fideos de sémola con queso rallado.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "ramitas",
+        "item": "apio picado"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "puerros picados"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zanahorias ralladas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "papas grandes en cubos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "fideos para sopa"
+      },
+      {
+        "amount": 2,
+        "unit": "cubos",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Poné todas las verduras en una olla con 2 litros y medio de agua; cuando hierva agregá el caldo y cociná suave 12 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Sumá los fideos y sal a gusto, cociná hasta que estén al dente y serví con queso rallado.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-crema-zanahoria-cilantro",
+    "title": "Sopa Crema de Zanahoria y Cilantro",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Crema aterciopelada de zanahorias rehogadas con cilantro fresco y un copo de crema ácida (o queso crema con limón).",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "zanahorias en trozos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1200,
+        "unit": "ml",
+        "item": "caldo de verduras o agua"
+      },
+      {
+        "amount": 4,
+        "unit": "cdtas",
+        "item": "cilantro fresco picado"
+      },
+      {
+        "amount": 4,
+        "unit": "cdtas",
+        "item": "crema ácida (o queso crema con limón)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá las zanahorias en el aceite de oliva unos minutos, sumá el caldo, tapá y herví a fuego lento 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Licuá con el cilantro hasta lograr una crema lisa, salpimentá y serví decorada con la crema ácida y hojas de cilantro."
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-suiza-cebolla-vino-tinto",
+    "title": "Sopa Suiza de Cebolla al Vino Tinto",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 55,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Cebollas caramelizadas lentamente en oliva cocidas en caldo de verduras y vino tinto, servidas con pan integral y parmesano.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "cebollas en rodajas finas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "azúcar rubio o común"
+      },
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan integral"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "queso rallado tipo parmesano"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "vino tinto"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná las cebollas en el aceite de oliva a fuego lento sin tapar durante 30 minutos hasta que queden bien doradas.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Agregá el ajo, el azúcar y el caldo hirviendo; tapá y herví suave 20 minutos. Sumá el vino tinto al final y salpimentá.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Colocá una rebanada de pan integral con queso y perejil en cada tazón y volcá encima la sopa bien caliente."
+      }
+    ]
+  },
+  {
+    "id": "fit250-sopa-crema-berro",
+    "title": "Sopa Crema de Berro",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sopa crema liviana de berro fresco, papa, cebolla de verdeo y nuez moscada suavizada con crema ácida.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "puerro o atado de cebolla de verdeo"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "papas chicas en trozos"
+      },
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "caldo de verduras o agua"
+      },
+      {
+        "amount": 3,
+        "unit": "atados",
+        "item": "berro fresco"
+      },
+      {
+        "amount": 75,
+        "unit": "ml",
+        "item": "crema ácida (o queso crema con limón)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "nuez moscada, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá el puerro o cebolla de verdeo en aceite de oliva durante 10 minutos. Sumá las papas y el caldo, y cociná 10 minutos tapado.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Agregá el berro lavado, herví 2 minutos, apagá el fuego y dejá reposar 5 minutos.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Licuá hasta obtener una crema suave, incorporá la crema ácida, nuez moscada, sal y pimienta, y calentá sin que hierva."
+      }
+    ]
+  },
+  {
+    "id": "fit250-pizza-vegana-arroz-integral-tofu",
+    "title": "Pizza Vegana de Arroz Integral y Tofu",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 70,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Base sin gluten de arroz integral cocido y harina de arroz cubierta con salteado de puerros, apio, hinojo, tomate y puré de tofu.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "arroz integral"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla rallada"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo picados"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "semillas de hinojo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina integral de arroz"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 5,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "puerros picados"
+      },
+      {
+        "amount": 1,
+        "unit": "tallo",
+        "item": "apio picado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo chico picado"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "hinojos en cubitos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates perita triturados"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "tofu pisado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "albahaca picada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná el arroz integral con 2,5 tazas de agua, cebolla, ajo y semillas de hinojo a fuego mínimo tapado por 50 minutos. Entibiá y amasá con perejil, harina de arroz y 3 cdas de aceite sobre pizzera aceitada.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Rehogá en el aceite restante los puerros, apio, morrón, hinojos, tomate y albahaca 4 minutos, y sumá el tofu pisado.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Cubrí la base de arroz con la mezcla de verduras y tofu, y horneá a temperatura media (180 °C) por 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "fit250-pizza-liviana-base-huevo-queso",
+    "title": "Pizza Liviana sin Harina con Base de Huevo y Queso",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pizza baja en carbohidratos con masa batida de huevo, queso blanco y queso rallado cubierta con salsa de tomate y queso magro.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos grandes"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso blanco descremado"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "leche en polvo descremada"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cdta",
+        "item": "cebolla en polvo"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "puré de tomate"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "queso magro tipo Port Salut en fetas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y ají molido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con 2 cucharadas de agua tibia durante 8 minutos hasta que estén bien espumosos.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Integrá con movimientos envolventes el queso blanco, queso rallado, leche en polvo y cebolla en polvo. Volcá en pizzera chica aceitada y horneá 10 minutos a 180 °C.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Condimentá el puré de tomate con orégano, ají, sal y pimienta (cociná 5 min), cubrí la base con la salsa y el queso magro, y gratiná hasta fundir.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "fit250-pizza-integral-centeno-vegetales",
+    "title": "Pizza de Centeno con Vegetales Salteados",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "temperatureC": 220,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Masa artesanal con harina 000 y harina de centeno cubierta con salsa de tomate, zapallito, berenjena, morrones y queso magro.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo 000"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "harina de centeno"
+      },
+      {
+        "amount": 12,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "miel"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdtas",
+        "item": "sal"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "salsa de tomate espesa"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "morrón rojo y 1/2 morrón verde"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "zapallito en rodajas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "berenjena chica en rodajas"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "queso magro tipo Port Salut"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Uní las harinas con la levadura, miel, 2 cdas de aceite, sal y agua tibia hasta lograr una masa lisa; dejá leudar hasta que duplique.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Dorá en sartén con apenas aceite el zapallito y la berenjena; luego salteá los morrones en tiras 3 minutos.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Estirá la masa en placa aceitada, cubrí con salsa de tomate, los vegetales salteados, el queso en rodajas y un hilo de oliva. Horneá fuerte hasta dorar.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "fit250-pizza-integral-clasica-verduras",
+    "title": "Pizza Integral Clásica con Verduras Grilladas",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Pizza clásica de harina integral y levadura con salsa de tomate casera, cebolla, berenjena, zapallito y morrón grillados.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "harina integral"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar"
+      },
+      {
+        "amount": 750,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "salsa para pizza"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "queso Port Salut light"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "berenjena, zapallito y morrón rojo en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "orégano y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disolvé la levadura con el azúcar y parte del agua tibia; uní con la harina, sal, aceite y el resto del agua, amasá, dejá descansar unos minutos y estirá.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cociná la salsa de pizza con cebolla, orégano y sal 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cubrí la masa con la salsa, las verduras grilladas y el queso Port Salut light, y horneá a 200 °C hasta fundir y dorar.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "fit250-esparragos-cremoso-langostinos",
+    "title": "Espárragos con Aderezo Cremoso de Langostinos",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Espárragos tiernos al vapor coronados con langostinos en salsa cremosa de queso blanco, ajo confitado, mostaza y hierbas frescas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (cáscara en tiras y jugo)"
+      },
+      {
+        "amount": 350,
+        "unit": "ml",
+        "item": "caldo de pescado"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "vermut blanco seco o vino blanco"
+      },
+      {
+        "amount": 10,
+        "unit": "dientes",
+        "item": "ajo machacados"
+      },
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "cebollas de verdeo picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "salsa de soja o inglesa"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "langostinos pelados"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "queso blanco descremado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "mostaza"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "albahaca y perejil picados"
+      },
+      {
+        "amount": 2,
+        "unit": "atados",
+        "item": "espárragos hervidos al vapor"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "pepino en medialunas finas"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "tomates cherry al medio"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví 300 ml de caldo con cáscara de limón, vermut, ajo, cebolla de verdeo, jugo de limón y salsa de soja hasta que el ajo esté tierno y el líquido reduzca a jarabe.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Retirá la cáscara de limón y pisá el resto hasta hacer un puré. En la misma olla herví el caldo restante con limón, cociná los langostinos 2-3 minutos, escurrí y enfriá.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Batí el queso blanco con mostaza, puré de ajo, langostinos y hierbas; serví sobre los espárragos rodeados de pepino y tomates cherry."
+      }
+    ]
+  },
+  {
+    "id": "fit250-alcauciles-rellenos-aceitunas-hierbas",
+    "title": "Alcauciles Rellenos con Aceitunas y Hierbas",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Corazones de alcaucil horneados al caldo con relleno aromático de pan integral, aceitunas, ajo, menta, perejil y aceto balsámico.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "alcauciles frescos"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 3,
+        "unit": "dientes",
+        "item": "ajo machacados"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 6,
+        "unit": "cdas",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "menta fresca picada"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pan del día anterior desmenuzado"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "aceitunas descarozadas picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Limpiá los alcauciles dejando solo los corazones sin hojas duras ni pelusa. Acomodalos en una asadera con 125 ml de caldo de verduras."
+      },
+      {
+        "text": "Mariná el ajo con aceto y jugo de limón 10 minutos; mezclá con perejil, menta, pan desmenuzado, aceitunas, pimienta y el resto del caldo.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Rellená los corazones de alcaucil, rociá con apenas aceite, cubrí con aluminio y horneá 15 minutos; destapá y horneá 10-15 minutos más hasta tiernizar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "fit250-tortilla-alcauciles",
+    "title": "Tortilla Liviana de Alcauciles",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tortilla dorada de corazones de alcauciles laminados y tiernizados en sartén con huevos batidos y oliva.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "corazones de alcauciles limpios"
+      },
+      {
+        "amount": 40,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fileteá bien finos los corazones de alcaucil y cocinalos en sartén antiadherente con la mitad del aceite y chorritos de agua hasta que estén tiernos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Batí los huevos con sal y pimienta, mezclá con los alcauciles y cuajá la tortilla en la sartén con el aceite restante de ambos lados.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "fit250-cazuela-girgolas-ajies-berros",
+    "title": "Cazuela Aromática de Gírgolas, Morrones y Berros",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Salteado tibio de gírgolas en juliana con morrones tricolor, ajo, berro fresco, limón, ciboulette y un toque de curry.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 6,
+        "unit": "dientes",
+        "item": "ajo picados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla chica picada"
+      },
+      {
+        "amount": 1.5,
+        "unit": "u",
+        "item": "morrones (rojo, verde y amarillo) picados"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "gírgolas en juliana"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "berro fresco lavado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "ciboulette picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "mostaza, curry suave y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá el ajo, cebolla y morrones en el aceite de oliva durante unos minutos hasta que tiernicen.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Sumá las gírgolas y al final el berro, cociná 4-5 minutos más, apagá el fuego e incorporá jugo de limón, ciboulette, curry, mostaza y sal.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "fit250-guisado-liviano-papas-verduras",
+    "title": "Guisado Liviano de Papas, Brócoli y Zapallitos",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Guiso suave de papas, zanahorias, tallos de brócoli, zapallitos y arvejas en caldo de verduras con hierbas aromáticas.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "papas chicas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "zanahorias grandes"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla chica picada"
+      },
+      {
+        "amount": 1,
+        "unit": "tallo",
+        "item": "apio picado"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "brócoli en trozos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zapallitos chicos en rodajas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "arvejas"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano, salvia y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná las papas y zanahorias al vapor 15 minutos; cortá las zanahorias en rodajas y las papas peladas en cubos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Derretí la manteca en una olla, sumá papas, zanahorias, cebolla, apio, brócoli, hierbas, sal y caldo; herví tapado 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Agregá los zapallitos y las arvejas y cociná suave 10 minutos más hasta que todo esté tierno.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "fit250-pastel-papas-pan-integral-champinones",
+    "title": "Pastel de Papas y Pan Integral con Crema de Champiñones",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 45,
+    "temperatureC": 220,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Pastel horneado con base especiada de pan integral y hierbas, cubierto con puré de papas al ajo y salsa cremosa de champiñones.",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "papas en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo y 1 hoja de laurel"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas picadas finas"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "apio picado fino"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas de verdeo picadas"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "pan integral en cubitos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "tomillo, salvia y orégano"
+      },
+      {
+        "amount": 750,
+        "unit": "ml",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "champiñones fileteados"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas con apio, laurel y ajo 25 minutos; pisá con 3 cdas de manteca, 50 ml de crema, sal y pimienta.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Rehogá cebolla, cebolla de verdeo y apio en manteca, sumá el pan en cubos, hierbas y 2 tazas de caldo, y cociná 15 minutos tapado a fuego bajo.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Pasá el relleno a una fuente, cubrí con el puré y horneá a 220 °C por 35 minutos hasta dorar. Aparte salteá los champiñones en manteca, espesá con harina, caldo restante y crema para servir encima.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "fit250-zanahorias-glaseadas-miel-albahaca",
+    "title": "Zanahorias Glaseadas con Miel y Albahaca",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 5,
+    "difficulty": "Muy fácil",
+    "description": "Rodajas finas de zanahoria cocidas al vapor y glaseadas en sartén con manteca, miel y hojas frescas de albahaca.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "u",
+        "item": "zanahorias medianas peladas"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "miel"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "albahaca fresca picada"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cdta",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá las zanahorias en rodajas finas y cocinalas al vapor unos 10 minutos hasta que estén tiernas sin deshacerse.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Derretí la manteca en sartén grande, sumá la miel, zanahorias, albahaca y sal, y salteá 3 minutos hasta glasear."
+      }
+    ]
+  },
+  {
+    "id": "fit250-lasana-verduras-asadas-salsa-roja",
+    "title": "Lasaña de Verduras Asadas con Salsa Roja Intensa",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 35,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Capas de masa de lasaña intercaladas con berenjenas y zapallitos grillados y una salsa roja intensa de morrones, tomate y vino tinto.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "láminas de lasaña"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "berenjenas en rodajas grilladas"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "zapallitos o zucchinis en rodajas grillados"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "perejil y albahaca picados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla morada picada"
+      },
+      {
+        "amount": 4,
+        "unit": "dientes",
+        "item": "ajo machacados"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "morrones rojos pelados picados"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "caldo de verduras"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "vino tinto seco"
+      },
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "tomate triturado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "comino, coriandro, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Para la salsa, cociná cebolla, ajo, morrones, especias, caldo y vino 10 minutos; sumá el tomate triturado, cociná 15 minutos y licuá.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Blanqueá las láminas de lasaña 3 minutos y armá capas en una fuente con salsa, masa, verduras grilladas y hierbas.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Horneá tapado con aluminio 15 minutos a 190 °C, destapá y horneá 15-20 minutos más.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "fit250-pollo-verduras-mediterraneas",
+    "title": "Pechugas de Pollo con Verduras Mediterráneas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pechugas marinadas en cítricos y aceto grilladas a la plancha y servidas sobre guisado liviano de berenjena, morrones, alcaparras y pasas.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "filetes de pechuga de pollo"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "naranja (su jugo)"
+      },
+      {
+        "amount": 90,
+        "unit": "ml",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 8,
+        "unit": "dientes",
+        "item": "ajo machacados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla morada en rodajas"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "berenjena pelada en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "morrones (rojo y amarillo) en tiras"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "pasas de uva y 2 cdas alcaparras"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "caldo de pollo"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "vino blanco seco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mariná las pechugas en jugo de naranja, limón, aceto, salsa de soja y mitad del ajo."
+      },
+      {
+        "text": "Cociná en sartén tapada la cebolla, berenjena, morrones, pasas, alcaparras, ajo restante, caldo y vino unos 10 minutos hasta tiernizar.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Grillá las pechugas escurridas 3 minutos por lado, luego apoyalas sobre las verduras y cociná tapado 8 minutos más.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "fit250-carne-vacuna-vino-tinto",
+    "title": "Carne Vacuna al Vino Tinto en su Salsa",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Corte magro de carne vacuna sellado y servido con cebollas caramelizadas en caldo, morrones rojos, zanahoria y reducción de vino tinto con tomate.",
+    "ingredients": [
+      {
+        "amount": 1200,
+        "unit": "g",
+        "item": "carne vacuna magra desgrasada (nalga o peceto)"
+      },
+      {
+        "amount": 175,
+        "unit": "ml",
+        "item": "caldo de carne"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "cebollas grandes en rodajas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "morrones rojos en tiras"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "vino tinto seco"
+      },
+      {
+        "amount": 175,
+        "unit": "ml",
+        "item": "puré o passata de tomate"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria grande en rodajas"
+      },
+      {
+        "amount": 10,
+        "unit": "dientes",
+        "item": "ajo pelados"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Sellá la carne en sartén antiadherente caliente por ambos lados y reservá tapada con papel aluminio.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "En la misma sartén cociná las cebollas con el caldo hasta dorar y luego sumá los morrones hasta que queden tiernos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Reducí en ollita aparte el vino tinto con la passata. Disponé la carne sobre cebollas, morrón, zanahoria y ajo, bañá con la salsa y serví caliente.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "fit250-albondigas-cerdo-limon-berenjena",
+    "title": "Medallones de Cerdo Picantes al Limón y Berenjena",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Hamburguesitas o albóndigas magras de lomo de cerdo picado mezcladas con berenjena asada, hierbas frescas, ají y ralladura de limón.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne magra de cerdo picada"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "limón (su ralladura)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil, menta y cilantro picados"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "pimentón"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "berenjenas asadas peladas y picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "ají molido, sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá en un bol la carne de cerdo picada con las berenjenas asadas, jugo y ralladura de limón, hierbas, pimentón, ají, sal y pimienta."
+      },
+      {
+        "text": "Formá medallones chicos y doralos en sartén antiadherente apenas aceitada durante 3 minutos de cada lado.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "fit250-morrones-rellenos-choclo",
+    "title": "Morrones Rellenos con Crema de Choclo",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Morrones enteros horneados con relleno cremoso de choclo desgranado, manteca, queso magro y nuez moscada.",
+    "ingredients": [
+      {
+        "amount": 7,
+        "unit": "u",
+        "item": "morrones grandes (6 para rellenar, 1 picado)"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "choclos cocidos desgranados"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "leche en polvo descremada"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso fresco magro"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Ahuecá 6 morrones quitando la tapita y semillas. Dorá el morrón picado en manteca, sumá el choclo, un chorrito de caldo y la harina hasta espesar.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Fuera del fuego agregá perejil, queso fresco, leche en polvo y condimentos. Rellená los morrones, acomodá en fuente con 1 taza de agua y horneá a 180 °C por 25 minutos.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "fit250-arroz-con-espinacas",
+    "title": "Arroz Liviano con Espinacas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Arroz largo fino nacarado con laurel y espinacas frescas blanqueadas, cocido a fuego lento.",
+    "ingredients": [
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "arroz grano largo"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "espinacas frescas (o acelga)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de maíz o girasol"
+      },
+      {
+        "amount": 2,
+        "unit": "hojas",
+        "item": "laurel"
+      },
+      {
+        "amount": 825,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blanqueá las espinacas en agua hirviendo, enfriá, escurrí y picá. En una olla calentá el aceite con el laurel y nacará el arroz escurrido.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sumá las espinacas, el agua con sal y cociná tapado a fuego mínimo durante 20 minutos; condimentá con pimienta antes de servir.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "fit250-budin-tricolor-arroz-verduras",
+    "title": "Budín Tricolor de Arroz y Verduras con Salsa de Tomate",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Torre colorida en capas de arroz con leche en polvo y manteca intercaladas con purés de espinaca, zanahoria y remolacha, bañada en salsa de tomate.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "espinacas y 12 hojas de acelga"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "zanahorias medianas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "remolachas medianas"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "arroz blanco"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tazas",
+        "item": "leche en polvo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "tomates maduros licuados"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví por separado y procesá en puré las espinacas con acelga, las zanahorias y las remolachas. Herví el arroz 18 minutos y mezclalo con manteca y leche en polvo.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Armá en una budinera capas alternadas de arroz, espinaca, arroz, zanahoria, arroz, remolacha y arroz presionando suave; desmoldá."
+      },
+      {
+        "text": "Cociná los tomates licuados con aceite, azúcar, sal y pimienta hasta espesar y serví sobre el budín.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "fit250-tortilla-harina-garbanzos",
+    "title": "Tortillas de Harina de Garbanzos con Tomate y Morrón",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tortillas finas y proteicas de harina de garbanzos especiadas con comino y cúrcuma, tropezones de tomate y morrón y un toque de limón.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de garbanzos"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "comino y cúrcuma"
+      },
+      {
+        "amount": 275,
+        "unit": "ml",
+        "item": "agua fría"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates medianos picados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón verde picado"
+      },
+      {
+        "amount": 3,
+        "unit": "cdtas",
+        "item": "manteca"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá las harinas con especias, tomate, morrón y agua fría de a poco hasta lograr una masa fluida y espesa."
+      },
+      {
+        "text": "Cociná por porciones en panquequera o sartén con un poco de manteca durante 4-5 minutos por lado hasta dorar; rociá con jugo de limón al servir.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "fit250-croquetas-papa-coliflor-yogur",
+    "title": "Croquetas de Papa y Coliflor en Salsa de Tomate y Yogur",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Bolitas doradas de puré de papa y coliflor con hierbas servidas al momento con salsa tibia de tomate especiada y yogur natural.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "coliflor mediana"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "papas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de trigo o de garbanzos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "perejil y albahaca picados"
+      },
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "tomates picados"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "yogur natural"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite vegetal"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano, romero, laurel y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná los tomates en sartén con 2 cdas de aceite y condimentos a fuego lento hasta lograr una salsa; mezclá con el yogur.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Herví las papas y la coliflor hasta tiernizar, pisá todo junto, mezclá con harina, hierbas y sal, formá bolitas y doralas en sartén.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Bañá las croquetas con la salsa de tomate y yogur justo antes de llevar a la mesa."
+      }
+    ]
+  },
+  {
+    "id": "fit250-flan-casero-zapallo",
+    "title": "Flan Casero de Zapallo",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Flan liviano y sin huevo a base de puré de zapallo, leche, maicena, esencia de vainilla y ralladura de limón.",
+    "ingredients": [
+      {
+        "amount": 750,
+        "unit": "g",
+        "item": "zapallo o calabaza"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 11,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "maicena (fécula de maíz)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "ralladura de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el zapallo hasta que esté bien tierno y procesalo hasta obtener un puré liso sin grumos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Mezclá el puré con azúcar, vainilla, ralladura de limón, leche y la maicena disuelta en un poco de leche fría."
+      },
+      {
+        "text": "Llevá a fuego suave revolviendo sin parar hasta que rompa el hervor y espese; volcá en budinera acaramelada y dejá enfriar en heladera.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "fit250-postre-semola-frutas-halava",
+    "title": "Postre de Sémola con Banana y Frutas Secas",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Clásico halava tibio o frío de sémola tostada en manteca, hidratada con leche azucarada, rodajas de banana y frutas secas.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "sémola"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "banana en rodajas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "frutas secas picadas"
+      },
+      {
+        "amount": 750,
+        "unit": "ml",
+        "item": "leche o mitad leche y mitad agua"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tostá la sémola en una cacerola con la manteca a fuego lento durante 15-20 minutos revolviendo con cuchara de madera.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Aparte herví la leche con el azúcar, sumá la banana y las frutas secas, volcá despacio sobre la sémola revolviendo fuerte y cociná tapado 3 minutos hasta absorber.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "fit250-helado-cremoso-vainilla-yogur",
+    "title": "Helado Cremoso de Vainilla y Yogur",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Helado casero suave preparado con crema batida, leche en polvo, yogur natural o de vainilla, azúcar y esencia de vainilla.",
+    "ingredients": [
+      {
+        "amount": 350,
+        "unit": "ml",
+        "item": "crema de leche para batir"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "leche en polvo"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "yogur natural o de vainilla"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdtas",
+        "item": "esencia de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí la crema de leche con el azúcar y la esencia de vainilla hasta que tome consistencia."
+      },
+      {
+        "text": "Integrá suavemente la leche en polvo y el yogur, llevá al freezer tapado y mezclá cada 45 minutos hasta que congele cremoso."
+      }
+    ]
+  },
+  {
+    "id": "fit250-bombones-zapallo-nueces-coco",
+    "title": "Bombones de Zapallo, Nueces y Coco",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Bocaditos dulces artesanales de puré de zapallo cocido al vapor caramelizado en miel con nueces molidas y rebozado en coco rallado.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "puré de zapallo cocido al vapor"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "miel"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "nueces molidas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (ralladura y 1/2 jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "coco rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el puré de zapallo con las nueces, vainilla y ralladura de limón."
+      },
+      {
+        "text": "Cociná la miel con el jugo de limón a fuego lento 5 minutos, sumá el puré y cociná revolviendo hasta lograr una pasta acaramelada.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Antes de que enfríe por completo, armá bolitas con cucharita, pasalas por coco rallado y guardá en la heladera."
+      }
+    ]
+  },
+  {
+    "id": "fit250-bombones-manzana-canela-mani",
+    "title": "Bombones de Manzana, Canela y Maní",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Bombones frutales sin harina de manzana rallada con pasas de uva y canela caramelizados con miel y rebozados en maní picado.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "manzanas peladas ralladas"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (ralladura y 1/2 jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "canela molida"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "maní pelado triturado"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "pasas de uva sin semillas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hidratá las pasas en agua tibia 10 minutos y mezclalas con la manzana rallada, ralladura de limón y canela.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cociná la miel con el jugo de limón 5 minutos a fuego lento, agregá la mezcla de manzana y revolvé hasta obtener una pasta espesa.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Formá bocaditos, rebozalos en maní picado y conservá en la heladera."
+      }
+    ]
+  },
+  {
+    "id": "fit250-alfajores-maiz-mermelada-naranja",
+    "title": "Alfajores de Maíz con Mermelada de Naranja",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tapitas tiernas sin TACC de harina de maíz fina (polenta) y fécula de maíz endulzadas con miel, rellenas con mermelada de naranja y coco.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "harina de maíz fina (polenta)"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "fécula de maíz (maicena)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "miel"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "mermelada de naranja"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "coco rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la harina de maíz, maicena y bicarbonato; agregá en el centro miel, huevos, aceite, vainilla y agua si hace falta hasta formar una masa estirable."
+      },
+      {
+        "text": "Estirá, cortá tapas y horneá sobre placa aceitada a 180 °C durante 10 minutos. Dejá enfriar, rellená con mermelada de naranja y pasá los bordes por coco rallado.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "fit250-halava-manzanas-pasas",
+    "title": "Halava de Manzanas y Pasas",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Dulce tradicional de manzanas cocidas en manteca y azúcar hasta lograr textura de flan firme, con pasas de uva, cortado en rombos.",
+    "ingredients": [
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "manzanas peladas en rodajas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pasas de uva sin semillas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá las manzanas en manteca 4 minutos, cubrí con agua hasta la mitad y herví hasta evaporar el agua.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Agregá el azúcar y cociná revolviendo hasta lograr textura de flan espeso; sumá las pasas 5 minutos más, volcá en fuente enmantecada, enfriá y cortá en rombos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "fit250-peras-caramelo-crema-yogur",
+    "title": "Peras al Caramelo con Crema Batida de Yogur",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Peras firmes glaseadas en jugo cítrico, canela, vainilla y vermut rojo, servidas frías sobre espuma liviana de yogur descremado y claras a nieve.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "naranjas (jugo y cáscara)"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "limones (jugo y cáscara)"
+      },
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "peras firmes en cubos"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "vermut rojo (o jugo de uva)"
+      },
+      {
+        "amount": 2,
+        "unit": "ramas",
+        "item": "canela"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "yogur natural descremado escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "claras de huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "cremor tártaro"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná las peras con jugo y cáscara de mitad de los cítricos, vermut, canela, vainilla y 2 cdas de azúcar impalpable hasta que tiernicen; retirá la fruta y reducí el líquido a jarabe.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Glaseá las peras con el resto del jugo cítrico y el jarabe, y enfriá en heladera."
+      },
+      {
+        "text": "Para la crema, mezclá el yogur escurrido con vainilla e integrá suavemente las 2 claras batidas a nieve con cremor tártaro y el resto del azúcar impalpable."
+      }
+    ]
+  },
+  {
+    "id": "fit250-pastel-liviano-duraznos",
+    "title": "Pastel Liviano de Duraznos",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Torta esponjosa baja en grasas hecha con claras, yogur y leche descremada, cubierta con duraznos jugosos y pincelada con mermelada.",
+    "ingredients": [
+      {
+        "amount": 105,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 105,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "leche en polvo descremada"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "leche descremada"
+      },
+      {
+        "amount": 6,
+        "unit": "cdas",
+        "item": "yogur natural descremado"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "claras de huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 625,
+        "unit": "g",
+        "item": "duraznos en trozos con su jugo"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "jugo de naranja y gotas de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mermelada de damasco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tamizá harina, azúcar rubia, leche en polvo y una pizca de nuez moscada; integrá leche, yogur, claras y vainilla hasta lograr masa lisa y volcá en molde."
+      },
+      {
+        "text": "Mezclá los duraznos con azúcar y jugos cítricos, distribuilos sobre la masa y horneá a 190 °C por 30-40 minutos hasta dorar; pincelá el borde con mermelada.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "fit250-pastel-angel-claras-vainilla",
+    "title": "Pastel de Ángel de Claras y Vainilla",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Bizcochuelo aireado y sin grasas a base de claras a punto nieve, azúcar impalpable, harina tamizada y esencia de vainilla.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "harina de trigo común"
+      },
+      {
+        "amount": 275,
+        "unit": "g",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "claras de huevo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "cremor tártaro"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdtas",
+        "item": "esencia de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tamizá la harina con 105 g del azúcar impalpable. Batí las claras hasta espumar, agregá el cremor tártaro y seguí batiendo mientras sumás el resto del azúcar y la vainilla hasta lograr merengue firme."
+      },
+      {
+        "text": "Incorporá la harina en forma envolvente, volcá en molde savarín sin enmantecar y horneá a 180 °C por 35 minutos.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Dejá enfriar el molde boca abajo al menos 1 hora antes de desmoldar."
+      }
+    ]
   }
 ]
