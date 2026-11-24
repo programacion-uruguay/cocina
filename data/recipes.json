@@ -2130,5 +2130,524 @@
         "text": "Doblá al medio con espátula y serví enseguida."
       }
     ]
+  },
+  {
+    "id": "celiaco-sopa-verduras-juliana",
+    "title": "Sopa de Verduras en Juliana Sin Gluten",
+    "metodo": "olla",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sopa casera económica, liviana y naturalmente libre de gluten con verduras de estación cortadas en tiras finas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla grande"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "zanahorias"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate"
+      },
+      {
+        "amount": 1,
+        "unit": "rama",
+        "item": "apio y puerro"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "repollo blanco"
+      },
+      {
+        "amount": 3,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "pimentón dulce sin TACC"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "perejil picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá y cortá la cebolla, zanahoria, apio, puerro y repollo en juliana fina, y el tomate en cubos."
+      },
+      {
+        "text": "Dorá apenas el ajo fileteado en olla con aceite, retirá un segundo del fuego y sumá el pimentón dulce."
+      },
+      {
+        "text": "Agregá todas las verduras, rehogá 3 minutos, cubrí con 2 litros de agua y cociná 30 minutos a fuego suave.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "celiaco-mejillones-vino-papas",
+    "title": "Mejillones al Vino Blanco con Papas (Sin TACC)",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Mejillones frescos cocidos al vapor con ajo, laurel y vino blanco sobre base de papas hervidas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "kg",
+        "item": "mejillones limpios"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "vino blanco"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "hojas de laurel"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "pimentón dulce sin TACC"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas peladas en agua con sal durante 15 minutos y reservá.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Rehogá el ajo con aceite de oliva y laurel, sumá los mejillones y el vino blanco y tapá 2 minutos hasta que abran.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Reducí el caldo 4 minutos, aplastá apenas las papas como base y serví los mejillones con su salsa y pimentón."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-papas-rellenas-huevo-aceitunas",
+    "title": "Papas Rellenas con Huevo, Aceitunas y Mayonesa Casera",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Papas hervidas rellenas con huevo duro, aceitunas, jamón o panceta y mayonesa casera sin gluten.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "papas grandes"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "aceitunas verdes sin carozo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "jamón cocido o panceta sin TACC"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "aceite de oliva o girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "jugo de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas enteras 20 minutos hasta que estén tiernas sin romperse; aparte herví 2 huevos 10 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Prepará una mayonesa casera licuando 2 huevos crudos con el aceite, pizca de sal y limón."
+      },
+      {
+        "text": "Ahuecá las papas al medio, mezclá la pulpa con huevo duro, aceitunas, jamón dorado y mayonesa, y rellená."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-carne-al-caldero-papas",
+    "title": "Carne de Olla con Papas al Pimentón (Sin TACC)",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Carne tierna cocida en olla con su propio caldo y papas al pimentón, naturalmente libre de gluten.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "kg",
+        "item": "falda u osobuco de carne vacuna"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "pimentón dulce sin TACC"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "sal gruesa"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví la carne cubierta de agua con sal durante 60 minutos hasta que esté bien tierna (o 25 min en olla a presión).",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Retirá la carne y en ese mismo caldo herví las papas peladas 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Serví la carne y las papas rociadas con aceite de oliva, pimentón dulce y 2 cucharadas del caldo."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-hamburguesa-salmon-pure",
+    "title": "Hamburguesas de Salmón con Puré Cremoso de Papas",
+    "metodo": "olla",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Medallones caseros de pescado sin pan rallado acompañados con puré de papas y arvejas.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "salmón o merluza sin piel ni espinas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "yemas de huevo"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "crema de leche sin TACC"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "papas peladas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "arvejas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá el pescado seco con sal, pimienta, las yemas y la crema hasta lograr una pasta suave; armá 4 medallones."
+      },
+      {
+        "text": "Sellá los medallones en sartén con manteca 3 minutos por lado.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Herví las papas 15 minutos, pisalas con manteca, leche tibia y nuez moscada; serví con arvejas.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-ensalada-papas-palta",
+    "title": "Ensalada Completa de Papas, Palta, Morrón y Huevo",
+    "metodo": "fresco",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada fresca y saciante sin gluten, ideal para días cálidos o viandas.",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "paltas maduras"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "morrones rojos"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "anchoas o atún al natural"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "aceite de oliva y limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas en agua con sal 20 minutos y los huevos 10 minutos; dejá enfriar.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Salteá apenas el morrón en tiras y cortá en cubos las papas, los huevos y la palta rociada con limón."
+      },
+      {
+        "text": "Mezclá todo con el pescado escurrido y condimentá con aceite de oliva y pimienta."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-arroz-con-leche-cremoso",
+    "title": "Arroz con Leche Cremoso a la Canela y Limón",
+    "metodo": "olla",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 45,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Postre tradicional uruguayo sin gluten, perfumado con cáscara de limón y rama de canela.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "arroz común"
+      },
+      {
+        "amount": 1.5,
+        "unit": "l",
+        "item": "leche entera o descremada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (cáscara fina)"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "rama de canela"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "azúcar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Infusioná la leche tibia con la cáscara de limón y la rama de canela durante 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Herví el arroz con 200 ml de agua y pizca de sal hasta absorber; pasalo a la leche y cociná a fuego mínimo 35 minutos.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Agregá el azúcar al final, mezclá 5 minutos más y serví con canela molida."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-tarta-almendras-santiago",
+    "title": "Tarta de Almendras Sin Harina (Estilo Santiago)",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tarta húmeda naturalmente sin gluten hecha únicamente con almendras molidas, huevo, azúcar y limón.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "almendras molidas"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (ralladura)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "canela molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con el azúcar, la ralladura de limón y la canela."
+      },
+      {
+        "text": "Incorporá las almendras molidas con espátula en movimientos suaves."
+      },
+      {
+        "text": "Volcá en molde enmantecado y horneá a 180 °C durante 35 minutos hasta que salga seco el palillo.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "celiaco-flan-naranja-casero",
+    "title": "Flan Casero de Naranja Sin TACC",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Flan suave y aromático aprovechando naranjas de estación uruguayas, libre de gluten.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "naranjas (jugo y ralladura)"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "azúcar (para flan y caramelo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Prepará caramelo con 5 cdas de azúcar y 3 de agua en la flanera hasta color miel."
+      },
+      {
+        "text": "Entibiá la leche con cáscara de naranja y vainilla; mezclá con los huevos batidos, azúcar y jugo de naranja."
+      },
+      {
+        "text": "Llevá a baño María en horno a 190 °C durante 50 minutos hasta cuajar.",
+        "timerMinutes": 50
+      }
+    ]
   }
 ]
