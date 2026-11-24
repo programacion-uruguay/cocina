@@ -3044,6 +3044,98 @@ button {
   }
 }
 
+/* Barra de Adaptación de Ingredientes por Dieta (Estudio de Receta) */
+.diet-adapt-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+  padding: 0.65rem 0.85rem;
+  margin-bottom: var(--space-3);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.diet-adapt-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.diet-adapt-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.diet-adapt-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.32rem 0.7rem;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--surface);
+  border: 1px solid var(--primary);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+}
+
+.diet-adapt-toggle input {
+  accent-color: var(--primary);
+}
+
+.diet-ok-pill {
+  padding: 0.25rem 0.65rem;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: #15803d;
+  background: rgba(34, 197, 94, 0.14);
+  border-radius: var(--radius-pill);
+}
+
+.cb-sync-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.22rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #065f46;
+  background: rgba(16, 185, 129, 0.14);
+  border: 1px solid rgba(16, 185, 129, 0.32);
+  border-radius: var(--radius-pill);
+}
+
+.check-item.is-adapted {
+  border-color: rgba(16, 185, 129, 0.45);
+  background: rgba(16, 185, 129, 0.07);
+}
+
+.ing-adapt-meta {
+  display: block;
+  margin-top: 0.18rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.ing-adapt-badge {
+  display: inline-block;
+  padding: 0.08rem 0.42rem;
+  margin-right: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #065f46;
+  background: rgba(16, 185, 129, 0.18);
+  border-radius: var(--radius-pill);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

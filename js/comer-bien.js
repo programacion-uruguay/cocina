@@ -1855,34 +1855,63 @@
     const restrictions = (state.user.restrictions || []).map((r) => r.toLowerCase());
     const has = (kw) => restrictions.some((r) => r.includes(kw));
 
+    const idAndTitle = `${radialRecipe.id || ''} ${radialRecipe.title || ''}`.toLowerCase();
     const text = [
+      radialRecipe.id || '',
       radialRecipe.title || '',
       radialRecipe.categoria || '',
-      ...(radialRecipe.ingredients || []).map((i) => i.item || ''),
+      ...(radialRecipe.ingredients || []).map((i) => (typeof i === 'string' ? i : i.item || '')),
     ]
       .join(' ')
       .toLowerCase();
 
     if (pattern === 'sin_gluten' || has('gluten') || has('celiaqu')) {
-      if (/(trigo|harina|pan |pan$|fideo|pasta|avena|galleta|tarta|masa)/.test(text) && !/sin tacc|maíz|arroz/.test(text)) {
-        return false;
-      }
+      const explicitlyGlutenFree = /celiaco-|sin tacc|sin gluten/.test(idAndTitle);
+      const hasGlutenIngredient =
+        /(harina de trigo|harina 000|harina común|harina integral|harina para pan|\bharina\b|trigo|sémola|burgol|salvado|avena|fideo|espagueti|fettuccini|tallar|penne|mostachol|macarr|rigatoni|caracol|moñito|codito|lasaña|panqueque|tapa.*copetín|galleta|pan |miñón|baguette|lactal)/.test(
+          text
+        ) && !/harina de (arroz|maíz|garbanzo|almendra)|premezcla sin tacc/.test(text);
+      if (!explicitlyGlutenFree && hasGlutenIngredient) return false;
     }
+
     if (pattern === 'sin_lactosa' || has('lactosa') || has('lácteo')) {
-      if (/(leche|queso|yogur|ricota|crema|manteca|muzzarella)/.test(text) && !/sin lactosa|vegetal/.test(text)) {
+      if (
+        /(leche|queso|yogur|ricota|crema de leche|manteca|mozzarella|muzzarella|parmesano|sardo|provolone|colonia|dambo|gruyere|cheddar|roquefort|salsa blanca|bechamel)/.test(
+          text
+        ) &&
+        !/sin lactosa|deslactosad|vegano|vegana|bebida vegetal/.test(text)
+      ) {
         return false;
       }
     }
+
     if (has('huevo') && /huevo|clara|yema/.test(text)) return false;
-    if ((has('pescado') || has('marisco')) && /(salmón|salmon|merluza|atún|pescado|brótola|camar)/.test(text)) return false;
-    if ((pattern === 'bajo_sodio' || has('sodio')) && /(lata|fiambre|jamón|panceta|salame|soja)/.test(text)) return false;
+    if ((has('pescado') || has('marisco')) && /(salmón|salmon|merluza|corvina|atún|pescado|brótola|camar|mejill|anchoa)/.test(text)) return false;
+    if (has('frutos secos') && /(nuez|nueces|almendra|maní|avellana|castaña)/.test(text)) return false;
+    if ((pattern === 'bajo_sodio' || has('sodio') || has('hipertens')) && /(fiambre|jamón|panceta|salame|pepperoni|chorizo|anchoa|alcaparra|aceituna|soja)/.test(text)) return false;
+
+    if (pattern === 'sin_azucar' || has('azúcar') || has('azucar')) {
+      if (/(\bazúcar\b|miel|dulce de leche|membrillo)/.test(text) && !/sin azúcar|diabetes-/.test(idAndTitle) && radialRecipe.categoria === 'dulces') {
+        return false;
+      }
+    }
 
     if (pattern === 'vegana' || has('vegano')) {
-      if (/(pollo|carne|vaca|cerdo|jamón|pescado|salmón|merluza|atún|huevo|leche|queso|yogur|ricota|manteca|crema|miel)/.test(text)) {
+      if (
+        /(pollo|pechuga|suprema|muslo|carne|vaca|vacun|res|bife|cuadril|nalga|peceto|cerdo|chorizo|panceta|jamón|pepperoni|salame|pescado|salmón|salmon|merluza|corvina|atún|anchoa|camar|mejill|huevo|clara|yema|leche|queso|yogur|ricota|mozzarella|muzzarella|parmesano|sardo|provolone|colonia|dambo|gruyere|cheddar|roquefort|manteca|crema de leche|miel)/.test(
+          text
+        ) &&
+        !/vegano-|vegana/.test(idAndTitle)
+      ) {
         return false;
       }
     } else if (pattern === 'vegetariana' || has('vegetariano')) {
-      if (/(pollo|carne|vaca|cerdo|jamón|pescado|salmón|merluza|atún|lomo|asado|milanesa de)/.test(text)) {
+      if (
+        /(pollo|pechuga|suprema|muslo|carne|vaca|vacun|res|bife|cuadril|nalga|peceto|cerdo|chorizo|panceta|jamón|pepperoni|salame|pescado|salmón|salmon|merluza|corvina|atún|anchoa|camar|mejill|lomo|asado|milanesa de carne)/.test(
+          text
+        ) &&
+        !/vegano-|vegetariano/.test(idAndTitle)
+      ) {
         return false;
       }
     }

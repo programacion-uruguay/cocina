@@ -18,6 +18,7 @@
     theme: loadStorage(THEME_KEY, "warm", (v) => ["light", "warm", "dark"].includes(v)),
     favorites: loadJsonStorage(FAVORITES_KEY, []),
     dietPlan: loadStorage(DIET_PLAN_KEY, "balanced", (v) => Boolean(DIET_PLANS[v])),
+    adaptIngredients: true,
     customMedia: loadJsonStorage(CUSTOM_MEDIA_KEY, {}),
     lightMode: false,
     currentServings: 2,
@@ -187,13 +188,88 @@
     };
   }
 
+  function getComerBienActiveUser() {
+    try {
+      return window.CB_STORAGE ? window.CB_STORAGE.getActiveUser() : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function isRecipeCompatibleWithComerBienUser(radialRecipe, user) {
+    if (!user) return true;
+    const pattern = String(user.dietPattern || "equilibrada").toLowerCase();
+    const restrictions = (user.restrictions || []).map((r) => String(r).toLowerCase());
+    const has = (kw) => restrictions.some((r) => r.includes(kw));
+
+    const idAndTitle = `${radialRecipe.id || ""} ${radialRecipe.title || ""}`.toLowerCase();
+    const text = [
+      radialRecipe.id || "",
+      radialRecipe.title || "",
+      radialRecipe.categoria || "",
+      ...(radialRecipe.ingredients || []).map((i) => (typeof i === "string" ? i : i.item || ""))
+    ]
+      .join(" ")
+      .toLowerCase();
+
+    if (pattern === "sin_gluten" || has("gluten") || has("celiaqu")) {
+      const explicitlyGF = /celiaco-|sin tacc|sin gluten/.test(idAndTitle);
+      const hasGluten =
+        /(harina de trigo|harina 000|harina común|harina integral|harina para pan|\bharina\b|trigo|sémola|burgol|salvado|avena|fideo|espagueti|fettuccini|tallar|penne|mostachol|macarr|rigatoni|caracol|moñito|codito|lasaña|panqueque|tapa.*copetín|galleta|pan |miñón|baguette|lactal)/.test(
+          text
+        ) && !/harina de (arroz|maíz|garbanzo|almendra)|premezcla sin tacc/.test(text);
+      if (!explicitlyGF && hasGluten) return false;
+    }
+    if (pattern === "sin_lactosa" || has("lactosa") || has("lácteo")) {
+      if (
+        /(leche|queso|yogur|ricota|crema de leche|manteca|mozzarella|muzzarella|parmesano|sardo|provolone|colonia|dambo|gruyere|cheddar|roquefort|salsa blanca|bechamel)/.test(
+          text
+        ) &&
+        !/sin lactosa|deslactosad|vegano|vegana|bebida vegetal/.test(text)
+      ) {
+        return false;
+      }
+    }
+    if (has("huevo") && /huevo|clara|yema/.test(text)) return false;
+    if ((has("pescado") || has("marisco")) && /(salmón|salmon|merluza|corvina|atún|pescado|brótola|camar|mejill|anchoa)/.test(text)) return false;
+    if (has("frutos secos") && /(nuez|nueces|almendra|maní|avellana|castaña)/.test(text)) return false;
+    if ((pattern === "bajo_sodio" || has("sodio") || has("hipertens")) && /(fiambre|jamón|panceta|salame|pepperoni|chorizo|anchoa|alcaparra|aceituna|soja)/.test(text)) return false;
+    if (pattern === "sin_azucar" || has("azúcar") || has("azucar")) {
+      if (/(\bazúcar\b|miel|dulce de leche|membrillo)/.test(text) && !/sin azúcar|diabetes-/.test(idAndTitle) && radialRecipe.categoria === "dulces") {
+        return false;
+      }
+    }
+    if (pattern === "vegana" || has("vegano")) {
+      if (
+        /(pollo|pechuga|suprema|muslo|carne|vaca|vacun|res|bife|cuadril|nalga|peceto|cerdo|chorizo|panceta|jamón|pepperoni|salame|pescado|salmón|salmon|merluza|corvina|atún|anchoa|camar|mejill|huevo|clara|yema|leche|queso|yogur|ricota|mozzarella|muzzarella|parmesano|sardo|provolone|colonia|dambo|gruyere|cheddar|roquefort|manteca|crema de leche|miel)/.test(
+          text
+        ) &&
+        !/vegano-|vegana/.test(idAndTitle)
+      ) {
+        return false;
+      }
+    } else if (pattern === "vegetariana" || has("vegetariano")) {
+      if (
+        /(pollo|pechuga|suprema|muslo|carne|vaca|vacun|res|bife|cuadril|nalga|peceto|cerdo|chorizo|panceta|jamón|pepperoni|salame|pescado|salmón|salmon|merluza|corvina|atún|anchoa|camar|mejill|lomo|asado|milanesa de carne)/.test(
+          text
+        ) &&
+        !/vegano-|vegetariano/.test(idAndTitle)
+      ) {
+        return false;
+      }
+    }
+    return true;
+  }
+
   function getFilteredRecipesForSelect() {
     const ctx = state.activeFilter || getActiveFilterContext();
     const path = ctx.selectedPath || {};
     const q = (ctx.searchQuery || "").trim().toLowerCase();
+    const cbUser = getComerBienActiveUser();
 
     const filtered = state.recipes.filter((r) => {
       if (ctx.onlyFavorites && !isFavorite(r.id)) return false;
+      if (cbUser && !isRecipeCompatibleWithComerBienUser(r, cbUser)) return false;
       if (path.momento && r.momento !== path.momento) return false;
       if (path.categoria && r.categoria !== path.categoria) return false;
       if (path.metodo && r.metodo !== path.metodo) return false;
@@ -202,7 +278,7 @@
       if (q) {
         const inTitle = r.title.toLowerCase().includes(q);
         const inDesc = (r.description || "").toLowerCase().includes(q);
-        const inIng = r.ingredients.some((ing) => ing.item.toLowerCase().includes(q));
+        const inIng = r.ingredients.some((ing) => (ing.item || String(ing)).toLowerCase().includes(q));
         if (!inTitle && !inDesc && !inIng) return false;
       }
       return true;
@@ -526,7 +602,10 @@
     `;
   }
 
-  function renderIngredientsTab(r, multiplier) {
+  function renderIngredientsTab(r, multiplier, adaptation, cbUser) {
+    const activePlan = DIET_PLANS[state.dietPlan] || DIET_PLANS.balanced;
+    const ingList = adaptation ? adaptation.ingredients : r.ingredients;
+
     return `
       <div class="recipe-tab-panel">
         <div class="section-head">
@@ -541,17 +620,55 @@
           </div>
         </div>
 
+        <div class="diet-adapt-toolbar" aria-label="Adaptación según tu dieta">
+          <div class="diet-adapt-left">
+            <label for="ing-diet-select" class="diet-select-label">🥗 Mi dieta:</label>
+            <select id="ing-diet-select" class="market-select">
+              ${Object.values(DIET_PLANS)
+                .map(
+                  (p) => `<option value="${p.key}" ${p.key === state.dietPlan ? "selected" : ""}>${escapeHtml(p.shortLabel)}</option>`
+                )
+                .join("")}
+            </select>
+            ${
+              cbUser
+                ? `<span class="cb-sync-pill" title="Sincronizado con tu sesión de COMER BIEN">🌿 Perfil @${escapeHtml(cbUser.username)}</span>`
+                : ""
+            }
+          </div>
+
+          <div class="diet-adapt-right">
+            ${
+              adaptation && adaptation.hasAvailableAdaptations
+                ? `<label class="diet-adapt-toggle">
+                    <input type="checkbox" id="ing-adapt-toggle" ${state.adaptIngredients ? "checked" : ""} />
+                    <span>🔄 Adaptar ingredientes (${adaptation.changedCount})</span>
+                  </label>`
+                : state.dietPlan !== "balanced"
+                  ? `<span class="diet-ok-pill">✓ 100% apta para ${escapeHtml(activePlan.label)}</span>`
+                  : ""
+            }
+          </div>
+        </div>
+
         <ul class="checklist checklist-grid">
-          ${r.ingredients
+          ${ingList
             .map((ing, idx) => {
               const qty = formatAmount(ing.amount, multiplier);
               const unit = ing.unit ? ` ${ing.unit}` : "";
               const checked = Boolean(state.checkedIngredients[idx]);
               return `
                 <li>
-                  <label class="check-item">
+                  <label class="check-item ${ing.isAdapted ? "is-adapted" : ""}">
                     <input type="checkbox" class="recipe-ing-checkbox" data-ing-idx="${idx}" id="ing-${idx}" ${checked ? "checked" : ""} />
-                    <span><strong>${escapeHtml(qty)}${escapeHtml(unit)}</strong> ${escapeHtml(ing.item)}</span>
+                    <span>
+                      <strong>${escapeHtml(qty)}${escapeHtml(unit)}</strong> ${escapeHtml(ing.item)}
+                      ${
+                        ing.isAdapted && ing.originalItem
+                          ? `<small class="ing-adapt-meta"><span class="ing-adapt-badge">${escapeHtml(ing.adaptBadge || "Adaptado")}</span>Reemplaza: ${escapeHtml(ing.originalItem)}</small>`
+                          : ""
+                      }
+                    </span>
                   </label>
                 </li>
               `;
@@ -610,7 +727,7 @@
     `;
   }
 
-  function renderNutritionTab(baseMedia, evalResult) {
+  function renderNutritionTab(baseMedia, evalResult, adaptation, cbUser) {
     const { plan, perServing, kcalPct, proteinPct, carbsPct, fatPct, status, message } = evalResult;
     const totalBatchKcal = perServing.kcal * state.currentServings;
     const clampPct = (pct) => Math.min(100, Math.max(4, pct));
@@ -620,10 +737,13 @@
         <div class="nutrition-head">
           <div>
             <h3>Control de Calorías y Dietas</h3>
-            <p class="nutrition-sub">Valores estimados por porción · ${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"} suman <strong>${totalBatchKcal} kcal</strong> totales.</p>
+            <p class="nutrition-sub">
+              Calculado según ingredientes reales · ${state.currentServings} ${state.currentServings === 1 ? "porción" : "porciones"} suman <strong>${totalBatchKcal} kcal</strong> totales.
+              ${cbUser ? `<span class="cb-sync-pill" style="margin-left:6px;">🌿 @${escapeHtml(cbUser.username)}</span>` : ""}
+            </p>
           </div>
           <div class="diet-select-wrap">
-            <label for="diet-plan-select" class="diet-select-label">Mi objetivo:</label>
+            <label for="diet-plan-select" class="diet-select-label">Mi dieta / objetivo:</label>
             <select id="diet-plan-select" class="market-select">
               ${Object.values(DIET_PLANS)
                 .map(
@@ -633,6 +753,24 @@
             </select>
           </div>
         </div>
+
+        ${
+          adaptation && adaptation.hasAvailableAdaptations
+            ? `<div class="diet-adapt-toolbar" style="margin-bottom:12px;">
+                <span style="font-size:0.8rem;font-weight:600;">
+                  ${
+                    state.adaptIngredients
+                      ? `✅ Macros calculados con <strong>${adaptation.changedCount}</strong> ${adaptation.changedCount === 1 ? "ingrediente sustituido" : "ingredientes sustituidos"} para ${escapeHtml(plan.label)}.`
+                      : `💡 Hay <strong>${adaptation.changedCount}</strong> sustituciones disponibles para ${escapeHtml(plan.label)}.`
+                  }
+                </span>
+                <label class="diet-adapt-toggle">
+                  <input type="checkbox" id="nutri-adapt-toggle" ${state.adaptIngredients ? "checked" : ""} />
+                  <span>🔄 Adaptar ingredientes</span>
+                </label>
+              </div>`
+            : ""
+        }
 
         <div class="macros-grid">
           <div class="macro-box is-kcal">
@@ -847,18 +985,20 @@
     `;
   }
 
-  function renderRightTabbedPane(r, baseMedia, evalResult, multiplier) {
+  function renderRightTabbedPane(r, baseMedia, evalResult, multiplier, adaptation, cbUser) {
     const activeTab = state.rightTab || "ingredients";
+    const marketRecipe =
+      adaptation && state.adaptIngredients ? { ...r, ingredients: adaptation.ingredients } : r;
     let tabContentHtml = "";
 
     if (activeTab === "steps") {
       tabContentHtml = renderStepsTab(r);
     } else if (activeTab === "nutrition") {
-      tabContentHtml = renderNutritionTab(baseMedia, evalResult);
+      tabContentHtml = renderNutritionTab(baseMedia, evalResult, adaptation, cbUser);
     } else if (activeTab === "market") {
-      tabContentHtml = renderSupermarketWorkspace(r, multiplier);
+      tabContentHtml = renderSupermarketWorkspace(marketRecipe, multiplier);
     } else {
-      tabContentHtml = renderIngredientsTab(r, multiplier);
+      tabContentHtml = renderIngredientsTab(r, multiplier, adaptation, cbUser);
     }
 
     return `
@@ -890,14 +1030,25 @@
     if (!r) return;
 
     syncHeaderState();
-    const baseMedia = getRecipeNutritionAndMedia(r);
-    const evalResult = evaluateDietCompatibility(baseMedia.nutrition, state.dietPlan, state.lightMode);
+    const cbUser = getComerBienActiveUser();
+    const adaptation =
+      typeof adaptRecipeIngredientsForDiet === "function"
+        ? adaptRecipeIngredientsForDiet(r, state.dietPlan, cbUser, state.adaptIngredients)
+        : null;
+    const baseMedia = getRecipeNutritionAndMedia(
+      r,
+      adaptation && state.adaptIngredients ? adaptation.ingredients : null
+    );
+    const evalResult = evaluateDietCompatibility(baseMedia.nutrition, state.dietPlan, state.lightMode, {
+      changedCount: adaptation ? adaptation.changedCount : 0,
+      isAdaptedActive: Boolean(state.adaptIngredients)
+    });
     const multiplier = state.currentServings / (r.servings || 1);
 
     els.studio.innerHTML = `
       <div class="recipe-studio-grid">
         ${renderLeftVisualPane(r, baseMedia, evalResult)}
-        ${renderRightTabbedPane(r, baseMedia, evalResult, multiplier)}
+        ${renderRightTabbedPane(r, baseMedia, evalResult, multiplier, adaptation, cbUser)}
       </div>
     `;
 
@@ -1125,16 +1276,42 @@
       });
     }
 
-    // Nutrición y dietas
+    // Nutrición y dietas (sincronizado entre Ingredientes y Calorías)
+    const handleDietPlanChange = (nextPlan) => {
+      state.dietPlan = nextPlan;
+      if (nextPlan !== "balanced") {
+        state.adaptIngredients = true;
+      }
+      try {
+        localStorage.setItem(DIET_PLAN_KEY, state.dietPlan);
+      } catch {
+        // Ignorar almacenamiento privado
+      }
+      renderStudio();
+    };
+
     const dietSelect = document.getElementById("diet-plan-select");
     if (dietSelect) {
-      dietSelect.addEventListener("change", (e) => {
-        state.dietPlan = e.target.value;
-        try {
-          localStorage.setItem(DIET_PLAN_KEY, state.dietPlan);
-        } catch {
-          // Ignorar almacenamiento privado
-        }
+      dietSelect.addEventListener("change", (e) => handleDietPlanChange(e.target.value));
+    }
+
+    const ingDietSelect = document.getElementById("ing-diet-select");
+    if (ingDietSelect) {
+      ingDietSelect.addEventListener("change", (e) => handleDietPlanChange(e.target.value));
+    }
+
+    const ingAdaptToggle = document.getElementById("ing-adapt-toggle");
+    if (ingAdaptToggle) {
+      ingAdaptToggle.addEventListener("change", (e) => {
+        state.adaptIngredients = e.target.checked;
+        renderStudio();
+      });
+    }
+
+    const nutriAdaptToggle = document.getElementById("nutri-adapt-toggle");
+    if (nutriAdaptToggle) {
+      nutriAdaptToggle.addEventListener("change", (e) => {
+        state.adaptIngredients = e.target.checked;
         renderStudio();
       });
     }
@@ -1341,6 +1518,14 @@
 
   async function init() {
     applyTheme(state.theme);
+    const cbUser = getComerBienActiveUser();
+    if (cbUser && typeof resolveDietPlanFromComerBienUser === "function") {
+      const mapped = resolveDietPlanFromComerBienUser(cbUser);
+      if (mapped && DIET_PLANS[mapped]) {
+        state.dietPlan = mapped;
+        state.adaptIngredients = true;
+      }
+    }
     bindGlobalEvents();
 
     try {
