@@ -2649,5 +2649,1001 @@
         "timerMinutes": 50
       }
     ]
+  },
+  {
+    "id": "celiaco-alfajorcitos-maicena",
+    "title": "Alfajorcitos de Maicena Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Alfajores clásicos uruguayos sin TACC, suaves y rellenos con dulce de leche y coco rallado.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "yemas de huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdta",
+        "item": "polvo de hornear sin TACC"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "dulce de leche repostero sin TACC"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "coco rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí la manteca con el azúcar hasta cremar; sumá las yemas y esencia de vainilla."
+      },
+      {
+        "text": "Incorporá la maicena, harina de arroz y polvo de hornear sin TACC; enfriá 30 minutos en heladera.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Estirá a 1 cm, cortá medallones y horneá a 180 °C 12 minutos sin dorar. Rellená con dulce de leche y coco.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "celiaco-bizcochos-mandioca",
+    "title": "Bizcochos de Fécula de Mandioca y Naranja",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Bizcochitos livianos sin gluten perfumados con ralladura de naranja.",
+    "ingredients": [
+      {
+        "amount": 260,
+        "unit": "g",
+        "item": "fécula de mandioca"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "manteca"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "ralladura de naranja"
+      },
+      {
+        "amount": 3,
+        "unit": "cdta",
+        "item": "polvo de hornear sin TACC"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la fécula de mandioca con el polvo de hornear, azúcar, ralladura de naranja, manteca y huevos."
+      },
+      {
+        "text": "Amasá hasta lograr una masa suave, cortá medallones y horneá a 200 °C unos 15 minutos.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-bizcochitos-salados-maicena",
+    "title": "Bizcochitos Salados de Maicena para el Mate",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Bizcochitos salados sin gluten bien rápidos con maicena, manteca y huevo.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear sin TACC"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Uní todos los ingredientes formando una masa suave sin amasar demasiado."
+      },
+      {
+        "text": "Estirá, cortá medallones, pintá con huevo si deseás y horneá a 180 °C por 15 minutos.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-bruscheta-tomate-sin-tacc",
+    "title": "Bruschetas de Pan Sin Gluten con Tomate y Ajo",
+    "metodo": "parrilla",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tostadas rápidas sin TACC frotadas con ajo, aceite de oliva, tomate fresco y orégano.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "rebanadas",
+        "item": "pan sin gluten"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates maduros en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tostá las rebanadas de pan sin TACC en sartén o tostadora.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Frotá cada tostada con ajo, rociá con aceite de oliva, colocá tomate en rodajas y espolvoreá orégano."
+      }
+    ]
+  },
+  {
+    "id": "celiaco-bunuelos-manzana",
+    "title": "Buñuelos Rápidos de Manzana Sin Gluten",
+    "metodo": "olla",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Buñuelos esponjosos de manzana rallada con maicena y canela listos en minutos.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "manzana grande rallada"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "canela molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rallá la manzana y mezclala con los huevos batidos, azúcar, canela y maicena."
+      },
+      {
+        "text": "Cociná por cucharadas en sartén aceitada hasta dorar de ambos lados.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "celiaco-chipa-mandioca-queso",
+    "title": "Chipa Clásico de Fécula de Mandioca y Queso",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Pancitos tibios de queso y fécula de mandioca, naturalmente sin gluten.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "fécula de mandioca"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso fresco o rallado"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la fécula de mandioca tamizada con la sal, manteca fría en cubitos y el queso."
+      },
+      {
+        "text": "Agregá los huevos batidos y la leche de a poco hasta lograr una masa tierna."
+      },
+      {
+        "text": "Formá bolitas y horneá a 200 °C durante 20 minutos hasta dorar.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "celiaco-coquitos-caseros",
+    "title": "Coquitos Caseros al Horno (3 Ingredientes)",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 170,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Conitos crocantes por fuera y húmedos por dentro con solo coco rallado, huevo y azúcar.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "coco rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "leche (si hace falta ligar)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí la clara a nieve, sumá la yema, el azúcar y el coco rallado mezclando suave."
+      },
+      {
+        "text": "Disponé montoncitos en placa con papel manteca y horneá a 170 °C por 12 a 15 minutos.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "celiaco-empanaditas-membrillo",
+    "title": "Empanaditas Dulces de Membrillo Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Masitas hojaldradas sin TACC rellenas con dulce de membrillo pisado.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "dulce de membrillo sin TACC"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Uní las harinas con 3 cdas de azúcar, polvo de hornear, manteca, huevo y leche; dejá reposar 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Estirá, cortá tapas y rellená con dulce de membrillo pisado con un chorrito de agua tibia."
+      },
+      {
+        "text": "Cerrá los bordes, pintá con huevo y horneá a 180 °C por 25 minutos.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "celiaco-galletitas-pepas-membrillo",
+    "title": "Galletitas Pepas de Membrillo Sin TACC",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Clásicas pepas de merienda aptas para celíacos con harina de arroz, maicena y membrillo.",
+    "ingredients": [
+      {
+        "amount": 110,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "dulce de membrillo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí la manteca con el azúcar, el huevo y vainilla; sumá las harinas tamizadas."
+      },
+      {
+        "text": "Formá bollitos, hundí el centro con el dedo, rellená con membrillo y horneá 15 minutos a 180 °C.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-galletitas-papa-queso",
+    "title": "Galletitas Saladas de Puré de Papa y Queso Sin Gluten",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Galletitas saladas tiernas elaboradas con puré de papa, maicena y orégano.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "puré de papa"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "yema de huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "orégano, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los ingredientes secos e incorporalos al puré de papa junto con la manteca y la yema."
+      },
+      {
+        "text": "Estirá, cortá medallones y horneá a 180 °C unos 15 minutos hasta que doren.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-kiveve-zapallo-polenta",
+    "title": "Kiveve Cremoso de Zapallo y Polenta con Queso",
+    "metodo": "olla",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Plato tradicional litoraleño súper económico, cremoso y sin gluten a base de zapallo, harina de maíz y queso fresco.",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "zapallo cabutiá o calabaza"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de maíz (polenta)"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso fresco en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el zapallo pelado en 3 tazas de agua hasta que esté tierno y pisalo o mixealo.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Rehogá la cebolla en aceite, agregá el zapallo, la leche, sal y la harina de maíz en lluvia."
+      },
+      {
+        "text": "Cociná revolviendo 10 minutos; retirá del fuego y sumá el queso fresco desmenuzado.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pan-polenta-queso",
+    "title": "Pan Esponjoso de Polenta y Queso Sin TACC",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Pan salado húmedo y rendidor hecho con polenta, queso crema y leche.",
+    "ingredients": [
+      {
+        "amount": 260,
+        "unit": "g",
+        "item": "polenta (harina de maíz)"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 350,
+        "unit": "ml",
+        "item": "leche caliente"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "polvo de hornear sin TACC"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la polenta con sal y polvo de hornear, sumá la leche caliente y dejá hidratar 5 minutos."
+      },
+      {
+        "text": "Batí los huevos con manteca y queso crema; uní todo y volcá en budinera enmantecada."
+      },
+      {
+        "text": "Horneá a 180 °C durante 30 minutos hasta que esté dorado.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pan-ricota-esponjoso",
+    "title": "Pan Esponjoso de Ricota Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Pan proteico y liviano de ricota magra, ideal para tostadas o base de pizza sin TACC.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina de arroz y maicena"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "polvo de hornear sin TACC"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "leche o agua con gas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pisá la ricota con los huevos usando un tenedor hasta unir bien."
+      },
+      {
+        "text": "Sumá las harinas, polvo de hornear, sal y leche hasta obtener mezcla espesa."
+      },
+      {
+        "text": "Volcá en budinera enmantecada y horneá a 180 °C por 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pan-verduras-uruguayo",
+    "title": "Pan Casero de Verduras Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 35,
+    "cookMinutes": 35,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pancitos nutritivos sin TACC con zanahoria, espinaca o zapallo rallado y puré de papa.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de maíz instantánea"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "puré de papa tibio"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "espinaca o zanahoria rallada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "leche"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hidratá la harina de maíz con manteca y leche caliente 20 minutos; aparte activá 30 g de levadura en agua tibia."
+      },
+      {
+        "text": "Mezclá la harina de arroz, maicena, sal, puré de papa, huevo y la verdura rallada."
+      },
+      {
+        "text": "Formá flautitas, dejá leudar 30 minutos y horneá a 190 °C unos 35 minutos.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "celiaco-panqueques-sin-gluten",
+    "title": "Panqueques (Crepes) Sin Gluten Dulces o Salados",
+    "metodo": "parrilla",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Masa versátil de panqueques sin TACC para rellenar con acelga/ricota, pollo o fruta.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuá todos los ingredientes hasta obtener una crema lisa sin grumos; dejá reposar 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Cociná por cucharones en sartén antiadherente apenas aceitada vuelta y vuelta.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-scones-queso-hierbas",
+    "title": "Scones de Queso y Hierbas Sin TACC",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Scones salados crocantes con queso rallado, orégano, romero y crema.",
+    "ingredients": [
+      {
+        "amount": 280,
+        "unit": "g",
+        "item": "premezcla sin TACC (arroz, maicena, mandioca)"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca fría"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "crema de leche y leche"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdta",
+        "item": "orégano y romero"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Arená la premezcla con manteca fría, sal, polvo de hornear, hierbas y queso rallado."
+      },
+      {
+        "text": "Sumá huevo, crema y leche sin amasar de más; estirá a 2 cm, cortá y enfriá 20 minutos."
+      },
+      {
+        "text": "Horneá a 190 °C por 18 a 20 minutos hasta dorar.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "celiaco-tortas-fritas-sin-gluten",
+    "title": "Tortas Fritas Caseras Sin Gluten",
+    "metodo": "olla",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Clásico uruguayo de días de lluvia adaptado con premezcla sin TACC.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "premezcla sin TACC"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "grasa o manteca"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "sal gruesa"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Amasá la premezcla con la grasa y el agua tibia con sal hasta lograr masa pareja."
+      },
+      {
+        "text": "Estirá discos, hacé un corte en el centro y cociná en aceite caliente hasta dorar.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "celiaco-pan-molde-tres-harinas",
+    "title": "Pan de Molde Sin TACC (Arroz, Mandioca y Maíz)",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 30,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pan de molde casero sin gluten con ingredientes que se consiguen en cualquier almacén o dietética de Uruguay.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "fécula de mandioca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "yogur natural"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "aceite o manteca derretida"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "polvo de hornear sin TACC"
+      },
+      {
+        "amount": 350,
+        "unit": "ml",
+        "item": "leche o agua"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los secos (harina de arroz, fécula de mandioca, polvo de hornear, sal y pizca de azúcar)."
+      },
+      {
+        "text": "Batí los huevos con el yogur, aceite y leche; integrá todo hasta lograr masa cremosa."
+      },
+      {
+        "text": "Volcá en budinera enmantecada y horneá a 180 °C unos 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
   }
 ]
