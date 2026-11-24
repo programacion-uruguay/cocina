@@ -1976,6 +1976,85 @@
     })
   );
 
+  const CATEGORY_IMAGES = {
+    pollo: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=900&q=80',
+    carnes: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80',
+    verduras: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80',
+    pastas: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=900&q=80',
+    pescados: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=80',
+    dulces: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?auto=format&fit=crop&w=900&q=80',
+  };
+
+  function inferShoppingCategory(itemName) {
+    const low = itemName.toLowerCase();
+    if (/(pollo|carne|bife|colita|salmón|salmon|merluza|atún|pescado|jamón)/.test(low)) return 'Carnicería y Pescadería';
+    if (/(leche|queso|yogur|ricota|crema|manteca|huevo|mozzarella|muzzarella)/.test(low)) return 'Lácteos y Huevos';
+    if (/(pan|tarta|masa|galleta)/.test(low)) return 'Panadería y Otros';
+    if (/(papa|boniato|zapallo|calabaza|cebolla|tomate|zanahoria|acelga|espinaca|brócoli|berenjena|palta|manzana|banana|naranja|limón|ajo|perejil|lechuga|morrón|zapallito|palta)/.test(low)) return 'Verdulería y Frutería';
+    return 'Almacén y Legumbres';
+  }
+
+  function normalizeRadialRecipe(raw) {
+    const ingNames = (raw.ingredients || []).map((i) => (i.item || '').toLowerCase()).join(' ');
+    const allergens = [];
+    if (/(trigo|harina|pan |pan$|fideo|pasta|spaghetti|lasaña|avena|galleta|masa)/.test(ingNames) && !/sin tacc|arroz/.test(ingNames)) allergens.push('gluten');
+    if (/(leche|queso|yogur|ricota|crema|manteca|mozzarella|muzzarella)/.test(ingNames)) allergens.push('lactosa');
+    if (/huevo|clara|yema/.test(ingNames)) allergens.push('huevo');
+    if (/(salmón|salmon|merluza|atún|pescado|brótola)/.test(ingNames)) allergens.push('pescado');
+    if (/(maní|mani|nuez|almendra)/.test(ingNames)) allergens.push('frutos_secos');
+
+    const catGroupMap = {
+      pollo: ['proteinas_animales', 'verduras'],
+      carnes: ['proteinas_animales', 'verduras'],
+      pescados: ['proteinas_animales', 'verduras'],
+      verduras: ['verduras', 'cereales_tuberculos'],
+      pastas: ['cereales_tuberculos', 'verduras'],
+      dulces: ['cereales_tuberculos', 'frutas'],
+    };
+
+    const moment = raw.momento === 'snacks' ? 'merienda' : D.MOMENTS_ORDER.includes(raw.momento) ? raw.momento : 'almuerzo';
+
+    return {
+      id: raw.id,
+      title: raw.title,
+      description: raw.description || '',
+      imageUrl: CATEGORY_IMAGES[raw.categoria] || CATEGORY_IMAGES.verduras,
+      moment,
+      prepMinutes: (Number(raw.prepMinutes) || 10) + (Number(raw.cookMinutes) || 10),
+      servings: Number(raw.servings) || 2,
+      estimatedCostUyu: 180,
+      foodGroups: catGroupMap[raw.categoria] || ['verduras', 'cereales_tuberculos'],
+      tags: [raw.estilo || 'clasico', raw.metodo || 'cocina'],
+      allergens,
+      ingredients: (raw.ingredients || []).map((i) => ({
+        name: i.item,
+        amount: Number(i.amount) || 1,
+        unit: i.unit || 'u',
+        category: inferShoppingCategory(i.item || ''),
+      })),
+      steps: (raw.steps || []).map((s) => (typeof s === 'string' ? s : s.text)),
+      nutritionExplanation: `Receta del catálogo Cocina Radial (${raw.categoria || 'variado'}). Acompañala con vegetales frescos o fruta de estación para equilibrar el plato según la Guía del MSP.`,
+    };
+  }
+
+  async function loadExternalRecipesIntoCatalog() {
+    try {
+      const res = await fetch('./data/recipes.json');
+      if (!res.ok) return;
+      const list = await res.json();
+      const existingIds = new Set(D.RECIPES.map((r) => r.id));
+      for (const raw of list) {
+        if (!existingIds.has(raw.id)) {
+          D.RECIPES.push(normalizeRadialRecipe(raw));
+          existingIds.add(raw.id);
+        }
+      }
+      if (state.user && state.mode === 'comerbien') renderCBStage();
+    } catch {
+      // Silencioso si se abre por file:// sin servidor
+    }
+  }
+
   // Boot
   const existing = S.getActiveUser();
   if (existing) {
@@ -1988,4 +2067,5 @@
     }
   }
   syncTopbarAndMode();
+  loadExternalRecipesIntoCatalog();
 })();
