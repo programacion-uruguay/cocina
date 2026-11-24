@@ -8191,5 +8191,756 @@
         "timerMinutes": 20
       }
     ]
+  },
+  {
+    "id": "vegano-queso-cheddar",
+    "title": "Queso Cheddar Vegano de Avellanas y Agar-Agar",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Queso vegetal firme tipo cheddar a base de avellanas (o castañas), morrón rojo, levadura en copos y agar-agar.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "avellanas o castañas de cajú"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "levadura nutricional o de cerveza en copos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "morrón rojo dulce"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "diente de ajo y 1 cda cebolla"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 4,
+        "unit": "cdita",
+        "item": "agar-agar en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuá las avellanas, jugo de limón, levadura, morrón rojo, ajo, cebolla y sal hasta lograr una crema lisa."
+      },
+      {
+        "text": "Disolvé el agar-agar en el agua hirviendo, dejá entibiar, mezclá con la crema en licuadora y llevá a molde tapado a la heladera toda la noche."
+      }
+    ]
+  },
+  {
+    "id": "vegano-queso-untable-avena",
+    "title": "Queso Vegano Cremoso para Untar de Avena",
+    "metodo": "sin_coccion",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Queso untable económico 100% vegetal preparado con copos de avena remojados, levadura de cerveza y limón.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "cda",
+        "item": "avena arrollada remojada 30 min"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "levadura de cerveza en copos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "lecitina de soja (opcional)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "salsa de soja y chorrito de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Remojá la avena cubierta de agua durante 30 minutos."
+      },
+      {
+        "text": "Licuá la avena con su agua y el resto de los ingredientes hasta lograr una pasta homogénea; refrigerá 2-3 horas antes de untar."
+      }
+    ]
+  },
+  {
+    "id": "vegano-queso-semillas-zapallo",
+    "title": "Queso Crudo de Semillas de Zapallo",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Queso untable crudo de semillas de zapallo peladas remojadas, ajo, limón y pimienta.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "cda",
+        "item": "semillas de zapallo peladas (remojadas 4 h)"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "lecitina de soja o aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "diente de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "jugo de limón, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá las semillas escurridas con un chorrito de agua, el aceite o lecitina, ajo, jugo de limón, sal y pimienta hasta lograr textura untable."
+      }
+    ]
+  },
+  {
+    "id": "vegano-queso-crudo-castanas",
+    "title": "Queso Crudo Untable de Castañas de Cajú o Nueces",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Crema untable fermentada o fresca con aroma a queso a base de castañas de cajú o nueces crudas.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "castañas de cajú o nueces crudas (remojadas 12 h)"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "levadura de cerveza y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Escurrí las castañas remojadas y procesalas en licuadora potente con el agua, limón, levadura y sal hasta obtener una crema homogénea."
+      }
+    ]
+  },
+  {
+    "id": "vegano-queso-feta-tofu",
+    "title": "Queso Feta Vegano de Tofu y Hierbas",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Queso vegano firme y sabroso tipo feta con tofu, jugo de limón, hierbas aromáticas y agar-agar.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "tofu firme"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "levadura de cerveza en copos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "limones (su jugo)"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "agar-agar en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva, salsa de soja y hierbas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá el tofu con el jugo de limón y el aceite de oliva hasta lograr una crema lisa."
+      },
+      {
+        "text": "Herví 3/4 del agua con las hierbas, sal y agar-agar unos segundos; mezclá con el tofu y la levadura disuelta en el resto del agua."
+      },
+      {
+        "text": "Volcá en molde húmedo y dejá enfriar hasta cuajar por completo."
+      }
+    ]
+  },
+  {
+    "id": "vegano-queso-mozzarella-tofu",
+    "title": "Queso Mozzarella Vegano de Tofu",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Queso blanco firme ideal para pizzas, tartas o tortillas veganas, hecho con tofu, agar-agar y orégano.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "tofu"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "levadura de cerveza en copos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "agar-agar en polvo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva, salsa de soja y orégano"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Triturá el tofu. Disolvé el agar-agar en el agua caliente con la levadura y el jugo de limón."
+      },
+      {
+        "text": "Licuá todo junto con el tofu, aceite, salsa de soja y orégano; cociná unos segundos, volcá en molde húmedo y enfriá."
+      }
+    ]
+  },
+  {
+    "id": "vegano-queso-parmesano-almendras",
+    "title": "Queso Parmesano Vegano de Almendras y Zanahoria",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Queso duro vegano para cortar o rallar a base de leche de soja, almendras molidas, zanahoria y agar-agar.",
+    "ingredients": [
+      {
+        "amount": 350,
+        "unit": "ml",
+        "item": "leche de soja"
+      },
+      {
+        "amount": 9,
+        "unit": "cda",
+        "item": "almendras molidas"
+      },
+      {
+        "amount": 6,
+        "unit": "cda",
+        "item": "levadura de cerveza molida"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zanahoria chica"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "agar-agar en copos (o 2 cdas en polvo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "salsa de soja y chorrito de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Calentá 250 ml de leche de soja con salsa de soja, limón y agar-agar hasta disolver."
+      },
+      {
+        "text": "Licuá la zanahoria con el resto de la leche; sumá al cazo con las almendras, levadura y sal, licuá para evitar grumos y dejá cuajar en molde."
+      }
+    ]
+  },
+  {
+    "id": "vegano-queso-fundido-maiz",
+    "title": "Queso Vegano Fundible de Maíz y Levadura",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Queso vegetal económico que se funde al gratinar, hecho sin tofu ni frutos secos.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "levadura de cerveza"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "jugo de limón y 1/2 cdita ajo en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí todos los ingredientes menos el aceite y cociná en cacerola hasta que burbujee 30 segundos y espese.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Agregá el aceite y 1 cda extra de agua, batí bien y dejá enfriar en heladera."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tortilla-berenjena-nueces",
+    "title": "Tortilla Vegana de Berenjena y Nueces",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tortilla sin huevo ligada con harina de arroz integral, leche vegetal, tahini y nueces.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "berenjena mediana en cubitos"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "harina integral de arroz"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "leche vegetal de avena"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "tahini (pasta de sésamo)"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "nueces picadas y 1 cdita salsa de soja"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví los cubitos de berenjena 10-12 minutos y escurrí bien.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Batí la leche vegetal con la harina de arroz, tahini, nueces, salsa de soja y orégano; sumá la berenjena y cuajá en sartén aceitada por ambos lados."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tortilla-calabaza-nueces",
+    "title": "Tortilla Vegana de Calabaza y Nueces",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tortilla sin huevo de calabaza tierna, cebolla de verdeo, nueces y harina de maíz o garbanzos.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "calabaza pelada en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla tierna picada"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "harina de maíz o garbanzos"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "nueces picadas y 2 cdas aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná la calabaza y cebolla en sartén tapada con un fondo de agua hasta ablandar; destapá, agregá aceite y dorá 2 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Mezclá con la harina batida con agua, sal, pimienta y nueces; cuajá en sartén a fuego bajo por ambos lados."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tortilla-zapallito-mozzarella",
+    "title": "Tortilla Vegana de Zapallito y Mozzarella Vegetal",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Tortilla rápida sin huevo de zapallito salteado con dados de queso vegano y harina de arroz.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zapallito o zucchini mediano troceado"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "harina integral de arroz"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "mozzarella vegana (o tofu) en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva y sal de hierbas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá el zapallito en sartén hasta dorar ligeramente."
+      },
+      {
+        "text": "Mezclá con la harina batida en agua y el queso vegano; cuajá en sartén aceitada a fuego medio-bajo por ambos lados."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tortilla-champinones-tomates-secos",
+    "title": "Tortilla Vegana de Champiñones y Tomates Secos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tortilla sin huevo con champiñones salteados, tomates secos y majado de ajo, perejil y limón.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "champiñones medianos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates secos en tiritas"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "harina integral de arroz"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "diente de ajo, perejil, limón y 1 cda aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná los champiñones picados en sartén hasta evaporar su agua; agregá ajo machacado con aceite, perejil, limón y tomates secos."
+      },
+      {
+        "text": "Mezclá con la harina de arroz batida con agua y cuajá en sartén por ambos lados."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tortilla-espinacas-tomates-secos",
+    "title": "Tortilla Vegana de Espinacas y Tomates Secos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tortilla verde sin huevo con espinacas salteadas, tomates secos hidratados en oliva y mozzarella vegana.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "espinacas frescas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "tomates secos hidratados en oliva"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "harina integral de arroz"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "mozzarella vegana o tofu"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá las espinacas picadas 3 minutos en sartén sin grasa hasta reducir."
+      },
+      {
+        "text": "Batí la harina con agua, sumá los tomates secos, queso vegano y espinacas; cuajá a fuego bajo por ambos lados."
+      }
+    ]
+  },
+  {
+    "id": "vegano-tortilla-papa-garbanzos",
+    "title": "Tortilla Vegana de Papa con Harina de Garbanzos",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Clásica tortilla de papas 100% vegetal sustituyendo los huevos por harina de garbanzos batida en agua.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "papas en láminas finas"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "harina de garbanzos"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 3,
+        "unit": "cda",
+        "item": "aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí la harina de garbanzos con agua y sal hasta lograr textura de huevo batido."
+      },
+      {
+        "text": "Cociná las papas en aceite hasta que estén tiernas, mezclá con la preparación de garbanzos y cuajá en sartén por ambos lados.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "vegano-tortilla-seitan-morron",
+    "title": "Tortilla Vegana de Seitán, Morrón y Cebolla",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tortilla proteica vegana con seitán picado, morrón verde, cebolla, tomillo y harina de arroz integral.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "seitán picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla y 1/2 morrón verde picados"
+      },
+      {
+        "amount": 4,
+        "unit": "cda",
+        "item": "harina de arroz integral"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva y tomillo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná la cebolla y el morrón en sartén, agregá el seitán, aceite y tomillo y salteá 3-4 minutos."
+      },
+      {
+        "text": "Mezclá con la harina batida en agua y cuajá la tortilla en sartén aceitada por ambos lados."
+      }
+    ]
   }
 ]
