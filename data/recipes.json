@@ -3645,5 +3645,1732 @@
         "timerMinutes": 40
       }
     ]
+  },
+  {
+    "id": "diabetes-petit-choux-chocolate",
+    "title": "Petit Choux Sin Azúcar con Crema de Chocolate",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 35,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Bocaditos de masa bomba sin azúcar agregada rellenos de crema pastelera de cacao y cubiertos con salsa de chocolate.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche (para la crema)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "cacao amargo en polvo sin azúcar"
+      },
+      {
+        "amount": 20,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el agua con la manteca y una pizca de sal; agregá la harina de golpe y revolvé a fuego mínimo hasta formar una bola que se despegue. Dejá entibiar 10 minutos e incorporá 3 huevos de a uno."
+      },
+      {
+        "text": "Formá bolitas sobre placa enmantecada, pintá con el huevo restante batido y horneá a 180 °C unos 25-30 minutos sin abrir el horno los primeros 20 minutos.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "Para el relleno, disolvé la fécula de maíz, el cacao y 1 yema en 200 ml de leche fría; volcá sobre el resto de la leche hirviendo y cociná 5-10 minutos revolviendo. Endulzá fuera del fuego, rellená los petit choux y serví."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tortitas-mermelada",
+    "title": "Tortitas Esponjosas Sin Azúcar con Mermelada Diet",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Tortitas livianas a la sartén sin azúcar agregada, ideales para desayuno o merienda con mermelada de frutilla o frambuesa sin azúcar.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 16,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 25,
+        "unit": "ml",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 75,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "edulcorante líquido apto cocción"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "mermelada de frutilla sin azúcar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí el huevo con la leche y el aceite; incorporá la harina tamizada con el polvo de hornear y el edulcorante hasta lograr una mezcla lisa."
+      },
+      {
+        "text": "Cociná por cucharadas en sartén antiadherente ligeramente aceitada 2 a 3 minutos por lado hasta dorar y serví tibias con la mermelada.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "diabetes-palmeritas-hojaldre",
+    "title": "Palmeritas y Pastelitos de Hojaldre Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Masa de hojaldre horneada en forma de palmeritas o figuritas con glaseado liviano de mermelada sin azúcar.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "masa de hojaldre"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 140,
+        "unit": "g",
+        "item": "mermelada de durazno o ciruela sin azúcar"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Estirá la masa de hojaldre sobre mesada enharinada, enrollá ambos extremos hacia el centro para formar palmeritas y cortá rodajas de 1,5 cm."
+      },
+      {
+        "text": "Colocá en placa, pintá con huevo batido y edulcorante, y horneá a 180 °C de 10 a 15 minutos hasta dorar.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Batí la mermelada sin azúcar con el agua y pincelá las palmeritas tibias."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-bombones-avellana",
+    "title": "Bombones Caseros de Avellana y Cacao Sin Azúcar",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 16,
+    "difficulty": "Fácil",
+    "description": "Bombones sin azúcar agregada hechos con avellanas tostadas (o nueces), cacao amargo y galletitas María.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "avellanas tostadas (o almendras/nueces)"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "galletitas María molidas"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "cacao amargo en polvo sin azúcar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Calentá la leche y disolvé el cacao; retirá del fuego y sumá la manteca, las galletitas molidas, 100 g de avellanas procesadas y el edulcorante."
+      },
+      {
+        "text": "Llevá nuevamente a fuego suave sin dejar de revolver hasta que se forme una pasta que se despegue de la olla.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Formá bolitas, decorá con trocitos de avellana y llevá al freezer hasta enfriar."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-crema-cacao-avellanas",
+    "title": "Crema Untable de Cacao y Avellanas Sin Azúcar",
+    "metodo": "sin_coccion",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Pasta untable tipo avellanas y cacao sin azúcar agregada para tostadas o panqueques.",
+    "ingredients": [
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "avellanas tostadas"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "cacao amargo en polvo sin azúcar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "margarina o manteca blanda"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá las avellanas tostadas hasta obtener un polvo fino o pasta."
+      },
+      {
+        "text": "Batí la manteca o margarina con el cacao, las avellanas y el edulcorante hasta lograr una crema homogénea."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-galletitas-manteca-vainilla",
+    "title": "Galletitas de Manteca y Vainilla Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 170,
+    "servings": 20,
+    "difficulty": "Fácil",
+    "description": "Galletitas cortadas con moldes, sin azúcar agregada, ideales para cocinar en familia.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 160,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 16,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "esencia de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí la manteca blanda con el huevo, la vainilla y el edulcorante."
+      },
+      {
+        "text": "Incorporá la harina, la fécula de maíz, el polvo de hornear y una pizca de sal tamizados; amasá, estirá y cortá con moldes."
+      },
+      {
+        "text": "Horneá sobre papel manteca a 170 °C de 10 a 15 minutos y enfriá sobre rejilla.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tejas-almendras",
+    "title": "Tejas Crocantes de Almendras Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 150,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Galletitas finas y crocantes de almendras tostadas y claras de huevo sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "claras de huevo"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almendras tostadas molidas"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la manteca blanda con el edulcorante, sumá las harinas tamizadas, las claras batidas y las almendras molidas."
+      },
+      {
+        "text": "Distribuí cucharadas en placa enmantecada en forma rectangular y horneá a 150 °C unos 25-30 minutos hasta dorar.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "En caliente, dales forma curva apoyándolas sobre un palo de amasar."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-madalenas-almendras",
+    "title": "Magdalenas de Almendras y Limón Sin Azúcar",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 170,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Magdalenas esponjosas aromatizadas con cáscara de limón, canela y almendras molidas, sin azúcar.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "almendras tostadas molidas"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 16,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cáscara de limón y rama de canela"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Entibiá el aceite en sartén con la cáscara de limón y la canela para aromatizar; colá y dejá enfriar."
+      },
+      {
+        "text": "Batí los huevos e incorporá la harina, polvo de hornear, bicarbonato, el aceite aromatizado, edulcorante y almendras. Dejá reposar 30 minutos."
+      },
+      {
+        "text": "Llená pirotines hasta la mitad y horneá a 170 °C unos 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "diabetes-bizcochuelo-yogur-ligero",
+    "title": "Bizcochuelo Ligero de Yogur y Limón Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 170,
+    "servings": 10,
+    "difficulty": "Fácil",
+    "description": "Bizcochuelo esponjoso con yogur natural, ralladura de limón y sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "yogur natural"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "ralladura de limón"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí el yogur, el aceite y los huevos; incorporá de a poco la harina, fécula, polvo de hornear, ralladura de limón y edulcorante."
+      },
+      {
+        "text": "Volcá en molde enmantecado y horneá a 170 °C de 30 a 40 minutos hasta que al pinchar salga limpio.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tarta-queso-frutas",
+    "title": "Tarta de Ricota y Yogur con Frutas Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 160,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tarta fría de base de galletitas María con relleno de ricota y yogur natural, cubierta de frutas frescas y mermelada sin azúcar.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "galletitas María trituradas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "yogur natural"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "frutas frescas (frutillas, kiwi, arándanos)"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "mermelada de frutilla sin azúcar"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá las galletitas trituradas con la manteca, 1 huevo y canela; forrá un molde enmantecado."
+      },
+      {
+        "text": "Licuá los 2 huevos restantes con la ricota, yogur, fécula de maíz y edulcorante; volcá sobre la base y horneá a 160 °C de 15 a 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Dejá enfriar, decorá con las frutas en rodajas y mermelada sin azúcar en el centro. Llevá a la heladera."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-brazo-gitano-frutillas",
+    "title": "Arrollado (Brazo de Gitano) con Crema y Frutillas Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 35,
+    "cookMinutes": 20,
+    "temperatureC": 170,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pionono arrollado sin azúcar relleno de crema batida y frutillas naturales.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 45,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 16,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "frutillas frescas en rodajas"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí las claras a nieve, sumá las yemas, 2 cdas de agua tibia, 10 ml de edulcorante y las harinas tamizadas con polvo de hornear."
+      },
+      {
+        "text": "Extendé en placa con papel manteca y horneá a 170 °C de 15 a 20 minutos; desmoldá sobre repasador húmedo, enrollá y dejá enfriar.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Batí la crema de leche con 5 ml de edulcorante, mezclá con las frutillas, rellená el arrollado y volvé a enrollar."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tarta-manzana-sin-azucar",
+    "title": "Tarta de Manzana y Ciruela Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "temperatureC": 170,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tarta húmeda de manzana sin azúcar agregada, terminada con un brillo de mermelada de ciruela sin azúcar.",
+    "ingredients": [
+      {
+        "amount": 700,
+        "unit": "g",
+        "item": "manzanas peladas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 16,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "mermelada de ciruela sin azúcar"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Reservá 150 g de manzana en láminas finas; licuá el resto con los huevos, harinas, leche, polvo de hornear y edulcorante."
+      },
+      {
+        "text": "Volcá en molde enmantecado, cubrí con las láminas de manzana y horneá a 170 °C unos 30 minutos.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Diluí la mermelada en 1/2 taza de agua, pintá la tarta y gratiná 5-7 minutos."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tarta-chocolate-masa-quebrada",
+    "title": "Tarta de Chocolate y Coco con Masa Quebrada Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 35,
+    "cookMinutes": 25,
+    "temperatureC": 170,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Tarta de masa quebrada rellena de crema pastelera de cacao sin azúcar y decorada con coco rallado.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 85,
+        "unit": "g",
+        "item": "manteca fría"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos (1 entero + 1 yema)"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "cacao amargo en polvo sin azúcar"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "coco rallado"
+      },
+      {
+        "amount": 25,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Formá una masa quebrada con las harinas, manteca fría, 1 huevo, polvo de hornear y 5 ml de edulcorante; enfriá 20 min, forrá tartera y horneá a 170 °C unos 25 minutos.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Prepará la crema pastelera de cacao calentando la leche con fécula extra (50 g), cacao, 1 yema y 20 ml de edulcorante."
+      },
+      {
+        "text": "Rellená la base horneada y espolvoreá con coco rallado."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tarta-tropical-bizcocho",
+    "title": "Torta Helada de Frutas y Crema Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 35,
+    "cookMinutes": 35,
+    "temperatureC": 170,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Torta festiva sin azúcar agregada con bizcochuelo de yogur, crema batida y macedonia de frutas frescas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "bizcochuelo ligero sin azúcar (base)"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "frutas picadas (frutilla, banana, manzana, kiwi, ananá)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Horneá el bizcochuelo ligero sin azúcar, dejá enfriar y cortá al medio."
+      },
+      {
+        "text": "Batí la crema de leche con el edulcorante; mezclá la mitad con la macedonia de frutas y rellená el bizcochuelo."
+      },
+      {
+        "text": "Cubrí por fuera con el resto de la crema y serví bien fría."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-flan-vainilla-sin-azucar",
+    "title": "Flan de Vainilla Sin Azúcar",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Flan rápido de leche y vainilla sin azúcar agregada con toque opcional de café.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 16,
+        "unit": "g",
+        "item": "polvo para flan de vainilla sin azúcar (o fécula de maíz + vainilla)"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "café instantáneo descafeinado (opcional)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Diluí el polvo de vainilla en un poco de leche fría; calentá el resto de la leche y cuando hierva agregá la mezcla revolviendo hasta espesar.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Retirá del fuego, agregá el edulcorante, volcá en flaneras y enfriá en heladera."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-flan-huevo-canela",
+    "title": "Flan de Huevo a la Canela Sin Azúcar",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Flan clásico de huevo a baño María sin azúcar agregada, perfumado con canela.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "canela molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí muy bien el huevo con la leche y el edulcorante líquido; volcá en flanera."
+      },
+      {
+        "text": "Cociná a baño María hasta que cuaje, dejá enfriar, desmoldá y espolvoreá con canela.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "diabetes-natillas-vainilla",
+    "title": "Natillas Caseras Sin Azúcar con Canela y Limón",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Crema suave de leche aromatizada con cáscara de limón y canela, sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena) y esencia de vainilla"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "galletitas María"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cáscara de limón y rama de canela"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví la leche (reservando 1/2 taza fría) con la cáscara de limón y la canela."
+      },
+      {
+        "text": "Diluí la fécula de maíz en la leche fría, agregá a la olla y cociná revolviendo hasta espesar; endulzá fuera del fuego.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Retirá limón y canela, serví en compoteras con galletita María y canela molida."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-helado-frutilla-yogur",
+    "title": "Helado y Palitos de Frutilla y Yogur Sin Azúcar",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Helado natural de frutillas congeladas y yogur descremado sin azúcar, listo en minutos.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "frutillas congeladas"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "yogur natural descremado"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dejá reposar las frutillas congeladas 5 minutos con el edulcorante."
+      },
+      {
+        "text": "Procesá o batí junto con el yogur descremado hasta lograr crema y llevá al freezer en potes o moldes de palitos."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-palitos-chocolate",
+    "title": "Palitos Helados de Cacao y Yogur Sin Azúcar",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Paletas heladas cremosas de cacao amargo, yogur natural y crema de leche sin azúcar.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "yogur natural descremado"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "cacao amargo en polvo sin azúcar"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí el cacao con el yogur y la crema de leche hasta integrar bien."
+      },
+      {
+        "text": "Agregá el edulcorante, volcá en moldes para palitos y llevá al freezer hasta solidificar."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-helado-frambuesa",
+    "title": "Helado Cremoso de Frambuesa Sin Azúcar",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Helado frutal de frambuesas congeladas con yogur descremado y un toque de crema.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "frambuesas congeladas"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "yogur natural descremado"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá las frambuesas con el edulcorante hasta hacer puré."
+      },
+      {
+        "text": "Batí el yogur con la crema, mezclá con el puré de frambuesas y llevá al freezer en recipiente hermético revolviendo cada tanto."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-batido-yogur-frutillas",
+    "title": "Licuado Cremoso de Yogur y Frutillas Sin Azúcar",
+    "metodo": "sin_coccion",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Batido fresco y liviano de yogur natural con frutillas frescas sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "yogur natural"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "frutillas frescas"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavá y troceá las frutillas, y licualas con el yogur y el edulcorante hasta que quede bien cremoso. Serví frío."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-crema-limon-sin-azucar",
+    "title": "Crema de Limón Sin Azúcar",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Crema suave de limón sin azúcar agregada, ideal para rellenar tartas o disfrutar en compotera.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "yema de huevo"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "ralladura de limón"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "edulcorante líquido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Diluí la fécula de maíz y la yema en un poco de agua fría."
+      },
+      {
+        "text": "Herví el resto del agua, agregá la mezcla diluida, el jugo y la ralladura de limón; cociná revolviendo hasta espesar.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Retirá del fuego, sumá la manteca y el edulcorante, mezclá y dejá enfriar."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-rosquillos-anis",
+    "title": "Rosquillos Caseros de Anís y Limón Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 150,
+    "servings": 16,
+    "difficulty": "Fácil",
+    "description": "Rosquillas horneadas tradicionales con aceite aromatizado al limón y anís, sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "anís en grano"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cáscara de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Calentá el aceite con la cáscara de limón y retirá la cáscara. Volcá de a poco sobre la harina mezclada con el anís y amasá con el edulcorante."
+      },
+      {
+        "text": "Formá bolitas, aplanalas y hacé un hueco en el centro formando rosquillos."
+      },
+      {
+        "text": "Horneá sobre papel manteca a 150 °C de 15 a 20 minutos.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "diabetes-rosca-reyes-sin-azucar",
+    "title": "Rosca de Reyes Sin Azúcar",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 45,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Rosca dulce esponjosa aromatizada con agua de azahar y limón, sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "fécula de maíz (Maizena)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "margarina o manteca"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "leche descremada"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "levadura fresca de panadería"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo + 1 clara"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "agua de azahar (o esencia de vainilla)"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "edulcorante líquido apto cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hacé un fermento con 75 g de harina, la levadura, leche tibia y pizca de sal; dejá leudar 30-45 minutos."
+      },
+      {
+        "text": "Amasá con el resto de la harina, manteca blanda, huevo, edulcorante, agua de azahar y ralladura de limón; uní ambas masas y dejá duplicar."
+      },
+      {
+        "text": "Formá la rosca, pintá con clara batida, decorá con almendras fileteadas y horneá a 180-200 °C unos 25 minutos.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tortilla-espanola-verduras",
+    "title": "Tortilla Española con Verduras y Mozzarella",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 190,
+    "servings": 5,
+    "difficulty": "Fácil",
+    "description": "Tortilla al horno con papa, zapallito, morrón, champiñones y mozzarella semidescremada, ideal para control glucémico.",
+    "ingredients": [
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "papas chicas peladas y cortadas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "zapallito chico en rodajas"
+      },
+      {
+        "amount": 1.5,
+        "unit": "taza",
+        "item": "morrón verde o rojo en tiras finas"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "champiñones en rodajas"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos + 5 claras"
+      },
+      {
+        "amount": 85,
+        "unit": "g",
+        "item": "queso mozzarella semidescremado rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "queso parmesano rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las papas hasta que estén tiernas. Salteá la cebolla, el zapallito, el morrón y los champiñones en sartén antiadherente con rocío vegetal."
+      },
+      {
+        "text": "Batí los huevos y las claras con condimentos y la mozzarella; mezclá con las verduras y papas."
+      },
+      {
+        "text": "Volcá en fuente aceitada, espolvoreá parmesano y horneá a 190 °C de 20 a 30 minutos hasta dorar.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "diabetes-guiso-carne-verduras",
+    "title": "Guiso Saludable de Carne Magra y Verduras al Horno",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 80,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Guiso liviano al horno con carne vacuna magra (o pechuga de pollo), papas, zanahorias y arvejas.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "carne vacuna magra (o pechuga) en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "harina integral"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdita",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas y 2 tallos de apio"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón y 1 tomate picado"
+      },
+      {
+        "amount": 5,
+        "unit": "taza",
+        "item": "caldo de carne sin grasa"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "papas chicas en cubitos"
+      },
+      {
+        "amount": 1.25,
+        "unit": "taza",
+        "item": "arvejas verdes y zanahoria en trozos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pasá la carne por harina integral con comino y pimienta; dorala en sartén con aceite de oliva y pasala a una fuente apta para horno."
+      },
+      {
+        "text": "Salteá ajo, cebolla, apio y morrón 5 minutos; agregá el tomate y el caldo, herví y volcá sobre la carne. Tapá y horneá 1 hora a 190 °C.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Sumá las papas, zanahorias y arvejas y horneá 20-25 minutos más hasta que estén tiernas.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "diabetes-pescado-caribeno-verduras",
+    "title": "Pescado al Sartén con Verduras, Aceitunas y Ricota",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Filetes de pescado blanco (merluza o corvina) cocidos con morrón, zanahoria, tomate, aceitunas y ricota.",
+    "ingredients": [
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "filetes de merluza, corvina o salmón"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla mediana picada"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "morrón rojo y zanahoria en tiras"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "vino blanco seco"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate grande picado"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceitunas picadas"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "ricota magra o queso fresco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá la cebolla, morrón, zanahoria y ajo en aceite de oliva 10 minutos; agregá el vino blanco y dejá hervir.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Apartá las verduras a un costado, colocá los filetes de pescado en el centro, tapá y cociná 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sumá el tomate, las aceitunas y la ricota por encima; tapá 3 minutos más hasta que el pescado esté firme."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-pizza-dos-quesos-verduras",
+    "title": "Pizza Casera de Ricota, Mozzarella, Champiñones y Morrón",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 220,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pizza liviana con base de ricota condimentada, mozzarella semidescremada, champiñones y morrón rojo.",
+    "ingredients": [
+      {
+        "amount": 280,
+        "unit": "g",
+        "item": "masa de pizza (o prepizza integral)"
+      },
+      {
+        "amount": 2,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "ricota magra"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "albahaca seca y 2 dientes de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla chica picada"
+      },
+      {
+        "amount": 115,
+        "unit": "g",
+        "item": "queso mozzarella semidescremado rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "taza",
+        "item": "champiñones fileteados"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón rojo en tiras"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Estirá la masa sobre asadera, pincelá con aceite de oliva y cubrí con la ricota mezclada con albahaca, cebolla y ajo."
+      },
+      {
+        "text": "Esparcí la mozzarella, los champiñones y el morrón rojo."
+      },
+      {
+        "text": "Horneá a 220 °C de 13 a 15 minutos hasta que la masa dore y el queso se derrita.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "diabetes-tacos-palta-morrones",
+    "title": "Tacos Vegetarianos de Palta, Morrones y Salsa Fresca",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Tacos frescos con morrones salteados, palta en láminas y salsa cruda de tomate, cilantro y lima.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla mediana en tiras"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "morrones (rojo y verde) en tiras"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "palta madura en láminas"
+      },
+      {
+        "amount": 1.5,
+        "unit": "taza",
+        "item": "salsa fresca (tomate, cebolla, ajo, cilantro, lima y comino)"
+      },
+      {
+        "amount": 12,
+        "unit": "u",
+        "item": "tortillas de trigo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el tomate picado con cebolla en cubitos, ajo, cilantro, jugo de lima y comino para la salsa fresca y reservá en heladera."
+      },
+      {
+        "text": "Salteá las tiras de cebolla y morrones en sartén antiadherente con rocío vegetal unos 5-8 minutos.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Calentá las tortillas, rellená con los morrones, la palta y la salsa fresca."
+      }
+    ]
+  },
+  {
+    "id": "diabetes-ensalada-frutas-yogur",
+    "title": "Ensalada de Frutas Frescas con Yogur de Naranja Sin Azúcar",
+    "metodo": "sin_coccion",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Postre colorido y refrescante de frutas frescas de estación con yogur descremado sin azúcar y jugo de naranja.",
+    "ingredients": [
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "yogur descremado de naranja sin azúcar"
+      },
+      {
+        "amount": 5,
+        "unit": "u",
+        "item": "frutillas cortadas al medio"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "melón y sandía en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "mango o durazno en cubitos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "naranjas en rodajas sin semillas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "jugo de naranja natural"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá el yogur en un bol y mezclá suavemente con todas las frutas cortadas."
+      },
+      {
+        "text": "Rociá con el jugo de naranja natural y serví bien fresco."
+      }
+    ]
   }
 ]
