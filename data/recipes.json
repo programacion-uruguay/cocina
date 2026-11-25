@@ -38857,5 +38857,725 @@
         "timerMinutes": 20
       }
     ]
+  },
+  {
+    "id": "airfryer-cuadraditos-manzana-nueces-chocolate",
+    "title": "Cuadraditos de Manzana, Nueces y Chocolate en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 160,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Cuadrados húmedos de manzana en láminas con canela, nueces picadas y chispas de chocolate.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 130,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "canela molida"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "manzanas en láminas finas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "nueces picadas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "chispas de chocolate"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir el huevo con el azúcar y el aceite hasta integrar."
+      },
+      {
+        "text": "Tamizar la harina con el bicarbonato, el polvo de hornear y la canela, e incorporar a la mezcla."
+      },
+      {
+        "text": "Agregar las manzanas, las nueces y las chispas de chocolate mezclando con espátula."
+      },
+      {
+        "text": "Volcar en un molde cuadrado enmantecado y enharinado apto para la freidora y hornear a 160 °C durante 35 minutos hasta que salga limpio el palillo. Enfriar y cortar en cuadrados.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "airfryer-cazuela-carne-berenjenas-gratinadas",
+    "title": "Cazuela de Carne y Berenjenas Gratinadas en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 170,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Capas de berenjena dorada, medallones de carne picada, salsa de tomate, orégano y queso gratinado.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "berenjena grande en rodajas"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "harina común"
+      },
+      {
+        "amount": 3,
+        "unit": "cucharadas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "salsa de tomate"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "orégano seco"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso muzzarella o cheddar rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Formar 4 medallones con la carne picada salpimentada y sellarlos en sartén con un hilo de aceite."
+      },
+      {
+        "text": "Salpimentar las rodajas de berenjena, pasarlas por harina y dorarlas apenas con aceite de oliva."
+      },
+      {
+        "text": "En una fuente apta para freidora, disponer las berenjenas, encima los medallones, cubrir con salsa de tomate, orégano y los quesos."
+      },
+      {
+        "text": "Gratinar en la freidora a 170 °C durante 20 a 25 minutos hasta que burbujee y dore.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "airfryer-medialunas-dulces-nuez",
+    "title": "Medialunas Dulces de Nuez en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 155,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Masitas delicadas en forma de medialuna con manteca y nueces picadas, espolvoreadas con azúcar impalpable.",
+    "ingredients": [
+      {
+        "amount": 115,
+        "unit": "g",
+        "item": "manteca a temperatura ambiente"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "azúcar impalpable (más extra para rebozar)"
+      },
+      {
+        "amount": 140,
+        "unit": "g",
+        "item": "harina 0000 tamizada"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "nueces finamente picadas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 155 °C. Batir la manteca con el azúcar impalpable hasta cremar."
+      },
+      {
+        "text": "Sumar la vainilla, la harina y las nueces picadas hasta formar una masa suave."
+      },
+      {
+        "text": "Tomar porciones chicas, formar rollitos de unos 5 cm y curvarlos en forma de medialuna sobre papel manteca."
+      },
+      {
+        "text": "Hornear 18 a 20 minutos hasta que estén apenas doradas en la base y pasar aún tibias por azúcar impalpable.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tortilla-souffle-esparragos",
+    "title": "Tortilla Soufflé de Espárragos en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 18,
+    "temperatureC": 160,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Tortilla aireada con salsa blanca suave, claras batidas a nieve y espárragos tiernos.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "espárragos cocidos"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "harina común"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos (yemas y claras separadas)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Derretir la manteca en una ollita, sumar la harina y luego la leche de a poco revolviendo hasta lograr una salsa blanca espesa; salpimentar."
+      },
+      {
+        "text": "Mezclar las yemas con parte de la salsa blanca tibia; aparte batir las claras a punto de nieve e incorporarlas con movimientos envolventes."
+      },
+      {
+        "text": "Volcar en un molde enmantecado apto para freidora y hornear a 160 °C durante 18 minutos hasta que cuaje y dore.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Servir decorando con los espárragos y el resto de la salsa blanca tibia."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-fideos-gratinados-cebolla-queso",
+    "title": "Fideos Gratinados con Cebolla y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 160,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Fideos ya cocidos gratinados en freidora de aire con cebolla salteada en manteca, queso y mostaza.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "fideos tipo tallarines o cintas cocidos"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "cebollas en aros finos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso rallado semiduro"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "mostaza"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "ciboulette o verdeo picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Saltear los aros de cebolla en la manteca hasta que estén tiernos y apenas dorados."
+      },
+      {
+        "text": "Mezclar los fideos cocidos con la cebolla, el queso rallado y la mostaza."
+      },
+      {
+        "text": "Pasar a una fuente apta para freidora y hornear a 160 °C durante 20 minutos hasta que quede bien caliente y gratinado.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Espolvorear con ciboulette o verdeo picado antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-galletitas-sesamo-mani-miel",
+    "title": "Galletitas de Sésamo, Maní y Miel en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 14,
+    "temperatureC": 175,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Galletitas crocantes con mantequilla de maní, miel, un toque de jengibre y semillas de sésamo tostadas.",
+    "ingredients": [
+      {
+        "amount": 110,
+        "unit": "g",
+        "item": "manteca blanda"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "miel"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "mantequilla de maní"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "jengibre molido"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cucharadita",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "semillas de sésamo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tostar la mitad de las semillas de sésamo unos minutos en la freidora a 150 °C y molerlas apenas."
+      },
+      {
+        "text": "Batir la manteca con el azúcar rubia, la miel, la mantequilla de maní y el huevo."
+      },
+      {
+        "text": "Incorporar la harina, el polvo de hornear, el jengibre y el sésamo molido."
+      },
+      {
+        "text": "Formar bolitas, pasar por el resto del sésamo, aplastar con tenedor sobre papel manteca y hornear a 175 °C de 12 a 14 minutos.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "airfryer-mani-garrapinado-crocante",
+    "title": "Maní Garrapiñado en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 150,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Maní pelado crudo cubierto con caramelo crocante y tostado de forma pareja en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "maní crudo pelado sin sal"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "agua"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Llevar el agua, el azúcar y el maní a una ollita a fuego medio, revolviendo hasta que el almíbar se espese y empiece a cristalizar sobre el maní."
+      },
+      {
+        "text": "Extender sobre papel manteca o bandeja apta para freidora sin superponer demasiado."
+      },
+      {
+        "text": "Hornear en freidora a 150 °C durante 20 minutos, removiendo cada 5 minutos hasta que quede bien crocante.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-almendras-tostadas-soja",
+    "title": "Almendras Tostadas a la Soja en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "temperatureC": 150,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Snack salado y crocante de almendras tostadas con manteca, salsa de soja y un toque picante.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almendras enteras crudas"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "sal fina"
+      },
+      {
+        "amount": 3,
+        "unit": "gotas",
+        "item": "salsa picante (opcional)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar las almendras con la manteca derretida y disponer en una sola capa sobre papel manteca o molde."
+      },
+      {
+        "text": "Tostar en freidora a 150 °C durante 12 minutos, agitando a la mitad para que no se quemen.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Retirar en caliente, mezclar con la salsa de soja, sal y unas gotas de salsa picante, y dejar enfriar sobre papel absorbente."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-cazuela-pan-jamon-queso",
+    "title": "Cazuela de Pan, Jamón y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 155,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Budín salado de pan de molde en capas con jamón cocido, queso y cubierta crocante de copos de maíz.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "rebanadas",
+        "item": "pan de molde sin corteza"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "jamón cocido picado o en fetas"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "queso rallado o en fetas"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "mostaza"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "copos de maíz sin azúcar triturados"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "manteca derretida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "En una fuente enmantecada apta para freidora, colocar la mitad del pan, cubrir con jamón y queso, y tapar con el resto del pan."
+      },
+      {
+        "text": "Batir los huevos con la leche, sal y mostaza, y volcar sobre el pan dejando hidratar al menos 30 minutos en heladera."
+      },
+      {
+        "text": "Cubrir con los copos de maíz mezclados con manteca derretida."
+      },
+      {
+        "text": "Hornear a 155 °C durante 35 minutos hasta que cuaje en el centro y quede dorado.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "airfryer-galletitas-nuez-yema",
+    "title": "Galletitas de Nuez y Yema en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 150,
+    "servings": 12,
+    "difficulty": "Muy fácil",
+    "description": "Galletitas de manteca súper tiernas hechas con yemas de huevo y coronadas con media nuez.",
+    "ingredients": [
+      {
+        "amount": 170,
+        "unit": "g",
+        "item": "manteca blanda"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "yemas de huevo"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 12,
+        "unit": "mitades",
+        "item": "nueces peladas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir la manteca con el azúcar hasta obtener una crema suave; incorporar las yemas y la vainilla."
+      },
+      {
+        "text": "Agregar la harina de a poco hasta formar una masa homogénea."
+      },
+      {
+        "text": "Formar bolitas, colocarlas sobre papel manteca y presionar media nuez en el centro de cada una."
+      },
+      {
+        "text": "Hornear en freidora a 150 °C durante 15 a 18 minutos hasta que doren apenas los bordes.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "airfryer-torta-frutillas-malvaviscos",
+    "title": "Torta de Frutillas y Malvaviscos en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 170,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Torta esponjosa con base de malvaviscos y cubierta de frutillas frescas con gelatina.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "malvaviscos chicos"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "frutillas en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "sobre",
+        "item": "gelatina de frutilla en polvo (85 g)"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca blanda"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "esencia de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Enmantecar un molde apto para freidora y cubrir el fondo con los malvaviscos. Mezclar aparte las frutillas con la gelatina seca."
+      },
+      {
+        "text": "Batir la manteca, azúcar, huevos, vainilla, leche, harina, polvo de hornear y una pizca de sal."
+      },
+      {
+        "text": "Volcar la masa sobre los malvaviscos y distribuir encima las frutillas con gelatina."
+      },
+      {
+        "text": "Hornear a 170 °C durante 20 minutos, luego bajar a 145 °C y hornear 15 minutos más hasta que esté cocida.",
+        "timerMinutes": 35
+      }
+    ]
   }
 ]
