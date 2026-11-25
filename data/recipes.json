@@ -26538,5 +26538,480 @@
         "text": "Dejá enfriar el molde boca abajo al menos 1 hora antes de desmoldar."
       }
     ]
+  },
+  {
+    "id": "salsas-salsa-al-curry",
+    "title": "Salsa al Curry",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Salsa aromática y suave a base de roux dorado, curry en polvo, hierbas aromáticas y caldo vegetal, ideal para pollo, arroces o verduras.",
+    "ingredients": [
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de trigo colmada"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "curry en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "hierbas de Provenza o mix de hierbas aromáticas"
+      },
+      {
+        "amount": 0.25,
+        "unit": "u",
+        "item": "caldo de verduras en cubo"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua caliente (o caldo de cocción de cebollas completado con agua)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Derretir la manteca en una cacerola y espolvorear la harina removiendo continuamente hasta que tome un color dorado marrón."
+      },
+      {
+        "text": "Disolver el cuarto de cubo de caldo en el agua caliente, verter en la cacerola y mezclar bien para evitar grumos."
+      },
+      {
+        "text": "Agregar el curry y las hierbas aromáticas, y cocinar a fuego lento durante unos 10 minutos hasta espesar.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "salsas-salsa-de-manzana",
+    "title": "Salsa de Manzana",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Compota suave de manzanas con un toque de manteca y canela, perfecta tanto para acompañar carnes de cerdo como para postres.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "manzanas (verdes o rojas)"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "agua"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "canela en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelar y cortar las manzanas en rodajas finas."
+      },
+      {
+        "text": "Cocinar las manzanas en una cacerola con el agua a fuego suave hasta que estén bien tiernas.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Incorporar el azúcar, la manteca y una pizca de canela en polvo, mezclando hasta integrar."
+      }
+    ]
+  },
+  {
+    "id": "salsas-salsa-pesto",
+    "title": "Salsa Pesto Clásica",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pesto tradicional en mortero con albahaca fresca, perejil, ajo, piñones o nueces y queso curado rallado.",
+    "ingredients": [
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "queso curado rallado (parmesano, reggianito o de oveja)"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 20,
+        "unit": "hojas",
+        "item": "albahaca fresca"
+      },
+      {
+        "amount": 12,
+        "unit": "u",
+        "item": "piñones o nueces peladas"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "perejil fresco"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva virgen"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "agua muy caliente"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Machacar en un mortero los dientes de ajo con los piñones o nueces, el perejil y la albahaca hasta obtener una pasta uniforme."
+      },
+      {
+        "text": "Añadir el queso rallado, el aceite de oliva, la sal y el agua muy caliente; seguir trabajando hasta lograr una pasta homogénea de consistencia media."
+      }
+    ]
+  },
+  {
+    "id": "salsas-salsa-tomate-mexicano",
+    "title": "Salsa de Tomate Mexicana",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Salsa fresca y picante de tomate picado, cebolla de verdeo, cilantro, ají verde y un toque de comino, ideal para nachos, tacos o carnes.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "tomates maduros"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "cebolletas o cebollas de verdeo"
+      },
+      {
+        "amount": 3,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "cilantro fresco"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "jugo de tomate"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "ajíes verdes picantes o jalapeños frescos"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "comino molido"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar y picar los tomates bien finos."
+      },
+      {
+        "text": "Picar los ajos y la cebolla de verdeo muy finitos, y el cilantro en trozos más grandes."
+      },
+      {
+        "text": "Retirar las semillas de los ajíes verdes y picarlos muy pequeños."
+      },
+      {
+        "text": "Colocar todos los ingredientes en un bol junto con el jugo de tomate, el comino y sal a gusto; tapar y dejar reposar para que se integren los sabores."
+      }
+    ]
+  },
+  {
+    "id": "salsas-salsa-de-chocolate",
+    "title": "Salsa de Chocolate",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 3,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Salsa tibia y brillante de cacao dulce con manteca y crema de leche, lista en minutos para panqueques, frutas o helados.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "cdas",
+        "item": "cacao en polvo dulce (tipo Vascolet o Cola-Cao)"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "crema de leche"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar el cacao en polvo y el agua en una cacerola a fuego lento. Remover hasta que hierva y luego bajar el fuego al mínimo durante unos 10 minutos, mezclando de vez en cuando.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Retirar del fuego y añadir la manteca y la crema de leche, removiendo continuamente hasta integrar. Dejar enfriar antes de servir."
+      }
+    ]
+  },
+  {
+    "id": "salsas-guacamole",
+    "title": "Guacamole Clásico",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Guacamole cremoso de palta pisada con cebolla, morrón, ají picante, cilantro y jugo de limón para evitar que se oxide.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "paltas maduras"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "ajíes picantes picados finos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla muy picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "morrón picado bien fino"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "cilantro fresco machacado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "yema de huevo batida (opcional al servir)"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelar las paltas y pisarlas con un tenedor hasta lograr una consistencia cremosa."
+      },
+      {
+        "text": "Añadir la cebolla picada, el morrón, el cilantro machacado, los ajíes, el aceite de oliva, sal y un poco de jugo de limón para que no se oscurezca. Mezclar todo muy bien."
+      },
+      {
+        "text": "Tapar y dejar macerar un rato en la heladera."
+      },
+      {
+        "text": "Al momento de servir, si se desea, agregar la yema batida disuelta en el resto del jugo de limón."
+      }
+    ]
+  },
+  {
+    "id": "salsas-salsa-roquefort",
+    "title": "Salsa Roquefort",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Salsa fría y cremosa de queso azul o roquefort procesada con aceite de oliva, vinagre y crema de leche o yogur natural.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso azul o roquefort"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "vinagre"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "crema de leche fría o yogur natural"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disolver el queso roquefort o queso azul con el aceite de oliva."
+      },
+      {
+        "text": "Añadir un poco de vinagre, sal y pimienta, y batir bien (preferiblemente en batidora o mixer)."
+      },
+      {
+        "text": "Llevar a la heladera al menos 30 minutos y sumar la crema de leche fría o el yogur justo en el momento de usar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "salsas-salsa-rosa-golf",
+    "title": "Salsa Rosa (Estilo Salsa Golf)",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Clásica salsa fría de mayonesa y ketchup enriquecida con mostaza Dijon, salsa inglesa, gotas de tabasco y un toque de coñac o brandy.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "mayonesa"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "ketchup"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "mostaza de Dijon"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "salsa inglesa (tipo Worcestershire / Perrins)"
+      },
+      {
+        "amount": 3,
+        "unit": "gotas",
+        "item": "salsa tabasco"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "coñac o brandy"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar toda la mayonesa en un bol grande junto con el ketchup y la mostaza de Dijon, mezclando con cuidado hasta integrar bien."
+      },
+      {
+        "text": "Incorporar el chorrito de salsa inglesa, las gotas de tabasco y las cucharadas de coñac o brandy."
+      },
+      {
+        "text": "Probar y rectificar si hiciera falta antes de servir."
+      }
+    ]
   }
 ]
