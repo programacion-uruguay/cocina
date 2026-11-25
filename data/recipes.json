@@ -39577,5 +39577,1757 @@
         "timerMinutes": 35
       }
     ]
+  },
+  {
+    "id": "airfryer-omelette-de-verduras",
+    "title": "Omelette de Verduras en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Omelette rápido y liviano con morrón, cebolla y espinaca cocido en molde apto para freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "espinaca fresca picada"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "morrón rojo en cubitos"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "cebolla picada fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos en un bowl con sal y pimienta hasta integrar bien.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Agregá la espinaca, el morrón y la cebolla picada y mezclá.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Aceitá apenas un molde apto para freidora, volcá la mezcla y cociná a 180 °C durante 10 minutos hasta que cuaje y dore suave.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-muffins-huevo-espinaca",
+    "title": "Muffins de Huevo y Espinaca en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "temperatureC": 175,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Muffins salados proteicos de huevo, espinaca y queso rallado, ideales para desayuno o vianda.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "espinaca fresca picada"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso rallado o muzzarella en cubitos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con la leche, sal, pimienta y nuez moscada.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Incorporá la espinaca picada y el queso, y repartí en moldes de silicona para muffins.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Llevá a la freidora de aire a 175 °C por 12 minutos hasta que estén firmes y dorados.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pan-de-remolacha",
+    "title": "Pan de Remolacha en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 175,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pancito tierno y colorido de puré de remolacha, huevo y avena, perfecto para tostadas saludables.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "remolacha cocida hecha puré"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "avena arrollada o harina de avena"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá o mezclá el puré de remolacha con los huevos y el aceite.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Sumá la avena, el polvo de hornear y la sal hasta lograr una masa espesa y pareja.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volcá en un molde chico aceitado apto para freidora y cociná a 175 °C durante 18 minutos.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tortitas-de-ricota",
+    "title": "Tortitas de Ricota en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Tortitas suaves y aireadas de ricota, huevo y esencia de vainilla, listas en pocos minutos.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "ricota magra"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "harina común o de avena"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar o miel"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la ricota con los huevos, el azúcar y la esencia de vainilla hasta obtener una crema lisa.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Agregá la harina y el polvo de hornear integrando sin grumos.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Formá porciones sobre papel manteca perforado o molde de silicona y cociná a 180 °C por 10 minutos, dándolas vuelta a mitad de cocción.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-muffins-zapallo-canela",
+    "title": "Muffins de Zapallo y Canela en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 170,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Muffins húmedos y aromáticos de puré de zapallo cabutiá con canela y avena.",
+    "ingredients": [
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "puré de zapallo cabutiá cocido"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "avena fina o harina de avena"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar mascabo o común"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "canela molida"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí el puré de zapallo con los huevos y el azúcar hasta que quede homogéneo.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Incorporá la avena, la canela y el polvo de hornear mezclando suavemente.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Repartí en pirotines de silicona y cociná a 170 °C durante 15 minutos hasta que al pinchar salga seco.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tortitas-avena-naranja",
+    "title": "Tortitas de Avena y Naranja en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Tortitas perfumadas con ralladura y jugo de naranja natural, ideales para acompañar el mate.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "avena arrollada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "jugo de naranja exprimido"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "ralladura de naranja"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "miel o azúcar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el huevo con el jugo y la ralladura de naranja y la miel.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Sumá la avena y el polvo de hornear, dejando reposar 5 minutos para que hidrate.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Armá tortitas chicas sobre papel manteca y cociná a 180 °C por 10 minutos hasta dorar.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-budincitos-limon-semillas",
+    "title": "Budincitos de Limón y Semillas en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "temperatureC": 170,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Budincitos cítricos esponjosos con jugo de limón y un toque crocante de semillas de amapola o chía.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina leudante"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "jugo de limón y su ralladura"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de chía o amapola"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con el azúcar, el aceite, el jugo y la ralladura de limón.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Incorporá la harina leudante y las semillas mezclando sin sobrebatir.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Llená moldes individuales hasta 3/4 de su capacidad y cociná en la freidora a 170 °C por 16 minutos.",
+        "timerMinutes": 16
+      }
+    ]
+  },
+  {
+    "id": "airfryer-hamburguesas-de-lentejas",
+    "title": "Hamburguesas de Lentejas en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 12,
+    "cookMinutes": 14,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Medallones caseros de lentejas cocidas, cebolla, ajo y avena con exterior crocante sin fritura.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "lentejas cocidas y bien escurridas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla mediana picada"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "avena fina o pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "comino y pimentón"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite para pincelar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pisá las lentejas con tenedor dejando algo de textura y mezclalas con la cebolla, el ajo, la avena y los condimentos.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Formá 4 hamburguesas firmes y pincelalas con un hilo de aceite.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 190 °C por 14 minutos, dándolas vuelta a la mitad.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bastones-de-polenta",
+    "title": "Bastones de Polenta en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 14,
+    "temperatureC": 200,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Bastones dorados de polenta condimentada con queso rallado y orégano, súper crocantes por fuera.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "polenta instantánea"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "caldo de verduras o agua con sal"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "orégano seco"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná la polenta en el caldo hirviendo según el envase, sumá el queso y el orégano, y extendé en una fuente para enfriar y solidificar.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cortá en bastones parejos y rociá o pincelá con aceite de oliva.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Llevá a la freidora de aire a 200 °C por 14 minutos agitando o girando a mitad de tiempo.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "airfryer-medallones-de-atun",
+    "title": "Medallones de Atún en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "temperatureC": 185,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Medallones rápidos de atún en lata, huevo, perejil y pan rallado para resolver una cena liviana.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "atún al natural bien escurrido"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "pan rallado o avena"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "perejil y cebolla de verdeo picados"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "jugo de limón, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el atún desmenuzado con el huevo, el pan rallado, el perejil, el verdeo y el limón.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Armá 4 medallones compactos con las manos húmedas.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 185 °C durante 12 minutos girándolos a los 6 minutos.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-croquetas-de-arvejas",
+    "title": "Croquetas de Arvejas en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 190,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Croquetas verdes y tiernas de arvejas pisadas con papa y menta o perejil, doradas al aire.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "arvejas cocidas o en lata escurridas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "puré de papa firme"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pisá las arvejas y mezclalas con el puré de papa, el perejil y sal.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Formá croquetas ovaladas, pasalas por huevo batido y luego por pan rallado.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná a 190 °C por 12 minutos hasta que queden bien doradas y crocantes.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bunuelos-de-espinaca",
+    "title": "Buñuelos de Espinaca en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 185,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Clásicos buñuelos uruguayos de espinaca, huevo y harina leudante en versión liviana sin aceite abundante.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "espinaca cocida, escurrida y picada"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina leudante"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con la sal, pimienta y nuez moscada, y sumá la espinaca y el queso rallado.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Agregá la harina leudante hasta formar una pasta espesa que se sostenga en la cuchara.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Colocá cucharadas sobre papel manteca aceitado y cociná a 185 °C por 12 minutos dando vuelta a mitad de cocción.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pizza-de-berenjena",
+    "title": "Pizza de Berenjena en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "temperatureC": 190,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Rodajas gruesas de berenjena asadas con salsa de tomate, muzzarella y orégano al estilo pizzeta.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "berenjena grande en rodajas de 1,5 cm"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "salsa de tomate"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "muzzarella rallada o en fetas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "orégano y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pincelá las rodajas de berenjena con aceite y sal, y cocinalas 7 minutos a 190 °C.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Cubrí cada rodaja con salsa de tomate, muzzarella y orégano.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volvé a la freidora 5 minutos más a 190 °C hasta que el queso se funda y gratine.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-zapallito-expres",
+    "title": "Tarta de Zapallito Exprés en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 175,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tarta rápida sin masa o con base fina de zapallito, cebolla, huevo y queso en molde chico.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "zapallitos verdes rallados o en cubitos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "queso cremoso o muzzarella"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina o fécula de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá apenas o escurrí bien los zapallitos con la cebolla para quitar el exceso de agua.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Mezclá con los huevos batidos, la harina, el queso en cubitos y los condimentos.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volcá en un molde aceitado de 16-18 cm y cociná a 175 °C durante 18 minutos.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "airfryer-cazuela-lentejas-rapida",
+    "title": "Cazuela de Lentejas Rápida en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Cazuelita reconfortante de lentejas, boniato y morrón gratinada en recipiente apto para freidora.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "lentejas cocidas"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "boniato en cubitos chicos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "morrón y cebolla picados"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "puré de tomate"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "pimentón dulce, comino y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá en una fuente honda apta para freidora las lentejas, el boniato, el morrón, la cebolla, el puré de tomate y los condimentos.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Tapá con papel aluminio y cociná a 180 °C por 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Destapá, revolvé y cociná 5 minutos más hasta que el boniato esté tierno y la salsa espese.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "airfryer-canelones-de-berenjena",
+    "title": "Canelones de Berenjena en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Láminas tiernas de berenjena rellenas de ricota y espinaca, cubiertas con salsa de tomate y queso.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "berenjenas cortadas en láminas finas a lo largo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "espinaca picada"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "salsa de tomate"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso rallado o muzzarella"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná las láminas de berenjena 6 minutos a 180 °C para ablandarlas.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Mezclá la ricota con la espinaca, sal y pimienta; rellená cada lámina y enrollala.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Acomodá los rollitos en una fuente con salsa de tomate y queso encima, y gratiná a 180 °C por 9 minutos.",
+        "timerMinutes": 9
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-rustica-brocoli",
+    "title": "Tarta Rústica de Brócoli en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 175,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Tarta salada de arbolitos de brócoli, ricota y queso sobre base rápida o directa en molde.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "brócoli en flores chicas precocidas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y ajo en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con la ricota, el queso rallado y los condimentos.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Distribuí el brócoli en un molde aceitado apto para freidora y cubrí con la mezcla.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná a 175 °C durante 18 minutos hasta que cuaje y dore la superficie.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bastones-choclo-queso",
+    "title": "Bastones de Choclo y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 190,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Croquetas alargadas de choclo amarillo, queso muzzarella y polenta o pan rallado.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "choclo amarillo desgranado o en lata"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pan rallado o harina de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesá apenas la mitad del choclo y mezclalo con el resto entero, el queso, el huevo y el pan rallado.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Armá bastones compactos y pincelalos con un poquito de aceite.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en freidora de aire a 190 °C durante 12 minutos girando a la mitad.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pizza-de-polenta",
+    "title": "Pizza de Polenta en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 12,
+    "cookMinutes": 15,
+    "temperatureC": 190,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Base crocante de polenta sin TACC cubierta con salsa de tomate, muzzarella y orégano.",
+    "ingredients": [
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "polenta instantánea"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "agua o caldo con sal"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "salsa de tomate"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "muzzarella"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "orégano y aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Prepará la polenta espesa, volcá en un molde redondo aceitado formando un disco fino y dejá entibiar.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Cociná la base sola 8 minutos a 190 °C para que quede firme y crocante.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Agregá la salsa de tomate, la muzzarella y el orégano, y cociná 7 minutos más hasta gratinar.",
+        "timerMinutes": 7
+      }
+    ]
+  },
+  {
+    "id": "airfryer-budin-brocoli-salado",
+    "title": "Budín de Brócoli Salado en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 170,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Budín esponjoso de brócoli procesado, huevo, queso crema y queso rallado en molde inglés chico.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "brócoli cocido picado fino"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso crema o ricota"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "fécula de maíz o avena"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con el queso crema, la fécula, la sal y la nuez moscada.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Sumá el brócoli picado y el queso rallado integrando bien.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volcá en una budinera chica apta para freidora y cociná a 170 °C por 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-choclo-express",
+    "title": "Tarta de Choclo Express en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 16,
+    "temperatureC": 175,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Tarta cremosa de choclo y cebolla con queso derretido, lista en minutos en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "choclo en grano escurrido"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla picada fina"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los huevos con el queso crema, el queso rallado y los condimentos.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Incorporá el choclo y la cebolla picada y volcá en un molde aceitado.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 175 °C durante 16 minutos hasta que dore.",
+        "timerMinutes": 16
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bunuelos-acelga-arroz",
+    "title": "Buñuelos de Acelga y Arroz en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 185,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Buñuelos rendidores para aprovechar arroz cocido y acelga con un exterior dorado y liviano.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "acelga cocida, escurrida y picada"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "arroz blanco cocido"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "harina o pan rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Uní la acelga picada con el arroz cocido, los huevos, el queso rallado, sal y pimienta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Agregá la harina hasta obtener una mezcla moldeable.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Armá bolitas o tortitas sobre papel manteca aceitado y cociná a 185 °C por 12 minutos.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pan-de-lentejas",
+    "title": "Pan de Lentejas en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 175,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pan proteico y sin harinas refinadas hecho con lentejas remojadas, huevo y semillas.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "lentejas remojadas 4 horas y escurridas"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de sésamo o girasol y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuá las lentejas remojadas con los huevos, el aceite, la sal y el polvo de hornear hasta lograr una crema espesa.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volcá en una budinera chica aceitada y espolvoreá con semillas por arriba.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 175 °C durante 20 minutos hasta que esté firme al tacto.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-nuggets-polenta-espinaca",
+    "title": "Nuggets de Polenta y Espinaca en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 12,
+    "cookMinutes": 12,
+    "temperatureC": 195,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Bocaditos crocantes de polenta con espinaca y queso, ideales para picar o para los más chicos.",
+    "ingredients": [
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "polenta instantánea"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "caldo o agua con sal"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "espinaca cocida picada fina"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso rallado"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "pan rallado para rebozar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Prepará la polenta en el caldo caliente, sumá la espinaca y el queso, y dejá enfriar en placa chata.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cortá en bocaditos tipo nuggets y pasalos por pan rallado con un rocío de aceite.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná a 195 °C por 12 minutos sacudiendo la canasta a mitad de tiempo.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-chips-de-remolacha",
+    "title": "Chips de Remolacha en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 14,
+    "temperatureC": 160,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Láminas finísimas y crocantes de remolacha deshidratadas en freidora de aire con una pizca de sal.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "remolachas medianas peladas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá las remolachas en láminas bien finas con mandolina o cuchillo afilado y secalas con papel.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Mezclá apenas con el aceite de oliva y acomodá sin encimar en la canasta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná a 160 °C durante 14 minutos moviendo cada 5 minutos, y salá al retirar.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "airfryer-chips-cascara-de-papa",
+    "title": "Chips de Cáscara de Papa en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "temperatureC": 190,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Snack de aprovechamiento súper crocante con cáscaras de papa bien lavadas, pimentón y sal.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "cáscaras de papa bien lavadas y secas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva o girasol"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "pimentón dulce y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Secá muy bien las cáscaras de papa con un repasador limpio o papel absorbente.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Condimentá con aceite, pimentón y sal mezclando en un bowl.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 190 °C por 10 minutos agitando a la mitad hasta que queden crocantes.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-cebolla-caramelizada-balsamico",
+    "title": "Cebolla Caramelizada al Balsámico en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 5,
+    "cookMinutes": 18,
+    "temperatureC": 170,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Guarnición dulce y suave de cebollas en pluma con aceto balsámico y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "cebollas grandes en pluma"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "azúcar mascabo o común y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la cebolla en pluma con el aceite, el aceto balsámico, el azúcar y una pizca de sal en un recipiente apto.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná a 170 °C durante 18 minutos revolviendo cada 6 minutos hasta que quede tierna y dorada.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "airfryer-zapallo-cabutia-limon-menta",
+    "title": "Zapallo Cabutiá al Limón y Menta en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 16,
+    "temperatureC": 190,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Cubos asados de zapallo cabutiá con un toque fresco de jugo de limón y menta picada.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "zapallo cabutiá en cubos medianos"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "hojas de menta fresca picadas y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Condimentá los cubos de zapallo con aceite de oliva y sal.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 190 °C por 16 minutos moviendo a mitad de cocción hasta que doren.",
+        "timerMinutes": 16
+      },
+      {
+        "text": "Retirá y rociá en caliente con jugo de limón y menta fresca picada.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bolitas-pure-boniato",
+    "title": "Bolitas Crocantes de Puré de Boniato en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 195,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Bolitas doradas de puré de boniato rebozadas en pan rallado o avena, suaves por dentro y crocantes fuera.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "puré de boniato firme y frío"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pan rallado o avena molida"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Condimentá el puré de boniato y armá bolitas parejas con las manos.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Pasalas por huevo batido y rebozá con pan rallado, rociando apenas con aceite.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná a 195 °C durante 12 minutos hasta que estén bien doradas.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-empanadas-lentejas-boniato",
+    "title": "Empanadas de Lentejas y Boniato en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 185,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Empanadas caseras rellenas de lentejas condimentadas y puré de boniato, doradas sin horno ni fritura.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "unidades",
+        "item": "tapas de empanada criollas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "lentejas cocidas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "puré de boniato"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla picada y comino"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá las lentejas con el puré de boniato, la cebolla salteada o picada fina, comino y sal.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Rellená las tapas de empanada, hacé el repulgue y pintá con huevo batido.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 185 °C por 12 minutos hasta que estén doradas.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-compota-manzana-natural",
+    "title": "Compota de Manzana Natural en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 6,
+    "cookMinutes": 16,
+    "temperatureC": 175,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Compota tibia y perfumada de manzana roja con canela y limón, sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "manzanas rojas peladas y en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "canela molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá los cubos de manzana en un recipiente apto para freidora junto con el agua, el limón y la canela.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Tapá con papel aluminio y cociná a 175 °C por 16 minutos hasta que estén muy tiernas.",
+        "timerMinutes": 16
+      },
+      {
+        "text": "Pisá con tenedor hasta lograr la textura de compota deseada.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "airfryer-chips-de-pera",
+    "title": "Chips de Pera en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 6,
+    "cookMinutes": 15,
+    "temperatureC": 150,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Láminas finas de pera asadas a baja temperatura con un toque de canela, ideales como colación dulce.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "peras firmes"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "canela molida"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "jugo de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá las peras en láminas bien finas y rocialas con el jugo de limón y la canela.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Acomodá en una sola capa sobre la rejilla y cociná a 150 °C durante 15 minutos, dando vuelta a mitad de tiempo.",
+        "timerMinutes": 15
+      }
+    ]
   }
 ]
