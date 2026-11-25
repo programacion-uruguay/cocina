@@ -49265,5 +49265,2711 @@
       "carbs": "24g",
       "fat": "23g"
     }
+  },
+  {
+    "id": "cpd-grissinis-caseros",
+    "title": "Grissinis Caseros con Semillas",
+    "subtitle": "Palitos crocantes artesanales ideales para picadas y sopas.",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 240,
+    "ingredients": [
+      "250 g de harina 000",
+      "10 g de levadura fresca",
+      "140 ml de agua tibia",
+      "20 ml de aceite de oliva",
+      "15 g de miel",
+      "5 g de sal",
+      "Semillas de sésamo o amapola a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Amasar",
+        "instruction": "Disolvé la levadura y la miel en el agua tibia, agregá la harina, la sal y el aceite de oliva y amasá 8 minutos hasta lograr una masa lisa. Pincelá con aceite y dejá levar 1 hora.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Formar los grissinis",
+        "instruction": "Estirá la masa en un rectángulo, cortá tiras finas, estiralas con las manos y rebozalas en semillas.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Disponé en placa con papel manteca y horneá a 220 °C de 10 a 15 minutos hasta que queden bien secos y dorados.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "45g",
+      "fat": "5g"
+    }
+  },
+  {
+    "id": "cpd-tequenos-queso",
+    "title": "Tequeños de Queso",
+    "subtitle": "Bastones de queso semicurado envueltos en masa crocante.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "8 min",
+    "totalTime": "28 min",
+    "servings": 3,
+    "calories": 330,
+    "ingredients": [
+      "125 g de harina 0000",
+      "50 ml de agua",
+      "1/2 huevo batido",
+      "1 cdita de polvo de hornear",
+      "1 pizca de sal",
+      "6 bastones de queso semiduro (gouda o dambo)",
+      "Aceite para freír"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la masa",
+        "instruction": "Mezclá la harina con el polvo de hornear y la sal; agregá el huevo y el agua y amasá hasta lograr una masa suave y elástica.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Envolver el queso",
+        "instruction": "Estirá la masa fina, cortá tiras y enrollalas en espiral cubriendo por completo cada bastón de queso.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Freír",
+        "instruction": "Freí en abundante aceite caliente a 180 °C durante 3 a 4 minutos hasta que queden dorados.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "14g",
+      "carbs": "28g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "cpd-provopizza-horno",
+    "title": "Provopizza al Horno",
+    "subtitle": "Queso provolone fundido horneado dentro de una corona de masa de pizza.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "totalTime": "35 min",
+    "servings": 2,
+    "calories": 560,
+    "ingredients": [
+      "200 g de harina 000",
+      "50 ml de leche tibia",
+      "50 ml de agua tibia",
+      "25 ml de aceite de oliva",
+      "10 g de levadura fresca",
+      "1/2 cdita de sal",
+      "1 queso provolone redondo",
+      "Orégano a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Hacer la masa",
+        "instruction": "Disolvé la levadura en los líquidos tibios, mezclá con la harina, sal y aceite, amasá y dejá levar tapada 30 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Armar con el provolone",
+        "instruction": "Estirá la masa, colocá en una cazuela apta para horno del tamaño del queso, poné el provolone en el centro y espolvoreá orégano.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Llevá a horno precalentado a 210 °C de 12 a 15 minutos hasta que la masa esté dorada y el queso burbujeante.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "24g",
+      "carbs": "46g",
+      "fat": "31g"
+    }
+  },
+  {
+    "id": "cpd-fondue-queso-pan",
+    "title": "Fondue de Queso en Pan de Campo",
+    "subtitle": "Pan redondo ahuecado relleno con mezcla cremosa de quesos y cebolleta.",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "55 min",
+    "totalTime": "1 h 15 min",
+    "servings": 6,
+    "calories": 590,
+    "ingredients": [
+      "1 pan de campo redondo",
+      "250 g de queso emmental o gruyere rallado",
+      "250 g de queso curado rallado",
+      "250 g de mayonesa",
+      "3 cebollas de verdeo (parte blanca) picadas finas",
+      "Pimienta negra recién molida"
+    ],
+    "steps": [
+      {
+        "title": "Ahuecar el pan",
+        "instruction": "Cortá una tapa superior al pan de campo, ahuecá la miga (reservala en trozos) y mezclá en un bowl los quesos rallados, la cebolleta, mayonesa y pimienta.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Rellenar y envolver",
+        "instruction": "Volcá la mezcla dentro del pan, tapá con su propia tapa y envolvé todo en papel aluminio.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Horneá a 180 °C durante 55 minutos hasta que el relleno esté completamente fundido. Serví con los trozos de pan.",
+        "timerMinutes": 55
+      }
+    ],
+    "nutrition": {
+      "protein": "25g",
+      "carbs": "32g",
+      "fat": "40g"
+    }
+  },
+  {
+    "id": "cpd-mini-pizzas-express",
+    "title": "Mini Pizzas Express en Tapas de Empanada",
+    "subtitle": "Pizzetas individuales crocantes listas en 5 minutos de horno.",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepTime": "5 min",
+    "cookTime": "5 min",
+    "totalTime": "10 min",
+    "servings": 3,
+    "calories": 270,
+    "ingredients": [
+      "6 tapas de empanada",
+      "6 cdas de salsa de tomate",
+      "120 g de queso mozzarella rallado",
+      "80 g de jamón cocido o panceta en tiritas",
+      "Orégano a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Armar las pizzetas",
+        "instruction": "Disponé las tapas sobre placa con papel manteca, untá con salsa de tomate y cubrí con mozzarella, jamón y orégano.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Cociná en horno bien caliente a 220 °C de 4 a 5 minutos hasta que los bordes doren y el queso funda.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "13g",
+      "carbs": "25g",
+      "fat": "13g"
+    }
+  },
+  {
+    "id": "cpd-trenza-hojaldre-jamon-queso",
+    "title": "Trenza de Hojaldre Rellena de Jamón y Queso",
+    "subtitle": "Masa hojaldrada trenzada al horno con salsa de tomate, jamón y queso.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "18 min",
+    "totalTime": "28 min",
+    "servings": 4,
+    "calories": 420,
+    "ingredients": [
+      "1 lámina rectangular de masa de hojaldre",
+      "4 cdas de salsa de tomate",
+      "150 g de jamón cocido en fetas",
+      "150 g de queso dambo o gouda en fetas",
+      "1 huevo batido para pintar"
+    ],
+    "steps": [
+      {
+        "title": "Rellenar el centro",
+        "instruction": "Extendé la lámina de hojaldre, pintá la franja central con salsa de tomate y acomodá el jamón y el queso.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Trenzar y pintar",
+        "instruction": "Hacé cortes oblicuos cada 1,5 cm en ambos laterales y cruzalos sobre el relleno formando una trenza. Pinchá y pintá con huevo.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Horneá a 180 °C durante 18 minutos hasta que el hojaldre esté inflado y dorado.",
+        "timerMinutes": 18
+      }
+    ],
+    "nutrition": {
+      "protein": "18g",
+      "carbs": "29g",
+      "fat": "26g"
+    }
+  },
+  {
+    "id": "cpd-saquitos-camarones-queso",
+    "title": "Saquitos Crocantes de Camarones y Queso Crema",
+    "subtitle": "Bolsitas de masa de empanada fritas rellenas de queso saborizado y camarones.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "8 min",
+    "totalTime": "23 min",
+    "servings": 4,
+    "calories": 290,
+    "ingredients": [
+      "12 tapas de empanada",
+      "150 g de camarones o langostinos pelados picados",
+      "6 cdas de queso crema (natural y saborizado)",
+      "1 diente de ajo y perejil picados",
+      "Aceite para freír"
+    ],
+    "steps": [
+      {
+        "title": "Saltear los camarones",
+        "instruction": "Salteá los camarones picados con ajo y perejil 2 minutos y secalos con papel absorbente.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Mezclar y armar saquitos",
+        "instruction": "Mezclá los camarones tibios con el queso crema, colocá una cucharada en el centro de cada tapa y cerrá en forma de saquito.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Freír",
+        "instruction": "Freí en aceite caliente hasta dorar y escurrí sobre papel absorbente.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "13g",
+      "carbs": "24g",
+      "fat": "15g"
+    }
+  },
+  {
+    "id": "cpd-escalivada-horno",
+    "title": "Escalivada Catalana al Horno",
+    "subtitle": "Morrón, berenjena, cebolla y ajo asados enteros y aliñados con oliva.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "55 min",
+    "totalTime": "1 h 5 min",
+    "servings": 4,
+    "calories": 145,
+    "ingredients": [
+      "1 morrón rojo grande",
+      "1 berenjena grande",
+      "3 cebollas medianas",
+      "1 cabeza de ajos",
+      "3 cdas de aceite de oliva",
+      "Sal gruesa o en escamas a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Asar las verduras",
+        "instruction": "Pinchá la berenjena y colocá todas las verduras limpias y secas en una fuente. Horneá a 180 °C durante 55 minutos.",
+        "timerMinutes": 55
+      },
+      {
+        "title": "Enfriar y pelar",
+        "instruction": "Cubrí la fuente con papel aluminio al salir del horno hasta que entibien; pelá fácilmente y cortá en tiras.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Aliñar",
+        "instruction": "Serví con un generoso hilo de aceite de oliva y sal.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "2g",
+      "carbs": "14g",
+      "fat": "9g"
+    }
+  },
+  {
+    "id": "cpd-mini-flanes-zapallito",
+    "title": "Mini Flanes de Zapallito al Baño María",
+    "subtitle": "Flanes individuales suaves de zapallito salteado, huevo y leche.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "totalTime": "45 min",
+    "servings": 2,
+    "calories": 155,
+    "ingredients": [
+      "300 g de zapallitos o zucchini en cubitos",
+      "2 huevos",
+      "150 ml de leche",
+      "1 cda de aceite de oliva",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Rehogar el zapallito",
+        "instruction": "Salteá los cubitos de zapallito en aceite hasta que estén tiernos y escurrí el líquido excedente.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Mezclar",
+        "instruction": "Batí los huevos con la leche, sal y pimienta e incorporá los zapallitos.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Hornear a baño María",
+        "instruction": "Volcá en dos flaneras aceitadas y cociná a baño María en horno a 180 °C por 30 minutos. Entibiá y desmoldá.",
+        "timerMinutes": 30
+      }
+    ],
+    "nutrition": {
+      "protein": "9g",
+      "carbs": "7g",
+      "fat": "10g"
+    }
+  },
+  {
+    "id": "cpd-ensalada-mango-langostinos",
+    "title": "Ensalada Tibia de Mango y Langostinos al Wok",
+    "subtitle": "Salteado rápido y aromático de langostinos con jengibre y mango fresco.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "6 min",
+    "totalTime": "16 min",
+    "servings": 2,
+    "calories": 230,
+    "ingredients": [
+      "400 g de langostinos pelados",
+      "1 mango maduro firme en tiras finas",
+      "1 cebolla de verdeo (parte blanca) picada",
+      "2 dientes de ajo picados",
+      "2 cm de jengibre fresco picado",
+      "2 cdas de aceite de oliva y sal"
+    ],
+    "steps": [
+      {
+        "title": "Sofreír aromáticos",
+        "instruction": "En un wok con aceite rehogá la cebolla de verdeo, el ajo y el jengibre durante 2 minutos.",
+        "timerMinutes": 2
+      },
+      {
+        "title": "Saltear langostinos y mango",
+        "instruction": "Subí el fuego, agregá los langostinos por 2 minutos y sumá las tiras de mango 2 minutos más hasta calentar.",
+        "timerMinutes": 4
+      }
+    ],
+    "nutrition": {
+      "protein": "24g",
+      "carbs": "14g",
+      "fat": "8g"
+    }
+  },
+  {
+    "id": "cpd-ensalada-mango-salmon",
+    "title": "Ensalada de Mango y Salmón Ahumado",
+    "subtitle": "Láminas frescas de mango maduro cubiertas con salmón ahumado.",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepTime": "8 min",
+    "cookTime": "0 min",
+    "totalTime": "8 min",
+    "servings": 2,
+    "calories": 255,
+    "ingredients": [
+      "1 mango maduro en rodajas finas",
+      "200 g de salmón ahumado en fetas",
+      "2 cdas de aceite de oliva",
+      "1 cda de vinagre suave",
+      "Sal y pimienta negra recién molida"
+    ],
+    "steps": [
+      {
+        "title": "Armar el plato",
+        "instruction": "Disponé las láminas de mango en un plato y cubrí con las fetas de salmón ahumado.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Aderezar",
+        "instruction": "Condimentá con pimienta negra recién molida, sal, aceite de oliva y vinagre.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "19g",
+      "carbs": "15g",
+      "fat": "13g"
+    }
+  },
+  {
+    "id": "cpd-gazpacho-frambuesas",
+    "title": "Gazpacho de Frambuesas",
+    "subtitle": "Sopa fría refrescante de tomate y frambuesas con toque de oliva.",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "0 min",
+    "totalTime": "10 min",
+    "servings": 2,
+    "calories": 140,
+    "ingredients": [
+      "250 g de frambuesas",
+      "250 g de tomates maduros",
+      "25 g de cebolla",
+      "20 g de morrón rojo",
+      "20 g de pepino pelado",
+      "1 diente de ajo chico",
+      "10 ml de vinagre y 25 ml de aceite de oliva",
+      "Sal, pimienta y 4 cubitos de hielo"
+    ],
+    "steps": [
+      {
+        "title": "Licuar los ingredientes",
+        "instruction": "Colocá las frambuesas, tomate, morrón, pepino, cebolla, ajo, sal, pimienta, vinagre y hielo en la licuadora y procesá hasta lograr crema lisa.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Emulsionar y enfriar",
+        "instruction": "Agregá el aceite de oliva y licuá 30 segundos más. Colá si deseás y serví bien frío.",
+        "timerMinutes": 4
+      }
+    ],
+    "nutrition": {
+      "protein": "2g",
+      "carbs": "13g",
+      "fat": "9g"
+    }
+  },
+  {
+    "id": "cpd-gazpacho-frutillas",
+    "title": "Gazpacho de Frutillas",
+    "subtitle": "Versión frutal y ligera del gazpacho clásico con frutillas frescas.",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "0 min",
+    "totalTime": "10 min",
+    "servings": 2,
+    "calories": 135,
+    "ingredients": [
+      "250 g de frutillas limpias",
+      "250 g de tomates maduros",
+      "25 g de cebolla",
+      "20 g de morrón rojo",
+      "20 g de pepino pelado",
+      "1 diente de ajo chico",
+      "10 ml de vinagre y 25 ml de aceite de oliva",
+      "Sal, pimienta y 4 cubitos de hielo"
+    ],
+    "steps": [
+      {
+        "title": "Procesar",
+        "instruction": "Licuá todos los vegetales y frutillas junto con el hielo, sal, pimienta y vinagre hasta obtener una mezcla homogénea.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Emulsionar y servir",
+        "instruction": "Añadí el aceite de oliva, licuá brevemente, colá y refrigerá antes de servir.",
+        "timerMinutes": 4
+      }
+    ],
+    "nutrition": {
+      "protein": "2g",
+      "carbs": "12g",
+      "fat": "9g"
+    }
+  },
+  {
+    "id": "cpd-vichyssoise-clasica",
+    "title": "Vichyssoise Clásica (Crema Fría de Puerros)",
+    "subtitle": "Crema francesa aterciopelada de puerros y papas servida bien fría.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 245,
+    "ingredients": [
+      "400 g de papas peladas en trozos",
+      "200 g de puerros limpios (solo la parte blanca) en rodajas",
+      "40 g de manteca y 2 cdas de aceite",
+      "200 ml de leche evaporada o crema de leche",
+      "500 ml de caldo de verduras o agua",
+      "Sal y pimienta blanca"
+    ],
+    "steps": [
+      {
+        "title": "Rehogar los puerros",
+        "instruction": "Cociná los puerros en la manteca y aceite a fuego suave sin que doren durante 6 minutos.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Cocinar las papas",
+        "instruction": "Agregá las papas, el caldo, sal y pimienta; herví 20 minutos hasta que estén tiernas.",
+        "timerMinutes": 20
+      },
+      {
+        "title": "Procesar y enfriar",
+        "instruction": "Mixeá hasta dejar sin grumos, incorporá la crema de leche o leche evaporada y llevá a heladera hasta servir bien fría.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "23g",
+      "fat": "15g"
+    }
+  },
+  {
+    "id": "cpd-fideua-mariscos",
+    "title": "Fideuá de Mariscos y Pescado",
+    "subtitle": "Fideos cortos cocidos en caldo de pescado con almejas, camarones y pescado.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "25 min",
+    "totalTime": "45 min",
+    "servings": 2,
+    "calories": 480,
+    "ingredients": [
+      "200 g de fideos cortos tipo cabello grueso o fideo para fideuá",
+      "250 g de almejas o mejillones limpios",
+      "100 g de camarones o langostinos pelados",
+      "100 g de pescado firme en cubos",
+      "1/2 cebolla y 1 diente de ajo picados",
+      "2 tomates maduros rallados",
+      "1 cdita de pimentón dulce y pizca de azafrán o cúrcuma",
+      "700 ml de caldo de pescado caliente y 3 cdas de aceite de oliva"
+    ],
+    "steps": [
+      {
+        "title": "Hacer el sofrito",
+        "instruction": "Rehogá cebolla y ajo en aceite de oliva, agregá el tomate, el pimentón y el azafrán y cociná 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Saltear mariscos y fideos",
+        "instruction": "Sumá las almejas hasta que abran, el pescado, los camarones y los fideos; mezclá 2 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Cocinar en caldo",
+        "instruction": "Verté el caldo caliente y cociná 10 a 12 minutos hasta que los fideos absorban el líquido.",
+        "timerMinutes": 12
+      }
+    ],
+    "nutrition": {
+      "protein": "31g",
+      "carbs": "59g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": "cpd-risotto-verde-langostinos",
+    "title": "Risotto Verde de Espinaca con Langostinos",
+    "subtitle": "Arroz cremoso teñido con crema de espinaca y coronado con langostinos.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 2,
+    "calories": 470,
+    "ingredients": [
+      "150 g de arroz carnaroli o arborio",
+      "200 g de espinaca fresca o congelada",
+      "12 langostinos pelados",
+      "1/2 cebolla picada fina",
+      "100 ml de vino blanco",
+      "750 ml de caldo de ave",
+      "3 ramitas de perejil",
+      "2 cdas de crema de leche, 30 g de queso rallado y aceite de oliva"
+    ],
+    "steps": [
+      {
+        "title": "Preparar el caldo verde",
+        "instruction": "Cociná la espinaca y el perejil en el caldo de ave 5 minutos y licuá todo. Mantenelo caliente.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Cocinar el risotto",
+        "instruction": "Rehogá la cebolla en aceite, nacará el arroz 2 minutos, sumá el vino blanco y luego agregá el caldo verde de a cucharones revolviendo durante 16 minutos.",
+        "timerMinutes": 18
+      },
+      {
+        "title": "Terminar con langostinos",
+        "instruction": "Dorá los langostinos en sartén aparte 3 minutos. Fuera del fuego sumá crema y queso al arroz y serví con los langostinos encima.",
+        "timerMinutes": 4
+      }
+    ],
+    "nutrition": {
+      "protein": "23g",
+      "carbs": "56g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "cpd-enfrijoladas-porotos-negros",
+    "title": "Enfrijoladas Gratinadas de Porotos Negros",
+    "subtitle": "Tortillas de maíz rellenas de queso y bañadas en pasta tibia de porotos.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min",
+    "servings": 2,
+    "calories": 430,
+    "ingredients": [
+      "4 tortillas de maíz",
+      "350 g de porotos negros cocidos y procesados en pasta tibia",
+      "150 g de queso semiduro en triángulos y rallado",
+      "Sal y comino a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Calentar tortillas y pasta",
+        "instruction": "Entibiá la pasta de porotos en sartén y calentá apenas las tortillas para que queden flexibles.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Armar y bañar",
+        "instruction": "Rellená cada tortilla con queso, doblá al medio en fuente de horno y cubrí por ambos lados con la pasta de porotos y queso rallado.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Gratinar",
+        "instruction": "Horneá a 200 °C durante 6 a 8 minutos hasta derretir el queso.",
+        "timerMinutes": 7
+      }
+    ],
+    "nutrition": {
+      "protein": "21g",
+      "carbs": "47g",
+      "fat": "17g"
+    }
+  },
+  {
+    "id": "cpd-fideos-chinos-carne",
+    "title": "Fideos Chinos al Wok con Carne y Verduras",
+    "subtitle": "Salteado rápido de fideos orientales con carne picada, zapallito y zanahoria.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "12 min",
+    "totalTime": "22 min",
+    "servings": 2,
+    "calories": 490,
+    "ingredients": [
+      "180 g de fideos chinos o tallarines finos",
+      "250 g de carne vacuna picada",
+      "150 g de zapallito o zucchini en juliana",
+      "1 zanahoria en juliana",
+      "1/2 morrón verde en juliana",
+      "3 cdas de salsa de soja y 2 cdas de aceite"
+    ],
+    "steps": [
+      {
+        "title": "Hervir fideos y dorar carne",
+        "instruction": "Cociná los fideos según el envase. En sartén aparte dorá la carne picada escurriendo el líquido.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Saltear en wok",
+        "instruction": "Salteá las verduras en el wok con aceite 4 minutos hasta tiernizar.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Integrar con salsa de soja",
+        "instruction": "Sumá los fideos cocidos, la carne y la salsa de soja; salteá 2 minutos y serví.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "52g",
+      "fat": "17g"
+    }
+  },
+  {
+    "id": "cpd-tentacion-janssons",
+    "title": "La Tentación de Janssons (Gratinado de Papas y Anchoas)",
+    "subtitle": "Clásico sueco al horno de láminas de papa, cebolla, anchoas y crema.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h",
+    "servings": 4,
+    "calories": 345,
+    "ingredients": [
+      "4 papas medianas en rodajas finas",
+      "2 cebollas en pluma",
+      "1 lata de filetes de anchoas (50 g) con su líquido",
+      "200 ml de crema de leche",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Armar las capas",
+        "instruction": "En una fuente para horno intercalá una capa de papas, cebolla, filetes de anchoas picados y otra capa de papas. Salpimentá.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear con crema",
+        "instruction": "Verté el líquido de las anchoas y la mitad de la crema de leche. Horneá a 180 °C durante 30 minutos (tapando si dora mucho).",
+        "timerMinutes": 30
+      },
+      {
+        "title": "Terminar",
+        "instruction": "Agregá el resto de la crema y horneá 10 minutos más destapado.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "9g",
+      "carbs": "32g",
+      "fat": "20g"
+    }
+  },
+  {
+    "id": "cpd-mini-pastela-pollo",
+    "title": "Mini Pastela Marroquí de Pollo y Almendras",
+    "subtitle": "Pastel agridulce en masa fina con pollo especiado, canela y almendras.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h 10 min",
+    "servings": 2,
+    "calories": 510,
+    "ingredients": [
+      "350 g de pollo en presas",
+      "50 g de cebolla picada fina",
+      "30 g de manteca",
+      "2 huevos batidos",
+      "5 láminas de masa filo",
+      "40 g de almendras picadas",
+      "2 cdas de azúcar impalpable y 1 cdita de canela molida",
+      "Perejil, cilantro, jengibre en polvo, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Guisar el pollo especiado",
+        "instruction": "Rehogá la cebolla en la mitad de la manteca, sumá el pollo, jengibre, canela, sal, pimienta y 1 vaso de agua; cociná tapado 30 minutos. Desmenuzá el pollo.",
+        "timerMinutes": 30
+      },
+      {
+        "title": "Cuajar la salsa con huevo",
+        "instruction": "Agregá perejil, cilantro y la mitad del azúcar impalpable al caldo reducido, retirá del fuego y cuajá los huevos batidos removiendo.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Armar y hornear",
+        "instruction": "Forrá un molde con las láminas de masa filo pinceladas con manteca derretida, rellená con pollo, salsa de huevo y almendras, cerrá y horneá a 180 °C por 12 minutos. Espolvoreá azúcar impalpable y canela.",
+        "timerMinutes": 12
+      }
+    ],
+    "nutrition": {
+      "protein": "31g",
+      "carbs": "42g",
+      "fat": "24g"
+    }
+  },
+  {
+    "id": "cpd-musaka-griega",
+    "title": "Musaka Griega de Berenjenas y Carne",
+    "subtitle": "Capas de berenjenas doradas, carne picada especiada con canela y bechamel.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "30 min",
+    "cookTime": "35 min",
+    "totalTime": "1 h 5 min",
+    "servings": 2,
+    "calories": 520,
+    "ingredients": [
+      "1 berenjena grande en láminas de 7 mm",
+      "250 g de carne vacuna picada",
+      "1 tomate mediano pelado y picado",
+      "1/4 de cebolla y 1 diente de ajo picados",
+      "50 ml de vino blanco",
+      "1 pizca de canela molida, menta o albahaca y perejil",
+      "Bechamel: 20 ml de aceite, 30 g de harina, 300 ml de leche, queso rallado, nuez moscada, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Purgar y dorar berenjenas",
+        "instruction": "Espolvoreá las láminas de berenjena con sal 30 minutos, lavá, secá y doralas en sartén con aceite.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Cocinar la carne y la bechamel",
+        "instruction": "Rehogá cebolla y ajo, cociná la carne con canela, hierbas, tomate y vino blanco. Aparte prepará una bechamel liviana con el queso rallado.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Armar y gratinar",
+        "instruction": "Intercalá capas de berenjena, carne y bechamel en fuente de horno, cubrí con queso rallado y horneá a 180 °C por 25 minutos.",
+        "timerMinutes": 25
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "29g",
+      "fat": "30g"
+    }
+  },
+  {
+    "id": "cpd-tempura-zapallo",
+    "title": "Tempura de Zapallo",
+    "subtitle": "Triángulos de zapallo en rebozado japonés liviano y súper crocante.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min",
+    "servings": 2,
+    "calories": 245,
+    "ingredients": [
+      "300 g de zapallo en láminas finas",
+      "70 g de harina para tempura (o harina 0000 con 1 cdita de polvo de hornear)",
+      "100 ml de agua helada",
+      "Aceite para freír y sal"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la masa",
+        "instruction": "Mezclá ligeramente el agua helada con la harina usando tenedor o varilla sin batir de más.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Rebozar y freír",
+        "instruction": "Pasá las láminas de zapallo por la masa fría y freí en aceite a 180 °C hasta dorar y quedar crocantes. Escurrí sobre papel.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "34g",
+      "fat": "10g"
+    }
+  },
+  {
+    "id": "cpd-tempura-langostinos-palta",
+    "title": "Tempura de Langostinos y Palta",
+    "subtitle": "Langostinos y gajos de palta fritos en rebozado crujiente.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "8 min",
+    "totalTime": "18 min",
+    "servings": 2,
+    "calories": 295,
+    "ingredients": [
+      "6 langostinos pelados dejando la cola",
+      "1/2 palta firme cortada en gajos",
+      "100 g de harina para tempura o harina 0000",
+      "150 ml de agua bien fría",
+      "Aceite para freír y sal"
+    ],
+    "steps": [
+      {
+        "title": "Hacer la tempura",
+        "instruction": "Integrá el agua helada con la harina con un tenedor manteniendo la mezcla bien fría.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Freír",
+        "instruction": "Sumergí los langostinos y gajos de palta en la masa y freí inmediatamente en aceite a 180 °C hasta dorar.",
+        "timerMinutes": 6
+      }
+    ],
+    "nutrition": {
+      "protein": "13g",
+      "carbs": "25g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cpd-calamares-en-su-tinta",
+    "title": "Calamares en su Tinta con Arroz Blanco",
+    "subtitle": "Calamares tiernos guisados en salsa negra de cebolla, vino y tinta.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "totalTime": "45 min",
+    "servings": 2,
+    "calories": 380,
+    "ingredients": [
+      "4 calamares limpios en aros",
+      "1 cebolla y 2 dientes de ajo",
+      "2 sobres de tinta de calamar (8 g)",
+      "100 ml de vino blanco",
+      "2 hojas de laurel, perejil, aceite de oliva y sal",
+      "150 g de arroz blanco cocido para acompañar"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la salsa negra",
+        "instruction": "Rehogá la cebolla y los ajos en aceite de oliva hasta transparentar y licuá con el vino blanco y la tinta de calamar.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Guisar los calamares",
+        "instruction": "Dorá los calamares en la olla, sumá la salsa triturada, laurel y perejil y cociná tapado a fuego suave 20 minutos hasta tiernizar.",
+        "timerMinutes": 20
+      },
+      {
+        "title": "Servir",
+        "instruction": "Espesá con 1 cdita de almidón de maíz si hace falta y serví con arroz blanco.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "45g",
+      "fat": "7g"
+    }
+  },
+  {
+    "id": "cpd-atun-en-escabeche",
+    "title": "Atún en Escabeche Clásico",
+    "subtitle": "Trozos de atún fresco cocidos en escabeche suave de cebolla, vino y vinagre.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 235,
+    "ingredients": [
+      "500 g de lomo de atún fresco en trozos grandes",
+      "1 cebolla en juliana",
+      "1 zanahoria en rodajas finas",
+      "2 dientes de ajo laminados",
+      "100 ml de vino blanco, 150 ml de vinagre y 100 ml de agua",
+      "2 hojas de laurel, pimienta en grano, sal y 25 ml de aceite de oliva"
+    ],
+    "steps": [
+      {
+        "title": "Rehogar verduras",
+        "instruction": "Cociná suavemente la cebolla, zanahoria y ajo en el aceite de oliva 6 minutos.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Sellar el atún",
+        "instruction": "En olla aparte sellá el atún vuelta y vuelta con un hilo de aceite.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Escabechar",
+        "instruction": "Sumá las verduras, laurel, pimienta, vino, agua y vinagre al atún y cociná 8 a 10 minutos. Dejá reposar de un día para otro para mejor sabor.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "30g",
+      "carbs": "6g",
+      "fat": "8g"
+    }
+  },
+  {
+    "id": "cpd-guiso-calamares-papas",
+    "title": "Guiso de Calamares con Papas",
+    "subtitle": "Guiso casero sabroso con salsa de morrón, cebolla, vino blanco y papas.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "totalTime": "45 min",
+    "servings": 2,
+    "calories": 365,
+    "ingredients": [
+      "4 calamares chicos limpios y trozados",
+      "3 papas medianas en cubos grandes",
+      "1 cebolla y 2 dientes de ajo",
+      "1/2 morrón rojo",
+      "100 ml de vino blanco y 1/2 cubo de caldo de pescado",
+      "1 cdita de pimentón dulce y aceite de oliva"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la salsa",
+        "instruction": "Rehogá cebolla, morrón y ajo en aceite de oliva; licuá con el vino blanco, caldo de pescado y pimentón.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Guisar calamares y papas",
+        "instruction": "Salteá los calamares en la olla, sumá la salsa y las papas en cubos y cociná tapado a fuego medio 20 minutos hasta que las papas estén tiernas.",
+        "timerMinutes": 20
+      }
+    ],
+    "nutrition": {
+      "protein": "27g",
+      "carbs": "40g",
+      "fat": "9g"
+    }
+  },
+  {
+    "id": "cpd-timbal-palta-salmon",
+    "title": "Timbal de Palta y Salmón Ahumado",
+    "subtitle": "Torre fría en molde de palta en cubos, salmón ahumado y vinagreta de mostaza.",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "0 min",
+    "totalTime": "10 min",
+    "servings": 2,
+    "calories": 315,
+    "ingredients": [
+      "2 paltas maduras en cubitos",
+      "200 g de salmón ahumado en tiras",
+      "2 cdas de aceite de oliva",
+      "1 cda de vinagre de vino blanco",
+      "1 cdita de mostaza, 1 cdita de salsa inglesa, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Preparar el aderezo",
+        "instruction": "Emulsioná el aceite, vinagre, salsa inglesa, mostaza, sal y pimienta en un frasco.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Mezclar y emplatar",
+        "instruction": "Combiná la palta y el salmón con el aderezo y moldeá con un aro de emplatar.",
+        "timerMinutes": 7
+      }
+    ],
+    "nutrition": {
+      "protein": "21g",
+      "carbs": "9g",
+      "fat": "22g"
+    }
+  },
+  {
+    "id": "cpd-chupa-chups-pollo",
+    "title": "Chupa Chups Crocantes de Pollo",
+    "subtitle": "Bolitas de pollo y queso rebozadas, fritas y pinchadas en palitos.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "totalTime": "25 min",
+    "servings": 3,
+    "calories": 270,
+    "ingredients": [
+      "250 g de pechuga de pollo en trozos",
+      "1 huevo",
+      "40 g de queso rallado",
+      "Pan rallado con ajo y perejil",
+      "Sal, pimienta y aceite para freír"
+    ],
+    "steps": [
+      {
+        "title": "Procesar y formar bolitas",
+        "instruction": "Procesá la pechuga con el huevo, queso rallado, sal y pimienta. Con manos húmedas armá 10 bolitas y rebozalas en pan rallado.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Freír y pinchar",
+        "instruction": "Freí en aceite caliente hasta dorar bien por dentro y por fuera, escurrí y pinchá con palitos de brocheta.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "25g",
+      "carbs": "14g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": "cpd-cinta-lomo-cerdo-salsa",
+    "title": "Cinta de Lomo de Cerdo en Salsa de Verduras",
+    "subtitle": "Carré de cerdo entero braseado con zanahorias, cebolla y vino blanco.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h",
+    "servings": 4,
+    "calories": 390,
+    "ingredients": [
+      "1 kg de carré o lomo de cerdo entero",
+      "1 cebolla y 2 dientes de ajo",
+      "4 zanahorias en trozos",
+      "200 ml de vino blanco y 400 ml de agua",
+      "1 cubo de caldo de carne",
+      "2 hojas de laurel, tomillo, perejil, aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Sellar y rehogar",
+        "instruction": "Sellá el lomo entero en olla con aceite de oliva; retirá y rehogá cebolla, zanahorias y ajos.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Cocinar en salsa",
+        "instruction": "Devolvé la carne con el vino, agua, caldo, laurel y hierbas; cociná tapado a fuego medio-bajo 35 minutos.",
+        "timerMinutes": 35
+      },
+      {
+        "title": "Licuar la salsa",
+        "instruction": "Retirá el laurel y la carne, licuá los vegetales con el caldo hasta lograr una salsa lisa y serví sobre el cerdo fileteado.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "48g",
+      "carbs": "12g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "cpd-goulash-aleman",
+    "title": "Goulash Alemán con Crema",
+    "subtitle": "Estofado tierno de carne vacuna en salsa de tomate, pimentón y crema.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "1 h 30 min",
+    "totalTime": "1 h 45 min",
+    "servings": 4,
+    "calories": 445,
+    "ingredients": [
+      "800 g de aguja o paleta vacuna en cubos",
+      "2 cebollas y 1 morrón verde grande",
+      "2 tomates maduros pelados",
+      "1 cda de pimentón dulce",
+      "200 ml de crema de leche",
+      "Caldo o agua, 1 cda de manteca, 2 cdas de aceite de oliva, perejil, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Sellar carne y sofreír",
+        "instruction": "Dorá la carne en aceite y manteca y reservá. En la misma olla rehogá cebolla y morrón, sumá el tomate y perejil y licuá.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Estofar lento",
+        "instruction": "Volvé la carne con la salsa licuada, pimentón, sal y agua hasta cubrir; cociná a fuego lento 1 hora y 20 minutos hasta tiernizar.",
+        "timerMinutes": 80
+      },
+      {
+        "title": "Terminar con crema",
+        "instruction": "Incorporá la crema de leche al final, mezclá y serví con pasta o arroz.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "40g",
+      "carbs": "10g",
+      "fat": "27g"
+    }
+  },
+  {
+    "id": "cpd-hamburguesa-en-tapa-empanada",
+    "title": "Hamburguesa Rellena en Masa de Empanada",
+    "subtitle": "Receta rápida al horno: hamburguesa con queso y ketchup envuelta en tapas.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 430,
+    "ingredients": [
+      "4 hamburguesas vacunas",
+      "8 tapas grandes de empanada",
+      "4 fetas de queso mozzarella",
+      "4 cdas de ketchup",
+      "1 huevo batido para pintar"
+    ],
+    "steps": [
+      {
+        "title": "Armar las piezas",
+        "instruction": "Colocá 4 tapas sobre papel manteca, poné ketchup, la hamburguesa cruda y una feta de queso encima; tapá con las otras 4 tapas y hacé repulgue.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Pintar y hornear",
+        "instruction": "Pintá con huevo batido y horneá a 190 °C durante 15 a 18 minutos hasta dorar.",
+        "timerMinutes": 16
+      }
+    ],
+    "nutrition": {
+      "protein": "23g",
+      "carbs": "32g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cpd-libros-lomo-jamon-queso",
+    "title": "Libros de Lomo Rellenos de Jamón y Queso",
+    "subtitle": "Bifecitos finos de lomo rellenos en sándwich y dorados al sartén.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min",
+    "servings": 2,
+    "calories": 460,
+    "ingredients": [
+      "8 bifecitos muy finos de lomo o nalga",
+      "4 fetas de queso semiduro",
+      "4 fetas de jamón cocido",
+      "1 huevo batido, harina, pan rallado, sal, pimienta y aceite"
+    ],
+    "steps": [
+      {
+        "title": "Armar los libros",
+        "instruction": "Salpimentá los bifes, colocá queso y jamón sobre 4 de ellos, tapá con los otros 4 y sujetá con un palillo.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Rebozar y freír",
+        "instruction": "Pasá por harina, huevo y pan rallado y freí en aceite caliente hasta dorar por ambos lados.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "42g",
+      "carbs": "20g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cpd-pollo-cerveza-sopa-cebolla",
+    "title": "Pollo a la Cerveza con Sopa de Cebolla y Papas",
+    "subtitle": "Muslos tiernos guisados con cerveza y cebolla, servidos con papas en cubos.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "economico",
+    "prepTime": "10 min",
+    "cookTime": "30 min",
+    "totalTime": "40 min",
+    "servings": 3,
+    "calories": 440,
+    "ingredients": [
+      "6 muslos deshuesados de pollo",
+      "1 lata de cerveza rubia (330 ml)",
+      "1 sobre de sopa crema de cebolla",
+      "2 papas grandes en cubitos",
+      "Aceite de oliva para dorar"
+    ],
+    "steps": [
+      {
+        "title": "Dorar y guisar el pollo",
+        "instruction": "Dorá los muslos en olla con aceite de oliva, agregá el sobre de sopa de cebolla y la cerveza y cociná tapado 25 minutos.",
+        "timerMinutes": 25
+      },
+      {
+        "title": "Freír las papas",
+        "instruction": "Mientras tanto freí las papas en cubitos y agregalas al plato junto con el pollo y su salsa espesa.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "35g",
+      "carbs": "34g",
+      "fat": "15g"
+    }
+  },
+  {
+    "id": "cpd-pollo-almendras-wok",
+    "title": "Pollo con Almendras al Wok",
+    "subtitle": "Salteado oriental clásico con cebolla, morrón verde, salsa de soja y almendras.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min",
+    "servings": 2,
+    "calories": 325,
+    "ingredients": [
+      "250 g de pechuga de pollo en tiras",
+      "50 g de almendras tostadas",
+      "1/2 cebolla en tiras",
+      "1 morrón verde en tiras",
+      "3 cdas de salsa de soja",
+      "2 cdas de aceite y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Saltear verduras y pollo",
+        "instruction": "En un wok con aceite salteá la cebolla y el morrón 4 minutos, agregá el pollo y cociná hasta que blanquee.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Sumar almendras y soja",
+        "instruction": "Incorporá las almendras tostadas, pimienta y salsa de soja; reducí 3 minutos y serví.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "31g",
+      "carbs": "10g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "cpd-pollo-castanas-caju-wok",
+    "title": "Pollo con Castañas de Cajú al Wok",
+    "subtitle": "Pechuga salteada con morrón rojo, castañas de cajú y salsa de soja.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "8 min",
+    "totalTime": "18 min",
+    "servings": 2,
+    "calories": 345,
+    "ingredients": [
+      "250 g de pechuga de pollo en tiras",
+      "40 g de castañas de cajú",
+      "1/2 cebolla y 1 morrón rojo en tiras",
+      "2 cdas de salsa de soja",
+      "2 cdas de salsa de ostras (o 1 cda extra de soja con 1 cdita de miel)",
+      "1 cdita de azúcar, sal y 2 cdas de aceite"
+    ],
+    "steps": [
+      {
+        "title": "Saltear verduras y pollo",
+        "instruction": "En wok caliente con aceite salteá el morrón y la cebolla 2 minutos; agregá el pollo y cociná 3 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Glasear con castañas",
+        "instruction": "Sumá las castañas de cajú, la salsa de soja, salsa de ostras y azúcar; cociná 3 minutos más y serví con arroz.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "30g",
+      "carbs": "15g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "cpd-alitas-soja-limon-miel",
+    "title": "Alitas de Pollo con Salsa de Soja, Limón y Miel",
+    "subtitle": "Alitas marinadas y glaseadas en salsa agridulce con jengibre y ajo.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 2,
+    "calories": 440,
+    "ingredients": [
+      "500 g de alitas de pollo",
+      "55 g de miel",
+      "55 ml de salsa de soja",
+      "40 ml de jugo de limón",
+      "3 dientes de ajo picados",
+      "1/2 cdita de jengibre en polvo",
+      "40 ml de aceite de oliva y pimienta negra"
+    ],
+    "steps": [
+      {
+        "title": "Marinar las alitas",
+        "instruction": "Mezclá ajo, limón, miel, soja, aceite, jengibre y pimienta; mariná las alitas mínimo 30 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Cocinar y reducir",
+        "instruction": "Volcá todo en una sartén profunda u olla y cociná 25 minutos a fuego medio-bajo destapando al final para glasear la salsa.",
+        "timerMinutes": 25
+      }
+    ],
+    "nutrition": {
+      "protein": "25g",
+      "carbs": "30g",
+      "fat": "24g"
+    }
+  },
+  {
+    "id": "cpd-peceto-tierno-al-ajo",
+    "title": "Peceto Tierno al Ajo",
+    "subtitle": "Peceto macerado con ajo y sal gruesa, sellado y cocido jugoso en olla.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 6,
+    "calories": 320,
+    "ingredients": [
+      "1,5 kg de peceto entero",
+      "5 dientes de ajo machacados",
+      "1 cda de sal gruesa",
+      "60 ml de aceite de oliva"
+    ],
+    "steps": [
+      {
+        "title": "Adobar la carne",
+        "instruction": "Mezclá los ajos machacados con sal gruesa, frotá todo el peceto y dejá en heladera 1 hora y media.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Sellar y cocinar",
+        "instruction": "Calentá el aceite de oliva en una olla, sellá la carne a fuego fuerte por todos lados y luego cociná a fuego medio 18 a 20 minutos girando cada tanto. Serví frío o tibio en rodajas finas con su jugo.",
+        "timerMinutes": 22
+      }
+    ],
+    "nutrition": {
+      "protein": "49g",
+      "carbs": "1g",
+      "fat": "13g"
+    }
+  },
+  {
+    "id": "cpd-rollo-carne-mixta-huevo",
+    "title": "Rollo Frío de Carne Mixta y Huevo",
+    "subtitle": "Pan de carne de pollo y cerdo relleno de huevos duros ideal para picadas.",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h 5 min",
+    "servings": 8,
+    "calories": 295,
+    "ingredients": [
+      "500 g de pollo picado",
+      "500 g de carne de cerdo picada",
+      "1 sobre de sopa crema de champiñones",
+      "3 huevos duros (o 4 de codorniz)"
+    ],
+    "steps": [
+      {
+        "title": "Mezclar y armar el rollo",
+        "instruction": "Mezclá muy bien las dos carnes con el polvo de sopa crema de champiñones. Extendé sobre papel aluminio, poné los huevos duros en fila al centro y enrollá apretando bien.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Hornear y enfriar",
+        "instruction": "Cerrá el aluminio como un caramelo y horneá a 180 °C durante 45 minutos. Dejá enfriar por completo antes de cortar en rodajas.",
+        "timerMinutes": 45
+      }
+    ],
+    "nutrition": {
+      "protein": "27g",
+      "carbs": "5g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "cpd-solomillo-cerdo-vino-dulce",
+    "title": "Solomillo de Cerdo al Vino Dulce",
+    "subtitle": "Solomillos sellados y cocidos en salsa reducida de cebolla y vino dulce.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "10 min",
+    "cookTime": "35 min",
+    "totalTime": "45 min",
+    "servings": 4,
+    "calories": 325,
+    "ingredients": [
+      "2 solomillos de cerdo enteros",
+      "1 cebolla en juliana",
+      "120 ml de vino dulce (oportos o garnacha)",
+      "250 ml de caldo de ave",
+      "1 cda de harina 0000",
+      "2 cdas de aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Sellar y caramelizar",
+        "instruction": "Salpimentá y sellá los solomillos enteros en cacerola con aceite; retirá. Rehogá la cebolla hasta transparentar y sumá la harina 1 minuto.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Reducir la salsa",
+        "instruction": "Agregá el vino dulce y el caldo de ave, devolvé los solomillos y cociná 25 minutos a fuego medio hasta espesar.",
+        "timerMinutes": 25
+      }
+    ],
+    "nutrition": {
+      "protein": "34g",
+      "carbs": "10g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": "cpd-solomillo-cerdo-panceta",
+    "title": "Solomillo de Cerdo Envuelto en Panceta",
+    "subtitle": "Pieza entera de solomillo cubierta con fetas de panceta al horno.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "10 min",
+    "cookTime": "25 min",
+    "totalTime": "35 min",
+    "servings": 3,
+    "calories": 365,
+    "ingredients": [
+      "1 solomillo de cerdo entero",
+      "8 fetas de panceta",
+      "1/2 cubo de caldo desmenuzado",
+      "1 cda de aceite de oliva y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Envolver el solomillo",
+        "instruction": "Frotá el solomillo con el caldo y pimienta, cubrí con las fetas de panceta y atá con hilo de cocina.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Colocá en fuente con un chorrito de aceite y horneá a 180 °C de 20 a 25 minutos hasta que la panceta dore y el centro quede jugoso.",
+        "timerMinutes": 25
+      }
+    ],
+    "nutrition": {
+      "protein": "35g",
+      "carbs": "1g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cpd-ternera-rellena-horno",
+    "title": "Ternera Rellena Arrollada al Horno",
+    "subtitle": "Vacío o bife abierto relleno con tortilla fina, paté, panceta, queso y salchicha.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "30 min",
+    "totalTime": "50 min",
+    "servings": 4,
+    "calories": 490,
+    "ingredients": [
+      "600 g de vacío fino o bifes abiertos tipo libro",
+      "1 lata chica de paté",
+      "2 huevos batidos (hechos en tortilla fina)",
+      "4 fetas de panceta ahumada",
+      "2 fetas de queso gouda o dambo",
+      "2 salchichas cocidas",
+      "Aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Armar el relleno",
+        "instruction": "Salpimentá la carne abierta, untá con el paté, colocá encima la tortilla de huevo fina, la panceta, el queso y las salchichas.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Bridar y hornear",
+        "instruction": "Enrollá, atá con hilo de cocina y horneá en asadera aceitada a 180 °C durante 25 a 30 minutos hasta dorar.",
+        "timerMinutes": 28
+      }
+    ],
+    "nutrition": {
+      "protein": "41g",
+      "carbs": "3g",
+      "fat": "34g"
+    }
+  },
+  {
+    "id": "cpd-canutillos-cacao-pastelera",
+    "title": "Canutillos de Cacao Rellenos de Crema Pastelera",
+    "subtitle": "Cilindros crujientes de masa al cacao rellenos con crema pastelera casera.",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "15 min",
+    "totalTime": "40 min",
+    "servings": 6,
+    "calories": 245,
+    "ingredients": [
+      "140 g de harina 0000",
+      "1 y 1/2 cdas de cacao amargo",
+      "50 ml de aceite de oliva o neutro",
+      "50 ml de vino moscatel o jugo de uva",
+      "Crema: 170 ml de leche, 1 huevo, 35 g de azúcar, 20 g de almidón de maíz, vainilla",
+      "Azúcar impalpable para espolvorear y aceite para freír"
+    ],
+    "steps": [
+      {
+        "title": "Hacer y freír los canutillos",
+        "instruction": "Amasá harina, cacao, aceite, vino y pizca de sal. Estirá fino, cortá cuadrados, enrollá en moldes metálicos de canutillos y freí en aceite caliente.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Preparar crema pastelera y rellenar",
+        "instruction": "Cociná leche, huevo, azúcar, almidón y vainilla revolviendo hasta espesar. Dejá enfriar y rellená los canutillos espolvoreando azúcar impalpable.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "32g",
+      "fat": "10g"
+    }
+  },
+  {
+    "id": "cpd-crumble-frutillas",
+    "title": "Crumble de Frutillas al Horno",
+    "subtitle": "Frutillas aromatizadas con vainilla bajo capa crocante de manteca y harina.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "totalTime": "30 min",
+    "servings": 2,
+    "calories": 390,
+    "ingredients": [
+      "250 g de frutillas lavadas en mitades",
+      "100 g de harina 0000",
+      "50 g de manteca fría en cubos",
+      "35 g de azúcar común",
+      "1 cda de azúcar impalpable",
+      "1 cdita de esencia de vainilla y 1 pizca de canela"
+    ],
+    "steps": [
+      {
+        "title": "Preparar las frutillas y el arenado",
+        "instruction": "Mezclá las frutillas con el azúcar impalpable, vainilla y canela en una fuente de horno. Aparte frotá con los dedos la harina, manteca y azúcar hasta formar migas.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Cubrí las frutillas con el arenado y horneá a 200 °C durante 20 minutos hasta dorar.",
+        "timerMinutes": 20
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "52g",
+      "fat": "19g"
+    }
+  },
+  {
+    "id": "cpd-dulce-manzana-barra",
+    "title": "Dulce de Manzana Casero en Barra",
+    "subtitle": "Dulce firme estilo membrillo elaborado con manzanas, azúcar y limón.",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "50 min",
+    "totalTime": "1 h 5 min",
+    "servings": 12,
+    "calories": 215,
+    "ingredients": [
+      "1 kg de manzanas peladas sin corazón en trozos",
+      "650 g de azúcar",
+      "1 limón pelado sin parte blanca ni semillas",
+      "1 puñado de nueces picadas (opcional)"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar y triturar",
+        "instruction": "Cociná las manzanas con el azúcar y el limón a fuego medio-bajo removiendo con frecuencia durante 50 minutos hasta que espese y cambie de color.",
+        "timerMinutes": 50
+      },
+      {
+        "title": "Enfriar en molde",
+        "instruction": "Mixeá hasta dejar liso, sumá nueces si deseás, volcá en moldes y enfriá en heladera hasta solidificar.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "1g",
+      "carbs": "54g",
+      "fat": "0g"
+    }
+  },
+  {
+    "id": "cpd-flan-queso-mascarpone",
+    "title": "Flan de Queso Mascarpone",
+    "subtitle": "Postre denso y ultra cremoso de mascarpone al baño María.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "10 min",
+    "cookTime": "40 min",
+    "totalTime": "50 min",
+    "servings": 4,
+    "calories": 330,
+    "ingredients": [
+      "250 g de queso mascarpone",
+      "2 huevos",
+      "75 g de azúcar",
+      "1 cdita de ralladura o esencia de limón",
+      "4 cdas de azúcar para el caramelo"
+    ],
+    "steps": [
+      {
+        "title": "Acaramelar y mezclar",
+        "instruction": "Caramelizá el molde. Batí el mascarpone con el azúcar, agregá los huevos de a uno y la ralladura de limón.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Horneá a baño María a 180 °C durante 40 minutos hasta que al pinchar salga limpio. Enfriá antes de desmoldar.",
+        "timerMinutes": 40
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "25g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cpd-fruta-en-tempura",
+    "title": "Frutas en Tempura con Chocolate",
+    "subtitle": "Brochetas de banana, ciruela, damasco y uva fritas en masa crocante.",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "8 min",
+    "totalTime": "23 min",
+    "servings": 3,
+    "calories": 250,
+    "ingredients": [
+      "1 banana en rodajas",
+      "1 damasco y 1 ciruela en trozos",
+      "6 uvas sin semilla",
+      "140 g de harina para tempura o harina 0000",
+      "200 ml de agua helada y aceite para freír"
+    ],
+    "steps": [
+      {
+        "title": "Armar las brochetas y la masa",
+        "instruction": "Armá 6 brochetas intercalando las frutas. Mezclá la harina con el agua helada.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Freír",
+        "instruction": "Bañá las brochetas con la tempura fría y freí en aceite a 180 °C hasta dorar. Serví con chocolate derretido.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "42g",
+      "fat": "7g"
+    }
+  },
+  {
+    "id": "cpd-gelatina-naranja-cascara",
+    "title": "Gelatina Natural de Naranja en su Cáscara",
+    "subtitle": "Postre refrescante servido dentro de mitades de naranja.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": 2,
+    "calories": 70,
+    "ingredients": [
+      "2 naranjas grandes de jugo",
+      "125 ml de agua",
+      "1 cda de azúcar",
+      "3 láminas de gelatina sin sabor (o 5 g en polvo)"
+    ],
+    "steps": [
+      {
+        "title": "Ahuecar las naranjas",
+        "instruction": "Cortá las naranjas al medio, exprimilas con cuidado (obteniendo unos 125 ml de jugo) y limpiá bien las cáscaras.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Disolver y enfriar",
+        "instruction": "Hidratá la gelatina, disolvela en el agua caliente con el azúcar, mezclá con el jugo de naranja y rellená las cáscaras. Refrigerá toda la noche.",
+        "timerMinutes": 7
+      }
+    ],
+    "nutrition": {
+      "protein": "3g",
+      "carbs": "15g",
+      "fat": "0g"
+    }
+  },
+  {
+    "id": "cpd-streusel-cerezas",
+    "title": "Streusel Alemán de Cerezas",
+    "subtitle": "Bizcochuelo tierno cubierto de cerezas frescas y arenado de canela.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "30 min",
+    "totalTime": "50 min",
+    "servings": 6,
+    "calories": 270,
+    "ingredients": [
+      "200 g de cerezas frescas descarozadas en mitades",
+      "Base: 60 g de manteca, 55 g de azúcar, 1 huevo, 60 g de harina, 1 cdita de polvo de hornear, pizca de sal",
+      "Streusel: 50 g de manteca, 60 g de harina, 30 g de azúcar, 1 pizca de canela"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la base",
+        "instruction": "Batí la manteca con el azúcar, sumá el huevo y luego la harina tamizada con polvo de hornear y sal. Esparcí en molde enmantecado y cubrí con las cerezas.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Cubrir con streusel y hornear",
+        "instruction": "Mezclá los ingredientes del streusel con los dedos, distribuí sobre las cerezas y horneá a 200 °C por 30 minutos.",
+        "timerMinutes": 30
+      }
+    ],
+    "nutrition": {
+      "protein": "3g",
+      "carbs": "30g",
+      "fat": "15g"
+    }
+  },
+  {
+    "id": "cpd-new-york-cheesecake",
+    "title": "New York Cheesecake con Frutos Rojos",
+    "subtitle": "Torta cremosa de queso horneada lentamente sobre base de galletitas.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "1 h 15 min",
+    "totalTime": "1 h 35 min",
+    "servings": 6,
+    "calories": 380,
+    "ingredients": [
+      "Base: 105 g de galletitas tipo María o Digestive, 60 g de manteca derretida, 20 g de azúcar",
+      "Relleno: 300 g de queso crema firme, 60 g de azúcar, 10 g de harina, 2 huevos, 40 ml de crema de leche, vainilla, gotas de limón",
+      "Cobertura: mermelada de frambuesa o frutilla"
+    ],
+    "steps": [
+      {
+        "title": "Armar la base",
+        "instruction": "Procesá las galletitas, mezclá con la manteca y azúcar y presioná en la base de un molde desmontable chico. Refrigerá.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Batir el relleno",
+        "instruction": "Batí el queso crema con el azúcar y la harina, sumá los huevos de a uno y por último la crema y esencias.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear lento y enfriar",
+        "instruction": "Horneá 15 minutos a 150 °C y luego 1 hora a 120 °C. Enfriá mínimo 6 horas en heladera y cubrí con mermelada tibia.",
+        "timerMinutes": 75
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "32g",
+      "fat": "25g"
+    }
+  },
+  {
+    "id": "cpd-orejas-carnaval",
+    "title": "Orejas de Carnaval Crocantes",
+    "subtitle": "Masitas finísimas fritas aromatizadas con anís y espolvoreadas con canela.",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepTime": "25 min",
+    "cookTime": "15 min",
+    "totalTime": "40 min",
+    "servings": 8,
+    "calories": 270,
+    "ingredients": [
+      "400 g de harina 0000",
+      "200 ml de leche",
+      "1 huevo",
+      "4 cdas de aceite y 20 g de manteca",
+      "30 ml de licor de anís",
+      "1 pizca de sal, aceite para freír, azúcar y canela"
+    ],
+    "steps": [
+      {
+        "title": "Amasar y reposar",
+        "instruction": "Mezclá la leche, aceite, huevo, anís, sal y harina; incorporá la manteca de a poco hasta lograr una masa elástica y reposá 30 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Estirar y freír",
+        "instruction": "Estirá triángulos bien finos con palote y freí en aceite caliente hasta que queden dorados y crocantes. Espolvoreá con azúcar y canela.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "40g",
+      "fat": "9g"
+    }
+  },
+  {
+    "id": "cpd-panna-cotta-banana",
+    "title": "Panna Cotta de Banana",
+    "subtitle": "Postre frío cremoso en vasitos con crema, leche y banana madura.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": 3,
+    "calories": 310,
+    "ingredients": [
+      "125 ml de crema de leche (más extra batida para decorar)",
+      "125 ml de leche",
+      "1 banana madura pisada",
+      "100 g de azúcar",
+      "3 láminas de gelatina sin sabor (o 5 g en polvo)"
+    ],
+    "steps": [
+      {
+        "title": "Calentar y licuar",
+        "instruction": "Herví la leche con la crema y el azúcar, retirá del fuego y licuá junto con la banana pisada y la gelatina previamente hidratada.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Enfriar",
+        "instruction": "Repartí en 3 vasitos y llevá a heladera mínimo 4 horas. Decorá con crema batida y lluvia de chocolate.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "43g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "cpd-red-velvet-cake",
+    "title": "Red Velvet Cake con Frosting de Queso Crema",
+    "subtitle": "Torta aterciopelada roja de cacao suave cubierta con crema de queso.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "35 min",
+    "totalTime": "1 h",
+    "servings": 6,
+    "calories": 460,
+    "ingredients": [
+      "125 g de harina 0000 y 1/2 sobre de polvo de hornear",
+      "1 cda de cacao amargo",
+      "60 g de manteca y 100 g de azúcar",
+      "1 huevo y 1/2 yogur natural",
+      "1 cda de jugo de limón, vainilla y colorante rojo en pasta o polvo",
+      "Frosting: 250 g de crema batida, 250 g de queso crema, 100 g de azúcar impalpable"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la masa",
+        "instruction": "Mezclá el yogur con el limón y el colorante rojo. Batí la manteca con el azúcar, huevo y vainilla e intercalá los secos tamizados con el yogur.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Volcá en molde chico enmantecado y horneá a 180 °C de 30 a 35 minutos hasta que el palillo salga limpio.",
+        "timerMinutes": 35
+      },
+      {
+        "title": "Cubrir con frosting",
+        "instruction": "Enfriá el bizcochuelo, cortalo al medio y rellená y cubrí con la mezcla fría de queso crema, azúcar impalpable y crema batida.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "49g",
+      "fat": "26g"
+    }
+  },
+  {
+    "id": "cpd-sopa-chocolate-blanco-cerezas",
+    "title": "Sopa de Chocolate Blanco con Sorbete de Cerezas",
+    "subtitle": "Contraste de crema tibia o fría de chocolate blanco con helado ácido de cereza.",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": 4,
+    "calories": 440,
+    "ingredients": [
+      "250 g de chocolate blanco picado",
+      "500 ml de crema de leche",
+      "1 yogur natural",
+      "Sorbete: 300 g de cerezas congeladas sin carozo, jugo de 1/2 limón, 35 g de azúcar"
+    ],
+    "steps": [
+      {
+        "title": "Hacer la sopa de chocolate blanco",
+        "instruction": "Calentá la crema hasta romper hervor, retirá y fundí el chocolate blanco picado. Cuando entibie incorporá el yogur y enfriá en heladera.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Procesar el sorbete y servir",
+        "instruction": "Procesá las cerezas congeladas con el limón y el azúcar hasta lograr un sorbete cremoso. Serví una bocha sobre la sopa fría.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "44g",
+      "fat": "27g"
+    }
+  },
+  {
+    "id": "cpd-tarta-fria-queso-membrillo",
+    "title": "Tarta Fría de Queso y Dulce de Membrillo",
+    "subtitle": "Cheesecake sin horno cubierta con pasta suave de dulce de membrillo.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "5 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 430,
+    "ingredients": [
+      "100 g de galletitas dulces molidas",
+      "60 g de manteca derretida y 20 g de azúcar",
+      "250 g de queso crema",
+      "90 ml de crema de leche y 35 g de azúcar",
+      "1 sobre de gelatina sin sabor (7 g)",
+      "100 g de dulce de membrillo procesado con 2 cdas de agua tibia"
+    ],
+    "steps": [
+      {
+        "title": "Base de galletitas",
+        "instruction": "Mezclá las galletitas con manteca y azúcar, presioná en molde chico desmontable y refrigerá.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Crema de queso",
+        "instruction": "Calentá en cacerola el queso crema, la crema, el azúcar y la gelatina hidratada removiendo hasta unir sin hervir. Volcá sobre la base y enfriá 4 horas.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Cubrir con membrillo",
+        "instruction": "Extendé la pasta de dulce de membrillo por encima y serví fría.",
+        "timerMinutes": 4
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "43g",
+      "fat": "26g"
+    }
+  },
+  {
+    "id": "cpd-tarta-mousse-natillas",
+    "title": "Tarta Mousse de Natillas",
+    "subtitle": "Base fina de bizcochuelo de almendras cubierta con mousse liviana de vainilla.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "15 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 320,
+    "ingredients": [
+      "Bizcochuelo: 1 huevo, 30 g de azúcar, 30 g de harina, 30 g de almendras molidas",
+      "Natillas: 1 huevo, 1 cda de azúcar, 85 ml de crema, 85 ml de leche, 1 cdita de almidón de maíz, vainilla",
+      "Mousse: 2 láminas de gelatina (o 4 g), 115 ml de crema de leche batida"
+    ],
+    "steps": [
+      {
+        "title": "Hornear la base",
+        "instruction": "Batí yema con azúcar, sumá clara a nieve, harina y almendras. Horneá en molde de 13 cm a 180 °C por 8 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hacer natillas y mousse",
+        "instruction": "Cociná las natillas espesando con almidón, disolvé allí la gelatina hidratada, dejá entibiar e integrá la crema batida.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Enfriar",
+        "instruction": "Volcá sobre el bizcochuelo y refrigerá 4 horas hasta solidificar.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "24g",
+      "fat": "22g"
+    }
+  },
+  {
+    "id": "cpd-torrijas-leche-canela",
+    "title": "Torrijas Clásicas de Leche y Canela",
+    "subtitle": "Rebanadas de pan embebidas en leche infusionada, fritas y azucaradas.",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "totalTime": "30 min",
+    "servings": 4,
+    "calories": 395,
+    "ingredients": [
+      "300 g de pan tipo flauta del día anterior en rodajas gruesas",
+      "300 ml de leche y 300 ml de crema de leche",
+      "1 rama de canela y cáscara de 1/2 limón",
+      "2 huevos batidos",
+      "Aceite para freír, azúcar y canela molida para rebozar"
+    ],
+    "steps": [
+      {
+        "title": "Infusionar y embeber",
+        "instruction": "Herví la leche y la crema con la rama de canela y cáscara de limón; dejá enfriar 10 minutos y remojá bien las rodajas de pan.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Freír y rebozar",
+        "instruction": "Pasá cada rodaja por huevo batido, freí en aceite caliente hasta dorar y pasá por azúcar con canela.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "8g",
+      "carbs": "40g",
+      "fat": "22g"
+    }
+  },
+  {
+    "id": "cpd-torta-choclo-dulce",
+    "title": "Torta de Choclo Dulce (Pastel de Maíz)",
+    "subtitle": "Bizcochuelo húmedo y suave licuado con granos de choclo cocido y vainilla.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepTime": "10 min",
+    "cookTime": "25 min",
+    "totalTime": "35 min",
+    "servings": 6,
+    "calories": 215,
+    "ingredients": [
+      "300 g de granos de choclo cocido",
+      "125 g de harina 0000",
+      "100 g de azúcar rubia o común",
+      "2 huevos",
+      "1 cdita de polvo de hornear",
+      "Esencia de vainilla, pizca de sal y manteca para el molde"
+    ],
+    "steps": [
+      {
+        "title": "Licuar la mezcla",
+        "instruction": "Licuá los huevos con el choclo hasta lograr una crema lisa; incorporá azúcar, harina, polvo de hornear, vainilla y sal.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Volcá en molde enmantecado y horneá a 180 °C de 25 a 30 minutos hasta que salga limpio el palillo.",
+        "timerMinutes": 25
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "41g",
+      "fat": "3g"
+    }
+  },
+  {
+    "id": "cpd-turron-chocolate-crujiente",
+    "title": "Turrón de Chocolate Crujiente con Arroz Inflado",
+    "subtitle": "Tableta casera fácil de dos chocolates y arroz inflado crocante.",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "5 min",
+    "totalTime": "15 min",
+    "servings": 8,
+    "calories": 380,
+    "ingredients": [
+      "300 g de chocolate con leche",
+      "150 g de chocolate negro",
+      "80 g de manteca o grasa neutra",
+      "100 g de arroz inflado"
+    ],
+    "steps": [
+      {
+        "title": "Fundir los chocolates",
+        "instruction": "Derretí la manteca con ambos chocolates a baño María o en microondas en tandas de 30 segundos.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Mezclar y enfriar",
+        "instruction": "Incorporá el arroz inflado, volcá en moldes rectangulares o de silicona y refrigerá hasta solidificar.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "41g",
+      "fat": "22g"
+    }
+  },
+  {
+    "id": "cpd-helado-casero-vainilla",
+    "title": "Helado Casero de Vainilla en Rama",
+    "subtitle": "Helado artesanal cremoso con crema inglesa de yemas y vainilla.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "totalTime": "35 min",
+    "servings": 6,
+    "calories": 440,
+    "ingredients": [
+      "720 ml de crema de leche",
+      "240 ml de leche",
+      "175 g de azúcar",
+      "4 yemas de huevo",
+      "1 vaina de vainilla o 2 cditas de esencia",
+      "1 pizca de sal"
+    ],
+    "steps": [
+      {
+        "title": "Infusionar y hacer crema inglesa",
+        "instruction": "Calentá crema, leche y vainilla, dejá entibiar, agregá azúcar y volcá sobre las yemas batidas. Llevá a fuego suave removiendo hasta espesar sin hervir.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Enfriar y mantecar",
+        "instruction": "Refrigerá mínimo 4 horas, llevá al freezer en recipiente metálico y batí cada 40 minutos unas 3 o 4 veces para romper cristales.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "32g",
+      "fat": "34g"
+    }
+  },
+  {
+    "id": "cpd-helado-banoffee",
+    "title": "Helado de Banoffee (Dulce de Leche y Banana)",
+    "subtitle": "Helado cremoso con trozos de base de galletitas, dulce de leche y banana.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "15 min",
+    "totalTime": "40 min",
+    "servings": 6,
+    "calories": 470,
+    "ingredients": [
+      "180 g de dulce de leche",
+      "200 g de galletitas dulces molidas y 35 g de manteca",
+      "2 bananas en rodajas",
+      "Base: 300 ml de leche, 200 ml de crema de leche, 4 yemas, 150 g de azúcar, vainilla"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la tarta congelada",
+        "instruction": "Mezclá galletitas con manteca en un molde, cubrí con dulce de leche y rodajas de banana y congelá.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hacer la base y mezclar",
+        "instruction": "Cociná unas natillas con leche, crema, yemas, azúcar y vainilla sin hervir. Enfriá, batí en freezer y mezclá con la tarta banoffee trozada.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "58g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cpd-helado-corte-casero",
+    "title": "Helado de Corte Casero (Sándwich Helado)",
+    "subtitle": "Bloque aireado de crema batida y merengue servido entre obleas.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "0 min",
+    "totalTime": "20 min",
+    "servings": 8,
+    "calories": 295,
+    "ingredients": [
+      "500 ml de crema de leche fría",
+      "125 g de azúcar",
+      "1 cda de esencia de vainilla",
+      "2 huevos (claras y yemas separadas)",
+      "Galletas u obleas para helado de corte"
+    ],
+    "steps": [
+      {
+        "title": "Montar crema y claras",
+        "instruction": "Batí la crema con el azúcar y la vainilla hasta montar; incorporá las yemas con espátula y luego las claras batidas a nieve.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Congelar y cortar",
+        "instruction": "Volcá en un molde rectangular, congelá 12 horas y serví en porciones entre dos galletas.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "3g",
+      "carbs": "24g",
+      "fat": "21g"
+    }
+  },
+  {
+    "id": "cpd-sorbete-naranja",
+    "title": "Sorbete Rápido de Naranja",
+    "subtitle": "Helado frutal refrescante sin lácteos de gajos de naranja congelados.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "0 min",
+    "totalTime": "10 min",
+    "servings": 4,
+    "calories": 225,
+    "ingredients": [
+      "400 g de gajos de naranja limpios y congelados",
+      "1/2 limón pelado sin parte blanca ni semillas",
+      "150 g de azúcar"
+    ],
+    "steps": [
+      {
+        "title": "Procesar azúcar y limón",
+        "instruction": "Triturá el azúcar con el limón en procesadora potente.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Integrar la naranja congelada",
+        "instruction": "Sumá los gajos congelados y procesá hasta lograr textura cremosa de sorbete. Serví de inmediato.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "1g",
+      "carbs": "56g",
+      "fat": "0g"
+    }
+  },
+  {
+    "id": "cpd-financiers-almendra",
+    "title": "Financiers de Almendra",
+    "subtitle": "Pastelitos franceses tiernos de claras, manteca y almendras laminadas.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 6,
+    "calories": 195,
+    "ingredients": [
+      "55 g de azúcar impalpable",
+      "40 g de harina 0000",
+      "40 g de almendra molida",
+      "60 g de manteca derretida y fría",
+      "4 claras de huevo",
+      "35 g de almendras fileteadas"
+    ],
+    "steps": [
+      {
+        "title": "Mezclar la masa",
+        "instruction": "Batí el azúcar impalpable con la harina y almendra molida; incorporá las claras y por último la manteca derretida fría.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Repartí en 6 moldes individuales, cubrí con almendras fileteadas y horneá a 180 °C por 20 minutos.",
+        "timerMinutes": 20
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "16g",
+      "fat": "13g"
+    }
+  },
+  {
+    "id": "cpd-muffins-chocolate-frambuesas",
+    "title": "Muffins de Chocolate y Frambuesas",
+    "subtitle": "Muffins húmedos de cacao puro con frambuesas en la masa.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 6,
+    "calories": 365,
+    "ingredients": [
+      "220 g de harina 0000",
+      "20 g de cacao amargo puro",
+      "120 g de azúcar rubia",
+      "2 cditas de polvo de hornear y 1/2 cdita de bicarbonato",
+      "2 huevos, 180 ml de leche y 120 ml de aceite",
+      "120 g de frambuesas"
+    ],
+    "steps": [
+      {
+        "title": "Unir líquidos y secos",
+        "instruction": "Mezclá en un bowl harina, cacao, polvo de hornear, bicarbonato y azúcar. Batí aparte huevos, leche y aceite y uní ambos.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Llená pirotines hasta 2/3, colocá frambuesas arriba y horneá a 175 °C de 20 a 25 minutos.",
+        "timerMinutes": 25
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "45g",
+      "fat": "19g"
+    }
+  },
+  {
+    "id": "cpd-galletas-chocolate-caseras",
+    "title": "Galletas de Chocolate Caseras",
+    "subtitle": "Masitas simples de manteca con chocolate negro picado.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 6,
+    "calories": 295,
+    "ingredients": [
+      "60 g de chocolate negro picado fino",
+      "100 g de manteca pomada",
+      "75 g de azúcar",
+      "1 huevo",
+      "190 g de harina 0000",
+      "1/2 cdita de bicarbonato y pizca de sal"
+    ],
+    "steps": [
+      {
+        "title": "Formar la masa",
+        "instruction": "Batí la manteca con el huevo y azúcar; agregá la harina, sal, bicarbonato y el chocolate picado hasta integrar.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Formá bolitas aplastadas sobre papel manteca y horneá a 180 °C de 12 a 16 minutos hasta dorar los bordes.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "34g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cpd-galletas-cristal-caramelo",
+    "title": "Galletas de Cristal con Centro de Caramelo",
+    "subtitle": "Galletitas de manteca con ventanita translúcida de caramelo fundido.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "10 min",
+    "totalTime": "30 min",
+    "servings": 6,
+    "calories": 325,
+    "ingredients": [
+      "250 g de harina 0000",
+      "125 g de manteca muy fría en cubitos",
+      "120 g de azúcar",
+      "1 huevo",
+      "Ralladura de 1 limón y pizca de sal",
+      "Caramelos duros de colores"
+    ],
+    "steps": [
+      {
+        "title": "Preparar masa y enfriar",
+        "instruction": "Mezclá harina, manteca fría, azúcar, sal, ralladura y huevo hasta formar un bollo. Enfriá 1 hora en heladera.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Cortar y rellenar",
+        "instruction": "Estirá a 5 mm, cortá galletas con un agujero en el centro y colocá medio caramelo duro en cada hueco.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear y enfriar sin mover",
+        "instruction": "Horneá a 170 °C unos 10 minutos y dejá enfriar completamente sobre la placa para que solidifique el caramelo.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "45g",
+      "fat": "15g"
+    }
+  },
+  {
+    "id": "cpd-galletas-crema-anis",
+    "title": "Galletas de Crema de Leche y Anís",
+    "subtitle": "Galletas suaves y rendidoras con crema de leche y toque de anís.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "totalTime": "30 min",
+    "servings": 8,
+    "calories": 295,
+    "ingredients": [
+      "400 g de harina 0000",
+      "160 g de azúcar",
+      "1 huevo",
+      "200 ml de crema de leche",
+      "1 cda de aceite de oliva",
+      "2 cdas de licor o esencia de anís",
+      "1 cdita de polvo de hornear y pizca de sal"
+    ],
+    "steps": [
+      {
+        "title": "Integrar la masa",
+        "instruction": "Batí el huevo con la crema, aceite y anís. Incorporá la harina tamizada con polvo de hornear, azúcar y sal hasta formar una masa suave.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Cortar y hornear",
+        "instruction": "Estirá a 5 mm, cortá medallones y horneá a 170 °C de 12 a 18 minutos hasta dorar apenas.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "45g",
+      "fat": "10g"
+    }
   }
 ]
