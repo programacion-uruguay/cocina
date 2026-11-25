@@ -45527,5 +45527,1811 @@
         "timerMinutes": 35
       }
     ]
+  },
+  {
+    "id": "cf-brochetas-salmon-palta",
+    "title": "Brochetas de Salmón y Palta Gratinadas",
+    "subtitle": "Entrada fresca y sabrosa con salsa provenzal y toque de horno.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": 4,
+    "calories": 320,
+    "ingredients": [
+      "400 g de lomo de salmón fresco en cubos",
+      "2 paltas maduras pero firmes",
+      "4 cdas de mayonesa",
+      "2 dientes de ajo picados finos",
+      "2 cdas de perejil fresco picado",
+      "Jugo de 1/2 limón",
+      "1 cda de aceite de oliva",
+      "Sal y pimienta a gusto",
+      "Palillos de brocheta"
+    ],
+    "steps": [
+      {
+        "title": "Preparar los ingredientes",
+        "instruction": "Cortá el salmón en cubos parejos, salpimentá y rociá con jugo de limón. Cortá la palta en cubos del mismo tamaño.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Armar las brochetas",
+        "instruction": "Intercalá cubos de salmón y palta en los palillos de brocheta y acomodalos en una asadera apenas aceitada.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Cubrir con provenzal y gratinar",
+        "instruction": "Mezclá la mayonesa con el ajo y el perejil, cubrí las brochetas y llevá al horno fuerte o grill a 220 °C hasta dorar apenas.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "22g",
+      "carbs": "6g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cf-ensalada-anana-langostinos",
+    "title": "Ensalada en Ananá con Langostinos y Salsa Rosa",
+    "subtitle": "Presentación festiva servida dentro de medio ananá con langostinos.",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepTime": "20 min",
+    "cookTime": "5 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 245,
+    "ingredients": [
+      "1 ananá fresco mediano",
+      "250 g de langostinos cocidos y pelados",
+      "150 g de lechuga picada fina",
+      "80 g de brotes de soja",
+      "4 cdas de mayonesa",
+      "2 cdas de ketchup",
+      "1 cda de jugo de naranja",
+      "Sal a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Ahuecar el ananá",
+        "instruction": "Cortá el ananá al medio a lo largo conservando las hojas, ahuecá la pulpa con cuidado y cortala en cubos pequeños.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Preparar la salsa rosa",
+        "instruction": "Mezclá la mayonesa con el ketchup y el jugo de naranja hasta lograr una salsa lisa.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Mezclar y servir",
+        "instruction": "Combiná la lechuga, los brotes de soja, los cubos de ananá y los langostinos con la salsa. Rellená las mitades de ananá y serví bien frío.",
+        "timerMinutes": 7
+      }
+    ],
+    "nutrition": {
+      "protein": "16g",
+      "carbs": "21g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "cf-langostinos-empanados-almendra",
+    "title": "Langostinos Empanados con Almendra",
+    "subtitle": "Langostinos crocantes rebozados en almendra picada.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": 4,
+    "calories": 290,
+    "ingredients": [
+      "400 g de langostinos crudos pelados dejando la cola",
+      "100 g de almendras peladas picadas finas",
+      "80 g de pan rallado",
+      "2 huevos batidos",
+      "50 g de harina 0000",
+      "Aceite para freír",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Condimentar y rebozar",
+        "instruction": "Salpimentá los langostinos, pasalos primero por harina, luego por huevo batido y finalmente por la mezcla de pan rallado y almendras picadas.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Freír hasta dorar",
+        "instruction": "Freí en abundante aceite caliente a 180 °C durante 2 a 3 minutos por tanda hasta que queden bien dorados.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Escurrir",
+        "instruction": "Retirá sobre papel absorbente y serví calientes.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "21g",
+      "carbs": "16g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cf-pastel-merluza-langostinos",
+    "title": "Pastel de Merluza y Langostinos",
+    "subtitle": "Budín suave al horno de pescado blanco, crema y langostinos.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h 5 min",
+    "servings": 6,
+    "calories": 260,
+    "ingredients": [
+      "500 g de filet de merluza sin espinas",
+      "200 g de langostinos cocidos picados",
+      "4 huevos",
+      "200 ml de crema de leche",
+      "150 ml de salsa de tomate",
+      "1 cebolla chica picada",
+      "1 cda de manteca",
+      "Sal, pimienta y nuez moscada a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar la merluza",
+        "instruction": "Rehogá la cebolla en manteca, agregá la merluza desmenuzada y cociná 5 minutos. Dejá entibiar.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Mezclar la preparación",
+        "instruction": "Procesá o mezclá la merluza con los huevos, la crema de leche, la salsa de tomate, sal, pimienta y nuez moscada. Sumá los langostinos picados.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Hornear a baño María",
+        "instruction": "Volcá en una budinera enmantecada y cociná a baño María en horno a 180 °C durante 45 minutos hasta que cuaje.",
+        "timerMinutes": 45
+      }
+    ],
+    "nutrition": {
+      "protein": "22g",
+      "carbs": "6g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cf-budin-verduras-salsa-rosa",
+    "title": "Budín de Verduras con Salsa Rosa",
+    "subtitle": "Pastel salado liviano de puerro, zanahoria, morrón y crema.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepTime": "20 min",
+    "cookTime": "40 min",
+    "totalTime": "1 h",
+    "servings": 6,
+    "calories": 215,
+    "ingredients": [
+      "2 zanahorias ralladas",
+      "1 puerro en rodajas finas",
+      "1 morrón rojo picado",
+      "150 g de chauchas cocidas picadas",
+      "4 huevos",
+      "200 ml de crema de leche",
+      "2 cdas de aceite de oliva",
+      "Sal y pimienta a gusto",
+      "Salsa rosa para acompañar (mayonesa y ketchup)"
+    ],
+    "steps": [
+      {
+        "title": "Saltear las verduras",
+        "instruction": "Salteá el puerro, la zanahoria y el morrón en aceite de oliva durante 8 minutos hasta tiernizar.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Unir con huevos y crema",
+        "instruction": "Batí los huevos con la crema, sal y pimienta. Incorporá las verduras salteadas y las chauchas.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Colocá en una budinera enmantecada y horneá a baño María a 180 °C durante 40 minutos. Serví tibio o frío con salsa rosa.",
+        "timerMinutes": 40
+      }
+    ],
+    "nutrition": {
+      "protein": "8g",
+      "carbs": "10g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cf-morrones-verdes-tortilla-papa",
+    "title": "Morrones Verdes Rellenos de Tortilla de Papa",
+    "subtitle": "Bocado original: morrones asados rellenos con tortilla española.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "30 min",
+    "totalTime": "50 min",
+    "servings": 4,
+    "calories": 310,
+    "ingredients": [
+      "4 morrones verdes medianos",
+      "500 g de papas peladas en láminas finas",
+      "1 cebolla grande picada",
+      "4 huevos",
+      "Aceite de oliva",
+      "Sal a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar las papas y cebolla",
+        "instruction": "Freí suavemente las papas y la cebolla en aceite con sal durante 15 minutos hasta que estén tiernas. Escurrí bien.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Rellenar los morrones",
+        "instruction": "Mezclá las papas tibias con los huevos batidos. Limpiá los morrones sacando tapa y semillas y rellenalos con la mezcla.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Tapá cada morrón con su parte superior, acomodá en una fuente aceitada y horneá a 190 °C durante 25 a 30 minutos.",
+        "timerMinutes": 28
+      }
+    ],
+    "nutrition": {
+      "protein": "10g",
+      "carbs": "28g",
+      "fat": "17g"
+    }
+  },
+  {
+    "id": "cf-pinchos-berenjena-jamon-queso",
+    "title": "Pinchos de Berenjena con Jamón, Queso y Huevo",
+    "subtitle": "Bocaditos dorados de berenjena rellenos y fritos.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 270,
+    "ingredients": [
+      "2 berenjenas medianas",
+      "100 g de jamón cocido en fetas",
+      "100 g de queso mozzarella en fetas",
+      "4 huevos duros en rodajas",
+      "2 huevos batidos para rebozar",
+      "80 g de harina 0000",
+      "Aceite para freír y sal"
+    ],
+    "steps": [
+      {
+        "title": "Cortar y purgar las berenjenas",
+        "instruction": "Cortá las berenjenas en rodajas de 1 cm, espolvoreá con sal 10 minutos y secá con papel.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Armar los sándwiches",
+        "instruction": "Formá pares de rodajas de berenjena rellenos con jamón, queso y una rodaja de huevo duro, sujetando con un palillo.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Rebozar y freír",
+        "instruction": "Pasá por harina y huevo batido y freí en aceite caliente 3 minutos por lado hasta dorar.",
+        "timerMinutes": 6
+      }
+    ],
+    "nutrition": {
+      "protein": "16g",
+      "carbs": "14g",
+      "fat": "17g"
+    }
+  },
+  {
+    "id": "cf-champinones-rellenos-jamon-langostinos",
+    "title": "Champiñones Rellenos con Jamón Crudo y Langostinos",
+    "subtitle": "Tapas calientes de champiñones salteados con ajo y perejil.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min",
+    "servings": 4,
+    "calories": 185,
+    "ingredients": [
+      "12 champiñones grandes frescos",
+      "150 g de langostinos pelados",
+      "80 g de jamón crudo picado",
+      "2 dientes de ajo picados",
+      "2 cdas de perejil fresco picado",
+      "3 cdas de aceite de oliva",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Limpiar y saltear",
+        "instruction": "Retirá los cabos de los champiñones, picalos finos y saltealos con los sombreros en aceite de oliva durante 4 minutos.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Agregar ajo, jamón y langostinos",
+        "instruction": "Incorporá el ajo, el jamón crudo y los langostinos picados; salteá 3 minutos más.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Rellenar y servir",
+        "instruction": "Rellená cada sombrero con la preparación, espolvoreá con perejil y serví caliente.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "14g",
+      "carbs": "4g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": "cf-pulpo-gallega-papas",
+    "title": "Pulpo a la Gallega con Papas",
+    "subtitle": "Clásico pulpo tierno sobre cama de papas hervidas y pimentón.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h",
+    "servings": 4,
+    "calories": 310,
+    "ingredients": [
+      "1 kg de pulpo limpio (fresco o descongelado)",
+      "500 g de papas peladas en rodajas gruesas",
+      "60 ml de aceite de oliva virgen",
+      "1 cdita de pimentón dulce (y pizca de picante opcional)",
+      "Sal gruesa a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar el pulpo",
+        "instruction": "Asustá el pulpo sumergiéndolo 3 veces en agua hirviendo sin sal y luego hervilo 35 a 40 minutos hasta que esté tierno.",
+        "timerMinutes": 40
+      },
+      {
+        "title": "Hervir las papas",
+        "instruction": "En la misma agua de cocción del pulpo herví las rodajas de papa durante 12 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Cortar y aderezar",
+        "instruction": "Disponé las papas en fuente de madera o plato, colocá el pulpo cortado en rodajas con tijera, rociá con abundante aceite de oliva, sal gruesa y pimentón.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "26g",
+      "carbs": "24g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": "cf-mejillones-rellenos-tigres",
+    "title": "Mejillones Rellenos Empanados (Tigres)",
+    "subtitle": "Mejillones con bechamel especiada rebozados en su propia valva.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "15 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 295,
+    "ingredients": [
+      "500 g de mejillones enteros limpios",
+      "1 cebolla chica picada fina",
+      "1 diente de ajo picado",
+      "2 cdas de salsa de tomate",
+      "40 g de manteca",
+      "40 g de harina 0000",
+      "350 ml de leche",
+      "1 huevo batido y pan rallado para empanar",
+      "Aceite para freír, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Abrir y picar los mejillones",
+        "instruction": "Cociná los mejillones tapados con un chorrito de agua hasta que abran. Retirá la carne, picala y reservá las valvas limpias.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Preparar la bechamel",
+        "instruction": "Rehogá cebolla y ajo en manteca, sumá la harina, cociná 1 minuto y agregá la leche de a poco sin dejar de revolver hasta espesar. Incorporá la salsa de tomate y los mejillones picados.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Rellenar, empanar y freír",
+        "instruction": "Rellená las valvas, dejá enfriar, pasá por huevo y pan rallado y freí boca abajo en aceite caliente 2 minutos hasta dorar.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "15g",
+      "carbs": "22g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cf-arroz-pollo-ajillo-aceitunas",
+    "title": "Arroz con Pollo al Ajillo y Aceitunas",
+    "subtitle": "Arroz sabroso dorado con pollo marinado en ajo y aceitunas verdes.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 440,
+    "ingredients": [
+      "500 g de muslos o pechuga de pollo en trozos",
+      "300 g de arroz grano largo o parboil",
+      "4 dientes de ajo picados",
+      "100 g de aceitunas verdes descarozadas",
+      "1 morrón rojo picado",
+      "750 ml de caldo de ave",
+      "3 cdas de aceite de oliva",
+      "Sal, pimienta y perejil"
+    ],
+    "steps": [
+      {
+        "title": "Dorar el pollo al ajillo",
+        "instruction": "Dorá los trozos de pollo salpimentados en aceite de oliva junto con los ajos durante 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Sumar morrón y arroz",
+        "instruction": "Agregá el morrón y nacará el arroz 2 minutos revolviendo.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Cocinar con caldo",
+        "instruction": "Verté el caldo caliente y las aceitunas; cociná a fuego medio-bajo 18 minutos hasta que el arroz esté a punto. Reposá 5 minutos antes de servir.",
+        "timerMinutes": 18
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "56g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "cf-arroz-negro-calamares",
+    "title": "Arroz Negro con Calamares",
+    "subtitle": "Arroz tradicional cocinado en caldo de pescado con calamares y tinta.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 390,
+    "ingredients": [
+      "350 g de arroz bomba o carnaroli",
+      "400 g de calamares limpios en aros y tentáculos",
+      "2 sobres de tinta de calamar (8 g)",
+      "1 cebolla picada",
+      "2 dientes de ajo picados",
+      "100 g de tomate triturado",
+      "850 ml de caldo de pescado caliente",
+      "3 cdas de aceite de oliva y sal"
+    ],
+    "steps": [
+      {
+        "title": "Sofrito de calamares",
+        "instruction": "Salteá los calamares en aceite de oliva 3 minutos, agregá la cebolla y el ajo y cociná 6 minutos. Sumá el tomate triturado.",
+        "timerMinutes": 9
+      },
+      {
+        "title": "Agregar arroz y tinta",
+        "instruction": "Incorporá el arroz, mezclá 2 minutos y agregá el caldo caliente con la tinta de calamar disuelta.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Cocinar sin revolver",
+        "instruction": "Cociná a fuego medio 16 a 18 minutos hasta absorber el caldo y dejá reposar 5 minutos.",
+        "timerMinutes": 18
+      }
+    ],
+    "nutrition": {
+      "protein": "22g",
+      "carbs": "58g",
+      "fat": "7g"
+    }
+  },
+  {
+    "id": "cf-paella-mixta-tradicional",
+    "title": "Paella Mixta Tradicional",
+    "subtitle": "Arroz amarillo con pollo, cerdo, calamares, langostinos y arvejas.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "30 min",
+    "totalTime": "50 min",
+    "servings": 6,
+    "calories": 465,
+    "ingredients": [
+      "450 g de arroz para paella",
+      "300 g de pollo trozado",
+      "200 g de pulpa de cerdo en cubos",
+      "200 g de calamares en aros",
+      "200 g de langostinos enteros",
+      "100 g de arvejas",
+      "1 morrón rojo en tiras",
+      "150 g de tomate triturado",
+      "1,1 l de caldo de ave o pescado con cúrcuma o azafrán",
+      "4 cdas de aceite de oliva y sal"
+    ],
+    "steps": [
+      {
+        "title": "Dorar carnes y mariscos",
+        "instruction": "En una paellera con aceite de oliva dorá el pollo y el cerdo 8 minutos. Sumá los calamares y el morrón.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Agregar tomate y arroz",
+        "instruction": "Incorporá el tomate triturado, cociná 3 minutos, agregá el arroz y mezclá bien.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Cocinar con el caldo",
+        "instruction": "Verté el caldo caliente, distribuí las arvejas y los langostinos arriba y cociná 18 minutos sin revolver hasta secar.",
+        "timerMinutes": 18
+      }
+    ],
+    "nutrition": {
+      "protein": "31g",
+      "carbs": "56g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": "cf-coliflor-gratinada-bechamel-jamon",
+    "title": "Coliflor Gratinada con Bechamel, Jamón y Huevo",
+    "subtitle": "Coliflor tierna cubierta de salsa blanca, jamón cocido y queso gratinado.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 310,
+    "ingredients": [
+      "1 coliflor mediana en flores",
+      "100 g de jamón cocido en cubitos",
+      "2 huevos duros picados",
+      "40 g de manteca",
+      "40 g de harina 0000",
+      "500 ml de leche",
+      "80 g de queso rallado para gratinar",
+      "Sal, pimienta y nuez moscada"
+    ],
+    "steps": [
+      {
+        "title": "Hervir la coliflor",
+        "instruction": "Herví las flores de coliflor en agua con sal durante 10 minutos hasta que estén tiernas pero firmes. Escurrí bien.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hacer la salsa bechamel",
+        "instruction": "Fundí la manteca, cociná la harina 1 minuto y agregá la leche caliente batiendo hasta espesar. Condimentá con sal, pimienta y nuez moscada.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Armar y gratinar",
+        "instruction": "Colocá la coliflor en una fuente, repartí el jamón y los huevos duros, cubrí con la bechamel y el queso rallado. Gratiná a 220 °C por 12 minutos.",
+        "timerMinutes": 12
+      }
+    ],
+    "nutrition": {
+      "protein": "18g",
+      "carbs": "19g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "cf-esparragos-gratinados-jamon-bechamel",
+    "title": "Espárragos Gratinados con Jamón y Bechamel",
+    "subtitle": "Atados de espárragos envueltos en jamón cocido bajo salsa blanca.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "totalTime": "30 min",
+    "servings": 4,
+    "calories": 265,
+    "ingredients": [
+      "16 espárragos blancos o verdes cocidos",
+      "8 fetas de jamón cocido",
+      "30 g de manteca",
+      "30 g de harina 0000",
+      "400 ml de leche",
+      "60 g de queso rallado",
+      "Sal, pimienta y nuez moscada"
+    ],
+    "steps": [
+      {
+        "title": "Envolver los espárragos",
+        "instruction": "Formá atados de 2 espárragos y envolvelos con una feta de jamón cocido. Acomodalos en una fuente para horno.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Preparar la bechamel",
+        "instruction": "Cocina la harina en la manteca, añadí la leche tibia batiendo hasta lograr una crema lisa y condimentá.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Gratinar",
+        "instruction": "Cubrí los rollitos con la bechamel, espolvoreá queso rallado y gratiná a 220 °C durante 10 minutos.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "15g",
+      "carbs": "14g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cf-garbanzos-riojana-chorizo-panceta",
+    "title": "Garbanzos a la Riojana con Chorizo y Panceta",
+    "subtitle": "Guiso reconfortante de garbanzos con chorizo colorado, panceta y morrón.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h",
+    "servings": 4,
+    "calories": 520,
+    "ingredients": [
+      "300 g de garbanzos remojados desde la noche anterior (o 500 g cocidos)",
+      "1 chorizo colorado en rodajas",
+      "100 g de panceta en cubos",
+      "1 cebolla picada",
+      "1 morrón rojo picado",
+      "2 dientes de ajo",
+      "1 cda de pimentón dulce",
+      "1 hoja de laurel y sal"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar los garbanzos",
+        "instruction": "Herví los garbanzos remojados con el laurel hasta que estén tiernos (unos 35 minutos en olla común o 15 en presión).",
+        "timerMinutes": 35
+      },
+      {
+        "title": "Hacer el sofrito",
+        "instruction": "En una sartén dorá la panceta y el chorizo, agregá cebolla, ajo y morrón y cociná 8 minutos. Sumá el pimentón fuera del fuego.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Integrar el guiso",
+        "instruction": "Volcá el sofrito en la olla de los garbanzos y herví junto 10 minutos más para espesar el caldo.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "24g",
+      "carbs": "48g",
+      "fat": "25g"
+    }
+  },
+  {
+    "id": "cf-papas-riojana-chorizo",
+    "title": "Papas a la Riojana con Chorizo",
+    "subtitle": "Clásico plato de cuchara con papas chascadas, chorizo y pimentón.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "totalTime": "45 min",
+    "servings": 4,
+    "calories": 410,
+    "ingredients": [
+      "800 g de papas peladas y chascadas en trozos",
+      "150 g de chorizo colorado en rodajas",
+      "1 cebolla picada",
+      "1 morrón verde picado",
+      "2 dientes de ajo",
+      "1 cda de pimentón dulce",
+      "1 hoja de laurel, aceite de oliva y sal"
+    ],
+    "steps": [
+      {
+        "title": "Sofreír verduras y chorizo",
+        "instruction": "Rehogá la cebolla, el ajo y el morrón en aceite de oliva 6 minutos. Agregá el chorizo en rodajas y dorá 3 minutos.",
+        "timerMinutes": 9
+      },
+      {
+        "title": "Sumar papas y pimentón",
+        "instruction": "Incorporá las papas chascadas, mezclá con el pimentón dulce y cubrí apenas con agua caliente y el laurel.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Hervir hasta espesar",
+        "instruction": "Cociná a fuego medio 20 a 25 minutos hasta que las papas estén tiernas y el caldo espeso.",
+        "timerMinutes": 22
+      }
+    ],
+    "nutrition": {
+      "protein": "12g",
+      "carbs": "42g",
+      "fat": "21g"
+    }
+  },
+  {
+    "id": "cf-risotto-champinones-mariscos",
+    "title": "Risotto de Champiñones y Mariscos",
+    "subtitle": "Arroz cremoso estilo italiano con champiñones, langostinos y mejillones.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 430,
+    "ingredients": [
+      "320 g de arroz arborio o carnaroli",
+      "200 g de champiñones fileteados",
+      "250 g de mix de mariscos (langostinos, mejillones y calamares)",
+      "1 cebolla chica picada",
+      "100 ml de vino blanco",
+      "900 ml de caldo de pescado caliente",
+      "30 g de manteca y 2 cdas de aceite de oliva",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Saltear champiñones y cebolla",
+        "instruction": "Rehogá la cebolla en aceite de oliva 5 minutos, agregá los champiñones y salteá 4 minutos.",
+        "timerMinutes": 9
+      },
+      {
+        "title": "Nacarar y desglasar",
+        "instruction": "Sumá el arroz, revolvé 2 minutos, verté el vino blanco y dejá evaporar el alcohol.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Cocinar con caldo y mariscos",
+        "instruction": "Agregá el caldo caliente de a cucharones revolviendo. A los 12 minutos incorporá los mariscos y terminá la cocción 6 minutos más; montá con la manteca fría.",
+        "timerMinutes": 18
+      }
+    ],
+    "nutrition": {
+      "protein": "23g",
+      "carbs": "56g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "cf-sopa-ajo-castellana",
+    "title": "Sopa de Ajo Castellana con Jamón y Huevo",
+    "subtitle": "Sopa tradicional de pan tostado, ajo, pimentón y huevo escalfado.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "totalTime": "30 min",
+    "servings": 4,
+    "calories": 315,
+    "ingredients": [
+      "6 dientes de ajo laminados",
+      "100 g de pan del día anterior en rebanadas finas",
+      "100 g de jamón crudo o cocido en tiras",
+      "4 huevos",
+      "1 cda de pimentón dulce",
+      "1 l de caldo de carne o ave",
+      "3 cdas de aceite de oliva y sal"
+    ],
+    "steps": [
+      {
+        "title": "Dorar ajo, jamón y pan",
+        "instruction": "Dorá los ajos en aceite de oliva sin quemarlos, agregá el jamón y las rebanadas de pan para que absorban el sabor.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hervir con pimentón y caldo",
+        "instruction": "Retirá del fuego un instante para sumar el pimentón, mezclá y verté el caldo caliente. Herví suavemente 12 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Cuajar los huevos",
+        "instruction": "Cascá los 4 huevos sobre la sopa hirviendo suave, tapá 3 minutos hasta que cuajen las claras y serví bien caliente.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "16g",
+      "carbs": "21g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "cf-sopa-crema-champinones-queso",
+    "title": "Sopa Crema de Champiñones, Papa y Queso",
+    "subtitle": "Crema aterciopelada de champiñones espesada con papa y queso.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 255,
+    "ingredients": [
+      "350 g de champiñones frescos laminados",
+      "2 papas medianas en cubos",
+      "1 cebolla picada",
+      "750 ml de caldo de verduras",
+      "100 ml de crema de leche",
+      "60 g de queso rallado",
+      "2 cdas de manteca, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Rehogar cebolla y champiñones",
+        "instruction": "Cociná la cebolla y los champiñones en manteca durante 8 minutos (reservá unas láminas para decorar).",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hervir con papa y caldo",
+        "instruction": "Agregá las papas y el caldo caliente; cociná 18 minutos hasta que las papas estén bien blandas.",
+        "timerMinutes": 18
+      },
+      {
+        "title": "Licuar y enriquecer",
+        "instruction": "Mixeá hasta obtener una crema lisa, incorporá la crema de leche y el queso rallado, rectificá sal y pimienta y serví.",
+        "timerMinutes": 4
+      }
+    ],
+    "nutrition": {
+      "protein": "9g",
+      "carbs": "18g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "cf-sopa-pescado-mariscos-arroz",
+    "title": "Sopa de Pescado y Mariscos con Arroz",
+    "subtitle": "Sopa marinera sustanciosa con merluza, mejillones, langostinos y arroz.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "25 min",
+    "totalTime": "45 min",
+    "servings": 4,
+    "calories": 320,
+    "ingredients": [
+      "300 g de merluza en trozos",
+      "200 g de langostinos pelados",
+      "200 g de mejillones",
+      "80 g de arroz",
+      "1 cebolla, 1 puerro y 1 tomate triturado",
+      "1 l de caldo de pescado",
+      "3 cdas de aceite de oliva, sal y perejil"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la base",
+        "instruction": "Rehogá la cebolla y el puerro picados en aceite de oliva 6 minutos, agregá el tomate y cociná 3 minutos.",
+        "timerMinutes": 9
+      },
+      {
+        "title": "Hervir el arroz en caldo",
+        "instruction": "Verté el caldo caliente y el arroz; cociná 12 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Cocinar pescado y mariscos",
+        "instruction": "Sumá la merluza, los langostinos y los mejillones y herví 5 minutos más hasta que todo esté cocido. Espolvoreá con perejil.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "28g",
+      "carbs": "24g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "cf-espaguetis-hongos-crema-jamon",
+    "title": "Espaguetis con Hongos, Crema y Jamón",
+    "subtitle": "Pasta rápida con salsa cremosa de champiñones y jamón cocido.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 470,
+    "ingredients": [
+      "400 g de espaguetis",
+      "250 g de champiñones fileteados",
+      "150 g de jamón cocido en tiritas",
+      "200 ml de crema de leche",
+      "1 diente de ajo picado",
+      "50 g de queso parmesano rallado",
+      "2 cdas de aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Hervir la pasta",
+        "instruction": "Cociná los espaguetis en abundante agua hirviendo con sal hasta que estén al dente.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hacer la salsa",
+        "instruction": "Mientras tanto, salteá el ajo y los champiñones en aceite 5 minutos, agregá el jamón y la crema de leche y reducí 4 minutos.",
+        "timerMinutes": 9
+      },
+      {
+        "title": "Mezclar y servir",
+        "instruction": "Incorporá la pasta escurrida a la sartén con el queso parmesano, mezclá bien y serví.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "20g",
+      "carbs": "56g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "cf-tortellinis-champinones-jamon-crudo",
+    "title": "Tortellinis con Champiñones, Jamón Crudo y Crema",
+    "subtitle": "Pasta rellena salteada con champiñones, jamón crudo y salsa cremosa.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "12 min",
+    "totalTime": "22 min",
+    "servings": 4,
+    "calories": 495,
+    "ingredients": [
+      "500 g de tortellinis frescos de carne o queso",
+      "200 g de champiñones laminados",
+      "100 g de jamón crudo en tiras",
+      "200 ml de crema de leche",
+      "1 cda de manteca",
+      "40 g de queso rallado y pimienta negra"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar los tortellinis",
+        "instruction": "Herví los tortellinis en agua con sal siguiendo las indicaciones del envase (unos 4 a 6 minutos).",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Preparar la salsa",
+        "instruction": "Salteá los champiñones en manteca 4 minutos, agregá el jamón crudo y la crema de leche y cociná 3 minutos.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Unir y servir",
+        "instruction": "Volcá los tortellinis escurridos en la sartén, espolvoreá queso rallado y pimienta negra recién molida.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "21g",
+      "carbs": "48g",
+      "fat": "24g"
+    }
+  },
+  {
+    "id": "cf-cachopo-asturiano-jamon-queso",
+    "title": "Cachopo Asturiano Relleno de Jamón Crudo y Queso",
+    "subtitle": "Milanesa doble gigante rellena de jamón crudo y queso fundido.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "10 min",
+    "totalTime": "30 min",
+    "servings": 4,
+    "calories": 590,
+    "ingredients": [
+      "8 bifes finos de nalga o cuadril (4 pares)",
+      "120 g de jamón crudo en fetas",
+      "160 g de queso dambo o gouda en fetas",
+      "2 huevos batidos",
+      "100 g de harina 0000",
+      "150 g de pan rallado",
+      "Aceite para freír, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Rellenar los bifes",
+        "instruction": "Salpimentá suavemente los bifes, colocá jamón crudo y queso sobre 4 de ellos y tapá con los otros 4 presionando bien los bordes.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Empanar doble",
+        "instruction": "Pasá cada cachopo por harina, luego por huevo batido y finalmente por pan rallado presionando para sellar.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Freír",
+        "instruction": "Freí en abundante aceite caliente a 175 °C durante 3 minutos por lado hasta dorar y fundir el queso.",
+        "timerMinutes": 6
+      }
+    ],
+    "nutrition": {
+      "protein": "42g",
+      "carbs": "32g",
+      "fat": "32g"
+    }
+  },
+  {
+    "id": "cf-cordero-asado-papas-panadera",
+    "title": "Cordero Asado con Papas Panadera",
+    "subtitle": "Paleta o pierna de cordero asada lentamente al horno con papas y cebolla.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "1 h 30 min",
+    "totalTime": "1 h 50 min",
+    "servings": 6,
+    "calories": 540,
+    "ingredients": [
+      "1,5 kg de paleta o pierna de cordero",
+      "800 g de papas en rodajas de 5 mm",
+      "2 cebollas en pluma",
+      "4 dientes de ajo",
+      "150 ml de vino blanco",
+      "3 cdas de aceite de oliva",
+      "Romero, tomillo, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la cama de papas",
+        "instruction": "En una asadera profunda disponé las papas y las cebollas con aceite, sal y pimienta.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Adobar el cordero",
+        "instruction": "Untá el cordero con ajo picado, hierbas, sal, pimienta y aceite; colocalo sobre las papas y rociá con vino blanco.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Horneá a 180 °C durante 1 hora y media dando vuelta la pieza a mitad de cocción y bañando con sus jugos.",
+        "timerMinutes": 90
+      }
+    ],
+    "nutrition": {
+      "protein": "38g",
+      "carbs": "26g",
+      "fat": "29g"
+    }
+  },
+  {
+    "id": "cf-merluza-romana",
+    "title": "Merluza a la Romana",
+    "subtitle": "Filets de merluza tiernos rebozados en harina y huevo batido.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepTime": "10 min",
+    "cookTime": "8 min",
+    "totalTime": "18 min",
+    "servings": 4,
+    "calories": 275,
+    "ingredients": [
+      "600 g de filets de merluza sin espinas",
+      "80 g de harina 0000",
+      "2 huevos batidos",
+      "Jugo de 1/2 limón",
+      "Aceite para freír, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Condimentar la merluza",
+        "instruction": "Cortá los filets en porciones, salpimentá y rociá con jugo de limón.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Rebozar y freír",
+        "instruction": "Pasá cada pieza por harina sacudiendo el exceso y luego por huevo batido. Freí en aceite caliente 3 minutos por lado hasta dorar.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Escurrir y servir",
+        "instruction": "Retirá sobre papel absorbente y serví con rodajas de limón.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "28g",
+      "carbs": "14g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "cf-solomillo-cerdo-strogonoff",
+    "title": "Solomillo de Cerdo Strogonoff con Champiñones",
+    "subtitle": "Tiras tiernas de cerdo en salsa cremosa de champiñones y mostaza.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 385,
+    "ingredients": [
+      "600 g de solomillo de cerdo en tiras",
+      "250 g de champiñones fileteados",
+      "1 cebolla picada fina",
+      "200 ml de crema de leche",
+      "1 cda de mostaza",
+      "1 cda de pimentón dulce",
+      "100 ml de vino blanco",
+      "2 cdas de manteca o aceite, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Sellar el cerdo",
+        "instruction": "Dorá las tiras de solomillo salpimentadas a fuego fuerte en sartén 4 minutos y retiralas.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Cocinar la salsa",
+        "instruction": "En la misma sartén rehogá la cebolla y los champiñones 6 minutos, desglasá con vino blanco y sumá la mostaza, el pimentón y la crema de leche.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Integrar",
+        "instruction": "Devolvé el cerdo con sus jugos y cociná 5 minutos a fuego suave sin hervir fuerte.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "33g",
+      "carbs": "7g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cf-ternera-estofada-jardinera",
+    "title": "Ternera Estofada a la Jardinera",
+    "subtitle": "Carne vacuna braseada con arvejas, zanahoria y papas en cubos.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "1 h 15 min",
+    "totalTime": "1 h 35 min",
+    "servings": 4,
+    "calories": 450,
+    "ingredients": [
+      "700 g de paleta o aguja vacuna en cubos",
+      "2 zanahorias en rodajas",
+      "300 g de papas en cubos",
+      "150 g de arvejas",
+      "1 cebolla y 2 dientes de ajo picados",
+      "150 ml de vino blanco",
+      "400 ml de caldo de carne",
+      "3 cdas de aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Sellar la carne",
+        "instruction": "Dorá los cubos de carne salpimentados en aceite de oliva durante 6 minutos y reservá.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Estofar con verduras y vino",
+        "instruction": "Rehogá cebolla, ajo y zanahoria 6 minutos, volvé a poner la carne, agregá el vino blanco y el caldo. Tapá y cociná suave 55 minutos.",
+        "timerMinutes": 55
+      },
+      {
+        "title": "Agregar papas y arvejas",
+        "instruction": "Incorporá las papas y las arvejas y cociná 18 minutos más hasta que las papas estén tiernas.",
+        "timerMinutes": 18
+      }
+    ],
+    "nutrition": {
+      "protein": "36g",
+      "carbs": "28g",
+      "fat": "19g"
+    }
+  },
+  {
+    "id": "cf-almendrados-caseros",
+    "title": "Almendrados Caseros",
+    "subtitle": "Masitas tradicionales crocantes por fuera y húmedas de almendra.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "totalTime": "30 min",
+    "servings": 16,
+    "calories": 145,
+    "ingredients": [
+      "250 g de almendras molidas",
+      "200 g de azúcar",
+      "3 claras de huevo",
+      "Ralladura de 1 limón",
+      "16 almendras enteras para decorar"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la masa",
+        "instruction": "Mezclá la almendra molida con el azúcar y la ralladura de limón. Sumá las claras apenas batidas hasta formar una pasta húmeda.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Formar las masitas",
+        "instruction": "Armá bolitas sobre papel manteca en una placa y colocá una almendra entera en el centro de cada una.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Horneá a 175 °C durante 15 minutos hasta que doren apenas por los bordes.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "14g",
+      "fat": "8g"
+    }
+  },
+  {
+    "id": "cf-bizcochuelo-invertido-ciruelas-pasas",
+    "title": "Bizcochuelo Invertido Caramelizado de Ciruelas y Pasas",
+    "subtitle": "Torta esponjosa con cubierta brillante de caramelo, ciruelas y pasas.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "40 min",
+    "totalTime": "1 h",
+    "servings": 8,
+    "calories": 320,
+    "ingredients": [
+      "3 huevos",
+      "180 g de azúcar (más 100 g para el caramelo)",
+      "180 g de harina leudante",
+      "100 ml de leche",
+      "80 ml de aceite neutro",
+      "100 g de ciruelas pasas sin carozo",
+      "60 g de pasas de uva"
+    ],
+    "steps": [
+      {
+        "title": "Acaramelar el molde",
+        "instruction": "Hacé un caramelo con los 100 g de azúcar, cubrí la base de un molde de 22 cm y distribuí las ciruelas y pasas.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Batir la masa",
+        "instruction": "Batí los huevos con los 180 g de azúcar hasta espumar, agregá la leche, el aceite y finalmente la harina tamizada.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear y desmoldar tibio",
+        "instruction": "Volcá en el molde y horneá a 180 °C por 40 minutos. Desmoldá en tibio para que no se pegue el caramelo.",
+        "timerMinutes": 40
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "52g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "cf-bizcochuelo-humedo-chocolate-nueces",
+    "title": "Bizcochuelo Húmedo de Chocolate y Nueces",
+    "subtitle": "Torta casera intensa de cacao y chocolate fundido con nueces.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "40 min",
+    "totalTime": "1 h",
+    "servings": 8,
+    "calories": 390,
+    "ingredients": [
+      "150 g de chocolate semiamargo",
+      "120 g de manteca",
+      "4 huevos",
+      "180 g de azúcar",
+      "150 g de harina 0000",
+      "1 cdita de polvo de hornear",
+      "80 g de nueces picadas"
+    ],
+    "steps": [
+      {
+        "title": "Derretir chocolate y manteca",
+        "instruction": "Fundí el chocolate picado junto con la manteca a baño María o microondas suave y dejá entibiar.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Batir huevos y unir",
+        "instruction": "Batí los huevos con el azúcar hasta triplicar volumen, agregá el chocolate fundido y luego la harina con polvo de hornear y las nueces.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Volcá en molde enmantecado de 22 cm y horneá a 180 °C durante 35 a 40 minutos.",
+        "timerMinutes": 38
+      }
+    ],
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "40g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cf-bizcochuelo-invertido-anana",
+    "title": "Bizcochuelo Invertido de Ananá",
+    "subtitle": "Clásico bizcochuelo acaramelado cubierto con rodajas de ananá.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "40 min",
+    "totalTime": "55 min",
+    "servings": 8,
+    "calories": 310,
+    "ingredients": [
+      "1 lata de ananá en rodajas",
+      "100 g de azúcar para el caramelo",
+      "3 huevos",
+      "160 g de azúcar",
+      "180 g de harina leudante",
+      "100 ml de almíbar de la lata",
+      "80 ml de aceite neutro"
+    ],
+    "steps": [
+      {
+        "title": "Preparar base de ananá",
+        "instruction": "Cubrí el fondo del molde con caramelo líquido y acomodá las rodajas de ananá escurridas.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hacer el batido",
+        "instruction": "Batí los huevos con el azúcar, incorporá el aceite y el almíbar y sumá la harina leudante con movimientos envolventes.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Hornear y desmoldar",
+        "instruction": "Horneá a 180 °C durante 40 minutos y desmoldá en tibio sobre un plato.",
+        "timerMinutes": 40
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "50g",
+      "fat": "10g"
+    }
+  },
+  {
+    "id": "cf-flan-queso-dulce-membrillo",
+    "title": "Flan de Queso y Dulce de Membrillo",
+    "subtitle": "Postre cremoso con trocitos de dulce de membrillo al baño María.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "50 min",
+    "totalTime": "1 h 5 min",
+    "servings": 6,
+    "calories": 335,
+    "ingredients": [
+      "250 g de queso crema firme",
+      "4 huevos",
+      "400 ml de leche",
+      "120 g de azúcar (más 100 g para el caramelo)",
+      "150 g de dulce de membrillo en cubitos pequeños",
+      "1 cdita de esencia de vainilla"
+    ],
+    "steps": [
+      {
+        "title": "Acaramelar la flanera",
+        "instruction": "Prepará caramelo con los 100 g de azúcar, cubrí la flanera y repartí los cubitos de dulce de membrillo en la base.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Batir la mezcla",
+        "instruction": "Licuá o batí el queso crema con los huevos, el azúcar, la leche y la vainilla.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear a baño María",
+        "instruction": "Volcá suavemente en la flanera y cociná a baño María a 170 °C durante 50 minutos. Enfriá mínimo 4 horas antes de desmoldar.",
+        "timerMinutes": 50
+      }
+    ],
+    "nutrition": {
+      "protein": "9g",
+      "carbs": "45g",
+      "fat": "13g"
+    }
+  },
+  {
+    "id": "cf-mantecados-caseros-almendra",
+    "title": "Mantecados Caseros de Almendra",
+    "subtitle": "Galletas tradicionales suaves que se deshacen en la boca con canela y limón.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "18 min",
+    "totalTime": "38 min",
+    "servings": 18,
+    "calories": 170,
+    "ingredients": [
+      "250 g de harina 0000 tostada en sartén y fría",
+      "120 g de manteca pomada",
+      "120 g de azúcar impalpable",
+      "80 g de almendra molida",
+      "1 cdita de canela en polvo",
+      "Ralladura de 1/2 limón y semillas de sésamo"
+    ],
+    "steps": [
+      {
+        "title": "Integrar la masa",
+        "instruction": "Mezclá la harina tostada fría con la almendra, el azúcar impalpable, la canela, la ralladura y la manteca hasta formar un bollo tierno.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Estirar y cortar",
+        "instruction": "Estirá la masa a 1,5 cm de espesor, cortá medallones, pasalos a una placa y espolvoreá sésamo por encima.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Cociná a 175 °C durante 15 a 18 minutos sin que tomen demasiado color.",
+        "timerMinutes": 18
+      }
+    ],
+    "nutrition": {
+      "protein": "3g",
+      "carbs": "19g",
+      "fat": "9g"
+    }
+  },
+  {
+    "id": "cf-quesada-casera-mermelada",
+    "title": "Quesada Casera de Queso Crema y Mermelada",
+    "subtitle": "Postre al horno tipo flan firme de queso con canela y limón.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "40 min",
+    "totalTime": "55 min",
+    "servings": 8,
+    "calories": 270,
+    "ingredients": [
+      "300 g de queso crema o ricota procesada",
+      "3 huevos",
+      "150 g de azúcar",
+      "80 g de harina 0000",
+      "250 ml de leche",
+      "50 g de manteca derretida",
+      "Ralladura de limón, 1/2 cdita de canela y mermelada de frutos rojos para servir"
+    ],
+    "steps": [
+      {
+        "title": "Batir los ingredientes",
+        "instruction": "Mezclá el queso crema con los huevos, el azúcar, la manteca derretida, la leche, la harina, el limón y la canela hasta lograr una crema lisa.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Volcá en una tartera enmantecada de 24 cm y horneá a 180 °C durante 40 minutos hasta dorar la superficie.",
+        "timerMinutes": 40
+      },
+      {
+        "title": "Servir",
+        "instruction": "Dejá enfriar y serví acompañada de mermelada de frutos rojos.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "30g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "cf-rosquillas-caseras-anis",
+    "title": "Rosquillas Caseras de Anís",
+    "subtitle": "Rosquillas esponjosas fritas aromatizadas con anís y limón.",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "totalTime": "35 min",
+    "servings": 16,
+    "calories": 155,
+    "ingredients": [
+      "350 g de harina 0000",
+      "2 huevos",
+      "100 g de azúcar",
+      "60 ml de aceite suave",
+      "60 ml de leche",
+      "1 cdita de polvo de hornear",
+      "2 cdas de licor de anís o esencia de anís",
+      "Ralladura de 1 limón, aceite para freír y azúcar para rebozar"
+    ],
+    "steps": [
+      {
+        "title": "Amasar",
+        "instruction": "Batí los huevos con el azúcar, aceite, leche, anís y ralladura. Incorporá la harina con el polvo de hornear hasta lograr una masa suave.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Formar las rosquillas",
+        "instruction": "Armá rollitos con las manos aceitadas y uní los extremos formando aros.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Freír y azucarar",
+        "instruction": "Freí en aceite a 170 °C hasta dorar de ambos lados, escurrí y pasá por azúcar en tibio.",
+        "timerMinutes": 12
+      }
+    ],
+    "nutrition": {
+      "protein": "3g",
+      "carbs": "23g",
+      "fat": "6g"
+    }
+  },
+  {
+    "id": "cf-tarta-durazno-almibar-cacao",
+    "title": "Tarta de Durazno en Almíbar y Crema de Cacao",
+    "subtitle": "Tarta fría rápida de base crocante, crema de chocolate y duraznos.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepTime": "20 min",
+    "cookTime": "5 min",
+    "totalTime": "25 min",
+    "servings": 8,
+    "calories": 340,
+    "ingredients": [
+      "200 g de galletitas dulces molidas",
+      "90 g de manteca derretida",
+      "250 g de queso crema",
+      "200 ml de crema de leche batida a medio punto",
+      "150 g de chocolate semiamargo derretido",
+      "1 lata de duraznos en almíbar en gajos"
+    ],
+    "steps": [
+      {
+        "title": "Armar la base",
+        "instruction": "Mezclá las galletitas molidas con la manteca derretida, presioná en un molde desmontable de 22 cm y llevá a heladera 15 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Preparar la crema de cacao",
+        "instruction": "Integrá el chocolate derretido tibio con el queso crema y luego incorporá la crema batida.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Decorar con duraznos",
+        "instruction": "Cubrí la base con la mousse de cacao, decorá con gajos de durazno en almíbar y refrigerá 2 horas.",
+        "timerMinutes": 7
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "32g",
+      "fat": "22g"
+    }
+  },
+  {
+    "id": "cf-tarta-fria-queso-damasco",
+    "title": "Tarta Fría de Queso y Mermelada de Damasco",
+    "subtitle": "Cheesecake sin horno cremosa cubierta de mermelada dorada.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "0 min",
+    "totalTime": "20 min",
+    "servings": 8,
+    "calories": 330,
+    "ingredients": [
+      "180 g de galletitas de vainilla molidas",
+      "80 g de manteca derretida",
+      "350 g de queso crema",
+      "250 ml de crema de leche",
+      "100 g de azúcar",
+      "7 g de gelatina sin sabor hidratada en 40 ml de agua",
+      "150 g de mermelada de damasco"
+    ],
+    "steps": [
+      {
+        "title": "Base de galletitas",
+        "instruction": "Uní las galletitas molidas con la manteca, forrá la base de un molde desmontable y refrigerá.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Crema de queso",
+        "instruction": "Batí el queso crema con el azúcar y la crema de leche; sumá la gelatina hidratada y disuelta tibia.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Enfriar y cubrir",
+        "instruction": "Volcá sobre la base, refrigerá 4 horas hasta cuajar y cubrí con la mermelada de damasco aligerada.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "31g",
+      "fat": "21g"
+    }
+  },
+  {
+    "id": "cf-tiramisu-clasico-casero",
+    "title": "Tiramisú Clásico Casero",
+    "subtitle": "Capas de vainillas embebidas en café, crema de mascarpone y cacao.",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "0 min",
+    "totalTime": "25 min",
+    "servings": 8,
+    "calories": 365,
+    "ingredients": [
+      "24 vainillas",
+      "400 g de queso mascarpone (o queso crema firme)",
+      "250 ml de crema de leche",
+      "100 g de azúcar",
+      "250 ml de café fuerte frío",
+      "2 cdas de licor de café o amaretto (opcional)",
+      "Cacao amargo en polvo para espolvorear"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la crema",
+        "instruction": "Batí la crema de leche con el azúcar hasta montar y unila suavemente con el queso mascarpone hasta que quede firme.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Armar las capas",
+        "instruction": "Embebé rápidamente las vainillas en el café frío y alterná capas de vainillas y crema en una fuente.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Refrigerar y espolvorear",
+        "instruction": "Llevá a la heladera al menos 4 horas y espolvoreá abundante cacao amargo justo antes de servir.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "32g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "cf-trufas-chocolate-blanco-coco-frutos-rojos",
+    "title": "Trufas de Chocolate Blanco, Coco y Frutos Rojos",
+    "subtitle": "Bombones cremosos de chocolate blanco rebozados en coco rallado.",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": 18,
+    "calories": 115,
+    "ingredients": [
+      "200 g de chocolate blanco picado",
+      "80 ml de crema de leche",
+      "20 g de manteca",
+      "50 g de frutos rojos deshidratados o mermelada espesa",
+      "80 g de coco rallado"
+    ],
+    "steps": [
+      {
+        "title": "Hacer la ganache blanca",
+        "instruction": "Calentá la crema de leche y volcala sobre el chocolate blanco y la manteca; revolvé hasta fundir por completo.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Sumar frutos rojos y enfriar",
+        "instruction": "Incorporá los frutos rojos picados y llevá a heladera 2 horas hasta que tome consistencia firme.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Formar y rebozar",
+        "instruction": "Tomá porciones con cuchara, armá bolitas y pasalas por coco rallado.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "2g",
+      "carbs": "11g",
+      "fat": "7g"
+    }
   }
 ]
