@@ -37252,5 +37252,1610 @@
         "text": "Servir las croquetas aún calientes. Conclusiones Para concluir la discusión sobre la freidora de aire, se puede decir que es uno de los mejores inventos tanto en tecnología como en alimentación en los últimos años. También se puede decir que es posible cocinar un sinfín de recetas que habitualmente estamos acostumbrados a freír, o a hornear, sin ninguna dificultad especial, consiguiendo exactamente el mismo resultado. Por lo tanto, se convierte en una compra imprescindible, ya que no sólo es un excelente aliado en la cocina, sino también para nuestra propia salud. En este texto se ha repetido que es posible hacer frituras ligeras, crujientes y sabrosas con sólo una cucharada de aceite (hasta un 85% menos de grasa). En comparación con la fritura, el uso de una freidora de aire puede reducir la cantidad de grasa, calorías y compuestos potencialmente dañinos en los alimentos, lo que sólo beneficia a nuestra salud."
       }
     ]
+  },
+  {
+    "id": "airfryer-quinua-banana-miel",
+    "title": "Quinua con Banana y Miel en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 45,
+    "temperatureC": 200,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Desayuno tibio y nutritivo de quinua cocida en freidora de aire con banana fresca, leche y miel.",
+    "ingredients": [
+      {
+        "amount": 5,
+        "unit": "cucharadas",
+        "item": "quinua"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "agua hirviendo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 45,
+        "unit": "ml",
+        "item": "leche entera"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "banana chica en rodajas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora de aire a 200 °C. Enjuagar muy bien la quinua (idealmente tras haberla dejado en remojo unas horas)."
+      },
+      {
+        "text": "Colocar la quinua en un bol apto para horno con el agua hirviendo, la esencia de vainilla y la sal. Tapar bien con papel aluminio."
+      },
+      {
+        "text": "Cocinar en la cesta de la freidora durante 45 minutos hasta que la quinua esté tierna.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Retirar con cuidado, incorporar la leche, el aceite de oliva y la miel, y dejar reposar 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Servir con la banana picada y un hilo extra de miel."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-medallones-pollo-manzana",
+    "title": "Medallones de Pollo y Manzana en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Medallones jugosos de pollo picado con trocitos de manzana roja, pimentón ahumado y perejil.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "pechuga o muslo de pollo picado"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "manzana roja pelada y picada bien fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cucharadita",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "cebolla en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "sal fina"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "pimienta negra molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora de aire a 200 °C."
+      },
+      {
+        "text": "Mezclar el pollo picado con la manzana, el perejil, el pimentón, el ajo en polvo, la cebolla en polvo, la sal y la pimienta."
+      },
+      {
+        "text": "Formar 8 medallones parejos y disponerlos en una sola capa en la cesta."
+      },
+      {
+        "text": "Cocinar 10 minutos, dándolos vuelta a la mitad, hasta que estén dorados y bien cocidos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-salteado-zapallo-champinones",
+    "title": "Salteado de Zapallo y Champiñones en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 18,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Guarnición o cena liviana de cubos de zapallo, morrón verde, cebolla colorada y champiñones asados.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "zapallo cabutiá o calabacín pelado en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "morrón verde en cubos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla colorada picada"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "champiñones frescos en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora de aire a 200 °C."
+      },
+      {
+        "text": "Mezclar en un bol el zapallo, el morrón, la cebolla, los champiñones, el aceite de oliva, el ajo, la sal y la pimienta."
+      },
+      {
+        "text": "Colocar en la cesta en una capa pareja y cocinar 18 minutos, removiendo a la mitad de la cocción.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Servir tibio con perejil fresco picado por encima."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bife-lomo-huevos",
+    "title": "Bife de Lomo y Huevos al Plato en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 14,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Bifes de lomo tiernos acompañados de huevos cocidos en moldes individuales dentro de la freidora.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "bifes de lomo (aprox. 170 g c/u)"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "sal fina y pimienta negra"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite en aerosol o de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 180 °C. Colocar los bifes en la cesta y cocinar 5 minutos; dar vuelta, agregar ajo, sal y pimienta y cocinar 4 minutos más.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Retirar los bifes a un plato y tapar con papel aluminio para mantener el calor."
+      },
+      {
+        "text": "Bajar a 165 °C. Aceitar 2 cazuelitas individuales, cascar un huevo en cada una y condimentar con sal, pimienta, pimentón y perejil."
+      },
+      {
+        "text": "Cocinar los huevos 5 minutos hasta que cuajen y servir junto a los bifes.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "airfryer-cupcakes-doble-chocolate",
+    "title": "Cupcakes Doble Chocolate en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Cupcakes húmedos de cacao amargo y yogur natural con doble dosis de chispas de chocolate.",
+    "ingredients": [
+      {
+        "amount": 65,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "cacao amargo en polvo"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cucharadita",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "cucharadas",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "clara de huevo"
+      },
+      {
+        "amount": 3,
+        "unit": "cucharadas",
+        "item": "yogur natural"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 45,
+        "unit": "g",
+        "item": "chispas de chocolate amargo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 180 °C. Mezclar en un bol la harina, el cacao, el polvo de hornear y una pizca de sal."
+      },
+      {
+        "text": "Batir el azúcar con el aceite, la clara de huevo, el yogur natural y la vainilla; incorporar a los secos sin batir de más y sumar la mitad de las chispas."
+      },
+      {
+        "text": "Repartir en 4 moldes para muffins aptos para horno hasta la mitad y cubrir con el resto de las chispas."
+      },
+      {
+        "text": "Hornear 12 minutos hasta que al pinchar con un palillo salga limpio.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-wraps-espinaca-porotos-negros",
+    "title": "Wraps de Espinaca y Porotos Negros en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tortillas rellenas con huevo revuelto con espinaca y pasta especiada de porotos negros, doradas en freidora.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "tortillas integrales o comunes"
+      },
+      {
+        "amount": 6,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "leche entera"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "espinaca cocida y bien escurrida"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "porotos negros cocidos"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "cebollas de verdeo picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "jugo de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200 °C. En una sartén con 1 cucharada de aceite, hacer un revuelto con los huevos, la leche, sal e incorporar la espinaca picada."
+      },
+      {
+        "text": "En la misma sartén, saltear el verdeo con pimentón y sumar los porotos negros aplastándolos ligeramente; terminar con perejil y jugo de limón."
+      },
+      {
+        "text": "Rellenar las tortillas con los porotos y el huevo con espinaca, doblando los bordes y enrollando firme."
+      },
+      {
+        "text": "Colocar en la cesta con el cierre hacia abajo y dorar 6 a 8 minutos hasta que queden crocantes.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-budin-zapallito-chocolate",
+    "title": "Budín de Zapallito y Chocolate en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 150,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Budín húmedo y esponjoso de cacao con zapallito rallado que aporta humedad sin sentirse en el sabor.",
+    "ingredients": [
+      {
+        "amount": 65,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "cacao amargo en polvo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo grande"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 30,
+        "unit": "ml",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "zapallito o zucchini rallado y escurrido"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "chispas de chocolate amargo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 150 °C y aceitar un molde chico de budín que entre en la cesta."
+      },
+      {
+        "text": "Batir el huevo con el azúcar rubia, la manteca derretida, el aceite y una cucharadita de vainilla."
+      },
+      {
+        "text": "Incorporar la harina, el cacao, el bicarbonato y una pizca de sal; luego sumar el zapallito escurrido y la mitad de las chispas."
+      },
+      {
+        "text": "Volcar al molde, espolvorear con el resto de las chispas y hornear 30 a 35 minutos hasta que salga limpio el palillo.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "airfryer-salteado-morron-zapallito-huevo",
+    "title": "Salteado de Morrón Rojo, Zapallito y Huevo en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "temperatureC": 200,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Cazuela individual de pan integral tostado con zapallito, morrón asado y huevos al plato.",
+    "ingredients": [
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "zapallito en cubos"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "morrón rojo asado o fresco picado"
+      },
+      {
+        "amount": 1,
+        "unit": "rebanada",
+        "item": "pan integral en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "extracto de tomate"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "romero picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal marina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200 °C. Mezclar en un recipiente apto para horno el zapallito, el morrón, el pan, el extracto de tomate y el aceite."
+      },
+      {
+        "text": "Cocinar 8 a 10 minutos removiendo una vez hasta que el pan empiece a dorarse.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Bajar a 120 °C, hacer dos huecos en las verduras, cascar un huevo en cada uno y salar."
+      },
+      {
+        "text": "Cocinar 6 a 8 minutos hasta que cuajen las claras y servir con romero picado.",
+        "timerMinutes": 7
+      }
+    ]
+  },
+  {
+    "id": "airfryer-chips-pepinillos-crocantes",
+    "title": "Chips de Pepinillos Crocantes en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Rodajas de pepinillo en vinagre empanadas con pan rallado y harina de maíz, ideales para picadas.",
+    "ingredients": [
+      {
+        "amount": 24,
+        "unit": "rodajas",
+        "item": "pepinillos en vinagre bien secos"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "harina de maíz (polenta fina)"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "perejil seco"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "pimentón dulce"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite en aerosol"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200 °C y secar bien los pepinillos con papel de cocina."
+      },
+      {
+        "text": "Mezclar el pan rallado con la harina de maíz, el perejil y el pimentón."
+      },
+      {
+        "text": "Pasar cada rodaja por huevo batido y luego por el rebozado presionando suavemente."
+      },
+      {
+        "text": "Rociar con aceite y cocinar en una sola capa 8 minutos, dando vuelta a la mitad.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-salmon-salsa-pepino-palta",
+    "title": "Salmón Especiado con Salsa de Pepino y Palta en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 8,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Filetes de salmón dorados con especias y servidos con una ensaladita fresca de pepino, palta y cebolla colorada.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "filetes de salmón"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "tomillo seco"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pepino en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "palta madura en cubitos"
+      },
+      {
+        "amount": 0.25,
+        "unit": "unidad",
+        "item": "cebolla colorada picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "jugo de limón o lima"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200 °C. Mezclar el pimentón, ajo en polvo, tomillo, sal y pimienta."
+      },
+      {
+        "text": "Pincelar los filetes con aceite de oliva, cubrir con las especias y colocar con la piel hacia abajo en la cesta."
+      },
+      {
+        "text": "Cocinar 6 a 8 minutos hasta que el pescado se desmenuce fácil con tenedor.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Mezclar pepino, palta, cebolla colorada, jugo cítrico, aceite y sal; servir sobre el salmón."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-trucha-lima-ajo",
+    "title": "Trucha a la Lima y Ajo en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 15,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Filetes de trucha tiernos con ajo machacado y rodajas de lima o limón, listos en 15 minutos.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "filetes de trucha"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "ajo machacado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "lima o limón en rodajas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "pimienta negra molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora de aire a 190 °C."
+      },
+      {
+        "text": "Pincelar los filetes de trucha con aceite y salpimentar de ambos lados."
+      },
+      {
+        "text": "Distribuir en la cesta en una sola capa, untar con el ajo machacado y cubrir con rodajas de lima o limón."
+      },
+      {
+        "text": "Cocinar 12 a 15 minutos hasta que la trucha esté cocida y jugosa.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-camarones-queso-pan-pita",
+    "title": "Camarones con Queso y Pan Pita en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Camarones salteados en freidora con hierbas, servidos dentro de pan árabe tibio con tomate, queso y aceitunas.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "camarones pelados y limpios"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "perejil seco"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "pan pita o árabe"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso semiduro o tipo feta desmenuzado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "tomate en cubitos"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "aceitunas negras en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 190 °C. Mezclar los camarones con el aceite de oliva, perejil, ajo en polvo, sal y pimienta."
+      },
+      {
+        "text": "Colocar en una sola capa en la cesta y cocinar 6 a 8 minutos hasta que estén opacos y rosados.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Rellenar los panes pita tibios con los camarones, tomate, lechuga si se desea, queso, aceitunas y jugo de limón."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-alitas-picantes-soja-sesamo",
+    "title": "Alitas Picantes con Salsa de Soja y Sésamo en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Alitas de pollo extra crocantes glaseadas al final con salsa de soja, miel, jengibre y semillas de sésamo.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "alitas de pollo trozadas"
+      },
+      {
+        "amount": 3,
+        "unit": "cucharadas",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "aceite de sésamo o girasol"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "jengibre molido"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "semillas de sésamo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200 °C. Mezclar en un bol la salsa de soja, aceite, azúcar rubia, jengibre, ajo y una pizca de ají molido."
+      },
+      {
+        "text": "Salpimentar las alitas, rociar con aceite y cocinar en la cesta 20 minutos, dándolas vuelta a la mitad.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Bañar las alitas en la salsa y volver a la freidora 4 a 5 minutos hasta que caramelicen.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Servir calientes espolvoreadas con semillas de sésamo."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-albondigas-pollo-marinara",
+    "title": "Albóndigas de Pollo Marinara en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Albóndigas livianas de pollo picado cocidas sin fritura y servidas con salsa de tomate bien condimentada.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "pollo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 35,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "cebolla en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "sal fina y pimienta"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "salsa de tomate condimentada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 180 °C. Mezclar el pollo picado con el huevo, pan rallado, ajo, cebolla en polvo, sal y pimienta."
+      },
+      {
+        "text": "Formar 12 albóndigas y acomodarlas separadas en la cesta."
+      },
+      {
+        "text": "Cocinar 10 a 12 minutos hasta que estén doradas y cocidas por dentro.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Servir calientes cubiertas con la salsa de tomate caliente."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-costillas-carne-miel-pimenton",
+    "title": "Costillas de Carne a la Miel y Pimentón en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 22,
+    "temperatureC": 150,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tiras o costillas deshuesadas de carne adobadas con pimentón ahumado y miel, acompañadas de morrón y cebolla.",
+    "ingredients": [
+      {
+        "amount": 650,
+        "unit": "g",
+        "item": "costillas de carne sin hueso o asado tierno en tiras"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "miel"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "morrón rojo picado fino"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla colorada picada fina"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "perejil picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 150 °C. Mezclar el pimentón, azúcar rubia, miel, sal y pimienta."
+      },
+      {
+        "text": "Frotar la carne con un poco de aceite y el adobo, y cocinar en la cesta 18 a 22 minutos dando vuelta a la mitad.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Saltear aparte o en microondas 2 minutos el morrón, la cebolla y ajo con el resto del aceite; sumar perejil y jugo de limón."
+      },
+      {
+        "text": "Cortar la carne en rodajas y servir con el condimento de morrón por encima."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-berenjena-rellena-porotos-rojos",
+    "title": "Berenjena Rellena con Porotos Rojos en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Berenjenas enteras asadas en freidora de aire y rellenas con porotos colorados, verdeo y limón.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "berenjenas medianas"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "porotos colorados escurridos"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "cebollas de verdeo picadas finas"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "salsa picante o pimentón"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "comino y orégano"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "jugo de limón"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva o yogur natural"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200 °C. Pinchar las berenjenas y asarlas enteras en la cesta durante 30 minutos hasta que estén bien blandas.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Mientras tanto, mezclar los porotos colorados con el verdeo, condimentos y jugo de limón."
+      },
+      {
+        "text": "Abrir las berenjenas a lo largo, rellenar con la mezcla de porotos y rociar con aceite de oliva o yogur."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-quesadillas-garbanzos-muzzarella",
+    "title": "Quesadillas de Garbanzos y Muzzarella en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 5,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Tortillas rellenas de queso muzzarella, garbanzos cocidos y perejil, doradas en 5 minutos.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "tortillas chicas de trigo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "garbanzos cocidos escurridos"
+      },
+      {
+        "amount": 3,
+        "unit": "cucharadas",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "salsa criolla o pico de gallo para servir"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 190 °C. Mezclar la muzzarella rallada con los garbanzos y el perejil."
+      },
+      {
+        "text": "Distribuir el relleno en la mitad de cada tortilla y doblar al medio."
+      },
+      {
+        "text": "Cocinar por tandas en la cesta 4 a 5 minutos hasta que el queso se funda y la tortilla quede crocante.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Servir enseguida con salsa criolla."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-zanahorias-asadas-nueces-pasas",
+    "title": "Zanahorias Asadas con Nueces y Pasas en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "temperatureC": 190,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Bastones de zanahoria asados con aceto balsámico, nueces picadas y pasas de uva.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "zanahorias peladas y cortadas en cuartos a lo largo"
+      },
+      {
+        "amount": 4,
+        "unit": "cucharaditas",
+        "item": "aceite de girasol o de oliva"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cucharaditas",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "nueces picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "pasas de uva"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 190 °C. Mezclar las zanahorias con 1 cucharadita de aceite y sal."
+      },
+      {
+        "text": "Cocinar en la cesta 14 a 16 minutos dando vuelta a la mitad hasta que estén tiernas y doradas.",
+        "timerMinutes": 16
+      },
+      {
+        "text": "Rociar con el resto del aceite batido con aceto balsámico y servir con las nueces y pasas."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bocaditos-brocoli-barbacoa",
+    "title": "Bocaditos de Brócoli a la Barbacoa en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 9,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Flores de brócoli rebozadas, cocidas hasta quedar crocantes y bañadas en salsa barbacoa.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "flores de brócoli en trozos parejos"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos batidos"
+      },
+      {
+        "amount": 65,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 5,
+        "unit": "cucharadas",
+        "item": "salsa barbacoa"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite en aerosol"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 190 °C. Pasar cada flor de brócoli por huevo batido y luego por harina sacudiendo el exceso."
+      },
+      {
+        "text": "Rociar con aceite y cocinar en una capa 7 a 8 minutos hasta dorar.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Mezclar con la salsa barbacoa y la manteca derretida, y volver a la freidora 1 minuto para calentar.",
+        "timerMinutes": 1
+      }
+    ]
+  },
+  {
+    "id": "airfryer-dip-cremoso-brocoli-arvejas",
+    "title": "Dip Cremoso de Brócoli y Arvejas en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Crema tibia de brócoli asado en freidora procesado con arvejas, ajo, orégano y queso rallado.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "flores de brócoli"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla colorada picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de girasol"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "leche o bebida vegetal sin azúcar"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "arvejas cocidas o congeladas"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "orégano picado"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 190 °C. Mezclar el brócoli con la cebolla y el aceite y asar 15 minutos en la cesta.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Procesar el brócoli asado con la leche hasta lograr un puré liso."
+      },
+      {
+        "text": "Llevar a una ollita con las arvejas, el ajo, orégano, sal y pimienta durante 10 minutos, y servir con queso rallado."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-hinojo-asado-limon-eneldo",
+    "title": "Hinojo Asado al Limón y Eneldo en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 175,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Gajos de hinojo tiernos y dorados con una vinagreta aromática de limón, miel y eneldo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "bulbo de hinojo cortado en 8 gajos"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "agua"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "eneldo o perejil picado"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharaditas",
+        "item": "miel"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cucharaditas",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "jugo y ralladura de limón"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 175 °C. Mezclar los gajos de hinojo con 1 cucharada de aceite, agua, sal y pimienta."
+      },
+      {
+        "text": "Cocinar en la cesta 15 a 18 minutos dando vuelta a la mitad hasta que esté tierno y dorado.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Batir el resto del aceite con la miel, vinagre, limón y eneldo, y rociar sobre el hinojo tibio."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-totopos-tortilla-crocantes",
+    "title": "Totopos de Tortilla Crocantes en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "temperatureC": 150,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Triángulos crujientes de tortillas ideales para acompañar guacamole, hummus o salsas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "tortillas de trigo o maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite en aerosol"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "sal fina"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cucharadita",
+        "item": "pimienta negra molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 150 °C. Cortar cada tortilla en 8 triángulos, rociar apenas con aceite y salpimentar."
+      },
+      {
+        "text": "Acomodar en una capa y cocinar 4 minutos; dar vuelta y cocinar 4 minutos más hasta que queden crocantes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Dejar enfriar antes de servir para que tomen más crocancia."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-duraznos-asados-helado",
+    "title": "Duraznos Asados con Helado de Vainilla en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Mitades de duraznos asadas hasta caramelizar, servidas tibias con helado de vainilla, nueces y miel.",
+    "ingredients": [
+      {
+        "amount": 5,
+        "unit": "unidades",
+        "item": "duraznos maduros partidos al medio y sin carozo"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "helado de vainilla"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "nueces picadas"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "miel"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora de aire a 190 °C."
+      },
+      {
+        "text": "Colocar los duraznos en una sola capa con el corte hacia arriba y cocinar 10 minutos hasta que estén tiernos y dorados.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Servir tibios con una bocha de helado de vainilla encima, nueces picadas y un hilo de miel."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-peras-asadas-nueces-pasas",
+    "title": "Peras Asadas con Nueces y Pasas en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 175,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Peras ahuecadas rellenas con nueces, pasas de uva, azúcar rubia, manteca y canela.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "peras medianas"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "nueces picadas"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "pasas de uva"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "canela molida"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cucharadita",
+        "item": "nuez moscada"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 175 °C. Cortar apenas la base de las peras para que queden paradas y ahuecar el centro."
+      },
+      {
+        "text": "Mezclar las nueces, pasas, azúcar rubia, manteca, canela y nuez moscada, y rellenar las peras."
+      },
+      {
+        "text": "Colocar en una fuentecita apta para freidora con el agua en el fondo y hornear 20 minutos hasta que estén tiernas.",
+        "timerMinutes": 20
+      }
+    ]
   }
 ]
