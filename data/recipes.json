@@ -28456,5 +28456,739 @@
         "text": "Disolver el azúcar, la mostaza, sal y pimienta en el vinagre; incorporar el aceite de oliva mezclando bien y aliñar la ensalada antes de servir."
       }
     ]
+  },
+  {
+    "id": "veracruz-dulce-zapallo-casero",
+    "title": "Dulce de Zapallo Casero",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Trozos de zapallo cocidos lentamente en almíbar liviano hasta quedar tiernos y acaramelados, ideales para el desayuno o la merienda.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "zapallo o calabaza en trozos"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "azúcar (o azúcar rubia)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar el zapallo en trozos medianos y colocarlos en una cacerola con el agua a fuego medio."
+      },
+      {
+        "text": "Agregar el azúcar, revolver suavemente y cocinar de 30 a 40 minutos hasta que el zapallo esté bien tierno y el almíbar espese.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Servir tibio o frío."
+      }
+    ]
+  },
+  {
+    "id": "veracruz-budin-espinacas-acelgas",
+    "title": "Budín de Espinacas y Acelgas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Budín suave y nutritivo de acelgas y espinacas procesadas con huevos y crema de leche, cocido a baño María.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "atados",
+        "item": "acelgas limpias"
+      },
+      {
+        "amount": 2,
+        "unit": "atados",
+        "item": "espinacas limpias"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar bien las acelgas y las espinacas, hervirlas hasta que estén tiernas y escurrirlas presionando para quitar el exceso de agua.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Licuar o procesar las verduras cocidas junto con los huevos, la crema de leche y sal a gusto hasta obtener una mezcla homogénea."
+      },
+      {
+        "text": "Volcar en una budinera y cocinar a baño María tapado durante unos 35 a 40 minutos hasta que cuaje.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Dejar entibiar, cortar en porciones y servir."
+      }
+    ]
+  },
+  {
+    "id": "veracruz-tortitas-mandioca",
+    "title": "Tortitas de Mandioca",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Tortitas doradas de puré de mandioca ligadas con huevo y harina, ideales para acompañar con ensalada fresca.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "mandioca pelada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "aceite para dorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar, pelar y hervir la mandioca en abundante agua hasta que esté bien blanda; colar y hacer un puré.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Agregar el huevo, la harina y sal a gusto, mezclando hasta formar una masa manejable."
+      },
+      {
+        "text": "Formar tortitas con las manos y dorarlas en sartén con aceite caliente de ambos lados (o a la plancha con apenas aceite).",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "veracruz-croquetas-dulces-mandioca",
+    "title": "Croquetas Dulces de Mandioca",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Croquetas caseras de mandioca rallada amasada con leche, crema de leche, huevo y un toque de azúcar, doradas en sartén.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "mandiocas medianas peladas"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rallar la mandioca cruda pelada y mezclarla en un bol con la leche, la crema de leche, el huevo, el azúcar y una pizca de sal."
+      },
+      {
+        "text": "Amasar bien hasta integrar y formar croquetas alargadas."
+      },
+      {
+        "text": "Cocinar en sartén a fuego medio hasta que queden bien doradas por fuera y cocidas por dentro.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "veracruz-ensalada-atun-aderezo-mani",
+    "title": "Ensalada de Atún con Aderezo de Maní y Soja",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Lechugas frescas con atún, huevo duro y maní picado, bañadas con un aderezo cremoso de mantequilla de maní, soja, jengibre y miel.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "lechuga morada"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "lechuga verde"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "atún en lata escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros en cuartos"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "maní pelado finamente picado"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "mantequilla de maní"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "vinagre de arroz o de manzana"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo picados"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "jengibre fresco rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "ají picante sin semillas picado (opcional)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir los huevos 10 minutos, enfriar, pelar y cortar en cuartos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "En un bol batir el vinagre, la miel, la salsa de soja, el ajo, el ají, el jengibre, la mantequilla de maní y el aceite de oliva en hilo hasta emulsionar; salpimentar."
+      },
+      {
+        "text": "Disponer las lechugas limpias en una fuente, mezclar con un poco de aderezo, agregar el atún, el maní picado y los huevos, y bañar con más aderezo."
+      }
+    ]
+  },
+  {
+    "id": "veracruz-ensalada-rabanitos-pepino-palta",
+    "title": "Ensalada Fresca de Rabanitos, Pepino y Palta",
+    "metodo": "sin_coccion",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada liviana y crujiente de tomate, pepino, lechuga y rabanitos aderezados con jugo de limón y tiras de palta.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "tomates"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "pepino"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "lechuga"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "palta madura"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "rabanitos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar y picar los tomates, el pepino, la lechuga y los rabanitos en rodajas finas."
+      },
+      {
+        "text": "Cortar la palta en tiras."
+      },
+      {
+        "text": "Mezclar los vegetales con el jugo de limón, decorar con las tiras de palta y servir."
+      }
+    ]
+  },
+  {
+    "id": "veracruz-galletas-banana",
+    "title": "Galletas Fritas de Banana",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Medallones dulces de puré de banana hervida con azúcar, dorados en sartén o a la plancha.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "bananas medianas"
+      },
+      {
+        "amount": 1000,
+        "unit": "ml",
+        "item": "agua para hervir"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "aceite (o menos si se hacen a la plancha)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir las bananas con cáscara en agua durante 10 minutos hasta que estén blandas.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pelar las bananas, pisarlas hasta hacer un puré y mezclar bien con el azúcar."
+      },
+      {
+        "text": "Formar discos o galletas circulares y dorar de ambos lados en sartén con aceite caliente (o a la plancha).",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "veracruz-bolitas-coco-leche-condensada",
+    "title": "Bolitas de Coco y Leche Condensada",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Clásicos bocaditos dulces de coco rallado y leche condensada cocidos a fuego suave hasta espesar y armados en pirotines.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "coco rallado"
+      },
+      {
+        "amount": 395,
+        "unit": "g",
+        "item": "leche condensada (1 lata)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar el coco rallado y la leche condensada en una cacerola a fuego bajo sin dejar de revolver.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cuando la mezcla espese y se despegue del fondo, retirar del fuego y dejar enfriar."
+      },
+      {
+        "text": "Formar bolitas con las manos y colocarlas en pirotines de papel."
+      }
+    ]
+  },
+  {
+    "id": "veracruz-mousse-maracuya-merengue",
+    "title": "Mousse de Maracuyá y Merengue",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Postre frío y cremoso de jugo de maracuyá, leche condensada, crema y yemas, cubierto con claras a nieve y ralladura de limón.",
+    "ingredients": [
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "jugo o pulpa de maracuyá"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "leche condensada"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos (separadas claras y yemas)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "ralladura de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la crema de leche con la leche condensada y las yemas."
+      },
+      {
+        "text": "Incorporar de a poco el jugo de maracuyá revolviendo bien hasta espesar y volcar en un molde o copas."
+      },
+      {
+        "text": "Batir las claras a punto nieve con el azúcar, cubrir la preparación, espolvorear con ralladura de limón y llevar a la heladera al menos 2 horas."
+      }
+    ]
+  },
+  {
+    "id": "veracruz-helado-natural-banana",
+    "title": "Helado Natural de Banana",
+    "metodo": "sin_coccion",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Helado cremoso de un solo ingrediente hecho procesando rodajas de banana madura congelada, sin azúcar agregada.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "bananas maduras"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelar las bananas maduras, cortarlas en rodajas de 1 a 2 cm y disponerlas en una placa en una sola capa."
+      },
+      {
+        "text": "Llevar al freezer durante al menos 2 horas hasta que estén bien congeladas."
+      },
+      {
+        "text": "Procesar o mixear las rodajas congeladas hasta lograr una textura homogénea y cremosa; servir de inmediato."
+      }
+    ]
+  },
+  {
+    "id": "veracruz-pan-banana-nueces",
+    "title": "Pan de Banana y Nueces",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Budín esponjoso y tradicional de bananas maduras pisadas, harina de trigo, leche, nueces picadas y un toque de bicarbonato.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "bananas bien maduras pisadas"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 360,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "nueces picadas"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir los huevos con el aceite y la leche en un bol grande."
+      },
+      {
+        "text": "Tamizar la harina junto con el polvo de hornear, el bicarbonato y la sal; sumar el azúcar e integrar."
+      },
+      {
+        "text": "Agregar las bananas pisadas y las nueces picadas mezclando hasta homogeneizar."
+      },
+      {
+        "text": "Volcar en una budinera enmantecada y enharinada, y hornear a 180 °C durante 45 minutos hasta que al pinchar salga seco. Dejar enfriar antes de cortar.",
+        "timerMinutes": 45
+      }
+    ]
+  },
+  {
+    "id": "veracruz-torta-dulce-choclo",
+    "title": "Torta Dulce de Choclo",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Torta húmeda tradicional de granos de choclo procesados con manteca, azúcar, canela, huevos y pan rallado.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "choclos frescos desgranados"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela en polvo (o 1 rama)"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos (separadas claras y yemas)"
+      },
+      {
+        "amount": 8,
+        "unit": "cdtas",
+        "item": "pan rallado (más extra para el molde)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Procesar o licuar los granos de choclo con la canela hasta obtener una crema espesa."
+      },
+      {
+        "text": "Batir la manteca blanda con el azúcar y las yemas hasta cremar; sumar el choclo procesado y el pan rallado."
+      },
+      {
+        "text": "Batir las claras a punto nieve e incorporarlas con movimientos envolventes."
+      },
+      {
+        "text": "Volcar en un molde enmantecado y espolvoreado con pan rallado; hornear a 180 °C durante 40 a 45 minutos hasta dorar y dejar enfriar.",
+        "timerMinutes": 45
+      }
+    ]
+  },
+  {
+    "id": "veracruz-infusion-anana-canela",
+    "title": "Infusión Fría o Caliente de Ananá y Canela",
+    "metodo": "cocina",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Bebida aromática de ananá natural hervido con canela en rama y un toque de azúcar rubia, ideal para tomar tibia o bien fría con hielo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "ananá maduro"
+      },
+      {
+        "amount": 2,
+        "unit": "ramas",
+        "item": "canela"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar rubia (o a gusto)"
+      },
+      {
+        "amount": 2500,
+        "unit": "ml",
+        "item": "agua"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir el agua en una olla con la canela y el azúcar rubia durante 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Pelar el ananá, licuar la mitad de la pulpa y cortar la otra mitad en cubitos."
+      },
+      {
+        "text": "Agregar el ananá licuado y los cubitos con su jugo a la olla, hervir 5 minutos más y dejar reposar hasta enfriar (o servir tibio).",
+        "timerMinutes": 5
+      }
+    ]
   }
 ]
