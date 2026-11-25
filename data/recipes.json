@@ -42848,5 +42848,639 @@
         "timerMinutes": 0
       }
     ]
+  },
+  {
+    "id": "cocina-hamburguesa-doble-pavita-avena",
+    "title": "Hamburguesa Doble de Pavita y Avena",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 14,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Hamburguesas jugosas de pechuga de pavita o pollo picada con avena arrollada, queso rallado, ajo y doble queso cheddar.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "pechuga de pavita o pollo picada"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "avena arrollada"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "orégano y 1 cdita de salsa inglesa"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "panes de hamburguesa con sésamo"
+      },
+      {
+        "amount": 8,
+        "unit": "fetas",
+        "item": "queso cheddar, lechuga, tomate, kétchup y mayonesa"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la carne picada con el ajo, el queso rallado, la salsa inglesa, el orégano, sal y pimienta; por último sumá la avena arrollada.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Armá 8 hamburguesas medianas y cocinalas en sartén o plancha bien caliente de 5 a 7 minutos por lado hasta que estén cocidas y jugosas.",
+        "timerMinutes": 14
+      },
+      {
+        "text": "Armá los sándwiches dobles intercalando dos hamburguesas y dos fetas de cheddar, sumá tomate, lechuga, kétchup y mayonesa.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cocina-salsa-queso-cheddar-morron",
+    "title": "Salsa de Queso Cheddar y Morrón (Cheese Dip)",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 7,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Dip cremoso y caliente de queso cheddar, queso crema y morrón asado, ideal para acompañar papas rústicas o nachos.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso cheddar picado o rallado"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "morrón rojo asado picado"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "ají picante o jalapeño en vinagre (opcional)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "vinagre, azúcar y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá todos los ingredientes picados en una ollita a fuego suave y remové hasta que se fundan y queden a punto de hervir.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Retirá del fuego y mixeá o procesá hasta obtener una salsa lisa y homogénea. Serví tibia.",
+        "timerMinutes": 1
+      }
+    ]
+  },
+  {
+    "id": "cocina-sandwich-pollo-empanado-crujiente",
+    "title": "Sándwich de Pollo Empanado Crujiente",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pechugas de pollo aplanadas con doble rebozado crujiente en pan de hamburguesa con mayonesa especiada, lechuga y tomate.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "pechugas de pollo finas o aplanadas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido con 2 cdas de agua"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina común condimentada con sal, pimienta, ajo y cebolla en polvo"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pan rallado o rebozador"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "panes de hamburguesa con sésamo"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "mayonesa con pizca de cebolla en polvo, lechuga y 8 rodajas de tomate"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pasá las pechugas por la harina condimentada, luego por el huevo batido y nuevamente por la mezcla de harina y pan rallado.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en sartén con aceite caliente hasta dorar bien por ambos lados y escurrí sobre papel absorbente.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Tostá suavemente los panes, untá con la mayonesa y armá cada sándwich con el pollo crocante, tomate y lechuga.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cocina-sandwich-cerdo-limon-pepino",
+    "title": "Sándwich de Cerdo al Limón y Pepino",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Costillitas de cerdo deshuesadas doradas a la sartén en baguette con mayonesa, salsa picante, limón, cebolla morada, pepino y cilantro.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "costillitas o bifes de cerdo deshuesados finos"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "panes tipo baguette o flauta"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "mayonesa y 1.5 cdas de salsa picante con ajo"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "jugo de limón fresco"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla morada en rodajas y 1 pepino en láminas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "cilantro fresco picado y 20 g de manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá las costillitas de cerdo en manteca a fuego medio de 3 a 4 minutos por lado hasta dorar y cocer bien.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Abrí los panes, untá con mayonesa, colocá el cerdo caliente y rociá con salsa picante y jugo de limón.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Sumá la cebolla morada, el pepino, el cilantro, sal, pimienta y otro chorrito de limón antes de cerrar.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "horno-tostado-jamon-queso-olivas-morron",
+    "title": "Tostado de Jamón, Queso, Aceitunas y Morrón",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 14,
+    "temperatureC": 220,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Sándwiches tostados al horno en pan lactal enmantecado con jamón cocido, queso cheddar, aceitunas verdes y morrón.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan blanco de molde (lactal)"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso cheddar"
+      },
+      {
+        "amount": 10,
+        "unit": "unidades",
+        "item": "aceitunas verdes descarozadas picadas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "morrón rojo cocido picado"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "manteca blanda"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untá un lado de 4 panes con manteca y colocalos hacia abajo en una placa. Cubrí con jamón, cheddar, aceitunas y morrón.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Tapá con los otros 4 panes enmantecados hacia arriba y horneá a 220 °C de 6 a 8 minutos por lado hasta dorar.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "horno-pizza-fugazzeta-clasica",
+    "title": "Pizza Fugazzeta Clásica",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Clásica pizza rioplatense cubierta con abundante cebolla en aros salteada, cebolla de verdeo, orégano y aceitunas negras.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "bollo de masa para pizza leudado"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "cebolla cortada en aros finos"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "cebolla de verdeo picada"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "salsa para pizza"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "aceitunas negras y orégano al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá las cebollas y el verdeo en aceite de oliva de 5 a 8 minutos con sal y pimienta hasta transparentar.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Estirá la masa en una pizzera aceitada, untá con la salsa y precociná 8 minutos en horno a 200 °C.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Cubrí con el salteado de cebollas, cociná 12 minutos más y serví con aceitunas negras y orégano.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "horno-pizza-especial-tres-sabores",
+    "title": "Pizza Especial Tres Sabores",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 18,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza integral gourmet con tomate triturado, jamón crudo, salame, queso gouda, queso de cabra y aceitunas rellenas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "bollo de masa integral de pizza leudado"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "tomate triturado"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "jamón crudo y 10 rodajas de salame"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso gouda o dambo"
+      },
+      {
+        "amount": 2,
+        "unit": "medallones",
+        "item": "queso de cabra o queso cremoso"
+      },
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "aceitunas rellenas con morrón, orégano y albahaca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Estirá la masa en una asadera aceitada, cubrí con tomate triturado, sal y pimienta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Distribuí el salame alrededor, el jamón crudo troceado, el queso gouda y el queso de cabra en el centro con aceitunas y orégano.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Horneá a 200 °C de 15 a 20 minutos hasta que la masa esté crocante y el queso derretido; terminá con albahaca.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "horno-pizza-pollo-cebolla-mexicano",
+    "title": "Pizza de Pollo y Cebolla Estilo Mexicano",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza integral con salsa de tomate especiada, tiras de pechuga de pollo cocida, cebolla y queso muzzarella.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "bollo de masa integral de pizza leudado"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "salsa de tomate"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pechuga de pollo cocida en tiras"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso muzzarella rallado y condimento para pizza"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Estirá la masa en asadera aceitada, untá con 5 cucharadas de salsa de tomate y precociná 10 minutos a 180 °C.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cubrí con el resto de la salsa, condimento para pizza, las tiras de pollo, la cebolla y la muzzarella, y horneá 15 minutos más.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "horno-pizza-integral-jamon-verdeo-cherry",
+    "title": "Pizza Integral de Jamón, Verdeo y Cherry",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 28,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza integral con salsa y extracto de tomate, jamón cocido en tiritas, aceitunas verdes, tomates cherry, verdeo y morrón.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "bollo de masa integral de pizza leudado"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "jamón cocido en tiritas"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "salsa y extracto de tomate mezclados"
+      },
+      {
+        "amount": 1,
+        "unit": "puñado",
+        "item": "aceitunas verdes, 2 tomatitos cherry, 0.5 cebolla, 1 verdeo y 0.5 morrón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Estirá la masa en pizzera aceitada, untá con la mezcla de salsa y extracto de tomate y precociná 8 minutos a 180 °C.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Cubrí con la cebolla, aceitunas, tomates cherry, morrón, verdeo, jamón y muzzarella, y horneá 20 minutos más.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "horno-pizza-exquisita-panceta-anchoas",
+    "title": "Pizza Exquisita de Panceta, Jamón Crudo y Anchoas",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 18,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizza intensa con tomate frito casero, doble capa de muzzarella, panceta, jamón crudo, alcaparras, aceitunas negras y anchoas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "bollo de masa de pizza leudado"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "tomate triturado frito con oliva y orégano"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "panceta en tiras y 4 fetas de jamón crudo"
+      },
+      {
+        "amount": 8,
+        "unit": "filetes",
+        "item": "anchoas en aceite, 1 cda de alcaparras y 8 aceitunas negras"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Estirá la masa en pizzera aceitada y cubrí con el tomate condimentado, la mitad de la muzzarella, panceta y jamón crudo.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Agregá el resto de la muzzarella, orégano, alcaparras, aceitunas negras y los filetes de anchoa en forma radial.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Horneá a 200 °C de 15 a 20 minutos hasta dorar los bordes.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "cocina-ensalada-fria-coditos-repollo",
+    "title": "Ensalada Fría de Fideos Coditos y Repollo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 5,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fría y rendidora de macarrones coditos con repollo rallado, zanahoria, apio y pepinillos.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "fideos coditos o macarrones"
+      },
+      {
+        "amount": 2,
+        "unit": "tazas",
+        "item": "repollo blanco rallado fino"
+      },
+      {
+        "amount": 0.25,
+        "unit": "unidad",
+        "item": "zanahoria picada fina y 0.25 taza de apio picado"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "pepinillo picado y 1 cdita de cebolla en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "pimienta blanca y sal al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví los fideos coditos de 12 a 15 minutos hasta que estén al dente, colalos y enfrialos en agua fría 10 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Escurrí bien la pasta y mezclala en un bowl grande con el repollo, la zanahoria, el apio, el pepinillo, la cebolla en polvo y pimienta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Llevá a la heladera durante 2 horas antes de servir.",
+        "timerMinutes": 0
+      }
+    ]
   }
 ]
