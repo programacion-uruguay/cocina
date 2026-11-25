@@ -29190,5 +29190,1649 @@
         "timerMinutes": 5
       }
     ]
+  },
+  {
+    "id": "airfryer-brownies-chocolate-intenso",
+    "title": "Brownies de Chocolate Intenso en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 160,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Brownies húmedos por dentro y crocantes por fuera hechos en minutos en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "chocolate negro 70%"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Derretir el chocolate negro junto con la manteca y mezclar con el azúcar, los huevos, la vainilla y la sal."
+      },
+      {
+        "text": "Incorporar la harina con movimientos envolventes y volcar en un molde enmantecado apto para freidora de aire."
+      },
+      {
+        "text": "Cocinar a 160 °C durante 18 minutos (o 16 minutos para un centro más húmedo) y dejar enfriar 10 minutos antes de cortar.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "airfryer-churros-crujientes",
+    "title": "Churros Crujientes en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Churros livianos y crocantes sin fritura profunda, cocinados en freidora de aire y rebozados en azúcar y canela.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite en aerosol o para pincelar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar con canela para espolvorear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir el agua con la manteca y la sal; agregar la harina de golpe y mezclar con energía hasta formar una masa lisa."
+      },
+      {
+        "text": "Colocar en manga con boquilla estrella, formar los churros sobre papel manteca y rociar con aceite."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 200 °C durante 12 minutos girando a la mitad; rebozar en azúcar y canela.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-manzanas-caramelizadas",
+    "title": "Manzanas Caramelizadas con Canela en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Mitades de manzana rellenas de azúcar rubia, canela y manteca, caramelizadas en 15 minutos en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "manzanas medianas"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "nueces picadas a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar las manzanas al medio, retirar las semillas y rellenar el centro con la mezcla de azúcar rubia, canela y manteca derretida."
+      },
+      {
+        "text": "Cocinar en la freidora de aire a 180 °C durante 15 minutos hasta que estén tiernas y caramelizadas.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Espolvorear con nueces picadas y servir tibias."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bizcocho-limon-almendras",
+    "title": "Bizcochuelo de Limón y Almendras en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "temperatureC": 160,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Torta húmeda sin harina de trigo, hecha con harina de almendras, aceite de oliva suave y ralladura de limón.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de almendras"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "limones (su ralladura)"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite de oliva suave"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir los huevos con el azúcar hasta espumar; agregar el aceite de oliva, la ralladura de limón, la harina de almendras y el polvo de hornear."
+      },
+      {
+        "text": "Volcar en un molde de 18 cm apto para freidora de aire."
+      },
+      {
+        "text": "Cocinar a 160 °C durante 25 minutos hasta que al pinchar con un palillo salga seco.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "airfryer-donas-glaseadas",
+    "title": "Donas Glaseadas en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Donas esponjosas levadas y horneadas en freidora de aire sin fritura, terminadas con glaseado clásico.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "leche tibia"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar impalpable con 2 cdas de leche para el glaseado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la leche tibia con la levadura y el azúcar y reposar 5 minutos; sumar harina, huevo y manteca, amasar 8 minutos y dejar levar 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Estirar la masa, cortar las donas y cocinar en freidora de aire a 180 °C durante 10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Bañar en el glaseado de azúcar impalpable y leche mientras estén tibias."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-galletas-avena-pasas",
+    "title": "Galletas de Avena y Pasas en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 170,
+    "servings": 20,
+    "difficulty": "Fácil",
+    "description": "Galletitas crocantes de avena en hojuelas, harina integral, canela y pasas de uva listas en 12 minutos.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "avena en hojuelas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina integral"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pasas de uva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los ingredientes secos en un bol, agregar la manteca derretida y el huevo e integrar bien."
+      },
+      {
+        "text": "Formar bolitas, aplastarlas sobre papel manteca y cocinar en freidora de aire a 170 °C durante 12 minutos hasta dorar.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Dejar enfriar sobre una rejilla para que queden bien crocantes."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-queso-mini",
+    "title": "Mini Tartas de Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 22,
+    "temperatureC": 150,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Porciones individuales cremosas de queso crema sobre base crocante de galletitas y manteca.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "galletitas dulces molidas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca derretida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar las galletitas molidas con la manteca derretida y presionar en la base de 4 moldes individuales."
+      },
+      {
+        "text": "Batir el queso crema con el azúcar, la vainilla y los huevos de a uno; volcar sobre las bases."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 150 °C durante 22 minutos y llevar a la heladera al menos 2 horas antes de servir.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bananas-asadas-miel",
+    "title": "Bananas Asadas con Miel y Canela en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "temperatureC": 190,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Postre exprés de bananas maduras caramelizadas con miel, canela y nuez moscada en solo 8 minutos.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "bananas maduras"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "nuez moscada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelar las bananas, cortarlas al medio a lo largo y pincelarlas con la miel mezclada con canela y nuez moscada."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 190 °C durante 8 minutos hasta caramelizar y servir tibias (ideal con helado).",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-profiteroles-rellenos",
+    "title": "Profiteroles Rellenos de Crema en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Clásicos profiteroles de masa choux aireados en freidora de aire, rellenos de crema chantilly y bañados con chocolate.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "crema de leche para batir"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "chocolate derretido para decorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir el agua con la manteca, agregar la harina de golpe y mezclar hasta despegar; fuera del fuego incorporar los huevos de a uno."
+      },
+      {
+        "text": "Formar 12 montículos con manga y cocinar en freidora de aire a 180 °C durante 20 minutos sin abrir la canasta.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Dejar enfriar, rellenar con la crema batida con azúcar impalpable y decorar con chocolate derretido."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-cookies-mantequilla-mani",
+    "title": "Cookies de Mantequilla de Maní Sin Harina",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 11,
+    "temperatureC": 160,
+    "servings": 16,
+    "difficulty": "Fácil",
+    "description": "Galletitas naturalmente sin gluten de solo 4 ingredientes base, listas en 11 minutos en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "mantequilla de maní"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo grande"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "chips de chocolate (opcional)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la mantequilla de maní, el azúcar, el huevo, la vainilla y la sal hasta obtener una pasta uniforme."
+      },
+      {
+        "text": "Formar bolitas, aplastarlas con un tenedor y cocinar en freidora de aire a 160 °C durante 11 minutos.",
+        "timerMinutes": 11
+      },
+      {
+        "text": "Dejar enfriar 5 minutos en la bandeja antes de moverlas para que tomen firmeza."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-souffle-chocolate",
+    "title": "Soufflé de Chocolate en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 14,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Soufflés individuales aireados de chocolate negro con claras a nieve, servidos tibios con azúcar impalpable.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "chocolate negro"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos (separadas claras y yemas)"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar impalpable para espolvorear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Derretir el chocolate con la manteca; batir las yemas con 40 g de azúcar hasta blanquear y unir con el chocolate y la harina."
+      },
+      {
+        "text": "Batir las claras a punto nieve con los 40 g de azúcar restantes e incorporar con movimientos envolventes."
+      },
+      {
+        "text": "Distribuir en moldes individuales enmantecados y cocinar en freidora de aire a 180 °C durante 14 minutos; servir de inmediato.",
+        "timerMinutes": 14
+      }
+    ]
+  },
+  {
+    "id": "airfryer-brioche-frances-tostado",
+    "title": "Tostadas Francesas de Brioche en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Rebanadas gruesas de pan brioche remojadas en huevo, leche, vainilla y canela, doradas en 8 minutos.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan brioche grueso (o pan de molde)"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir los huevos con la leche, el azúcar, la vainilla y la canela; remojar cada rebanada 30 segundos por lado."
+      },
+      {
+        "text": "Cocinar sobre papel manteca en freidora de aire a 180 °C durante 8 minutos dando vuelta a la mitad; servir con frutas frescas o miel.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pastelitos-dulce-de-leche",
+    "title": "Pastelitos de Hoja y Dulce de Leche en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pastelitos crocantes de masa de hojaldre rellenos de dulce de leche repostero, dorados sin fritura.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lámina",
+        "item": "masa de hojaldre"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "dulce de leche repostero"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo para pintar"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar impalpable para decorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar la masa en rectángulos de 8 x 10 cm, colocar una cucharada de dulce de leche en el centro, doblar y sellar los bordes con tenedor."
+      },
+      {
+        "text": "Pintar con huevo batido y cocinar en freidora de aire a 190 °C durante 15 minutos hasta dorar.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Espolvorear con azúcar impalpable al servir."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-crumble-frutas-rojas",
+    "title": "Crumble de Frutos Rojos en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Base jugosa de frutos rojos cubierta con arenado crocante de manteca, harina, avena y azúcar rubia.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "frutos rojos mixtos (frescos o congelados)"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "fécula de maíz (maicena)"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "avena"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "manteca fría en cubos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los frutos rojos con el azúcar y la fécula de maíz y colocar en un molde apto."
+      },
+      {
+        "text": "Deshacer la manteca fría con la harina, la avena y el azúcar rubia con los dedos hasta formar migajas y cubrir la fruta."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 180 °C durante 20 minutos y servir tibio.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-muffins-arandanos",
+    "title": "Muffins de Arándanos en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "temperatureC": 165,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Muffins esponjosos con arándanos frescos listos en 18 minutos en la freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite vegetal"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "arándanos frescos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los secos en un bol; en otro batir el huevo, la leche y el aceite, unir sin batir en exceso e incorporar los arándanos pasados por harina."
+      },
+      {
+        "text": "Llenar pirotines o moldes de muffin hasta 3/4 de su capacidad y cocinar en freidora de aire a 165 °C durante 18 minutos.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-tatin-pera",
+    "title": "Tarta Tatín de Pera y Canela en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Tarta invertida de peras caramelizadas con canela y masa quebrada cocinada en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "peras maduras peladas y en mitades"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "lámina",
+        "item": "masa quebrada o pascualina sin sal"
+      },
+      {
+        "amount": 1,
+        "unit": "rama",
+        "item": "canela"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hacer un caramelo con el azúcar y la manteca en un molde apto; acomodar encima las peras y la canela en rama."
+      },
+      {
+        "text": "Cubrir con la masa metiendo los bordes hacia adentro y cocinar en freidora de aire a 180 °C durante 25 minutos.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Desmoldar en caliente invirtiendo el molde con cuidado."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bunuelos-viento",
+    "title": "Buñuelos de Viento en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 185,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Buñuelos livianos de masa bomba cocinados en freidora de aire y pasados por azúcar y canela.",
+    "ingredients": [
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar con canela para rebozar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Preparar una masa choux hirviendo agua, manteca y azúcar; sumar la harina de golpe y luego los huevos de a uno fuera del fuego."
+      },
+      {
+        "text": "Formar bolitas con dos cucharas, rociar con apenas aceite y cocinar en freidora de aire a 185 °C durante 12 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Pasar por azúcar con canela al salir y servir tibios."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-volcan-chocolate",
+    "title": "Volcán de Chocolate en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Postre tibio con centro líquido de chocolate negro, listo en exactamente 10 minutos en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "chocolate negro"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "yemas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cacao en polvo para los moldes"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Derretir el chocolate con la manteca y dejar entibiar; batir los huevos, yemas y azúcar impalpable hasta triplicar volumen."
+      },
+      {
+        "text": "Unir ambas mezclas, incorporar la harina tamizada y llenar 3/4 de moldes enmantecados y espolvoreados con cacao."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 190 °C durante 10 minutos exactos y desmoldar de inmediato.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-palmeritas-azucar",
+    "title": "Palmeritas Crocantes de Azúcar en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 190,
+    "servings": 15,
+    "difficulty": "Fácil",
+    "description": "Palmeritas de masa de hojaldre con azúcar y canela doradas en solo 8 minutos en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lámina",
+        "item": "masa de hojaldre"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Espolvorear el hojaldre con el azúcar y la canela, enrollar ambos extremos hacia el centro y llevar 30 minutos a la heladera.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Cortar rodajas de 1 cm y cocinar en freidora de aire a 190 °C durante 8 minutos dando vuelta a la mitad.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-flan-huevo-clasico",
+    "title": "Flan Casero Clásico en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 150,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Flan cremoso tradicional de huevo, leche y caramelo cocido a baño María dentro de la freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "leche entera"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "azúcar (100 g para el flan y 100 g para el caramelo)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "agua para el caramelo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Preparar un caramelo con 100 g de azúcar y 2 cdas de agua, y cubrir el fondo de 4 flaneras individuales."
+      },
+      {
+        "text": "Batir suavemente los huevos con los otros 100 g de azúcar, la leche y la vainilla, colar y volcar en los moldes."
+      },
+      {
+        "text": "Colocar los moldes en una bandeja con agua dentro de la freidora de aire y cocinar a 150 °C durante 30 minutos; enfriar en heladera al menos 3 horas.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "airfryer-empanadas-manzana",
+    "title": "Empanadas Dulces de Manzana en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 185,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Empanaditas doradas rellenas de compota especiada de manzana, canela y limón.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lámina",
+        "item": "masa quebrada o tapas de empanada"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "manzanas peladas y picadas"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "fécula de maíz (maicena)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "u",
+        "item": "limón (su jugo)"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cocinar las manzanas con el azúcar, la canela y el jugo de limón 5 minutos; sumar la fécula disuelta en un poco de agua y dejar enfriar.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Cortar discos de 12 cm, rellenar, cerrar con tenedor y pintar con huevo batido."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 185 °C durante 15 minutos hasta dorar.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-arroz-con-leche-gratinado",
+    "title": "Arroz con Leche Gratinado en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Arroz con leche ya preparado con costra crocante y caramelizada de azúcar rubia, canela y ralladura de limón.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "arroz con leche ya preparado"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "ralladura de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Repartir el arroz con leche en 4 cazuelitas aptas para freidora de aire y cubrir con azúcar rubia, canela y ralladura de limón."
+      },
+      {
+        "text": "Gratinar en freidora de aire a 200 °C durante 10 minutos hasta formar costra dorada y crujiente.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-trufas-oreo",
+    "title": "Trufas de Oreo en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 5,
+    "temperatureC": 160,
+    "servings": 20,
+    "difficulty": "Fácil",
+    "description": "Bolitas de galletitas Oreo y queso crema templadas 5 minutos y bañadas en chocolate.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "galletitas Oreo"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "chocolate negro o blanco para bañar"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "cacao en polvo para decorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Triturar las Oreo hasta hacer polvo, mezclar con el queso crema, llevar 30 minutos a la heladera y formar bolitas.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Templar en freidora de aire a 160 °C durante 5 minutos, bañar en chocolate derretido, espolvorear cacao y enfriar en heladera.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "airfryer-crepes-suzette",
+    "title": "Crepes Suzette a la Naranja en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Panqueques doblados impregnados en salsa tibia de jugo de naranja, ralladura, azúcar y manteca.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "u",
+        "item": "panqueques o crepes ya hechos"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "naranjas (su jugo y ralladura)"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Doblar los panqueques en cuartos; mezclar el jugo y ralladura de naranja con el azúcar y la manteca en un molde apto."
+      },
+      {
+        "text": "Acomodar los panqueques sobre la salsa y cocinar en freidora de aire a 180 °C durante 8 minutos.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-biscotti-almendras",
+    "title": "Biscotti Crocantes de Almendras en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "temperatureC": 170,
+    "servings": 20,
+    "difficulty": "Media",
+    "description": "Clásicos bizcochos secos italianos con almendras enteras y ralladura de naranja, ideales para mojar en café.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almendras enteras"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "ralladura de naranja"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar todos los ingredientes hasta formar una masa firme y armar dos rollos de 25 cm."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 170 °C durante 20 minutos, dejar enfriar y cortar en diagonal en rodajas de 1,5 cm.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Volver a cocinar a 150 °C durante 10 minutos por lado hasta que queden bien crocantes.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-mini-cheesecakes-frutilla",
+    "title": "Mini Cheesecakes con Coulis de Frutilla en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 150,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Cheesecakes individuales sobre base de galletitas, acompañados de salsa casera tibia de frutillas.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "queso crema"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "galletitas molidas con 50 g de manteca"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "frutillas con 3 cdas de azúcar para el coulis"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Formar la base de galletitas y manteca en 6 moldes; batir el queso crema con azúcar, huevos y vainilla y rellenar."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 150 °C durante 20 minutos y llevar 3 horas a la heladera.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Para servir, cocinar las frutillas con el azúcar 10 minutos, procesar y cubrir cada cheesecake con el coulis.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-torta-zanahoria-cream-cheese",
+    "title": "Torta de Zanahoria con Frosting en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 28,
+    "temperatureC": 160,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Bizcochuelo húmedo de zanahoria rallada y canela cubierto con crema de queso crema y azúcar impalpable.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "zanahorias ralladas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 3,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela en polvo"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso crema con 80 g de azúcar impalpable para el frosting"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir los huevos con el azúcar rubia y el aceite; incorporar la zanahoria rallada y luego la harina tamizada con la canela."
+      },
+      {
+        "text": "Volcar en un molde de 20 cm y cocinar en freidora de aire a 160 °C durante 28 minutos.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "Dejar enfriar completamente y cubrir con el queso crema batido con azúcar impalpable."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-rosquillas-canela",
+    "title": "Rosquillas de Canela en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 175,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Rosquillas rápidas sin levadura, doradas en 10 minutos en freidora de aire y rebozadas en azúcar y canela.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "huevo"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar con canela para rebozar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar harina, polvo de hornear y azúcar; sumar huevo, leche y manteca derretida, formar cilindros y unir los extremos en rosquillas."
+      },
+      {
+        "text": "Rociar con apenas aceite, cocinar en freidora de aire a 175 °C durante 10 minutos y pasar enseguida por azúcar con canela.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-chocolate-frambuesa",
+    "title": "Tarta de Chocolate y Frambuesa en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 22,
+    "temperatureC": 160,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Tarta intensa de ganache horneada de chocolate negro sobre base de galletitas, decorada con frambuesas frescas.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "galletitas de chocolate molidas"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "chocolate negro"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos batidos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "frambuesas frescas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar impalpable para decorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar las galletitas de chocolate con la manteca, presionar en la base de un molde apto y llevar a la heladera."
+      },
+      {
+        "text": "Derretir el chocolate en la crema de leche caliente, integrar los huevos batidos y volcar sobre la base fría."
+      },
+      {
+        "text": "Cocinar en freidora de aire a 160 °C durante 22 minutos (el centro debe quedar apenas tembloroso); enfriar y decorar con frambuesas y azúcar impalpable.",
+        "timerMinutes": 22
+      }
+    ]
   }
 ]
