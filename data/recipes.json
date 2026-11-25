@@ -27013,5 +27013,1448 @@
         "text": "Probar y rectificar si hiciera falta antes de servir."
       }
     ]
+  },
+  {
+    "id": "ensaladas-arroz-integral-espinaca-nueces",
+    "title": "Ensalada Tibia de Arroz Integral, Espinacas y Nueces Tostadas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Plato completo de arroz integral tibio salteado con espinacas, ajo y salsa de soja, servido sobre hojas verdes con nueces tostadas y aceto balsámico.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "arroz integral"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "nueces peladas"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "espinacas frescas"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "lechuga morada o crespa"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva (más extra para aliñar)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceto balsámico reducido"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tostar las nueces peladas en una sartén seca hasta que doren ligeramente; retirar la piel suelta y reservar."
+      },
+      {
+        "text": "Cocinar el arroz integral en abundante agua con 2 cdas de aceite de oliva, sal y 1 diente de ajo durante 35 a 45 minutos hasta que esté tierno; colar y reservar.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Hervir las espinacas 2 minutos en agua, escurrir bien y reservar una parte fresca para el emplatado.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Saltear el otro diente de ajo laminado en 2 cdas de aceite de oliva, sumar las espinacas cocidas y el arroz integral, y mezclar 3 minutos a fuego lento.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Servir el arroz tibio en porciones con unas gotas de salsa de soja, las nueces tostadas por encima y acompañar con las hojas de lechuga y espinaca fresca aliñadas con aceite, sal y aceto balsámico."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-tibia-hongos-queso-cabra",
+    "title": "Ensalada Templada de Hongos, Kanikama y Queso de Cabra",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Hojas verdes y rúcula con huevo duro, kanikama, hongos salteados, nueces caramelizadas y medallones tibios de queso de cabra.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "mix de hojas verdes (lechugas y rúcula)"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 16,
+        "unit": "u",
+        "item": "palitos de kanikama"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "gírgolas o champiñones frescos"
+      },
+      {
+        "amount": 4,
+        "unit": "rodajas",
+        "item": "queso de cabra (o queso fresco firme)"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "nueces peladas"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "cdtas",
+        "item": "miel"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceto balsámico o vinagre de vino"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar y escurrir bien las hojas verdes y disponerlas como base en los platos."
+      },
+      {
+        "text": "Hervir los huevos en agua fría contando 10 minutos desde que rompe el hervor; enfriar, pelar y cortar en rodajas.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "En una cacerolita calentar el azúcar, 1 cdta de miel y 1 cdta de agua; cuando tome color, agregar las nueces y caramelizar 5 minutos a fuego suave. Dejar enfriar sobre papel manteca.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Saltear los hongos limpios en una sartén con unas gotas de aceite de oliva hasta que pierdan el agua y doren; salar."
+      },
+      {
+        "text": "Pasar el queso de cabra por pan rallado y dorarlo en sartén a fuego medio-fuerte con apenas aceite."
+      },
+      {
+        "text": "Preparar una vinagreta con 3 cdas de aceite de oliva, 1 cda de vinagre, 2 cdtas de miel, sal y pimienta. Armar la ensalada con kanikama picado, huevo, hongos, vinagreta, queso tibio y nueces caramelizadas."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-papas-atun-anchoas-vinagreta-aceitunas",
+    "title": "Ensalada de Papas, Atún y Anchoas con Vinagreta de Aceitunas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada fría en capas de papa cocida, tomate, huevo duro, atún y anchoas, aliñada con una vinagreta licuada de aceitunas verdes.",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates maduros firmes"
+      },
+      {
+        "amount": 10,
+        "unit": "u",
+        "item": "filetes de anchoa"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "aceitunas negras sin carozo"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "atún en conserva escurrido"
+      },
+      {
+        "amount": 15,
+        "unit": "u",
+        "item": "aceitunas verdes sin carozo"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 35,
+        "unit": "ml",
+        "item": "vinagre de vino"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir las papas en agua con sal durante 25 minutos hasta que estén tiernas; dejar enfriar, pelar y cortar en rodajas.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Hervir los huevos 10 minutos desde el hervor, enfriar, pelar y cortar en rodajas. Pelar los tomates y cortarlos en láminas finas.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Picar bien chiquitas las aceitunas negras y las anchoas."
+      },
+      {
+        "text": "Licuar o mixear el aceite de oliva con el vinagre y las aceitunas verdes para obtener la vinagreta."
+      },
+      {
+        "text": "Armar por capas alternando papa, huevo, tomate y atún, aliñando cada capa con la vinagreta. Coronar con las aceitunas negras, anchoas picadas y atún."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-espinacas-ricota-frutas-miel",
+    "title": "Ensalada de Espinacas, Ricota y Frutas con Vinagreta de Miel",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Combinación fresca de espinacas crudas, ricota desmenuzada, frutillas, ananá, kiwi y semillas de lino con aliño dulce de miel y mermelada.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "espinacas frescas"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "ricota fresca"
+      },
+      {
+        "amount": 20,
+        "unit": "u",
+        "item": "frutillas"
+      },
+      {
+        "amount": 4,
+        "unit": "rodajas",
+        "item": "ananá natural"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "kiwis"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "semillas de lino"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mermelada de frutos rojos o cereza"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar las espinacas y secarlas bien. Lavar, pelar y cortar las frutillas, el ananá y los kiwis en trozos pequeños."
+      },
+      {
+        "text": "Disponer una cama de espinacas frescas en una fuente plana, distribuir las frutas por encima y sumar la ricota desmenuzada."
+      },
+      {
+        "text": "Mezclar en un bol la mermelada, la miel, el vinagre de manzana y el aceite de oliva hasta emulsionar."
+      },
+      {
+        "text": "Rociar la ensalada con la vinagreta y terminar con las semillas de lino por encima."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-carpaccio-tomates-parmesano-pesto",
+    "title": "Carpaccio de Tomates con Parmesano y Pesto Casero",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Láminas finas de tomate fresco con lascas de queso parmesano o reggianito y pesto rústico de albahaca y nueces.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "u",
+        "item": "tomates maduros firmes"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso parmesano o reggianito en trozo"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "albahaca fresca"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "nueces peladas o piñones"
+      },
+      {
+        "amount": 125,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates cherry para decorar"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar los tomates y cortarlos en láminas bien finas (aprox. 3 mm); acomodarlos en un plato amplio y salpimentar."
+      },
+      {
+        "text": "Cortar láminas finas de parmesano con un pelapapas (reservando 50 g rallado para el pesto)."
+      },
+      {
+        "text": "Machacar en mortero la albahaca, el ajo, las nueces y los 50 g de parmesano rallado con sal y pimienta; mezclar con el aceite de oliva."
+      },
+      {
+        "text": "Distribuir un poco de pesto sobre los tomates, colocar las lascas de queso encima y decorar con los tomates cherry."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-nizarda-atun-olivada",
+    "title": "Ensalada Nizarda con Atún y Olivada",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Versión práctica de la clásica ensalada Niçoise con hojas verdes, tomate, huevo duro, aceitunas negras, atún grillado y vinagreta de olivada.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "mix de lechugas y rúcula"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "tomates maduros"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "aceitunas negras sin carozo"
+      },
+      {
+        "amount": 4,
+        "unit": "filetes",
+        "item": "lomo de atún fresco (o 2 latas de atún al natural)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "pasta de aceitunas negras (olivada o tapenade)"
+      },
+      {
+        "amount": 70,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 20,
+        "unit": "ml",
+        "item": "vinagre de vino"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar un colchón de hojas verdes limpias en una fuente y salpimentar."
+      },
+      {
+        "text": "Hervir los huevos 10 minutos desde el hervor, enfriar, pelar y cortar en octavos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cortar los tomates en gajos medianos y distribuirlos junto con el huevo y las aceitunas negras sobre las hojas."
+      },
+      {
+        "text": "Cocinar los filetes de atún en plancha o parrilla bien caliente 2 a 3 minutos por lado para dorar por fuera y sumar a la ensalada."
+      },
+      {
+        "text": "Emulsionar el aceite de oliva con el vinagre y la pasta de aceitunas; rociar sobre la ensalada y servir."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-pollo-alcauciles-queso-cabra",
+    "title": "Ensalada de Pollo, Alcauciles y Queso de Cabra Caramelizado",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Hojas verdes con cubos de pollo cocido, corazones de alcaucil, nueces tostadas, pasas de uva y queso de cabra caramelizado.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "mix de lechugas y rúcula"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "alcauciles en conserva escurridos"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "fiambre o pechuga de pollo cocida en cubos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "nueces peladas o piñones"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "pasas de uva"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso de cabra en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "vinagre de vino o aceto"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disponer las hojas verdes lavadas como base en la ensaladera con una pizca de sal."
+      },
+      {
+        "text": "Saltear las nueces y las pasas en una sartén con un chorrito de aceite a fuego lento hasta dorar las nueces; volcar sobre las hojas."
+      },
+      {
+        "text": "Agregar el pollo en cubos y los alcauciles cortados."
+      },
+      {
+        "text": "Espolvorear las rodajas de queso de cabra con azúcar y caramelizar en sartén bien caliente o con soplete; colocar encima y aliñar con aceite y vinagre."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-espinacas-melon-brotes-frutos-secos",
+    "title": "Ensalada de Espinacas, Melón, Brotes de Alfalfa y Nueces",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada bien fresca y veraniega de espinacas tiernas, cubos de melón, tomates cherry, queso semiduro, brotes de alfalfa y semillas.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "hojas tiernas de espinaca"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "melón en cubos o bolitas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso semiduro (tipo Colonia o Danbo) en cubitos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "nueces peladas"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "semillas de girasol peladas"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "brotes de alfalfa"
+      },
+      {
+        "amount": 20,
+        "unit": "u",
+        "item": "tomates cherry"
+      },
+      {
+        "amount": 40,
+        "unit": "ml",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar las espinacas lavadas en una fuente amplia; sumar las nueces troceadas, las semillas de girasol y los cubitos de queso."
+      },
+      {
+        "text": "Distribuir los brotes de alfalfa, el melón en cubos y los tomates cherry lavados."
+      },
+      {
+        "text": "Mezclar en un bol chico el aceite de oliva, el aceto balsámico, la miel y la sal hasta emulsionar y rociar la ensalada."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-jamon-crudo-melon-frutos-secos",
+    "title": "Ensalada de Jamón Crudo y Melón con Vinagreta de Frutos Secos",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 5,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Rollitos clásicos de melón y jamón crudo sobre colchón de verdes y tomates cherry con vinagreta tostada de frutos secos y reducción de aceto.",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "melón en láminas finas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "jamón crudo en fetas finas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "mix de lechugas y rúcula"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "tomates cherry en cuartos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "mix de frutos secos (maní, nueces, avellanas y pasas)"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceto balsámico o vinagre de vino"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar una feta de jamón crudo sobre cada lámina fina de melón y enrollar en espiral."
+      },
+      {
+        "text": "Reducir 100 ml de aceto o vinagre en una cacerolita a fuego suave hasta obtener textura de jarabe.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Tostar los frutos secos (sin las pasas) en sartén con unas gotas de aceite hasta dorar. Procesar la mitad con el aceite de oliva, 2 cdas de vinagre, sal y pimienta."
+      },
+      {
+        "text": "Servir los rollitos sobre las hojas verdes y los cherrys, rociar con la vinagreta de frutos secos, espolvorear el resto de frutos y pasas, y terminar con el aceto reducido."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-queso-fresco-frutillas-miel",
+    "title": "Ensalada de Queso Fresco y Frutillas con Vinagreta de Miel",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fresca y vistosa de queso fresco o ricota firme, frutillas en mitades, rúcula, jamón crudo, semillas de zapallo y sésamo tostado.",
+    "ingredients": [
+      {
+        "amount": 16,
+        "unit": "u",
+        "item": "frutillas frescas"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "queso fresco o ricota firme"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "jamón crudo en tiritas"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "rúcula y hojas verdes"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "semillas de zapallo peladas"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "semillas de sésamo tostadas"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "vinagre o aceto"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar y secar la rúcula y las hojas verdes; cortar las frutillas lavadas al medio."
+      },
+      {
+        "text": "Mixear o batir el aceite de oliva, el vinagre, la miel, sal y pimienta hasta lograr una vinagreta emulsionada."
+      },
+      {
+        "text": "Colocar una base de queso fresco en el centro del plato, rodear con las frutillas, sumar las hojas verdes en el centro y el jamón crudo por encima."
+      },
+      {
+        "text": "Espolvorear con las semillas de zapallo y sésamo tostado, y rociar con la vinagreta de miel."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-arvejas-manzana-huevo-poche",
+    "title": "Ensalada de Arvejas, Manzana Verde y Huevos Poché",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Arvejas salteadas con cebolla de verdeo, panceta crocante y dados de manzana, coronadas con huevo poché y vinagreta de avellanas o nueces.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "arvejas (frescas o congeladas)"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "cebollas de verdeo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "panceta en fetas o cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "manzana grande"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos (o 8 de codorniz)"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "avellanas o nueces picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir las arvejas en agua con sal de 8 a 10 minutos; colar, enfriar en agua fría y reservar.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Rehogar la cebolla de verdeo picada en sartén, sumar la panceta picada 2 minutos y luego la manzana en dados pequeños por 1 minuto más.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Preparar los huevos poché en agua apenas hirviendo con un chorrito de vinagre durante 3 minutos (1 minuto si son de codorniz).",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Machacar las avellanas o nueces y mezclarlas con aceite de oliva, aceto balsámico, sal y pimienta."
+      },
+      {
+        "text": "Mezclar las arvejas con el salteado de panceta y manzana, aliñar con la vinagreta y servir con los huevos poché por encima."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-papas-asadas-atun-sesamo",
+    "title": "Ensalada de Papas Asadas, Atún y Sésamo",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada 2 en 1 ideal para acompañar asados: hojas verdes con rodajas de papa doradas al horno o parrilla, cebolla frita, atún, queso y sésamo.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "mix de hojas verdes (lechuga, rúcula, espinaca)"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "papas chicas con cáscara"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "queso curado o parmesano en láminas"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla chica"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "atún en aceite escurrido"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "aceite de sésamo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "semillas de sésamo blanco"
+      },
+      {
+        "amount": 6,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Freír la cebolla picada fina en 4 cdas de aceite de oliva hasta que dore bien; escurrir y reservar."
+      },
+      {
+        "text": "Hervir las papas lavadas con cáscara 10 minutos hasta que estén a medio cocer; cortar en rodajas de 1 cm.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pincelar las rodajas de papa con 2 cdas de aceite de oliva mezclado con el aceite de sésamo y dorar en grill de horno a 200 °C o en parrilla.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Emulsionar 2 cdas de aceite de oliva con la mostaza y sal. Montar las hojas verdes con la cebolla frita, las papas asadas, el atún, el sésamo, el queso y la vinagreta."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-marinera-salmon-langostinos-papa",
+    "title": "Ensalada Marinera de Salmón Ahumado, Langostinos y Papa",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 18,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Ensalada fresca de mar con papas cocidas con cáscara, langostinos o camarones, salmón ahumado, cebolla de verdeo y reducción de aceto.",
+    "ingredients": [
+      {
+        "amount": 175,
+        "unit": "g",
+        "item": "mix de lechugas y rúcula"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "salmón ahumado en tiras"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "langostinos o camarones pelados cocidos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla de verdeo"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "papas medianas"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 25,
+        "unit": "ml",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar las papas y hervirlas con piel en agua con sal de 15 a 20 minutos hasta que estén tiernas; dejar enfriar, pelar y cortar en láminas.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Disponer el mix de lechugas en una fuente amplia y distribuir los langostinos, el salmón ahumado, la cebolla de verdeo picada y las láminas de papa."
+      },
+      {
+        "text": "Condimentar con sal, pimienta negra, aceite de oliva y un hilo de aceto balsámico reducido."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-tibia-pollo-panceta-cabra",
+    "title": "Ensalada Tibia de Pollo, Panceta y Queso de Cabra",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Contraste frío-caliente de hojas verdes, tomate y croutons crocantes con salteado dorado de pollo y panceta más queso de cabra.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "mix de lechugas y rúcula"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "pechuga de pollo en cubos"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "queso de cabra (o mozzarella fresca)"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "tomate en cubos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "panceta en tiritas"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "croutons de pan al ajo"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 25,
+        "unit": "ml",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dorar los cubos de pollo en una sartén con 2 cdas de aceite de oliva a fuego medio-alto; sumar la panceta picada hasta que ambos queden bien dorados.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Colocar las hojas verdes lavadas en una fuente amplia con el tomate en cubos y el queso en trozos."
+      },
+      {
+        "text": "Agregar por encima el salteado caliente de pollo y panceta junto con los croutons."
+      },
+      {
+        "text": "Aliñar al momento con una vinagreta batida de aceite de oliva, aceto balsámico, sal y pimienta."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-belga-chauchas-papas-panceta",
+    "title": "Ensalada Belga Tibia de Chauchas, Papas y Panceta",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Clásica ensalada Liégeoise con chauchas y papas cocidas, panceta crocante, cebolla salteada, huevo duro y aderezo tibio de aceto y mostaza.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "panceta ahumada en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla picada fina"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "papas peladas en cubos"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "chauchas limpias"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "mix de lechugas"
+      },
+      {
+        "amount": 2,
+        "unit": "hojas",
+        "item": "laurel"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 25,
+        "unit": "ml",
+        "item": "aceto balsámico"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Saltear la cebolla y el ajo en aceite de oliva hasta dorar y retirar; en la misma cacerola dorar la panceta y reservar conservando su jugo."
+      },
+      {
+        "text": "Hervir las papas y las chauchas en agua con sal y laurel de 15 a 20 minutos hasta que estén tiernas; escurrir reservando 2 cdas del agua de cocción.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Disolver la mostaza en esas 2 cdas de agua de cocción, sumar a la cacerola con el jugo de la panceta y el aceto balsámico, y reducir ligeramente."
+      },
+      {
+        "text": "Hervir los huevos 10 minutos, enfriar y pelar. Mezclar papas, chauchas, panceta, cebolla y el aderezo tibio; servir sobre las hojas de lechuga con los huevos."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-ensaladillo-morrones-asados-atun",
+    "title": "Ensaladillo de Morrones Asados, Atún y Queso Brie",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Ensalada servida sobre pan crujiente con morrones asados caseros y su jugo, atún desmenuzado, láminas de queso Brie y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "panecillos o flautitas de pan integral o centeno"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "morrones rojos y verdes para asar"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso Brie o Camembert en láminas"
+      },
+      {
+        "amount": 160,
+        "unit": "g",
+        "item": "atún en lata escurrido"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "vinagre de vino (opcional)"
+      },
+      {
+        "amount": 1,
+        "unit": "a gusto",
+        "item": "sal gruesa o fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untar los morrones enteros con aceite y sal; asar al horno a 180 °C durante 45 minutos hasta que estén tiernos y la piel se desprenda.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Dejar sudar los morrones tapados 10 minutos, pelar, quitar semillas y cortar en tiras conservando su jugo."
+      },
+      {
+        "text": "Abrir los panecillos al medio, cubrir con los morrones y un poco de su jugo, sumar el atún desmigado y las láminas de queso Brie."
+      },
+      {
+        "text": "Terminar con una pizca de sal y un hilo de aceite de oliva."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-hojas-verdes-jamon-curry",
+    "title": "Ensalada de Hojas Verdes con Jamón al Curry y Vinagreta Suave",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Mix de rúcula, berros y escarola con vinagreta picada de morrón, cebolla, tomate y miel, coronada con cubos de jamón rebozados al curry.",
+    "ingredients": [
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "mix de hojas verdes (rúcula, berros, escarola o lechuga)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "jamón cocido o crudo en cubos"
+      },
+      {
+        "amount": 5,
+        "unit": "cdas",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "curry suave"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "morrón chico (rojo o verde)"
+      },
+      {
+        "amount": 1,
+        "unit": "u",
+        "item": "cebolla chica"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "tomates"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "aceite de oliva (más extra para dorar)"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceto balsámico o vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Para la vinagreta, picar bien fino el morrón, la cebolla y los tomates pelados; mezclar con aceite de oliva, aceto, miel, sal y pimienta."
+      },
+      {
+        "text": "Si usás jamón crudo muy salado, hervir los cubos 10 minutos para desalar; si usás jamón cocido, pasar directo al rebozado."
+      },
+      {
+        "text": "Batir los huevos con el curry; pasar los cubos de jamón por huevo y luego por pan rallado, y dorarlos en sartén con aceite caliente. Escurrir en papel absorbente."
+      },
+      {
+        "text": "Colocar las hojas verdes lavadas en el plato, distribuir la vinagreta de vegetales y coronar con los cubos crocantes al curry."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas-pasta-tricolor-atun-anchoas",
+    "title": "Ensalada de Pasta Tricolor con Atún, Choclo y Anchoas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Ensalada fría de pasta corta tricolor con atún, choclo dulce, arvejas, anchoas y clara de huevo duro, ligada con aderezo agridulce de mostaza.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "pasta corta tricolor (moñitos o tirabuzones)"
+      },
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "atún en aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "arvejas escurridas"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "choclo dulce escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "u",
+        "item": "huevos duros (las claras picadas)"
+      },
+      {
+        "amount": 4,
+        "unit": "u",
+        "item": "filetes de anchoa picados"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "mostaza"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 9,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "vinagre"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hervir la pasta tricolor en abundante agua con sal durante 9 minutos hasta que quede al dente; colar y pasar por agua fría para cortar la cocción.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Rociar la pasta con un chorrito de aceite y mezclarla con el choclo, las arvejas, el atún, las anchoas picadas y las claras de huevo duro picadas."
+      },
+      {
+        "text": "Disolver el azúcar, la mostaza, sal y pimienta en el vinagre; incorporar el aceite de oliva mezclando bien y aliñar la ensalada antes de servir."
+      }
+    ]
   }
 ]
