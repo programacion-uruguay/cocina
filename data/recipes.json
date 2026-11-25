@@ -49130,5 +49130,140 @@
       "carbs": "2g",
       "fat": "22g"
     }
+  },
+  {
+    "id": "inac-sandwich-suprema-pan-felipe",
+    "title": "Sándwich de Suprema de Pollo en Pan Felipe",
+    "subtitle": "Sándwich fresco uruguayo con suprema hervida en caldo, rúcula y albahaca.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "totalTime": "30 min",
+    "servings": 2,
+    "calories": 385,
+    "ingredients": [
+      "1 suprema de pollo",
+      "1 tableta de caldo de gallina",
+      "2 panes Felipe o flautas chicas",
+      "2 cdas de mayonesa light",
+      "Hojas de lechuga y rúcula frescas",
+      "Hojas de albahaca fresca",
+      "Tiritas de cebolla de verdeo y morrón",
+      "1 cda de aceite de oliva"
+    ],
+    "steps": [
+      {
+        "title": "Hervir la suprema",
+        "instruction": "Herví la suprema de pollo en poca agua con la tableta de caldo de gallina durante 15 minutos. Dejá enfriar y cortá en fetas (reservá una taza del caldo para acompañar).",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Preparar los panes",
+        "instruction": "Abrí los panes Felipe al medio y untá ambas tapas con mayonesa light.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Armar el sándwich",
+        "instruction": "Colocá lechuga, rúcula, las fetas de suprema, tiritas de morrón, cebolla de verdeo y hojas de albahaca; rociá con aceite de oliva, cerrá y serví.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "33g",
+      "carbs": "38g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "inac-hamburguesa-pollo-papa-avena",
+    "title": "Hamburguesa de Pollo con Papa, Zanahoria y Avena",
+    "subtitle": "Ideal para aprovechar pollo cocido, servida en pan tortuga completo.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "12 min",
+    "totalTime": "27 min",
+    "servings": 6,
+    "calories": 410,
+    "ingredients": [
+      "750 g de pollo cocido picado",
+      "1 papa cruda rallada",
+      "1 zanahoria rallada",
+      "1/2 taza de avena",
+      "1 huevo",
+      "2 cdas de perejil y ajo picados",
+      "6 panes tortuga, lechuga, 2 tomates en rodajas salados, 6 fetas de queso y 2 huevos duros picados",
+      "Mayonesa o ketchup, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Amasar la mezcla",
+        "instruction": "Mezclá a mano el pollo cocido picado con la papa rallada, zanahoria rallada, avena, huevo, perejil, ajo, sal y pimienta hasta formar bolitas medianas.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Cocinar las hamburguesas",
+        "instruction": "Aplastá cada bolita dándole forma de hamburguesa y doralas a la plancha o en horno a 190 °C dándolas vuelta hasta que estén firmes.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Armar en pan tortuga",
+        "instruction": "Abrí cada pan tortuga, untá con mayonesa o ketchup y armá con lechuga, rodaja de tomate escurrida, hamburguesa, queso y huevo duro picado.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "32g",
+      "carbs": "36g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "inac-costillitas-cerdo-manzana-verde",
+    "title": "Costillitas de Cerdo al Horno con Manzana Verde",
+    "subtitle": "Costillitas jugosas horneadas bajo cubierta de manzana rallada y limón.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "1 h",
+    "totalTime": "1 h 15 min",
+    "servings": 6,
+    "calories": 430,
+    "ingredients": [
+      "6 costillitas de cerdo de 3 cm de alto",
+      "6 manzanas verdes peladas y ralladas",
+      "1 cda de manteca derretida",
+      "Jugo de 1 limón colado",
+      "Sal, pimienta y orégano a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Preparar las costillitas",
+        "instruction": "Desgrasá las costillitas de cerdo, calentá una fuente de horno frotándola con un trocito de la grasa retirada y acomodá las costillas frotadas con sal, pimienta y orégano.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Cubrir con manzana y manteca",
+        "instruction": "Cubrí las costillitas con las manzanas verdes ralladas y rociá con la manteca derretida mezclada con el jugo de limón.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Llevá a horno fuerte a 200 °C por 45 minutos mojando cada tanto con el jugo que sueltan la carne y las manzanas, luego bajá a 160 °C por 15 minutos más.",
+        "timerMinutes": 60
+      }
+    ],
+    "nutrition": {
+      "protein": "31g",
+      "carbs": "24g",
+      "fat": "23g"
+    }
   }
 ]
