@@ -47333,5 +47333,1802 @@
       "carbs": "11g",
       "fat": "7g"
     }
+  },
+  {
+    "id": "mch-huevos-poche-acelga-bechamel",
+    "title": "Huevos Poché en Colchón de Acelga y Bechamel",
+    "subtitle": "Huevos poché gratinados sobre acelga cocida y salsa blanca.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "totalTime": "30 min",
+    "servings": 4,
+    "calories": 250,
+    "ingredients": [
+      "4 huevos",
+      "1 taza de acelga cocida y escurrida",
+      "200 ml de salsa bechamel",
+      "40 g de queso rallado",
+      "1 cda de vinagre o jugo de limón",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Preparar los huevos poché",
+        "instruction": "Calentá agua en una cacerola chica hasta 80 °C (antes de hervir), agregá el vinagre o limón, volcá cada huevo y cociná 3 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Armar la fuente",
+        "instruction": "Disponé la acelga cocida como base en una fuente para horno, acomodá los huevos poché encima y cubrí con la salsa bechamel.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Gratinar",
+        "instruction": "Espolvoreá con queso rallado y llevá a horno fuerte a 220 °C hasta dorar la superficie.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "13g",
+      "carbs": "9g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "mch-tortilla-papa-horno",
+    "title": "Tortilla de Papa al Horno",
+    "subtitle": "Versión liviana al horno con cebolla, morrón rojo y ajo.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "totalTime": "45 min",
+    "servings": 4,
+    "calories": 280,
+    "ingredients": [
+      "500 g de papas en rebanadas finas",
+      "4 huevos",
+      "1 cebolla picada",
+      "1/2 morrón rojo picado",
+      "1 diente de ajo picado",
+      "2 cdas de aceite",
+      "2 cdas de pan rallado",
+      "Sal y condimentos a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Saltear los vegetales",
+        "instruction": "Picá la cebolla, el morrón y el ajo, y saltealos en una sartén con el aceite hasta tiernizar.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Mezclar con papas y huevos",
+        "instruction": "Mezclá las papas lavadas y cortadas finas con el salteado, los huevos batidos y los condimentos en un bowl.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Volcá en una tartera de 24 cm aceitada y espolvoreada con pan rallado. Horneá a 180 °C durante 30 minutos hasta cuajar y dorar.",
+        "timerMinutes": 30
+      }
+    ],
+    "nutrition": {
+      "protein": "10g",
+      "carbs": "30g",
+      "fat": "13g"
+    }
+  },
+  {
+    "id": "mch-ensalada-atun-papa-huevo",
+    "title": "Ensalada de Atún, Papa y Huevo",
+    "subtitle": "Ensalada fresca y completa lista en pocos minutos.",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 295,
+    "ingredients": [
+      "4 huevos duros cortados en cuartos",
+      "1 lata de atún al natural escurrido",
+      "2 papas hervidas en cubos",
+      "2 tomates en cubos",
+      "50 g de aceitunas negras",
+      "2 cdas de aceite de oliva",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Preparar papas y huevos",
+        "instruction": "Cortá en cubos las papas ya hervidas y frías, y cortá los huevos duros en cuartos.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Integrar los ingredientes",
+        "instruction": "Mezclá cuidadosamente en una ensaladera el atún, los tomates, las papas, las aceitunas y los huevos.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Condimentar y enfriar",
+        "instruction": "Aderezá con aceite de oliva, sal y pimienta y conservá en heladera hasta servir.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "19g",
+      "carbs": "21g",
+      "fat": "15g"
+    }
+  },
+  {
+    "id": "mch-souffle-light-manzana-pera",
+    "title": "Soufflé Light de Manzana y Pera",
+    "subtitle": "Postre tibio aireado con claras batidas a nieve y canela.",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 115,
+    "ingredients": [
+      "2 manzanas rojas ralladas",
+      "2 peras peladas y ralladas",
+      "3 claras de huevo",
+      "Ralladura de 1/2 limón",
+      "Edulcorante a gusto",
+      "Canela molida y pizca de sal"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar la compota",
+        "instruction": "Mezclá las manzanas y peras ralladas y cocinalas en cacerola a fuego lento hasta formar una compota sin exceso de líquido. Retirá y sumá edulcorante y ralladura de limón.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Batir las claras",
+        "instruction": "Batí las claras a punto nieve con una pizca de sal e incorporalas con movimientos envolventes a la compota tibia.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Verté rápidamente en un molde enmantecado y horneá a 180 °C durante 20 minutos. Serví caliente espolvoreado con canela.",
+        "timerMinutes": 20
+      }
+    ],
+    "nutrition": {
+      "protein": "3g",
+      "carbs": "24g",
+      "fat": "1g"
+    }
+  },
+  {
+    "id": "mch-ensalada-ave-multicolor",
+    "title": "Ensalada de Pollo Multicolor con Queso Crema",
+    "subtitle": "Pechuga grillada fría con tomate, pepino, aceitunas y aderezo cremoso.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "totalTime": "25 min",
+    "servings": 2,
+    "calories": 390,
+    "ingredients": [
+      "500 g de pechuga de pollo sin piel en cubos",
+      "2 tomates en cubos",
+      "2 pepinos con piel en rodajas",
+      "8 aceitunas negras descarozadas",
+      "8 cdas de queso crema untable",
+      "4 cdas de aceite de oliva",
+      "Sal, vinagre o jugo de limón a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar el pollo",
+        "instruction": "Cocina los cubos de pechuga a la plancha caliente con sal hasta dorar y completar la cocción. Dejá enfriar.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Preparar los vegetales",
+        "instruction": "Lavá y cortá el tomate y el pepino; cortá las aceitunas en mitades.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Mezclar con el aderezo",
+        "instruction": "Uní el queso crema con el aceite de oliva y limón o vinagre. Mezclá con el pollo y las hortalizas y serví.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "48g",
+      "carbs": "11g",
+      "fat": "17g"
+    }
+  },
+  {
+    "id": "mch-mini-hamburguesas-pollo",
+    "title": "Mini Hamburguesas de Pollo al Horno",
+    "subtitle": "Medallones tiernos de pollo procesado ideales para viandas o picadas.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 275,
+    "ingredients": [
+      "600 g de carne de pollo procesada",
+      "1 huevo batido",
+      "4 cdas de pan rallado",
+      "4 cdas de queso rallado",
+      "3 cdas de almidón de maíz",
+      "Perejil picado fino y sal"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la mezcla",
+        "instruction": "Mezclá el pollo procesado con el huevo batido, perejil picado, pan rallado, queso rallado, almidón de maíz y sal.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Armar las mini hamburguesas",
+        "instruction": "Formá 16 medallones pequeños con las manos y disponelos sobre una asadera aceitada.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Cociná en horno a 190 °C durante 18 a 20 minutos dando vuelta a mitad de cocción hasta dorar.",
+        "timerMinutes": 20
+      }
+    ],
+    "nutrition": {
+      "protein": "35g",
+      "carbs": "14g",
+      "fat": "8g"
+    }
+  },
+  {
+    "id": "mch-sopa-pollo-zapallo-avena",
+    "title": "Sopa Crema de Pollo, Zapallo y Avena",
+    "subtitle": "Sopa nutritiva y reconfortante espesada naturalmente con avena.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "economico",
+    "prepTime": "10 min",
+    "cookTime": "25 min",
+    "totalTime": "35 min",
+    "servings": 5,
+    "calories": 185,
+    "ingredients": [
+      "1 carcasa de pollo con carne",
+      "1 l de agua (4 tazas)",
+      "2 rodajas de zapallo sin cáscara en cubos",
+      "5 cdas de avena arrollada",
+      "5 cdas de queso crema o blanco untable",
+      "Perejil picado y sal a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Hervir carcasa y zapallo",
+        "instruction": "Colocá el agua en una olla con la carcasa de pollo, los cubos de zapallo y perejil; herví durante 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Sumar avena y queso",
+        "instruction": "Agregá la avena y el queso untable y cociná 5 minutos más. Retirá la carcasa y desmenuzá su carne sin huesos.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Licuar y servir",
+        "instruction": "Devolvé la carne al caldo, dejá entibiar, licuá hasta lograr consistencia cremosa y volvé a calentar para servir.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "13g",
+      "carbs": "14g",
+      "fat": "8g"
+    }
+  },
+  {
+    "id": "mch-patitas-pollo-portuguesa",
+    "title": "Patitas de Pollo a la Portuguesa",
+    "subtitle": "Patas de pollo selladas y guisadas con morrones, cebolla y tomate.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "totalTime": "30 min",
+    "servings": 2,
+    "calories": 360,
+    "ingredients": [
+      "4 patas de pollo",
+      "1 morrón rojo en trozos",
+      "1 morrón verde en trozos",
+      "2 tomates en cubos",
+      "2 cebollas en pluma",
+      "2 cdas de aceite de girasol",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Sellar las patas",
+        "instruction": "Dorá las patas de pollo en una sartén con 1 cucharada de aceite durante 6 minutos y retiralas.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Rehogar vegetales",
+        "instruction": "En la misma sartén salteá las cebollas, morrones y tomates durante 6 minutos.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Terminar la cocción",
+        "instruction": "Reincorporá las patas selladas, salpimentá, tapá y cociná 10 minutos más hasta que estén bien cocidas.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "16g",
+      "fat": "19g"
+    }
+  },
+  {
+    "id": "mch-terrina-pollo-espinaca",
+    "title": "Terrina de Pollo con Espinaca y Morrón",
+    "subtitle": "Fiambre casero frío en capas con vinagreta de tomates secos.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "30 min",
+    "cookTime": "40 min",
+    "totalTime": "1 h 10 min",
+    "servings": 6,
+    "calories": 340,
+    "ingredients": [
+      "1 pollo entero sin piel (1,5 kg)",
+      "3 puerros (hojas blanqueadas)",
+      "2 cebollas rehogadas",
+      "1 atado de espinacas blanqueadas",
+      "1 morrón asado en tiras",
+      "200 g de hígados de pollo salteados (opcional)",
+      "1 sobre de gelatina sin sabor (7 g)",
+      "2 cdas de mayonesa y 100 ml de crema de leche",
+      "1 hoja de laurel, sal y pimienta",
+      "Vinagreta: 6 cdas de aceite de oliva, 2 cdas de aceto y 5 tomates secos hidratados"
+    ],
+    "steps": [
+      {
+        "title": "Hervir y procesar el pollo",
+        "instruction": "Herví el pollo con laurel y sal por 35 minutos. Desmenuzá y procesá con la crema, mayonesa y cebolla rehogada.",
+        "timerMinutes": 35
+      },
+      {
+        "title": "Integrar gelatina y armar capas",
+        "instruction": "Disolvé la gelatina en agua caliente e incorporala al pollo. Forrá un molde con papel aluminio y hojas de puerro e intercalá capas de pasta de pollo, espinaca, morrón y los hígados en el centro.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Refrigerar y servir con vinagreta",
+        "instruction": "Cerrá con el puerro, refrigerá 4 horas hasta afirmar y serví en rodajas con la vinagreta procesada.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "32g",
+      "carbs": "7g",
+      "fat": "20g"
+    }
+  },
+  {
+    "id": "mch-doraditos-pollo-hojaldre",
+    "title": "Doraditos de Pollo en Hojaldre",
+    "subtitle": "Rollitos crocantes de masa de hojaldre rellenos de pollo y verdeo.",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "20 min",
+    "totalTime": "40 min",
+    "servings": 6,
+    "calories": 295,
+    "ingredients": [
+      "400 g de pechuga de pollo en cubos",
+      "12 tapas de empanadas de hojaldre",
+      "2 cebollas de verdeo picadas finas",
+      "1/2 cebolla picada",
+      "1/2 cubo de caldo de ave en 60 ml de agua caliente",
+      "2 cdas de queso crema o crema de leche",
+      "2 cdas de aceite, perejil y 1 huevo batido"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar y procesar el relleno",
+        "instruction": "Rehogá la cebolla y 1 verdeo en aceite, dorá el pollo con perejil y agregá el caldo hasta reducir. Procesá con el resto del verdeo y el queso crema.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Armar los rollitos",
+        "instruction": "Untá cada tapa de hojaldre con el relleno frío, enrollá como canelón y disponé en asadera aceitada con el cierre hacia abajo.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Pincelar y hornear",
+        "instruction": "Pincelá con huevo batido y horneá a 190 °C durante 20 minutos hasta que estén bien dorados.",
+        "timerMinutes": 20
+      }
+    ],
+    "nutrition": {
+      "protein": "18g",
+      "carbs": "24g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "mch-pionono-ave-palmitos",
+    "title": "Pionono Salado de Pollo y Palmitos",
+    "subtitle": "Arrollado clásico frío de pollo picado, queso crema, zanahoria y morrón.",
+    "metodo": "sin_coccion",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "0 min",
+    "totalTime": "20 min",
+    "servings": 4,
+    "calories": 380,
+    "ingredients": [
+      "1 pionono salado o neutro",
+      "400 g de pollo cocido picado fino",
+      "4 cdas de queso crema",
+      "100 g de palmitos en cubos",
+      "1 morrón rojo cubeteado",
+      "2 zanahorias ralladas",
+      "10 aceitunas negras, perejil y jugo de limón"
+    ],
+    "steps": [
+      {
+        "title": "Preparar el relleno",
+        "instruction": "Mezclá el pollo picado con el queso crema, palmitos, morrón, zanahoria rallada, perejil y unas gotas de limón.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Rellenar y enrollar",
+        "instruction": "Extendé el pionono, cubrí de manera pareja con la mezcla y enrollá presionando suavemente.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Decorar y refrigerar",
+        "instruction": "Decorá con picos de queso crema, tiras de morrón y aceitunas negras; enfriá en heladera antes de cortar.",
+        "timerMinutes": 6
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "31g",
+      "fat": "15g"
+    }
+  },
+  {
+    "id": "mch-minitarteletas-pollo-queso",
+    "title": "Minitarteletas de Pollo y Queso Crema",
+    "subtitle": "Bocaditos ideales para reuniones con relleno cremoso de pechuga.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepTime": "15 min",
+    "cookTime": "12 min",
+    "totalTime": "27 min",
+    "servings": 8,
+    "calories": 195,
+    "ingredients": [
+      "16 tarteletas saladas",
+      "2 pechugas de pollo picadas en cubitos muy chicos",
+      "1/2 cebolla picada fina",
+      "4 cdas de queso crema blanco",
+      "2 cdas de aceite de girasol",
+      "3 cdas de morrón rojo en cubitos salteado",
+      "3 cdas de espinaca cocida picada y perejil"
+    ],
+    "steps": [
+      {
+        "title": "Saltear el pollo",
+        "instruction": "Cociná el pollo con la cebolla, perejil, aceite y especias agregando 100 ml de agua para mantenerlo jugoso hasta completar la cocción.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Unir con queso crema",
+        "instruction": "Dejá enfriar la preparación y mezclá con el queso crema hasta obtener una pasta suave.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Rellenar y decorar",
+        "instruction": "Rellená las 16 tarteletas y decorá la superficie con cubitos de morrón rojo o espinaca picada.",
+        "timerMinutes": 6
+      }
+    ],
+    "nutrition": {
+      "protein": "16g",
+      "carbs": "13g",
+      "fat": "8g"
+    }
+  },
+  {
+    "id": "mch-ensalada-pollo-rucula-anana",
+    "title": "Ensalada Fresca de Pollo, Rúcula y Ananá",
+    "subtitle": "Combinación agridulce con pollo grillado, lascas de parmesano y limón.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "8 min",
+    "totalTime": "18 min",
+    "servings": 2,
+    "calories": 360,
+    "ingredients": [
+      "1 pechuga de pollo en tiras",
+      "1 atado de rúcula fresca",
+      "3 rodajas de ananá en cubos",
+      "60 g de queso parmesano rallado en hebras",
+      "Jugo de 1/2 limón",
+      "1 cda de aceite de oliva",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Grillar el pollo",
+        "instruction": "Condimentá el pollo y grillalo en plancha bien caliente durante 7 a 8 minutos. Retirá y cortá en cubos.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Armar la base",
+        "instruction": "Lavá la rúcula, trozala con las manos en una ensaladera y agregá el ananá en cubos y el queso parmesano.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Aderezar y servir",
+        "instruction": "Emulsioná el jugo de limón con aceite, sal y pimienta; rociá sobre la ensalada con el pollo tibio.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "34g",
+      "carbs": "19g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "mch-matambre-pollo-panceta-ciruelas",
+    "title": "Matambre de Pollo Arrollado con Panceta y Ciruelas",
+    "subtitle": "Pollo deshuesado relleno de queso fontina, panceta ahumada y ciruelas.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "50 min",
+    "totalTime": "1 h 15 min",
+    "servings": 6,
+    "calories": 435,
+    "ingredients": [
+      "1 pollo entero deshuesado (1,5 kg)",
+      "10 fetas de panceta ahumada",
+      "200 g de queso fontina o dambo en bastones",
+      "4 ciruelas pasas sin carozo hidratadas",
+      "2 cdas de manteca",
+      "200 ml de caldo de pollo",
+      "Perejil picado, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Extender y rellenar",
+        "instruction": "Extendé el pollo deshuesado con la piel hacia abajo, salpimentá y cubrí con las fetas de panceta, los bastones de queso, el perejil y las ciruelas.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Arrollar y atar",
+        "instruction": "Enrollá formando un cilindro firme, cosé o cerrá los bordes y atá con piolín de cocina como un matambre.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Untá con manteca, cubrí con papel aluminio, volcá el caldo en la asadera y horneá a 180 °C durante 50 minutos (destapando los últimos 10 minutos para dorar).",
+        "timerMinutes": 50
+      }
+    ],
+    "nutrition": {
+      "protein": "38g",
+      "carbs": "6g",
+      "fat": "28g"
+    }
+  },
+  {
+    "id": "mch-salmon-tomate-cebolla-morron",
+    "title": "Salmón al Horno con Tomate, Cebolla y Morrón",
+    "subtitle": "Filetes de salmón horneados bajo colchón de verduras salteadas.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 375,
+    "ingredients": [
+      "4 filetes de salmón sin espinas (800 g)",
+      "2 cebollas en juliana",
+      "1/2 morrón rojo en juliana",
+      "1/2 morrón verde en juliana",
+      "2 tomates pelados en juliana",
+      "50 ml de aceite de oliva",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Saltear las verduras",
+        "instruction": "Rehogá las cebollas, los morrones y los tomates en el aceite de oliva durante 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Cubrir el salmón",
+        "instruction": "Acomodá los filetes de salmón salpimentados en una fuente y volcá el salteado de verduras encima.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Llevá a horno moderado a 175 °C durante 20 minutos hasta que el pescado esté tierno.",
+        "timerMinutes": 20
+      }
+    ],
+    "nutrition": {
+      "protein": "38g",
+      "carbs": "8g",
+      "fat": "21g"
+    }
+  },
+  {
+    "id": "mch-salmon-especiado-curry",
+    "title": "Salmón Especiado al Curry y Limón",
+    "subtitle": "Salmón rápido al horno bañado en salsa cremosa de manteca, limón y curry.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min",
+    "servings": 4,
+    "calories": 440,
+    "ingredients": [
+      "4 filetes de salmón con piel",
+      "1 cda de curry picante o suave",
+      "Jugo de 2 limones",
+      "100 ml de vino blanco",
+      "80 g de manteca",
+      "2 cdas de aceite de oliva",
+      "2 dientes de ajo rallados, laurel y sal"
+    ],
+    "steps": [
+      {
+        "title": "Hornear el salmón",
+        "instruction": "En una placa colocá aceite, vino blanco, laurel y 1/2 cda de curry. Acomodá los filetes con la piel hacia arriba y horneá a 200 °C por 7 a 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Preparar la crema de curry",
+        "instruction": "Mientras tanto fundí la manteca a fuego suave con el ajo, el resto del curry y el jugo de limón batiendo constantemente hasta emulsionar.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Servir",
+        "instruction": "Retirá la piel del salmón (saldrá sola), emplatá y salseá con la crema de curry caliente.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "36g",
+      "carbs": "3g",
+      "fat": "31g"
+    }
+  },
+  {
+    "id": "mch-bocaditos-merluza-papa",
+    "title": "Bocaditos Crocantes de Merluza y Papa",
+    "subtitle": "Bolitas rebozadas de puré de papa y merluza cocida con perejil.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepTime": "25 min",
+    "cookTime": "15 min",
+    "totalTime": "40 min",
+    "servings": 2,
+    "calories": 380,
+    "ingredients": [
+      "300 g de filet de merluza",
+      "2 papas grandes",
+      "1 huevo batido",
+      "50 g de harina 0000",
+      "80 g de pan rallado",
+      "1 cda de perejil fresco picado",
+      "Aceite para freír, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Hacer el puré y cocinar la merluza",
+        "instruction": "Herví las papas, hacé un puré con perejil y pimienta. Aparte herví la merluza 5 minutos, escurrí bien y desmenuzá.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Mezclar y enfriar",
+        "instruction": "Uní el pescado con el puré y llevá a heladera 1 hora para que tome firmeza.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Armar, rebozar y freír",
+        "instruction": "Formá bolitas, pasalas por harina, huevo batido y pan rallado y freí en aceite caliente hasta dorar.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "28g",
+      "carbs": "38g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": "mch-chupin-merluza-vino-blanco",
+    "title": "Chupín de Merluza al Vino Blanco",
+    "subtitle": "Guisado marinero aromático de merluza en salsa de tomate y orégano.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 310,
+    "ingredients": [
+      "1 kg de merluza cortada en trozos",
+      "2 cebollas picadas",
+      "3 dientes de ajo picados",
+      "250 ml de puré de tomate",
+      "200 ml de vino blanco",
+      "3 cdas de perejil picado",
+      "3 cdas de orégano",
+      "2 hojas de laurel, 2 cdas de aceite, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Preparar la salsa",
+        "instruction": "En una olla a fuego suave cociná el aceite con las cebollas, el ajo, el puré de tomate y el vino blanco hasta evaporar el alcohol.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Condimentar",
+        "instruction": "Agregá el perejil, el laurel y el orégano y dejá tomar sabor 3 minutos.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Cocinar la merluza",
+        "instruction": "Incorporá los trozos de merluza, bajá a fuego moderado y cociná 8 a 10 minutos sin revolver brusco.",
+        "timerMinutes": 9
+      }
+    ],
+    "nutrition": {
+      "protein": "42g",
+      "carbs": "10g",
+      "fat": "7g"
+    }
+  },
+  {
+    "id": "mch-caballa-plancha-especiada",
+    "title": "Caballa a la Plancha Especiada",
+    "subtitle": "Caballa abierta cocida del lado de la piel tapada con aluminio.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepTime": "5 min",
+    "cookTime": "10 min",
+    "totalTime": "15 min",
+    "servings": 2,
+    "calories": 285,
+    "ingredients": [
+      "1 caballa entera abierta al medio limpia",
+      "1 cda de aceite",
+      "1/2 cdita de pimentón",
+      "1/2 cdita de ají molido",
+      "Sal gruesa y pimienta a gusto",
+      "Papel aluminio"
+    ],
+    "steps": [
+      {
+        "title": "Calentar la plancha",
+        "instruction": "Calentá una plancha con un poco de aceite y disponé la caballa con la piel hacia abajo.",
+        "timerMinutes": 3
+      },
+      {
+        "title": "Condimentar y tapar",
+        "instruction": "Condimentá la carne con sal gruesa, pimienta, pimentón y ají molido, y cubrí con un trozo de papel aluminio.",
+        "timerMinutes": 2
+      },
+      {
+        "title": "Cocinar",
+        "instruction": "Cociná durante 8 a 10 minutos sin darla vuelta hasta que la carne quede blanca y firme.",
+        "timerMinutes": 9
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "1g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "mch-atun-al-horno",
+    "title": "Lomo de Atún Fresco al Horno",
+    "subtitle": "Atún marinado brevemente con ajo, orégano y aceite de oliva.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepTime": "20 min",
+    "cookTime": "18 min",
+    "totalTime": "38 min",
+    "servings": 4,
+    "calories": 325,
+    "ingredients": [
+      "1 kg de lomo de atún fresco",
+      "3 dientes de ajo picados",
+      "1 cda de orégano",
+      "3 cdas de aceite de oliva",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Marinar el atún",
+        "instruction": "Colocá el lomo de atún en una fuente, frotá con ajo picado, orégano, sal, pimienta y aceite de oliva. Reposá 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Llevá a horno precalentado a 180 °C durante 15 a 20 minutos según el grosor.",
+        "timerMinutes": 18
+      },
+      {
+        "title": "Servir",
+        "instruction": "Retirá y serví acompañado de puré o vegetales salteados.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "56g",
+      "carbs": "1g",
+      "fat": "10g"
+    }
+  },
+  {
+    "id": "mch-trucha-ajillo-papas-vapor",
+    "title": "Trucha al Ajillo con Papas al Vapor",
+    "subtitle": "Trucha abierta dorada en sartén con ajo y perejil, servida con vegetales.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 2,
+    "calories": 340,
+    "ingredients": [
+      "1 trucha entera limpia y abierta",
+      "1 papa grande en rodajas finas",
+      "1 tomate en rodajas",
+      "2 dientes de ajo picados",
+      "2 cdas de perejil fresco picado",
+      "2 cdas de aceite, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar vegetales al vapor",
+        "instruction": "Cociná al vapor las rodajas de papa y el tomate durante 12 minutos hasta que la papa esté tierna.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Cocinar la trucha",
+        "instruction": "Salpimentá la trucha y cocinala en sartén con aceite caliente 4 minutos por lado.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Terminar al ajillo",
+        "instruction": "Espolvoreá ajo y perejil picados sobre el pescado caliente y serví con los vegetales.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "31g",
+      "carbs": "21g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "mch-brocheta-conejo-panceta",
+    "title": "Brochetas de Conejo y Panceta",
+    "subtitle": "Pinchos grillados de conejo intercalado con panceta, morrón y cebolla.",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "totalTime": "35 min",
+    "servings": 5,
+    "calories": 320,
+    "ingredients": [
+      "1 kg de carne de conejo trozada sin hueso",
+      "150 g de panceta en trozos",
+      "1 morrón rojo o verde en cuadrados",
+      "2 cebollas en cuartos",
+      "Jugo de 1 limón",
+      "Hierbas aromáticas, sal y pimienta",
+      "10 palillos de brocheta"
+    ],
+    "steps": [
+      {
+        "title": "Condimentar y armar",
+        "instruction": "Condimentá el conejo y las verduras con hierbas, sal y pimienta. Insertá en cada palillo conejo, panceta, morrón y cebolla.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Pincelar con limón",
+        "instruction": "Pincelá las brochetas con jugo de limón antes de llevar al fuego.",
+        "timerMinutes": 2
+      },
+      {
+        "title": "Asar",
+        "instruction": "Cociná en parrilla o horno fuerte a 200 °C durante 15 minutos girando para dorar parejo.",
+        "timerMinutes": 15
+      }
+    ],
+    "nutrition": {
+      "protein": "35g",
+      "carbs": "6g",
+      "fat": "17g"
+    }
+  },
+  {
+    "id": "mch-conejo-cacerola-vino",
+    "title": "Conejo a la Cacerola al Vino Blanco",
+    "subtitle": "Guiso tierno de conejo de cocción lenta con puerro, zanahoria y tomillo.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "1 h 30 min",
+    "totalTime": "1 h 50 min",
+    "servings": 4,
+    "calories": 395,
+    "ingredients": [
+      "1 conejo trozado en presas chicas",
+      "1 cebolla y 2 puerros picados",
+      "2 zanahorias en rodajas",
+      "3 tomates perita picados sin semillas",
+      "4 dientes de ajo machacados",
+      "3 ramitas de tomillo",
+      "300 ml de vino blanco seco",
+      "200 ml de caldo de verduras",
+      "4 cdas de harina, 4 cdas de aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Rehogar base y enharinar conejo",
+        "instruction": "Salpimentá y pasá las presas de conejo por harina. En una cacerola con aceite rehogá ajo, cebolla y puerro hasta transparentar.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Sumar zanahoria y vino",
+        "instruction": "Agregá el conejo y las zanahorias, verté el vino blanco y dejá evaporar el alcohol.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Cocinar lento",
+        "instruction": "Incorporá los tomates, el tomillo y caldo si hace falta; cociná tapado a fuego muy suave 1 hora y 20 minutos hasta que esté bien tierno.",
+        "timerMinutes": 80
+      }
+    ],
+    "nutrition": {
+      "protein": "41g",
+      "carbs": "18g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "mch-croquetas-conejo-arroz",
+    "title": "Croquetas de Conejo y Arroz",
+    "subtitle": "Croquetas cremosas por dentro con arroz cocido en leche y queso.",
+    "metodo": "cocina",
+    "momento": "snacks",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepTime": "25 min",
+    "cookTime": "25 min",
+    "totalTime": "50 min",
+    "servings": 6,
+    "calories": 315,
+    "ingredients": [
+      "600 g de medio conejo hervido y despulpado",
+      "120 g de arroz blanco o basmati crudo",
+      "250 ml de leche",
+      "250 ml de agua",
+      "2 cdas de queso rallado",
+      "2 huevos batidos",
+      "1 cdita de perejil picado",
+      "Harina, pan rallado, semillas opcionales, aceite para freír y salsa de tomate"
+    ],
+    "steps": [
+      {
+        "title": "Cocinar el arroz en leche",
+        "instruction": "Cociná el arroz lentamente en la leche y agua con sal hasta que absorba todo el líquido. Dejá enfriar.",
+        "timerMinutes": 18
+      },
+      {
+        "title": "Mezclar y formar croquetas",
+        "instruction": "Uní el conejo picado fino con el arroz frío, queso rallado, perejil y pimienta. Armá unas 30 croquetas con las manos húmedas.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Rebozar y freír",
+        "instruction": "Pasá por harina, huevo batido y pan rallado con semillas; freí en aceite caliente y serví con salsa de tomate tibia.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "23g",
+      "carbs": "29g",
+      "fat": "11g"
+    }
+  },
+  {
+    "id": "mch-ensalada-cocida-conejo",
+    "title": "Ensalada Tibia o Fría de Conejo y Morrones",
+    "subtitle": "Conejo hervido en trozos intercalado con morrones salteados y aceitunas.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "35 min",
+    "totalTime": "50 min",
+    "servings": 5,
+    "calories": 270,
+    "ingredients": [
+      "1 kg de conejo",
+      "1 morrón rojo en tiras",
+      "1 morrón verde en tiras",
+      "1 cebolla en pluma",
+      "2 tomates en cubos",
+      "50 g de aceitunas descarozadas",
+      "2 cdas de vinagre de vino",
+      "3 cdas de aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Hervir el conejo",
+        "instruction": "Herví el conejo en agua con sal durante 30 minutos hasta que esté tierno; dejá entibiar, deshuesá y cortá en trozos.",
+        "timerMinutes": 30
+      },
+      {
+        "title": "Saltear los vegetales",
+        "instruction": "Salteá a fuego vivo los morrones, cebolla y tomates; sumá las aceitunas, sal, pimienta y el vinagre. Dejá enfriar.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Armar la fuente",
+        "instruction": "Disponé en una fuente capas alternadas de conejo y vegetales, y rociá con aceite de oliva.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "29g",
+      "carbs": "8g",
+      "fat": "13g"
+    }
+  },
+  {
+    "id": "mch-muslitos-conejo-papillote",
+    "title": "Muslitos de Conejo al Papillote con Panceta",
+    "subtitle": "Muslos tiernos horneados en aluminio con hierbas, ajo, limón y panceta.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "55 min",
+    "totalTime": "1 h 10 min",
+    "servings": 4,
+    "calories": 335,
+    "ingredients": [
+      "4 muslos grandes de conejo",
+      "8 fetas de panceta",
+      "2 dientes de ajo picados",
+      "2 cdas de hierbas aromáticas picadas",
+      "Jugo de 1/2 limón",
+      "3 cdas de aceite, sal y pimienta",
+      "Papel aluminio"
+    ],
+    "steps": [
+      {
+        "title": "Marinar los muslos",
+        "instruction": "Untá los muslos con aceite, jugo de limón, ajo y hierbas picadas.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Armar los paquetes",
+        "instruction": "Colocá cada muslo sobre un cuadro de papel aluminio aceitado, cubrí con 2 fetas de panceta y cerrá herméticamente dejando espacio para el vapor.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Cociná en horno fuerte a 200 °C durante 50 a 55 minutos hasta que queden bien tiernos.",
+        "timerMinutes": 55
+      }
+    ],
+    "nutrition": {
+      "protein": "33g",
+      "carbs": "2g",
+      "fat": "21g"
+    }
+  },
+  {
+    "id": "mch-matambrito-cerdo-arrollado-parrilla",
+    "title": "Matambrito de Cerdo Arrollado a la Parrilla",
+    "subtitle": "Matambre de cerdo relleno con zanahoria y puerro asado en aluminio.",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "1 h 30 min",
+    "totalTime": "1 h 50 min",
+    "servings": 6,
+    "calories": 410,
+    "ingredients": [
+      "1 matambre de cerdo desgrasado",
+      "2 zanahorias en juliana",
+      "2 puerros en juliana",
+      "Hierbas aromáticas picadas a gusto",
+      "Sal y pimienta a gusto",
+      "Hilo de cocina y papel aluminio"
+    ],
+    "steps": [
+      {
+        "title": "Rellenar y enrollar",
+        "instruction": "Extendé el matambre, cubrí un borde largo con las zanahorias, puerros, hierbas y pimienta. Enrollá firme y atá con hilo.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Envolver",
+        "instruction": "Envolvé el arrollado con papel aluminio sin apretar demasiado los extremos.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Asar a la parrilla",
+        "instruction": "Cociná sobre la parrilla a fuego medio durante 1 hora y media hasta que al pincharlo los jugos salgan claros.",
+        "timerMinutes": 90
+      }
+    ],
+    "nutrition": {
+      "protein": "32g",
+      "carbs": "7g",
+      "fat": "28g"
+    }
+  },
+  {
+    "id": "mch-ensalada-espinaca-panceta-champinones",
+    "title": "Ensalada de Espinaca, Panceta Crocante y Champiñones",
+    "subtitle": "Ensalada fresca tibia con tomates cherry, queso parmesano y huevo.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepTime": "15 min",
+    "cookTime": "8 min",
+    "totalTime": "23 min",
+    "servings": 4,
+    "calories": 325,
+    "ingredients": [
+      "3 atados de espinaca fresca limpia",
+      "250 g de panceta ahumada en tiras",
+      "200 g de champiñones fileteados",
+      "200 g de tomates cherry en mitades",
+      "6 huevos de codorniz cocidos (o 3 huevos duros en cuartos)",
+      "40 g de queso parmesano en escamas",
+      "3 cdas de aceite de oliva"
+    ],
+    "steps": [
+      {
+        "title": "Dorar la panceta y hervir huevos",
+        "instruction": "Dorá las tiras de panceta en sartén sin aceite extra hasta que queden crocantes. Aparte herví los huevos y pelalos.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Armar la fuente",
+        "instruction": "Disponé las hojas de espinaca frescas en una fuente y repartí encima la panceta tibia, champiñones, tomates cherry y huevos.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Terminar",
+        "instruction": "Sumá las escamas de parmesano y rociá con aceite de oliva justo antes de servir.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "18g",
+      "carbs": "6g",
+      "fat": "25g"
+    }
+  },
+  {
+    "id": "mch-lomitos-cerdo-verduras-mostaza",
+    "title": "Lomitos de Cerdo Grillados con Salsa de Mostaza y Mermelada",
+    "subtitle": "Medallones de solomillo con papas, morrones y aderezo agridulce.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 485,
+    "ingredients": [
+      "4 lomitos o solomillos chicos de cerdo",
+      "1 kg de papas en rodajas",
+      "1 morrón amarillo y 1 verde en trozos",
+      "2 cabezas de ajo cortadas al medio",
+      "100 g de mermelada de naranja o damasco",
+      "50 g de mostaza en granos",
+      "4 cdas de hierbas frescas picadas",
+      "Aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Grillar las papas",
+        "instruction": "Pincelá las rodajas de papa con aceite de oliva y grillalas en plancha hasta dorar y tiernizar. Reservá.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Grillar cerdo y verduras",
+        "instruction": "Cociná los lomitos desgrasados 5 minutos por lado junto con los morrones y los ajos boca abajo.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Salsear y servir",
+        "instruction": "Pincelá los lomitos con las hierbas y aceite de oliva, y serví con la mezcla de mermelada y mostaza.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "33g",
+      "carbs": "54g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "mch-carre-cerdo-cerveza-negra",
+    "title": "Carré de Cerdo a la Cerveza Negra",
+    "subtitle": "Carré entero horneado lentamente con mostaza y cerveza negra.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "10 min",
+    "cookTime": "55 min",
+    "totalTime": "1 h 5 min",
+    "servings": 6,
+    "calories": 370,
+    "ingredients": [
+      "1 kg de carré de cerdo",
+      "1 l de cerveza negra",
+      "4 cdas de mostaza",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Adobar el carré",
+        "instruction": "Untá todo el carré de cerdo con la mostaza, sal y pimienta.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Hornear en cerveza",
+        "instruction": "Acomodá en una asadera profunda, cubrí hasta la mitad con cerveza negra y llevá a horno fuerte a 200 °C por 50 a 60 minutos.",
+        "timerMinutes": 55
+      },
+      {
+        "title": "Reposar y cortar",
+        "instruction": "Dejá reposar 5 minutos fuera del horno antes de filetear y servir con su salsa de cocción.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "36g",
+      "carbs": "9g",
+      "fat": "16g"
+    }
+  },
+  {
+    "id": "mch-albondigas-cerdo-barbacoa",
+    "title": "Albóndigas de Cerdo a la Barbacoa",
+    "subtitle": "Albóndigas horneadas bañadas en salsa barbacoa casera con miel y jengibre.",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "20 min",
+    "cookTime": "20 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 410,
+    "ingredients": [
+      "500 g de carne picada de cerdo",
+      "2 cebollas de verdeo picadas",
+      "4 dientes de ajo picados",
+      "Ralladura de 1 limón",
+      "Harina para rebozar y pimienta",
+      "Salsa: 150 g de puré de tomate, 2 cdas de miel, 4 cdas de vinagre de vino tinto, 3 cdas de mostaza, 4 cdas de ketchup, 1 cda de jengibre rallado, orégano, pimentón y ají molido"
+    ],
+    "steps": [
+      {
+        "title": "Formar las albóndigas",
+        "instruction": "Amasá la carne de cerdo con verdeo, 2 ajos, ralladura de limón y pimienta. Reposá 30 minutos en heladera, armá las albóndigas y pasalas por harina.",
+        "timerMinutes": 15
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Colocá en placa enmantecada y horneá a 180 °C durante 10 a 12 minutos.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Preparar la salsa barbacoa",
+        "instruction": "Mezclá todos los ingredientes de la salsa en una cacerola desde frío, llevá a hervor y reducí 8 minutos hasta espesar. Bañá las albóndigas.",
+        "timerMinutes": 10
+      }
+    ],
+    "nutrition": {
+      "protein": "27g",
+      "carbs": "32g",
+      "fat": "19g"
+    }
+  },
+  {
+    "id": "mch-chuletas-cerdo-naranja-batatas",
+    "title": "Chuletas de Cerdo en Salsa de Naranja con Batatas",
+    "subtitle": "Costillitas de cerdo glaseadas con naranja y guarnición de batatas al horno.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 6,
+    "calories": 470,
+    "ingredients": [
+      "8 chuletas de cerdo",
+      "150 ml de jugo de naranja",
+      "50 ml de licor de naranja (opcional)",
+      "3 cdas de azúcar",
+      "1 cdita de coriandro molido",
+      "60 g de manteca fría en cubos",
+      "4 batatas en bastones",
+      "Aceite de oliva, tomillo, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Hornear las batatas",
+        "instruction": "Condimentá los bastones de batata con aceite de oliva, tomillo y pimienta; horneá a 200 °C durante 25 minutos hasta dorar.",
+        "timerMinutes": 25
+      },
+      {
+        "title": "Sellar y glasear el cerdo",
+        "instruction": "Sellá las chuletas en sartén caliente por ambos lados, desgrasá y agregá el licor, jugo de naranja, azúcar y coriandro. Reducí girando las piezas hasta dar brillo.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Montar la salsa",
+        "instruction": "Retirá las chuletas y fuera del fuego incorporá la manteca fría batiendo para ligar la salsa.",
+        "timerMinutes": 3
+      }
+    ],
+    "nutrition": {
+      "protein": "31g",
+      "carbs": "37g",
+      "fat": "22g"
+    }
+  },
+  {
+    "id": "mch-pan-de-carne-clasico",
+    "title": "Pan de Carne Clásico al Horno",
+    "subtitle": "Receta tradicional rendidora de carne picada con miga de pan y cebolla.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "40 min",
+    "totalTime": "55 min",
+    "servings": 4,
+    "calories": 380,
+    "ingredients": [
+      "600 g de carne vacuna picada",
+      "1 cebolla picada",
+      "1 huevo batido",
+      "100 g de miga de pan remojada en leche y exprimida",
+      "2 cdas de perejil picado",
+      "1 cda de aceite, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Rehogar la cebolla",
+        "instruction": "Rehogá la cebolla en aceite hasta que quede transparente y dejá entibiar.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Amasar el pan de carne",
+        "instruction": "Uní la carne picada con la cebolla, el huevo batido, la miga de pan exprimida, perejil, sal y pimienta.",
+        "timerMinutes": 6
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Colocá en budinera enmantecada presionando bien y horneá a 180 °C durante 40 minutos hasta completar la cocción.",
+        "timerMinutes": 40
+      }
+    ],
+    "nutrition": {
+      "protein": "34g",
+      "carbs": "14g",
+      "fat": "20g"
+    }
+  },
+  {
+    "id": "mch-relleno-carne-empanadas-tartas",
+    "title": "Relleno Tradicional de Carne para Empanadas y Tartas",
+    "subtitle": "Pino clásico uruguayo con cebolla, morrón, comino, huevo duro y aceitunas.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "totalTime": "35 min",
+    "servings": 4,
+    "calories": 315,
+    "ingredients": [
+      "400 g de carne vacuna picada o cortada a cuchillo",
+      "400 g de cebolla picada",
+      "1 morrón rojo picado",
+      "1 huevo duro picado",
+      "6 aceitunas verdes picadas",
+      "1 cdita de pimentón dulce",
+      "1/2 cdita de comino",
+      "2 cdas de aceite, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Saltear cebolla y morrón",
+        "instruction": "Rehogá la cebolla y el morrón en aceite con sal durante 8 minutos hasta transparentar.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Cocinar la carne",
+        "instruction": "Agregá la carne picada, condimentá con pimentón, comino y pimienta y cociná 10 minutos revolviendo.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Enfriar e integrar",
+        "instruction": "Retirá del fuego, sumá las aceitunas y el huevo duro en cubitos y dejá enfriar por completo antes de rellenar.",
+        "timerMinutes": 5
+      }
+    ],
+    "nutrition": {
+      "protein": "23g",
+      "carbs": "12g",
+      "fat": "19g"
+    }
+  },
+  {
+    "id": "mch-albondigas-nalga-tomate",
+    "title": "Albóndigas de Nalga con Salsa de Tomate",
+    "subtitle": "Albóndigas jugosas selladas al horno y terminadas en salsa natural.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "totalTime": "40 min",
+    "servings": 4,
+    "calories": 440,
+    "ingredients": [
+      "800 g de nalga vacuna picada",
+      "2 huevos",
+      "60 g de pan rallado",
+      "1 lata de tomate perita triturado",
+      "2 dientes de ajo picados",
+      "2 cdas de perejil picado",
+      "2 cdas de aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Armar y dorar las albóndigas",
+        "instruction": "Mezclá la nalga con pan rallado, perejil, huevos, sal y pimienta. Formá albóndigas medianas y doralas en horno a 200 °C por 12 minutos rotándolas.",
+        "timerMinutes": 12
+      },
+      {
+        "title": "Preparar la salsa",
+        "instruction": "Calentá el tomate triturado con el ajo picado, aceite de oliva y sal en una cacerola.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Terminar la cocción",
+        "instruction": "Incorporá las albóndigas doradas a la salsa y cociná suave 12 minutos más.",
+        "timerMinutes": 12
+      }
+    ],
+    "nutrition": {
+      "protein": "46g",
+      "carbs": "16g",
+      "fat": "21g"
+    }
+  },
+  {
+    "id": "mch-cuadril-encebollado",
+    "title": "Bifecitos de Cuadril Encebollados",
+    "subtitle": "Bifes tiernos a la sartén con abundante cebolla, morrón verde y tomate.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 365,
+    "ingredients": [
+      "4 bifecitos de cuadril",
+      "2 cebollas grandes en rodajas",
+      "1 morrón verde en juliana",
+      "2 tomates picados",
+      "2 cdas de aceite",
+      "1 cda de manteca",
+      "Perejil picado, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Sellar los bifes",
+        "instruction": "Salpimentá los bifecitos y sellalos en sartén grande con aceite y manteca bien calientes 2 minutos por lado.",
+        "timerMinutes": 5
+      },
+      {
+        "title": "Sumar los vegetales",
+        "instruction": "Agregá encima las cebollas, el morrón verde y los tomates; remové suavemente para que suelten sus jugos.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Servir",
+        "instruction": "Cuando la cebolla esté tierna y dorada, espolvoreá perejil y serví de inmediato.",
+        "timerMinutes": 2
+      }
+    ],
+    "nutrition": {
+      "protein": "35g",
+      "carbs": "11g",
+      "fat": "19g"
+    }
+  },
+  {
+    "id": "mch-medallones-lomo-mostaza",
+    "title": "Medallones de Lomo a la Mostaza",
+    "subtitle": "Lomo tierno marinado y servido con salsa tibia de queso crema y cúrcuma.",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "12 min",
+    "totalTime": "27 min",
+    "servings": 4,
+    "calories": 395,
+    "ingredients": [
+      "8 medallones chicos de lomo (700 g)",
+      "3 cdas de mostaza",
+      "4 cdas de queso crema",
+      "100 g de salsa de tomate",
+      "2 cdas de jugo de limón",
+      "1/2 cdita de cúrcuma",
+      "Sal, pimienta y 1 cda de aceite"
+    ],
+    "steps": [
+      {
+        "title": "Marinar el lomo",
+        "instruction": "Adobá los medallones con 1 cda de mostaza, salsa de tomate, limón y pimienta y refrigerá 30 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Preparar la salsa de mostaza",
+        "instruction": "Mezclá el queso crema con el resto de la mostaza y la cúrcuma y entibiá suavemente en sartén o cacerola chica.",
+        "timerMinutes": 4
+      },
+      {
+        "title": "Sellar y salsear",
+        "instruction": "Cociná los medallones en sartén caliente 3 a 4 minutos por lado según el punto deseado y serví con la salsa caliente.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "39g",
+      "carbs": "5g",
+      "fat": "23g"
+    }
+  },
+  {
+    "id": "mch-milanesas-rellenas-jamon-queso",
+    "title": "Milanesas Rellenas de Jamón y Queso",
+    "subtitle": "Milanesas clásicas de cuadrada rellenas con queso fundido y jamón cocido.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "calories": 465,
+    "ingredients": [
+      "4 bifes finos o bolsillos de cuadrada",
+      "4 fetas de jamón cocido",
+      "4 fetas de queso dambo o mozzarella",
+      "2 huevos batidos",
+      "80 g de harina 0000",
+      "150 g de pan rallado",
+      "Aceite para freír, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Rellenar la carne",
+        "instruction": "Salpimentá los bifes de cuadrada y colocá dentro o entre pares de bifes una feta de queso y una de jamón.",
+        "timerMinutes": 7
+      },
+      {
+        "title": "Empanar",
+        "instruction": "Pasá primero por harina, luego por huevo batido y finalmente por pan rallado presionando bien los bordes.",
+        "timerMinutes": 8
+      },
+      {
+        "title": "Freír",
+        "instruction": "Freí en aceite caliente a 175 °C durante 3 a 4 minutos por lado hasta que estén doradas y el queso fundido.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "37g",
+      "carbs": "25g",
+      "fat": "24g"
+    }
+  },
+  {
+    "id": "mch-carne-en-su-jugo",
+    "title": "Falda en su Jugo con Panceta y Porotos",
+    "subtitle": "Guiso sabroso de falda en tiras con cilantro, panceta y porotos cocidos.",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "totalTime": "1 h",
+    "servings": 4,
+    "calories": 520,
+    "ingredients": [
+      "1 kg de falda en tiras",
+      "100 g de panceta picada fina",
+      "2 tazas de porotos blancos previamente hervidos",
+      "1 cebolla y 1 diente de ajo grande",
+      "1 puñado de cilantro fresco",
+      "250 ml de caldo de ave",
+      "Sal y pimienta a gusto"
+    ],
+    "steps": [
+      {
+        "title": "Dorar panceta y carne",
+        "instruction": "Dorá la panceta en olla, retirá el exceso de grasa y sellá las tiras de falda.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Licuar verdes y cocinar",
+        "instruction": "Procesá el cilantro, la cebolla y el ajo con un poco de agua; volcá sobre la carne, tapá y cociná a fuego bajo 30 minutos hasta que esté tierna.",
+        "timerMinutes": 30
+      },
+      {
+        "title": "Sumar los porotos",
+        "instruction": "Agregá los porotos cocidos, el caldo y la pimienta y herví 8 minutos más para integrar sabores.",
+        "timerMinutes": 8
+      }
+    ],
+    "nutrition": {
+      "protein": "46g",
+      "carbs": "24g",
+      "fat": "26g"
+    }
+  },
+  {
+    "id": "mch-palomita-mechada-horno",
+    "title": "Palomita Mechada al Horno con Panceta",
+    "subtitle": "Corte magro marinado en vino blanco y mechado con panceta y mostaza.",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepTime": "25 min",
+    "cookTime": "1 h 10 min",
+    "totalTime": "1 h 35 min",
+    "servings": 4,
+    "calories": 430,
+    "ingredients": [
+      "1 kg de palomita vacuna entera",
+      "100 g de panceta ahumada picada",
+      "200 ml de vino blanco",
+      "6 dientes de ajo",
+      "1 cda de mostaza en grano",
+      "Tomillo, nuez moscada, aceite de oliva, sal y pimienta"
+    ],
+    "steps": [
+      {
+        "title": "Marinar la carne",
+        "instruction": "Mezclá 4 ajos picados con aceite, vino blanco, tomillo, nuez moscada y pimienta; macerá la palomita al menos 4 horas (o toda la noche) en heladera.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Mechar con panceta",
+        "instruction": "Realizá un corte longitudinal por el centro de la pieza y rellená con la panceta picada, los 2 ajos restantes, nuez moscada y mostaza en grano.",
+        "timerMinutes": 10
+      },
+      {
+        "title": "Hornear",
+        "instruction": "Rociá con la marinada y horneá a 180 °C durante 1 hora y 10 minutos bañando cada tanto hasta que quede bien dorada. Fileteá y serví.",
+        "timerMinutes": 70
+      }
+    ],
+    "nutrition": {
+      "protein": "48g",
+      "carbs": "2g",
+      "fat": "22g"
+    }
   }
 ]
