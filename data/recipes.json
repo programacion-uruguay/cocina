@@ -41329,5 +41329,1524 @@
         "timerMinutes": 15
       }
     ]
+  },
+  {
+    "id": "airfryer-huevos-horno-panecillos",
+    "title": "Huevos al Horno en Panecillos en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 8,
+    "cookMinutes": 22,
+    "temperatureC": 175,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Panecillos ahuecados rellenos con huevo, crema de leche, hierbas frescas y queso parmesano gratinado.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos grandes"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "panecillos redondos o porteños"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "perejil y ciboulette picados"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá la tapita superior de cada panecillo y ahuecá un poco la miga del centro dejando espacio para el huevo.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Acomodá los panecillos en la canasta de la freidora a 175 °C, cascá un huevo dentro de cada uno y cubrí con crema de leche, hierbas y parmesano.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Horneá durante 20 minutos hasta que el huevo cuaje y el pan esté crocante; luego colocá las tapitas encima y cociná 2 minutos más.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "airfryer-burrito-de-desayuno",
+    "title": "Burrito de Desayuno en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "temperatureC": 200,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Tortilla de trigo dorada y rellena de huevo revuelto, pollo cocido, palta, morrón y queso muzzarella.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pechuga de pollo cocida en fetas"
+      },
+      {
+        "amount": 0.25,
+        "unit": "unidad",
+        "item": "palta en rodajas"
+      },
+      {
+        "amount": 0.25,
+        "unit": "unidad",
+        "item": "morrón en tiras finas"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "tortilla de trigo grande"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí los huevos con sal y pimienta en un moldecito apto y cocinalos en la freidora a 200 °C por 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Rellená la tortilla con el huevo cocido, el pollo, la palta, el morrón y la muzzarella, y cerrala bien formando un burrito.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Llevá el burrito sobre papel aluminio a la freidora a 180 °C durante 3 minutos hasta que el queso funda y la tortilla quede crocante.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "airfryer-frittata-desayuno-chorizo",
+    "title": "Frittata de Desayuno con Chorizo y Cherry en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 6,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Frittata rápida en molde antiadherente con salchicha parrillera o chorizo fresco, tomates cherry y parmesano.",
+    "ingredients": [
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "chorizo fresco o salchicha parrillera sin piel"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "tomates cherry al medio"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "queso parmesano rallado y perejil picado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá el chorizo desmenuzado y los tomates cherry en un molde chico apto para freidora y cociná 5 minutos a 180 °C.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Batí los huevos con el aceite de oliva, el parmesano, el perejil, sal y pimienta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volcá los huevos batidos sobre el relleno en el molde y cociná 5 minutos más a 180 °C hasta que cuaje.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "airfryer-panchos-envueltos-masa-queso",
+    "title": "Panchos Envueltos en Masa con Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 4,
+    "temperatureC": 195,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Salchichas tipo pancho envueltas en triángulos de masa de tarta u hojaldre con queso fundido.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "salchichas tipo pancho"
+      },
+      {
+        "amount": 1,
+        "unit": "tapa",
+        "item": "masa de hojaldre o pascualina cortada en 8 triángulos"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso cheddar o dambo cortadas en tiras"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá una tira de queso y una salchicha en la base ancha de cada triángulo de masa y enrollá hacia la punta cerrando los bordes.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Acomodá en la canasta de la freidora sin encimar (en dos tandas si hace falta) y cociná a 195 °C durante 4 minutos hasta que la masa dore.",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "airfryer-sandwich-caliente-cheddar",
+    "title": "Sándwich Caliente de Queso Cheddar en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 8,
+    "temperatureC": 185,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Clásico sándwich tostado en freidora con pan de molde enmantecado por fuera y queso cheddar derretido.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rebanadas",
+        "item": "pan de molde"
+      },
+      {
+        "amount": 3,
+        "unit": "fetas",
+        "item": "queso cheddar"
+      },
+      {
+        "amount": 2,
+        "unit": "cditas",
+        "item": "manteca blanda"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Armá el sándwich con las fetas de queso cheddar y untá la manteca por la cara exterior de ambos panes.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 185 °C durante 8 minutos, dándolo vuelta a los 4 minutos para que dore parejo.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-panchos-gratinados-queso",
+    "title": "Panchos Gratinados con Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 4,
+    "cookMinutes": 7,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Panchos dorados en freidora de aire dentro de su pan con queso rallado derretido por encima.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "salchichas tipo pancho"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "panes de pancho"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "queso rallado o muzzarella"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentá la freidora a 200 °C y cociná las salchichas durante 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Colocá cada salchicha dentro de su pan, espolvoreá con queso por encima y llevá 2 minutos más a la freidora para gratinar.",
+        "timerMinutes": 2
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pizzeta-pan-pita",
+    "title": "Pizzeta en Pan Pita con Pepperoni en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "temperatureC": 175,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Pizzeta individual rápida sobre pan pita con salsa de tomate, muzzarella, longaniza o pepperoni y cebolla.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pan pita"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "salsa de tomate para pizza"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 7,
+        "unit": "rodajas",
+        "item": "pepperoni o longaniza fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla en rodajas finas y aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Esparcí la salsa de tomate sobre el pan pita y cubrí con muzzarella, pepperoni, cebolla y un chorrito de aceite de oliva.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Horneá en la freidora de aire a 175 °C durante 6 minutos hasta que el queso se funda y el borde quede crocante.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "airfryer-sandwich-reuben-pavita",
+    "title": "Sándwich Reuben de Pavita y Queso Suizo en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 6,
+    "cookMinutes": 12,
+    "temperatureC": 155,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Sándwich tostado en pan de centeno con pechuga de pavita o pollo, queso suizo, ensalada de repollo y salsa golf.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan de centeno o integral"
+      },
+      {
+        "amount": 8,
+        "unit": "fetas",
+        "item": "pechuga de pavita o jamón cocido"
+      },
+      {
+        "amount": 4,
+        "unit": "fetas",
+        "item": "queso suizo o gruyere"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "ensalada de repollo rallado (coleslaw)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "salsa golf o aderezo ruso"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Untá un lado de cada rebanada de pan con manteca y armá dos sándwiches rellenos con pavita, queso, repollo y salsa golf.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 155 °C durante 12 minutos, dándolos vuelta a los 6 minutos hasta que estén dorados.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-stromboli-jamon-quesos",
+    "title": "Stromboli de Jamón, Morrón y Quesos en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Calzone enrollado de masa de pizza relleno de jamón cocido, morrones asados, muzzarella y queso cheddar.",
+    "ingredients": [
+      {
+        "amount": 340,
+        "unit": "g",
+        "item": "masa de pizza estirada fina"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "jamón cocido en fetas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "queso cheddar rallado"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "morrones rojos asados en tiras"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "yema de huevo batida con 1 cda de leche"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Distribuí el jamón, los morrones asados y los quesos sobre la mitad de la masa de pizza estirada.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Doblá la masa cubriendo el relleno, sellá bien los bordes y pincelá por encima con la yema y la leche.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 180 °C durante 15 minutos, dando vuelta cada 5 minutos para que dore parejo.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bife-country-salsa-blanca",
+    "title": "Bife a la Milanesa Estilo Country con Salsa Blanca en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 12,
+    "temperatureC": 185,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Bife fino empanado con panko y especias en freidora de aire, acompañado de una salsa cremosa con pimienta.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "bife de nalga o cuadril tiernizado"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos batidos"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "pan rallado o panko"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina común"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "ajo en polvo, cebolla en polvo, sal y pimienta"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche para la salsa blanca con 2 cdas de harina y manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el panko con ajo en polvo, cebolla en polvo, sal y pimienta. Pasá los bifes por harina, huevo batido y panko.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 185 °C por 12 minutos hasta que queden bien dorados y crocantes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Mientras tanto, cociná en una sartén 2 cdas de manteca con 2 cdas de harina, sumá la leche de a poco y revolvé 3 minutos hasta espesar con abundante pimienta.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "airfryer-hamburguesas-caseras-clasicas",
+    "title": "Hamburguesas Caseras Clásicas en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "temperatureC": 175,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Hamburguesas jugosas de carne picada magra condimentadas con perejil, orégano, ajo y cebolla en polvo.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "carne picada magra"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "perejil seco y orégano"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdita",
+        "item": "ajo en polvo y cebolla en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "salsa inglesa (opcional)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá suavemente la carne picada con todos los condimentos sin amasar demasiado para que no quede dura.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Formá 4 hamburguesas haciéndoles una leve hendidura en el centro con el pulgar para que no se abomben.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 175 °C durante 10 minutos sin necesidad de voltear hasta alcanzar el punto deseado.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-entrecot-jugoso",
+    "title": "Entrecot Jugoso en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 14,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Bife ancho o entrecot sellado a alta temperatura en freidora de aire con aceite de oliva, sal y pimienta.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "entrecot o bife ancho grueso"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "sal gruesa y pimienta negra recién molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentá la freidora a 200 °C durante 4 minutos mientras dejás la carne a temperatura ambiente.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Untá el bife con aceite de oliva, sal y pimienta, y cociná 14 minutos a 200 °C dándolo vuelta a los 7 minutos.",
+        "timerMinutes": 14
+      },
+      {
+        "text": "Retirá y dejá reposar 10 minutos antes de filetear para conservar sus jugos.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "airfryer-arroz-frito-pollo-verduras",
+    "title": "Arroz Frito con Pollo y Verduras en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Arroz cocido frío salteado al aire con cubitos de pollo, zanahoria, arvejas, cebolla y salsa de soja.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "arroz blanco cocido y frío"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "pollo cocido en cubitos"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "arvejas y zanahoria en cubitos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla picada"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite vegetal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el arroz frío con el aceite vegetal y la salsa de soja en un bowl.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Incorporá el pollo cocido, la cebolla, las arvejas y la zanahoria mezclando bien.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volcá en un molde apto para freidora y cociná a 180 °C durante 20 minutos, revolviendo a mitad de cocción.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pollo-kiev-queso-ajo",
+    "title": "Pollo Kiev Relleno de Queso y Ajo en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Pechuga de pollo rellena de queso cremoso con ajo y perejil, empanada en pan rallado y dorada al aire.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pechuga de pollo mediana abierta en dos mitades"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso cremoso o untable firme"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado o en pasta"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "pan rallado con sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el queso con el ajo y la mitad del perejil; aplaná ligeramente las mitades de pechuga y rellenalas estilo sándwich.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Pasá la pechuga rellena por el huevo batido y luego por el pan rallado mezclado con el resto del perejil, sal y pimienta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 180 °C durante 25 minutos hasta que esté bien dorada por fuera y cocida por dentro.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pastel-de-pollo-papa",
+    "title": "Pastel de Pollo y Papa Cremoso en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 160,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Guiso cremoso de pollo, papa, crema de leche y hierbas cubierto con masa o panecillos dorados en freidora.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "tiras de pechuga de pollo"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "papas peladas en cubos chicos"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "crema de leche"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "caldo de verdura o pollo"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "tomillo y 1 hoja de laurel"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "masa de hojaldre o panecillos para cubrir, más 1 yema con leche"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cocé en una olla el pollo, las papas, la crema, el caldo, el tomillo y el laurel a fuego medio hasta que espese y pasalo a un molde apto.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Llevá el molde a la freidora a 160 °C durante 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cubrí con la masa o panecillos pincelados con yema y leche y cociná 10 minutos más a 150 °C hasta dorar.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-alitas-pollo-naranja",
+    "title": "Alitas de Pollo a la Naranja en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Alitas marinadas en jugo y ralladura de naranja, salsa inglesa, azúcar y hierbas aromáticas.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "unidades",
+        "item": "alitas de pollo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "naranja (jugo y ralladura)"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "salsa inglesa"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "hierbas picadas (tomillo, albahaca, orégano) y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mariné las alitas durante 30 minutos con el jugo y la ralladura de naranja, la salsa inglesa, el azúcar, las hierbas y pimienta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Llevá a la freidora a 180 °C durante 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Retirá la cáscara de naranja, pincelá las alitas con el jugo de la marinada y cociná 10 minutos más hasta caramelizar.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-salmon-cajun-limon",
+    "title": "Salmón Cajún al Limón en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 1,
+    "difficulty": "Muy fácil",
+    "description": "Posta o filete de salmón cubierto con mezcla de especias cajún y jugo de limón fresco, listo en 7 minutos.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "filete de salmón de 2 cm de grosor"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "condimento cajún (pimentón, ajo, orégano, pimienta)"
+      },
+      {
+        "amount": 0.25,
+        "unit": "unidad",
+        "item": "limón (su jugo)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentá la freidora a 180 °C por 5 minutos mientras secás bien el salmón y lo cubrís con el condimento cajún.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Cociná el filete con la piel hacia arriba durante 7 minutos a 180 °C y serví con jugo de limón.",
+        "timerMinutes": 7
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pescado-blanco-empanado",
+    "title": "Pescado Blanco Empanado al Limón en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Filetes de merluza o pescado blanco rebozados en pan rallado mezclado con aceite para lograr un dorado parejo.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "filetes de merluza o pescadilla"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite vegetal"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "limón en gajos y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá el pan rallado con el aceite vegetal y sal hasta humedecerlo de forma pareja.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Pasá los filetes de pescado por el huevo batido y luego por el pan rallado aceitado.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora precalentada a 180 °C durante 12 minutos y serví con gajos de limón.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tacos-pescado-crocante",
+    "title": "Tacos de Pescado Crocante en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 185,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Trozos de pescado blanco rebozados al aire servidos en tortillas con repollo rallado, guacamole, cilantro y limón.",
+    "ingredients": [
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "filetes de pescado blanco firme en trozos"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "harina con 1 cda de fécula de maíz y agua fría con gas"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "panko o pan rallado grueso"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "ensalada de repollo rallado y 100 g de guacamole"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "tortillas de trigo o maíz y gajos de limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Prepará una pasta liviana con la harina, fécula, sal y agua con gas; pasá el pescado salpimentado por la pasta y luego por el panko.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 185 °C durante 10 minutos, girando los trozos a los 5 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Armá los tacos con el pescado crocante, ensalada de repollo, guacamole, cilantro y jugo de limón.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "airfryer-coliflor-crocante-picante",
+    "title": "Coliflor Crocante Picante en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "temperatureC": 175,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Floretes de coliflor bañados en manteca con salsa picante y rebozados en panko para picar.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "coliflor en floretes medianos"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "pan rallado grueso o panko"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "salsa picante tipo búfalo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "sal marina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la manteca derretida con la salsa picante y sumergí cada floret dejando escurrir el exceso.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Pasá los floretes por el pan rallado mezclado con sal.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 175 °C durante 14 a 17 minutos hasta que estén bien crocantes.",
+        "timerMinutes": 16
+      }
+    ]
+  },
+  {
+    "id": "airfryer-champinones-dos-quesos",
+    "title": "Champiñones Gratinados con Dos Quesos en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 6,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Tapas de champiñones condimentadas con hierbas italianas y rellenas con muzzarella y queso cheddar fundidos.",
+    "ingredients": [
+      {
+        "amount": 10,
+        "unit": "unidades",
+        "item": "champiñones frescos sin tallo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso muzzarella rallado"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "queso cheddar rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "hierbas secas (orégano, albahaca), sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Condimentá los champiñones con aceite de oliva, hierbas, sal y pimienta, y acomodalos con el hueco hacia arriba.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Rellená cada tapa con la mezcla de muzzarella y cheddar y cociná en la freidora precalentada a 180 °C durante 8 minutos.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-choclos-asados-queso-limon",
+    "title": "Choclos Asados con Queso y Limón en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 5,
+    "cookMinutes": 14,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Choclos en mazorca asados con pimentón y oliva, terminados con queso desmenuzado y jugo de lima o limón.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "choclos enteros pelados"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cditas",
+        "item": "pimentón dulce"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso feta o queso fresco desmenuzado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "lima o limón (su jugo)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Frotá los choclos con aceite de oliva y espolvorealos parejo con el pimentón.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 200 °C de 12 a 15 minutos girándolos a mitad de cocción.",
+        "timerMinutes": 14
+      },
+      {
+        "text": "Retirá y serví con el queso desmenuzado y un buen chorrito de jugo de limón.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "airfryer-crutones-caseros",
+    "title": "Crutones Caseros en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 4,
+    "cookMinutes": 6,
+    "temperatureC": 140,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Cubos de pan del día anterior tostados a baja temperatura con manteca derretida y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "pan duro cortado en cubos"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva y pizca de sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los cubos de pan en un bowl con la manteca derretida, el aceite de oliva y la sal.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 140 °C durante 3 minutos, sacudí la canasta y cociná 3 minutos más hasta que queden crocantes.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "airfryer-nudos-pan-ajo-parmesano",
+    "title": "Nudos de Pan al Ajo y Parmesano en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bollitos de masa de pizza anudados y embebidos en aceite de oliva, ajo, perejil y queso parmesano.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "masa de pizza"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "ajo picado fino"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso parmesano rallado y 1 cdita de sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Estirá la masa, cortala en tiras de 2 cm y formá un nudo con cada tira.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Pasá los nudos por la mezcla de aceite de oliva, ajo, perejil, sal y parmesano.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora a 180 °C durante 12 minutos, dándolos vuelta a mitad de tiempo.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-papas-rellenas-dos-cocciones",
+    "title": "Papas Rellenas Dos Veces Horneadas en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Papas asadas enteras en freidora, ahuecadas y gratinadas con su propio puré, panceta, queso, verdeo y manteca.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "papas medianas lavadas"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "panceta en cubitos dorada"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso rallado o muzzarella"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "manteca y 2 cdas de crema de leche"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "cebolla de verdeo picada, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pincelá las papas con aceite y cocinalas enteras en la freidora a 200 °C durante 30 minutos (15 de cada lado) hasta que estén tiernas.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Dejá entibiar, cortá a lo largo, ahuecá la pulpa y pisala con la manteca, la crema, la panceta, parte del queso y el verdeo.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Rellená las cáscaras con el puré, cubrí con el resto del queso y gratiná 15 a 20 minutos más hasta que dore.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-garbanzos-eneldo-limon",
+    "title": "Garbanzos Crocantes al Eneldo y Limón en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Snack crocante de garbanzos tostados con ajo en polvo, eneldo seco, aceite de oliva y jugo de limón.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "garbanzos cocidos y bien escurridos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "cditas",
+        "item": "eneldo seco"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "jugo de limón y 1 cdita de sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los garbanzos con la mitad del aceite de oliva y cociná en la freidora a 200 °C por 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Retirá, mezclalos con el resto del aceite, el ajo en polvo, el eneldo, el jugo de limón y la sal.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Volvé a la freidora a 175 °C por 5 minutos más hasta que queden bien crocantes.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "airfryer-nachos-tortillas-maiz",
+    "title": "Chips de Tortillas de Maíz (Nachos) en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "economico",
+    "prepMinutes": 4,
+    "cookMinutes": 6,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Nachos caseros crocantes hechos con tortillas de maíz cortadas en triángulos con oliva y sal.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "tortillas de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortá las tortillas de maíz en triángulos y untalas ligeramente con aceite de oliva y sal.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en tandas en la freidora a 200 °C durante 3 minutos cada tanda hasta que estén dorados y crocantes.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pan-ajo-tomate-seco-muzzarella",
+    "title": "Pan de Ajo, Tomate Seco y Muzzarella en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 6,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 5,
+    "difficulty": "Muy fácil",
+    "description": "Rebanadas de baguette tostadas con manteca de ajo, pasta de tomate seco, muzzarella y albahaca.",
+    "ingredients": [
+      {
+        "amount": 5,
+        "unit": "rebanadas",
+        "item": "pan baguette gruesas"
+      },
+      {
+        "amount": 3,
+        "unit": "dientes",
+        "item": "ajo picados fino"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 5,
+        "unit": "cditas",
+        "item": "pesto o pasta de tomates secos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso muzzarella rallado y albahaca picada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la manteca derretida con el ajo picado y untá cada rebanada de baguette.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cubrí con el pesto de tomate seco, la muzzarella rallada y albahaca u orégano.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Llevá a la freidora a 180 °C de 6 a 8 minutos hasta que el pan dore y el queso burbujee.",
+        "timerMinutes": 7
+      }
+    ]
+  },
+  {
+    "id": "airfryer-palitos-anana-coco-yogur",
+    "title": "Palitos de Ananá con Coco y Dip de Yogur en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Bastones de ananá fresco rebozados en coco rallado y asados al aire, servidos con dip de yogur de vainilla y menta.",
+    "ingredients": [
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "ananá fresco cortado en bastones"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "coco rallado"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "yogur de vainilla"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "hojas de menta fresca picadas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pasá los bastones de ananá por el coco rallado presionando suavemente para que se adhiera.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná en la freidora precalentada a 200 °C durante 10 minutos hasta que el coco tome color dorado.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Serví acompañados del yogur de vainilla mezclado con la menta picada.",
+        "timerMinutes": 0
+      }
+    ]
   }
 ]
