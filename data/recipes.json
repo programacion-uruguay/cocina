@@ -43482,5 +43482,2050 @@
         "timerMinutes": 0
       }
     ]
+  },
+  {
+    "id": "cocina-tacos-clasicos-carne-palta",
+    "title": "Tacos Clásicos de Carne con Palta",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tacos caseros en tortillas de trigo rellenos con cubitos de carne vacuna a la plancha, tomate, cebolla, palta y crema.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "carne de res magra en cubitos chicos"
+      },
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "tortillas de trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla y 2 tomates picados finos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "palta en gajos con jugo de limón"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "crema de leche y cilantro o perejil picado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal, pimienta y ají molido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá la carne en cubitos en una plancha o sartén caliente con sal, pimienta y ají molido hasta dorar.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Calentá las tortillas de ambos lados en una sartén seca durante 1 minuto por tanda.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Rellená cada tortilla con la carne, tomate, cebolla, palta y un toque de crema de leche.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cocina-tacos-al-pastor-cerdo-anana",
+    "title": "Tacos al Pastor de Cerdo y Ananá",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Solomillo o bondiola de cerdo marinado con jugo de naranja, vinagre, tomate asado, comino y ananá en cubitos.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "lomo o bondiola de cerdo en tiras"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "jugo de naranja y 60 ml de vinagre"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "ananá fresco en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "tomate asado, 1 cebolla y 2 dientes de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "comino, orégano, pimentón y sal"
+      },
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "tortillas de maíz o trigo, cilantro y limón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuá el tomate asado con la cebolla, el ajo, el vinagre, el jugo de naranja, parte del ananá y las especias; mariná el cerdo al menos 2 horas.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná el cerdo con su marinada en sartén a fuego medio hasta que quede bien cocido y dorado.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Serví sobre tortillas tibias con cubitos de ananá fresco, cilantro y jugo de limón.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cocina-tacos-tinga-de-pollo",
+    "title": "Tacos de Tinga de Pollo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tacos dorados rellenos de pollo desmenuzado salteado con tomate, cebolla y ají picante.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "pechugas de pollo"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "tomates medianos picados"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla picada y 1 ají picante o morrón"
+      },
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "tortillas de maíz o trigo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva y queso crema para servir"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví las pechugas en agua hasta que estén tiernas, escurrilas y desmenuzalas.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Salteá los tomates, el ají y la cebolla en aceite; sumá el pollo desmenuzado y cociná 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Rellená las tortillas, enrollá y doralas ligeramente en sartén con un hilo de aceite; serví con queso crema.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "cocina-tacos-papa-chorizo",
+    "title": "Tacos de Papa y Chorizo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Tacos rápidos y económicos rellenos con puré de papa y chorizo criollo dorado en sartén.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "puré de papas firme"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "chorizo criollo en rodajitas finas o desmenuzado"
+      },
+      {
+        "amount": 6,
+        "unit": "unidades",
+        "item": "tortillas de maíz o trigo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite vegetal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dorá el chorizo en una sartén hasta que esté cocido, agregá el puré de papas y mezclá bien.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Rellená cada tortilla, enrollá y doralas en sartén apenas aceitada por ambos lados.",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "horno-arroz-pollo-mexicana-gratinado",
+    "title": "Arroz con Pollo a la Mexicana Gratinado",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Cazuela al horno de arroz con pollo, zapallito, zanahoria, porotos negros, salsa de tomate, queso crema y cheddar.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "arroz blanco o basmati"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "caldo de pollo"
+      },
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "pechugas de pollo en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zapallito rallado, 1 zanahoria rallada, 1 cebolla y 1 morrón rojo"
+      },
+      {
+        "amount": 1,
+        "unit": "lata",
+        "item": "porotos negros escurridos y 180 g de salsa de tomate"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso crema y 150 g de queso cheddar rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cocé el arroz en el caldo de pollo de 15 a 20 minutos y reservá.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Salteá cebolla y morrón, sumá el pollo hasta dorar, incorporá zanahoria, zapallito, comino y ají molido, y mezclá con el arroz.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pasá a una fuente para horno, cubrí con porotos, salsa de tomate, queso crema y cheddar rallado; horneá 25 minutos a 180 °C.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "cocina-caldo-casero-carne-verduras",
+    "title": "Caldo Casero de Carne y Verduras",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 90,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Caldo reconfortante de carne vacuna con papa, zanahoria, repollo, tomate, ajo y un toque fresco de limón y perejil.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne vacuna para puchero o caldo"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "papas en cubos y 3 zanahorias en rodajas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "repollo chico picado y 1 tomate en cuartos"
+      },
+      {
+        "amount": 4,
+        "unit": "dientes",
+        "item": "ajo picados y 1 cebolla"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "jugo de limón fresco, perejil picado, comino y sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá la carne y todas las verduras con el ajo, comino y sal en una olla grande cubierta con agua.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Cociná tapado a fuego suave durante 1 hora y media hasta que la carne y las verduras estén muy tiernas; serví con jugo de limón y perejil.",
+        "timerMinutes": 90
+      }
+    ]
+  },
+  {
+    "id": "cocina-sopa-azteca-tortilla-pollo",
+    "title": "Sopa Azteca de Tortilla y Pollo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Sopa caliente de tomate, ajo y caldo de pollo servida con tiritas de tortilla crocantes, cubos de palta y queso.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "tomates maduros picados"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla y 1 diente de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "caldo de pollo"
+      },
+      {
+        "amount": 6,
+        "unit": "unidades",
+        "item": "tortillas de maíz o trigo en tiritas doradas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "palta en cubos, queso rallado y crema de leche"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuá los tomates con la cebolla y el ajo, colá y rehogá 2 minutos en una olla con un hilo de aceite.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Agregá el caldo de pollo, orégano y perejil, y cociná 15 minutos a fuego lento.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Serví en platos hondos agregando al final las tiras de tortilla crocantes, palta, queso y crema.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cocina-zapallitos-salteados-choclo",
+    "title": "Zapallitos Salteados con Choclo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Guarnición liviana y colorida de zapallitos en bastones salteados con choclo desgranado, tomate, cebolla y ajo.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "zapallitos o zucchinis en bastones"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "granos de choclo tierno cocidos"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "tomates picados finos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla picada y 1 diente de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá la cebolla y el ajo en aceite de oliva, agregá los tomates y los zapallitos y cociná 3 minutos.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Incorporá los granos de choclo, salpimentá, tapá y cociná a fuego lento 10 minutos hasta que los zapallitos estén tiernos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "cocina-guiso-carne-papas-espinacas",
+    "title": "Guiso de Carne, Papas y Espinacas",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Guiso casero de carne vacuna sellada con vino tinto, tomates, papas doradas y espinacas frescas.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne vacuna para guiso en cubitos"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "papas cortadas en cuartos"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "espinacas frescas limpias y picadas"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "puré de tomate y 4 tomates perita picados"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "vino tinto y 400 ml de caldo de carne"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla, 3 dientes de ajo y orégano"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Sellá la carne en sartén caliente y pasala a una olla. En la misma sartén rehogá cebolla y tomates.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Dorá apenas las papas aparte y sumalas a la olla con el puré de tomate, espinacas, vino tinto, ajo, orégano y caldo.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Cociná tapado a fuego lento durante 45 minutos a 1 hora hasta que la carne y las papas estén tiernas.",
+        "timerMinutes": 50
+      }
+    ]
+  },
+  {
+    "id": "cocina-albondigas-salsa-tomillo",
+    "title": "Albóndigas en Salsa de Tomate al Tomillo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Albóndigas jugosas cocidas directamente en salsa de tomate con arroz y tomillo fresco.",
+    "ingredients": [
+      {
+        "amount": 750,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "tomates maduros picados finos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla picada y 1 diente de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "clara de huevo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "arroz blanco y 100 ml de salsa de tomate"
+      },
+      {
+        "amount": 4,
+        "unit": "ramitas",
+        "item": "tomillo fresco, aceite de oliva, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá media cebolla y el ajo en oliva, sumá la salsa de tomate, agua, arroz, tomillo y sal, y llevá a hervor.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Mezclá la carne picada con los tomates, el resto de la cebolla, la clara de huevo, tomillo, sal y pimienta, y formá albóndigas.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Sumá las albóndigas a la olla hirviendo, tapá y cociná a fuego bajo 30 minutos hasta que el arroz y la carne estén cocidos.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "cocina-arroz-cacerola-morron-cilantro",
+    "title": "Arroz a la Cacerola con Morrón y Cilantro",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 25,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Arroz blanco cocido en caldo de pollo con morrón verde, tomate, cebolla, ajo, comino y cilantro fresco.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "arroz blanco"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "caldo de pollo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla y 0.5 morrón verde picados"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "tomate picado y 1 diente de ajo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "cilantro fresco picado, comino y aceite"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá el arroz en una cucharada de aceite durante 3 minutos revolviendo constante.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Agregá el caldo, cebolla, morrón, tomate, ajo, comino, cilantro, sal y pimienta; tapá y cociná a fuego bajo 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "cocina-guiso-albondigas-repollo",
+    "title": "Guiso de Albóndigas con Verduras y Repollo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Olla rendidora de albóndigas caseras cocidas en caldo con zanahoria, apio, morrón, tomate y repollo blanco.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo y 40 g de pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "caldo de carne"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "zanahorias en rodajas, 2 tallos de apio y 1 morrón verde"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "tomates pelados y 0.5 repollo blanco en trozos grandes"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "comino, orégano, pimentón, ajo y cebolla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá la carne picada con cebolla, ajo, pan rallado, huevo y 2 cdas de agua, y formá albóndigas chicas.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Herví el caldo y agregá las albóndigas de a una cocinando 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sumá las verduras, el repollo y los condimentos; cociná a fuego bajo de 30 a 40 minutos.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "sin-coccion-ceviche-clasico-camarones",
+    "title": "Ceviche Clásico de Camarones",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Camarones limpios marinados en jugo de limón fresco con tomate, cebolla, pepino, rabanitos y cilantro.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "camarones pelados y limpios"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "jugo de limón fresco"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "cebollas picadas finas y 1 tomate grande picado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pepino pelado en cubitos y 1 atado de rabanitos picados"
+      },
+      {
+        "amount": 0.25,
+        "unit": "taza",
+        "item": "cilantro fresco picado, 2 dientes de ajo y salsa de tomate natural"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cubrí los camarones con el jugo de limón en un bowl y llevá a la heladera 30 minutos hasta que queden firmes y opacos.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Mezclá con el tomate, cebolla, pepino, rabanitos, ajo, cilantro y salsa de tomate; refrigerá 1 hora y serví frío.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cocina-chili-carne-chorizo-porotos",
+    "title": "Chili con Carne, Chorizo y Porotos Negros",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Estofado potente de porotos negros con carne picada, chorizo, panceta, morrones y tomate sobre arroz blanco.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "porotos negros cocidos"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne picada y 200 g de chorizo en rodajas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "panceta en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "morrones (rojo y verde), 1 cebolla y 3 dientes de ajo"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "tomates picados y 3 cdas de puré de tomate"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "arroz blanco cocido, pimentón, comino, orégano y ají molido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá la cebolla, morrones y panceta en una olla; sumá el chorizo y luego la carne picada hasta dorar.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Agregá pimentón, tomate, puré de tomate, comino, orégano, ají molido y un poco de caldo; cociná tapado 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Incorporá los porotos negros cocidos, rectificá la sazón y serví caliente sobre arroz blanco.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "cocina-locro-tradicional-criollo",
+    "title": "Locro Tradicional Criollo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 120,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Clásico guiso patrio con maíz blanco partido, porotos pallares, zapallo, carne de cerdo, panceta, mondongo y chorizo colorado.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "maíz blanco partido remojado desde la noche anterior"
+      },
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "porotos pallares o manteca remojados"
+      },
+      {
+        "amount": 1,
+        "unit": "kg",
+        "item": "zapallo cabutiá en cubos"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "carne de cerdo y 300 g de mondongo cocido en tiritas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "panceta en cubos y 2 chorizos colorados en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "cebolla de verdeo con aceite y pimentón para la salsa frita"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el maíz y los porotos remojados en una olla grande durante 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Agregá las carnes cortadas, sal, pimienta, pimentón y el zapallo en cubos, cocinando a fuego suave 1 hora más revolviendo cada tanto hasta que espese.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Prepará la salsa frita rehogando cebolla de verdeo en aceite con pimentón fuera del fuego y serví por encima de cada plato.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "cocina-puchero-criollo-completo",
+    "title": "Puchero Criollo Completo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 110,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Tradicional puchero rioplatense con osobuco, chorizo, morcilla, panceta, garbanzos y verduras de estación.",
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "kg",
+        "item": "osobuco de ternera"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "panceta, 3 chorizos y 2 morcillas"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "garbanzos remojados"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "zanahorias, 3 papas, 3 choclos y 400 g de zapallo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "repollo blanco, 2 cebollas, 2 puerros, apio y laurel"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el osobuco en abundante agua con sal, espumá y sumá cebolla, puerro, apio, laurel y garbanzos remojados cocinando 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Agregá repollo, zanahorias, papas, choclos y zapallo de a tandas hasta que estén tiernos.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Cocé aparte los chorizos pinchados y la panceta 40 minutos (y las morcillas los últimos 5 minutos); serví en fuentes separadas.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "cocina-guiso-mondongo-criollo",
+    "title": "Guiso de Mondongo Criollo",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 75,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Mondongo tierno cortado en tiras finas guisado con tomate, zanahoria, morrón, garbanzos y hierbas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "kg",
+        "item": "mondongo blanco limpio"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla, 1 diente de ajo y 1 ají rojo picados"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "tomates perita pelados y 2 zanahorias en rodajas"
+      },
+      {
+        "amount": 1,
+        "unit": "taza",
+        "item": "garbanzos cocidos"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "caldo de verduras, laurel, orégano y perejil"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Herví el mondongo en caldo hasta que esté tierno y cortalo en tiras finas.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Rehogá cebolla, ajo, morrón, tomates y zanahorias; sumá el caldo, laurel, orégano y el mondongo cocinando 25 minutos.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Agregá los garbanzos cocidos los últimos 5 minutos y serví bien caliente con perejil picado.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "parrilla-asado-tira-limon",
+    "title": "Asado de Tira a la Parrilla con Limón",
+    "metodo": "parrilla",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 70,
+    "temperatureC": 0,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Costillar vacuno asado lentamente a las brasas con sal gruesa y terminado con abundante jugo de limón fresco.",
+    "ingredients": [
+      {
+        "amount": 2.5,
+        "unit": "kg",
+        "item": "asado de tira vacuno"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "sal gruesa o parrillera"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "limones (su jugo fresco)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Espolvoreá el asado con sal gruesa y prepará brasas parejas de leña o carbón.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Colocá la carne del lado del hueso sobre la parrilla a fuego medio y asá de 35 a 45 minutos.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Dala vuelta y asá 30 minutos más del otro lado; retirá en tabla y rociá con jugo de limón.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "sin-coccion-chimichurri-casero-asado",
+    "title": "Chimichurri Casero para Asado",
+    "metodo": "sin_coccion",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Muy fácil",
+    "description": "Adobo clásico rioplatense de perejil, ajo, aceite de oliva, vinagre de vino tinto, jugo de limón y pimentón.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "perejil fresco picado"
+      },
+      {
+        "amount": 6,
+        "unit": "dientes",
+        "item": "ajo picados"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "aceite de oliva o girasol"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "vinagre de vino tinto y 60 ml de jugo de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "sal, 0.5 cdita de pimienta negra y 0.5 cdita de pimentón"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá todos los ingredientes en procesadora o licuadora y pulsá brevemente hasta integrar sin hacer crema.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Guardá en frasco cerrado en la heladera para que asienten los sabores antes de usar en carnes.",
+        "timerMinutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cocina-milanesa-caballo-papas-fritas",
+    "title": "Milanesa a Caballo con Papas Fritas",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "temperatureC": 0,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Clásico plato de bodegón rioplatense: milanesas de nalga o bola de lomo con huevos fritos encima y papas bastón.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "filetes finos de ternera magra"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos para empanar + 4 huevos para freír"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "papas grandes en bastones"
+      },
+      {
+        "amount": 1,
+        "unit": "puñado",
+        "item": "perejil picado, sal, pimienta y aceite para freír"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batí 2 huevos con un chorrito de leche, perejil, sal y pimienta; pasá las milanesas por huevo y pan rallado.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Freí las papas en bastones hasta que doren y las milanesas en otra sartén unos minutos por lado.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Escurrí sobre papel absorbente, hacé los huevos fritos y serví sobre cada milanesa.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "horno-pastel-papas-clasico-aceitunas",
+    "title": "Pastel de Papas Clásico con Aceitunas y Huevo",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Tradicional pastel de carne picada con cebolla, aceitunas verdes y huevo duro cubierto con puré de papas gratinado.",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "cebollas picadas"
+      },
+      {
+        "amount": 1.5,
+        "unit": "kg",
+        "item": "papas peladas en cubos"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos duros picados y 80 g de aceitunas verdes picadas"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "leche tibia, 25 g de manteca, queso rallado, nuez moscada, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá la cebolla en aceite, sumá la carne picada hasta dorar y condimentá con sal, pimienta, nuez moscada, aceitunas y huevos duros.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Herví las papas, pisalas con manteca, leche tibia y nuez moscada formando un puré liso.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Armá capas en fuente para horno (puré, carne, puré), espolvoreá con queso rallado y gratiná 30 minutos a 180 °C.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "cocina-matambre-relleno-arrollado",
+    "title": "Matambre Relleno Arrollado",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 35,
+    "cookMinutes": 120,
+    "temperatureC": 0,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Matambre vacuno adobado, relleno con espinaca, zanahoria, verdeo, carne picada, aceitunas y huevo, hervido y prensado.",
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "kg",
+        "item": "matambre vacuno desgrasado"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "carne picada y 1 atado de espinaca cruda picada"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "zanahorias ralladas y 3 cebollas de verdeo picadas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "aceitunas verdes picadas y 2 huevos batidos"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceite, 80 ml de vinagre, ajo, perejil, orégano y ají molido para el adobo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mariné el matambre en el adobo de aceite, vinagre, ajo, orégano y ají molido en la heladera.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Mezclá los ingredientes del relleno ligando con los huevos batidos, extendé sobre el matambre, arrollá y cosé o atá bien.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Herví en abundante agua a fuego suave durante 2 horas; dejá enfriar prensado antes de cortar en rodajas.",
+        "timerMinutes": 120
+      }
+    ]
+  },
+  {
+    "id": "horno-humitas-en-chala",
+    "title": "Humitas en Chala al Horno",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Pasta suave de choclo fresco rallado con cebolla rehogada, leche, queso rallado y pimentón envuelta en sus propias chalas.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "unidades",
+        "item": "choclos frescos con sus chalas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla mediana picada y 1 morrón chico"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "queso parmesano rallado y 1 cda de pimentón"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Desgraná los choclos reservando las chalas limpias y procesá o rallá los granos hasta obtener un puré.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Rehogá la cebolla y el morrón en oliva, mezclá con el puré de choclo, la leche, el pimentón y el queso rallado; enfriá para que tome cuerpo.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Armá paquetitos con dos hojas de chala atadas con tiritas y horneá 15 minutos a 180 °C.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "cocina-bife-chorizo-papas-plomo",
+    "title": "Bife de Chorizo con Papas al Plomo",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bifes gruesos a la plancha bien caliente acompañados de papas enteras al horno en papel aluminio con manteca de ciboulette.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "bifes de chorizo de 3 cm de espesor"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "papas medianas lavadas con piel"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "manteca blanda"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "ciboulette picado, aceite, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Envolvé las papas limpias en papel aluminio y hornealas a 180 °C durante 50 a 60 minutos hasta que estén tiernas.",
+        "timerMinutes": 55
+      },
+      {
+        "text": "Mezclá la manteca con el ciboulette y untá las papas abiertas al medio.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Sellá los bifes en plancha bien caliente de 5 a 7 minutos por lado sin moverlos; serví con las papas.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-criollas-clasicas",
+    "title": "Empanadas Criollas Clásicas de Carne",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 25,
+    "temperatureC": 190,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Empanadas horneadas con relleno clásico de carne picada, cebolla, huevo duro, aceitunas verdes, pimentón y orégano.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas para empanadas al horno"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "carne picada magra"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla picada y 1 cda de manteca con aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos duros picados y 60 g de aceitunas verdes picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "pimentón, 1 cda de orégano y 1 huevo batido para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá la cebolla en manteca y aceite, agregá la carne hasta dorar, condimentá con pimentón, orégano, sal y un chorrito de agua; enfriá el relleno.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Rellená las tapas sumando huevo duro y aceitunas, cerrá con repulgue y pintá con huevo batido.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Horneá a 190 °C de 20 a 25 minutos hasta que estén bien doradas.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-saltenas-papa",
+    "title": "Empanadas Salteñas con Papa",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 20,
+    "temperatureC": 220,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Empanadas jugosas con carne picada, cebolla, morrón rojo, cebolla de verdeo, cubitos de papa y huevo duro.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas para empanadas al horno"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "cebollas, 1 morrón rojo y 2 cebollas de verdeo picados"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "papas en cubitos chicos hervidas al dente"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos duros picados, comino, pimentón, ají molido y 50 g de manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá cebolla, morrón y verdeo en manteca; sumá la carne picada y condimentá con comino, pimentón, ají molido y sal.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Incorporá las papas en cubitos y los huevos duros picados, y dejá enfriar por completo.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Armá las empanadas humedeciendo los bordes y horneá a 220 °C de 15 a 20 minutos hasta dorar.",
+        "timerMinutes": 18
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-carne-berenjena",
+    "title": "Empanadas de Carne y Berenjena",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 35,
+    "temperatureC": 210,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Empanadas originales con carne picada salteada junto a cubitos de berenjena, morrón rojo, pasas y comino.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas para empanadas al horno"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "carne picada cocida"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "berenjena pelada en cubos y 1 morrón rojo en cubitos"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla, 2 dientes de ajo y 50 g de pasas de uva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "comino, 3 cdas de oliva y 1 huevo batido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salteá la cebolla, el morrón y la berenjena en oliva hasta que estén tiernos; mezclá con la carne cocida, ajo, pasas, comino, sal y pimienta.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Rellená las tapas, cerrá con repulgue, pinchá con tenedor y horneá a 210 °C unos 30 a 35 minutos hasta dorar.",
+        "timerMinutes": 32
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-matambre-cerdo",
+    "title": "Empanadas de Matambre de Cerdo",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 35,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Empanadas horneadas con matambre de cerdo hervido y cortado en trocitos, cebolla, morrón, papa, verdeo y huevo duro.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas de empanadas para horno"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "matambre de cerdo hervido hasta tiernizar y picado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla, 1 morrón mediano y 150 g de verdeo picados"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "papa mediana pelada en cubitos y 4 huevos duros picados"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "comino, pimentón, ají molido y caldo de cocción"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá cebolla y morrón, agregá el matambre de cerdo picado, condimentos, un poco de caldo y los cubitos de papa hasta tiernizar.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Retirá del fuego, sumá verdeo y huevos duros picados y dejá enfriar.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Rellená las tapas, cerrá con repulgue y horneá a 180 °C por 20 minutos hasta que estén doradas.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-jamon-queso",
+    "title": "Empanadas de Jamón y Queso al Horno",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 12,
+    "cookMinutes": 22,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Clásicas empanadas de jamón cocido en tiritas y cubos de muzzarella, doradas al horno.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas de empanadas para horno"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "jamón cocido en tiritas finas"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "queso muzzarella en cubos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocá jamón y muzzarella en el centro de cada tapa, humedecé los bordes y cerrá con repulgue.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Pintá con huevo batido y horneá a 180 °C de 20 a 25 minutos hasta dorar.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-caprese",
+    "title": "Empanadas Caprese (Muzzarella, Tomate y Albahaca)",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 220,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Empanadas frescas y aromáticas rellenas de tomates cherry, cubos de muzzarella y albahaca.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas de empanadas para horno"
+      },
+      {
+        "amount": 24,
+        "unit": "unidades",
+        "item": "tomates cherry cortados al medio"
+      },
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "muzzarella en cubitos"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "hojas de albahaca fresca picadas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los cherry con la muzzarella, la albahaca, sal y pimienta.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Rellená las tapas, cerrá bien los bordes con repulgue, pintá con huevo y horneá a 220 °C por 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-queso-azul-verdeo",
+    "title": "Empanadas de Queso Azul y Verdeo",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 22,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Empanadas intensas de queso azul con cebolla de verdeo rehogada en manteca, miel y nuez moscada.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas de empanadas para horno"
+      },
+      {
+        "amount": 1,
+        "unit": "atado",
+        "item": "cebolla de verdeo picada"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "queso azul en bastones o desmenuzado"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado, 1 cdita de miel y 1 pizca de nuez moscada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido para pintar y 20 g de manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá el verdeo y el ajo en manteca 5 minutos, agregá miel, nuez moscada, sal y pimienta, y cociná 5 minutos más.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Rellená las tapas con el verdeo tibio y queso azul, cerrá con repulgue, pintá con huevo y horneá a 180 °C por 22 minutos.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "horno-empanadas-cuatro-quesos",
+    "title": "Empanadas Cuatro Quesos",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 22,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "description": "Empanadas cremosas con mezcla de queso fontina o colonia, parmesano, muzzarella y roquefort con orégano.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidades",
+        "item": "tapas de empanadas para horno"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso fontina o colonia rallado"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso parmesano rallado y 100 g de muzzarella"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso roquefort desmenuzado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "orégano, 0.5 cdita de nuez moscada y 1 huevo batido"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclá los cuatro quesos con el orégano y la nuez moscada.",
+        "timerMinutes": 0
+      },
+      {
+        "text": "Rellená las tapas, cerrá bien con repulgue, pintá con huevo batido y horneá a 180 °C de 20 a 25 minutos.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "horno-pascualina-carne-pure",
+    "title": "Pascualina de Carne y Puré",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 210,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tarta pascualina de hojaldre rellena de carne picada de vaca y cerdo ligada con puré de papa y hierbas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "tapas",
+        "item": "masa de hojaldre para pascualina"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "carne vacuna picada y 225 g de carne de cerdo picada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "papa mediana hecha puré"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "cebolla picada y 2 dientes de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdita",
+        "item": "tomillo, salvia, mostaza en polvo, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cociná la carne picada en sartén con cebolla, ajo, agua y condimentos hasta dorar; mezclá con el puré de papa.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Forrá una tartera con una masa, volcá el relleno, tapá con el otro disco, hacé cortes para el vapor y horneá 25 minutos a 210 °C.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "horno-tarta-souffle-espinaca-ricota",
+    "title": "Tarta Soufflé de Espinaca y Ricota",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "temperatureC": 170,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Tarta aireada con masa casera, espinaca salteada, ricota (requesón), huevos, queso rallado y eneldo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "tapa",
+        "item": "masa de tarta casera o comprada"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "espinaca fresca"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "ricota o requesón"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos y 3 cdas de queso rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla chica, eneldo picado, manteca, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Forrá una tartera con la masa, pinchala y precociná 15 minutos a 170 °C.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Salteá la cebolla y la espinaca; procesá junto con la ricota, huevos, queso rallado, eneldo, sal y pimienta.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Volcá sobre la masa precocida y horneá 35 a 40 minutos hasta que cuaje y dore.",
+        "timerMinutes": 38
+      }
+    ]
+  },
+  {
+    "id": "horno-pascualina-acelga-calabaza",
+    "title": "Pascualina de Acelga y Calabaza",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pascualina bicolor con hojas de acelga hervidas, puré de calabaza asada, morrón rojo, cebolla y queso gruyere o colonia.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "tapas",
+        "item": "masa hojaldrada para pascualina"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "hojas de acelga hervidas y bien escurridas"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "puré de calabaza asada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla picada y 1 morrón rojo picado"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso gruyere o colonia rallado y 3 huevos + 1 para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá la cebolla y el morrón hasta tiernizar; mezclá en un bowl con el puré de calabaza, la acelga picada, el queso, los huevos, sal y pimienta.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Forrá la tartera, volcá el relleno, cubrí con la segunda tapa, pintá con huevo y horneá 25 minutos a 180 °C.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "horno-tarta-clasica-zapallitos-queso",
+    "title": "Tarta Clásica de Zapallitos y Queso",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Tarta cotidiana uruguaya de zapallitos redondos salteados con cebolla, queso fresco y huevos batidos.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "tapa",
+        "item": "masa de tarta"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "zapallitos redondos en rodajas"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "cebollas medianas en rodajas"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "queso fresco o cremoso en cubos"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos, aceite vegetal, sal y pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá las cebollas y los zapallitos en una olla con aceite hasta que estén tiernos; agregá el queso en cubos fuera del fuego.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Sumá los huevos batidos con sal, volcá sobre la masa en la tartera y horneá 20 a 25 minutos a 200 °C.",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "horno-pascualina-atun-espinaca",
+    "title": "Pascualina de Atún y Espinaca",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tarta pascualina rellena con espinaca hervida, cebolla y ají rehogados, dos latas de atún y huevo duro.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "tapas",
+        "item": "masa para pascualina"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "espinaca hervida, escurrida y picada"
+      },
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "atún escurrido"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "cebollas y 1 ají verde picados"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos duros picados y 1 huevo batido para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá la cebolla y el ají a fuego bajo, agregá la espinaca, el atún desmenuzado y por último los huevos duros picados.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Armá la pascualina entre las dos tapas, pinchá con tenedor, pintá con huevo y horneá a 180 °C unos 25 minutos.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "horno-tarta-pollo-papa-zanahoria",
+    "title": "Tarta de Pollo, Papa y Zanahoria",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Tarta tapada de hojaldre con relleno cremoso de pollo cocido, cubitos de papa, zanahoria, apio y hierbas frescas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "tapas",
+        "item": "masa de hojaldre para tarta"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "pollo cocido en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "papas, 2 zanahorias en cubos, 1 cebolla y 2 tallos de apio"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "harina, 60 g de manteca y 125 ml de leche"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "caldo de pollo, perejil y orégano fresco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rehogá cebolla, apio y zanahoria en la mitad de la manteca; sumá caldo y papas cocinando hasta tiernizar.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Aparte derretí el resto de manteca, dorá la harina, sumá el pollo, la leche y el caldo de las verduras hasta espesar; mezclá todo con las hierbas.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Rellená la tartera, tapá con el segundo disco, hacé 4 cortes arriba y horneá 15 min a 220 °C y 20 min a 180 °C.",
+        "timerMinutes": 35
+      }
+    ]
   }
 ]
