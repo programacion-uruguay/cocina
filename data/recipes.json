@@ -30834,5 +30834,6423 @@
         "timerMinutes": 22
       }
     ]
+  },
+  {
+    "id": "airfryer-palitos-de-pan-con-canela-en-freidora",
+    "title": "Palitos de Pan con Canela en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Bastones crocantes de pan de molde pasados por huevo, leche, canela y azúcar, dorados en minutos en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "pan de molde"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 12,
+        "unit": "ml",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "extracto de vainilla"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "canela en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Azúcar impalpable"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar cada rebanada de pan en 3 trozos para obtener 12 piezas."
+      },
+      {
+        "text": "Bata los huevos, la leche, el miel y el extracto de vainilla."
+      },
+      {
+        "text": "Precalentar la freidora a 180º C durante 3 minutos.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Sumerja los palitos de pan en la mezcla de huevo y colóquelos en la freidora de aire precalentada."
+      },
+      {
+        "text": "Rociar (o engrasar con un poco de aceite) los palos con spray de cocina."
+      },
+      {
+        "text": "Hornear los palitos durante 8 minutos a 180° C.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Dar la vuelta a los palitos de pan a mitad de la cocción."
+      },
+      {
+        "text": "Mezclar el azúcar y la canela en un bol."
+      },
+      {
+        "text": "Rebozar los palitos en la mezcla de azúcar y canela cuando estén cocidos."
+      },
+      {
+        "text": "Servir aún caliente con azúcar impalpable."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-galletitas-de-limon-en-freidora",
+    "title": "Galletitas de Limón en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 6,
+    "temperatureC": 180,
+    "servings": 250,
+    "difficulty": "Fácil",
+    "description": "Galletitas caseras suaves y perfumadas con ralladura y jugo de limón, listas en la freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 110,
+        "unit": "g",
+        "item": "harina para tartas"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "manteca ablandada a temperatura ambiente"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "cáscara de limón rallada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "sobre de vainillina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "En un bol, colocar la manteca ablandada y cortada en dados. Añadir el azúcar y mezclar con un batidor hasta que esté espumoso."
+      },
+      {
+        "text": "Incorporar el huevo, la ralladura de limón, la vainillina y la harina tamizada."
+      },
+      {
+        "text": "Mezclar todo con una espátula hasta obtener una mezcla homogénea."
+      },
+      {
+        "text": "Envuelve el pan resultante en papel transparente y déjalo reposar durante 30 minutos en la heladera."
+      },
+      {
+        "text": "Una vez transcurrido este tiempo, tome la bola de masa, extiéndala sobre una superficie ligeramente enharinada y extiéndala hasta obtener una lámina de 5 mm de altura."
+      },
+      {
+        "text": "Con un cortapastas de 5 cm, cortar muchos discos pequeños."
+      },
+      {
+        "text": "Colocar los discos en una bandeja de horno ligeramente untada con manteca, espaciándolos. El consejo es hornearlos varias veces por separado."
+      },
+      {
+        "text": "Poner la freidora a 180º durante 6 minutos.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Comprobar el tiempo de cocción y si aún no están cocidos, continuar otros 2 minutos."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-galletitas-integrales-de-desayuno-en-freidora",
+    "title": "Galletitas Integrales de Desayuno en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Galletitas crocantes con harina integral ideales para acompañar el mate o el café de la mañana.",
+    "ingredients": [
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina integral"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "cucharaditas de azúcar moreno"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Coge un bol y vierte en él la harina, la levadura en polvo y el azúcar moreno."
+      },
+      {
+        "text": "Cortar la manteca en dados muy pequeños y añadirla a la harina."
+      },
+      {
+        "text": "Ahora vierta 4 cucharadas de agua en el bol y mezcle todo primero con un tenedor, luego comience a amasar a mano."
+      },
+      {
+        "text": "Cuando los ingredientes estén bien mezclados y hayas obtenido una mezcla lisa y homogénea, forma una bola y envuélvela en papel transparente."
+      },
+      {
+        "text": "Poner el pan a reposar en la heladera durante al menos 30 minutos."
+      },
+      {
+        "text": "Una vez transcurrido el tiempo, coloque la bola de masa en una superficie plana y ligeramente enharinada."
+      },
+      {
+        "text": "Estirar la masa con un rodillo hasta que tenga 5 mm de grosor."
+      },
+      {
+        "text": "Tome un cortapastas y corte muchas galletas de 7 cm de largo y 4 cm de ancho."
+      },
+      {
+        "text": "Pinchar la superficie de las galletas con un tenedor."
+      },
+      {
+        "text": "Precalentar la freidora a 180º durante 2 minutos. Colocar las galletas en la cesta de la freidora y cocinar a 180º durante 8 minutos.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Si la cesta no es lo suficientemente grande, hornear varias veces."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tartaletas-de-crema-pastelera-y-fruta-en-freidora",
+    "title": "Tartaletas de Crema Pastelera y Fruta en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 30,
+    "temperatureC": 160,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Bases de masa horneadas en freidora de aire rellenas con crema pastelera casera y fruta fresca de estación.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "La cáscara de medio limón"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Media cucharadita de levadura en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pizca de sal"
+      },
+      {
+        "amount": 6,
+        "unit": "unidad",
+        "item": "frutillas grandes"
+      },
+      {
+        "amount": 3,
+        "unit": "unidad",
+        "item": "mandarinas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "kiwi"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "mermelada de albaricoque"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "INGREDIENTES PARA LA CREMA PASTELERA"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "fécula de choclo"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche entera"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "vaina de vainilla"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Para preparar las tartaletas, debemos empezar por hacer la masa quebrada."
+      },
+      {
+        "text": "Verter en un bol la harina, la levadura en polvo y la manteca cortada en dados"
+      },
+      {
+        "text": "Amasar todo a mano durante un par de minutos para mezclar bien todos los ingredientes. Deberá obtener una mezcla de consistencia arenosa."
+      },
+      {
+        "text": "Ahora añade el azúcar y una pizca de sal a la mezcla. Amasar todo a mano hasta que esté todo desmenuzado."
+      },
+      {
+        "text": "En este punto se puede añadir la ralladura de limón y el huevo."
+      },
+      {
+        "text": "Continúe amasando, con la punta de los dedos, hasta que la mezcla esté firme y sin grumos."
+      },
+      {
+        "text": "Formar una bola con la mezcla y envolverla en film transparente."
+      },
+      {
+        "text": "Coloque el pan en el refrigerador para que repose durante 30 minutos."
+      },
+      {
+        "text": "Mientras tanto, pase a la preparación de las natillas."
+      },
+      {
+        "text": "En un cazo, calentar la leche con las semillas extraídas de la vaina de vainilla."
+      },
+      {
+        "text": "Mientras se calienta la leche, batir el huevo con el azúcar en un bol hasta que quede ligero y esponjoso. Ahora añade la maicena a los huevos sin dejar de remover."
+      },
+      {
+        "text": "En cuanto la leche esté lo suficientemente caliente, verter la mezcla en el cazo y remover continuamente hasta que la crema haya espesado."
+      },
+      {
+        "text": "Cuando la crema esté bien espesa, retírela del fuego y pásela a un bol para que se enfríe."
+      },
+      {
+        "text": "Cuando haya terminado de preparar la crema y hayan transcurrido los 30 minutos, saque la masa quebrada de la heladera."
+      },
+      {
+        "text": "Poner un poco de harina en una superficie plana y extender la masa con un rodillo. Deberá obtener una lámina de aproximadamente medio centímetro de grosor."
+      },
+      {
+        "text": "Con un cortapastas, cortar seis círculos."
+      },
+      {
+        "text": "Engrasar los moldes de tartaleta y colocar un disco de masa quebrada en cada uno."
+      },
+      {
+        "text": "Recorte los bordes de las tartaletas eliminando el exceso de masa y pinche el fondo de la masa con un tenedor."
+      },
+      {
+        "text": "Coloque los moldes directamente en la cesta o rejilla de la freidora de aire y programe la temperatura a 160° con función de pastel."
+      },
+      {
+        "text": "Hornee las tartaletas durante 10 minutos y luego aumente la temperatura a 180° durante 2 minutos más. Si las tartaletas no parecen estar lo suficientemente cocidas, continúe la cocción durante otros dos minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Sacar las tartaletas de los moldes y dejarlas enfriar."
+      },
+      {
+        "text": "En cuanto se enfríen lo suficiente, coge una manga pastelera con boquilla de estrella, rellénala con la crema pastelera y luego rellena las tartaletas."
+      },
+      {
+        "text": "Adornar con los trozos de fruta fresca, procurando cubrir toda la parte superior de la crema sin dejar espacios en blanco."
+      },
+      {
+        "text": "Poner la mermelada en un cazo y cocerla hasta que quede líquida."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-magdalenas-de-vainilla-en-freidora",
+    "title": "Magdalenas de Vainilla en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Magdalenas esponjosas con esencia de vainilla preparadas directamente en pirotines dentro de la freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "manteca ablandada a temperatura ambiente"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "sobre de vainillina"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "yema"
+      },
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Media cucharadita de levadura en polvo"
+      },
+      {
+        "amount": 75,
+        "unit": "ml",
+        "item": "crema de leche para montar"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pizca de sal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empieza poniendo la manteca, el azúcar y la vainillina en un bol. Batir todo con una batidora eléctrica hasta obtener una mezcla esponjosa."
+      },
+      {
+        "text": "Ahora incorpora el huevo y sigue batiendo. En cuanto esté bien mezclado, añadir la yema de huevo sin dejar de batir."
+      },
+      {
+        "text": "En otro bol, mezclar la harina, la levadura en polvo y una pizca de sal."
+      },
+      {
+        "text": "A continuación, incorpórelos a la mezcla de manteca alternando con la crema de leche, sin dejar de batir hasta agotar los ingredientes."
+      },
+      {
+        "text": "Colocar 6 ramequines en los moldes para magdalenas. Colocar los moldes en la cesta de la freidora y programar a 170º durante 10 minutos con la función de pastel.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Después de 10 minutos, compruebe el tiempo de cocción con un palillo. Si todavía está húmedo, continúe la cocción durante otros 2 minutos o hasta que el palillo esté seco."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-budincitos-de-pera-y-chocolate-en-freidora",
+    "title": "Budincitos de Pera y Chocolate en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Porciones individuales tiernas con trocitos de pera fresca y chocolate negro.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pera de tamaño medio"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "canela en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "nuez moscada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "capa de masa de pastel"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Gotas de chocolate"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Llevar a ebullición lentamente en un cazo a fuego lento las peras cortadas en dados, el azúcar impalpable, la manteca, la canela y la nuez moscada."
+      },
+      {
+        "text": "Cocer a fuego lento durante dos o tres minutos."
+      },
+      {
+        "text": "Dejar enfriar las peras, al menos durante 20 minutos."
+      },
+      {
+        "text": "Mientras tanto, corta la masa de la tarta en círculos (puedes ayudarte con un vaso)"
+      },
+      {
+        "text": "Añade el relleno de pera (en el que se habrán añadido las pepitas de chocolate) en el centro de cada círculo de la masa de tarta."
+      },
+      {
+        "text": "Aplicar agua en las extremidades exteriores."
+      },
+      {
+        "text": "Cerrar la tarta y cortar una pequeña hendidura en la parte superior."
+      },
+      {
+        "text": "Precalentar la freidora durante unos minutos a 180° C."
+      },
+      {
+        "text": "Mezclar el huevo y la leche y pincelar la parte superior de cada pastel con un poco de aceite."
+      },
+      {
+        "text": "Colocar las magdalenas en los moldes correspondientes e introducirlas en la freidora precalentada."
+      },
+      {
+        "text": "Hornear a 180º C durante 8/10 minutos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-magdalenas-de-coco-en-freidora",
+    "title": "Magdalenas de Coco en Freidora",
+    "metodo": "freidora",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 165,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Magdalenas húmedas y aromáticas con coco rallado, ideales para la merienda.",
+    "ingredients": [
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "zumo de limón"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "leche de coco"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "harina para tartas"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "sobre de levadura en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar impalpable"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite de coco"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "imón rallado"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "extracto de vainilla"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "arándanos frescos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combine el zumo de limón y la leche de coco en un bol pequeño."
+      },
+      {
+        "text": "Tamizar la harina, la levadura en polvo, el bicarbonato y la sal en un bol"
+      },
+      {
+        "text": "Mezclar el azúcar, el aceite de coco, la ralladura de limón y el extracto de vainilla en otro bol."
+      },
+      {
+        "text": "Combinar la mezcla de harina con la mezcla líquida y empezar a mezclar con una espátula."
+      },
+      {
+        "text": "Añada la mezcla de aceite de coco y continúe mezclando hasta que la mezcla sea completamente suave."
+      },
+      {
+        "text": "Introducir suavemente los arándanos."
+      },
+      {
+        "text": "Precaliente la freidora de aire a 165° C durante unos minutos."
+      },
+      {
+        "text": "Engrasar los moldes de la tarta con un poco de aceite, o con spray de cocina."
+      },
+      {
+        "text": "Vierta la masa hasta que los moldes estén ¾ de llenos."
+      },
+      {
+        "text": "Colocar con cuidado los moldes en la freidora precalentada."
+      },
+      {
+        "text": "Selecciona la función dulce y ajusta el tiempo a 12 minutos."
+      },
+      {
+        "text": "Comprueba siempre que están cocidos, y en cuanto estén listos deja enfriar los cupcakes durante 10 minutos y sírvelos.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-magdalenas-de-cafe-en-freidora",
+    "title": "Magdalenas de Café en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 170,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Magdalenas esponjosas con un toque de café expreso o soluble, perfectas para el desayuno.",
+    "ingredients": [
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "cacao en polvo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "azúcar moreno"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Medio sobre de levadura en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "polvo de espresso"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo grande"
+      },
+      {
+        "amount": 170,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "extracto de vainilla"
+      },
+      {
+        "amount": 5,
+        "unit": "ml",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "aceite vegetal"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar todos los ingredientes secos en un bol grande, incluyendo la harina, el cacao en polvo, el azúcar, la levadura en polvo, el café expreso, el bicarbonato y la sal"
+      },
+      {
+        "text": "Batir el huevo, la leche, la vainilla, el vinagre y el aceite en otro bol."
+      },
+      {
+        "text": "Mezclar los ingredientes líquidos con las harinas hasta que estén bien mezclados."
+      },
+      {
+        "text": "Engrasar los moldes de las magdalenas con aceite o spray de cocina y verter la masa."
+      },
+      {
+        "text": "Mientras tanto, precaliente la freidora de aire a 170° C."
+      },
+      {
+        "text": "Coloca con cuidado las magdalenas en la freidora precalentada."
+      },
+      {
+        "text": "Seleccione la función Postres, ajuste el tiempo a 12 minutos y cocine, comprobando el tiempo de cocción de vez en cuando.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Servir aún caliente."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bocaditos-de-coco-en-freidora",
+    "title": "Bocaditos de Coco en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "dulces",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 165,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Bolitas dulces y doradas de coco rallado, rápidas y sin horno convencional.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "leche condensada azucarada"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "clara de huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "ml",
+        "item": "extracto de almendra"
+      },
+      {
+        "amount": 2,
+        "unit": "ml",
+        "item": "extracto de vainilla"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pizca de sal"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "harina de coco"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la leche condensada, la clara de huevo, el extracto de almendra, el extracto de vainilla y la sal en un bol grande."
+      },
+      {
+        "text": "Añade 160 g de harina de coco y remueve con una cuchara de madera (o una espátula, si lo prefieres) hasta que esté bien combinado."
+      },
+      {
+        "text": "Formar pequeñas bolas con las manos."
+      },
+      {
+        "text": "En un plato aparte, añadir los 20 g restantes de harina de coco."
+      },
+      {
+        "text": "Envolver las bolas de coco en harina de coco rallada hasta cubrirlas."
+      },
+      {
+        "text": "Precaliente la freidora a 165° C y coloque las bolas de coco en la cesta de la freidora de aire precalentada."
+      },
+      {
+        "text": "Programe el tiempo a 10 minutos y deje que se cocine, comprobando el tiempo de cocción.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Dejar enfriar los bizcochos durante 5-10 minutos y servir."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-mini-calzones-de-jamon-y-muzzarella-en-freidora",
+    "title": "Mini Calzones de Jamón y Muzzarella en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Calzones individuales rellenos de jamón cocido y muzzarella derretida, dorados en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "rollo de base de pizza"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "muzzarella de búfala"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "tomate pelado"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "aceitunas negras sin hueso"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Guindilla al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Orégano al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "En un bol, colocar el tomate pelado con una pizca de sal, orégano, guindilla y un chorrito de aceite. Mezclar bien todos los ingredientes."
+      },
+      {
+        "text": "Desenrollar la base de pizza y dividirla en 4 trozos."
+      },
+      {
+        "text": "Cortar el jamón en trozos pequeños."
+      },
+      {
+        "text": "Cortar la muzzarella de búfala en rodajas finas."
+      },
+      {
+        "text": "Colocar un poco de tomate pelado en el centro de cada cuadrado de masa. A continuación, coloque rodajas de muzzarella, un poco de jamón picado y una aceituna."
+      },
+      {
+        "text": "Dobla la masa para que cubra completamente el relleno y sella bien los bordes humedeciendo los dedos con agua."
+      },
+      {
+        "text": "Cepillar la superficie de los pantalones cortos con un poco de aceite."
+      },
+      {
+        "text": "Coloque los calzones directamente en la cesta de la freidora. Si es lo suficientemente grande puede cocinarlos de dos en dos, de lo contrario haga 2 cocciones."
+      },
+      {
+        "text": "Poner la freidora a 180°C durante 10 minutos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-saladitos-de-hojaldre-con-salchicha-en-freidora",
+    "title": "Saladitos de Hojaldre con Salchicha en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 7,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Bocaditos de masa de hojaldre rellenos con salchicha y queso, súper rápidos para picadas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "rollo de hojaldre redondo"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "salchichas"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso semiduro rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Semillas de sésamo blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Semillas de sésamo negro"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comience por preparar los mini-cornets. Desenrollar el hojaldre y cortarlo en triángulos."
+      },
+      {
+        "text": "Cortar las salchichas en rodajas finas."
+      },
+      {
+        "text": "Coloque unas cuantas rondas de salchicha en el centro de cada tri-roll y espolvoree un poco de queso semiduro rallado."
+      },
+      {
+        "text": "Enrollar y doblar los extremos de cada triángulo para formar cornetas."
+      },
+      {
+        "text": "Coloque los croissants en la cesta de su freidora, pincélelos con huevo batido y cúbralos con semillas de sésamo blanco y negro."
+      },
+      {
+        "text": "Si en su freidora no caben todos los croissants, haga 2 cocciones."
+      },
+      {
+        "text": "Poner la freidora a 180º durante 6 minutos.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Después de 6 minutos compruebe el tiempo de cocción, si están bien"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-salada-de-coliflor-en-freidora",
+    "title": "Tarta Salada de Coliflor en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Tarta salada con base de masa y relleno cremoso de coliflor gratinado.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Cáscara de limón"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "vaso de vino blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Media coliflor pequeña"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "ricota de oveja"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "queso grana"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pizca de jengibre"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "diente de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Medio vaso de caldo de verduras"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pepe"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "nuez de manteca"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comience por preparar la masa de la tarta salada. En un bol, cremar la manteca."
+      },
+      {
+        "text": "Ahora añade el huevo, la harina tamizada, la ralladura de limón, una pizca de sal y una cucharada de vino blanco."
+      },
+      {
+        "text": "Mezclar los ingredientes. A continuación, pasar la masa a una tabla de pastelería y seguir trabajando la masa rápidamente."
+      },
+      {
+        "text": "Cuando hayas terminado de amasar la masa, divídela en dos bolas de masa. Uno de los dos debe ser un poco más grande que el otro."
+      },
+      {
+        "text": "Envolver los rollos en papel de aluminio y dejarlos reposar durante 30 minutos en el heladera."
+      },
+      {
+        "text": "Mientras la masa reposa en la heladera, ve preparando la coliflor. Quitar las hojas exteriores si las hay, cortar la coliflor en ramilletes y lavarla bajo el grifo."
+      },
+      {
+        "text": "En una sartén antiadherente, poner un poco de aceite de oliva y dorar el diente de ajo."
+      },
+      {
+        "text": "Ahora añada los ramilletes de coliflor, el caldo de verduras, sazone con sal y guise durante 15 minutos."
+      },
+      {
+        "text": "Mientras se cuece la coliflor, pasar a la preparación del queso ricota. En un bol, mezclar la ricota, el grana padano, los 2 huevos y una pizca de jengibre"
+      },
+      {
+        "text": "En cuanto la coliflor esté lista, dejarla enfriar y añadirla a la mezcla de ricota."
+      },
+      {
+        "text": "Saque la masa de la heladera y extiéndala en dos discos bastante finos."
+      },
+      {
+        "text": "Engrasar el fondo del molde. Forrar el fondo y el borde del molde con el disco más grande. Pincha el fondo de la masa con un tenedor y vierte la mezcla de ricota y coliflor."
+      },
+      {
+        "text": "Cubrir con el otro disco de masa y, si es necesario, retirar el exceso de masa."
+      },
+      {
+        "text": "Sellar bien los bordes de la tarta y luego pincelar la superficie con huevo batido."
+      },
+      {
+        "text": "Colocar la sartén en la cesta de la freidora, poner la temperatura a 170º durante 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tartaletas-de-jamon-cocido-y-queso-en-freidora",
+    "title": "Tartaletas de Jamón Cocido y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Canastitas individuales de masa rellenas de jamón cocido, queso y huevo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "rollo de hojaldre"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "queso semiduro rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empezar por picar el jamón cocido. Colóquelo en un bol y añada el requesón, el huevo y una pizca de sal y pimienta. Mezclar mucho y bien para amalgamar todos los ingredientes."
+      },
+      {
+        "text": "Ahora extiende el hojaldre y corta 4 discos directamente con los moldes de tarta."
+      },
+      {
+        "text": "Untar los moldes de tarta con un poco de aceite. Cubrir las tartas con el hojaldre. Colocar la mezcla de jamón dentro de las tartas."
+      },
+      {
+        "text": "Espolvorear la superficie de las tartas con queso semiduro rallado."
+      },
+      {
+        "text": "Coloque los moldes en la cesta de la freidora de aire y accione manualmente la temperatura de 200° durante 10 minutos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pancitos-de-aceituna-en-freidora",
+    "title": "Pancitos de Aceituna en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 6,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bollos tiernos saborizados con aceitunas picadas y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina 0000"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "aceitunas negras sin hueso"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "aceitunas verdes sin hueso"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "levadura de cerveza"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Agua tibia al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comience la preparación con las aceitunas. Picar groseramente las aceitunas blancas y negras."
+      },
+      {
+        "text": "En un bol, vierta la harina tamizada, la levadura en polvo, una pizca de sal y la cucharada de aceite."
+      },
+      {
+        "text": "Empezar a amasar los ingredientes a mano, añadiendo agua tibia poco a poco hasta obtener una masa suave y homogénea."
+      },
+      {
+        "text": "Ahora añade las aceitunas picadas a la masa y sigue amasando."
+      },
+      {
+        "text": "Dividir la masa en 4 bolas diferentes. Estirar la masa en discos de 7 cm de diámetro."
+      },
+      {
+        "text": "Coloque los bollos directamente en la cesta de su freidora de aire y cepille la superficie de los bollos con un poco de aceite de oliva, una pizca de sal y una pizca de pimienta negra."
+      },
+      {
+        "text": "Poner la freidora a 180º durante 6 minutos. Al final del tiempo compruebe los bollos y si aún no están lo suficientemente cocidos continúe la cocción un par de minutos más.",
+        "timerMinutes": 6
+      }
+    ]
+  },
+  {
+    "id": "airfryer-sandwich-empanado-de-muzzarella-en-freidora",
+    "title": "Sándwich Empanado de Muzzarella en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Clásica mozzarella in carrozza adaptada a freidora de aire: pan relleno de muzzarella, pasado por huevo y dorado.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "pan de molde o de pan blanco para sándwiches"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "muzzarella, preferiblemente muzzarella"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Harina cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta negra al gusto"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pan rallado"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Para preparar la muzzarella en carrozza, comience con el pancarrè. Si opta por el pancarrè, retire la corteza exterior, dejando sólo la parte blanca central."
+      },
+      {
+        "text": "Luego pasa a la muzzarella. Dejarlo escurrir lo más posible y luego cortarlo en rodajas finas."
+      },
+      {
+        "text": "Extender las rebanadas de muzzarella sobre cuatro rebanadas de pan, procurando que la muzzarella quede bien centrada, dejando unos milímetros de borde en los laterales para evitar que se salga el relleno."
+      },
+      {
+        "text": "Cerrar con las otras lonchas de panceta, presionando ligeramente para compactar bien los sándwiches."
+      },
+      {
+        "text": "En un bol, bata la leche, los huevos, la sal y la pimienta."
+      },
+      {
+        "text": "Pasar los sándwiches primero por harina, haciendo que se peguen bien por ambos lados y bordes."
+      },
+      {
+        "text": "A continuación, pasar los bocadillos por los huevos batidos y, por último, por el pan rallado."
+      },
+      {
+        "text": "Deje reposar la muzzarella en carrozza en la heladera durante 30 minutos, para que al hornearla, el pan rallado esté más crujiente y la muzzarella no se salga.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Saque la muzzarella de la heladera."
+      },
+      {
+        "text": "Coloque sus mozzarellas en la cesta de la freidora. Si su freidora es pequeña cocine de dos en dos, si es lo suficientemente grande puede cocinar los 4 a la vez."
+      },
+      {
+        "text": "Programe manualmente la freidora a 200°."
+      },
+      {
+        "text": "Rociar las mozzarellas con un poco de aceite y cocinarlas durante unos 4 minutos. Sacar el cestillo, dar la vuelta a las mozzarellas, rociar con una gota de aceite y dejar cocer otros 4 minutos",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pizzetas-de-jamon-y-champinones-en-freidora",
+    "title": "Pizzetas de Jamón y Champiñones en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pastas",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pizzetas individuales crocantes con salsa de tomate, muzzarella, jamón y champiñones.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "rebanadas",
+        "item": "panceta"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "manteca ablandada"
+      },
+      {
+        "amount": 8,
+        "unit": "unidad",
+        "item": "tomates cherry"
+      },
+      {
+        "amount": 8,
+        "unit": "l",
+        "item": "onchas de jamón"
+      },
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "champiñones"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "queso semiduro"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Orégano al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comienza tostando las lonchas de panceta. En cuanto estén todas tostadas, utilice un cortapastas para cortar discos de 5 cm de diámetro de cada rebanada."
+      },
+      {
+        "text": "Lavar los tomates cherry, secarlos y cortarlos por la mitad."
+      },
+      {
+        "text": "Rallar el queso semiduro."
+      },
+      {
+        "text": "Pasa a las setas. Retire las partes inferiores, lave las partes superiores, séquelas y córtelas en rodajas finas."
+      },
+      {
+        "text": "Cortar el jamón en trozos bastante pequeños."
+      },
+      {
+        "text": "Unte los discos de panceta con manteca y colóquelos en la cesta de la freidora. Si la cesta es lo suficientemente grande, haga una sola cocción, de lo contrario divida las pizzas en dos cocciones separadas."
+      },
+      {
+        "text": "Colocar los tomates cherry sobre los discos de pancarrè. A continuación, colocar el jamón cocido, los champiñones y, por último, el queso semiduro rallado por encima."
+      },
+      {
+        "text": "Espolvorear con una pizca de sal, un poco de pimienta y una pizca de orégano.",
+        "timerMinutes": 7
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tarta-salada-de-puerros-en-freidora",
+    "title": "Tarta Salada de Puerros en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Tarta casera suave de puerros salteados y queso, cocida en molde dentro de la freidora.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "rollo de hojaldre"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "puerros"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "crema de leche para cocinar"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pepe"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empieza por limpiar los puerros. Quitar la parte verde y las hojas exteriores duras. Lávalas, sécalas y córtalas en varias rondas."
+      },
+      {
+        "text": "Derretir la manteca en una sartén. En cuanto empiece a chisporrotear, poner los puerros y dejarlos sazonar a fuego lento para que se marchiten sin tomar color. Salpimentar y retirar del fuego."
+      },
+      {
+        "text": "En un bol, bata los huevos con la crema de leche y luego sazone con una pizca de sal y pimienta."
+      },
+      {
+        "text": "Engrasar un molde de 12 cm. Extienda la masa y retire el exceso de masa de los lados. Colocar los puerros dentro y rociar con la mezcla de crema de leche y huevo."
+      },
+      {
+        "text": "Espolvorear con queso parmesano rallado"
+      },
+      {
+        "text": "Coloque la sartén directamente en la cesta de la freidora."
+      },
+      {
+        "text": "Poner la freidora a 200º durante 15 minutos. Colocar el molde en la",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bocaditos-de-queso-empanados-en-freidora",
+    "title": "Bocaditos de Queso Empanados en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Trozos de queso firme empanados y bien crocantes por fuera, derretidos por dentro.",
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "unidad",
+        "item": "trozos de queso muzzarella en bastones"
+      },
+      {
+        "amount": 35,
+        "unit": "g",
+        "item": "harina"
+      },
+      {
+        "amount": 6,
+        "unit": "g",
+        "item": "fécula de choclo"
+      },
+      {
+        "amount": 6,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta negra"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 30,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "perejil seco en copos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar el queso en tiras en 3 partes haciendo 36 trozos."
+      },
+      {
+        "text": "Mezclar en un bol la harina, la maicena, la sal y la pimienta."
+      },
+      {
+        "text": "Bata los huevos y la leche en otro bol."
+      },
+      {
+        "text": "Añadir el pan rallado y los copos de perejil."
+      },
+      {
+        "text": "Pasar cada trozo de queso por harina, luego por huevo y por pan rallado."
+      },
+      {
+        "text": "Precalentar la freidora a 180º C durante 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Coloque los bocadillos de queso en el congelador mientras se precalienta la freidora."
+      },
+      {
+        "text": "Colóquelos en la freidora precalentada y rocíelos generosamente con spray de cocina."
+      },
+      {
+        "text": "Cocer durante unos 7 minutos"
+      },
+      {
+        "text": "Sacudir la cesta a mitad de la cocción y comprobar que se dore."
+      },
+      {
+        "text": "Servir caliente con la salsa de su elección."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-milanesitas-de-berenjena-en-freidora",
+    "title": "Milanesitas de Berenjena en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Rodajas de berenjena empanadas y doradas en freidora de aire con muy poco aceite.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "berenjenas"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 30,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pimienta negra al gusto"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina de uso general"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva para cepillar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bata el huevo y la leche en un plato llano."
+      },
+      {
+        "text": "Mezclar el pan rallado, la sal y la pimienta en un plato aparte."
+      },
+      {
+        "text": "Cortar las berenjenas en rodajas gruesas."
+      },
+      {
+        "text": "Pasar las rodajas de berenjena por harina y luego por huevo y pan rallado. Pasar de nuevo por el huevo y el pan rallado."
+      },
+      {
+        "text": "Precalentar la freidora durante unos minutos a 200° C."
+      },
+      {
+        "text": "Untar cada lado de las rodajas de berenjena con aceite de oliva."
+      },
+      {
+        "text": "Colocar las berenjenas empanadas en la freidora precalentada."
+      },
+      {
+        "text": "Cocer las berenjenas durante 10 minutos."
+      },
+      {
+        "text": "Dar la vuelta a las berenjenas a mitad de la cocción y, en cuanto estén listas, servirlas calientes.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-berenjenas-con-jamon-y-muzzarella-en-freidora",
+    "title": "Berenjenas con Jamón y Muzzarella en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Capas de berenjena grillada con jamón cocido, salsa de tomate y muzzarella gratinada.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Berenjenas largas"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "muzzarella en trozos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Tomates"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Orégano al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar bien las berenjenas, recortarlas quitando los tallos."
+      },
+      {
+        "text": "Corta las berenjenas en rodajas de no más de 1 cm de grosor, de lo contrario tardarán demasiado en cocinarse."
+      },
+      {
+        "text": "Condimentar, entre rodaja y rodaja, con una pizca de sal, unas pinceladas de aceite de oliva y orégano."
+      },
+      {
+        "text": "A continuación, rellena las berenjenas con una rodaja de tomate, otra de jamón y otra de muzzarella."
+      },
+      {
+        "text": "Vuelve a espolvorear un poco de sal y orégano sobre la superficie."
+      },
+      {
+        "text": "Colocar las berenjenas en una bandeja de la freidora cubierta con papel de horno y añadir un poco de aceite en la superficie."
+      },
+      {
+        "text": "Hornee a 180° durante 15 minutos, luego aumente a 200° durante otros 5 minutos.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-papas-con-salsa-de-atun-y-yogur-en-freidora",
+    "title": "Papas con Salsa de Atún y Yogur en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Papas asadas en freidora de aire servidas con una salsa fresca de atún, yogur natural y perejil.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "papas (aprox. 500 g)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolleta cortada en aros finos"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "ata de atún en aceite,"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharada",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta negra y sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "alcaparras"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "yogur griego"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "chile en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 180°C durante unos minutos."
+      },
+      {
+        "text": "Poner las papas en remojo en agua fría durante al menos 30 minutos y luego secarlas con papel de cocina.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Unte las papas con aceite de oliva y colóquelas en la cesta de la freidora."
+      },
+      {
+        "text": "Poner el temporizador en 30 minutos para freír las papas."
+      },
+      {
+        "text": "Cocinar hasta que esté bien cocido y crujiente."
+      },
+      {
+        "text": "En un bol, triturar el atún y añadir el yogur y la guindilla en polvo."
+      },
+      {
+        "text": "Mezclar todo bien."
+      },
+      {
+        "text": "Añadir la mitad de la cebolleta y salpimentar."
+      },
+      {
+        "text": "Abre la papa y vierte la mezcla de atún en su interior."
+      },
+      {
+        "text": "Añadir la guindilla en polvo, las alcaparras y la parte restante de la cebolleta."
+      },
+      {
+        "text": "Colocar las papas cuando estén listas en dos platos de servir y"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-canastitas-de-papa-rellenas-de-jamon-en-freidora",
+    "title": "Canastitas de Papa Rellenas de Jamón en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Nidos crocantes de papa rallada horneados en moldes y rellenos con jamón y queso.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "papas grandes"
+      },
+      {
+        "amount": 2,
+        "unit": "l",
+        "item": "onchas de jamón de Parma"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "champiñones"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "chalote"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso grana rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "romero"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "crema de leche para cocinar"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pastilla de caldo de verduras granulado"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pimienta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar las papas con toda la piel."
+      },
+      {
+        "text": "Llenar una cacerola con agua fría, sumergir las papas en ella, añadir sal y hervirlas durante 30 minutos."
+      },
+      {
+        "text": "Compruebe la cocción, deben estar blandas pero no demasiado cocidas."
+      },
+      {
+        "text": "Una vez listos, escurrirlos y dejarlos enfriar."
+      },
+      {
+        "text": "Dividir las papas por la mitad y ahuecarlas dejando sólo una fina capa de carne pegada a la piel."
+      },
+      {
+        "text": "Cortar la pulpa restante en dados y reservarla, ya que se utilizará para preparar el relleno."
+      },
+      {
+        "text": "Lavar el romero, retirar el tallo y picar las hojas finamente."
+      },
+      {
+        "text": "Pelar las chalotas, lavarlas y cortarlas en tiras finas."
+      },
+      {
+        "text": "Poner al fuego una sartén antiadherente con un poco de aceite. Calentar el aceite y añadir las chalotas, una pizca de sal, un vaso de agua y una pastilla de caldo de verduras."
+      },
+      {
+        "text": "Cocinar las chalotas 5 minutos a fuego lento.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Mientras tanto, limpiar los champiñones. Retirar la parte terrosa, lavarlas bajo el agua corriente, secarlas y cortarlas en rodajas finas."
+      },
+      {
+        "text": "Ahora añada los champiñones a las chalotas, sazone con sal y continúe cocinando a fuego alto hasta que todo el líquido de los champiñones se haya evaporado."
+      },
+      {
+        "text": "Retirar del fuego y añadir a las setas una cucharada de aceite de oliva y las papas cortadas en dados. Mezclar todo bien y luego añadir las hojas de romero picadas."
+      },
+      {
+        "text": "Engrasar una fuente de horno y colocar en ella las dos cestas de papas."
+      },
+      {
+        "text": "Unte las dos cestas de papas con el resto de la manteca derretida, fórrelas con una loncha de jamón cada una y espolvoree con queso grana padano."
+      },
+      {
+        "text": "Seguir llenando las cestas con la mezcla de papas y setas."
+      },
+      {
+        "text": "Por último, se cubren con la crema de leche para cocinar y una pizca de pimienta."
+      },
+      {
+        "text": "Coloque la fuente de horno en la cesta de su freidora, programe la temperatura a 200° durante 10 minutos",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Una vez transcurrido el tiempo, compruebe las cestas y si no parecen"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-canastitas-de-papa-con-huevo-y-queso-en-freidora",
+    "title": "Canastitas de Papa con Huevo y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 1,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Cestas individuales de papa cocidas con un huevo al centro y queso gratinado.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "unidad",
+        "item": "papas grandes"
+      },
+      {
+        "amount": 3,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "rebanadas",
+        "item": "panceta"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "queso Emmenthal rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comience la preparación con las papas. Límpialos y lávalos bajo el grifo con toda la piel."
+      },
+      {
+        "text": "Colóquelos en una olla cubierta completamente con agua y sal. Deje que se cocinen durante unos 30 minutos. Las papas deben estar bastante al dente, para que al rellenarlas queden firmes y compactas.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Escurre las papas, sécalas con un paño de cocina y pélalas en caliente."
+      },
+      {
+        "text": "Deja que se enfríen y cuando estén calientes, corta las cáscaras de las papas a lo largo y resérvalas."
+      },
+      {
+        "text": "Ahuecar el fondo de la papa con una cuchara, tratando de formar una cavidad lo suficientemente grande como para contener un huevo."
+      },
+      {
+        "text": "Poner 10 g de manteca en cada bote de papas."
+      },
+      {
+        "text": "Mojar un huevo en cada barchetta y sazonar con una pizca de sal y pimienta. Coloque una rebanada de panceta en el lado de cada barchetta."
+      },
+      {
+        "text": "Espolvorear cada bote con 20 g de queso Emmenthal rallado."
+      },
+      {
+        "text": "Cubre los botes con las tapas que has reservado."
+      },
+      {
+        "text": "Salpimentar las tapas y pincelarlas con un poco de manteca derretida."
+      },
+      {
+        "text": "Coloque en la cesta papel manteca del mismo tamaño que la cesta de la freidora."
+      },
+      {
+        "text": "Hornear a 200º durante unos 8 minutos. Si todavía no parecen lo",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-cebollas-rellenas-gratinadas-en-freidora",
+    "title": "Cebollas Rellenas Gratinadas en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Cebollas ahuecadas rellenas con su propio sofrito, pan rallado y queso rallado.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "cebollas grandes"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "jamón cocido"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "asado de ternera"
+      },
+      {
+        "amount": 25,
+        "unit": "ml",
+        "item": "crema de leche fresca para cocinar"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "queso Grana Padano"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "ramita de perejil"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Manteca al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empecemos con las cebollas. Pelarlas y lavarlas bajo el grifo."
+      },
+      {
+        "text": "Hervir agua con sal en una olla. Cuando rompa a hervir, se sumergen las cebollas en la olla y se dejan hervir al dente."
+      },
+      {
+        "text": "Retirar las cebollas del fuego, escurrirlas en un colador y dejarlas enfriar."
+      },
+      {
+        "text": "En cuanto se hayan enfriado, cortar horizontalmente la parte superior de las cebollas."
+      },
+      {
+        "text": "Vaciar el interior de las cebollas con la ayuda de una cucharilla."
+      },
+      {
+        "text": "Tome la parte interior desechada de las cebollas y resérvela."
+      },
+      {
+        "text": "Ahora coge el jamón cocido y pícalo finamente."
+      },
+      {
+        "text": "Picar también el asado de ternera."
+      },
+      {
+        "text": "Picar finamente el perejil y el ajo."
+      },
+      {
+        "text": "Coge la parte interior de la cebolla que has reservado y pícala finamente."
+      },
+      {
+        "text": "Colocar el jamón picado y el asado en un bol. Añadir el perejil, el ajo y la parte interior de la cebolla."
+      },
+      {
+        "text": "Mezclar bien los ingredientes. Ahora añada a la mezcla el huevo, el queso Grana Padano rallado y la crema de leche, salpimente y mezcle bien para obtener una mezcla homogénea."
+      },
+      {
+        "text": "Colocar los dos cuencos de cebolla en una fuente de horno ligeramente untada con manteca."
+      },
+      {
+        "text": "Llenar los cuencos de cebolla con el relleno, espolvorear la parte superior con un poco de pan rallado y un mechón de manteca."
+      },
+      {
+        "text": "Encienda la freidora de aire y precaliéntela a 200° durante dos minutos."
+      },
+      {
+        "text": "Colocar la sartén en la freidora y programar a 180º durante diez minutos. A continuación, poner a 200° y cocinar durante otros ocho minutos."
+      },
+      {
+        "text": "Una vez transcurrido el tiempo, compruebe el grado de cocción de las",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-croquetas-de-papa-y-queso-en-freidora",
+    "title": "Croquetas de Papa y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 40,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Croquetas doradas de puré de papa con corazón de queso derretido, sin fritura en aceite.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "papas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "queso Emmenthal rallado"
+      },
+      {
+        "amount": 3,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Harina cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pan rallado al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Para preparar las croquetas de papa, empieza por preparar las papas. Lavar cuidadosamente las papas con toda su piel y hervirlas en abundante agua caliente ligeramente salada durante unos 30 minutos."
+      },
+      {
+        "text": "Después de 30 minutos, perforar las papas con un tenedor. Si están lo suficientemente tiernos como para clavar el tenedor, termine la cocción, de lo contrario continúe hasta que estén blandos."
+      },
+      {
+        "text": "Cuando estén cocidas, escúrrelas, pásalas por agua fría y retírales la cáscara."
+      },
+      {
+        "text": "Triturarlas con un pasapurés y recogerlas en un bol."
+      },
+      {
+        "text": "Añadir el queso rallado, los dos huevos, la nuez moscada, la sal y la pimienta."
+      },
+      {
+        "text": "Enharinar una superficie de trabajo, colocar la masa de papa sobre ella y cortarla en rollos de unos 5 cm de diámetro."
+      },
+      {
+        "text": "Colocar los rollos de papa en la heladera para que reposen durante 30 minutos."
+      },
+      {
+        "text": "Transcurridos 30 minutos, saque los panecillos de la heladera y córtelos en rodajas finas."
+      },
+      {
+        "text": "Batir el huevo restante. Pasar las croquetas primero por harina, luego por huevo batido y finalmente por pan rallado."
+      },
+      {
+        "text": "Colocar las croquetas en la cesta de la freidora de aire y rociarlas con una gota de aceite de oliva."
+      },
+      {
+        "text": "Cocínelos en modo manual a 200° durante 4 minutos. A continuación, retire la cesta, déles la vuelta, rocíe con un poco de aceite de oliva y cocine durante otros 4 minutos.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Si las croquetas parecen poco doradas, puedes mantenerlas un par de"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-brochetas-de-cerdo-agridulces-en-freidora",
+    "title": "Brochetas de Cerdo Agridulces en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Pinchos tiernos de cerdo pincelados con salsa agridulce y dorados en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "lomo de cerdo cortado en cubos"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "fécula de choclo"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "azúcar moreno claro"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "jengibre rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta negra al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar (o alternativamente aceite de oliva)"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la maicena con el agua."
+      },
+      {
+        "text": "En una cacerola pequeña, combine la mezcla con la salsa de soja, el azúcar moreno, el ajo y el jengibre."
+      },
+      {
+        "text": "Cocinar la salsa a fuego alto hasta que hierva y espese durante unos 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sazonar la salsa al gusto con pimienta negra y dejar enfriar."
+      },
+      {
+        "text": "Coloque la carne entre los pinchos de madera. Déjelo marinar en la salsa resultante durante unos 20/25 minutos."
+      },
+      {
+        "text": "Seleccione el programa de precalentamiento (o bien haga precalentar la freidora) y pulse el botón de inicio."
+      },
+      {
+        "text": "Coloque las brochetas en la freidora precalentada y rocíelas con aceite en aerosol (o puede engrasar la cesta con un poco de aceite de oliva)."
+      },
+      {
+        "text": "Seleccione el programa de carne y ajuste el temporizador a 8/10 minutos"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-carre-de-cerdo-asado-al-romero-en-freidora",
+    "title": "Carré de Cerdo Asado al Romero en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 6,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Corte magro de cerdo sellado y asado en freidora con romero fresco, ajo y vino blanco.",
+    "ingredients": [
+      {
+        "amount": 700,
+        "unit": "g",
+        "item": "asado de cerdo magro"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Vino blanco para desglasar"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal, pimienta negra al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "romero"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Sazonar la carne con sal, pimienta y un poco de aceite. Colocar la carne en una sartén antiadherente engrasada con aceite y sellar todos sus lados."
+      },
+      {
+        "text": "Desglasar con un poco de vino."
+      },
+      {
+        "text": "Transfiera el asado de cerdo a una molde apto para freidora del diámetro de la cesta de la freidora y vierta la salsa que se ha formado en la sartén."
+      },
+      {
+        "text": "Colocar la ramita de romero sobre la carne."
+      },
+      {
+        "text": "Poner la temperatura de la freidora a 180º C (si quieres puedes precalentarla unos dos minutos) y cocinar durante unos 40/45 minutos, asegurándote de comprobar y dar la vuelta a la carne durante la cocción.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Una vez finalizado el tiempo de cocción, retire el asado de cerdo de la sartén, déjelo enfriar y córtelo en rodajas finas."
+      },
+      {
+        "text": "Condimentar las rodajas de carne con la salsa restante en la sartén y servir."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-costillitas-de-lomo-de-cerdo-en-freidora",
+    "title": "Costillitas de Lomo de Cerdo en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Chuletas de cerdo jugosas sazonadas con hierbas y cocidas en minutos.",
+    "ingredients": [
+      {
+        "amount": 700,
+        "unit": "g",
+        "item": "lomo de cerdo"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite de semillas (o aceite de oliva) cantidad necesaria"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Romper y batir dos huevos enteros con un tenedor en un plato con una pizca de sal."
+      },
+      {
+        "text": "En otro plato poner el pan rallado"
+      },
+      {
+        "text": "Rebozar y empanar las lonchas de carne (de una en una) primero en huevo y luego en pan rallado, cubriéndolas bien por ambos lados."
+      },
+      {
+        "text": "Se puede rociar abundante aceite por ambos lados de las rebanadas o poner un poco de aceite en un plato hondo y rociar las rebanadas en él, por ambos lados."
+      },
+      {
+        "text": "Disponga las chuletas en las sartenes de malla suministradas con la freidora o, en cualquier caso, en sartenes perforadas para una cocción más rápida y uniforme."
+      },
+      {
+        "text": "Comienza a cocinar a 180° C durante unos 7 minutos con el programa de fritura, luego invierte las sartenes, si usas tres, gíralas en los 3 niveles o puedes terminar de cocinar la de arriba, añadiendo más minutos, luego retira la sartén de arriba que se cocina antes que las otras, porque está más cerca de la resistencia y mueve las otras sartenes en su lugar, paso a paso.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Si las rebanadas de carne son más gruesas, puede hornearlas primero a 180° C y luego aumentar a 200° C para que se doren más."
+      },
+      {
+        "text": "Para cocinar tres sartenes, se necesitan unos 25 minutos; los tiempos pueden variar dependiendo de su freidora, pero también de la cantidad",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "airfryer-costillitas-de-cerdo-a-la-barbacoa-en-freidora",
+    "title": "Costillitas de Cerdo a la Barbacoa en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Chuletas de cerdo glaseadas con salsa barbacoa casera o comprada.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "chuletas de cerdo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "al gusto Sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "salsa barbacoa cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Primero deje reposar las chuletas a temperatura ambiente durante unos 20 minutos antes de cocinarlas para que la carne no se endurezca durante la cocción.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "A continuación, sazónelas con un poco de sal y rocíelas con sólo una cucharadita de aceite (para evitar el humo blanco en su freidora)."
+      },
+      {
+        "text": "Coloque las rodajas de carne directamente en la cesta y haga funcionar la freidora de aire a 180° o la función de carne (o filete)."
+      },
+      {
+        "text": "Cocine la carne durante 3 minutos y luego úntela con la salsa barbacoa.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Continuar la cocción durante otros 3 minutos."
+      },
+      {
+        "text": "Dé la vuelta a las chuletas directamente en la cesta y pincélelas por el otro lado, luego continúe la cocción a una temperatura mayor de 200°"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-costillas-de-cerdo-al-pimenton-y-romero-en-freidora",
+    "title": "Costillas de Cerdo al Pimentón y Romero en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Costillas bien sabrosas adobadas con pimentón dulce, romero y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "unidad",
+        "item": "Costillas de cerdo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimentón al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Romero al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Preparar una mezcla con el pimentón, la sal y el romero y mezclar."
+      },
+      {
+        "text": "Sazonar las costillas con pimentón, sal y romero."
+      },
+      {
+        "text": "Vierta medio vaso de agua en el fondo de la cesta, lo que evitará que la grasa humee (lea siempre las instrucciones de su freidora de aire)."
+      },
+      {
+        "text": "Coloque las costillas por ambos lados en la mezcla preparada y póngalas directamente en la cesta y haga funcionar la freidora de aire a 180°C durante 20/25 minutos o con la función de carne.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Tras 10 minutos de cocción, darles la vuelta directamente sobre la cesta y continuar la cocción durante otros 10 a 15 minutos (los tiempos",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-salchichas-y-papas-en-freidora",
+    "title": "Salchichas y Papas en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 2,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Plato práctico y rendidor de salchichas doradas junto con cubos de papa especiados.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "Salchichas de cerdo"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "papas"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "especias al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cucharadita de aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pinchar la tripa con un palillo o un tenedor."
+      },
+      {
+        "text": "Si se decide cocinar también papas como guarnición, el consejo es pelar y cortar las papas en gajos y dejarlas en remojo en agua fría durante al menos 30 minutos, luego enjuagarlas y secarlas",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Póngalas en un bol, añada una o dos cucharaditas (dependiendo de la cantidad de papas) de aceite de oliva, sus especias favoritas y mezcle bien."
+      },
+      {
+        "text": "Coloque las papas en la cesta perforada y hornéelas a 200° C durante 12-15 minutos. A continuación, abra la cesta, agite para mezclar las papas y añada las salchichas de forma que queden en la cesta y no sobre las papas.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Hornear durante 8 minutos a 200° C, luego abrir la cesta, remover las papas y dar la vuelta a las salchichas, continuar la cocción durante",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-solomillo-de-cerdo-en-costra-de-especias-en-freidora",
+    "title": "Solomillo de Cerdo en Costra de Especias en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Solomillo magro cubierto con mezcla de especias y cocido a punto justo.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "filete de cerdo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zapallito"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zanahoria"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "morrón amarillo pequeño"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "ramos de pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Leche al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Medio vaso de vino blanco"
+      },
+      {
+        "amount": 4,
+        "unit": "cucharadas",
+        "item": "ketchup"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "mejorana"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "orégano fresco"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "tomillo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Hojas frescas de salvia"
+      },
+      {
+        "amount": 2,
+        "unit": "ramitas",
+        "item": "romero"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "aceite de oliva para marchitar"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "aceite de oliva para freír"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "aceite de oliva para sazonar"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelar y lavar el zapallito, la zanahoria y el morrón, picarlos groseramente y freírlos en una sartén con un poco de aceite a fuego lento durante 4-5 minutos."
+      },
+      {
+        "text": "Apagar y dejar enfriar."
+      },
+      {
+        "text": "Triturar el pan rallado en la batidora con la mejorana, el orégano y las hojas de tomillo."
+      },
+      {
+        "text": "Verter la mezcla picada en un bol, añadir las verduras marchitas y una pizca de sal y pimienta; mezclar bien y añadir unas cucharadas de leche para obtener una mezcla suave pero firme."
+      },
+      {
+        "text": "Sofreír el ajo, la salvia y el romero en una sartén con un poco de aceite durante 1-2 minutos a fuego lento."
+      },
+      {
+        "text": "Retirar el ajo y las hierbas y subir el fuego; añadir el filete y dejar que se dore 7-8 minutos, para \"sellar\" la carne, de modo que se forme una costra uniforme en todos los lados. Darle la vuelta de vez en cuando pero sin perforar la carne.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Salpimentar y desglasar con el vino, luego retirar el filete del fuego y dejarlo enfriar; reservar la sartén, sin lavarla."
+      },
+      {
+        "text": "Cubrir la parte superior del filete con la mezcla de verduras para formar la costra vegetal."
+      },
+      {
+        "text": "Presiona ligeramente con las manos para que se pegue. Colocar con cuidado el filete en la cesta y engrasarlo con un poco de aceite."
+      },
+      {
+        "text": "Cocine el filete en una costra en la freidora de aire precalentada a 180°C durante unos 10/12 minutos, hasta que la carne esté bien cocida.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "En cuanto esté cocido, sacarlo y el filete, dejarlo enfriar unos minutos, para que la cobertura se compacte."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-lomo-de-cerdo-a-la-naranja-en-freidora",
+    "title": "Lomo de Cerdo a la Naranja en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Lomo de cerdo tierno con glaseado cítrico de jugo y ralladura de naranja.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "lomo de cerdo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "naranja grande"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "romero"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "½ cucharadita de fécula de choclo"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "aceite de oliva virgen extra"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "vino blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pimienta negra al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "En primer lugar, lava y seca bien los cítricos."
+      },
+      {
+        "text": "Rallar finamente la piel de la naranja, teniendo cuidado de no mellar la parte blanca amarga, y luego exprimir el zumo."
+      },
+      {
+        "text": "Recoger el zumo y la piel de naranja en una fuente de horno y añadir el romero, la sal y la pimienta. Mezclar bien con las ramitas de romero y añadir la carne."
+      },
+      {
+        "text": "Déjelo marinar durante una hora, dándole la vuelta a menudo en el líquido."
+      },
+      {
+        "text": "En una sartén grande, derretir la manteca en el aceite. A continuación, añada la carne escurrida, reservando la marinada, y dórela por todos los lados a fuego fuerte, luego desglasee con el vino."
+      },
+      {
+        "text": "Vuelva a poner el lomo de cerdo en la fuente con la marinada y colóquelo (si quiere puede envolverlo) con papel de aluminio y cocínelo en la freidora de aire a 180°C durante 50/60 minutos.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "A mitad de la cocción, dar la vuelta a la carne y rociarla de vez en cuando con su salsa. Si se oscurece o se seca demasiado, tápelo."
+      },
+      {
+        "text": "Cuando esté cocido, colar el caldo y ponerlo en un cazo. Cuando esté tibio, añadir una cucharada de harina de choclo tamizada y remover bien con un tenedor para evitar que se formen grumos."
+      },
+      {
+        "text": "Calentar a fuego moderado y dejar que espese, sazonando con sal y"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bifes-de-cuadril-con-muzzarella-en-freidora",
+    "title": "Bifes de Cuadril con Muzzarella en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bifes de cuadril dorados con tomate fresco, orégano y muzzarella gratinada.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "cuadril de ternera"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "tomates maduros"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "mozzarellas"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Orégano seco"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Harina cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empieza con la carne. Lávelo rápidamente bajo el grifo, séquelo con toallas de papel y resérvelo."
+      },
+      {
+        "text": "Coge una fuente de horno y úntala ligeramente con manteca."
+      },
+      {
+        "text": "Ahora enharina las rodajas de carne y colócalas en la fuente de horno."
+      },
+      {
+        "text": "Lavar y secar los tomates y cortarlos en rodajas."
+      },
+      {
+        "text": "Cortar la muzzarella en rodajas no muy gruesas."
+      },
+      {
+        "text": "En un bol, mezcle 2 cucharadas de aceite de oliva, sal, pimienta y orégano."
+      },
+      {
+        "text": "Unte cada rebanada de carne con rodajas de tomate. Salpimentar los tomates y cubrirlos con las rodajas de muzzarella."
+      },
+      {
+        "text": "Rocíe con aceite de orégano y luego coloque el plato en la cesta de la freidora."
+      },
+      {
+        "text": "Ajuste la temperatura a 200° durante 9 minutos con el programa de carne."
+      },
+      {
+        "text": "Comprobar el tiempo de cocción y si aún no parecen cocidos,",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-albondigas-de-carne-y-jamon-en-freidora",
+    "title": "Albóndigas de Carne y Jamón en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 16,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Albóndigas jugosas de carne picada mezclada con jamón cocido picado y perejil.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "jamón de parma"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pizca de nuez moscada"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Poner la carne en un bol y añadir la sal, la pimienta, el queso parmesano y el huevo. Mezclar todo con un tenedor y luego comenzar a amasar con las manos."
+      },
+      {
+        "text": "Ahora añade el pan rallado y sigue amasando. Si la mezcla está demasiado dura, ablándala con un poco de leche, si está demasiado blanda, añade más pan rallado."
+      },
+      {
+        "text": "Dejar reposar la carne durante 10 minutos."
+      },
+      {
+        "text": "A continuación, humedece las manos y empieza a formar las hamburguesas. Dales la típica forma redonda, ligeramente aplanada en los bordes."
+      },
+      {
+        "text": "Retirar la grasa exterior del jamón y cortar las lonchas por la mitad."
+      },
+      {
+        "text": "Envolver las hamburguesas con jamón serrano."
+      },
+      {
+        "text": "Coloque las hamburguesas en la cesta de su freidora, rocíe con un poco de aceite de oliva y programe la freidora a 180° durante 7 minutos.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Una vez transcurridos los 7 minutos, abrir la cesta, dar la vuelta a las hamburguesas, rociarlas con un poco más de aceite y ponerlas a 200° durante otros 5 minutos.",
+        "timerMinutes": 7
+      }
+    ]
+  },
+  {
+    "id": "airfryer-albondigas-en-salsa-de-tomate-en-freidora",
+    "title": "Albóndigas en Salsa de Tomate en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Albóndigas doradas primero en la cesta y terminadas en salsa de tomate casera.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "carne de ternera picada"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 30,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Mezcla de especias (ajo en polvo, cebolla en polvo, orégano seco y"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "perejil seco)"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Salsa marinera para servir"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combinar la carne picada, el pan rallado, la leche, el huevo, las especias, la sal, la pimienta y el queso parmesano en un bol y mezclar bien."
+      },
+      {
+        "text": "Formar bolas medianas con la mezcla de carne. Colocar en la heladera para que repose durante 10 minutos."
+      },
+      {
+        "text": "Saque las albóndigas del heladera y colóquelas directamente en la cesta de la freidora, que habrá precalentado previamente a 200° C."
+      },
+      {
+        "text": "Rocíe las albóndigas con spray de cocina y cocínelas durante 8/10 minutos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pastel-de-carne-y-champinones-en-freidora",
+    "title": "Pastel de Carne y Champiñones en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 5,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Pan de carne tierno con champiñones salteados cocido en molde dentro de la freidora.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "salami de su elección"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla pequeña"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "hongos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200 °C."
+      },
+      {
+        "text": "En un bol grande, mezclar la carne picada con el huevo, el pan rallado, el salami, la cebolla, 1 cucharadita de sal y una buena dosis de pimienta."
+      },
+      {
+        "text": "Mezclar hasta que todos los ingredientes estén combinados."
+      },
+      {
+        "text": "Transfiera la carne a una sartén adecuada para su freidora de aire."
+      },
+      {
+        "text": "Añadir las setas y sazonar con aceite de oliva."
+      },
+      {
+        "text": "Coloque la sartén en la cesta e introdúzcala en la freidora."
+      },
+      {
+        "text": "Poner el temporizador a 25 minutos y asar el pastel de carne hasta que esté bien hecho."
+      },
+      {
+        "text": "Deje que la carne se enfríe durante al menos 10 minutos antes de",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "airfryer-arrolladitos-de-carne-con-panceta-y-queso-en-freidora",
+    "title": "Arrolladitos de Carne con Panceta y Queso en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Bifes finos arrollados con queso y panceta, dorados y jugosos.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "rebanadas",
+        "item": "carne magra de ternera"
+      },
+      {
+        "amount": 3,
+        "unit": "rebanadas",
+        "item": "panceta"
+      },
+      {
+        "amount": 6,
+        "unit": "rebanadas",
+        "item": "queso provola"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite de oliva cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Coloque una media loncha de panceta y una loncha de queso provolone encima de cada loncha de ternera."
+      },
+      {
+        "text": "Enrolla los rollos y séllalos con palillos."
+      },
+      {
+        "text": "Ponga un poco de aceite en los panecillos y colóquelos en el fondo de la cesta de la freidora de aire."
+      },
+      {
+        "text": "Sazonar con sal y pimienta."
+      },
+      {
+        "text": "Programar la función carne (o grill) y cocinar durante unos 8-9 minutos a 180º C, aumentando la temperatura a 200º C durante otros 4",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bife-con-morrones-en-freidora",
+    "title": "Bife con Morrones en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Bifes jugosos acompañados de tiras de morrón asado en el mismo recipiente.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Filete mignon (300 g)"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "morrón rojo (o amarillo)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "salsa Worcestershire o salsa de soja"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta y sal al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora durante 5 minutos a 200º C.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Colocar la ternera con el morrón, la cebolla, los morrones cortados en tiras muy finas y la salsa (ya sea de soja o Worcestershire) en la cesta (o en la bandeja de asar)."
+      },
+      {
+        "text": "Pincelar (o rociar) con un poco de aceite y cocinar en la función carne durante unos 10 minutos, dando la vuelta a la ternera a mitad de la cocción.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Servir el plato caliente."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-morrones-rellenos-de-carne-en-freidora",
+    "title": "Morrones Rellenos de Carne en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Mitades de morrón rellenas con carne picada condimentada y queso gratinado.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "carne picada"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "r de mortadela (en una rodaja)"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "cucharadas",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "romero"
+      },
+      {
+        "amount": 4,
+        "unit": "hojas",
+        "item": "salvia"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar la parte superior de los morrones y apartar y retirar con cuidado las semillas y los filamentos blancos interiores."
+      },
+      {
+        "text": "Enjuagar el interior y ponerlos a escurrir."
+      },
+      {
+        "text": "Mientras tanto, picar el romero y la salvia."
+      },
+      {
+        "text": "Picar la mortadela y añadirla a la carne picada, los huevos, el pan rallado, la sal, la pimienta y las hierbas picadas."
+      },
+      {
+        "text": "Mezclar todo y rellenar los morrones uno a uno con la mezcla resultante."
+      },
+      {
+        "text": "Cerrar los morrones con sus tapas."
+      },
+      {
+        "text": "Coloque una hoja de papel de aluminio en el fondo de la cesta de la freidora de aire (o sin engrasar la cesta con un poco de aceite) y coloque los morrones rellenos para que se mantengan erguidos durante la cocción."
+      },
+      {
+        "text": "Cocine con la función de verduras a 200º C durante al menos 15",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-zapallitos-rellenos-de-carne-en-freidora",
+    "title": "Zapallitos Rellenos de Carne en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 22,
+    "temperatureC": 170,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Zapallitos ahuecados rellenos con pino de carne picada y gratinados.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "zapallitos grandes"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "carne picada magra"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "feta desmenuzado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta negra recién molida al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo machacado"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "pimentón en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Quitar los extremos del zapallito y cortarlo en seis partes iguales."
+      },
+      {
+        "text": "Ahuecar cada parte con una cucharilla, formando un pequeño bote a 1/2 cm del borde y a 1 cm del fondo."
+      },
+      {
+        "text": "Sazonar el interior con sal."
+      },
+      {
+        "text": "Precalentar la freidora a 170 °C."
+      },
+      {
+        "text": "Mezclar la carne picada con el feta, el ajo, el pimentón en polvo y la pimienta."
+      },
+      {
+        "text": "Dividir la carne en ocho partes iguales."
+      },
+      {
+        "text": "Rellenar las secciones de zapallito con la mezcla, presionando suavemente."
+      },
+      {
+        "text": "Disponer los zapallitos en la bandeja de horno y colocar la bandeja en la cesta."
+      },
+      {
+        "text": "Introduzca el cesto y ajuste el temporizador a 22 minutos. Cocinar hasta que los zapallitos se doren.",
+        "timerMinutes": 22
+      },
+      {
+        "text": "Servir caliente."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-costillas-de-cordero-empanadas-en-freidora",
+    "title": "Costillas de Cordero Empanadas en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Costillitas de cordero pasadas por huevo y pan rallado, doradas y crocantes.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Chuletas de cordero (400 g)"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Harina cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pan rallado al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Preparar el pan rallado mezclando en un bol harina, huevo batido con sal y pimienta y pan rallado."
+      },
+      {
+        "text": "Pasar cada chuleta dos veces por el pan rallado."
+      },
+      {
+        "text": "Rociar un poco de aceite (o alternativamente engrasar la cesta con un poco de aceite)"
+      },
+      {
+        "text": "Poner el programa de fritura en la freidora de aire a una temperatura de 180 grados durante un cuarto de hora a 20 minutos, colocar las costillas directamente en la cesta de la freidora, acordándose de girar",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-costillas-de-cordero-con-papas-en-freidora",
+    "title": "Costillas de Cordero con Papas en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Costillas de cordero asadas al romero junto con cubos de papa dorados.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Chuletas de cordero 400 g"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Papas 100 g"
+      },
+      {
+        "amount": 1,
+        "unit": "puñado",
+        "item": "sal"
+      },
+      {
+        "amount": 5,
+        "unit": "cucharadas",
+        "item": "aceite de oliva virgen extra"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "romero"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Marinar las costillas durante 15 minutos con 3 cucharadas de aceite, el romero y la sal."
+      },
+      {
+        "text": "añadir las papas ya picadas y sazonar con las dos cucharadas restantes de aceite, sal y pimienta."
+      },
+      {
+        "text": "Poner el programa de cocción en el grill a 180 grados."
+      },
+      {
+        "text": "Hornear de 20 a 30 minutos.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Compruebe el tiempo de cocción un par de veces, agitando la cesta y removiendo."
+      },
+      {
+        "text": "Sirve las costillas calientes"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-alitas-de-pollo-a-la-barbacoa-en-freidora",
+    "title": "Alitas de Pollo a la Barbacoa en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 2,
+    "cookMinutes": 20,
+    "temperatureC": 200,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Alitas bien crocantes glaseadas con salsa barbacoa en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "alitas de pollo"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "cebolla en polvo"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "chile en polvo"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "item": "azúcar moreno"
+      },
+      {
+        "amount": 18,
+        "unit": "g",
+        "item": "sal kosher"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "alcaravea"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta negra"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta blanca"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Salsa barbacoa al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Poner todas las especias en un bol y mezclar."
+      },
+      {
+        "text": "Espolvorear el condimento sobre el pollo y dejar marinar durante 30 minutos."
+      },
+      {
+        "text": "Precalentar la freidora durante unos minutos a 200° C."
+      },
+      {
+        "text": "Coloque las alitas en la freidora precalentada y cocínelas durante 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Unte el pollo con un poco de salsa barbacoa cada 5 minutos."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-alitas-de-pollo-con-miel-y-aji-en-freidora",
+    "title": "Alitas de Pollo con Miel y Ají en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 22,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Alitas doradas con un glaseado dulce y picante de miel y ají molido.",
+    "ingredients": [
+      {
+        "amount": 680,
+        "unit": "g",
+        "item": "alitas de pollo"
+      },
+      {
+        "amount": 25,
+        "unit": "ml",
+        "item": "aceite vegetal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "miel"
+      },
+      {
+        "amount": 30,
+        "unit": "ml",
+        "item": "vinagre de vino de arroz"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "salsa picante (tipo tabasco)"
+      },
+      {
+        "amount": 3,
+        "unit": "dientes",
+        "item": "ajo picados"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "jengibre fresco rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla verde picada para decorar (opcional)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 200ºC durante unos minutos."
+      },
+      {
+        "text": "Mientras tanto, agitar las alas de pollo, el aceite, la sal y la pimienta hasta que estén bien cubiertas."
+      },
+      {
+        "text": "Coloque las alas de pollo recubiertas en la freidora precalentada."
+      },
+      {
+        "text": "Combine la salsa de soja, la miel, el vinagre de vino de arroz, la salsa picante, el ajo y el jengibre en una cacerola."
+      },
+      {
+        "text": "Llevar a ebullición hasta que los sabores se mezclen, unos 10 minutos."
+      },
+      {
+        "text": "Después de 20 minutos, colocar las alas en un bol grande y mezclarlas con el glaseado."
+      },
+      {
+        "text": "Coloque las alitas de pollo en la cesta de la freidora y cocínelas",
+        "timerMinutes": 22
+      }
+    ]
+  },
+  {
+    "id": "airfryer-alitas-de-pollo-al-parmesano-en-freidora",
+    "title": "Alitas de Pollo al Parmesano en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "temperatureC": 190,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Alitas crocantes cubiertas con ajo en polvo, perejil y queso parmesano rallado.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "g",
+        "item": "alitas de pollo"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "fécula de choclo"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 8,
+        "unit": "g",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar la freidora a 190° C"
+      },
+      {
+        "text": "Combine la maicena, el queso parmesano, el ajo en polvo, la sal y la pimienta en un bol."
+      },
+      {
+        "text": "Coloque las alas de pollo en la salsa hasta que estén completamente cubiertas."
+      },
+      {
+        "text": "Rocíe las rejillas de la freidora con aceite en aerosol y añada las alitas, rociando también la parte superior de las alitas de pollo.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-brochetas-de-pollo-al-yogur-en-freidora",
+    "title": "Brochetas de Pollo al Yogur en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Cubos de pechuga marinados en yogur natural, limón y especias para quedar súper tiernos.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "muslos de pollo deshuesados"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "yogur griego entero"
+      },
+      {
+        "amount": 20,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "pimentón"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "alcaravea"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta roja triturada"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "imón, exprimido y pelado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "sal y pimienta negra al gusto"
+      },
+      {
+        "amount": 4,
+        "unit": "dientes",
+        "item": "ajo picados"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "brochetas de madera cortadas por la mitad"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el yogur, el aceite de oliva, el pimentón, el comino, la pimienta roja, el zumo de limón, la cáscara de limón, la sal, la pimienta y el ajo en un bol grande."
+      },
+      {
+        "text": "Añada el pollo a la marinada y déjelo marinar en la heladera durante al menos 4 horas."
+      },
+      {
+        "text": "Cortar los muslos de pollo marinados en trozos y ensartarlos en brochetas cortadas por la mitad."
+      },
+      {
+        "text": "Coloque las brochetas en la freidora precalentada (durante unos minutos) y rocíe (o engrase con aceite de oliva) con aceite en aerosol.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-muslos-de-pollo-a-la-mostaza-en-freidora",
+    "title": "Muslos de Pollo a la Mostaza en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 3,
+    "cookMinutes": 20,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Muslos dorados y jugosos pincelados con mostaza, ajo y hierbas.",
+    "ingredients": [
+      {
+        "amount": 8,
+        "unit": "unidad",
+        "item": "muslos de pollo con hueso y piel"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "mostaza"
+      },
+      {
+        "amount": 30,
+        "unit": "ml",
+        "item": "miel"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "cebolla en polvo"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "pimentón"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezcle la mostaza, el miel, la cebolla en polvo, el ajo en polvo, el pimentón, la sal y la pimienta negra."
+      },
+      {
+        "text": "Cubrir los muslos de pollo con el glaseado de mostaza y reservar."
+      },
+      {
+        "text": "Precaliente la freidora de aire y ajuste la temperatura a 190° C."
+      },
+      {
+        "text": "Coloque los muslos de pollo en la freidora precalentada y vierta el resto del glaseado."
+      },
+      {
+        "text": "Poner el temporizador a 20 minutos y hornear hasta que esté crujiente",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pollo-al-limon-y-miel-en-freidora",
+    "title": "Pollo al Limón y Miel en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 195,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Trozos de pollo glaseados con una reducción rápida de limón y miel.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "muslos de pollo con hueso y piel"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "miel"
+      },
+      {
+        "amount": 20,
+        "unit": "ml",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "imón, exprimido"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo picados"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Rodajas de limón para decorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Marinar los muslos de pollo hasta 1 hora, después de ponerlos en remojo en un bol en el que se ha mezclado miel, salsa de soja, zumo de limón y ajo."
+      },
+      {
+        "text": "Una vez transcurrido el tiempo de marinado, precalentar la freidora durante unos minutos a 195° C."
+      },
+      {
+        "text": "Coloque los muslos de pollo en la freidora precalentada y cocínelos durante unos 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Retire la cesta de la freidora a 5 minutos del final de la cocción.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sazona el pollo con más marinada y vuelve a colocar la cesta en la freidora para que se termine de cocinar."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pechuga-de-pollo-con-zapallitos-en-freidora",
+    "title": "Pechuga de Pollo con Zapallitos en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Pechuga en cubos salteada en freidora con zapallitos y papas empanadas.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "pechuga de pollo"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zapallito"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "Papas"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "queso parmesano"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar y pelar el zapallito y cortarlo en rodajas muy finas."
+      },
+      {
+        "text": "Pelar las papas, lavarlas y cortarlas en medias lunas."
+      },
+      {
+        "text": "Prepare el pan rallado mezclando el pan rallado y el queso parmesano."
+      },
+      {
+        "text": "Colocar el pollo, los zapallitos y las papas en un bol grande y añadir el pan rallado y el parmesano."
+      },
+      {
+        "text": "Remover para distribuir uniformemente."
+      },
+      {
+        "text": "A continuación, coloque todos los ingredientes directamente en la cesta de la freidora de aire."
+      },
+      {
+        "text": "Rocíe o engrase con un poco de aceite de oliva."
+      },
+      {
+        "text": "Cocinar los ingredientes en la freidora de aire a 200° durante 8/10 minutos, dándoles la vuelta una vez y comprobando que están cocidos",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-pechuga-de-pollo-con-champinones-y-jamon-en-freidora",
+    "title": "Pechuga de Pollo con Champiñones y Jamón en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Pechugas rellenas o cubiertas con champiñones salteados y jamón cocido.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "pechuga de pollo"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "harina"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 2,
+        "unit": "l",
+        "item": "onchas de jamón cocido"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "setas"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "tomates"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Medio diente de ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "orégano seco cantidad necesaria"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Si se utilizan setas frescas, hay que quitarles la tierra y frotarlas ligeramente con un paño húmedo. Córtalos en rodajas y colócalos en un plato (los champiñones no deben lavarse)."
+      },
+      {
+        "text": "En una sartén, poner el aceite y los ajos pelados y cortados en rodajas y dejar que se doren a fuego fuerte."
+      },
+      {
+        "text": "Añade los champiñones y deja que se doren suavemente a fuego medio y sin tapa."
+      },
+      {
+        "text": "Déjalo cocer durante unos 5 minutos, removiendo con frecuencia, y luego apaga el fuego."
+      },
+      {
+        "text": "Poner harina en un plato y enharinar las pechugas de pollo."
+      },
+      {
+        "text": "Precalentar la freidora de aire a 200 ºC durante unos minutos."
+      },
+      {
+        "text": "Colocar en la cesta las lonchas de carne rociadas con un poco de aceite y el jamón cortado en trozos."
+      },
+      {
+        "text": "Lavar los tomates, cortarlos por la mitad y añadirlos junto con los champiñones al resto de los ingredientes."
+      },
+      {
+        "text": "Cocinar 10 minutos (con la función de pollo) hasta que la carne esté",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tiritas-de-pollo-con-sesamo-en-freidora",
+    "title": "Tiritas de Pollo con Sésamo en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pollo",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "description": "Bastones de pechuga marinados en salsa de soja y rebozados en semillas de sésamo y avena.",
+    "ingredients": [
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "pechuga de pollo deshuesada"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "salsa de soja"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pizca de jengibre en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "semillas de sésamo"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "semillas de sésamo negro"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharada",
+        "item": "copos de avena"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite de sésamo (o aceite de cacahuete) cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "sal al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Después de limpiar la carne de pollo, córtala en palitos."
+      },
+      {
+        "text": "Poner el pollo en un bol, añadir la salsa de soja, el jengibre y un chorrito de aceite de sésamo."
+      },
+      {
+        "text": "Remover, tapar con papel de aluminio y dejar unos 15-20 minutos."
+      },
+      {
+        "text": "Mientras tanto, preparar un plato o bandeja con las semillas de sésamo blanco y negro mezcladas con los copos de avena."
+      },
+      {
+        "text": "Si no tiene copos de avena, puede omitirlos o sustituirlos por un poco de pan rallado."
+      },
+      {
+        "text": "Escurrir los palitos de pollo de la marinada y sumergirlos en las semillas, presionando ligeramente."
+      },
+      {
+        "text": "Toda la superficie debe ser espolvoreada con sésamo."
+      },
+      {
+        "text": "Coloca el pollo en la cesta de la freidora de aire que vas a poner a 170º C."
+      },
+      {
+        "text": "Cocer durante unos 15 minutos, controlando el tiempo de cocción de",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-rollitos-de-pollo-con-panceta-y-esparragos-en-freidora",
+    "title": "Rollitos de Pollo con Panceta y Espárragos en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Pechugas finas arrolladas con espárragos y envueltas en panceta crocante.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "rodajas",
+        "item": "pollo de 100 g cada una"
+      },
+      {
+        "amount": 4,
+        "unit": "rebanadas",
+        "item": "panceta en rodajas finas"
+      },
+      {
+        "amount": 8,
+        "unit": "unidad",
+        "item": "espárragos verdes"
+      },
+      {
+        "amount": 4,
+        "unit": "hojas",
+        "item": "salvia"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva cantidad necesaria"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empecemos con los espárragos. Retire los tallos más duros y lávelos con agua corriente. Sécalos con toallas de papel."
+      },
+      {
+        "text": "Lavar las hojas de salvia y secarlas."
+      },
+      {
+        "text": "Pasa a las rodajas de pollo. Lávalos bajo el grifo, sécalos y luego espolvoréalos con sal y pimienta por ambos lados."
+      },
+      {
+        "text": "Coloque una loncha de panceta y 2 espárragos en cada rebanada, y espolvoree cada rebanada con queso parmesano."
+      },
+      {
+        "text": "Enrollar las rebanadas para formar un roulade y cerrar con un palillo."
+      },
+      {
+        "text": "Coge una fuente de horno y úntala con un poco de aceite. Coloque los rollos en él y rocíe un poco de aceite. Cubrir cada roulade con una hoja de salvia."
+      },
+      {
+        "text": "Colocar el plato en la cesta de la freidora y programar a 180 grados durante 10 minutos.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-calamares-crocantes-rabas-en-freidora",
+    "title": "Calamares Crocantes (Rabas) en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 7,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Anillas de calamar enharinadas y doradas en freidora de aire sin fritura profunda.",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "calamares frescos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Harina cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta negra al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empieza por limpiar los calamares. Quitar la aleta cartilaginosa transparente, separar la cabeza del manto y con la ayuda de unas tijeras de cocina, quitar los ojos."
+      },
+      {
+        "text": "Ahora, retire el pico córneo que se encuentra en el centro de los tentáculos."
+      },
+      {
+        "text": "Limpiar bien los tentáculos y reservarlos."
+      },
+      {
+        "text": "Una vez hecho esto, pase a retirar la piel del manto del calamar haciendo una incisión en la capa exterior."
+      },
+      {
+        "text": "Lavar los calamares en abundante agua corriente fría."
+      },
+      {
+        "text": "Una vez que los calamares están bien limpios, se empieza a cortar el manto en pequeños anillos de aproximadamente 1 cm de grosor."
+      },
+      {
+        "text": "Dejar escurrir los anellini en un colador durante un par de minutos para eliminar todo el exceso de agua."
+      },
+      {
+        "text": "Colocar la harina en un bol. Pasar los tentáculos y anillos de calamar por la harina."
+      },
+      {
+        "text": "Mezclar varias veces con las manos para que todas las partes estén bien enharinadas."
+      },
+      {
+        "text": "Sacar los calamares de la harina, teniendo cuidado de eliminar el exceso de harina."
+      },
+      {
+        "text": "Rocíe la cesta de la freidora con unas gotas de aceite de oliva."
+      },
+      {
+        "text": "Colocar los calamares en la cesta, procurando que no se superpongan. Si no queda espacio, mejor cocinarlos varias veces."
+      },
+      {
+        "text": "Rociar los calamares con unas gotas de aceite y hornearlos a 200º durante unos 7 minutos.",
+        "timerMinutes": 7
+      }
+    ]
+  },
+  {
+    "id": "airfryer-mejillones-gratinados-en-freidora",
+    "title": "Mejillones Gratinados en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Mejillones en media valva cubiertos con pan rallado, ajo, perejil y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "kilo de mejillones"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "mechones de perejil"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "imón"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comience por preparar el relleno. Verter el pan rallado en un bol y añadir el queso parmesano."
+      },
+      {
+        "text": "Lavar y secar los mechones de perejil."
+      },
+      {
+        "text": "Picar finamente el perejil y añadirlo al pan rallado."
+      },
+      {
+        "text": "Salpimentar y añadir 3 cucharadas de aceite de oliva y el zumo del limón."
+      },
+      {
+        "text": "Mezclar bien todos los ingredientes de la mezcla con un tenedor."
+      },
+      {
+        "text": "Ahora pasamos a los mejillones. Límpialos en un recipiente con agua y sal y frota el exterior con un estropajo de aluminio para eliminar la suciedad."
+      },
+      {
+        "text": "Aclárelos y elimine el rastrojo exterior."
+      },
+      {
+        "text": "Ponerlos en una cacerola y abrirlos a fuego fuerte durante 10 minutos."
+      },
+      {
+        "text": "Escúrrelos y retira la parte de la concha donde no está adherido el mejillón."
+      },
+      {
+        "text": "Rellenar las medias conchas con la mezcla de pan rallado."
+      },
+      {
+        "text": "Coloque los mejillones en la cesta de su freidora. Rocíe un poco de aceite de oliva en cada mejillón, y luego programe la temperatura a 220° durante 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Si la cesta no es lo suficientemente grande, puede repetir la misma operación varias veces."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-croquetas-de-camarones-en-freidora",
+    "title": "Croquetas de Camarones en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 90,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Croquetas suaves por dentro y crocantes por fuera hechas con camarones picados.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "ramos de camarones congeladas"
+      },
+      {
+        "amount": 3,
+        "unit": "unidad",
+        "item": "papas"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "ramos de manteca"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 3,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "pizca de nuez moscada"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "ramos de pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pepe"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comience por descongelar las camarones a temperatura ambiente."
+      },
+      {
+        "text": "En cuanto se hayan descongelado, lávalos y sécalos bien."
+      },
+      {
+        "text": "Ahora pasa a preparar el puré de papas. Empieza por lavar las papas con piel. Poner las papas en una olla con abundante agua y dejarlas cocer durante 40 minutos."
+      },
+      {
+        "text": "En cuanto estén cocidas, escurrir las papas, dejarlas enfriar un par de minutos y pelarlas."
+      },
+      {
+        "text": "Coge una olla lo suficientemente grande y machaca las papas directamente en la olla."
+      },
+      {
+        "text": "Calentar en otro cazo sin que llegue a hervir."
+      },
+      {
+        "text": "Incorporar la leche al puré de papas. Cocer durante 20 minutos, removiendo continuamente."
+      },
+      {
+        "text": "Ahora añada la sal y la manteca y mezcle enérgicamente hasta que esté suave y firme. Déjelo enfriar."
+      },
+      {
+        "text": "En cuanto se haya enfriado, poner el puré en un bol y añadir un huevo entero, una pizca de nuez moscada y dos cucharadas de pan rallado. Mezclar todo bien."
+      },
+      {
+        "text": "Humedecer las manos con agua, coger una pequeña cantidad de puré, hacer un pequeño hueco y colocar una gamba en el centro y amasar hasta formar una croqueta cilíndrica."
+      },
+      {
+        "text": "Batir los otros dos huevos con una pizca de sal. Sumergir las croquetas de una en una y luego pasarlas por el pan rallado."
+      },
+      {
+        "text": "Coloque las croquetas directamente en la cesta de la freidora, bien separadas unas de otras. Si no caben todos, hacer más cocción."
+      },
+      {
+        "text": "Rociar un poco de aceite en la superficie de las croquetas, poner la freidora a 200º durante 4 minutos.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Después de 4 minutos, dar la vuelta a las croquetas, rociarlas con más aceite y continuar la cocción durante otros 4 minutos."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-langostinos-al-horno-de-aire-en-freidora",
+    "title": "Langostinos al Horno de Aire en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "express",
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Langostinos enteros o pelados cocidos en minutos con ajo, limón y perejil.",
+    "ingredients": [
+      {
+        "amount": 20,
+        "unit": "l",
+        "item": "angostinos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Medio vaso de vino blanco"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "ramita de perejil"
+      },
+      {
+        "amount": 8,
+        "unit": "unidad",
+        "item": "tomates cherry"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "imón"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empieza por limpiar las camarones. Con la ayuda de un cuchillo, haga una incisión en la parte posterior de los langostinos y retire el filamento negro con la punta del cuchillo. A continuación, lávelos bien con agua corriente. Sécalos con toallas de papel,"
+      },
+      {
+        "text": "Lavar el perejil y secarlo. Ahora pícalo finamente."
+      },
+      {
+        "text": "Lavar los tomates cherry, secarlos y cortarlos por la mitad."
+      },
+      {
+        "text": "Pelar y limpiar el diente de ajo y cortarlo en rodajas finas."
+      },
+      {
+        "text": "En un bol, mezcle el zumo de limón, el perejil, el ajo, la sal, la pimienta y el vino blanco."
+      },
+      {
+        "text": "Mezclar todo bien."
+      },
+      {
+        "text": "Poner las camarones en un bol y cubrirlas con la marinada. Dejar marinar durante 30 minutos en la heladera."
+      },
+      {
+        "text": "Cuando se acabe el tiempo, corta 4 trozos de papel de aluminio lo suficientemente grandes como para que quepan 5 camarones por trozo."
+      },
+      {
+        "text": "Colocar las camarones en los cartocci, rociar con un poco de líquido de marinado y espolvorear con los tomates cherry. Salpimentar y cerrar el papel de aluminio."
+      },
+      {
+        "text": "Colocar los cartocci en la cesta de la freidora. Cocinar los cartocci en dos tiempos, primero 3 y luego los otros 2."
+      },
+      {
+        "text": "Poner la freidora a 200º durante 5 minutos en el programa de pescado.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Compruebe el tiempo de cocción, si están cocidos, cocine los otros"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-merluza-en-costra-de-hierbas-en-freidora",
+    "title": "Merluza en Costra de Hierbas en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Filetes de merluza cubiertos con una costra crocante de pan rallado y hierbas aromáticas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "filetes de merluza congelados de 150 g cada uno"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Media cucharada de pastilla de caldo granulado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Algunas hojas de mejorana"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "ramita de tomillo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Algunas hojas de albahaca"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "ramita de perejil"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "harina"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Deje que los filetes de merluza se descongelen y retire el exceso de agua con papel de cocina."
+      },
+      {
+        "text": "Lavar las hojas de mejorana, secarlas y picarlas."
+      },
+      {
+        "text": "Quitar las hojas de tomillo de la ramita, lavarlas, secarlas y picarlas."
+      },
+      {
+        "text": "Lavar las hojas de albahaca, secarlas y picarlas."
+      },
+      {
+        "text": "Quitar las hojas de perejil del ramito, lavarlas, secarlas y picarlas."
+      },
+      {
+        "text": "Ahora pasa a preparar la masa. Poner en un bol el huevo, la harina y la sal. Batir todo con un batidor de mano. Incorporar poco a poco la leche y seguir mezclando. Por último, añada las hierbas picadas y deje reposar la masa durante 30 minutos."
+      },
+      {
+        "text": "Salpimentar los filetes de merluza."
+      },
+      {
+        "text": "Sumergir un filete por vez en la masa, asegurándose de que estén bien enharinados."
+      },
+      {
+        "text": "Colocar los filetes directamente en la cesta, rociando la superficie con un poco de aceite."
+      },
+      {
+        "text": "Poner la freidora a 200º durante 5 minutos en el programa de pescado.",
+        "timerMinutes": 5
+      }
+    ]
+  },
+  {
+    "id": "airfryer-albondigas-de-atun-zapallito-y-ricota-en-freidora",
+    "title": "Albóndigas de Atún, Zapallito y Ricota en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Fácil",
+    "description": "Albóndigas livianas y proteicas de atún, zapallito rallado y ricota.",
+    "ingredients": [
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "atún escurrido en aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zapallito"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "perejil"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Comience con el zapallito. Retirar las puntas, lavarla y secarla y luego cortarla en cubos."
+      },
+      {
+        "text": "Poner un poco de aceite de oliva en una sartén. Se calienta y se fríe el zapallito durante un par de minutos. Añade agua al zapallito, sal y pimienta y cuando esté bien cocido apaga el fuego y aplástalo con un tenedor."
+      },
+      {
+        "text": "Reservar los zapallitos para que se enfríen."
+      },
+      {
+        "text": "Coge un bol y pon la ricota, el parmesano y el atún juntos. Remover la mezcla."
+      },
+      {
+        "text": "Ahora añade el perejil picado y los huevos. Mezclar bien los ingredientes."
+      },
+      {
+        "text": "Ahora añade los zapallitos y sigue removiendo."
+      },
+      {
+        "text": "Terminar con el pan rallado. Seguir mezclando con un tenedor, y luego empezar a amasar con las manos hasta que la mezcla sea compacta y homogénea. Si la masa está blanda, añadir más pan rallado y seguir amasando."
+      },
+      {
+        "text": "Ahora humedece tus manos y toma una pequeña cantidad de masa y dale la clásica forma de albóndiga redonda, ligeramente aplastada en los bordes."
+      },
+      {
+        "text": "Pase las albóndigas por el pan rallado y colóquelas en la cesta de la freidora."
+      },
+      {
+        "text": "Rocía un poco de aceite de oliva sobre las albóndigas y pon la freidora a 200º durante 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Una vez transcurridos los 8 minutos, abra la cesta, dé la vuelta a las hamburguesas, rocíe con más aceite y continúe la cocción durante",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-salmon-en-costra-crocante-en-freidora",
+    "title": "Salmón en Costra Crocante en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "pescados",
+    "estilo": "clasico",
+    "prepMinutes": 80,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Media",
+    "description": "Postas de salmón cubiertas con pan rallado saborizado, listas en pocos minutos.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "rodajas",
+        "item": "salmón de 150 g cada una"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "papas"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "puerro pequeño"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Empieza por lavar las papas con toda la piel. Poner las papas en una olla con agua abandonada y dejarlas cocer durante 40 minutos."
+      },
+      {
+        "text": "En cuanto estén cocidas, escurrir las papas, dejarlas enfriar un par de minutos y pelarlas."
+      },
+      {
+        "text": "Coge una olla lo suficientemente grande y machaca las papas directamente en la olla."
+      },
+      {
+        "text": "Calentar en otro cazo sin que llegue a hervir."
+      },
+      {
+        "text": "Incorporar la leche al puré de papas. Cocer durante 20 minutos, removiendo continuamente."
+      },
+      {
+        "text": "Ahora añade la sal y la manteca y remueve enérgicamente hasta que la mezcla esté suave y firme."
+      },
+      {
+        "text": "Pasa al salmón. Lávela bajo el grifo, séquela y quítele la piel y las espinas, si las tiene."
+      },
+      {
+        "text": "Salpimienta las rodajas de salmón y colócalas espaciadas en una fuente de horno aceitada."
+      },
+      {
+        "text": "Lavar el puerro, quitar la parte verde dura. Lavar la parte blanca, secarla y cortarla en rodajas."
+      },
+      {
+        "text": "Cubrir los filetes de salmón con el puré de papas, utilizando una espátula, luego cubrir la superficie con los puerros cortados en rodajas y espolvorear con queso parmesano."
+      },
+      {
+        "text": "Coloque la bandeja de hornear en la cesta y programe a 200° durante 12 minutos.",
+        "timerMinutes": 12
+      }
+    ]
+  },
+  {
+    "id": "airfryer-tartaletas-de-atun-en-freidora",
+    "title": "Tartaletas de Atún en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "pescados",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tartaletas saladas rellenas de atún, huevo y queso, horneadas en freidora.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "rollo de hojaldre"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "atún en aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "puñado de alcaparras"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "item": "imón"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "manteca"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cucharada de mayonesa"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aceite de oliva cantidad necesaria"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Coge el bol de la batidora y pon el atún, las alcaparras, la manteca, la mayonesa, una cucharada de aceite de oliva, el zumo de limón, una pizca de sal y otra de pimienta."
+      },
+      {
+        "text": "Mezclar todo hasta obtener una crema suave."
+      },
+      {
+        "text": "Extienda el hojaldre en una tabla de pastelería ligeramente enharinada. Cortarla con un cortapastas para obtener 8 discos de masa."
+      },
+      {
+        "text": "Engrasar los moldes de tartaleta y rellenarlos con el hojaldre. Perforar el fondo de la masa con un tenedor."
+      },
+      {
+        "text": "Colocar los moldes en la cesta de la freidora y programar a 180º durante 8 minutos.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Comprobar el tiempo de cocción y si aún no están bien dorados, continuar la cocción durante 2 minutos más."
+      },
+      {
+        "text": "Hornea las tartaletas y rellénalas con la mezcla de atún."
+      },
+      {
+        "text": "Servir aún caliente."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bastones-de-zanahoria-crocantes-en-freidora",
+    "title": "Bastones de Zanahoria Crocantes en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "description": "Zanahorias en bastones asadas con aceite de oliva y perejil como guarnición o snack.",
+    "ingredients": [
+      {
+        "amount": 10,
+        "unit": "unidad",
+        "item": "zanahorias"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "ramita",
+        "item": "perejil"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar y pelar primero las zanahorias."
+      },
+      {
+        "text": "A continuación, córtalos en palos de igual tamaño."
+      },
+      {
+        "text": "Rocíe o vierta unas gotas de aceite en las zanahorias cortadas y luego colóquelas en la freidora de aire caliente."
+      },
+      {
+        "text": "Poner las zanahorias en la freidora de aire a 190ºC durante unos 15",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "airfryer-boniatos-crocantes-en-freidora",
+    "title": "Boniatos Crocantes en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 4,
+    "cookMinutes": 10,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bastones de boniato dorados y apenas especiados, alternativa liviana a las papas fritas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "boniatos grandes cortadas en tiras"
+      },
+      {
+        "amount": 20,
+        "unit": "ml",
+        "item": "aceite"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "pimienta negra"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "pimentón"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "cebolla en polvo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar los boniatos en tiras de 25 mm de grosor."
+      },
+      {
+        "text": "Precalentar la freidora a 200º C durante unos minutos."
+      },
+      {
+        "text": "Colocar los boniatos cortados en un cuenco grande y sazonar con aceite hasta que queden uniformemente cubiertos."
+      },
+      {
+        "text": "Condimentar con sal, pimienta negra, pimentón, ajo en polvo y cebolla en polvo."
+      },
+      {
+        "text": "Remover bien."
+      },
+      {
+        "text": "Colocar las papas fritas en la cesta precalentada y hornear durante 10 minutos a 200° C.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-brocoli-asado-en-freidora",
+    "title": "Brócoli Asado en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 4,
+    "cookMinutes": 10,
+    "temperatureC": 150,
+    "servings": 3,
+    "difficulty": "Muy fácil",
+    "description": "Flores de brócoli doradas con ajo y aceite de oliva, crocantes en las puntas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "brócoli grande"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Seleccione el botón de precalentamiento de la freidora o ajuste a 150° C"
+      },
+      {
+        "text": "Rocíe los ramilletes de brócoli con aceite de oliva y mézclelos hasta que estén uniformemente cubiertos."
+      },
+      {
+        "text": "Mezclar el brócoli con el resto de los condimentos."
+      },
+      {
+        "text": "Añadir el brócoli a la freidora precalentada."
+      },
+      {
+        "text": "Seleccione el programa Verduras y deje que el brócoli se cocine",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-coliflor-asada-en-freidora",
+    "title": "Coliflor Asada en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 4,
+    "cookMinutes": 10,
+    "temperatureC": 150,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Flores de coliflor bien condimentadas y doradas en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 280,
+        "unit": "g",
+        "item": "flores de coliflor"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 3,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Seleccione el botón de precalentamiento de la freidora o ajuste a 150° C."
+      },
+      {
+        "text": "Precalentar la freidora durante 2/3 minutos.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Poner los ramilletes de coliflor en un bol, añadir aceite de oliva y salpimentar."
+      },
+      {
+        "text": "Remover para que los ramilletes queden uniformemente cubiertos."
+      },
+      {
+        "text": "Añade la coliflor a la freidora precalentada."
+      },
+      {
+        "text": "Cocer durante unos 10 minutos, controlando el tiempo de cocción de"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-zapallo-asado-en-freidora",
+    "title": "Zapallo Asado en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Cubos de zapallo tiernos por dentro y caramelizados por fuera en minutos.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zapallo blanca pelada"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "hojas de tomillo"
+      },
+      {
+        "amount": 6,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta negra"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Seleccione el botón de precalentamiento de la freidora o ajústelo a 180° C."
+      },
+      {
+        "text": "Precalentar la freidora durante 2/3 minutos.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Cubrir los cubos de zapallo con aceite de oliva y sazonar con tomillo, sal y pimienta."
+      },
+      {
+        "text": "Añadir la zapallo a la freidora precalentada."
+      },
+      {
+        "text": "Seleccione el programa de verduras y cocine durante diez minutos."
+      },
+      {
+        "text": "Asegúrese de agitar las rejillas a mitad de la cocción y compruebe el estado de la misma."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-morrones-asados-en-freidora",
+    "title": "Morrones Asados en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 2,
+    "cookMinutes": 18,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Morrones enteros o en mitades asados y fáciles de pelar para ensaladas o guarniciones.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "morrones"
+      },
+      {
+        "amount": 10,
+        "unit": "ml",
+        "item": "aceite"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar bien los morrones, eligiendo los que estén perfectos y sin magulladuras."
+      },
+      {
+        "text": "Sécalos con cuidado secando la superficie."
+      },
+      {
+        "text": "No es necesario cortarlas ni quitarles los tallos ni las semillas."
+      },
+      {
+        "text": "Coloque los morrones directamente en la cesta de la freidora de aire."
+      },
+      {
+        "text": "Encender y hornear a 200° C durante 18 minutos, dándoles la vuelta un par de veces.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Te darás cuenta de que están cocidos cuando los toques y estén blandos."
+      }
+    ]
+  },
+  {
+    "id": "airfryer-remolachas-asadas-en-freidora",
+    "title": "Remolachas Asadas en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 2,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "description": "Remolachas en cubos asadas hasta quedar dulces y tiernas.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidad",
+        "item": "/5 Remolachas"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal fina al gusto"
+      },
+      {
+        "amount": 3,
+        "unit": "unidad",
+        "item": "/4 de aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "En primer lugar, pelar y cortar en rodajas finas las remolachas."
+      },
+      {
+        "text": "Aderezarlos con cucharadas de aceite de oliva"
+      },
+      {
+        "text": "Colóquelos en la cesta de la freidora de aire y cocínelos durante unos 15 minutos a una temperatura de 180 ºC (función de verduras).",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Compruebe el tiempo de cocción y aumente los minutos si es"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-croquetas-de-zapallito-y-papa-en-freidora",
+    "title": "Croquetas de Zapallito y Papa en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Croquetas vegetarianas suaves de zapallito rallado y papa.",
+    "ingredients": [
+      {
+        "amount": 700,
+        "unit": "g",
+        "item": "zapallitos"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "papas amarillas"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "La cáscara de 1 limón"
+      },
+      {
+        "amount": 2,
+        "unit": "dientes",
+        "item": "ajo"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pimienta, nuez moscada al gusto"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "pan rallado cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "tomillo, orégano, guindilla al gusto."
+      },
+      {
+        "amount": 3,
+        "unit": "cucharadas",
+        "item": "sémola de trigo duro"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pelar las papas y rallarlas directamente en un bol con un rallador de agujeros grandes."
+      },
+      {
+        "text": "Proceder de la misma manera con los zapallitos y mezclar las verduras."
+      },
+      {
+        "text": "Calentar dos cucharadas de aceite en una sartén antiadherente junto con los dientes de ajo."
+      },
+      {
+        "text": "Añade las verduras y deja que se doren durante unos minutos a fuego medio, ajustando la sal y añadiendo pimienta, nuez moscada y todas las hierbas,"
+      },
+      {
+        "text": "Bajar el fuego y continuar la cocción durante otros 15 minutos."
+      },
+      {
+        "text": "Dejar enfriar la mezcla y añadir la ralladura de limón y el pan rallado. Mezclar bien con las manos, formando pequeñas bolas del tamaño de una nuez."
+      },
+      {
+        "text": "Pasarlas una a una por el pan rallado y hacerlas rodar suavemente entre las palmas de las manos para que queden lo más esféricas posible."
+      },
+      {
+        "text": "Precaliente la freidora a 200° durante 4 minutos, luego coloque una hoja de papel para hornear en la cesta y 6/7 albóndigas a la vez (si tiene una freidora lo suficientemente grande, póngalas todas).",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Cocinar a 200° durante 4 minutos, luego sacudir la cesta, dar la vuelta",
+        "timerMinutes": 4
+      }
+    ]
+  },
+  {
+    "id": "airfryer-papas-acordeon-hasselback-en-freidora",
+    "title": "Papas Acordeón (Hasselback) en Freidora",
+    "metodo": "freidora",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 3,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "description": "Papas enteras con cortes finos tipo abanico pinceladas con manteca o aceite y hierbas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "papas medianas de color rojizo"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 6,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta negra"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "manteca derretida"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "perejil fresco picado, para decorar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar y fregar las papas, y luego secarlas con una servilleta."
+      },
+      {
+        "text": "Cortar las hendiduras, con una separación de 6 mm, en la papa, deteniéndolas justo antes de cortarlas completamente para que las rodajas queden unidas por unos 13 mm en la parte inferior de la papa."
+      },
+      {
+        "text": "Precalentar la freidora durante 3 minutos a 180º.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Cubra las papas con aceite de oliva y sazone uniformemente con sal, pimienta negra y ajo en polvo."
+      },
+      {
+        "text": "Añadir las papas a la freidora precalentada y cocinarlas durante 30 minutos a 180° C.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Untar las papas con manteca derretida y hornearlas otros 10"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-bastones-de-zapallito-empanados-en-freidora",
+    "title": "Bastones de Zapallito Empanados en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bastones de zapallito o zucchini rebozados y bien crocantes.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "zapallitos medianos, cortados en tiras"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "sal"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "pimienta negra"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 15,
+        "unit": "ml",
+        "item": "leche"
+      },
+      {
+        "amount": 85,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "queso parmesano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Mayonesa, opcional"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar los zapallitos en tiras de grosor medio (aprox. 19 mm)"
+      },
+      {
+        "text": "Mezclar la harina, la sal y la pimienta en un bol."
+      },
+      {
+        "text": "Bata los huevos y la leche en un plato aparte."
+      },
+      {
+        "text": "Añade el pan rallado y el queso parmesano en otro plato."
+      },
+      {
+        "text": "Pasar cada trozo de zapallito por harina, luego por huevo y por pan rallado."
+      },
+      {
+        "text": "Precalentar durante unos minutos a 180° C."
+      },
+      {
+        "text": "Colocar los zapallitos cubiertos uniformemente en la freidora precalentada y rociar con spray antiadherente."
+      },
+      {
+        "text": "Seleccione el programa de descongelación (o de verduras) y ajuste el tiempo a 8 minutos.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "airfryer-palta-crocante-especiada-en-freidora",
+    "title": "Palta Crocante Especiada en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Gajos de palta empanados y dorados en minutos, ideales para picadas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "paltas cortados en trozos gruesos"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "ajo en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "cebolla en polvo"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "pimienta de cayena"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal y pimienta al gusto"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina de uso general"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos batidos"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Ketchup o mayonesa para servir"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar los paltas en rodajas de unos 25 mm de grosor."
+      },
+      {
+        "text": "Combine el pan rallado, el ajo en polvo, la cebolla en polvo, el pimentón ahumado, la pimienta de cayena, la sal y la pimienta en un bol."
+      },
+      {
+        "text": "Reboza cada trozo de palta en harina, luego pásalo por huevo batido y pásalo por la mezcla de pan rallado."
+      },
+      {
+        "text": "Seleccione el botón de precalentamiento de la freidora o ajústelo a 180° C y deje que la freidora se precaliente durante 2/3 minutos.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Colocar los paltas fritos en las cestas de la freidora precalentada, rociar con spray de cocina (o engrasar la cesta con un poco de aceite) y hornear a 200° C durante 8/10 minutos.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Dar la vuelta a los paltas a mitad de la cocción y rociar con más"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-aros-de-cebolla-crocantes-en-freidora",
+    "title": "Aros de Cebolla Crocantes en Freidora",
+    "metodo": "freidora",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 12,
+    "cookMinutes": 20,
+    "temperatureC": 190,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Aros de cebolla rebozados y cocidos en freidora de aire con mínimo aceite.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla blanca cortada en aros"
+      },
+      {
+        "amount": 85,
+        "unit": "g",
+        "item": "pan rallado"
+      },
+      {
+        "amount": 2,
+        "unit": "g",
+        "item": "pimentón ahumado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Sal al gusto"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 220,
+        "unit": "ml",
+        "item": "crema de leche para cocinar"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Spray antiadherente para cocinar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cortar la cebolla en rodajas de unos 13 mm de grosor y cortar las capas en varios anillos."
+      },
+      {
+        "text": "Mezclar el pan rallado, el pimentón y la sal en un bol."
+      },
+      {
+        "text": "Batir los huevos y la crema de leche para cocinar hasta que estén bien mezclados."
+      },
+      {
+        "text": "Pasar cada aro de cebolla por la harina y luego sumergirlo en la mezcla de huevos batidos y pan rallado."
+      },
+      {
+        "text": "Seleccione el programa de precalentamiento de la freidora o precaliéntela ajustando la temperatura a 190° C."
+      },
+      {
+        "text": "Rocíe los aros de cebolla generosamente con spray de cocina."
+      },
+      {
+        "text": "Como alternativa, puede engrasarlos con aceite"
+      },
+      {
+        "text": "Colocar los aros de cebolla en una sola capa en la cesta de la freidora precalentada y cocinar a 190° C durante 10 minutos hasta que se",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "airfryer-croquetas-de-choclo-y-zapallo-en-freidora",
+    "title": "Croquetas de Choclo y Zapallo en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bocaditos dorados de puré de zapallo y granos de choclo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "/4 de una zapallo mantuana"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "garbanzos ya cocidos"
+      },
+      {
+        "amount": 125,
+        "unit": "g",
+        "item": "ricota"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "ramita de romero"
+      },
+      {
+        "amount": 1,
+        "unit": "cucharadita",
+        "item": "pimentón dulce"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "sal y pimienta al gusto"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de choclo blanca (precocida)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Primero se limpia y se cuece la zapallo en una freidora de aire durante unos 10 minutos a 180º C.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "En cuanto la zapallo esté cocida y se haya enfriado, poner todos los ingredientes en el robot de cocina excepto la harina."
+      },
+      {
+        "text": "Antes de proceder, debe retirar toda la corteza de la zapallo."
+      },
+      {
+        "text": "Mezclar hasta que esté suave."
+      },
+      {
+        "text": "Ahora es cuando tendrás que añadir la harina; empieza con un par de cucharadas y mezcla hasta que consigas una consistencia que mantenga su forma cuando cojas la mezcla con las manos."
+      },
+      {
+        "text": "Con dos cucharas, formar albóndigas largas que se pasan por la harina de choclo precocida."
+      },
+      {
+        "text": "Rocíe las croquetas resultantes con aceite y cocínelas durante 10"
+      }
+    ]
+  },
+  {
+    "id": "airfryer-croquetas-de-brocoli-y-lentejas-en-freidora",
+    "title": "Croquetas de Brócoli y Lentejas en Freidora",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Croquetas nutritivas de lentejas cocidas y brócoli picado.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "brócoli mediano"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "zanahoria grande"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "lentejas hervidas"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "queso grana padano rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "Aproximadamente 50 g de pan rallado, más suficiente pan rallado"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "sal y pimienta al gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "g",
+        "item": "tomillo seco"
+      },
+      {
+        "amount": 2,
+        "unit": "unidad",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "cucharadas",
+        "item": "leche"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "harina 0000 cantidad necesaria"
+      },
+      {
+        "amount": 1,
+        "unit": "c/n",
+        "item": "aceite de oliva para cocinar, unas 4 cucharadas"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lavar todas las verduras, pelar las zanahorias, quitar los tallos del brócoli y dividir todos los ramilletes."
+      },
+      {
+        "text": "Poner las verduras picadas en el vaso del robot de cocina, añadir las lentejas, el queso rallado, el tomillo, una pizca de sal y pimienta."
+      },
+      {
+        "text": "Batir todo hasta obtener una mezcla homogénea, el pan rallado debe añadirse poco a poco, sirve para dar consistencia a la mezcla sin resecarla demasiado."
+      },
+      {
+        "text": "Como la masa está húmeda, hay que sacarla con una cuchara y formar croquetas."
+      },
+      {
+        "text": "Proceder de esta manera hasta que se termine toda la mezcla."
+      },
+      {
+        "text": "Pasar las croquetas primero por harina, luego por huevos batidos con leche y finalmente por pan rallado."
+      },
+      {
+        "text": "Pincelar o rociar con aceite ambos lados de cada croqueta, colocarlas en la cesta y hornearlas durante 12 minutos a 200 °C.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Servir las croquetas aún calientes. Conclusiones Para concluir la discusión sobre la freidora de aire, se puede decir que es uno de los mejores inventos tanto en tecnología como en alimentación en los últimos años. También se puede decir que es posible cocinar un sinfín de recetas que habitualmente estamos acostumbrados a freír, o a hornear, sin ninguna dificultad especial, consiguiendo exactamente el mismo resultado. Por lo tanto, se convierte en una compra imprescindible, ya que no sólo es un excelente aliado en la cocina, sino también para nuestra propia salud. En este texto se ha repetido que es posible hacer frituras ligeras, crujientes y sabrosas con sólo una cucharada de aceite (hasta un 85% menos de grasa). En comparación con la fritura, el uso de una freidora de aire puede reducir la cantidad de grasa, calorías y compuestos potencialmente dañinos en los alimentos, lo que sólo beneficia a nuestra salud."
+      }
+    ]
   }
 ]
