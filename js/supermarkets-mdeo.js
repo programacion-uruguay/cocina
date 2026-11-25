@@ -6354,20 +6354,88 @@ let MDEO_CATALOG_BY_INGREDIENT = {
   ]
 };
 
-// Sincronización en vivo con `./data/market-catalog.json` (generado por el proyecto `precios`)
-(function syncLiveMarketCatalog() {
-  if (typeof fetch !== "function") return;
-  fetch("./data/market-catalog.json")
-    .then((r) => (r.ok ? r.json() : null))
-    .then((data) => {
+// Sincronización en vivo con catálogo remoto (para APK/web) + caché offline en localStorage + respaldo local
+const MARKET_CATALOG_CACHE_KEY = "cocina_market_catalog_v1";
+const MARKET_CATALOG_REMOTE_URLS = [
+  typeof window !== "undefined" && window.MARKET_CATALOG_URL ? window.MARKET_CATALOG_URL : null,
+  "https://programacion-uruguay.github.io/cocina/data/market-catalog.json",
+  "https://raw.githubusercontent.com/programacion-uruguay/cocina/main/data/market-catalog.json",
+  "./data/market-catalog.json"
+].filter(Boolean);
+
+let MDEO_CATALOG_META = { source: "embedded", generatedAt: null, fetchedAt: null };
+
+(function hydrateMarketCatalogFromCache() {
+  try {
+    if (typeof localStorage === "undefined") return;
+    const raw = localStorage.getItem(MARKET_CATALOG_CACHE_KEY);
+    if (!raw) return;
+    const cached = JSON.parse(raw);
+    if (cached && cached.by_ingredient && typeof cached.by_ingredient === "object") {
+      MDEO_CATALOG_BY_INGREDIENT = cached.by_ingredient;
+      MDEO_CATALOG_META = {
+        source: "cache",
+        generatedAt: cached.generated_at || null,
+        fetchedAt: cached.fetched_at || null
+      };
+    }
+  } catch {
+    // Si falla localStorage o JSON corrupto, continúa con el índice embebido
+  }
+})();
+
+async function syncLiveMarketCatalog(forceFresh = false) {
+  if (typeof fetch !== "function") return false;
+  const cacheBust = forceFresh ? Date.now() : Math.floor(Date.now() / (1000 * 60 * 30));
+
+  for (const baseUrl of MARKET_CATALOG_REMOTE_URLS) {
+    const isLocalRelative = baseUrl.startsWith("./");
+    const url = isLocalRelative ? baseUrl : `${baseUrl}?v=${cacheBust}`;
+    try {
+      const res = await fetch(url, { cache: forceFresh ? "reload" : "no-store" });
+      if (!res.ok) continue;
+      const data = await res.json();
       if (data && data.by_ingredient && typeof data.by_ingredient === "object") {
         MDEO_CATALOG_BY_INGREDIENT = data.by_ingredient;
+        MDEO_CATALOG_META = {
+          source: baseUrl,
+          generatedAt: data.generated_at || null,
+          fetchedAt: Date.now()
+        };
+        try {
+          if (typeof localStorage !== "undefined") {
+            localStorage.setItem(
+              MARKET_CATALOG_CACHE_KEY,
+              JSON.stringify({
+                generated_at: MDEO_CATALOG_META.generatedAt,
+                fetched_at: MDEO_CATALOG_META.fetchedAt,
+                by_ingredient: data.by_ingredient
+              })
+            );
+          }
+        } catch {
+          // Ignorar si localStorage está lleno (ej. WebView con cuota reducida)
+        }
+        if (typeof window !== "undefined" && typeof window.dispatchEvent === "function") {
+          window.dispatchEvent(new CustomEvent("market-catalog-updated", { detail: MDEO_CATALOG_META }));
+        }
+        return true;
       }
-    })
-    .catch(() => {
-      // Usa el índice embebido si se abre por file://
-    });
-})();
+    } catch {
+      // Probar siguiente URL de respaldo
+    }
+  }
+  return false;
+}
+
+if (typeof window !== "undefined") {
+  window.MDEO_MARKET_SYNC = {
+    refresh: () => syncLiveMarketCatalog(true),
+    getMeta: () => ({ ...MDEO_CATALOG_META })
+  };
+}
+
+syncLiveMarketCatalog(false);
 
 function getDistanceKm(lat1, lng1, lat2, lng2) {
   const toRad = (deg) => (deg * Math.PI) / 180;
