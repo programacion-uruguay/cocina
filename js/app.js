@@ -1226,11 +1226,13 @@
             </button>
           </div>
           <h3 class="now-idea-title">${r.title}</h3>
+          <div class="now-idea-tags">
+            ${r.videoUrl ? `<span class="tag tag-video">🎬 Video</span>` : ""}
+            ${isGf ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
+          </div>
           <div class="now-idea-meta">
             <span>⏱️ ${totalMin} min</span>
             <span>🍽️ ${r.servings} porc.</span>
-            ${r.videoUrl ? `<span class="tag tag-video">🎬 Video</span>` : ""}
-            ${isGf ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
           </div>
         </article>
       `;
