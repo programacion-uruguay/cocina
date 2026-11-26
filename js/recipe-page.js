@@ -544,22 +544,27 @@
     let stageHtml = "";
 
     if (state.mediaTab === "photos") {
+      const hasMultiplePhotos = photos.length > 1;
+      const fallbackAttr = currentPhoto.fallbackUrl ? ` data-fallback="${escapeHtml(currentPhoto.fallbackUrl)}" onerror="if(this.dataset.fallback&&this.src!==this.dataset.fallback){this.src=this.dataset.fallback;}"` : "";
       stageHtml = `
         <div class="media-stage">
-          <img src="${escapeHtml(currentPhoto.url)}" alt="${escapeHtml(currentPhoto.caption)}" class="media-main-img" id="media-hero-img" />
+          <img src="${escapeHtml(currentPhoto.url)}" alt="${escapeHtml(currentPhoto.caption)}" class="media-main-img" id="media-hero-img"${fallbackAttr} />
           ${
-            photos.length > 1
+            hasMultiplePhotos
               ? `
             <button type="button" class="media-arrow is-prev" data-photo-nav="-1" aria-label="Foto anterior">‹</button>
             <button type="button" class="media-arrow is-next" data-photo-nav="1" aria-label="Foto siguiente">›</button>
+            <div class="media-caption-bar">
+              <span>${escapeHtml(currentPhoto.caption)}</span>
+              <span class="media-counter">${state.activePhotoIndex + 1} / ${photos.length}</span>
+            </div>
           `
               : ""
           }
-          <div class="media-caption-bar">
-            <span>${escapeHtml(currentPhoto.caption)}</span>
-            <span class="media-counter">${state.activePhotoIndex + 1} / ${photos.length}</span>
-          </div>
         </div>
+        ${
+          hasMultiplePhotos
+            ? `
         <div class="media-thumbs">
           ${photos
             .map(
@@ -578,6 +583,9 @@
             )
             .join("")}
         </div>
+        `
+            : ""
+        }
       `;
     } else if (state.mediaTab === "video") {
       const savedTimes = getSavedChapterTimes(r.id);
@@ -759,7 +767,7 @@
 
         <div class="media-tabs-bar" role="tablist">
           <button type="button" role="tab" class="media-tab-btn ${state.mediaTab === "photos" ? "is-active" : ""}" data-media-tab="photos" aria-selected="${state.mediaTab === "photos"}">
-            📸 Fotos (${photos.length})
+            ${photos.length > 1 ? `📸 Fotos (${photos.length})` : "📸 Foto"}
           </button>
           <button type="button" role="tab" class="media-tab-btn ${state.mediaTab === "video" ? "is-active" : ""} ${customVideoUrl ? "has-video" : ""}" data-media-tab="video" aria-selected="${state.mediaTab === "video"}">
             ${customVideoUrl ? "🎬 Video YouTube ▶" : "🎬 Video paso a paso"}

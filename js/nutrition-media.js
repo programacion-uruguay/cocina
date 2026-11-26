@@ -765,6 +765,12 @@ function buildRecipeIllustrationSvg(recipe, accentColor, variant) {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
+function extractYouTubeThumbUrl(videoUrl) {
+  if (!videoUrl || typeof videoUrl !== "string") return "";
+  const match = videoUrl.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([A-Za-z0-9_-]{11})/);
+  return match ? `https://i.ytimg.com/vi/${match[1]}/hqdefault.jpg` : "";
+}
+
 function getRecipeNutritionAndMedia(recipe, adaptedIngredients = null) {
   const met = typeof getMenuItemById === "function" ? getMenuItemById("metodo", recipe.metodo) : null;
   const accentColor = met?.color || "#4f46e5";
@@ -775,20 +781,14 @@ function getRecipeNutritionAndMedia(recipe, adaptedIngredients = null) {
       ? RECIPE_NUTRITION_DATA[recipe.id]
       : computeDynamicNutritionForRecipe(recipe, adaptedIngredients || recipe.ingredients);
 
+  const fallbackSvg = buildRecipeIllustrationSvg(recipe, accentColor, "plate");
+  const primaryPhotoUrl = recipe.imageUrl || extractYouTubeThumbUrl(recipe.videoUrl) || fallbackSvg;
+
   const photos = [
     {
-      url: buildRecipeIllustrationSvg(recipe, accentColor, "plate"),
-      caption: `Presentación sugerida · ${recipe.title}`,
-      isCustom: false
-    },
-    {
-      url: buildRecipeIllustrationSvg(recipe, accentColor, "ingredients"),
-      caption: `Ingredientes base (${recipe.ingredients.length} ítems)`,
-      isCustom: false
-    },
-    {
-      url: buildRecipeIllustrationSvg(recipe, accentColor, "method"),
-      caption: `Preparación en ${met?.label || recipe.metodo}`,
+      url: primaryPhotoUrl,
+      fallbackUrl: fallbackSvg,
+      caption: recipe.title,
       isCustom: false
     }
   ];
