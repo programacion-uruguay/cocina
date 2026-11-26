@@ -1159,12 +1159,37 @@
     });
 
     const pool = compatible.length > 0 ? compatible : state.recipes;
-    const gfItems = pool.filter((r) => isGlutenFreeRecipe(r)).slice(0, 2);
-    const usedIds = new Set(gfItems.map((r) => r.id));
-    const regularItems = pool.filter((r) => !usedIds.has(r.id)).slice(0, 6 - gfItems.length);
-    const picked = [...gfItems, ...regularItems].slice(0, 6);
+    const totalOf = (r) => (r.prepMinutes || 0) + (r.cookMinutes || 0);
 
-    if (picked.length === 0) {
+    const pickColumnItems = (list, limit = 3) => {
+      const gf = list.filter((r) => isGlutenFreeRecipe(r)).slice(0, 1);
+      const used = new Set(gf.map((r) => r.id));
+      const rest = list.filter((r) => !used.has(r.id)).slice(0, limit - gf.length);
+      return [...gf, ...rest].slice(0, limit);
+    };
+
+    const columns = [
+      {
+        key: "fast",
+        title: "⚡ Menos de 15 min",
+        all: pool.filter((r) => totalOf(r) < 15)
+      },
+      {
+        key: "medium",
+        title: "⏱️ Entre 15 y 30 min",
+        all: pool.filter((r) => totalOf(r) >= 15 && totalOf(r) <= 30)
+      },
+      {
+        key: "slow",
+        title: "🍲 Más de 30 min",
+        all: pool.filter((r) => totalOf(r) > 30)
+      }
+    ].map((col) => ({
+      ...col,
+      items: pickColumnItems(col.all, 3)
+    }));
+
+    if (columns.every((c) => c.items.length === 0)) {
       els.nowIdeasSection.innerHTML = "";
       return;
     }
@@ -1176,38 +1201,56 @@
       cena: "Ideas para la cena"
     };
 
+    const renderIdeaCard = (r) => {
+      const totalMin = totalOf(r);
+      const metodo = getMenuItemById("metodo", r.metodo);
+      const fav = isFavorite(r.id);
+      const isGf = isGlutenFreeRecipe(r);
+      return `
+        <article class="now-idea-card" data-now-id="${r.id}">
+          <div class="now-idea-top">
+            <span class="now-idea-badge">${metodo?.emoji || "🍳"} ${metodo?.label || r.metodo}</span>
+            <button type="button" class="now-idea-fav ${fav ? "is-fav" : ""}" data-now-fav="${r.id}" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">
+              ${fav ? "♥" : "♡"}
+            </button>
+          </div>
+          <h3 class="now-idea-title">${r.title}</h3>
+          <div class="now-idea-meta">
+            <span>⏱️ ${totalMin} min</span>
+            <span>🍽️ ${r.servings} porc.</span>
+            ${isGf ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
+          </div>
+        </article>
+      `;
+    };
+
     els.nowIdeasSection.innerHTML = `
       <div class="now-ideas-header">
         <div>
           <h2>${momentMeta?.emoji || "🍽️"} ${momentLabels[momentKey] || "Ideas para ahora"}</h2>
-          <p class="now-ideas-sub">Selección sugerida para este momento del día (${pool.length} opciones disponibles)</p>
+          <p class="now-ideas-sub">Organizadas por tiempo de preparación (${pool.length} opciones disponibles)</p>
         </div>
         <button type="button" id="now-ideas-see-all" class="now-ideas-more-btn">Ver todas →</button>
       </div>
-      <div class="now-ideas-grid">
-        ${picked
-          .map((r) => {
-            const totalMin = (r.prepMinutes || 0) + (r.cookMinutes || 0);
-            const metodo = getMenuItemById("metodo", r.metodo);
-            const fav = isFavorite(r.id);
-            const isGf = isGlutenFreeRecipe(r);
-            return `
-              <article class="now-idea-card" data-now-id="${r.id}">
-                <div class="now-idea-top">
-                  <span class="now-idea-badge">${metodo?.emoji || "🍳"} ${metodo?.label || r.metodo}</span>
-                  <button type="button" class="now-idea-fav ${fav ? "is-fav" : ""}" data-now-fav="${r.id}" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">
-                    ${fav ? "♥" : "♡"}
-                  </button>
-                </div>
-                <h3 class="now-idea-title">${r.title}</h3>
-                <div class="now-idea-meta">
-                  <span>⏱️ ${totalMin} min</span>
-                  <span>🍽️ ${r.servings} porc.</span>
-                  ${isGf ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
-                </div>
-              </article>
-            `;
-          })
+      <div class="now-ideas-columns">
+        ${columns
+          .map(
+            (col) => `
+          <div class="now-ideas-col now-ideas-col-${col.key}">
+            <div class="now-col-header">
+              <span>${col.title}</span>
+              <span class="now-col-count">${col.all.length}</span>
+            </div>
+            <div class="now-col-list">
+              ${
+                col.items.length > 0
+                  ? col.items.map(renderIdeaCard).join("")
+                  : `<p class="now-col-empty">Sin opciones en este rango</p>`
+              }
+            </div>
+          </div>
+        `
+          )
           .join("")}
       </div>
     `;

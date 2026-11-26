@@ -3281,21 +3281,76 @@ button {
   color: var(--on-primary);
 }
 
-.now-ideas-grid {
+.now-ideas-columns {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-3);
+  align-items: start;
+}
+
+.now-ideas-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 0.8rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.now-col-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 800;
+  color: var(--text);
+}
+
+.now-col-count {
+  padding: 0.14rem 0.52rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.72rem;
+  font-weight: 800;
+  background: var(--surface);
+  color: var(--primary-text);
+  border: 1px solid var(--border);
+}
+
+.now-ideas-col-fast .now-col-header {
+  color: var(--accent);
+}
+
+.now-ideas-col-medium .now-col-header {
+  color: var(--primary-text);
+}
+
+.now-col-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.now-col-empty {
+  margin: 0.5rem 0;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  text-align: center;
 }
 
 .now-idea-card {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  padding: 0.9rem 1rem;
-  background: var(--surface-2);
+  gap: 0.45rem;
+  padding: 0.8rem 0.9rem;
+  background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 14px;
   cursor: pointer;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
@@ -3526,23 +3581,14 @@ button {
     margin-top: var(--space-4);
   }
 
-  .now-ideas-grid {
-    display: flex;
-    overflow-x: auto;
+  .now-ideas-columns {
+    grid-template-columns: 1fr;
     gap: var(--space-3);
-    scroll-snap-type: x mandatory;
-    padding-bottom: 0.35rem;
-    scrollbar-width: none;
-  }
-
-  .now-ideas-grid::-webkit-scrollbar {
-    display: none;
   }
 
   .now-idea-card {
-    flex: 0 0 78%;
-    max-width: 300px;
-    scroll-snap-align: start;
+    flex: none;
+    max-width: none;
   }
 
   /* Bottom Sheet para Resultados en móvil */
