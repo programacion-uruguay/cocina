@@ -51971,5 +51971,368 @@
       "carbs": "45g",
       "fat": "10g"
     }
+  },
+  {
+    "id": "ext-tacos-mexicanos-pollo-caseros",
+    "title": "Tacos Mexicanos de Pollo con Tortillas Caseras",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pollo",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 20,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Tacos mexicanos tradicionales con tortillas caseras de harina de trigo y maíz, relleno jugoso de pechuga de pollo con morrones y salsa picante casera.",
+    "ingredients": [
+      {
+        "amount": 210,
+        "unit": "g",
+        "item": "harina de trigo (para las tortillas)"
+      },
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "harina de maíz (para las tortillas)"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "agua tibia (para las tortillas)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite neutro o grasa (para las tortillas)"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "pechuga de pollo cortada en tiras finas"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "cebollas cortadas en juliana"
+      },
+      {
+        "amount": 4,
+        "unit": "dientes",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "morrones verdes en tiras"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "morrones rojos en tiras"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "tomates concassé (pelados, sin semillas y picados)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "tomate fresco (para la salsa picante)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "unidad",
+        "item": "morrón rojo o verde (para la salsa picante)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "salsa picante tipo Tabasco a gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Para las tortillas, mezclar la harina de trigo con la harina de maíz y una pizca de sal. Incorporar el aceite y el agua tibia de a poco hasta formar una masa lisa. Dejar descansar 15 minutos, dividir en bollitos y estirar bien finos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cocinar cada tortilla en una sartén o plancha bien caliente sin aceite durante 1 a 2 minutos por lado hasta que aparezcan manchas doradas. Reservar tapadas con un repasador limpio para mantenerlas flexibles.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Para la salsa picante, procesar o picar bien fino el tomate fresco junto con el medio morrón, sal y gotas de salsa Tabasco a gusto. Reservar."
+      },
+      {
+        "text": "En una sartén amplia con un chorrito de aceite, saltear las cebollas y el ajo hasta transparentar. Sumar las tiras de pechuga de pollo salpimentadas y dorar bien.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Agregar los morrones verdes y rojos junto con los tomates concassé. Cocinar a fuego medio hasta que los vegetales queden tiernos y el relleno jugoso.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Servir el relleno caliente dentro de las tortillas tibias y acompañar con la salsa picante."
+      }
+    ]
+  },
+  {
+    "id": "ext-cheesecake-frutos-rojos-sin-azucar",
+    "title": "Cheesecake Sin Azúcar de Frutos Rojos",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "temperatureC": 175,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Cheesecake suave y cremoso sin azúcar agregada, endulzado con xilitol o edulcorante apto para cocción y coronado con una compota tibia de frutos rojos.",
+    "ingredients": [
+      {
+        "amount": 455,
+        "unit": "g",
+        "item": "queso crema tipo untable firme a temperatura ambiente"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "xilitol o edulcorante apto para cocción (2/3 taza más 3 cdas)"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos grandes"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "crema ácida o yogur natural firme"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "esencia de vainilla"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "frambuesas frescas o congeladas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "frutillas cortadas"
+      },
+      {
+        "amount": 0.5,
+        "unit": "taza",
+        "item": "arándanos"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua (para la compota)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 175 °C y forrar la base de un molde desmontable de 20 a 22 cm con papel manteca.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Batir el queso crema con el xilitol o edulcorante apto hasta obtener una crema lisa sin grumos. Agregar los huevos de a uno, luego la crema ácida o yogur natural y la esencia de vainilla, mezclando suave sin incorporar demasiado aire."
+      },
+      {
+        "text": "Volcar la preparación en el molde y hornear durante 30 a 35 minutos hasta que los bordes estén firmes y el centro apenas tiemble al mover el molde.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Apagar el horno, dejar entibiar adentro con la puerta entreabierta y luego llevar a la heladera al menos 4 horas hasta que tome buena consistencia."
+      },
+      {
+        "text": "Para la cobertura, cocinar en una ollita las frambuesas, frutillas, arándanos, el agua y edulcorante a gusto a fuego medio hasta que espese como compota. Dejar enfriar por completo y cubrir el cheesecake antes de servir.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "ext-tarta-limon-cremosa-sin-azucar",
+    "title": "Tarta Cremosa de Limón Sin Azúcar",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Tarta fresca con base crocante de salvado de avena y manteca, rellena de mousse cremosa de limón elaborada con leche condensada sin azúcar.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "salvado de avena procesado fino"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "manteca derretida o fría en cubos"
+      },
+      {
+        "amount": 2,
+        "unit": "latas",
+        "item": "leche condensada sin azúcar (aprox. 790 g en total)"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "limones grandes (su jugo y ralladura)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Procesar el salvado de avena junto con la manteca hasta lograr un arenado húmedo que se compacte al presionarlo. Forrar la base y los bordes de una tartera desmontable presionando firme."
+      },
+      {
+        "text": "Hornear la base durante 8 minutos hasta que esté levemente dorada. Retirar y dejar enfriar por completo.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Exprimir los 4 limones y mezclar el jugo con las dos latas de leche condensada sin azúcar batiendo hasta que la preparación espese naturalmente en una crema suave."
+      },
+      {
+        "text": "Volcar el relleno sobre la base fría, emparejar la superficie y llevar al freezer durante 1 hora (o a la heladera hasta que quede bien firme). Decorar con ralladura de limón antes de servir.",
+        "timerMinutes": 60
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-sirio-sin-gluten",
+    "title": "Pan Sirio Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 75,
+    "cookMinutes": 8,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pan chato tipo sirio o pita 100% libre de gluten, tierno y flexible, ideal para rellenar o acompañar comidas.",
+    "ingredients": [
+      {
+        "amount": 420,
+        "unit": "g",
+        "item": "premezcla de harina sin gluten (aprox. 3 tazas)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "sal fina"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "levadura seca instantánea"
+      },
+      {
+        "amount": 360,
+        "unit": "ml",
+        "item": "agua tibia (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "En un bol amplio, mezclar la premezcla de harina sin gluten con la sal y la levadura seca."
+      },
+      {
+        "text": "Agregar el agua tibia y el aceite de oliva. Mezclar y amasar hasta obtener una masa suave y homogénea."
+      },
+      {
+        "text": "Tapar el bol con un repasador o film y dejar levar en un lugar templado durante 60 minutos.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Precalentar el horno a 180 °C. Dividir la masa en 8 porciones iguales y estirar cada una formando discos de aproximadamente 15 cm de diámetro."
+      },
+      {
+        "text": "Colocar los discos en una placa ligeramente aceitada o con papel manteca y hornear durante 8 minutos, evitando que se sequen demasiado para conservar su flexibilidad.",
+        "timerMinutes": 8
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-vapt-vupt-taza",
+    "title": "Pan Rápido en Taza Sin Gluten (Vapt-Vupt)",
+    "metodo": "microondas",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 2,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Pan individual esponjoso sin harinas refinadas ni gluten, listo en 90 segundos en el microondas dentro de una taza.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "manteca derretida (o aceite de coco u oliva)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "harina de coco"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "harina de almendras"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "En una taza grande apta para microondas, colocar la manteca derretida y el huevo. Batir bien con tenedor hasta integrar."
+      },
+      {
+        "text": "Incorporar la harina de coco, la harina de almendras, la pizca de sal y el polvo de hornear, mezclando hasta obtener una masa pareja sin grumos."
+      },
+      {
+        "text": "Llevar al microondas a potencia máxima durante 90 segundos hasta que leve y esté firme al tacto. Desmoldar, cortar al medio si se desea y tostar apenas en sartén o tostadora.",
+        "timerMinutes": 2
+      }
+    ]
   }
 ]
