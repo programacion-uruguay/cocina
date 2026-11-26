@@ -4,15 +4,15 @@
    ========================================================================== */
 
 :root {
-  --cb-cream: #faf6ee;
-  --cb-cream-dark: #f1e9da;
-  --cb-forest: #2f6f4e;
-  --cb-forest-dark: #22533a;
+  --cb-cream: #fbf7f1;
+  --cb-cream-dark: #f1e6d8;
+  --cb-forest: #2f7d4b;
+  --cb-forest-dark: #225c36;
   --cb-sage: #e6f0ea;
-  --cb-terracotta: #d97742;
-  --cb-border: #e6dec8;
-  --cb-text: #1f2933;
-  --cb-muted: #5c6670;
+  --cb-terracotta: #d9480f;
+  --cb-border: #eadbc7;
+  --cb-text: #231912;
+  --cb-muted: #6e5947;
 }
 
 .cb-hidden {

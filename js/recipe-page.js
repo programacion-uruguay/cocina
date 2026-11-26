@@ -34,7 +34,8 @@
     userGpsCoords: null,
     gpsStatus: "",
     selectedChainId: null,
-    checkedIngredients: {}
+    checkedIngredients: {},
+    wakeLockActive: false
   };
 
   const els = {
@@ -42,10 +43,56 @@
     breadcrumbMeta: document.getElementById("studio-breadcrumb-meta"),
     favBtn: document.getElementById("page-fav-btn"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
+    themeCycleBtn: document.getElementById("theme-cycle-btn"),
     studio: document.getElementById("recipe-studio")
   };
 
   const timer = new CookingTimer();
+  let wakeLockSentinel = null;
+
+  function isGlutenFreeRecipe(r) {
+    if (!r) return false;
+    if (/-sg$/i.test(r.id || "")) return true;
+    const text = `${r.title || ""} ${r.description || ""}`;
+    return /sin\s*(gluten|tacc)/i.test(text);
+  }
+
+  function releaseWakeLock() {
+    if (wakeLockSentinel) {
+      try {
+        wakeLockSentinel.release();
+      } catch {
+        // Ignorar
+      }
+      wakeLockSentinel = null;
+    }
+    state.wakeLockActive = false;
+  }
+
+  async function toggleWakeLock() {
+    if (state.wakeLockActive) {
+      releaseWakeLock();
+      renderStudio();
+      return;
+    }
+    if (!("wakeLock" in navigator)) {
+      const btn = document.getElementById("studio-wake-lock-btn");
+      if (btn) btn.title = "Tu navegador no soporta mantener pantalla encendida";
+      return;
+    }
+    try {
+      wakeLockSentinel = await navigator.wakeLock.request("screen");
+      state.wakeLockActive = true;
+      wakeLockSentinel.addEventListener("release", () => {
+        wakeLockSentinel = null;
+        state.wakeLockActive = false;
+        renderStudio();
+      });
+    } catch {
+      state.wakeLockActive = false;
+    }
+    renderStudio();
+  }
 
   function loadStorage(key, fallback, validator) {
     try {
@@ -131,6 +178,17 @@
       btn.classList.toggle("is-active", active);
       btn.setAttribute("aria-pressed", String(active));
     });
+    if (els.themeCycleBtn) {
+      const icons = { light: "☀️", warm: "🔥", dark: "🌙" };
+      const labels = { light: "Tema claro", warm: "Tema cálido", dark: "Tema oscuro" };
+      els.themeCycleBtn.textContent = icons[theme] || "🔥";
+      els.themeCycleBtn.title = `${labels[theme] || "Tema"} (tocar para cambiar)`;
+    }
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeMeta) {
+      const colors = { light: "#f6f7fb", warm: "#fbf7f1", dark: "#12100e" };
+      themeMeta.setAttribute("content", colors[theme] || "#fbf7f1");
+    }
   }
 
   function isFavorite(id) {
@@ -560,6 +618,7 @@
         <div class="visual-header">
           <div class="tech-sheet-badges">
             ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${escapeHtml(metodo.label)}</span>` : ""}
+            ${isGlutenFreeRecipe(r) ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
             ${momento ? `<span class="tag">${momento.emoji || ""} ${escapeHtml(momento.shortLabel)}</span>` : ""}
             ${categoria ? `<span class="tag">${categoria.emoji || ""} ${escapeHtml(categoria.shortLabel)}</span>` : ""}
             ${estilo ? `<span class="tag">${estilo.emoji || ""} ${escapeHtml(estilo.shortLabel)}</span>` : ""}
@@ -573,6 +632,9 @@
             ${r.temperatureC ? `<span class="fact-pill">🌡️ ${r.temperatureC} °C</span>` : ""}
             <span class="fact-pill">🔥 ${evalResult.perServing.kcal} kcal / porc.</span>
             <span class="fact-pill">📊 ${escapeHtml(r.difficulty || "Fácil")}</span>
+            <button type="button" id="studio-wake-lock-btn" class="btn-wake-lock ${state.wakeLockActive ? "is-active" : ""}" aria-pressed="${state.wakeLockActive}">
+              ${state.wakeLockActive ? "☀️ Pantalla activa" : "💡 Mantener pantalla"}
+            </button>
           </div>
           ${
             window.CB_STORAGE && window.CB_STORAGE.getActiveUser()
@@ -1140,6 +1202,7 @@
 
     document.getElementById("cb-studio-eat")?.addEventListener("click", () => saveStudioToComerBien("eaten"));
     document.getElementById("cb-studio-plan")?.addEventListener("click", () => saveStudioToComerBien("planned"));
+    document.getElementById("studio-wake-lock-btn")?.addEventListener("click", toggleWakeLock);
 
     els.studio.querySelectorAll("[data-media-tab]").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -1512,6 +1575,20 @@
   function bindGlobalEvents() {
     els.themeButtons.forEach((btn) => {
       btn.addEventListener("click", () => applyTheme(btn.dataset.themeBtn));
+    });
+
+    if (els.themeCycleBtn) {
+      els.themeCycleBtn.addEventListener("click", () => {
+        const order = ["warm", "dark", "light"];
+        const nextIdx = (order.indexOf(state.theme) + 1) % order.length;
+        applyTheme(order[nextIdx]);
+      });
+    }
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden" && state.wakeLockActive) {
+        releaseWakeLock();
+      }
     });
 
     els.favBtn.addEventListener("click", () => {

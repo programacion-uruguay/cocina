@@ -30,7 +30,8 @@
     userGpsCoords: null,
     gpsStatus: "",
     selectedChainId: null,
-    checkedIngredients: {}
+    checkedIngredients: {},
+    wakeLockActive: false
   };
 
   const els = {
@@ -41,12 +42,17 @@
     legendItems: document.querySelectorAll("#wheel-legend .legend-item"),
     surpriseBtn: document.getElementById("surprise-btn"),
     quickSuggestions: document.getElementById("quick-suggestions"),
+    quickFilterChips: document.querySelectorAll("[data-quick-chip]"),
+    nowIdeasSection: document.getElementById("now-ideas-section"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
+    themeCycleBtn: document.getElementById("theme-cycle-btn"),
     searchForm: document.getElementById("search-form"),
     searchInput: document.getElementById("search-input"),
     searchSubmitBtn: document.getElementById("search-submit-btn"),
     favToggleBtn: document.getElementById("favorites-toggle"),
     favCount: document.getElementById("favorites-count"),
+    mobileFavCount: document.getElementById("mobile-fav-count"),
+    mobileNavBtns: document.querySelectorAll("[data-mobile-nav]"),
     resultsModal: document.getElementById("results-modal"),
     resultsModalClose: document.getElementById("results-modal-close"),
     resultsModalTitle: document.getElementById("results-modal-title"),
@@ -63,6 +69,53 @@
 
   const timer = new CookingTimer();
   let radialMenu = null;
+  let wakeLockSentinel = null;
+  let activeQuickChip = null;
+
+  function isGlutenFreeRecipe(r) {
+    if (!r) return false;
+    if (/-sg$/i.test(r.id || "")) return true;
+    const text = `${r.title || ""} ${r.description || ""}`;
+    return /sin\s*(gluten|tacc)/i.test(text);
+  }
+
+  function releaseWakeLock() {
+    if (wakeLockSentinel) {
+      try {
+        wakeLockSentinel.release();
+      } catch {
+        // Ignorar si ya fue liberado
+      }
+      wakeLockSentinel = null;
+    }
+    state.wakeLockActive = false;
+  }
+
+  async function toggleWakeLock() {
+    if (state.wakeLockActive) {
+      releaseWakeLock();
+      if (state.activeRecipe) renderRecipeModalContent();
+      return;
+    }
+    if (!("wakeLock" in navigator)) {
+      state.wakeLockActive = false;
+      const btn = document.getElementById("modal-wake-lock-btn");
+      if (btn) btn.title = "Tu navegador no soporta mantener pantalla encendida";
+      return;
+    }
+    try {
+      wakeLockSentinel = await navigator.wakeLock.request("screen");
+      state.wakeLockActive = true;
+      wakeLockSentinel.addEventListener("release", () => {
+        wakeLockSentinel = null;
+        state.wakeLockActive = false;
+        if (state.activeRecipe) renderRecipeModalContent();
+      });
+    } catch {
+      state.wakeLockActive = false;
+    }
+    if (state.activeRecipe) renderRecipeModalContent();
+  }
 
   function loadFavorites() {
     try {
@@ -95,6 +148,17 @@
       btn.classList.toggle("is-active", active);
       btn.setAttribute("aria-pressed", String(active));
     });
+    if (els.themeCycleBtn) {
+      const icons = { light: "☀️", warm: "🔥", dark: "🌙" };
+      const labels = { light: "Tema claro", warm: "Tema cálido", dark: "Tema oscuro" };
+      els.themeCycleBtn.textContent = icons[theme] || "🔥";
+      els.themeCycleBtn.title = `${labels[theme] || "Tema"} (tocar para cambiar)`;
+    }
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeMeta) {
+      const colors = { light: "#f6f7fb", warm: "#fbf7f1", dark: "#12100e" };
+      themeMeta.setAttribute("content", colors[theme] || "#fbf7f1");
+    }
   }
 
   function saveFavorites() {
@@ -117,6 +181,7 @@
     }
     saveFavorites();
     updateFavBadge();
+    renderNowIdeas();
     if (!els.resultsModal.hidden) renderResultsModal();
     if (state.activeRecipe && state.activeRecipe.id === id) {
       renderRecipeModalContent();
@@ -125,6 +190,10 @@
 
   function updateFavBadge() {
     els.favCount.textContent = state.favorites.length;
+    if (els.mobileFavCount) {
+      els.mobileFavCount.textContent = state.favorites.length;
+      els.mobileFavCount.hidden = state.favorites.length === 0;
+    }
   }
 
   function getFilteredRecipes(customPath = state.selectedPath) {
@@ -297,9 +366,11 @@
     state.searchQuery = "";
     state.onlyFavorites = false;
     state.resultsPage = 0;
+    activeQuickChip = null;
     els.searchInput.value = "";
     els.searchSubmitBtn.hidden = true;
     els.favToggleBtn.classList.remove("is-active");
+    els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
     syncUI();
     if (!els.resultsModal.hidden) renderResultsModal();
   }
@@ -360,6 +431,7 @@
     if (els.modal.hidden) {
       document.body.style.overflow = "";
     }
+    setMobileNavActive("explore");
   }
 
   function renderResultsModal() {
@@ -423,6 +495,7 @@
               <h3 class="card-title">${r.title}</h3>
               <p class="card-desc">${r.description}</p>
               <div class="card-tags">
+                ${isGlutenFreeRecipe(r) ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
                 ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.shortLabel}</span>` : ""}
                 ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.shortLabel}</span>` : ""}
                 ${estilo ? `<span class="tag">${estilo.emoji || ""} ${estilo.shortLabel}</span>` : ""}
@@ -541,6 +614,7 @@
   }
 
   function closeRecipeModal() {
+    releaseWakeLock();
     els.modal.hidden = true;
     state.activeRecipe = null;
     state.recipeTab = "ingredients";
@@ -554,6 +628,7 @@
   }
 
   function backToResultsModal() {
+    releaseWakeLock();
     els.modal.hidden = true;
     state.activeRecipe = null;
     state.recipeTab = "ingredients";
@@ -862,6 +937,7 @@
           }
           <div class="modal-badges">
             ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${metodo.label}</span>` : ""}
+            ${isGlutenFreeRecipe(r) ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
             ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.shortLabel}</span>` : ""}
             ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.shortLabel}</span>` : ""}
             ${estilo ? `<span class="tag">${estilo.emoji || ""} ${estilo.shortLabel}</span>` : ""}
@@ -872,6 +948,9 @@
             ${r.temperatureC ? `<span class="mini-stat">🌡️ ${r.temperatureC}°C</span>` : ""}
             <span class="mini-stat">📊 ${r.difficulty || "Fácil"}</span>
           </div>
+          <button type="button" id="modal-wake-lock-btn" class="btn-wake-lock ${state.wakeLockActive ? "is-active" : ""}" aria-pressed="${state.wakeLockActive}">
+            ${state.wakeLockActive ? "☀️ Pantalla activa" : "💡 Mantener pantalla"}
+          </button>
           <button type="button" id="modal-fav-btn" class="btn-fav-modal ${fav ? "is-fav" : ""}">
             ${fav ? "♥ En favoritos" : "♡ Guardar"}
           </button>
@@ -916,6 +995,7 @@
     }
 
     document.getElementById("modal-fav-btn").addEventListener("click", () => toggleFavorite(r.id));
+    document.getElementById("modal-wake-lock-btn")?.addEventListener("click", toggleWakeLock);
 
     const cbEatBtn = document.getElementById("cb-radial-eat");
     const cbPlanBtn = document.getElementById("cb-radial-plan");
@@ -1059,6 +1139,111 @@
     });
   }
 
+  function getCurrentMomentKey() {
+    const h = new Date().getHours();
+    if (h >= 5 && h < 11) return "desayuno";
+    if (h >= 11 && h < 15) return "almuerzo";
+    if (h >= 15 && h < 19) return "merienda";
+    return "cena";
+  }
+
+  function renderNowIdeas() {
+    if (!els.nowIdeasSection || state.recipes.length === 0) return;
+
+    const momentKey = getCurrentMomentKey();
+    const momentMeta = getMenuItemById("momento", momentKey);
+    const compatible = state.recipes.filter((r) => {
+      if (r.momento !== momentKey) return false;
+      if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
+      return true;
+    });
+
+    const pool = compatible.length > 0 ? compatible : state.recipes;
+    const gfItems = pool.filter((r) => isGlutenFreeRecipe(r)).slice(0, 2);
+    const usedIds = new Set(gfItems.map((r) => r.id));
+    const regularItems = pool.filter((r) => !usedIds.has(r.id)).slice(0, 6 - gfItems.length);
+    const picked = [...gfItems, ...regularItems].slice(0, 6);
+
+    if (picked.length === 0) {
+      els.nowIdeasSection.innerHTML = "";
+      return;
+    }
+
+    const momentLabels = {
+      desayuno: "Ideas para tu desayuno",
+      almuerzo: "Ideas para el almuerzo",
+      merienda: "Ideas para la merienda",
+      cena: "Ideas para la cena"
+    };
+
+    els.nowIdeasSection.innerHTML = `
+      <div class="now-ideas-header">
+        <div>
+          <h2>${momentMeta?.emoji || "🍽️"} ${momentLabels[momentKey] || "Ideas para ahora"}</h2>
+          <p class="now-ideas-sub">Selección sugerida para este momento del día (${pool.length} opciones disponibles)</p>
+        </div>
+        <button type="button" id="now-ideas-see-all" class="now-ideas-more-btn">Ver todas →</button>
+      </div>
+      <div class="now-ideas-grid">
+        ${picked
+          .map((r) => {
+            const totalMin = (r.prepMinutes || 0) + (r.cookMinutes || 0);
+            const metodo = getMenuItemById("metodo", r.metodo);
+            const fav = isFavorite(r.id);
+            const isGf = isGlutenFreeRecipe(r);
+            return `
+              <article class="now-idea-card" data-now-id="${r.id}">
+                <div class="now-idea-top">
+                  <span class="now-idea-badge">${metodo?.emoji || "🍳"} ${metodo?.label || r.metodo}</span>
+                  <button type="button" class="now-idea-fav ${fav ? "is-fav" : ""}" data-now-fav="${r.id}" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">
+                    ${fav ? "♥" : "♡"}
+                  </button>
+                </div>
+                <h3 class="now-idea-title">${r.title}</h3>
+                <div class="now-idea-meta">
+                  <span>⏱️ ${totalMin} min</span>
+                  <span>🍽️ ${r.servings} porc.</span>
+                  ${isGf ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
+                </div>
+              </article>
+            `;
+          })
+          .join("")}
+      </div>
+    `;
+
+    document.getElementById("now-ideas-see-all")?.addEventListener("click", () => {
+      state.onlyFavorites = false;
+      state.searchQuery = "";
+      if (els.searchInput) els.searchInput.value = "";
+      state.selectedPath = { momento: momentKey };
+      state.resultsPage = 0;
+      syncUI();
+      openResultsModal();
+    });
+
+    els.nowIdeasSection.querySelectorAll("[data-now-id]").forEach((card) => {
+      card.addEventListener("click", (e) => {
+        if (e.target.closest("[data-now-fav]")) return;
+        openRecipeInNewTab(card.dataset.nowId);
+      });
+    });
+
+    els.nowIdeasSection.querySelectorAll("[data-now-fav]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleFavorite(btn.dataset.nowFav);
+      });
+    });
+  }
+
+  function setMobileNavActive(activeKey) {
+    if (!els.mobileNavBtns) return;
+    els.mobileNavBtns.forEach((btn) => {
+      btn.classList.toggle("is-active", btn.dataset.mobileNav === activeKey);
+    });
+  }
+
   function renderQuickSuggestions() {
     if (!els.quickSuggestions) return;
     const list = getFilteredRecipes();
@@ -1097,6 +1282,87 @@
   function bindGlobalEvents() {
     els.themeButtons.forEach((btn) => {
       btn.addEventListener("click", () => applyTheme(btn.dataset.themeBtn));
+    });
+
+    if (els.themeCycleBtn) {
+      els.themeCycleBtn.addEventListener("click", () => {
+        const order = ["warm", "dark", "light"];
+        const nextIdx = (order.indexOf(state.theme) + 1) % order.length;
+        applyTheme(order[nextIdx]);
+      });
+    }
+
+    if (els.quickFilterChips) {
+      els.quickFilterChips.forEach((chip) => {
+        chip.addEventListener("click", () => {
+          const kind = chip.dataset.quickChip;
+          activeQuickChip = kind;
+          els.quickFilterChips.forEach((c) => c.classList.toggle("is-active", c === chip));
+          state.onlyFavorites = false;
+          state.resultsPage = 0;
+          els.favToggleBtn.classList.remove("is-active");
+          if (kind === "gf") {
+            state.selectedPath = {};
+            state.searchQuery = "sin gluten";
+            els.searchInput.value = "sin gluten";
+            els.searchSubmitBtn.hidden = false;
+          } else if (kind === "freidora") {
+            state.searchQuery = "";
+            els.searchInput.value = "";
+            els.searchSubmitBtn.hidden = true;
+            state.selectedPath = { metodo: "freidora" };
+          } else {
+            state.searchQuery = "";
+            els.searchInput.value = "";
+            els.searchSubmitBtn.hidden = true;
+            state.selectedPath = { estilo: kind };
+          }
+          syncUI();
+          openResultsModal();
+        });
+      });
+    }
+
+    if (els.mobileNavBtns) {
+      els.mobileNavBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const target = btn.dataset.mobileNav;
+          setMobileNavActive(target);
+          if (target === "explore") {
+            closeRecipeModal();
+            closeResultsModal();
+            document.querySelector('[data-cb-mode="radial"]')?.click();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          } else if (target === "search") {
+            closeRecipeModal();
+            closeResultsModal();
+            document.querySelector('[data-cb-mode="radial"]')?.click();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            setTimeout(() => els.searchInput?.focus(), 180);
+          } else if (target === "favorites") {
+            state.onlyFavorites = true;
+            state.resultsPage = 0;
+            els.favToggleBtn.classList.add("is-active");
+            syncUI();
+            openResultsModal();
+          } else if (target === "plan") {
+            closeRecipeModal();
+            closeResultsModal();
+            if (window.CB_IS_LOGGED_IN && window.CB_IS_LOGGED_IN()) {
+              document.querySelector('[data-cb-mode="comerbien"]')?.click();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            } else {
+              document.getElementById("cb-auth-btn")?.click();
+            }
+          }
+        });
+      });
+    }
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden" && state.wakeLockActive) {
+        releaseWakeLock();
+      }
     });
 
     if (els.legendItems) {
@@ -1154,6 +1420,8 @@
     els.resetWheelBtn.addEventListener("click", () => {
       state.selectedPath = {};
       state.resultsPage = 0;
+      activeQuickChip = null;
+      els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
       syncUI();
     });
 
@@ -1238,10 +1506,12 @@
     });
 
     syncUI();
+    renderNowIdeas();
   }
 
   window.CB_REFRESH_RADIAL = () => {
     if (radialMenu) radialMenu.render();
+    renderNowIdeas();
     if (!els.resultsModal.hidden) renderResultsModal();
   };
 
