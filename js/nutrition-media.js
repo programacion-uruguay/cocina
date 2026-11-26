@@ -797,7 +797,8 @@ function getRecipeNutritionAndMedia(recipe, adaptedIngredients = null) {
     index: idx,
     title: `Paso ${idx + 1}`,
     text: typeof step === "string" ? step : step.text,
-    timerMinutes: (typeof step === "object" && step.timerMinutes) || null
+    timerMinutes: (typeof step === "object" && step.timerMinutes) || null,
+    videoStartSec: (typeof step === "object" && typeof step.videoStartSec === "number") ? step.videoStartSec : null
   }));
 
   return {
@@ -805,6 +806,8 @@ function getRecipeNutritionAndMedia(recipe, adaptedIngredients = null) {
     lightFactor: 0.82,
     photos,
     videoUrl: recipe.videoUrl || "",
+    videoTitle: recipe.videoTitle || "",
+    videoChannel: recipe.videoChannel || "",
     videoChapters
   };
 }

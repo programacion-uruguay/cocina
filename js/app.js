@@ -15,6 +15,7 @@
     selectedPath: {}, // { momento?, categoria?, metodo?, estilo? }
     searchQuery: "",
     onlyFavorites: false,
+    onlyWithVideo: false,
     resultsPage: 0,
     resultsPageSize: 6,
     favorites: loadFavorites(),
@@ -201,6 +202,7 @@
 
     return state.recipes.filter((r) => {
       if (state.onlyFavorites && !isFavorite(r.id)) return false;
+      if (state.onlyWithVideo && !r.videoUrl) return false;
       if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
       if (customPath.metodo && r.metodo !== customPath.metodo) return false;
       if (customPath.momento && r.momento !== customPath.momento) return false;
@@ -365,6 +367,7 @@
     state.selectedPath = {};
     state.searchQuery = "";
     state.onlyFavorites = false;
+    state.onlyWithVideo = false;
     state.resultsPage = 0;
     activeQuickChip = null;
     els.searchInput.value = "";
@@ -444,6 +447,7 @@
     }).filter(Boolean);
 
     if (state.onlyFavorites) activeLabels.unshift("Favoritos");
+    if (state.onlyWithVideo) activeLabels.unshift("🎬 Con video");
     if (state.searchQuery.trim()) activeLabels.push(`"${state.searchQuery.trim()}"`);
 
     els.resultsModalTitle.textContent = activeLabels.length
@@ -495,6 +499,7 @@
               <h3 class="card-title">${r.title}</h3>
               <p class="card-desc">${r.description}</p>
               <div class="card-tags">
+                ${r.videoUrl ? `<span class="tag tag-video">🎬 Video</span>` : ""}
                 ${isGlutenFreeRecipe(r) ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
                 ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.shortLabel}</span>` : ""}
                 ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.shortLabel}</span>` : ""}
@@ -937,6 +942,7 @@
           }
           <div class="modal-badges">
             ${metodo ? `<span class="method-pill" style="--pill-color:${metodo.color}">${metodo.emoji || ""} ${metodo.label}</span>` : ""}
+            ${r.videoUrl ? `<span class="tag tag-video">🎬 Video</span>` : ""}
             ${isGlutenFreeRecipe(r) ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
             ${momento ? `<span class="tag">${momento.emoji || ""} ${momento.shortLabel}</span>` : ""}
             ${categoria ? `<span class="tag">${categoria.emoji || ""} ${categoria.shortLabel}</span>` : ""}
@@ -958,6 +964,11 @@
 
         <div class="modal-title-row">
           <h2 id="modal-title">${r.title}</h2>
+          ${
+            r.videoUrl
+              ? `<a href="${buildRecipeUrl(r.id)}&tab=video" target="_blank" rel="noopener" class="btn-tab-nav is-accent">🎬 Ver video paso a paso ↗</a>`
+              : ""
+          }
         </div>
         <p class="modal-desc modal-desc-compact">${r.description}</p>
         ${
@@ -1218,6 +1229,7 @@
           <div class="now-idea-meta">
             <span>⏱️ ${totalMin} min</span>
             <span>🍽️ ${r.servings} porc.</span>
+            ${r.videoUrl ? `<span class="tag tag-video">🎬 Video</span>` : ""}
             ${isGf ? `<span class="tag tag-gf">🌾 Sin Gluten</span>` : ""}
           </div>
         </article>
@@ -1257,8 +1269,10 @@
 
     document.getElementById("now-ideas-see-all")?.addEventListener("click", () => {
       state.onlyFavorites = false;
+      state.onlyWithVideo = false;
       state.searchQuery = "";
       if (els.searchInput) els.searchInput.value = "";
+      els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
       state.selectedPath = { momento: momentKey };
       state.resultsPage = 0;
       syncUI();
@@ -1342,9 +1356,16 @@
           activeQuickChip = kind;
           els.quickFilterChips.forEach((c) => c.classList.toggle("is-active", c === chip));
           state.onlyFavorites = false;
+          state.onlyWithVideo = false;
           state.resultsPage = 0;
           els.favToggleBtn.classList.remove("is-active");
-          if (kind === "gf") {
+          if (kind === "video") {
+            state.selectedPath = {};
+            state.searchQuery = "";
+            els.searchInput.value = "";
+            els.searchSubmitBtn.hidden = true;
+            state.onlyWithVideo = true;
+          } else if (kind === "gf") {
             state.selectedPath = {};
             state.searchQuery = "sin gluten";
             els.searchInput.value = "sin gluten";
@@ -1452,8 +1473,10 @@
 
     els.favToggleBtn.addEventListener("click", () => {
       state.onlyFavorites = true;
+      state.onlyWithVideo = false;
       state.resultsPage = 0;
       els.favToggleBtn.classList.add("is-active");
+      els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
       syncUI();
       openResultsModal();
     });
@@ -1462,6 +1485,7 @@
 
     els.resetWheelBtn.addEventListener("click", () => {
       state.selectedPath = {};
+      state.onlyWithVideo = false;
       state.resultsPage = 0;
       activeQuickChip = null;
       els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
@@ -1474,8 +1498,10 @@
 
     els.resultsModalClose.addEventListener("click", () => {
       state.onlyFavorites = false;
+      state.onlyWithVideo = false;
       state.resultsPage = 0;
       els.favToggleBtn.classList.remove("is-active");
+      els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
       closeResultsModal();
       syncUI();
     });
@@ -1483,8 +1509,10 @@
     els.resultsModal.addEventListener("click", (e) => {
       if (e.target === els.resultsModal) {
         state.onlyFavorites = false;
+        state.onlyWithVideo = false;
         state.resultsPage = 0;
         els.favToggleBtn.classList.remove("is-active");
+        els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
         closeResultsModal();
         syncUI();
       }
@@ -1501,8 +1529,10 @@
           closeRecipeModal();
         } else if (!els.resultsModal.hidden) {
           state.onlyFavorites = false;
+          state.onlyWithVideo = false;
           state.resultsPage = 0;
           els.favToggleBtn.classList.remove("is-active");
+          els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
           closeResultsModal();
           syncUI();
         }

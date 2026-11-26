@@ -56,7 +56,10 @@
         "text": "Cocinar en la canasta sin encimar las piezas durante 16 minutos, agitando a la mitad.",
         "timerMinutes": 16
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GqnitsyJGNM",
+    "videoTitle": "POLLO SÚPER CROCANTE Y SALUDABLE: en AirFryer #shorts",
+    "videoChannel": "Las Recetas de Simón"
   },
   {
     "id": "freidora-papas-rusticas",
@@ -95,13 +98,25 @@
     ],
     "steps": [
       {
-        "text": "Cortar las papas en gajos parejos, secarlas bien con papel y mezclarlas con aceite, romero y sal."
+        "text": "Cortar las papas en gajos parejos."
       },
       {
-        "text": "Cocinar a 200 °C durante 18 minutos, sacudiendo la canasta cada 6 minutos.",
+        "text": "Secarlas bien con papel y mezclarlas con aceite."
+      },
+      {
+        "text": "Romero y sal."
+      },
+      {
+        "text": "Cocinar a 200 °C durante 18 minutos."
+      },
+      {
+        "text": "Sacudiendo la canasta cada 6 minutos.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aX5kYClddqw",
+    "videoTitle": "TRUCAZO para PATATAS CRUJIENTES EN AIR FRYER 🤤",
+    "videoChannel": "Carmen Iribarne"
   },
   {
     "id": "freidora-salmon-limon",
@@ -145,13 +160,22 @@
     ],
     "steps": [
       {
-        "text": "Pincelar los filetes con aceite, jugo de limón, eneldo, sal y pimienta."
+        "text": "Pincelar los filetes con aceite."
+      },
+      {
+        "text": "Jugo de limón."
+      },
+      {
+        "text": "Sal y pimienta."
       },
       {
         "text": "Llevar a la freidora de aire a 185 °C durante 10 minutos.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=bHepJyPSPoI",
+    "videoTitle": "Salmón en salsa de ajo y limón",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "freidora-tostada-huevo",
@@ -193,10 +217,16 @@
         "text": "Presionar el centro de cada rebanada con una cuchara para formar un hueco y colocar queso alrededor."
       },
       {
-        "text": "Cascar un huevo en cada hueco, salpimentar y cocinar a 180 °C por 7 minutos.",
+        "text": "Cascar un huevo en cada hueco."
+      },
+      {
+        "text": "Salpimentar y cocinar a 180 °C por 7 minutos.",
         "timerMinutes": 7
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wM9twfUdn74",
+    "videoTitle": "TOSTADAS DE HUEVO EN AIR FRYER #desayunosaludable",
+    "videoChannel": "Carmen Iribarne"
   },
   {
     "id": "freidora-manzanas-canela",
@@ -228,10 +258,16 @@
         "text": "Cortar las manzanas en láminas finas (sin semillas) y espolvorear con canela."
       },
       {
-        "text": "Cocinar a 160 °C durante 12 minutos, moviendo a mitad de cocción.",
+        "text": "Cocinar a 160 °C durante 12 minutos."
+      },
+      {
+        "text": "Moviendo a mitad de cocción.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=M5cFIsQk-cE",
+    "videoTitle": "Snack saludable, chips de manzana en freidora de aire #airfryer",
+    "videoChannel": "Sencillo cocina con Cindy"
   },
   {
     "id": "horno-pollo-limon",
@@ -290,7 +326,10 @@
         "text": "Hornear durante 40 minutos hasta que esté bien dorado.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=B8Ydc7Vbyf8",
+    "videoTitle": "🍗POLLO AL HORNO, lo haces hoy a la noche y te lo llevas mañana de vianda👌🏼.",
+    "videoChannel": "Agustina Liporace"
   },
   {
     "id": "horno-lasagna-verduras",
@@ -343,7 +382,10 @@
         "text": "Hornear a 190 °C durante 30 minutos hasta gratinar.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=bv2ikaEShLI",
+    "videoTitle": "ESPINACA + ricota (receta en 30 minutos)",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "horno-budin-banana",
@@ -396,7 +438,10 @@
         "text": "Hornear a 180 °C durante 35 minutos.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=kMQjJ4QcoLI",
+    "videoTitle": "BUDÍN DE BANANA PROTEICO EXTRA HÚMEDO!🍌✨ #budin #budinfit #banana #recetassaludables",
+    "videoChannel": "Puli Cocina"
   },
   {
     "id": "horno-colita-cuadril",
@@ -435,13 +480,19 @@
     ],
     "steps": [
       {
-        "text": "Untar la carne con mostaza, aceite, sal y pimienta."
+        "text": "Untar la carne con mostaza."
+      },
+      {
+        "text": "Sal y pimienta."
       },
       {
         "text": "Hornear a 190 °C por 45 minutos y dejar reposar 5 minutos antes de cortar.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=FKYTy7kl-Bg",
+    "videoTitle": "COLITA DE CUADRIL AL HORNO CON COSTRA DE MOSTAZA Y BONIATOS #shorts",
+    "videoChannel": "Las Recetas de Simón"
   },
   {
     "id": "cocina-arroz-pollo",
@@ -484,14 +535,23 @@
     ],
     "steps": [
       {
-        "text": "Dorar el pollo en la olla con un chorrito de aceite. Agregar cebolla y morrón por 5 minutos.",
+        "text": "Dorar el pollo en la olla con un chorrito de aceite."
+      },
+      {
+        "text": "Agregar cebolla y morrón por 5 minutos.",
         "timerMinutes": 5
       },
       {
-        "text": "Sumar el arroz y el caldo caliente. Cocinar tapado a fuego bajo por 18 minutos.",
+        "text": "Sumar el arroz y el caldo caliente."
+      },
+      {
+        "text": "Cocinar tapado a fuego bajo por 18 minutos.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=H6lgxgEWIs8",
+    "videoTitle": "ARROZ CON POLLO | RECETA PERUANA | EXQUISITO | Sazón y Corazón",
+    "videoChannel": "Sazón y Corazón"
   },
   {
     "id": "cocina-pasta-ajo-oliva",
@@ -543,7 +603,10 @@
       {
         "text": "Mezclar la pasta con el aceite, un cucharón de agua de cocción y perejil."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=G6-mKyumitM",
+    "videoTitle": "Spaghetti Aglio e Olio #pasta #spaghetti #italianfood #asmr #reelsrecipe",
+    "videoChannel": "Yarin Danieli"
   },
   {
     "id": "cocina-revuelto-zapallitos",
@@ -585,10 +648,16 @@
         "timerMinutes": 8
       },
       {
-        "text": "Agregar los huevos batidos, salpimentar y revolver 3 minutos hasta cuajar.",
+        "text": "Agregar los huevos batidos."
+      },
+      {
+        "text": "Salpimentar y revolver 3 minutos hasta cuajar.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vvHfYyvXWLo",
+    "videoTitle": "🔥 Como HACER Revuelto de ZAPALLITOS VERDES CON HUEVO  🚀 |  💥 RECETA REVUELTO de ZAPALLITOS VERDES 💥",
+    "videoChannel": "Facu David Rodriguez"
   },
   {
     "id": "cocina-panqueques-avena",
@@ -626,13 +695,19 @@
     ],
     "steps": [
       {
-        "text": "Procesar o mezclar bien la banana pisada con huevos, avena y canela."
+        "text": "Procesar o mezclar bien la banana pisada con huevos."
+      },
+      {
+        "text": "Avena y canela."
       },
       {
         "text": "Cocinar porciones en sartén antiadherente 2 minutos de cada lado.",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=cMWTIKhNz6A",
+    "videoTitle": "Hotcakes de plátano y avena 🥞",
+    "videoChannel": "Jennifer Salas Postres"
   },
   {
     "id": "cocina-bifes-criolla",
@@ -678,10 +753,19 @@
         "text": "Sellar los bifes en sartén profunda 2 minutos por lado."
       },
       {
-        "text": "Cubrir con capas de cebolla, tomate y papa, agregar el caldo y tapar 20 minutos.",
+        "text": "Cubrir con capas de cebolla."
+      },
+      {
+        "text": "Tomate y papa."
+      },
+      {
+        "text": "Agregar el caldo y tapar 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=WQItnHHaf_c",
+    "videoTitle": "Cómo hacer Bifes a la Criolla ¡Súper Fácil! | Receta Casera | Tenedor Libre",
+    "videoChannel": "Tenedor Libre"
   },
   {
     "id": "parrilla-bife-chorizo",
@@ -768,7 +852,10 @@
         "text": "Grillar 5 minutos por lado hasta que queden marcados y tiernos.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=W_bhndLba-I",
+    "videoTitle": "Parrillada de verduras o verduras a la plancha | Grilled vegetables",
+    "videoChannel": "Orielo’s Kitchen. Recetas sin lactosa"
   },
   {
     "id": "parrilla-merluza-plancha",
@@ -812,7 +899,10 @@
         "text": "Cocinar 4 minutos por lado con ajo y perejil por encima.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=2QGtu0t9VAE",
+    "videoTitle": "Cómo hacer filete de pescado al ajillo, #recetas #filetedepescado #corvina #recetasrapidas",
+    "videoChannel": "La cocina de Sher"
   },
   {
     "id": "parrilla-pechuga-mariposa",
@@ -845,13 +935,19 @@
     ],
     "steps": [
       {
-        "text": "Condimentar la pechuga con aceite, hierbas, sal y pimienta."
+        "text": "Condimentar la pechuga con aceite."
+      },
+      {
+        "text": "Sal y pimienta."
       },
       {
         "text": "Cocinar 5 minutos por lado en plancha bien caliente.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EA92ihICmQ4",
+    "videoTitle": "CÓMO MARINAR LA PECHUGA DE POLLO PARA QUE QUEDE BIEN SABROSA A LA PLANCHA",
+    "videoChannel": "La Cocina de Yaiza"
   },
   {
     "id": "microondas-mugcake-cacao",
@@ -900,7 +996,10 @@
         "text": "Cocinar a potencia máxima durante 2 minutos.",
         "timerMinutes": 2
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZmRMHxKR-VQ",
+    "videoTitle": "Receta del mejor Mug Cake de la historia ✨✨ #receta #postre #cake #chocolate #mugcake #brownie",
+    "videoChannel": "Bakery by Noelia"
   },
   {
     "id": "microondas-omelette-taza",
@@ -938,13 +1037,19 @@
     ],
     "steps": [
       {
-        "text": "Batir los huevos en una taza aceitada junto con el queso, tomate y cebollín."
+        "text": "Batir los huevos en una taza aceitada junto con el queso."
+      },
+      {
+        "text": "Tomate y cebollín."
       },
       {
         "text": "Llevar al microondas 2 minutos (en intervalos de 1 minuto).",
         "timerMinutes": 2
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=RvfNiTkJzGk",
+    "videoTitle": "EL MEJOR OMELET EN 45 SEGUNDOS EN EL MICRO 😮 🍳 #shorts",
+    "videoChannel": "Munchies Lab"
   },
   {
     "id": "microondas-papas-rellenas",
@@ -981,10 +1086,19 @@
         "timerMinutes": 7
       },
       {
-        "text": "Abrir al medio, agregar queso y verdeo, y calentar 1 minuto más.",
+        "text": "Abrir al medio."
+      },
+      {
+        "text": "Agregar queso y verdeo."
+      },
+      {
+        "text": "Y calentar 1 minuto más.",
         "timerMinutes": 1
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=y_cufgoIMDY",
+    "videoTitle": "PAPAS SUPER RELLENAS CON MUCHO QUESO #shorts",
+    "videoChannel": "Las Recetas de Simón"
   },
   {
     "id": "sin-coccion-overnight-oats",
@@ -1027,12 +1141,18 @@
     ],
     "steps": [
       {
-        "text": "Mezclar avena, leche, chía y miel en un frasco."
+        "text": "Mezclar avena."
+      },
+      {
+        "text": "Chía y miel en un frasco."
       },
       {
         "text": "Refrigerar al menos 4 horas o toda la noche y servir con frutos rojos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=IxmFnV4t078",
+    "videoTitle": "EL DESAYUNO DE TODA LA SEMANA EN 10 MINUTOS: Overnight Oats! #shorts",
+    "videoChannel": "Las Recetas de Simón"
   },
   {
     "id": "sin-coccion-ensalada-cesar",
@@ -1078,9 +1198,15 @@
         "text": "Cortar la palta y los tomates cherry a la mitad."
       },
       {
-        "text": "Mezclar en un bowl con el atún, garbanzos, oliva, limón y sal."
+        "text": "Mezclar en un bowl con el atún."
+      },
+      {
+        "text": "Limón y sal."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=BFsylaVLzek",
+    "videoTitle": "ENSALADA DE GARBANZOS 🥗con atún, pimiento y aguacate 😋, receta fresca y muy sencilla #cocinaespañola",
+    "videoChannel": "CovalPlato"
   },
   {
     "id": "sin-coccion-trufas-datiles",
@@ -1124,7 +1250,10 @@
         "text": "Armar bolitas con las manos y llevar 15 minutos a la heladera.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=UOpRgNL0ZpI",
+    "videoTitle": "TRUFAS de CHOCOLATE en 1 min y solo 3 ingredientes! #recetasfaciles #sinazucar #postressinazucar",
+    "videoChannel": "Puli Cocina"
   },
   {
     "id": "drive-albondigas-salsa-queso",
@@ -1206,7 +1335,10 @@
         "text": "Incorporá las albóndigas en la salsa y cociná 5 minutos más a fuego suave.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZzQhLPEl7lQ",
+    "videoTitle": "Albóndigas de Carne: una receta increíble! (albóndigas de carne picada)",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "drive-burrito-atun-saludable",
@@ -1267,7 +1399,10 @@
       {
         "text": "Enrollá firme formando los burritos y cortalos al medio para servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eXIqCKqXyPs",
+    "videoTitle": "Wrap de atún 🍣 Fácil, rápido y sobretodo delicioso 🤤",
+    "videoChannel": "Thifany Ballesteros"
   },
   {
     "id": "drive-tacos-carne-asada",
@@ -1388,7 +1523,10 @@
         "text": "Colocá en molde aceitado, dejá levar tapado en lugar tibio y horneá 35 a 40 minutos a 190 °C.",
         "timerMinutes": 38
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Fcx7NbTBCZA",
+    "videoTitle": "PAN KETO EN 1 MINUTOS perfecto para tostadas | Recetar Keto con Laura",
+    "videoChannel": "Keto con Laura"
   },
   {
     "id": "drive-churros-caseros",
@@ -1451,7 +1589,10 @@
         "text": "Para la salsa, herví 1 taza de agua con cacao y azúcar hasta espesar.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=THsNkkN75f8",
+    "videoTitle": "Cómo hacer churros caseros ¡La receta más fácil del mundo!",
+    "videoChannel": "Cuuking"
   },
   {
     "id": "drive-albondigas-rellenas-mozzarella",
@@ -1562,7 +1703,10 @@
         "text": "Espolvoreá el resto de parmesano y horneá a 190 °C por 18 a 20 minutos.",
         "timerMinutes": 19
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=KkxO08MXNtQ",
+    "videoTitle": "🍄CHAMPIÑONES RELLENOS de Espinacas y Queso | El Aperitivo Perfecto",
+    "videoChannel": "DisfrutaBox"
   },
   {
     "id": "drive-ensalada-pollo-zapallito-pesto",
@@ -1619,7 +1763,10 @@
       {
         "text": "Sumá el pollo, los cherry al medio, el queso y un hilo de aceite de oliva."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=kuDzZ9NxhSw",
+    "videoTitle": "Spaghetti de Calabacin con Pollo, riquísimo! #recetas #shorts #short #zucchini #pasta #calabaza",
+    "videoChannel": "Cocina con Hilda Alejandra"
   },
   {
     "id": "drive-huevos-rellenos-pimenton",
@@ -1725,7 +1872,10 @@
         "text": "Terminá con mozzarella arriba y horneá a 200 °C durante 15 minutos.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=S7SFQI0oN-M",
+    "videoTitle": "LASAGNA DE POLLO",
+    "videoChannel": "KWA"
   },
   {
     "id": "drive-mini-tacos-pollo",
@@ -1768,9 +1918,21 @@
         "timerMinutes": 8
       },
       {
-        "text": "Dejá entibiar 1 minuto, rellená con pollo, queso crema y verdeo, y doblá en forma de taco."
+        "text": "Dejá entibiar 1 minuto."
+      },
+      {
+        "text": "Rellená con pollo."
+      },
+      {
+        "text": "Queso crema y verdeo."
+      },
+      {
+        "text": "Y doblá en forma de taco."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=mlEFGZNNuys",
+    "videoTitle": "Tacos de pollo",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "drive-omelette-champinones-queso",
@@ -1823,7 +1985,10 @@
         "text": "Volcá los huevos, agregá el queso cuando cuaje por debajo y doblá al medio.",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EfybfRnAMNk",
+    "videoTitle": "OMELETTE DE CHAMPIÑONES | Vicky Receta Facil",
+    "videoChannel": "VICKY RECETA FACIL"
   },
   {
     "id": "drive-ensalada-pollo-repollo",
@@ -2035,7 +2200,10 @@
       {
         "text": "Estirá bien fina con palo de amasar para armar ravioles o discos de empanada."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=NOqws8gMzAc",
+    "videoTitle": "RAVIOLES CASEROS con Jamón, Queso y Ricotta | Pasta Casera - CUKit!",
+    "videoChannel": "Cuk-it!"
   },
   {
     "id": "drive-masa-tacos-rapiditas",
@@ -2082,7 +2250,10 @@
       {
         "text": "Cociná vuelta y vuelta en sartén bien caliente unos 40 segundos por lado."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=zIPlSN3DMHE",
+    "videoTitle": "Como Hacer Tortillas de Harina muy fáciles y suaves | Flour Tortillas",
+    "videoChannel": "Katastrofa La Cocina"
   },
   {
     "id": "drive-omelette-jamon-queso",
@@ -2129,7 +2300,10 @@
       {
         "text": "Doblá al medio con espátula y serví enseguida."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=71WoWvDba9E",
+    "videoTitle": "OMELETTE | Cómo Hacer Un Omelette de Huevo | SyS",
+    "videoChannel": "Sweet y Salado"
   },
   {
     "id": "celiaco-sopa-verduras-juliana",
@@ -2201,7 +2375,10 @@
         "text": "Agregá todas las verduras, rehogá 3 minutos, cubrí con 2 litros de agua y cociná 30 minutos a fuego suave.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=VgnChY8UJ-4",
+    "videoTitle": "Esta SOPA SALUDABLE te sacará de un apuro en solo 15 minutos. BARATA Y RENDIDORA #shorts #addy",
+    "videoChannel": "Cocina de Addy"
   },
   {
     "id": "celiaco-mejillones-vino-papas",
@@ -2264,7 +2441,10 @@
       {
         "text": "Reducí el caldo 4 minutos, aplastá apenas las papas como base y serví los mejillones con su salsa y pimentón."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=IB7K_r72aPU",
+    "videoTitle": "Mejillones a la marinera 🦪 ¡Una receta que me habíais pedido un montón! #recetas #youtubeshorts",
+    "videoChannel": "Poesía De Fogón"
   },
   {
     "id": "celiaco-papas-rellenas-huevo-aceitunas",
@@ -2321,7 +2501,10 @@
       {
         "text": "Ahuecá las papas al medio, mezclá la pulpa con huevo duro, aceitunas, jamón dorado y mayonesa, y rellená."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_XArZyhuPJg",
+    "videoTitle": "#51 Papa Rellena (al estilo peruano) #shorts",
+    "videoChannel": "Armando Esquivel"
   },
   {
     "id": "celiaco-carne-al-caldero-papas",
@@ -2374,7 +2557,10 @@
       {
         "text": "Serví la carne y las papas rociadas con aceite de oliva, pimentón dulce y 2 cucharadas del caldo."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=KZp5qsQ3oyM",
+    "videoTitle": "CARNE CON PAPAS ONE POT (Receta) #shorts #recetasfaciles",
+    "videoChannel": "Las Recetas de Simón"
   },
   {
     "id": "celiaco-hamburguesa-salmon-pure",
@@ -2489,7 +2675,10 @@
       {
         "text": "Mezclá todo con el pescado escurrido y condimentá con aceite de oliva y pimienta."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GXonETkb1MQ",
+    "videoTitle": "La ensalada alemana más deliciosa 😋 #recetas #ensalada #saludable #fitness",
+    "videoChannel": "Recetas Con Sabor"
   },
   {
     "id": "celiaco-arroz-con-leche-cremoso",
@@ -2542,7 +2731,10 @@
       {
         "text": "Agregá el azúcar al final, mezclá 5 minutos más y serví con canela molida."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=xQsPiAf-t1Q",
+    "videoTitle": "Arroz con leche CREMOSO y FÁCIL | Receta casera paso a paso",
+    "videoChannel": "¡Que Viva La Cocina!"
   },
   {
     "id": "celiaco-tarta-almendras-santiago",
@@ -2595,7 +2787,10 @@
         "text": "Volcá en molde enmantecado y horneá a 180 °C durante 35 minutos hasta que salga seco el palillo.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=k1ker8AaaVE",
+    "videoTitle": "BIZCOCHO de ALMENDRAS con ¡¡¡SOLO 3 INGREDIENTES!!! 😱😍😋",
+    "videoChannel": "Dalicia's Recetas"
   },
   {
     "id": "celiaco-flan-naranja-casero",
@@ -2717,7 +2912,10 @@
         "text": "Estirá a 1 cm, cortá medallones y horneá a 180 °C 12 minutos sin dorar. Rellená con dulce de leche y coco.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DRigVIJ0TK0",
+    "videoTitle": "Alfajores de maicena sin TACC",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "celiaco-bizcochos-mandioca",
@@ -2766,13 +2964,25 @@
     ],
     "steps": [
       {
-        "text": "Mezclá la fécula de mandioca con el polvo de hornear, azúcar, ralladura de naranja, manteca y huevos."
+        "text": "Mezclá la fécula de mandioca con el polvo de hornear."
       },
       {
-        "text": "Amasá hasta lograr una masa suave, cortá medallones y horneá a 200 °C unos 15 minutos.",
+        "text": "Ralladura de naranja."
+      },
+      {
+        "text": "Manteca y huevos."
+      },
+      {
+        "text": "Amasá hasta lograr una masa suave."
+      },
+      {
+        "text": "Cortá medallones y horneá a 200 °C unos 15 minutos.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=S25wDenhLvQ",
+    "videoTitle": "El Bizcocho MÁS BARATO del Mundo: 3 Ingredientes y Sin Gluten",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "celiaco-bizcochitos-salados-maicena",
@@ -2819,10 +3029,16 @@
         "text": "Uní todos los ingredientes formando una masa suave sin amasar demasiado."
       },
       {
-        "text": "Estirá, cortá medallones, pintá con huevo si deseás y horneá a 180 °C por 15 minutos.",
+        "text": "Cortá medallones."
+      },
+      {
+        "text": "Pintá con huevo si deseás y horneá a 180 °C por 15 minutos.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Fm-GQsjjjoU",
+    "videoTitle": "Como hacer galletas de maizena fácil",
+    "videoChannel": "PAN PAN Y MAS"
   },
   {
     "id": "celiaco-bruscheta-tomate-sin-tacc",
@@ -2869,9 +3085,18 @@
         "timerMinutes": 4
       },
       {
-        "text": "Frotá cada tostada con ajo, rociá con aceite de oliva, colocá tomate en rodajas y espolvoreá orégano."
+        "text": "Frotá cada tostada con ajo."
+      },
+      {
+        "text": "Rociá con aceite de oliva."
+      },
+      {
+        "text": "Colocá tomate en rodajas y espolvoreá orégano."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=YHhQLlU-VnQ",
+    "videoTitle": "Cómo hacer pan de ajo ¡Fácil y rápido!",
+    "videoChannel": "Y hoy qué comemos"
   },
   {
     "id": "celiaco-bunuelos-manzana",
@@ -2914,13 +3139,19 @@
     ],
     "steps": [
       {
-        "text": "Rallá la manzana y mezclala con los huevos batidos, azúcar, canela y maicena."
+        "text": "Rallá la manzana y mezclala con los huevos batidos."
+      },
+      {
+        "text": "Canela y maicena."
       },
       {
         "text": "Cociná por cucharadas en sartén aceitada hasta dorar de ambos lados.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=alz9GZyq7pk",
+    "videoTitle": "Así hago buñuelos de manzana sin gluten en minutos!",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "celiaco-chipa-mandioca-queso",
@@ -2978,7 +3209,10 @@
         "text": "Formá bolitas y horneá a 200 °C durante 20 minutos hasta dorar.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DMBztp17IDk",
+    "videoTitle": "CHIPA para hacer en el momento y también para frizar",
+    "videoChannel": "MAMBRUNENSE Edgardo Rios"
   },
   {
     "id": "celiaco-coquitos-caseros",
@@ -3017,13 +3251,22 @@
     ],
     "steps": [
       {
-        "text": "Batí la clara a nieve, sumá la yema, el azúcar y el coco rallado mezclando suave."
+        "text": "Batí la clara a nieve."
+      },
+      {
+        "text": "Sumá la yema."
+      },
+      {
+        "text": "El azúcar y el coco rallado mezclando suave."
       },
       {
         "text": "Disponé montoncitos en placa con papel manteca y horneá a 170 °C por 12 a 15 minutos.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=tO-eg--tXTc",
+    "videoTitle": "Receta muy Rica de Cocos con solo 3 ingredientes",
+    "videoChannel": "La Caprichosa"
   },
   {
     "id": "celiaco-empanaditas-membrillo",
@@ -3082,7 +3325,10 @@
         "text": "Cerrá los bordes, pintá con huevo y horneá a 180 °C por 25 minutos.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wba1zy576dE",
+    "videoTitle": "🔸 Cómo hacer PASTELITOS, TORTAS FRITAS y EMPANADAS con 1 sola MASA sin TACC",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "celiaco-galletitas-pepas-membrillo",
@@ -3131,13 +3377,28 @@
     ],
     "steps": [
       {
-        "text": "Batí la manteca con el azúcar, el huevo y vainilla; sumá las harinas tamizadas."
+        "text": "Batí la manteca con el azúcar."
       },
       {
-        "text": "Formá bollitos, hundí el centro con el dedo, rellená con membrillo y horneá 15 minutos a 180 °C.",
+        "text": "El huevo y vainilla."
+      },
+      {
+        "text": "Sumá las harinas tamizadas."
+      },
+      {
+        "text": "Formá bollitos."
+      },
+      {
+        "text": "Hundí el centro con el dedo."
+      },
+      {
+        "text": "Rellená con membrillo y horneá 15 minutos a 180 °C.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aYy8Lr7nYzA",
+    "videoTitle": "PEPAS SIN TACC: cómo hacer galletas pepas sin gluten (Receta de PEPAS caseras)",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "celiaco-galletitas-papa-queso",
@@ -3192,7 +3453,10 @@
         "text": "Estirá, cortá medallones y horneá a 180 °C unos 15 minutos hasta que doren.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=CvwuW8MOMkQ",
+    "videoTitle": "🔥 Bolitas de papa super fáciles y deliciosas 🔥",
+    "videoChannel": "Sabores del Conurbano"
   },
   {
     "id": "celiaco-kiveve-zapallo-polenta",
@@ -3308,7 +3572,10 @@
         "text": "Horneá a 180 °C durante 30 minutos hasta que esté dorado.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yN3Lytjj7C8",
+    "videoTitle": "TORTA SIN HARINA A BASE DE MAÍZ - ¿Funciona? #PuedeFallar",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "celiaco-pan-ricota-esponjoso",
@@ -3366,7 +3633,10 @@
         "text": "Volcá en budinera enmantecada y horneá a 180 °C por 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_xE2C0e0KlY",
+    "videoTitle": "Pancitos de 🧀 sin harinas con 4 ingredientes. Te dejo la Receta en comentarios. #recetasfaciles",
+    "videoChannel": "Eve Cocina y Bienestar"
   },
   {
     "id": "celiaco-pan-verduras-uruguayo",
@@ -3429,7 +3699,10 @@
         "text": "Formá flautitas, dejá leudar 30 minutos y horneá a 190 °C unos 35 minutos.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EU7Y3sP6OiY",
+    "videoTitle": "PAN SIN GLUTEN SIN HARINA SIN AZÚCAR NEUTRO Y SOLO 3 INGREDIENTES",
+    "videoChannel": "Recetas Con May"
   },
   {
     "id": "celiaco-panqueques-sin-gluten",
@@ -3472,14 +3745,20 @@
     ],
     "steps": [
       {
-        "text": "Licuá todos los ingredientes hasta obtener una crema lisa sin grumos; dejá reposar 20 minutos.",
+        "text": "Licuá todos los ingredientes hasta obtener una crema lisa sin grumos."
+      },
+      {
+        "text": "Dejá reposar 20 minutos.",
         "timerMinutes": 20
       },
       {
         "text": "Cociná por cucharones en sartén antiadherente apenas aceitada vuelta y vuelta.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Y9Ec5ch90A4",
+    "videoTitle": "CREPES de AVENA Saludables, SOLO 3 INGREDIENTES Sin harina, Sin Azúcar",
+    "videoChannel": "LA RUSA COCINA"
   },
   {
     "id": "celiaco-scones-queso-hierbas",
@@ -3537,7 +3816,10 @@
         "text": "Horneá a 190 °C por 18 a 20 minutos hasta dorar.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=J9r5WVQHdxI",
+    "videoTitle": "Scones de queso 🧀",
+    "videoChannel": "Cathy Denis"
   },
   {
     "id": "celiaco-tortas-fritas-sin-gluten",
@@ -3578,10 +3860,16 @@
         "text": "Amasá la premezcla con la grasa y el agua tibia con sal hasta lograr masa pareja."
       },
       {
-        "text": "Estirá discos, hacé un corte en el centro y cociná en aceite caliente hasta dorar.",
+        "text": "Estirá discos."
+      },
+      {
+        "text": "Hacé un corte en el centro y cociná en aceite caliente hasta dorar.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yYxKpoPwki0",
+    "videoTitle": "Tortas fritas sin TACC",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "celiaco-pan-molde-tres-harinas",
@@ -3644,7 +3932,10 @@
         "text": "Volcá en budinera enmantecada y horneá a 180 °C unos 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eYdBCKI_Jj0",
+    "videoTitle": "¡Pan de arroz sin gluten! Receta fácil en licuadora",
+    "videoChannel": "Gluten Morgen Español"
   },
   {
     "id": "diabetes-petit-choux-chocolate",
@@ -3712,7 +4003,10 @@
       {
         "text": "Para el relleno, disolvé la fécula de maíz, el cacao y 1 yema en 200 ml de leche fría; volcá sobre el resto de la leche hirviendo y cociná 5-10 minutos revolviendo. Endulzá fuera del fuego, rellená los petit choux y serví."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=9zj8pJSw1rA",
+    "videoTitle": "PROFITEROLES PERFECTOS, TODOS los SECRETOS de la PASTA CHOUX",
+    "videoChannel": "Fuego Loco"
   },
   {
     "id": "diabetes-tortitas-mermelada",
@@ -3766,13 +4060,19 @@
     ],
     "steps": [
       {
-        "text": "Batí el huevo con la leche y el aceite; incorporá la harina tamizada con el polvo de hornear y el edulcorante hasta lograr una mezcla lisa."
+        "text": "Batí el huevo con la leche y el aceite."
+      },
+      {
+        "text": "Incorporá la harina tamizada con el polvo de hornear y el edulcorante hasta lograr una mezcla lisa."
       },
       {
         "text": "Cociná por cucharadas en sartén antiadherente ligeramente aceitada 2 a 3 minutos por lado hasta dorar y serví tibias con la mermelada.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=VSJEy39IsVA",
+    "videoTitle": "Tortitas Americanas Fáciles y Esponjosas - Hot Cakes - Pancakes",
+    "videoChannel": "Cocina Para Todos"
   },
   {
     "id": "diabetes-palmeritas-hojaldre",
@@ -3825,7 +4125,10 @@
       {
         "text": "Batí la mermelada sin azúcar con el agua y pincelá las palmeritas tibias."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=BEv1Zw0qBRQ",
+    "videoTitle": "Cómo Hacer Palmeritas Caseras Perfectas | Masa de Hojaldre con Aceite, Sin Manteca y Fáciles",
+    "videoChannel": "LA RUSA COCINA"
   },
   {
     "id": "diabetes-bombones-avellana",
@@ -3883,7 +4186,10 @@
       {
         "text": "Formá bolitas, decorá con trocitos de avellana y llevá al freezer hasta enfriar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=lrX58dW7q9w",
+    "videoTitle": "NUTELLA SALUDABLE 🍫#nutella #Saludable #healthy #fitness #recetasfit #recetassanas",
+    "videoChannel": "ugar90"
   },
   {
     "id": "diabetes-crema-cacao-avellanas",
@@ -3925,9 +4231,15 @@
         "text": "Procesá las avellanas tostadas hasta obtener un polvo fino o pasta."
       },
       {
-        "text": "Batí la manteca o margarina con el cacao, las avellanas y el edulcorante hasta lograr una crema homogénea."
+        "text": "Batí la manteca o margarina con el cacao."
+      },
+      {
+        "text": "Las avellanas y el edulcorante hasta lograr una crema homogénea."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZQLSQ-GZcJo",
+    "videoTitle": "NUTELLA SALUDABLE #receta #recetas #food #comida",
+    "videoChannel": "ugar90"
   },
   {
     "id": "diabetes-galletitas-manteca-vainilla",
@@ -3990,7 +4302,10 @@
         "text": "Horneá sobre papel manteca a 170 °C de 10 a 15 minutos y enfriá sobre rejilla.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=gaOYWKZ9bbw",
+    "videoTitle": "Masitas secas - RECETA FÁCIL Y RÁPIDA",
+    "videoChannel": "Cathy Denis"
   },
   {
     "id": "diabetes-tejas-almendras",
@@ -4048,7 +4363,10 @@
       {
         "text": "En caliente, dales forma curva apoyándolas sobre un palo de amasar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=BmFIfFA2cmE",
+    "videoTitle": "Cómo hacer Tejas de almendra de El Puerto de Santa María | El Dulce Paladar",
+    "videoChannel": "El Dulce Paladar"
   },
   {
     "id": "diabetes-madalenas-almendras",
@@ -4116,7 +4434,10 @@
         "text": "Llená pirotines hasta la mitad y horneá a 170 °C unos 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=j8QUtnwb_qs",
+    "videoTitle": "Magdalenas de limón con COPETE perfecto 🍋",
+    "videoChannel": "Recetas Por Un Tubo"
   },
   {
     "id": "diabetes-bizcochuelo-yogur-ligero",
@@ -4175,13 +4496,28 @@
     ],
     "steps": [
       {
-        "text": "Batí el yogur, el aceite y los huevos; incorporá de a poco la harina, fécula, polvo de hornear, ralladura de limón y edulcorante."
+        "text": "Batí el yogur."
+      },
+      {
+        "text": "El aceite y los huevos."
+      },
+      {
+        "text": "Incorporá de a poco la harina."
+      },
+      {
+        "text": "Polvo de hornear."
+      },
+      {
+        "text": "Ralladura de limón y edulcorante."
       },
       {
         "text": "Volcá en molde enmantecado y horneá a 170 °C de 30 a 40 minutos hasta que al pinchar salga limpio.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aM6ZB8MXah0",
+    "videoTitle": "Bizcochuelo sin gluten con 3 ingredientes",
+    "videoChannel": "Sin Tacc Hay Paraiso"
   },
   {
     "id": "diabetes-tarta-queso-frutas",
@@ -4254,7 +4590,10 @@
       {
         "text": "Dejá enfriar, decorá con las frutas en rodajas y mermelada sin azúcar en el centro. Llevá a la heladera."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=WfPJyUN5nyA",
+    "videoTitle": "TARTA DE RICOTTA SIN AZÚCARES AÑADIDOS, SIN GLUTEN Y CON 5 INGREDIENTES #recetasfaciles #sinazucar",
+    "videoChannel": "Tastyhunting"
   },
   {
     "id": "diabetes-brazo-gitano-frutillas",
@@ -4317,7 +4656,10 @@
       {
         "text": "Batí la crema de leche con 5 ml de edulcorante, mezclá con las frutillas, rellená el arrollado y volvé a enrollar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uFuUrhxUnX0",
+    "videoTitle": "FÁCIL BRAZO GITANO PIONONO CON DULCE DE LECHE DELIRIO TOTAL DE SABOR",
+    "videoChannel": "Temperos e Sabores"
   },
   {
     "id": "diabetes-tarta-manzana-sin-azucar",
@@ -4385,7 +4727,10 @@
       {
         "text": "Diluí la mermelada en 1/2 taza de agua, pintá la tarta y gratiná 5-7 minutos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=KpjTkvWVE9M",
+    "videoTitle": "TORTA INVERTIDA DE MANZANAS",
+    "videoChannel": "MAMBRUNENSE Edgardo Rios"
   },
   {
     "id": "diabetes-tarta-chocolate-masa-quebrada",
@@ -4453,7 +4798,10 @@
       {
         "text": "Rellená la base horneada y espolvoreá con coco rallado."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=KIWkZAWwteg",
+    "videoTitle": "Masa para tartas dulces RECETA FACIL",
+    "videoChannel": "miel house"
   },
   {
     "id": "diabetes-tarta-tropical-bizcocho",
@@ -4500,7 +4848,10 @@
       {
         "text": "Cubrí por fuera con el resto de la crema y serví bien fría."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Zuw0wj3hvsE",
+    "videoTitle": "TORTA HELADA RECETA FACIL",
+    "videoChannel": "Samy"
   },
   {
     "id": "diabetes-flan-vainilla-sin-azucar",
@@ -4539,13 +4890,25 @@
     ],
     "steps": [
       {
-        "text": "Diluí el polvo de vainilla en un poco de leche fría; calentá el resto de la leche y cuando hierva agregá la mezcla revolviendo hasta espesar.",
+        "text": "Diluí el polvo de vainilla en un poco de leche fría."
+      },
+      {
+        "text": "Calentá el resto de la leche y cuando hierva agregá la mezcla revolviendo hasta espesar.",
         "timerMinutes": 5
       },
       {
-        "text": "Retirá del fuego, agregá el edulcorante, volcá en flaneras y enfriá en heladera."
+        "text": "Retirá del fuego."
+      },
+      {
+        "text": "Agregá el edulcorante."
+      },
+      {
+        "text": "Volcá en flaneras y enfriá en heladera."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eNJ_lnKKc6c",
+    "videoTitle": "Flan Delicioso SIN HORNO, sin Lácteos, Sin azúcar y solo 4 Ingredientes!! | Auxy",
+    "videoChannel": "PostresSaludables"
   },
   {
     "id": "diabetes-flan-huevo-canela",
@@ -4584,13 +4947,25 @@
     ],
     "steps": [
       {
-        "text": "Batí muy bien el huevo con la leche y el edulcorante líquido; volcá en flanera."
+        "text": "Batí muy bien el huevo con la leche y el edulcorante líquido."
       },
       {
-        "text": "Cociná a baño María hasta que cuaje, dejá enfriar, desmoldá y espolvoreá con canela.",
+        "text": "Volcá en flanera."
+      },
+      {
+        "text": "Cociná a baño María hasta que cuaje."
+      },
+      {
+        "text": "Dejá enfriar."
+      },
+      {
+        "text": "Desmoldá y espolvoreá con canela.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8afAh0NqOYY",
+    "videoTitle": "FLAN en el MICROONDAS y en 3 MINUTOS!",
+    "videoChannel": "Sabores del Conurbano"
   },
   {
     "id": "diabetes-natillas-vainilla",
@@ -4643,7 +5018,10 @@
       {
         "text": "Retirá limón y canela, serví en compoteras con galletita María y canela molida."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=m6i2net_h_w",
+    "videoTitle": "😋 NATILLAS CASERAS ► Cómo Hacer Natilla con Vainilla Huevo y Maizena",
+    "videoChannel": "Receta Cubana"
   },
   {
     "id": "diabetes-helado-frutilla-yogur",
@@ -4682,7 +5060,10 @@
       {
         "text": "Procesá o batí junto con el yogur descremado hasta lograr crema y llevá al freezer en potes o moldes de palitos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=nga9NSQ4CpU",
+    "videoTitle": "HELADOS de FRUTA! Cremosos y Riquísimos! #helados #paletadheladas #heladocasero #recetas #helado",
+    "videoChannel": "Puli Cocina"
   },
   {
     "id": "diabetes-palitos-chocolate",
@@ -4724,9 +5105,15 @@
         "text": "Batí el cacao con el yogur y la crema de leche hasta integrar bien."
       },
       {
-        "text": "Agregá el edulcorante, volcá en moldes para palitos y llevá al freezer hasta solidificar."
+        "text": "Agregá el edulcorante."
+      },
+      {
+        "text": "Volcá en moldes para palitos y llevá al freezer hasta solidificar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Yn0XGIl1-Oo",
+    "videoTitle": "Mini magnum con 4 ingredientes y saludables #recetasfaciles #heladocasero #magnums #heladoartesanal",
+    "videoChannel": "Delicious Martha"
   },
   {
     "id": "diabetes-helado-frambuesa",
@@ -4768,9 +5155,15 @@
         "text": "Procesá las frambuesas con el edulcorante hasta hacer puré."
       },
       {
-        "text": "Batí el yogur con la crema, mezclá con el puré de frambuesas y llevá al freezer en recipiente hermético revolviendo cada tanto."
+        "text": "Batí el yogur con la crema."
+      },
+      {
+        "text": "Mezclá con el puré de frambuesas y llevá al freezer en recipiente hermético revolviendo cada tanto."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=lOQHvNeUvrM",
+    "videoTitle": "Helado de fresa 🍧🍓 2 ingredientes #recetasfaciles #recetas #heladosaludable",
+    "videoChannel": "Delicious Martha"
   },
   {
     "id": "diabetes-batido-yogur-frutillas",
@@ -4806,7 +5199,10 @@
       {
         "text": "Lavá y troceá las frutillas, y licualas con el yogur y el edulcorante hasta que quede bien cremoso. Serví frío."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=A1xsEDj57Gw",
+    "videoTitle": "Smoothie de fresa en casa #smoothie #fresa #recetas",
+    "videoChannel": "Rosita"
   },
   {
     "id": "diabetes-crema-limon-sin-azucar",
@@ -4869,7 +5265,10 @@
       {
         "text": "Retirá del fuego, sumá la manteca y el edulcorante, mezclá y dejá enfriar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=jTz7wBy5pI8",
+    "videoTitle": "Crema de limón para tartas y postres | Lemon curd",
+    "videoChannel": "Pasión por la repostería y mucho más..."
   },
   {
     "id": "diabetes-rosquillos-anis",
@@ -4922,7 +5321,10 @@
         "text": "Horneá sobre papel manteca a 150 °C de 15 a 20 minutos.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vYRZ3jhBiEo",
+    "videoTitle": "Las rosquillas de mi abuela 😋",
+    "videoChannel": "Sabina Banzo"
   },
   {
     "id": "diabetes-rosca-reyes-sin-azucar",
@@ -4990,7 +5392,10 @@
         "text": "Formá la rosca, pintá con clara batida, decorá con almendras fileteadas y horneá a 180-200 °C unos 25 minutos.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=KCP56uLLICE",
+    "videoTitle": "Cómo hacer rosca de pascua PASO A PASO / Receta de pascua fácil",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "diabetes-tortilla-espanola-verduras",
@@ -5058,7 +5463,10 @@
         "text": "Volcá en fuente aceitada, espolvoreá parmesano y horneá a 190 °C de 20 a 30 minutos hasta dorar.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ssWuy7LNHdg",
+    "videoTitle": "Tortilla de patatas española perfecta",
+    "videoChannel": "Diegodoal"
   },
   {
     "id": "diabetes-guiso-carne-verduras",
@@ -5127,7 +5535,10 @@
         "text": "Sumá las papas, zanahorias y arvejas y horneá 20-25 minutos más hasta que estén tiernas.",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=QAWPWA04y0E",
+    "videoTitle": "CARNE AL HORNO CON PAPAS, todos mis tips para que salga perfecto!!!",
+    "videoChannel": "MAMBRUNENSE Edgardo Rios"
   },
   {
     "id": "diabetes-pescado-caribeno-verduras",
@@ -5371,7 +5782,10 @@
       {
         "text": "Rociá con el jugo de naranja natural y serví bien fresco."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=qNBX5ef3xls",
+    "videoTitle": "🍇La más rica ensalada de frutas, fácil de preparar. 🍌😋",
+    "videoChannel": "Q'Rico recetas"
   },
   {
     "id": "infusion-limon-jengibre-te-verde",
@@ -5410,12 +5824,18 @@
     ],
     "steps": [
       {
-        "text": "Colocá las rodajas de limón, el jengibre rallado y el saquito de té verde en una jarra de vidrio con 1 litro de agua."
+        "text": "Colocá las rodajas de limón."
+      },
+      {
+        "text": "El jengibre rallado y el saquito de té verde en una jarra de vidrio con 1 litro de agua."
       },
       {
         "text": "Dejá reposar en la heladera al menos 1 hora antes de servir con hielo."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=7e40BOnrWDk",
+    "videoTitle": "Cómo preparar la infusión de jengibre y limón como bebida natural antiinflamatoria",
+    "videoChannel": "María Pespín | recetas saludables"
   },
   {
     "id": "infusion-naranja-curcuma-limon",
@@ -5596,12 +6016,18 @@
     ],
     "steps": [
       {
-        "text": "Disponé el pepino, el limón, la menta machacada y el té verde en una jarra con agua fría."
+        "text": "Disponé el pepino."
+      },
+      {
+        "text": "La menta machacada y el té verde en una jarra con agua fría."
       },
       {
         "text": "Dejá reposar al menos 1 hora antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0HkEvJ1i5ww",
+    "videoTitle": "🔴 Como Hacer una Deliciosa Agua de Limón con Pepino Bien Rica🥒🍋",
+    "videoChannel": "El sabor latino"
   },
   {
     "id": "infusion-manzana-canela-limon",
@@ -5645,12 +6071,21 @@
     ],
     "steps": [
       {
-        "text": "Colocá la manzana, las ramas de canela, el limón y el jengibre en 1 litro de agua."
+        "text": "Colocá la manzana."
+      },
+      {
+        "text": "Las ramas de canela."
+      },
+      {
+        "text": "El limón y el jengibre en 1 litro de agua."
       },
       {
         "text": "Dejá macerar en heladera al menos 1 hora."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=parvLH8yKO4",
+    "videoTitle": "Té de Manzana, Canela y Menta 🫖 Tremenda #recetaantiinflamatoria 🥰",
+    "videoChannel": "Cocina con Irelis"
   },
   {
     "id": "infusion-anana-menta-frutillas",
@@ -5689,12 +6124,18 @@
     ],
     "steps": [
       {
-        "text": "Poné el ananá, las frutillas y la menta en una jarra de vidrio con 1 litro de agua."
+        "text": "Poné el ananá."
+      },
+      {
+        "text": "Las frutillas y la menta en una jarra de vidrio con 1 litro de agua."
       },
       {
         "text": "Dejá reposar 1 hora en heladera y serví con hielo."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=veNt5tc64Tw",
+    "videoTitle": "😋RECETA de bebida SALUDABLE: agua con sabor👌🏻",
+    "videoChannel": "bealnatural"
   },
   {
     "id": "infusion-pomelo-pepino-anana",
@@ -5822,7 +6263,10 @@
       {
         "text": "Mezclá todas las frutas y la menta en 1 litro de agua fría y dejá reposar 1 hora antes de beber."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=dH3dULhe8rw",
+    "videoTitle": "Infusión de frutos rojos 🍓 #frutosrojos #infusiones #infusion #receta #recipe #té",
+    "videoChannel": "FerKhalifornia"
   },
   {
     "id": "celiaco-salmorejo-sin-gluten",
@@ -5871,12 +6315,21 @@
     ],
     "steps": [
       {
-        "text": "Licuá los tomates con el ajo y sal; agregá la miga de pan remojada y escurrida (o manzana) y el vinagre."
+        "text": "Licuá los tomates con el ajo y sal."
       },
       {
-        "text": "Con la licuadora en marcha, incorporá el aceite de oliva en hilo hasta emulsionar. Enfriá y serví con huevo duro y jamón picado."
+        "text": "Agregá la miga de pan remojada y escurrida (o manzana) y el vinagre."
+      },
+      {
+        "text": "Con la licuadora en marcha, incorporá el aceite de oliva en hilo hasta emulsionar."
+      },
+      {
+        "text": "Enfriá y serví con huevo duro y jamón picado."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=FuJk_J9dSj8",
+    "videoTitle": "Salmorejo Cordobés - Auténtica Receta muy Fácil y Rápida",
+    "videoChannel": "Cocina Para Todos"
   },
   {
     "id": "celiaco-arroz-tres-delicias",
@@ -5978,13 +6431,31 @@
     ],
     "steps": [
       {
-        "text": "Herví las papas con piel en agua con sal 20-25 minutos; dejá enfriar, pelá y cortá en cubos.",
+        "text": "Herví las papas con piel en agua con sal 20-25 minutos."
+      },
+      {
+        "text": "Dejá enfriar."
+      },
+      {
+        "text": "Pelá y cortá en cubos.",
         "timerMinutes": 22
       },
       {
-        "text": "Prepará una mayonesa licuando huevo, sal, limón y aceite en hilo; mezclá con ajo machacado, cubrí las papas y espolvoreá perejil."
+        "text": "Prepará una mayonesa licuando huevo."
+      },
+      {
+        "text": "Limón y aceite en hilo."
+      },
+      {
+        "text": "Mezclá con ajo machacado."
+      },
+      {
+        "text": "Cubrí las papas y espolvoreá perejil."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=kepM5liEIao",
+    "videoTitle": "Consejo para hacer el ali oli con la batidora",
+    "videoChannel": "Canal Andalucia Cocina"
   },
   {
     "id": "celiaco-papas-rellenas-jamon-queso",
@@ -6028,14 +6499,29 @@
     ],
     "steps": [
       {
-        "text": "Herví las papas enteras 20 minutos, cortales una tapa y ahuecalas con cuidado.",
+        "text": "Herví las papas enteras 20 minutos."
+      },
+      {
+        "text": "Cortales una tapa y ahuecalas con cuidado.",
         "timerMinutes": 20
       },
       {
-        "text": "Pisá la pulpa con el jamón, queso rallado y perejil; rellená las papas, cubrí con feta de queso y gratiná a 200 °C 15-20 minutos.",
+        "text": "Pisá la pulpa con el jamón."
+      },
+      {
+        "text": "Queso rallado y perejil."
+      },
+      {
+        "text": "Rellená las papas."
+      },
+      {
+        "text": "Cubrí con feta de queso y gratiná a 200 °C 15-20 minutos.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=iU2QzhovP14",
+    "videoTitle": "Las mejores Papas Rellenas, no comerás papas de otra manera 🤤",
+    "videoChannel": "Gustillos Recetas"
   },
   {
     "id": "celiaco-pasta-fresca",
@@ -6074,13 +6560,28 @@
     ],
     "steps": [
       {
-        "text": "Tamizá la harina, hacé un hueco y sumá huevos, aceite y sal; amasá hasta lograr una masa lisa y dejá reposar 20 minutos."
+        "text": "Tamizá la harina."
       },
       {
-        "text": "Estirá bien fino sobre papel manteca enharinado, cortá las cintas y herví 2-3 minutos en agua salada.",
+        "text": "Hacé un hueco y sumá huevos."
+      },
+      {
+        "text": "Aceite y sal."
+      },
+      {
+        "text": "Amasá hasta lograr una masa lisa y dejá reposar 20 minutos."
+      },
+      {
+        "text": "Estirá bien fino sobre papel manteca enharinado."
+      },
+      {
+        "text": "Cortá las cintas y herví 2-3 minutos en agua salada.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eHC7Of0lh2Q",
+    "videoTitle": "Fideos caseros sin TACC cortados a mano (Cómo hacer fideos sin gluten en casa + tips)",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "celiaco-berenjenas-rellenas",
@@ -6144,7 +6645,10 @@
         "text": "Rellená las berenjenas, cubrí con bechamel y queso rallado, y horneá a 180 °C 15 minutos hasta gratinar.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aP9DKzmc-ZE",
+    "videoTitle": "Cómo Hacer Berenjenas Rellenas de Carne Picada. Receta Fácil y Deliciosa",
+    "videoChannel": "Platos Fáciles con Tamara"
   },
   {
     "id": "celiaco-pastel-berenjenas",
@@ -6188,13 +6692,25 @@
     ],
     "steps": [
       {
-        "text": "Herví las berenjenas peladas en cubos, salteá y procesalas. Aparte rehogá la cebolla y la carne picada."
+        "text": "Herví las berenjenas peladas en cubos, salteá y procesalas."
       },
       {
-        "text": "Armá en fuente capas de berenjena, carne, salsa de tomate y queso; espolvoreá orégano y horneá a 180 °C 15 minutos.",
+        "text": "Aparte rehogá la cebolla y la carne picada."
+      },
+      {
+        "text": "Armá en fuente capas de berenjena."
+      },
+      {
+        "text": "Salsa de tomate y queso."
+      },
+      {
+        "text": "Espolvoreá orégano y horneá a 180 °C 15 minutos.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=cskQJo5tGyA",
+    "videoTitle": "LASAÑA DE BERENJENA",
+    "videoChannel": "OctopussBlack"
   },
   {
     "id": "celiaco-tortilla-champinones",
@@ -6233,13 +6749,22 @@
     ],
     "steps": [
       {
-        "text": "Salteá los champiñones picados 5-8 minutos, agregando el jamón a mitad de cocción."
+        "text": "Salteá los champiñones picados 5-8 minutos."
       },
       {
-        "text": "Mezclá con los huevos batidos, volcá en sartén aceitada y cuajá por ambos lados.",
+        "text": "Agregando el jamón a mitad de cocción."
+      },
+      {
+        "text": "Mezclá con los huevos batidos."
+      },
+      {
+        "text": "Volcá en sartén aceitada y cuajá por ambos lados.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=MpSp4S0nNYY",
+    "videoTitle": "Desayuno delicioso Huevos con champiñones 🍄‍🟫 #desayunosfaciles #vamosacocinar #cocinaparatodo",
+    "videoChannel": "Cris en Casa"
   },
   {
     "id": "celiaco-merluza-camarones",
@@ -6345,7 +6870,10 @@
       {
         "text": "Rompé la costra de sal, retirá la piel y serví los lomos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=PTimGh-4oQo",
+    "videoTitle": "Este PESCADO al horno queda SIEMPRE perfecto 🔥🐟",
+    "videoChannel": "Recetas Por Un Tubo"
   },
   {
     "id": "celiaco-milanesas-carne-sin-tacc",
@@ -6389,13 +6917,22 @@
     ],
     "steps": [
       {
-        "text": "Salpimentá los bifes, pasalos por harina de arroz, luego por huevo batido y finalmente por pan rallado sin TACC."
+        "text": "Salpimentá los bifes."
+      },
+      {
+        "text": "Pasalos por harina de arroz."
+      },
+      {
+        "text": "Luego por huevo batido y finalmente por pan rallado sin TACC."
       },
       {
         "text": "Freí en aceite caliente (o cociná al horno aceitadas) hasta dorar por ambos lados y escurrí en papel absorbente.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=BJ3831hcabY",
+    "videoTitle": "Rebozados sin TACC - Morfi",
+    "videoChannel": "Telefe"
   },
   {
     "id": "celiaco-leche-frita",
@@ -6444,13 +6981,25 @@
     ],
     "steps": [
       {
-        "text": "Disolvé la fécula de maíz en un poco de leche fría; herví el resto con limón, canela y azúcar, sumá la fécula y cociná 5-6 min hasta espesar. Agregá manteca y enfriá en fuente plana."
+        "text": "Disolvé la fécula de maíz en un poco de leche fría; herví el resto con limón, canela y azúcar, sumá la fécula y cociná 5-6 min hasta espesar."
       },
       {
-        "text": "Cortá en cuadrados, pasá por harina sin TACC y huevo batido, freí hasta dorar y rebozá en azúcar con canela.",
+        "text": "Agregá manteca y enfriá en fuente plana."
+      },
+      {
+        "text": "Cortá en cuadrados."
+      },
+      {
+        "text": "Pasá por harina sin TACC y huevo batido."
+      },
+      {
+        "text": "Freí hasta dorar y rebozá en azúcar con canela.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=dZPxjCv1hIg",
+    "videoTitle": "LECHE FRITA SÚPER CREMOSA!! Postre espectacular para Semana Santa 😋 #youtubeshorts #shorts",
+    "videoChannel": "Pausa y Plato"
   },
   {
     "id": "celiaco-budin-de-pan-sin-gluten",
@@ -6494,13 +7043,19 @@
     ],
     "steps": [
       {
-        "text": "Remojá el pan sin gluten en leche tibia con azúcar; agregá los huevos batidos y pasas."
+        "text": "Remojá el pan sin gluten en leche tibia con azúcar."
+      },
+      {
+        "text": "Agregá los huevos batidos y pasas."
       },
       {
         "text": "Volcá en budinera acaramelada y horneá a baño María a 180 °C unos 35 minutos hasta cuajar.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=KcKe8z6ZjX0",
+    "videoTitle": "CÓMO HACER BUDÍN DE PAN: Receta fácil en 4 pasos!",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "celiaco-tarta-tres-chocolates",
@@ -6565,7 +7120,10 @@
         "text": "Cociná cada capa por separado (100 g chocolate + 125 ml crema + 125 ml leche + 2 cdas fécula + 25 g azúcar) 8 minutos hasta espesar y volcá sucesivamente dejando entibiar en heladera entre capas.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8VlNV4G9Cq0",
+    "videoTitle": "La TARTA de 3 CHOCOLATES más Fácil y Rápida de hacer al MICROONDAS",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "celiaco-pastel-boniato-chocolate",
@@ -6614,13 +7172,25 @@
     ],
     "steps": [
       {
-        "text": "Herví el boniato en la leche hasta que esté bien blando; dejá enfriar y procesalo con los huevos, manteca y azúcar."
+        "text": "Herví el boniato en la leche hasta que esté bien blando."
       },
       {
-        "text": "Volcá en molde acaramelado y horneá a 180 °C unos 45 minutos. Desmoldá frío y cubrí con chocolate fundido.",
+        "text": "Dejá enfriar y procesalo con los huevos."
+      },
+      {
+        "text": "Manteca y azúcar."
+      },
+      {
+        "text": "Volcá en molde acaramelado y horneá a 180 °C unos 45 minutos."
+      },
+      {
+        "text": "Desmoldá frío y cubrí con chocolate fundido.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Cc4T-iU15fo",
+    "videoTitle": "🍫NUBE DE CHOCOLATE con boniato y lentejas.",
+    "videoChannel": "Agustina Liporace"
   },
   {
     "id": "celiaco-peras-vino-tinto",
@@ -6659,13 +7229,25 @@
     ],
     "steps": [
       {
-        "text": "Cociná las peras en olla con el vino, azúcar, cáscara de limón, canela y clavo a fuego medio 20 minutos hasta que estén tiernas.",
+        "text": "Cociná las peras en olla con el vino."
+      },
+      {
+        "text": "Cáscara de limón."
+      },
+      {
+        "text": "Canela y clavo a fuego medio 20 minutos hasta que estén tiernas.",
         "timerMinutes": 20
       },
       {
-        "text": "Retirá las peras, reducí el vino unos minutos y servilas con su salsa."
+        "text": "Retirá las peras."
+      },
+      {
+        "text": "Reducí el vino unos minutos y servilas con su salsa."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=S4R1npbgl_k",
+    "videoTitle": "Peras al vino tinto (Postre Fácil)",
+    "videoChannel": "Disfrutando de la Cocina"
   },
   {
     "id": "vegano-bizcocho-marmol",
@@ -6719,13 +7301,22 @@
     ],
     "steps": [
       {
-        "text": "Prepará dos mezclas por separado (una con cacao y otra con esencia de vainilla) integrando harina, polvo de hornear, azúcar, yogur, leche vegetal y aceite."
+        "text": "Prepará dos mezclas por separado (una con cacao y otra con esencia de vainilla) integrando harina."
+      },
+      {
+        "text": "Polvo de hornear."
+      },
+      {
+        "text": "Leche vegetal y aceite."
       },
       {
         "text": "Alterná cucharadas de ambas masas en budinera aceitada y horneá a 200 °C unos 30 minutos.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=D6RcgcTOf2M",
+    "videoTitle": "Bizcocho Marmolado MUY ESPONJOSO. Receta Fácil y Rápida",
+    "videoChannel": "Platos Fáciles con Tamara"
   },
   {
     "id": "vegano-brownie-nueces",
@@ -6774,13 +7365,28 @@
     ],
     "steps": [
       {
-        "text": "Mezclá los líquidos (leche vegetal, aceite) con el azúcar y el cacao; incorporá la harina con polvo de hornear, pizca de bicarbonato, nueces y chips."
+        "text": "Mezclá los líquidos (leche vegetal."
+      },
+      {
+        "text": "Aceite) con el azúcar y el cacao."
+      },
+      {
+        "text": "Incorporá la harina con polvo de hornear."
+      },
+      {
+        "text": "Pizca de bicarbonato."
+      },
+      {
+        "text": "Nueces y chips."
       },
       {
         "text": "Volcá en molde cuadrado con papel manteca y horneá a 175 °C de 45 a 55 minutos hasta que al pinchar salga limpio.",
         "timerMinutes": 50
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=k8LhiKtexdk",
+    "videoTitle": "BROWNIE SALUDABLE - Muy fácil y super Adictivo! | AUXY",
+    "videoChannel": "PostresSaludables"
   },
   {
     "id": "vegano-tarta-manzana-coca",
@@ -6829,13 +7435,28 @@
     ],
     "steps": [
       {
-        "text": "Formá una masa elástica mezclando harina, polvo de hornear, aceite y cerveza; estirá en placa aceitada."
+        "text": "Formá una masa elástica mezclando harina."
       },
       {
-        "text": "Cubrí con las manzanas laminadas, espolvoreá azúcar integral y horneá a 180 °C unos 30 minutos. Decorá con nueces.",
+        "text": "Polvo de hornear."
+      },
+      {
+        "text": "Aceite y cerveza."
+      },
+      {
+        "text": "Estirá en placa aceitada."
+      },
+      {
+        "text": "Cubrí con las manzanas laminadas, espolvoreá azúcar integral y horneá a 180 °C unos 30 minutos."
+      },
+      {
+        "text": "Decorá con nueces.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_nuydAcrPAM",
+    "videoTitle": "Pastel de manzana - Cocina Vegan Fácil",
+    "videoChannel": "Cocina Vegan fácil"
   },
   {
     "id": "vegano-flan-chocolate-agar",
@@ -6879,13 +7500,22 @@
     ],
     "steps": [
       {
-        "text": "Calentá a fuego bajo la leche vegetal con agar-agar y azúcar; agregá el cacao y almendras molidas sin dejar de revolver hasta espesar.",
+        "text": "Calentá a fuego bajo la leche vegetal con agar-agar y azúcar."
+      },
+      {
+        "text": "Agregá el cacao y almendras molidas sin dejar de revolver hasta espesar.",
         "timerMinutes": 6
       },
       {
-        "text": "Licuá si es necesario, volcá en flaneras húmedas y llevá a la heladera hasta cuajar."
+        "text": "Licuá si es necesario."
+      },
+      {
+        "text": "Volcá en flaneras húmedas y llevá a la heladera hasta cuajar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vQwyLu6h1cA",
+    "videoTitle": "Postre de chocolate con 3 ingredientes #recetas #receta #food #recetasfaciles #recipe #comida",
+    "videoChannel": "ChefBosquet"
   },
   {
     "id": "vegano-galletas-soja-naranja",
@@ -6939,13 +7569,22 @@
     ],
     "steps": [
       {
-        "text": "Batí margarina y azúcar; agregá ralladura, jugo de media naranja y nueces. Sumá las harinas con polvo de hornear."
+        "text": "Batí margarina y azúcar; agregá ralladura, jugo de media naranja y nueces."
       },
       {
-        "text": "Estirá de 5 mm, cortá círculos y horneá a 170 °C unos 15 minutos sin dejar endurecer.",
+        "text": "Sumá las harinas con polvo de hornear."
+      },
+      {
+        "text": "Estirá de 5 mm."
+      },
+      {
+        "text": "Cortá círculos y horneá a 170 °C unos 15 minutos sin dejar endurecer.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=4KriyQCE0-Q",
+    "videoTitle": "GALLETAS DE SOJA ( SOYA)- fácil y deliciosas",
+    "videoChannel": "SIRY COCINA CASERA"
   },
   {
     "id": "vegano-muffins-quinoa-naranja",
@@ -7360,13 +7999,25 @@
     ],
     "steps": [
       {
-        "text": "Asá los morrones boca abajo 10 min; aparte asá las berenjenas y cebolla pinceladas con aceite, sumando el tomate al final.",
+        "text": "Asá los morrones boca abajo 10 min."
+      },
+      {
+        "text": "Aparte asá las berenjenas y cebolla pinceladas con aceite."
+      },
+      {
+        "text": "Sumando el tomate al final.",
         "timerMinutes": 15
       },
       {
-        "text": "Mezclá las verduras asadas con aceto y albahaca, rellená los morrones y serví tibios."
+        "text": "Mezclá las verduras asadas con aceto y albahaca."
+      },
+      {
+        "text": "Rellená los morrones y serví tibios."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Hd1PtLlh8uQ",
+    "videoTitle": "LOS PIMIENTOS RELLENOS MÁS RICOS Y DELICIOSOS DEL MUNDO ENTERO receta fácil y rápida",
+    "videoChannel": "recetas de casa LM"
   },
   {
     "id": "vegano-ensalada-lentejas",
@@ -7410,13 +8061,22 @@
     ],
     "steps": [
       {
-        "text": "Herví las lentejas remojadas hasta que estén tiernas, escurrí y dejá enfriar.",
+        "text": "Herví las lentejas remojadas hasta que estén tiernas."
+      },
+      {
+        "text": "Escurrí y dejá enfriar.",
         "timerMinutes": 40
       },
       {
-        "text": "Mezclá con cebolla, ajo, aceitunas, aceite, salsa de soja y limón."
+        "text": "Mezclá con cebolla."
+      },
+      {
+        "text": "Salsa de soja y limón."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Otw_sLLQXpE",
+    "videoTitle": "Las hago con Lentejas: muy fácil y completo (ensalada de Lentejas)",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "vegano-ensalada-pomelo-palta",
@@ -7515,9 +8175,18 @@
         "timerMinutes": 15
       },
       {
-        "text": "Salteá las verduras 8 minutos al dente, mezclá con la quinoa fría, cilantro, verdeo y palta."
+        "text": "Salteá las verduras 8 minutos al dente."
+      },
+      {
+        "text": "Mezclá con la quinoa fría."
+      },
+      {
+        "text": "Verdeo y palta."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Ff0D6dNmkNc",
+    "videoTitle": "ALMUERZO SALUDABLE FÁCIL Y RÁPIDO | QUINOA CON VEGETALES",
+    "videoChannel": "Diana Zhu"
   },
   {
     "id": "vegano-sopa-crema-cebollas",
@@ -7556,13 +8225,22 @@
     ],
     "steps": [
       {
-        "text": "Rehogá las cebollas en aceite hasta ablandar; sumá la harina integral, revolvé y cubrí con agua caliente."
+        "text": "Rehogá las cebollas en aceite hasta ablandar."
+      },
+      {
+        "text": "Sumá la harina integral."
+      },
+      {
+        "text": "Revolvé y cubrí con agua caliente."
       },
       {
         "text": "Cociná 30 minutos hasta lograr textura cremosa y condimentá con salsa de soja.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yViZb9xNEq0",
+    "videoTitle": "Si la vida te da cebolla… haz Sopa de Cebolla 🧅🇫🇷 “Onion Soup” #quechille",
+    "videoChannel": "Robegrill"
   },
   {
     "id": "vegano-sopa-fria-tomate-choclo",
@@ -7651,13 +8329,25 @@
     ],
     "steps": [
       {
-        "text": "Rehogá el zapallo en aceite, cubrí con agua y herví 30 minutos hasta que esté bien blando.",
+        "text": "Rehogá el zapallo en aceite."
+      },
+      {
+        "text": "Cubrí con agua y herví 30 minutos hasta que esté bien blando.",
         "timerMinutes": 30
       },
       {
-        "text": "Procesá hasta lograr crema, condimentá con sal y tahini, y serví con pan integral tostado."
+        "text": "Procesá hasta lograr crema."
+      },
+      {
+        "text": "Condimentá con sal y tahini."
+      },
+      {
+        "text": "Y serví con pan integral tostado."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=kyBcifzetws",
+    "videoTitle": "La MEJOR crema de calabaza #calabaza",
+    "videoChannel": "Carmen Iribarne"
   },
   {
     "id": "vegano-gazpacho-andaluz",
@@ -7795,14 +8485,35 @@
     ],
     "steps": [
       {
-        "text": "Salteá cebolla, ajo y morrones; sumá la soja hidratada y cociná 8 minutos.",
+        "text": "Salteá cebolla."
+      },
+      {
+        "text": "Ajo y morrones."
+      },
+      {
+        "text": "Sumá la soja hidratada y cociná 8 minutos.",
         "timerMinutes": 8
       },
       {
-        "text": "Agregá caldo, salsa de tomate, porotos negros, laurel y orégano; cociná 10 minutos más.",
+        "text": "Agregá caldo."
+      },
+      {
+        "text": "Salsa de tomate."
+      },
+      {
+        "text": "Porotos negros."
+      },
+      {
+        "text": "Laurel y orégano."
+      },
+      {
+        "text": "Cociná 10 minutos más.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=FiNCSlQQ-Io",
+    "videoTitle": "Cómo preparar la soja texturizada en 10 minutos para tenerla lista para cocinar",
+    "videoChannel": "Gastronomía & Cía"
   },
   {
     "id": "vegano-croquetas-garbanzos",
@@ -7846,13 +8557,22 @@
     ],
     "steps": [
       {
-        "text": "Sofríe cebolla y ajo; pisá los garbanzos y mezclá con la zanahoria, perejil, comino y harina hasta lograr masa compacta."
+        "text": "Sofríe cebolla y ajo."
+      },
+      {
+        "text": "Pisá los garbanzos y mezclá con la zanahoria."
+      },
+      {
+        "text": "Comino y harina hasta lograr masa compacta."
       },
       {
         "text": "Formá las croquetas y dorá en sartén con poco aceite por ambos lados.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=JQMt-nOBAMs",
+    "videoTitle": "Receta Vegetariana: Tortitas de Garbanzo #recetas",
+    "videoChannel": "Cocinaconrolo"
   },
   {
     "id": "vegano-hamburguesas-polenta-tofu",
@@ -7942,13 +8662,31 @@
     ],
     "steps": [
       {
-        "text": "Rehogá la cebolla, sumá zanahoria, papa y puré de porotos; cociná 10 minutos y condimentá.",
+        "text": "Rehogá la cebolla."
+      },
+      {
+        "text": "Sumá zanahoria."
+      },
+      {
+        "text": "Papa y puré de porotos."
+      },
+      {
+        "text": "Cociná 10 minutos y condimentá.",
         "timerMinutes": 10
       },
       {
-        "text": "Agregá harina hasta dar consistencia, armá las hamburguesas, enfriá en freezer y dorá por ambos lados."
+        "text": "Agregá harina hasta dar consistencia."
+      },
+      {
+        "text": "Armá las hamburguesas."
+      },
+      {
+        "text": "Enfriá en freezer y dorá por ambos lados."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=5bHHeK2qbFs",
+    "videoTitle": "HAMBURGUESAS DE LENTEJAS ESPECTACULARES! (hamburguesa vegetariana)",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "vegano-hummus-garbanzos",
@@ -7992,9 +8730,18 @@
     ],
     "steps": [
       {
-        "text": "Procesá los garbanzos con el ajo, jugo de limón, aceite, tahini y un chorrito de agua hasta obtener una pasta cremosa."
+        "text": "Procesá los garbanzos con el ajo."
+      },
+      {
+        "text": "Jugo de limón."
+      },
+      {
+        "text": "Tahini y un chorrito de agua hasta obtener una pasta cremosa."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=S2SD5X2hy2k",
+    "videoTitle": "El HUMMUS MÁS CREMOSO con todos los SECRETOS",
+    "videoChannel": "Fuego Loco"
   },
   {
     "id": "vegano-pate-berenjenas",
@@ -8037,9 +8784,15 @@
         "timerMinutes": 30
       },
       {
-        "text": "Pelalas y procesá la pulpa con tomate, verdeo, ajo, aceite, sal y pimienta. Serví frío con perejil."
+        "text": "Pelalas y procesá la pulpa con tomate, verdeo, ajo, aceite, sal y pimienta."
+      },
+      {
+        "text": "Serví frío con perejil."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=BcExh_3xC70",
+    "videoTitle": "Babaganoush, mutabal o crema de BERENJENA 🍆👨🏻‍🍳 #recetas #youtubeshorts #cocinafacil",
+    "videoChannel": "Poesía De Fogón"
   },
   {
     "id": "vegano-mayonesa-zanahoria",
@@ -8078,9 +8831,18 @@
     ],
     "steps": [
       {
-        "text": "Licuá las zanahorias hervidas con el jugo de limón, ajo, aceite de oliva, sal y agua de cocción de a poco hasta lograr textura de mayonesa."
+        "text": "Licuá las zanahorias hervidas con el jugo de limón."
+      },
+      {
+        "text": "Aceite de oliva."
+      },
+      {
+        "text": "Sal y agua de cocción de a poco hasta lograr textura de mayonesa."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ATcWA46pz0A",
+    "videoTitle": "MAYONESA DE ZANAHORIA BAJA EN CALORÍAS RECETA FÁCIL , RÁPIDA Y SALUDABLE | SIN HUEVO",
+    "videoChannel": "recetas de casa LM light"
   },
   {
     "id": "vegano-budin-zapallo-nueces",
@@ -8129,13 +8891,28 @@
     ],
     "steps": [
       {
-        "text": "Mezclá harina, azúcar, polvo de hornear y ralladura de limón; agregá aceite, agua tibia y el puré de zapallo."
+        "text": "Mezclá harina."
       },
       {
-        "text": "Sumá las pasas y nueces, volcá en molde aceitado y horneá a 180 °C unos 40 minutos.",
+        "text": "Polvo de hornear y ralladura de limón."
+      },
+      {
+        "text": "Agregá aceite."
+      },
+      {
+        "text": "Agua tibia y el puré de zapallo."
+      },
+      {
+        "text": "Sumá las pasas y nueces."
+      },
+      {
+        "text": "Volcá en molde aceitado y horneá a 180 °C unos 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=TqHJTaOsBiM",
+    "videoTitle": "BUDÍN INTEGRAL : Fácil, esponjoso y con aceite",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "vegano-galletas-ciruela-avena",
@@ -8184,13 +8961,28 @@
     ],
     "steps": [
       {
-        "text": "Mezclá los ingredientes secos; agregá aceite, ciruelas, vainilla y 1/3 taza de agua hasta formar una masa blanda."
+        "text": "Mezclá los ingredientes secos."
       },
       {
-        "text": "Estirá de 1 cm, cortá círculos, espolvoreá sésamo y horneá a 180 °C unos 20 minutos.",
+        "text": "Agregá aceite."
+      },
+      {
+        "text": "Vainilla y 1/3 taza de agua hasta formar una masa blanda."
+      },
+      {
+        "text": "Estirá de 1 cm."
+      },
+      {
+        "text": "Cortá círculos."
+      },
+      {
+        "text": "Espolvoreá sésamo y horneá a 180 °C unos 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=iu7QmT2N6kw",
+    "videoTitle": "GALLETAS DE AVENA 💯 % SIN HARINA DE TRIGO. Sustituyen el pan",
+    "videoChannel": "Rashel Román Recetas"
   },
   {
     "id": "vegano-queso-cheddar",
@@ -8244,12 +9036,30 @@
     ],
     "steps": [
       {
-        "text": "Licuá las avellanas, jugo de limón, levadura, morrón rojo, ajo, cebolla y sal hasta lograr una crema lisa."
+        "text": "Licuá las avellanas."
       },
       {
-        "text": "Disolvé el agar-agar en el agua hirviendo, dejá entibiar, mezclá con la crema en licuadora y llevá a molde tapado a la heladera toda la noche."
+        "text": "Jugo de limón."
+      },
+      {
+        "text": "Morrón rojo."
+      },
+      {
+        "text": "Cebolla y sal hasta lograr una crema lisa."
+      },
+      {
+        "text": "Disolvé el agar-agar en el agua hirviendo."
+      },
+      {
+        "text": "Dejá entibiar."
+      },
+      {
+        "text": "Mezclá con la crema en licuadora y llevá a molde tapado a la heladera toda la noche."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=McDldmy6unA",
+    "videoTitle": "QUESO DE ALMENDRAS 🧀| Vegan friendly | SaludArT",
+    "videoChannel": "Novelty Code | Yessie Viera"
   },
   {
     "id": "vegano-queso-untable-avena",
@@ -8337,9 +9147,21 @@
     ],
     "steps": [
       {
-        "text": "Procesá las semillas escurridas con un chorrito de agua, el aceite o lecitina, ajo, jugo de limón, sal y pimienta hasta lograr textura untable."
+        "text": "Procesá las semillas escurridas con un chorrito de agua."
+      },
+      {
+        "text": "El aceite o lecitina."
+      },
+      {
+        "text": "Jugo de limón."
+      },
+      {
+        "text": "Sal y pimienta hasta lograr textura untable."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=1jRHR4xYqsw",
+    "videoTitle": "No tires las semillas de la calabaza 🎃 #recetasfaciles",
+    "videoChannel": "Comiendo con Lau"
   },
   {
     "id": "vegano-queso-crudo-castanas",
@@ -8380,7 +9202,10 @@
       {
         "text": "Escurrí las castañas remojadas y procesalas en licuadora potente con el agua, limón, levadura y sal hasta obtener una crema homogénea."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=90CdUh3CHuc",
+    "videoTitle": "Queso Vegano Sin Gluten y Sin Lactosa",
+    "videoChannel": "Lucia Cocina Saludable"
   },
   {
     "id": "vegano-queso-feta-tofu",
@@ -8437,7 +9262,10 @@
       {
         "text": "Volcá en molde húmedo y dejá enfriar hasta cuajar por completo."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ee7np15NotY",
+    "videoTitle": "QUESO FRESCO O CAMPESINO VEGANO | VEGAN RICOTTA",
+    "videoChannel": "COLOMBIANA EN OKLAHOMA"
   },
   {
     "id": "vegano-queso-mozzarella-tofu",
@@ -8598,9 +9426,15 @@
         "timerMinutes": 3
       },
       {
-        "text": "Agregá el aceite y 1 cda extra de agua, batí bien y dejá enfriar en heladera."
+        "text": "Agregá el aceite y 1 cda extra de agua."
+      },
+      {
+        "text": "Batí bien y dejá enfriar en heladera."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wAB8wL9Fz4M",
+    "videoTitle": "Así se hace el queso mozarella en casa ! 😱",
+    "videoChannel": "LOS ESCACHAITOS"
   },
   {
     "id": "vegano-tortilla-berenjena-nueces",
@@ -8845,9 +9679,21 @@
         "text": "Salteá las espinacas picadas 3 minutos en sartén sin grasa hasta reducir."
       },
       {
-        "text": "Batí la harina con agua, sumá los tomates secos, queso vegano y espinacas; cuajá a fuego bajo por ambos lados."
+        "text": "Batí la harina con agua."
+      },
+      {
+        "text": "Sumá los tomates secos."
+      },
+      {
+        "text": "Queso vegano y espinacas."
+      },
+      {
+        "text": "Cuajá a fuego bajo por ambos lados."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=1lH_9u5EgbA",
+    "videoTitle": "Tortilla de espinacas enrollada",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "vegano-tortilla-papa-garbanzos",
@@ -8889,10 +9735,16 @@
         "text": "Batí la harina de garbanzos con agua y sal hasta lograr textura de huevo batido."
       },
       {
-        "text": "Cociná las papas en aceite hasta que estén tiernas, mezclá con la preparación de garbanzos y cuajá en sartén por ambos lados.",
+        "text": "Cociná las papas en aceite hasta que estén tiernas."
+      },
+      {
+        "text": "Mezclá con la preparación de garbanzos y cuajá en sartén por ambos lados.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=JQMt-nOBAMs",
+    "videoTitle": "Receta Vegetariana: Tortitas de Garbanzo #recetas",
+    "videoChannel": "Cocinaconrolo"
   },
   {
     "id": "vegano-tortilla-seitan-morron",
@@ -9030,7 +9882,10 @@
       {
         "text": "Armar con pan base, salsa, lechuga, queso cheddar, hamburguesa, cebolla, pepinillos, otra hamburguesa y tapa de pan."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=W6_UzUlQQXQ",
+    "videoTitle": "LA MEJOR HAMBURGUESA 🍔🤩 #shorts #burger",
+    "videoChannel": "Ailu Tokman"
   },
   {
     "id": "rapida-hamburguesa-texana-panceta-barbacoa",
@@ -9112,7 +9967,10 @@
       {
         "text": "Armar con base de pan, carne, queso cheddar, panceta crocante, salsa barbacoa, pepinillos, cebolla, tomate, lechuga y tapa untada con mayonesa."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=xoZ5KKnfQpk",
+    "videoTitle": "Todo sobre hamburguesas en casa #hamburguesascaseras #burger #hamburguesa",
+    "videoChannel": "Jorgito Parrillero"
   },
   {
     "id": "rapida-hamburguesa-pescado-crocante",
@@ -9400,7 +10258,10 @@
         "text": "Freír en aceite a 160 °C hasta dorar, escurrir en papel absorbente y dar un golpe de horno a 180 °C por 5 minutos.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=xIMQ274AZXI",
+    "videoTitle": "Nuggets de pollo caseros. Económicos y facilísimos",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "rapida-salsa-barbacoa-casera",
@@ -9477,7 +10338,10 @@
       {
         "text": "Cocinar a fuego suave unos minutos hasta que espese, colar y dejar enfriar en heladera antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DUBwIOUB9s0",
+    "videoTitle": "Salsa BBQ hecha en casa | Receta facil",
+    "videoChannel": "Recetas en corto"
   },
   {
     "id": "rapida-pollo-frito-extra-crujiente",
@@ -9549,7 +10413,10 @@
         "text": "Reposar 5 minutos y freír de a 3 o 4 presas por tanda durante 12 a 15 minutos dando vuelta a mitad de cocción. Escurrir sobre rejilla.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-tgSxK-WNeo",
+    "videoTitle": "Pollo frito | pollo broaster | receta fácil",
+    "videoChannel": "Fácil de preparar | Alessandra Añez"
   },
   {
     "id": "rapida-choclos-tostados-manteca",
@@ -9612,7 +10479,10 @@
       {
         "text": "Espolvorear con azúcar, pimienta y hierbas; servir tibios."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=IK1eCAJXFj0",
+    "videoTitle": "Preparando elote con maíz cacahuazintle en CDMX #elote #cacahuazintle #antojos #viral #parati",
+    "videoChannel": "Pura Delicia Oficial"
   },
   {
     "id": "rapida-cazuelitas-pollo-hojaldre",
@@ -9754,7 +10624,10 @@
       {
         "text": "Para la salsa, batir el queso crema con mayonesa, ciboulette, albahaca, orégano y mostaza; servir fría junto a las papas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ERQ1hGrcDFs",
+    "videoTitle": "PAPAS CROCANTES EN SARTÉN 🥔 #shorts",
+    "videoChannel": "Las Recetas de Simón"
   },
   {
     "id": "rapida-sandwich-huevo-panceta-desayuno",
@@ -9814,7 +10687,10 @@
       {
         "text": "Untar el pan con manteca, colocar el queso cheddar, el huevo caliente y la panceta; cerrar y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=A3-QVfvO4S4",
+    "videoTitle": "RÍQUISIMO SANDWICH DE HUEVO CON QUESO 🧀 🥪 | #Shorts #EdnaMx",
+    "videoChannel": "EdnaMX"
   },
   {
     "id": "rapida-burritos-desayuno-huevo-queso",
@@ -9872,7 +10748,10 @@
       {
         "text": "Entibiar las tortillas, rellenar con el revuelto de huevo, salsa picante y queso cheddar rallado; enrollar cerrando una punta."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EhZa3y_190c",
+    "videoTitle": "Burrito mexicano gigante🔥🌯🇲🇽 #viralvideo #comida #foodie",
+    "videoChannel": "Rosaritofood"
   },
   {
     "id": "rapida-fajitas-pollo-salsa-especial",
@@ -9939,7 +10818,10 @@
       {
         "text": "Untar cada tortilla con la salsa especial, colocar el pollo con verduras y media feta de cheddar; enrollar y servir tibio."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=P8xR9PMnVyo",
+    "videoTitle": "FAJITAS DE POLLO muy fáciles de preparar!",
+    "videoChannel": "Rocio Recetas (El Sazón De Mi Cocina)"
   },
   {
     "id": "rapida-sandwich-pollo-crocante-tender",
@@ -10004,7 +10886,10 @@
       {
         "text": "Tostar el interior de los panes, untar con mayonesa y armar con pollo, tomate y lechuga."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=43Hxu6UJ0AE",
+    "videoTitle": "POLLO CRISPY",
+    "videoChannel": "MAMBRUNENSE Edgardo Rios"
   },
   {
     "id": "rapida-sandwich-cerdo-barbacoa",
@@ -10243,7 +11128,10 @@
       {
         "text": "Abrir los panes árabes en bolsillo, rellenar y servir caliente."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Cp8cctJ18FI",
+    "videoTitle": "Huevos Revueltos con Tomate al estilo Chino 🤤",
+    "videoChannel": "Cocina con Coqui"
   },
   {
     "id": "rapida-tostado-jamon-huevo-anchoas",
@@ -10416,7 +11304,10 @@
         "text": "Cubrir con las rebanadas restantes untadas con manteca hacia arriba y hornear 6 a 8 minutos por lado hasta dorar.",
         "timerMinutes": 7
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=llC8lTPgjeA",
+    "videoTitle": "Sándwiches de Miga -COMO HACER UNOS RIQUISIMOS SANDWICHES DE MIGA",
+    "videoChannel": "Pathalma"
   },
   {
     "id": "rapida-sandwich-mexicano-guacamole-panceta",
@@ -10655,7 +11546,10 @@
       {
         "text": "Repetir en una segunda rebanada, apilar sobre la primera y cerrar con una tercera rebanada invertida; sujetar con escarbadientes y cortar en diagonal."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DDvKc4gZOkE",
+    "videoTitle": "Club sandwich una receta fácil y muy práctica para cualquier snack !!! #sandwich #snack #lunch",
+    "videoChannel": "Johns"
   },
   {
     "id": "rapida-sandwich-parisino-baguette",
@@ -11063,7 +11957,10 @@
       {
         "text": "Colocar capas de cebolla, morrón y atún; rociar con el vinagre batido con ajo y oliva, cerrar y cortar en 4 porciones."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=VUxGSMUjVLM",
+    "videoTitle": "Sandwich de atún como cena, en menos de cinco minutos! 🥪😮‍💨 #colombia #sandwich #receta #fitness",
+    "videoChannel": "Sammu"
   },
   {
     "id": "rapida-pizza-pepperoni-morron",
@@ -11123,7 +12020,10 @@
         "text": "Cubrir las masas con salsa, mozzarella, pepperoni y tiras de morrón; hornear a 205 °C durante 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8UICaVADfLA",
+    "videoTitle": "Cómo Hacer la Mejor Pizza Casera de Pepperoni | con Borde Relleno de Queso",
+    "videoChannel": "Keycris Recetas"
   },
   {
     "id": "rapida-pizza-margarita-albahaca",
@@ -11181,7 +12081,10 @@
         "text": "Esparcir la albahaca y hornear a 200 °C durante 20 a 25 minutos.",
         "timerMinutes": 23
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=x6KR6gMLyt0",
+    "videoTitle": "La Receta Completa para Hacer la Pizza Romana en Casa!🇮🇹🍕 Parte 1 #aromaroma #pizza #receta",
+    "videoChannel": "Chef Roberta Official"
   },
   {
     "id": "rapida-pizza-mozzarella-morrones",
@@ -11303,7 +12206,10 @@
         "text": "Cubrir con el salteado de cebollas y hornear 12 minutos más; decorar con aceitunas y orégano.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wLh2Q9LbRxs",
+    "videoTitle": "La mejor FUGAZETTA RELLENA con QUESO 🧀🧅 #shorts",
+    "videoChannel": "Las Recetas de Simón"
   },
   {
     "id": "rapida-pizzetas-puerro-jamon",
@@ -11362,7 +12268,10 @@
         "text": "Gratinar 4 a 5 minutos hasta burbujear el queso y terminar con rúcula picada.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Y0yriN9cGAk",
+    "videoTitle": "Pizzetas + 6 tipos de pizzas + CONGELAR pizzas para que queden CROCANTES - Cómo hacer pizza E04",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "rapida-pizza-mozzarella-panceta",
@@ -11420,7 +12329,10 @@
         "text": "Hornear a 200 °C unos 15 minutos hasta que el queso funda y los bordes doren.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uFPqrR6c4AA",
+    "videoTitle": "Pizza Argentina | La Clásica Pizza al Molde Porteña de Muzzarella",
+    "videoChannel": "Gonzalo Dacovich - Maestro Pizzero"
   },
   {
     "id": "rapida-pizza-atun-tomates-alcaparras",
@@ -11595,7 +12507,10 @@
         "text": "Estirar en pizzeras aceitadas, pintar opcionalmente con salsa de tomate y precocinar 15 minutos a horno fuerte.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=G3LmiPpjMgY",
+    "videoTitle": "ASÍ hago la pizza ahora / pizza casera - Paulina on fire",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "rapida-masa-integral-pizza",
@@ -11658,7 +12573,10 @@
         "text": "Dividir en 4 bollos, estirar en asaderas aceitadas, dejar leudar y precocinar 15 minutos a horno moderado.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=jcnsyw8CTVQ",
+    "videoTitle": "PIZZA 100% CON HARINA INTEGRAL, SALUDABLE Y FACIL | Maxi Cocina",
+    "videoChannel": "Maxi Cocina"
   },
   {
     "id": "rapida-ensalada-papa-cremosa-kfc",
@@ -11721,7 +12639,10 @@
       {
         "text": "Refrigerar 2 horas antes de servir como guarnición."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GXonETkb1MQ",
+    "videoTitle": "La ensalada alemana más deliciosa 😋 #recetas #ensalada #saludable #fitness",
+    "videoChannel": "Recetas Con Sabor"
   },
   {
     "id": "rapida-ensalada-fideos-repollo",
@@ -11784,7 +12705,10 @@
       {
         "text": "Refrigerar 2 horas y servir bien fresca."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=PTtxxwRpOjk",
+    "videoTitle": "Has hecho mal la ensalada de coditos durante toda la vida y aun no lo sabias #recetas #ensalada",
+    "videoChannel": "Recetas Con Sabor"
   },
   {
     "id": "rapida-ensalada-tibia-porotos-arroz",
@@ -11905,7 +12829,10 @@
       {
         "text": "Dejar macerar en heladera al menos unas horas (ideal 12 horas) antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=PjofEKzhfT4",
+    "videoTitle": "Ensalada de repollo / #coleslaw",
+    "videoChannel": "Filippo Sapori"
   },
   {
     "id": "rapida-ensalada-cesar-croutons",
@@ -11967,7 +12894,10 @@
       {
         "text": "Incorporar la lechuga bien seca, mezclar con el aderezo y sumar los croutons al momento de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0aDB39jyLG0",
+    "videoTitle": "Ensalada Cesar ¡Facil y rápida! Receta Original",
+    "videoChannel": "La Cocina de Gisele"
   },
   {
     "id": "rapida-ensalada-verduras-jamon-queso",
@@ -12086,7 +13016,10 @@
       {
         "text": "Dejar macerar 1 hora, agregar el aceite de oliva, rectificar sal y pimienta y espolvorear con perejil."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GXonETkb1MQ",
+    "videoTitle": "La ensalada alemana más deliciosa 😋 #recetas #ensalada #saludable #fitness",
+    "videoChannel": "Recetas Con Sabor"
   },
   {
     "id": "rapida-ensalada-aragonesa-jamon-crudo",

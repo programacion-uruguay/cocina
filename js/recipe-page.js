@@ -49,6 +49,73 @@
 
   const timer = new CookingTimer();
   let wakeLockSentinel = null;
+  let ytApiPromise = null;
+  let ytPlayer = null;
+  let ytDuration = 0;
+  let ytPollInterval = null;
+
+  function loadYouTubeIframeApi() {
+    if (window.YT && window.YT.Player) return Promise.resolve(window.YT);
+    if (ytApiPromise) return ytApiPromise;
+    ytApiPromise = new Promise((resolve, reject) => {
+      const prevReady = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = () => {
+        if (typeof prevReady === "function") {
+          try { prevReady(); } catch {}
+        }
+        resolve(window.YT);
+      };
+      const tag = document.createElement("script");
+      tag.src = "https://www.youtube.com/iframe_api";
+      tag.async = true;
+      tag.onerror = () => reject(new Error("No se pudo cargar YouTube API"));
+      document.head.appendChild(tag);
+    });
+    return ytApiPromise;
+  }
+
+  function destroyYtPlayer() {
+    if (ytPollInterval) {
+      clearInterval(ytPollInterval);
+      ytPollInterval = null;
+    }
+    if (ytPlayer) {
+      try {
+        if (typeof ytPlayer.destroy === "function") ytPlayer.destroy();
+      } catch {
+        // Ignorar
+      }
+      ytPlayer = null;
+    }
+    ytDuration = 0;
+  }
+
+  function formatSeconds(sec) {
+    if (sec === null || sec === undefined || Number.isNaN(Number(sec))) return "";
+    const total = Math.max(0, Math.floor(Number(sec)));
+    const m = Math.floor(total / 60);
+    const s = total % 60;
+    return `${m}:${String(s).padStart(2, "0")}`;
+  }
+
+  function getSavedChapterTimes(recipeId) {
+    return state.customMedia[recipeId]?.chapterTimes || {};
+  }
+
+  function getChapterStartSec(recipe, idx, totalChapters, durationSec) {
+    const saved = getSavedChapterTimes(recipe.id);
+    if (saved && typeof saved[idx] === "number" && !Number.isNaN(saved[idx])) {
+      return Math.max(0, Math.floor(saved[idx]));
+    }
+    const step = recipe.steps?.[idx];
+    if (step && typeof step === "object" && typeof step.videoStartSec === "number") {
+      return Math.max(0, Math.floor(step.videoStartSec));
+    }
+    if (durationSec > 0 && totalChapters > 0) {
+      return idx === 0 ? 0 : Math.floor((durationSec * idx) / totalChapters);
+    }
+    return null;
+  }
 
   function isGlutenFreeRecipe(r) {
     if (!r) return false;
@@ -145,9 +212,15 @@
       /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([A-Za-z0-9_-]{6,15})/
     );
     if (ytMatch) {
+      const originParam =
+        window.location && /^https?:/.test(window.location.origin)
+          ? `&origin=${encodeURIComponent(window.location.origin)}`
+          : "";
       return {
-        type: "iframe",
-        src: `https://www.youtube.com/embed/${ytMatch[1]}?rel=0`
+        type: "youtube",
+        videoId: ytMatch[1],
+        src: `https://www.youtube.com/embed/${ytMatch[1]}?enablejsapi=1&rel=0&playsinline=1${originParam}`,
+        watchUrl: `https://www.youtube.com/watch?v=${ytMatch[1]}`
       };
     }
 
@@ -520,15 +593,30 @@
         </div>
       `;
     } else if (state.mediaTab === "video") {
+      const savedTimes = getSavedChapterTimes(r.id);
+      const hasSavedTimes = Object.keys(savedTimes).length > 0;
+      const isCustomVideo = Boolean(state.sessionVideoBlobUrl || state.customMedia[r.id]?.videoUrl);
+
       stageHtml = `
         <div class="video-stage">
           ${
             videoEmbed
-              ? videoEmbed.type === "iframe"
+              ? videoEmbed.type === "youtube"
                 ? `<div class="video-frame-wrap">
-                    <iframe src="${escapeHtml(videoEmbed.src)}" title="Video de ${escapeHtml(r.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="yt-player-frame" src="${escapeHtml(videoEmbed.src)}" data-video-id="${escapeHtml(videoEmbed.videoId)}" title="Video de ${escapeHtml(r.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="video-meta-bar">
+                    <div class="video-meta-info">
+                      <strong>${escapeHtml((!isCustomVideo && baseMedia.videoTitle) || `Video de ${r.title}`)}</strong>
+                      ${!isCustomVideo && baseMedia.videoChannel ? `<span>Canal: ${escapeHtml(baseMedia.videoChannel)}</span>` : ""}
+                    </div>
+                    <a href="${escapeHtml(videoEmbed.watchUrl)}" target="_blank" rel="noopener noreferrer" class="btn-yt-external">Abrir en YouTube ↗</a>
                   </div>`
-                : `<video class="video-native-player" src="${escapeHtml(videoEmbed.src)}" controls playsinline></video>`
+                : videoEmbed.type === "iframe"
+                  ? `<div class="video-frame-wrap">
+                      <iframe src="${escapeHtml(videoEmbed.src)}" title="Video de ${escapeHtml(r.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>`
+                  : `<video class="video-native-player" src="${escapeHtml(videoEmbed.src)}" controls playsinline></video>`
               : `
                 <div class="video-guide-player">
                   <div class="video-guide-badge">🎬 Guía interactiva por capítulos</div>
@@ -556,17 +644,51 @@
               `
           }
           ${
+            videoEmbed && activeChapter
+              ? `
+                <div id="video-active-step-card" class="video-active-step-card">
+                  <div class="video-active-step-head">
+                    <span id="video-active-step-label" class="video-active-step-label">Paso ${activeChapter.index + 1} de ${chapters.length}</span>
+                    ${
+                      videoEmbed.type === "youtube"
+                        ? `<div class="video-active-step-tools">
+                            <button type="button" id="mark-chapter-time-btn" class="btn-mark-time" title="Guarda el segundo actual del video para este paso">
+                              📍 Fijar momento aquí
+                            </button>
+                            ${hasSavedTimes ? `<button type="button" id="reset-chapter-times-btn" class="btn-reset-times" title="Restaurar tiempos automáticos">↺</button>` : ""}
+                          </div>`
+                        : ""
+                    }
+                  </div>
+                  <p id="video-active-step-text" class="video-active-step-text">${escapeHtml(activeChapter.text)}</p>
+                  <div id="video-active-step-actions" class="video-active-step-actions">
+                    ${
+                      activeChapter.timerMinutes
+                        ? `<button type="button" class="btn-step-timer" data-minutes="${activeChapter.timerMinutes}" data-label="${escapeHtml(r.title)} · Paso ${activeChapter.index + 1}">
+                            ⏱️ Timer (${activeChapter.timerMinutes} min)
+                          </button>`
+                        : ""
+                    }
+                  </div>
+                </div>
+              `
+              : ""
+          }
+          ${
             chapters.length > 0
               ? `
-            <div class="video-chapters-bar">
+            <div class="video-chapters-bar" id="video-chapters-bar">
               ${chapters
-                .map(
-                  (ch, idx) => `
-                <button type="button" class="chapter-pill ${idx === state.videoChapterIndex ? "is-active" : ""}" data-chapter-idx="${idx}">
-                  ${idx + 1}. ${escapeHtml(ch.title)}${ch.timerMinutes ? ` (${ch.timerMinutes}m)` : ""}
-                </button>
-              `
-                )
+                .map((ch, idx) => {
+                  const knownSec = getChapterStartSec(r, idx, chapters.length, ytDuration);
+                  const timeStr = knownSec !== null ? formatSeconds(knownSec) : "";
+                  return `
+                    <button type="button" class="chapter-pill ${idx === state.videoChapterIndex ? "is-active" : ""}" data-chapter-idx="${idx}">
+                      <span>${idx + 1}. ${escapeHtml(ch.title)}${ch.timerMinutes ? ` (${ch.timerMinutes}m)` : ""}</span>
+                      <span class="chapter-time" data-chapter-time="${idx}">${timeStr ? `· ${timeStr}` : ""}</span>
+                    </button>
+                  `;
+                })
                 .join("")}
             </div>
           `
@@ -652,8 +774,8 @@
           <button type="button" role="tab" class="media-tab-btn ${state.mediaTab === "photos" ? "is-active" : ""}" data-media-tab="photos" aria-selected="${state.mediaTab === "photos"}">
             📸 Fotos (${photos.length})
           </button>
-          <button type="button" role="tab" class="media-tab-btn ${state.mediaTab === "video" ? "is-active" : ""}" data-media-tab="video" aria-selected="${state.mediaTab === "video"}">
-            🎬 Video paso a paso
+          <button type="button" role="tab" class="media-tab-btn ${state.mediaTab === "video" ? "is-active" : ""} ${customVideoUrl ? "has-video" : ""}" data-media-tab="video" aria-selected="${state.mediaTab === "video"}">
+            ${customVideoUrl ? "🎬 Video YouTube ▶" : "🎬 Video paso a paso"}
           </button>
           <button type="button" role="tab" class="media-tab-btn ${state.mediaTab === "custom" ? "is-active" : ""}" data-media-tab="custom" aria-selected="${state.mediaTab === "custom"}">
             ➕ Mi foto / video
@@ -1112,6 +1234,7 @@
     const r = state.activeRecipe;
     if (!r) return;
 
+    destroyYtPlayer();
     syncHeaderState();
     const cbUser = getComerBienActiveUser();
     const adaptation =
@@ -1250,11 +1373,185 @@
       });
     });
 
-    // Capítulos de video
+    // Capítulos de video y YouTube IFrame API (Opción A + Opción B)
+    const chapters = baseMedia.videoChapters || [];
+    const customVideoUrl = state.sessionVideoBlobUrl || state.customMedia[r.id]?.videoUrl || baseMedia.videoUrl;
+    const videoEmbed = getVideoEmbedInfo(customVideoUrl);
+    const ytFrameEl = document.getElementById("yt-player-frame");
+
+    const bindActiveStepTimer = () => {
+      const container = document.getElementById("video-active-step-actions");
+      if (!container) return;
+      container.querySelectorAll(".btn-step-timer").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          timer.start(Number(btn.dataset.minutes), btn.dataset.label);
+        });
+      });
+    };
+
+    const refreshChapterTimesUI = () => {
+      els.studio.querySelectorAll("[data-chapter-time]").forEach((span) => {
+        const idx = Number(span.dataset.chapterTime);
+        const sec = getChapterStartSec(r, idx, chapters.length, ytDuration);
+        span.textContent = sec !== null ? `· ${formatSeconds(sec)}` : "";
+      });
+    };
+
+    const updateActiveVideoChapterUI = () => {
+      const ch = chapters[state.videoChapterIndex];
+      if (!ch) return;
+      els.studio.querySelectorAll("[data-chapter-idx]").forEach((btn) => {
+        btn.classList.toggle("is-active", Number(btn.dataset.chapterIdx) === state.videoChapterIndex);
+      });
+      const labelEl = document.getElementById("video-active-step-label");
+      const textEl = document.getElementById("video-active-step-text");
+      const actionsEl = document.getElementById("video-active-step-actions");
+      if (labelEl) labelEl.textContent = `Paso ${ch.index + 1} de ${chapters.length}`;
+      if (textEl) textEl.textContent = ch.text;
+      if (actionsEl) {
+        actionsEl.innerHTML = ch.timerMinutes
+          ? `<button type="button" class="btn-step-timer" data-minutes="${ch.timerMinutes}" data-label="${escapeHtml(r.title)} · Paso ${ch.index + 1}">
+              ⏱️ Timer (${ch.timerMinutes} min)
+            </button>`
+          : "";
+        bindActiveStepTimer();
+      }
+    };
+
+    const syncChapterFromPlaybackTime = (currentSec) => {
+      if (!chapters.length) return;
+      let matchedIdx = 0;
+      for (let i = 0; i < chapters.length; i++) {
+        const start = getChapterStartSec(r, i, chapters.length, ytDuration);
+        if (start !== null && currentSec >= start) {
+          matchedIdx = i;
+        }
+      }
+      if (matchedIdx !== state.videoChapterIndex) {
+        state.videoChapterIndex = matchedIdx;
+        updateActiveVideoChapterUI();
+      }
+    };
+
+    if (state.mediaTab === "video" && videoEmbed?.type === "youtube" && ytFrameEl) {
+      bindActiveStepTimer();
+      loadYouTubeIframeApi()
+        .then((YT) => {
+          if (!document.getElementById("yt-player-frame")) return;
+          ytPlayer = new YT.Player("yt-player-frame", {
+            events: {
+              onReady: (ev) => {
+                try {
+                  const dur = ev.target.getDuration();
+                  if (dur && dur > 0) {
+                    ytDuration = dur;
+                    refreshChapterTimesUI();
+                  }
+                } catch {}
+              },
+              onStateChange: (ev) => {
+                try {
+                  const dur = ev.target.getDuration();
+                  if (dur && dur > 0 && dur !== ytDuration) {
+                    ytDuration = dur;
+                    refreshChapterTimesUI();
+                  }
+                } catch {}
+                if (ev.data === YT.PlayerState.PLAYING) {
+                  if (ytPollInterval) clearInterval(ytPollInterval);
+                  ytPollInterval = setInterval(() => {
+                    if (!ytPlayer || typeof ytPlayer.getCurrentTime !== "function") return;
+                    try {
+                      syncChapterFromPlaybackTime(ytPlayer.getCurrentTime());
+                    } catch {}
+                  }, 1000);
+                } else if (ytPollInterval) {
+                  clearInterval(ytPollInterval);
+                  ytPollInterval = null;
+                }
+              }
+            }
+          });
+        })
+        .catch(() => {
+          // Fallback: el iframe nativo sigue funcionando sin API
+        });
+    }
+
+    document.getElementById("mark-chapter-time-btn")?.addEventListener("click", () => {
+      if (!ytPlayer || typeof ytPlayer.getCurrentTime !== "function") return;
+      const sec = Math.max(0, Math.floor(ytPlayer.getCurrentTime()));
+      const current = state.customMedia[r.id] || {};
+      const nextTimes = { ...(current.chapterTimes || {}), [state.videoChapterIndex]: sec };
+      state.customMedia[r.id] = { ...current, chapterTimes: nextTimes };
+      saveJsonStorage(CUSTOM_MEDIA_KEY, state.customMedia);
+      refreshChapterTimesUI();
+      const markBtn = document.getElementById("mark-chapter-time-btn");
+      if (markBtn) {
+        markBtn.textContent = `✓ Guardado (${formatSeconds(sec)})`;
+        setTimeout(() => {
+          const btnNow = document.getElementById("mark-chapter-time-btn");
+          if (btnNow) btnNow.textContent = "📍 Fijar momento aquí";
+        }, 1600);
+      }
+      if (!document.getElementById("reset-chapter-times-btn")) {
+        const tools = document.querySelector(".video-active-step-tools");
+        if (tools) {
+          const resetBtn = document.createElement("button");
+          resetBtn.type = "button";
+          resetBtn.id = "reset-chapter-times-btn";
+          resetBtn.className = "btn-reset-times";
+          resetBtn.title = "Restaurar tiempos automáticos";
+          resetBtn.textContent = "↺";
+          resetBtn.addEventListener("click", () => {
+            const cur = state.customMedia[r.id] || {};
+            delete cur.chapterTimes;
+            state.customMedia[r.id] = cur;
+            saveJsonStorage(CUSTOM_MEDIA_KEY, state.customMedia);
+            refreshChapterTimesUI();
+            resetBtn.remove();
+          });
+          tools.appendChild(resetBtn);
+        }
+      }
+    });
+
+    document.getElementById("reset-chapter-times-btn")?.addEventListener("click", () => {
+      const current = state.customMedia[r.id] || {};
+      delete current.chapterTimes;
+      state.customMedia[r.id] = current;
+      saveJsonStorage(CUSTOM_MEDIA_KEY, state.customMedia);
+      refreshChapterTimesUI();
+      document.getElementById("reset-chapter-times-btn")?.remove();
+    });
+
     els.studio.querySelectorAll("[data-chapter-idx]").forEach((btn) => {
       btn.addEventListener("click", () => {
-        state.videoChapterIndex = Number(btn.dataset.chapterIdx);
-        renderStudio();
+        const nextIdx = Number(btn.dataset.chapterIdx);
+        state.videoChapterIndex = nextIdx;
+        if (videoEmbed?.type === "youtube" && ytFrameEl) {
+          updateActiveVideoChapterUI();
+          let dur = ytDuration;
+          if (!dur && ytPlayer && typeof ytPlayer.getDuration === "function") {
+            try { dur = ytPlayer.getDuration() || 0; } catch {}
+            if (dur > 0) {
+              ytDuration = dur;
+              refreshChapterTimesUI();
+            }
+          }
+          const targetSec = getChapterStartSec(r, nextIdx, chapters.length, dur || 0);
+          if (ytPlayer && typeof ytPlayer.seekTo === "function") {
+            try {
+              ytPlayer.seekTo(targetSec !== null ? targetSec : 0, true);
+              if (typeof ytPlayer.playVideo === "function") ytPlayer.playVideo();
+            } catch {}
+          } else if (targetSec !== null) {
+            const sep = videoEmbed.src.includes("?") ? "&" : "?";
+            ytFrameEl.src = `${videoEmbed.src}${sep}start=${targetSec}&autoplay=1`;
+          }
+        } else {
+          renderStudio();
+        }
       });
     });
 
@@ -1542,9 +1839,11 @@
     });
   }
 
-  function selectRecipeById(id, pushUrl = true) {
+  function selectRecipeById(id, pushUrl = true, preferredMediaTab = null) {
     const found = state.recipes.find((r) => r.id === id) || state.recipes[0];
     if (!found) return;
+
+    destroyYtPlayer();
 
     if (state.sessionVideoBlobUrl) {
       URL.revokeObjectURL(state.sessionVideoBlobUrl);
@@ -1555,6 +1854,11 @@
     state.currentServings = found.servings || 2;
     state.activePhotoIndex = 0;
     state.videoChapterIndex = 0;
+    if (preferredMediaTab) {
+      state.mediaTab = preferredMediaTab;
+    } else if (state.mediaTab === "video" && !found.videoUrl && !state.customMedia[found.id]?.videoUrl) {
+      state.mediaTab = "photos";
+    }
     state.cookingStepIndex = null;
     state.selectedChainId = null;
     state.checkedIngredients = {};
@@ -1640,9 +1944,11 @@
     state.activeFilter = getActiveFilterContext();
     const params = new URLSearchParams(window.location.search);
     const requestedId = params.get("id");
+    const requestedTab = params.get("tab");
+    const preferredMedia = requestedTab === "video" ? "video" : null;
     const initialPool = getFilteredRecipesForSelect();
     const fallbackId = initialPool[0]?.id || state.recipes[0]?.id;
-    selectRecipeById(requestedId || fallbackId, !requestedId);
+    selectRecipeById(requestedId || fallbackId, !requestedId, preferredMedia);
   }
 
   init();
