@@ -39,7 +39,6 @@
   };
 
   const els = {
-    quickSelect: document.getElementById("recipe-quick-select"),
     breadcrumbMeta: document.getElementById("studio-breadcrumb-meta"),
     favBtn: document.getElementById("page-fav-btn"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
@@ -275,7 +274,6 @@
       state.favorites.push(id);
     }
     saveJsonStorage(FAVORITES_KEY, state.favorites);
-    populateQuickSelect();
     syncHeaderState();
   }
 
@@ -419,17 +417,6 @@
       return [state.activeRecipe, ...filtered];
     }
     return filtered;
-  }
-
-  function populateQuickSelect() {
-    if (!els.quickSelect) return;
-    const filteredList = getFilteredRecipesForSelect();
-    els.quickSelect.innerHTML = filteredList
-      .map((r) => `<option value="${escapeHtml(r.id)}">${escapeHtml(r.title)}</option>`)
-      .join("");
-    if (state.activeRecipe) {
-      els.quickSelect.value = state.activeRecipe.id;
-    }
   }
 
   function syncHeaderState() {
@@ -1865,8 +1852,6 @@
     state.lightMode = false;
     state.mediaFeedback = "";
 
-    populateQuickSelect();
-
     if (pushUrl && window.history?.replaceState) {
       const url = new URL(window.location.href);
       url.searchParams.set("id", found.id);
@@ -1899,18 +1884,12 @@
       if (state.activeRecipe) toggleFavorite(state.activeRecipe.id);
     });
 
-    els.quickSelect.addEventListener("change", (e) => {
-      if (e.target.value) selectRecipeById(e.target.value, true);
-    });
-
     window.addEventListener("storage", (e) => {
       if (e.key === FAVORITES_KEY) {
         state.favorites = loadJsonStorage(FAVORITES_KEY, []);
-        populateQuickSelect();
         syncHeaderState();
       } else if (e.key === ACTIVE_FILTER_KEY && !hasUrlFilterParams()) {
         state.activeFilter = getActiveFilterContext();
-        populateQuickSelect();
         syncHeaderState();
       } else if (e.key === THEME_KEY && e.newValue) {
         applyTheme(e.newValue);

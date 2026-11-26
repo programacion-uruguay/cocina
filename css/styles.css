@@ -2193,23 +2193,6 @@ button {
   gap: var(--space-2);
 }
 
-.recipe-quick-select {
-  max-width: 260px;
-  padding: 0.42rem 0.75rem;
-  font-size: var(--fs-xs);
-  font-weight: 600;
-  color: var(--text);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  transition: var(--ease);
-}
-
-.recipe-quick-select:hover,
-.recipe-quick-select:focus {
-  border-color: var(--primary);
-}
-
 .btn-fav-header {
   padding: 0.45rem 0.95rem;
   font-size: var(--fs-xs);
@@ -2945,11 +2928,6 @@ button {
 @media (max-width: 640px) {
   .recipe-studio {
     padding: var(--space-3);
-  }
-
-  .recipe-quick-select {
-    max-width: 100%;
-    flex-basis: 100%;
   }
 
   .media-tabs-bar {
@@ -3720,8 +3698,7 @@ button {
     padding: 0 12px;
   }
 
-  .topbar-controls .search-box,
-  .recipe-quick-select {
+  .topbar-controls .search-box {
     flex: 1 1 100%;
     min-width: 0;
     max-width: none;
