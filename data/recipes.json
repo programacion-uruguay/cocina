@@ -11259,7 +11259,10 @@
       {
         "text": "Abrir el pan árabe como bolsillo y rellenar con carne, tomate, pepinillos y las salsas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=oXJjYztIGZ8",
+    "videoTitle": "SINCRONIZADA ÁRABE (Pan pita relleno de carne)",
+    "videoChannel": "Cocina para Solteros"
   },
   {
     "id": "rapida-pan-arabe-revuelto-huevo",
@@ -11794,9 +11797,15 @@
         "text": "Abrir la baguette a lo largo y untar una cara con manteca y la otra con mostaza Dijon."
       },
       {
-        "text": "Colocar el jamón cocido doblado y distribuir las tiritas de pickles; cerrar y disfrutar."
+        "text": "Colocar el jamón cocido doblado y distribuir las tiritas de pickles."
+      },
+      {
+        "text": "Cerrar y disfrutar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uHGWO6wkVmM",
+    "videoTitle": "Receta de sándwich baguette con jamón",
+    "videoChannel": "Resuelve con Bimbo"
   },
   {
     "id": "rapida-sandwich-berenjena-escabeche",
@@ -13413,7 +13422,10 @@
       {
         "text": "Reducir en un cazo el agua con azúcar y vinagre a la mitad, enfriar y aliñar junto con aceite de oliva."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_Al4AOH_Pzk",
+    "videoTitle": "Ensalada Chef Zen de GARBANZOS y SALMÓN Ahumado 🥗✨ | Ligera, Proteica y Con Historia",
+    "videoChannel": "Delantal de fantasías"
   },
   {
     "id": "rapida-ensaladilla-rusa-atun-remolacha",
@@ -13480,7 +13492,10 @@
       {
         "text": "Decorar con rodajas de huevo duro y servir bien fría."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=3Pw4Oelh6TI",
+    "videoTitle": "Ensalada RUSA de REMOLACHA Y ATUN con Mayonesa (Riquisima !!)",
+    "videoChannel": "LAS RECETAS de July"
   },
   {
     "id": "rapida-ensalada-waldorf-clasica",
@@ -19374,12 +19389,24 @@
     ],
     "steps": [
       {
-        "text": "Mezclar el queso blanco con el ciboulette, las aceitunas verdes picadas, sal y pimienta."
+        "text": "Mezclar el queso blanco con el ciboulette."
       },
       {
-        "text": "Untar el pan de salvado y distribuir el atún desmenuzado y el huevo duro picado; cerrar y servir."
+        "text": "Las aceitunas verdes picadas."
+      },
+      {
+        "text": "Sal y pimienta."
+      },
+      {
+        "text": "Untar el pan de salvado y distribuir el atún desmenuzado y el huevo duro picado."
+      },
+      {
+        "text": "Cerrar y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=a7z5gVl-X4M",
+    "videoTitle": "Preparar delicioso sandwich de atún con aceitunas",
+    "videoChannel": "PuroSaborTV"
   },
   {
     "id": "sandwich-atun-hummus-romero",
@@ -19423,12 +19450,24 @@
     ],
     "steps": [
       {
-        "text": "Combinar en un bol el atún desmenuzado con el hummus, la cebolla morada, las hierbas frescas, ají verde y pimienta negra."
+        "text": "Combinar en un bol el atún desmenuzado con el hummus."
+      },
+      {
+        "text": "La cebolla morada."
+      },
+      {
+        "text": "Las hierbas frescas."
+      },
+      {
+        "text": "Ají verde y pimienta negra."
       },
       {
         "text": "Untar generosamente entre las rebanadas de pan y servir al instante."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=K-I4mJ53P6c",
+    "videoTitle": "Los Mejores Sándwiches de Atún",
+    "videoChannel": "Chef Oropeza"
   },
   {
     "id": "sandwich-atun-choclo-nueces",
@@ -19477,12 +19516,18 @@
     ],
     "steps": [
       {
-        "text": "Mezclar la mayonesa con la mostaza y unir con el atún, la lechuga, el choclo y las nueces."
+        "text": "Mezclar la mayonesa con la mostaza y unir con el atún."
+      },
+      {
+        "text": "El choclo y las nueces."
       },
       {
         "text": "Rellenar los sándwiches y cortar en triángulos para servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=K-I4mJ53P6c",
+    "videoTitle": "Los Mejores Sándwiches de Atún",
+    "videoChannel": "Chef Oropeza"
   },
   {
     "id": "sandwich-tostado-clasico-atun",
@@ -19586,12 +19631,27 @@
     ],
     "steps": [
       {
-        "text": "Integrar la mayonesa con las hierbas frescas, ralladura y jugo de limón, mostaza y pimienta; incorporar el atún y enfriar 20 minutos."
+        "text": "Integrar la mayonesa con las hierbas frescas."
       },
       {
-        "text": "Armar los sándwiches con la pasta de atún, rodajas de tomate y fetas de provolone."
+        "text": "Ralladura y jugo de limón."
+      },
+      {
+        "text": "Mostaza y pimienta."
+      },
+      {
+        "text": "Incorporar el atún y enfriar 20 minutos."
+      },
+      {
+        "text": "Armar los sándwiches con la pasta de atún."
+      },
+      {
+        "text": "Rodajas de tomate y fetas de provolone."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=K-I4mJ53P6c",
+    "videoTitle": "Los Mejores Sándwiches de Atún",
+    "videoChannel": "Chef Oropeza"
   },
   {
     "id": "sandwich-hojaldre-atun-espinacas",
@@ -19640,14 +19700,35 @@
     ],
     "steps": [
       {
-        "text": "Saltear la cebolla y la espinaca con nuez moscada; al enfriar unir 1 huevo batido, colocar entre las dos planchas de hojaldre y hornear 30 minutos hasta dorar.",
+        "text": "Saltear la cebolla y la espinaca con nuez moscada."
+      },
+      {
+        "text": "Al enfriar unir 1 huevo batido."
+      },
+      {
+        "text": "Colocar entre las dos planchas de hojaldre y hornear 30 minutos hasta dorar.",
         "timerMinutes": 30
       },
       {
-        "text": "Abrir al medio horizontalmente, cubrir con atún escurrido, rodajas de tomate y mozzarella, y gratinar 5 minutos; cortar en cuadrados.",
+        "text": "Abrir al medio horizontalmente."
+      },
+      {
+        "text": "Cubrir con atún escurrido."
+      },
+      {
+        "text": "Rodajas de tomate y mozzarella."
+      },
+      {
+        "text": "Y gratinar 5 minutos."
+      },
+      {
+        "text": "Cortar en cuadrados.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yyJqcRmZxMg",
+    "videoTitle": "HOJALDRE CON ATÚN Y ESPINACAS",
+    "videoChannel": "Marcos Pieras"
   },
   {
     "id": "sandwich-atun-palmitos-tartara",
@@ -19694,9 +19775,21 @@
         "text": "Mezclar la lechuga en juliana con el atún y la salsa tártara."
       },
       {
-        "text": "Distribuir sobre el pan, sumar rodajas de tomate, láminas de palmito y hojitas de albahaca; cerrar y servir."
+        "text": "Distribuir sobre el pan."
+      },
+      {
+        "text": "Sumar rodajas de tomate."
+      },
+      {
+        "text": "Láminas de palmito y hojitas de albahaca."
+      },
+      {
+        "text": "Cerrar y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uxXv2WRDx4k",
+    "videoTitle": "Sandwich de tataki de atún con salsa tártara en Districte8",
+    "videoChannel": "axelchefencasa"
   },
   {
     "id": "sandwich-bocata-dorado-atun",
@@ -19745,13 +19838,25 @@
     ],
     "steps": [
       {
-        "text": "Formar una pasta con el atún, huevos duros, pepinillos, apio, mayonesa y limón; rellenar y cerrar los sándwiches."
+        "text": "Formar una pasta con el atún."
+      },
+      {
+        "text": "Huevos duros."
+      },
+      {
+        "text": "Mayonesa y limón."
+      },
+      {
+        "text": "Rellenar y cerrar los sándwiches."
       },
       {
         "text": "Pasar apenas por huevo batido con leche y dorar en sartén con manteca 3 minutos por lado.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZcMOzAd3U1k",
+    "videoTitle": "El bocadillo de atún definitivo (con trucos para mejorar cualquier bocata) | EL COMIDISTA",
+    "videoChannel": "El Comidista en EL PAÍS"
   },
   {
     "id": "sandwich-atun-huevo-repollo-morado",
@@ -19795,12 +19900,24 @@
     ],
     "steps": [
       {
-        "text": "Mezclar el atún con su aceite y el huevo duro picado, condimentando con pimienta blanca."
+        "text": "Mezclar el atún con su aceite y el huevo duro picado."
       },
       {
-        "text": "Distribuir sobre el pan integral, sumar el repollo morado crocante, tapar y cortar en triángulos."
+        "text": "Condimentando con pimienta blanca."
+      },
+      {
+        "text": "Distribuir sobre el pan integral."
+      },
+      {
+        "text": "Sumar el repollo morado crocante."
+      },
+      {
+        "text": "Tapar y cortar en triángulos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-oLPH-ksnM4",
+    "videoTitle": "Un SÁNDWICH DE ATÚN Y HUEVO tan sencillo y SUPER RICO!",
+    "videoChannel": "Cecilia Tupac"
   },
   {
     "id": "sandwich-mediterraneo-atun-anchoas",
@@ -20119,10 +20236,16 @@
         "text": "Armar los sándwiches con doble queso Colonia y jamón cocido en el centro."
       },
       {
-        "text": "Batir la leche con el gruyere rallado, humedecer apenas los sándwiches y dorarlos en manteca a fuego medio hasta fundir.",
+        "text": "Batir la leche con el gruyere rallado."
+      },
+      {
+        "text": "Humedecer apenas los sándwiches y dorarlos en manteca a fuego medio hasta fundir.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=2qGaknTNtL8",
+    "videoTitle": "Sándwich croque monsieur (receta fácil y rápida)",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "sandwich-tostado-frances-gruyere-bechamel",
@@ -20641,13 +20764,19 @@
     ],
     "steps": [
       {
-        "text": "Colocar sobre la rodaja de pan el jamón cocido, el queso rallado y rociar con la crema de leche."
+        "text": "Colocar sobre la rodaja de pan el jamón cocido."
+      },
+      {
+        "text": "El queso rallado y rociar con la crema de leche."
       },
       {
         "text": "Hornear a 200 °C unos 6 minutos hasta gratinar y servir con hojas verdes.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=nNMentWyt0A",
+    "videoTitle": "¡Cómo hacer Tostadas Francesas Rellenas de Jamón y Queso! | Receta Fácil",
+    "videoChannel": "TULIO Recomienda"
   },
   {
     "id": "sandwich-calentito-brioche-jamon-crudo",
@@ -21658,7 +21787,10 @@
       {
         "text": "Serví la trucha con las papas rociadas con la manteca derretida y el jugo de limón, y acompañá con la ensalada aliñada."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Behp8h4Qy0o",
+    "videoTitle": "Vamos hacer Trucha Frita con papa y Ensalada / Todo Fresco",
+    "videoChannel": "Mamita Julia"
   },
   {
     "id": "light-almuerzo-2-albondigas-champinones",
@@ -21867,7 +21999,10 @@
       {
         "text": "Armá la ensalada con el morrón sin semillas, el tomate restante en rodajas, la cebolla restante, pepinillos y lechuga en tiras. Mezclá el yogur con 1 cucharada de limón, gotas de vinagre, hierbas, sal y pimienta y aliñá."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=TscevQW_WcE",
+    "videoTitle": "😋 La Ensalada Para Acompañar El Pescado. 🐟",
+    "videoChannel": "Celebra La Vida! - RECETAS"
   },
   {
     "id": "light-almuerzo-4-lentejas-manzanas-gratinadas",
@@ -22209,7 +22344,10 @@
       {
         "text": "Armá la ensalada sobre lechuga troceada con los espárragos marinados, su marinada, la crema batida light y el huevo duro en rodajas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=kZZcJOWsOwg",
+    "videoTitle": "Cena fácil-Ensalada Con Esparragos y Salmón.",
+    "videoChannel": "CocinandoConNines"
   },
   {
     "id": "light-cena-1-tortilla-hongos-ensalada-anana",
@@ -23007,7 +23145,10 @@
       {
         "text": "Acomodá alrededor los huevos duros en gajos, los tomates y las papas en rodajas alternando con tiras de morrón. Terminá con la mayonesa light."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=tHrLV1wJvgQ",
+    "videoTitle": "Ensalada de Patatas, Atún y Huevo 🥗😋",
+    "videoChannel": "Vida Natural Online"
   },
   {
     "id": "fit250-ensalada-esparragos-huevos",
@@ -23650,12 +23791,21 @@
     ],
     "steps": [
       {
-        "text": "Escurrí y enfriá bien las cuatro legumbres. Disponé en el fondo de una fuente la lechuga en juliana apenas salada."
+        "text": "Escurrí y enfriá bien las cuatro legumbres."
       },
       {
-        "text": "Agregá por encima las legumbres frías y las hojas de endibia en tiras, cubrí con las fetas de jamón crudo y aliñá con aceite de oliva."
+        "text": "Disponé en el fondo de una fuente la lechuga en juliana apenas salada."
+      },
+      {
+        "text": "Agregá por encima las legumbres frías y las hojas de endibia en tiras."
+      },
+      {
+        "text": "Cubrí con las fetas de jamón crudo y aliñá con aceite de oliva."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vwkDD2xV4jg",
+    "videoTitle": "Ensalada de Alubias - Ensalada de Legumbres Fácil, Refrescante y Deliciosa",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "fit250-ensalada-anana-mariscos",
@@ -23722,7 +23872,10 @@
       {
         "text": "Armá en copas o platos con base de lechuga, unas gotas de limón, los camarones, el kanikama y el ananá. Salpimentá y coroná con la salsa y una rodaja de limón."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_TPGATqdkMI",
+    "videoTitle": "Piña Rellena de Ensalada Hawaiana con Camarones | Shrimp Salad Stuffed Pineapple",
+    "videoChannel": "kiwilimón"
   },
   {
     "id": "fit250-ensalada-campera-camarones",
@@ -23815,7 +23968,10 @@
       {
         "text": "Mezclá todo con el atún escurrido y los camarones, aliñá con aceite de oliva, vinagre y sal, y serví con los huevos duros y perejil."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=jcQSFFZlFAc",
+    "videoTitle": "ENSALADA CAMPERA  con ATÚN. Fresca y deliciosa!!!",
+    "videoChannel": "Bocados Sabrosos"
   },
   {
     "id": "fit250-ensalada-arroz-kanikama",
@@ -23874,13 +24030,22 @@
     ],
     "steps": [
       {
-        "text": "Herví el arroz en agua con sal, escurrilo y dejalo enfriar en una fuente.",
+        "text": "Herví el arroz en agua con sal."
+      },
+      {
+        "text": "Escurrilo y dejalo enfriar en una fuente.",
         "timerMinutes": 18
       },
       {
-        "text": "Sumá los morrones en tiras, el choclo y el kanikama en trocitos. Aliñá con aceite, vinagre y sal, decorá con huevo duro en rodajas y llevá a la heladera antes de servir."
+        "text": "Sumá los morrones en tiras, el choclo y el kanikama en trocitos."
+      },
+      {
+        "text": "Aliñá con aceite, vinagre y sal, decorá con huevo duro en rodajas y llevá a la heladera antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=QktznhI95xA",
+    "videoTitle": "Ensalada de Arroz fácil, fresquita y deliciosa",
+    "videoChannel": "Cocina Para Todos"
   },
   {
     "id": "fit250-ensalada-camarones-papa",
@@ -23934,13 +24099,25 @@
     ],
     "steps": [
       {
-        "text": "Herví las papas y la zanahoria hasta que estén tiernas, dejá enfriar, pelá y cortá en cubitos chicos.",
+        "text": "Herví las papas y la zanahoria hasta que estén tiernas."
+      },
+      {
+        "text": "Dejá enfriar."
+      },
+      {
+        "text": "Pelá y cortá en cubitos chicos.",
         "timerMinutes": 20
       },
       {
-        "text": "Mezclá en un bol las papas, zanahoria, arvejas, cebolla, camarones, mayonesa y sal. Llevá 1 hora a la heladera antes de servir."
+        "text": "Mezclá en un bol las papas, zanahoria, arvejas, cebolla, camarones, mayonesa y sal."
+      },
+      {
+        "text": "Llevá 1 hora a la heladera antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=d4KH3nXl90o",
+    "videoTitle": "Ensalada de papas con camarones",
+    "videoChannel": "Laylita.com: Recetas y Cocina"
   },
   {
     "id": "fit250-ensalada-pasta-langostinos",
@@ -23999,12 +24176,21 @@
     ],
     "steps": [
       {
-        "text": "Colocá la pasta fría como base en una fuente y disponé encima el tomate en cubitos, las chauchas y la lechuga en los bordes."
+        "text": "Colocá la pasta fría como base en una fuente y disponé encima el tomate en cubitos."
       },
       {
-        "text": "Acomodá los langostinos cortados al medio a lo largo y aliñá con aceite de oliva, vinagre de manzana y sal."
+        "text": "Las chauchas y la lechuga en los bordes."
+      },
+      {
+        "text": "Acomodá los langostinos cortados al medio a lo largo y aliñá con aceite de oliva."
+      },
+      {
+        "text": "Vinagre de manzana y sal."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yNetVO394wM",
+    "videoTitle": "ENSALADA DE CAMARÓN CON PASTA RENDIDORA BUENÍSIMA 🔴en vivo",
+    "videoChannel": "COCINA DE IGNACIO"
   },
   {
     "id": "fit250-ensalada-lentejas-langostinos",
@@ -24140,7 +24326,10 @@
       {
         "text": "Acomodá una anchoa sobre cada cuarto de cogollo y rociá con la vinagreta."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8cTBxa0lXFI",
+    "videoTitle": "Cogollos de lechuga con anchoas, ajo y vinagreta de encurtidos 🥬🥬",
+    "videoChannel": "Orielo’s Kitchen. Recetas sin lactosa"
   },
   {
     "id": "fit250-ensalada-atun-tomate-papas",
@@ -24213,7 +24402,10 @@
       {
         "text": "Batí el vinagre con sal, una pizca de azúcar, pimienta y aceite, aliñá y dejá reposar en frío para que tome sabor."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wSSCU_ofs8A",
+    "videoTitle": "LA MEJOR ENSALADA DE PAPA CON ATÚN  QUE VAS A PREPARAR 🤤",
+    "videoChannel": "Mantequiando con Adriana"
   },
   {
     "id": "fit250-ensalada-atun-morrones",
@@ -24359,9 +24551,21 @@
         "text": "Acomodá las hojas de lechuga en una fuente con el atún en trozos y las aceitunas encima."
       },
       {
-        "text": "Picá bien fino los huevos duros, el tomate, los pepinillos y el morrón asado; mezclá con aceite, vinagre, perejil y sal, y aliñá."
+        "text": "Picá bien fino los huevos duros."
+      },
+      {
+        "text": "Los pepinillos y el morrón asado."
+      },
+      {
+        "text": "Mezclá con aceite."
+      },
+      {
+        "text": "Perejil y sal."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0iOF_NkB6-w",
+    "videoTitle": "ENSALADA DE PIMIENTOS, ATÚN Y HUEVO. PREPARACIÓN EN 5 MINUTOS. Pimientos con una vinagreta especial.",
+    "videoChannel": "Cocina Casera Con Nani"
   },
   {
     "id": "fit250-ensalada-berros-salmon",
@@ -24428,7 +24632,10 @@
       {
         "text": "Mezclá jugo de limón, mostaza, aceite de oliva y sal, rociá la ensalada y terminá con alcaparras."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_KhTlwq0oGs",
+    "videoTitle": "Ensalada de burrata y salmón ahumado",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "fit250-ensalada-pasta-atun-escarola",
@@ -28338,7 +28545,10 @@
       {
         "text": "Probar y rectificar si hiciera falta antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eFLN5Yg3VH4",
+    "videoTitle": "Receta de salsa rosa - Karlos Arguiñano",
+    "videoChannel": "Hogarmania"
   },
   {
     "id": "ensaladas-arroz-integral-espinaca-nueces",
@@ -29067,7 +29277,10 @@
       {
         "text": "Servir los rollitos sobre las hojas verdes y los cherrys, rociar con la vinagreta de frutos secos, espolvorear el resto de frutos y pasas, y terminar con el aceto reducido."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Y8IsGB_YRVw",
+    "videoTitle": "Ensalada de Melón con Jamón ¡Este verano no paro de hacerla!",
+    "videoChannel": "Casserola club"
   },
   {
     "id": "ensaladas-queso-fresco-frutillas-miel",
@@ -29310,7 +29523,10 @@
       {
         "text": "Emulsionar 2 cdas de aceite de oliva con la mostaza y sal. Montar las hojas verdes con la cebolla frita, las papas asadas, el atún, el sésamo, el queso y la vinagreta."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-y4XFOxJZtQ",
+    "videoTitle": "Ensalada de Papa con Atún: ¡El Secreto que Cambió Todo!",
+    "videoChannel": "Taty Enseña"
   },
   {
     "id": "ensaladas-marinera-salmon-langostinos-papa",
@@ -29378,7 +29594,10 @@
       {
         "text": "Condimentar con sal, pimienta negra, aceite de oliva y un hilo de aceto balsámico reducido."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=o3eBcHUVEaw",
+    "videoTitle": "🥔 🍅 ENSALADA DE PATATA Y SALMÓN AHUMADO ¡Tan fácil como saludable!🌹",
+    "videoChannel": "Cocinando con Rosa"
   },
   {
     "id": "ensaladas-tibia-pollo-panceta-cabra",
@@ -29614,7 +29833,10 @@
       {
         "text": "Terminar con una pizca de sal y un hilo de aceite de oliva."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Ae81FiAhRag",
+    "videoTitle": "Ensalada de pimientos asados, atún y huevo aliñados | Entrantes para Navidad",
+    "videoChannel": "Orielo’s Kitchen. Recetas sin lactosa"
   },
   {
     "id": "ensaladas-hojas-verdes-jamon-curry",
@@ -30100,7 +30322,10 @@
       {
         "text": "Disponer las lechugas limpias en una fuente, mezclar con un poco de aderezo, agregar el atún, el maní picado y los huevos, y bañar con más aderezo."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=TZBU_gojR54",
+    "videoTitle": "🥗  La Ensalada de Atún que Nadie Prepara Así (y Deberían)",
+    "videoChannel": "Ingrediente 791"
   },
   {
     "id": "veracruz-ensalada-rabanitos-pepino-palta",
@@ -34820,7 +35045,10 @@
         "text": "Para cocinar tres sartenes, se necesitan unos 25 minutos; los tiempos pueden variar dependiendo de su freidora, pero también de la cantidad",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=JoTUnrzNa9c",
+    "videoTitle": "Costillas de cerdo en airfryer | Crujientes y jugosas | Receta fácil y rápida",
+    "videoChannel": "Hoy me cuido "
   },
   {
     "id": "airfryer-costillitas-de-cerdo-a-la-barbacoa-en-freidora",
@@ -34878,7 +35106,10 @@
       {
         "text": "Dé la vuelta a las chuletas directamente en la cesta y pincélelas por el otro lado, luego continúe la cocción a una temperatura mayor de 200°"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ru-zRPZ-nFI",
+    "videoTitle": "😋 ¡No te Pierdas estas Costillas en Salsa Barbacoa Hechas en tu Airfyer! 🍖",
+    "videoChannel": "Maria Chefdemicasa"
   },
   {
     "id": "airfryer-costillas-de-cerdo-al-pimenton-y-romero-en-freidora",
@@ -34933,7 +35164,10 @@
         "text": "Tras 10 minutos de cocción, darles la vuelta directamente sobre la cesta y continuar la cocción durante otros 10 a 15 minutos (los tiempos",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yyL09dSQztY",
+    "videoTitle": "COSTILLAR DE CERDO AL ROMERO EN FREIDORA DE AIRE",
+    "videoChannel": "La cocina de María y Miki"
   },
   {
     "id": "airfryer-salchichas-y-papas-en-freidora",
@@ -35236,7 +35470,10 @@
       {
         "text": "Calentar a fuego moderado y dejar que espese, sazonando con sal y"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GOP9Urtlfp0",
+    "videoTitle": "EMBUTIDO SANO, SIN ADITIVOS! LOMO DE CERDO A LA NARANJA SOLO 3 INGREDIENTES",
+    "videoChannel": "Recetas de Esbieta"
   },
   {
     "id": "airfryer-bifes-de-cuadril-con-muzzarella-en-freidora",
@@ -35414,7 +35651,10 @@
         "text": "Una vez transcurridos los 7 minutos, abrir la cesta, dar la vuelta a las hamburguesas, rociarlas con un poco más de aceite y ponerlas a 200° durante otros 5 minutos.",
         "timerMinutes": 7
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZzQhLPEl7lQ",
+    "videoTitle": "Albóndigas de Carne: una receta increíble! (albóndigas de carne picada)",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "airfryer-albondigas-en-salsa-de-tomate-en-freidora",
@@ -35495,7 +35735,10 @@
         "text": "Rocíe las albóndigas con spray de cocina y cocínelas durante 8/10 minutos.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=08H8EAb0Y6M",
+    "videoTitle": "Receta albondigas con salsa de tomate y miel en #airfryer",
+    "videoChannel": "Airfryer Recetas Rapidas"
   },
   {
     "id": "airfryer-pastel-de-carne-y-champinones-en-freidora",
@@ -35578,7 +35821,10 @@
         "text": "Deje que la carne se enfríe durante al menos 10 minutos antes de",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EYM-B4jHAh0",
+    "videoTitle": "Pastel de carne y salsa con champiñones #recetassanotas2.0 #pasteldecarne #champiñonesensalsa",
+    "videoChannel": "Las recetas de mamauniversitaria2.0 "
   },
   {
     "id": "airfryer-arrolladitos-de-carne-con-panceta-y-queso-en-freidora",
@@ -35642,7 +35888,10 @@
         "text": "Programar la función carne (o grill) y cocinar durante unos 8-9 minutos a 180º C, aumentando la temperatura a 200º C durante otros 4",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=efpO2ISBY64",
+    "videoTitle": "Rollo de Carne Relleno de Jamón y Queso",
+    "videoChannel": "kiwilimón"
   },
   {
     "id": "airfryer-bife-con-morrones-en-freidora",
@@ -35787,7 +36036,10 @@
         "text": "Cocine con la función de verduras a 200º C durante al menos 15",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZxYEG9IsHRE",
+    "videoTitle": "Receta fácil y rápida Pimientos Morrones Rellenos de Carne y Queso 🧀🫑 en freidora de aire Gourmia",
+    "videoChannel": "Sofi's Tips"
   },
   {
     "id": "airfryer-zapallitos-rellenos-de-carne-en-freidora",
@@ -35866,7 +36118,10 @@
       {
         "text": "Servir caliente."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0koW9CS4EAY",
+    "videoTitle": "ZAPALLITOS RELLENOS para enamorar",
+    "videoChannel": "miel house"
   },
   {
     "id": "airfryer-costillas-de-cordero-empanadas-en-freidora",
@@ -35927,7 +36182,10 @@
         "text": "Poner el programa de fritura en la freidora de aire a una temperatura de 180 grados durante un cuarto de hora a 20 minutos, colocar las costillas directamente en la cesta de la freidora, acordándose de girar",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aLTO981QUnA",
+    "videoTitle": "Chuletas de cordero empanadas",
+    "videoChannel": "Andalucía Videorecetas"
   },
   {
     "id": "airfryer-costillas-de-cordero-con-papas-en-freidora",
@@ -35994,7 +36252,10 @@
       {
         "text": "Sirve las costillas calientes"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eKZYR54flXE",
+    "videoTitle": "Costillar de Cordero | La Capital",
+    "videoChannel": "La Capital"
   },
   {
     "id": "airfryer-alitas-de-pollo-a-la-barbacoa-en-freidora",
@@ -37000,7 +37261,10 @@
       {
         "text": "Si la cesta no es lo suficientemente grande, puede repetir la misma operación varias veces."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=gRW7ON9nXQg",
+    "videoTitle": "MEJILLONES GRATINADOS 🌟 Receta fácil y con mucho sabor",
+    "videoChannel": "Cocina A Buenas Horas"
   },
   {
     "id": "airfryer-croquetas-de-camarones-en-freidora",
@@ -37211,7 +37475,10 @@
       {
         "text": "Compruebe el tiempo de cocción, si están cocidos, cocine los otros"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vWn-litmYko",
+    "videoTitle": "🍤 GAMBAS al AJILLO en Freidora de Aire: 🎉 La Receta que deber Probar! 100 Recetas en Airfyer",
+    "videoChannel": "Maria Chefdemicasa"
   },
   {
     "id": "airfryer-merluza-en-costra-de-hierbas-en-freidora",
@@ -37423,7 +37690,10 @@
         "text": "Una vez transcurridos los 8 minutos, abra la cesta, dé la vuelta a las hamburguesas, rocíe con más aceite y continúe la cocción durante",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_4q_QPHJ8uY",
+    "videoTitle": "Las mas ricas albóndigas de atún 🍣 👌🙌🏻",
+    "videoChannel": "Recetas Aguililla con Nina"
   },
   {
     "id": "airfryer-salmon-en-costra-crocante-en-freidora",
@@ -37520,7 +37790,10 @@
         "text": "Coloque la bandeja de hornear en la cesta y programe a 200° durante 12 minutos.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EBvSG3tLxzQ",
+    "videoTitle": "MASTER CLASS p/Salud del Cerebro y Corazón. SALMÓN EN COSTRA DE PISTACHE Y ALMENDRA |Cocina de Addy",
+    "videoChannel": "Cocina de Addy"
   },
   {
     "id": "airfryer-tartaletas-de-atun-en-freidora",
@@ -37608,7 +37881,10 @@
       {
         "text": "Servir aún caliente."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=RhwvIpEGlrE",
+    "videoTitle": "Tartaletas templadas de atún. Aperitivo fácil",
+    "videoChannel": "Cuuking"
   },
   {
     "id": "airfryer-bastones-de-zanahoria-crocantes-en-freidora",
@@ -38906,7 +39182,10 @@
         "text": "Cocinar los huevos 5 minutos hasta que cuajen y servir junto a los bifes.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=AkZgoJ3fwjU",
+    "videoTitle": "Huevos al Plato en Freidora de Aire ¡Deliciosos y Asombrosamente Fáciles! 😋 100 Recetas  en Airfryer",
+    "videoChannel": "Maria Chefdemicasa"
   },
   {
     "id": "airfryer-cupcakes-doble-chocolate",
@@ -39409,7 +39688,10 @@
         "text": "Cocinar 12 a 15 minutos hasta que la trucha esté cocida y jugosa.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=L5-Opeyo1rc",
+    "videoTitle": "trucha en salsa de ajo facil y deliciosa",
+    "videoChannel": "Sandra al dia"
   },
   {
     "id": "airfryer-camarones-queso-pan-pita",
@@ -39482,7 +39764,10 @@
       {
         "text": "Rellenar los panes pita tibios con los camarones, tomate, lechuga si se desea, queso, aceitunas y jugo de limón."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=mt6u4GwDaA4",
+    "videoTitle": "Camarones con mantequilla y queso.😋 /Cocinando A la Periqué",
+    "videoChannel": "Cocinando A la Periqué"
   },
   {
     "id": "airfryer-alitas-picantes-soja-sesamo",
@@ -39697,7 +39982,10 @@
       {
         "text": "Cortar la carne en rodajas y servir con el condimento de morrón por encima."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=md2joaLU4wg",
+    "videoTitle": "COSTILLAS ASADAS CON SALSA DE MIEL Y MOSTAZA",
+    "videoChannel": "La cocina de Masito"
   },
   {
     "id": "airfryer-berenjena-rellena-porotos-rojos",
@@ -40390,7 +40678,10 @@
         "text": "Gratinar en la freidora a 170 °C durante 20 a 25 minutos hasta que burbujee y dore.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=y4DB4T4LHuo",
+    "videoTitle": "Berenjenas Rellenas de Carne Gratinadas | Receta Fácil y Deliciosa",
+    "videoChannel": "Rico Rico Recetas"
   },
   {
     "id": "airfryer-medialunas-dulces-nuez",
@@ -40811,7 +41102,10 @@
         "text": "Hornear a 155 °C durante 35 minutos hasta que cuaje en el centro y quede dorado.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=3rk2vpr7Ov4",
+    "videoTitle": "SANDWICH BIKINI 🥪 en FREÍDORA DE AIRE sin MANTEQUILLA (de JAMÓN y QUESO) 🍳 en MINUTOS (AIRFRYER)",
+    "videoChannel": "La Cocina de la Abuela"
   },
   {
     "id": "airfryer-galletitas-nuez-yema",
@@ -41538,7 +41832,10 @@
         "text": "Cociná en la freidora a 185 °C durante 12 minutos girándolos a los 6 minutos.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=sM0jgkY09aA",
+    "videoTitle": "✨ lomos de atún en salsa // receta fácil y rápida ✨",
+    "videoChannel": "que comemos hoy?"
   },
   {
     "id": "airfryer-croquetas-de-arvejas",
@@ -42916,7 +43213,10 @@
         "text": "Acomodá en la canasta de la freidora sin encimar (en dos tandas si hace falta) y cociná a 195 °C durante 4 minutos hasta que la masa dore.",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=fHGYId7lM9c",
+    "videoTitle": "Haciendo Panchos Envueltos en La Mesita (salchichas envueltas)",
+    "videoChannel": "La Mesita de cocina"
   },
   {
     "id": "airfryer-sandwich-caliente-cheddar",
@@ -43225,7 +43525,10 @@
         "text": "Mientras tanto, cociná en una sartén 2 cdas de manteca con 2 cdas de harina, sumá la leche de a poco y revolvé 3 minutos hasta espesar con abundante pimienta.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ajYBvz60YUg",
+    "videoTitle": "Carne en freidora de aire: Milanesa de res | Recetas de freidora de aire",
+    "videoChannel": "COCINANDO CON MAYPA"
   },
   {
     "id": "airfryer-hamburguesas-caseras-clasicas",
@@ -43325,7 +43628,10 @@
         "text": "Retirá y dejá reposar 10 minutos antes de filetear para conservar sus jugos.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GoDoHr0THLA",
+    "videoTitle": "Cómo cocinar el entrecot perfecto - Truco para que quede jugoso",
+    "videoChannel": "Teka España"
   },
   {
     "id": "airfryer-arroz-frito-pollo-verduras",
@@ -43613,7 +43919,10 @@
         "text": "Cociná el filete con la piel hacia arriba durante 7 minutos a 180 °C y serví con jugo de limón.",
         "timerMinutes": 7
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Ku5uUj7m46Y",
+    "videoTitle": "Salmón con mantequilla y limón en 15 minutos | EL COMIDISTA",
+    "videoChannel": "El Comidista en EL PAÍS"
   },
   {
     "id": "airfryer-pescado-blanco-empanado",
@@ -43723,7 +44032,10 @@
         "text": "Armá los tacos con el pescado crocante, ensalada de repollo, guacamole, cilantro y jugo de limón.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=C4ogoNJMU8Q",
+    "videoTitle": "TACOS DE PESCADO, crocantes como los de Baja!",
+    "videoChannel": "Chef JoséRa Castillo"
   },
   {
     "id": "airfryer-coliflor-crocante-picante",
@@ -44951,7 +45263,10 @@
         "text": "Rellená cada tortilla con la carne, tomate, cebolla, palta y un toque de crema de leche.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=MSnBlgciEsU",
+    "videoTitle": "Los Mejores Tacos de Carne Molida",
+    "videoChannel": "Jauja Cocina Mexicana"
   },
   {
     "id": "cocina-tacos-al-pastor-cerdo-anana",
@@ -45011,7 +45326,10 @@
         "text": "Serví sobre tortillas tibias con cubitos de ananá fresco, cilantro y jugo de limón.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=TRg9mM1M8SA",
+    "videoTitle": "Receta TACOS AL PASTOR con mi salsa de piña! De lujo de sabrosos.",
+    "videoChannel": "COCINA DE IGNACIO"
   },
   {
     "id": "cocina-tacos-tinga-de-pollo",
@@ -45219,14 +45537,22 @@
     ],
     "steps": [
       {
-        "text": "Colocá la carne y todas las verduras con el ajo, comino y sal en una olla grande cubierta con agua.",
-        "timerMinutes": 0
+        "text": "Colocá la carne y todas las verduras con el ajo."
       },
       {
-        "text": "Cociná tapado a fuego suave durante 1 hora y media hasta que la carne y las verduras estén muy tiernas; serví con jugo de limón y perejil.",
+        "text": "Comino y sal en una olla grande cubierta con agua."
+      },
+      {
+        "text": "Cociná tapado a fuego suave durante 1 hora y media hasta que la carne y las verduras estén muy tiernas."
+      },
+      {
+        "text": "Serví con jugo de limón y perejil.",
         "timerMinutes": 90
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=2zBNc-AXNWQ",
+    "videoTitle": "Caldo casero de carne y verduras Javier Romero",
+    "videoChannel": "Las recetas de Javier Romero"
   },
   {
     "id": "cocina-sopa-azteca-tortilla-pollo",
@@ -45614,10 +45940,18 @@
         "timerMinutes": 30
       },
       {
-        "text": "Mezclá con el tomate, cebolla, pepino, rabanitos, ajo, cilantro y salsa de tomate; refrigerá 1 hora y serví frío.",
-        "timerMinutes": 0
+        "text": "Mezclá con el tomate."
+      },
+      {
+        "text": "Cilantro y salsa de tomate."
+      },
+      {
+        "text": "Refrigerá 1 hora y serví frío."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=QbyEatkjQUg",
+    "videoTitle": "Ceviche de camarón Colombiano",
+    "videoChannel": "Candelo Cocina"
   },
   {
     "id": "cocina-chili-carne-chorizo-porotos",
@@ -45737,7 +46071,10 @@
         "text": "Prepará la salsa frita rehogando cebolla de verdeo en aceite con pimentón fuera del fuego y serví por encima de cada plato.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vX0KYKAkBTU",
+    "videoTitle": "Locro Criollo Tradicional Argentino | Receta de Locos X el Asado",
+    "videoChannel": "Locos X el Asado"
   },
   {
     "id": "cocina-puchero-criollo-completo",
@@ -45792,7 +46129,10 @@
         "text": "Cocé aparte los chorizos pinchados y la panceta 40 minutos (y las morcillas los últimos 5 minutos); serví en fuentes separadas.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aQ3AafAuIPQ",
+    "videoTitle": "Puchero criollo (Parte 1)",
+    "videoChannel": "Cocineros Argentinos"
   },
   {
     "id": "cocina-guiso-mondongo-criollo",
@@ -45892,7 +46232,10 @@
         "text": "Dala vuelta y asá 30 minutos más del otro lado; retirá en tabla y rociá con jugo de limón.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=2uOQTe9nKcA",
+    "videoTitle": "Asado de Tira - Receta Locos X el Asado",
+    "videoChannel": "Locos X el Asado"
   },
   {
     "id": "sin-coccion-chimichurri-casero-asado",
@@ -45998,7 +46341,10 @@
         "text": "Escurrí sobre papel absorbente, hacé los huevos fritos y serví sobre cada milanesa.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=va8Yt0QtMrw",
+    "videoTitle": "Milanesas con Papas Fritas a Caballo #FenómenoJuan | Cook & Laucha 2x1",
+    "videoChannel": "Tastemade Español"
   },
   {
     "id": "horno-pastel-papas-clasico-aceitunas",
@@ -46108,7 +46454,10 @@
         "text": "Herví en abundante agua a fuego suave durante 2 horas; dejá enfriar prensado antes de cortar en rodajas.",
         "timerMinutes": 120
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=w3cDdX5ybeY",
+    "videoTitle": "MATAMBRE ARROLLADO 😘😍|  MATAMBRE RELLENO PASO A PASO!!",
+    "videoChannel": "Pathalma"
   },
   {
     "id": "horno-humitas-en-chala",
@@ -46213,7 +46562,10 @@
         "text": "Sellá los bifes en plancha bien caliente de 5 a 7 minutos por lado sin moverlos; serví con las papas.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=5DfM8VxMzkQ",
+    "videoTitle": "Cucinare TV - \"Bife de chorizo con papas a caballo\"",
+    "videoChannel": "Cucinare"
   },
   {
     "id": "horno-empanadas-criollas-clasicas",
@@ -46268,7 +46620,10 @@
         "text": "Horneá a 190 °C de 20 a 25 minutos hasta que estén bien doradas.",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DOCbdn1-OXU",
+    "videoTitle": "🥩Empanadas de CARNE Criollas Jugosas🥟 | Cocina de Restaurante en Casa",
+    "videoChannel": "Cocina de Restaurante en Casa"
   },
   {
     "id": "horno-empanadas-saltenas-papa",
@@ -46323,7 +46678,10 @@
         "text": "Armá las empanadas humedeciendo los bordes y horneá a 220 °C de 15 a 20 minutos hasta dorar.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eWPzfMwVN3w",
+    "videoTitle": "Cómo Hacer Empanadas Salteñas - Receta Tradicional del Norte Argentino",
+    "videoChannel": "El Pastificio de Nicola"
   },
   {
     "id": "horno-empanadas-carne-berenjena",
@@ -46367,14 +46725,32 @@
     ],
     "steps": [
       {
-        "text": "Salteá la cebolla, el morrón y la berenjena en oliva hasta que estén tiernos; mezclá con la carne cocida, ajo, pasas, comino, sal y pimienta.",
+        "text": "Salteá la cebolla."
+      },
+      {
+        "text": "El morrón y la berenjena en oliva hasta que estén tiernos."
+      },
+      {
+        "text": "Mezclá con la carne cocida."
+      },
+      {
+        "text": "Sal y pimienta.",
         "timerMinutes": 12
       },
       {
-        "text": "Rellená las tapas, cerrá con repulgue, pinchá con tenedor y horneá a 210 °C unos 30 a 35 minutos hasta dorar.",
+        "text": "Rellená las tapas."
+      },
+      {
+        "text": "Cerrá con repulgue."
+      },
+      {
+        "text": "Pinchá con tenedor y horneá a 210 °C unos 30 a 35 minutos hasta dorar.",
         "timerMinutes": 32
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uweI51hZ5Ug",
+    "videoTitle": "Las MEJORES EMPANADAS de CARNE 🥟 de la mano de Christian Petersen | El Gourmet",
+    "videoChannel": "elGourmet"
   },
   {
     "id": "horno-empanadas-matambre-cerdo",
@@ -46429,7 +46805,10 @@
         "text": "Rellená las tapas, cerrá con repulgue y horneá a 180 °C por 20 minutos hasta que estén doradas.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=z7o-TfyYauM",
+    "videoTitle": "Empanadas de Matambre de Cerdo con Salsa Picante Agridulce | Receta de Locos X el Asado",
+    "videoChannel": "Locos X el Asado"
   },
   {
     "id": "horno-empanadas-jamon-queso",
@@ -46672,14 +47051,32 @@
     ],
     "steps": [
       {
-        "text": "Cociná la carne picada en sartén con cebolla, ajo, agua y condimentos hasta dorar; mezclá con el puré de papa.",
+        "text": "Cociná la carne picada en sartén con cebolla."
+      },
+      {
+        "text": "Agua y condimentos hasta dorar."
+      },
+      {
+        "text": "Mezclá con el puré de papa.",
         "timerMinutes": 12
       },
       {
-        "text": "Forrá una tartera con una masa, volcá el relleno, tapá con el otro disco, hacé cortes para el vapor y horneá 25 minutos a 210 °C.",
+        "text": "Forrá una tartera con una masa."
+      },
+      {
+        "text": "Volcá el relleno."
+      },
+      {
+        "text": "Tapá con el otro disco."
+      },
+      {
+        "text": "Hacé cortes para el vapor y horneá 25 minutos a 210 °C.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=moSwW1A9wbM",
+    "videoTitle": "Pascualina de Verdura con Carne",
+    "videoChannel": "Soledad Ritrovato"
   },
   {
     "id": "horno-tarta-souffle-espinaca-ricota",
@@ -46989,7 +47386,10 @@
       "protein": "22g",
       "carbs": "6g",
       "fat": "23g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Z8ivsedznno",
+    "videoTitle": "BROCHETAS DE SALMÓN GRATINADAS CON ALIOLI",
+    "videoChannel": "Hoy que comemos"
   },
   {
     "id": "cf-ensalada-anana-langostinos",
@@ -47326,7 +47726,10 @@
       "protein": "26g",
       "carbs": "24g",
       "fat": "12g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LDDycPCfhIM",
+    "videoTitle": "Receta de Pulpo a la Gallega o Pulpo a Feira con trucos para Pulpo Tierno y Patatas jugosas",
+    "videoChannel": "La Empana Light de Bego (videos)"
   },
   {
     "id": "cf-mejillones-rellenos-tigres",
@@ -47370,7 +47773,10 @@
       "protein": "15g",
       "carbs": "22g",
       "fat": "16g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SxCxUU0NT48",
+    "videoTitle": "Cómo hacer Mejillones Rellenos - Mejillones Tigre",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "cf-arroz-pollo-ajillo-aceitunas",
@@ -47459,7 +47865,10 @@
       "protein": "22g",
       "carbs": "58g",
       "fat": "7g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NK1gmcS9qwA",
+    "videoTitle": "Arroz Negro con Calamares y Sepia",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "cf-paella-mixta-tradicional",
@@ -47632,7 +48041,10 @@
       "protein": "24g",
       "carbs": "48g",
       "fat": "25g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=i8MmOd8pTRI",
+    "videoTitle": "Receta Fácil De GARBANZOS Con CHORIZO y PANCETA!! 😋 Receta TRADICIONAL!!! 💥💥BRUTAL",
+    "videoChannel": "La cocina de Rambo"
   },
   {
     "id": "cf-papas-riojana-chorizo",
@@ -47717,7 +48129,10 @@
       "protein": "23g",
       "carbs": "56g",
       "fat": "11g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LVFM0Sb-r0E",
+    "videoTitle": "Risotto de champiñones, receta paso a paso.",
+    "videoChannel": "SABORES DE MI CASA"
   },
   {
     "id": "cf-sopa-ajo-castellana",
@@ -47843,7 +48258,10 @@
       "protein": "28g",
       "carbs": "24g",
       "fat": "11g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=cApYWGQFlck",
+    "videoTitle": "SOPA DE PESCADO CON ARROZ 🥣🐟 | Recetas Gallina Blanca",
+    "videoChannel": "Recetas Gallina Blanca"
   },
   {
     "id": "cf-espaguetis-hongos-crema-jamon",
@@ -47968,7 +48386,10 @@
       "protein": "42g",
       "carbs": "32g",
       "fat": "32g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DGVKfMVY8OI",
+    "videoTitle": "Cachopo Asturiano Relleno de Jamón Serrano y Queso (al horno)",
+    "videoChannel": "Platos Fáciles con Tamara"
   },
   {
     "id": "cf-cordero-asado-papas-panadera",
@@ -48010,7 +48431,10 @@
       "protein": "38g",
       "carbs": "26g",
       "fat": "29g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=c0I9jGn1vHQ",
+    "videoTitle": "Paletilla de cordero al horno con patatas panadera",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "cf-merluza-romana",
@@ -48050,7 +48474,10 @@
       "protein": "28g",
       "carbs": "14g",
       "fat": "11g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XhCXCJ77e78",
+    "videoTitle": "Cómo hacer Filet de MERLUZA A LA ROMANA | Receta Rápida | Tenedor Libre",
+    "videoChannel": "Tenedor Libre"
   },
   {
     "id": "cf-solomillo-cerdo-strogonoff",
@@ -48136,7 +48563,10 @@
       "protein": "36g",
       "carbs": "28g",
       "fat": "19g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iM5YT3TjlII",
+    "videoTitle": "Estofado de ternera a la jardinera 🍲",
+    "videoChannel": "Orielo’s Kitchen. Recetas sin lactosa"
   },
   {
     "id": "cf-almendrados-caseros",
@@ -48760,7 +49190,10 @@
       "protein": "19g",
       "carbs": "21g",
       "fat": "15g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=HnL2CGeMYFs",
+    "videoTitle": "Ensalada de Atún con Papa y Huevos | Ideal para el Almuerzo o Cena!",
+    "videoChannel": "El fogón de Oma 🇨🇴"
   },
   {
     "id": "mch-souffle-light-manzana-pera",
@@ -49282,7 +49715,10 @@
       "protein": "38g",
       "carbs": "8g",
       "fat": "21g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qNiClZS_EZ0",
+    "videoTitle": "😱 En 1 minuto SALMÓN al HORNO (TRUCO para que NO quede SECO) con PATATAS, CEBOLLA y TOMATE  🤤",
+    "videoChannel": "Carmen"
   },
   {
     "id": "mch-salmon-especiado-curry",
@@ -49324,7 +49760,10 @@
       "protein": "36g",
       "carbs": "3g",
       "fat": "31g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bHepJyPSPoI",
+    "videoTitle": "Salmón en salsa de ajo y limón",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "mch-bocaditos-merluza-papa",
@@ -49366,7 +49805,10 @@
       "protein": "28g",
       "carbs": "38g",
       "fat": "12g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rjofAbF4rlo",
+    "videoTitle": "Merluza al horno con patatas: receta fácil y rápida",
+    "videoChannel": "Las Recetas de MJ"
   },
   {
     "id": "mch-chupin-merluza-vino-blanco",
@@ -49409,7 +49851,10 @@
       "protein": "42g",
       "carbs": "10g",
       "fat": "7g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nJESQt7e86U",
+    "videoTitle": "Receta fácil de pescado en salsa de vino blanco",
+    "videoChannel": "Recetas Tradicionales de Cocina"
   },
   {
     "id": "mch-caballa-plancha-especiada",
@@ -49531,7 +49976,10 @@
       "protein": "31g",
       "carbs": "21g",
       "fat": "14g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JEfy0kcQdkk",
+    "videoTitle": "Trucha al Ajillo Fácil de Preparar",
+    "videoChannel": "Las Recetas de Clarita"
   },
   {
     "id": "mch-brocheta-conejo-panceta",
@@ -49871,7 +50319,10 @@
       "protein": "33g",
       "carbs": "54g",
       "fat": "14g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TwnY69Gx_4A",
+    "videoTitle": "Lomo de Cerdo jugoso en salsa de mostaza y salvia",
+    "videoChannel": "John Motta"
   },
   {
     "id": "mch-carre-cerdo-cerveza-negra",
@@ -49910,7 +50361,10 @@
       "protein": "36g",
       "carbs": "9g",
       "fat": "16g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=uB5HVWNyW0w",
+    "videoTitle": "Salsa de Cerveza Negra con Solomillo de Cerdo! Receta Locos X el Asado",
+    "videoChannel": "Locos X el Asado"
   },
   {
     "id": "mch-albondigas-cerdo-barbacoa",
@@ -49994,7 +50448,10 @@
       "protein": "31g",
       "carbs": "37g",
       "fat": "22g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rmGw3PM_nIw",
+    "videoTitle": "PREPARAMOS CHULETA DE CERDO EN SALSA DE NARANJA I COMIDA PERUANA",
+    "videoChannel": "SONQU"
   },
   {
     "id": "mch-pan-de-carne-clasico",
@@ -50035,7 +50492,10 @@
       "protein": "34g",
       "carbs": "14g",
       "fat": "20g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YVIIAyg0CVU",
+    "videoTitle": "ARROLLADO DE CARNE PICADA fácil y delicioso pan de carne familiar",
+    "videoChannel": "miel house"
   },
   {
     "id": "mch-relleno-carne-empanadas-tartas",
@@ -50204,7 +50664,10 @@
       "protein": "39g",
       "carbs": "5g",
       "fat": "23g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qnaOSrUTb3g",
+    "videoTitle": "Cómo hacer lomo de cerdo a la mostaza| Una receta fácil y sabrosa.",
+    "videoChannel": "Julia y sus recetas"
   },
   {
     "id": "mch-milanesas-rellenas-jamon-queso",
@@ -50329,7 +50792,10 @@
       "protein": "48g",
       "carbs": "2g",
       "fat": "22g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gOmGTaZtRog",
+    "videoTitle": "Palomita mechada",
+    "videoChannel": "Cocineros Argentinos"
   },
   {
     "id": "inac-sandwich-suprema-pan-felipe",
@@ -50739,7 +51205,10 @@
       "protein": "13g",
       "carbs": "24g",
       "fat": "15g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=m9nZAsrSWnk",
+    "videoTitle": "Saquitos de queso y gambas. ¡Un original y exquisito aperitivo!",
+    "videoChannel": "Los tuppers de mamá. Aurora L. Q."
   },
   {
     "id": "cpd-escalivada-horno",
@@ -50845,11 +51314,17 @@
     ],
     "steps": [
       {
-        "text": "Sofreír aromáticos: En un wok con aceite rehogá la cebolla de verdeo, el ajo y el jengibre durante 2 minutos.",
+        "text": "Sofreír aromáticos: En un wok con aceite rehogá la cebolla de verdeo."
+      },
+      {
+        "text": "El ajo y el jengibre durante 2 minutos.",
         "timerMinutes": 2
       },
       {
-        "text": "Saltear langostinos y mango: Subí el fuego, agregá los langostinos por 2 minutos y sumá las tiras de mango 2 minutos más hasta calentar.",
+        "text": "Saltear langostinos y mango: Subí el fuego."
+      },
+      {
+        "text": "Agregá los langostinos por 2 minutos y sumá las tiras de mango 2 minutos más hasta calentar.",
         "timerMinutes": 4
       }
     ],
@@ -50857,7 +51332,10 @@
       "protein": "24g",
       "carbs": "14g",
       "fat": "8g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2Y4u8O4cap8",
+    "videoTitle": "Ensalada de langostinos, mango y aguacate 🦐🥑 | Recetas de Ensaladas | Lidl España",
+    "videoChannel": "Lidl España"
   },
   {
     "id": "cpd-ensalada-mango-salmon",
@@ -51055,7 +51533,10 @@
       "protein": "31g",
       "carbs": "59g",
       "fat": "12g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wEWe7HRVsGs",
+    "videoTitle": "Fideuà de Mariscos con Gambas y Calamares",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "cpd-risotto-verde-langostinos",
@@ -51098,7 +51579,10 @@
       "protein": "23g",
       "carbs": "56g",
       "fat": "14g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Zs6Mhnd2RCs",
+    "videoTitle": "RISOTTO CON GAMBAS Y ESPINACAS, la receta perfecta para un momento perfecto.",
+    "videoChannel": "CocinArte con Ser"
   },
   {
     "id": "cpd-enfrijoladas-porotos-negros",
@@ -51218,7 +51702,10 @@
       "protein": "9g",
       "carbs": "32g",
       "fat": "20g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Fo_RD7-PhXo",
+    "videoTitle": "La tentación de Jansson | Janssons frestelse",
+    "videoChannel": "Cocina Para Todos"
   },
   {
     "id": "cpd-mini-pastela-pollo",
@@ -51418,7 +51905,10 @@
       "protein": "29g",
       "carbs": "45g",
       "fat": "7g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sDRmeTqHQa0",
+    "videoTitle": "Calamares en su tinta con arroz blanco",
+    "videoChannel": "Recetas de rechupete"
   },
   {
     "id": "cpd-atun-en-escabeche",
@@ -51459,7 +51949,10 @@
       "protein": "30g",
       "carbs": "6g",
       "fat": "8g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NFux2kivGqo",
+    "videoTitle": "Atún en escabeche🐟UN PESCADO AZÚL MUY RICO!!",
+    "videoChannel": "Julia y sus recetas"
   },
   {
     "id": "cpd-guiso-calamares-papas",
@@ -51520,7 +52013,13 @@
     ],
     "steps": [
       {
-        "text": "Preparar el aderezo: Emulsioná el aceite, vinagre, salsa inglesa, mostaza, sal y pimienta en un frasco.",
+        "text": "Preparar el aderezo: Emulsioná el aceite."
+      },
+      {
+        "text": "Salsa inglesa."
+      },
+      {
+        "text": "Sal y pimienta en un frasco.",
         "timerMinutes": 3
       },
       {
@@ -51532,7 +52031,10 @@
       "protein": "21g",
       "carbs": "9g",
       "fat": "22g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=aaLv1-0qdqY",
+    "videoTitle": "Timbal de Salmón Ahumado, Aguacate y Tomate - #delicioso , fácil de hacer y rápido",
+    "videoChannel": "Cocinando con Jenny"
   },
   {
     "id": "cpd-chupa-chups-pollo",
@@ -51618,7 +52120,10 @@
       "protein": "48g",
       "carbs": "12g",
       "fat": "14g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=J4dXBUE50PY",
+    "videoTitle": "Cómo hacer cinta de lomo, con salsa de verduras, al estilo de Mariaje",
+    "videoChannel": "La cocina sana y práctica de Mariaje"
   },
   {
     "id": "cpd-goulash-aleman",
@@ -51683,7 +52188,16 @@
     ],
     "steps": [
       {
-        "text": "Armar las piezas: Colocá 4 tapas sobre papel manteca, poné ketchup, la hamburguesa cruda y una feta de queso encima; tapá con las otras 4 tapas y hacé repulgue.",
+        "text": "Armar las piezas: Colocá 4 tapas sobre papel manteca."
+      },
+      {
+        "text": "Poné ketchup."
+      },
+      {
+        "text": "La hamburguesa cruda y una feta de queso encima."
+      },
+      {
+        "text": "Tapá con las otras 4 tapas y hacé repulgue.",
         "timerMinutes": 8
       },
       {
@@ -51695,7 +52209,10 @@
       "protein": "23g",
       "carbs": "32g",
       "fat": "23g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=A3XrKqc5LKE",
+    "videoTitle": "✨ EMPANADAS DE HAMBURGUESAS✨",
+    "videoChannel": "Made In Casa by Jime"
   },
   {
     "id": "cpd-libros-lomo-jamon-queso",
@@ -51718,11 +52235,20 @@
     ],
     "steps": [
       {
-        "text": "Armar los libros: Salpimentá los bifes, colocá queso y jamón sobre 4 de ellos, tapá con los otros 4 y sujetá con un palillo.",
+        "text": "Armar los libros: Salpimentá los bifes."
+      },
+      {
+        "text": "Colocá queso y jamón sobre 4 de ellos."
+      },
+      {
+        "text": "Tapá con los otros 4 y sujetá con un palillo.",
         "timerMinutes": 6
       },
       {
-        "text": "Rebozar y freír: Pasá por harina, huevo y pan rallado y freí en aceite caliente hasta dorar por ambos lados.",
+        "text": "Rebozar y freír: Pasá por harina."
+      },
+      {
+        "text": "Huevo y pan rallado y freí en aceite caliente hasta dorar por ambos lados.",
         "timerMinutes": 8
       }
     ],
@@ -51730,7 +52256,10 @@
       "protein": "42g",
       "carbs": "20g",
       "fat": "23g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YQLoCknh7NU",
+    "videoTitle": "Libritos de lomo rellenos de jamón y queso",
+    "videoChannel": "Rosa cocinera y madre"
   },
   {
     "id": "cpd-pollo-cerveza-sopa-cebolla",
@@ -51963,11 +52492,17 @@
     ],
     "steps": [
       {
-        "text": "Mezclar y armar el rollo: Mezclá muy bien las dos carnes con el polvo de sopa crema de champiñones. Extendé sobre papel aluminio, poné los huevos duros en fila al centro y enrollá apretando bien.",
+        "text": "Mezclar y armar el rollo: Mezclá muy bien las dos carnes con el polvo de sopa crema de champiñones."
+      },
+      {
+        "text": "Extendé sobre papel aluminio, poné los huevos duros en fila al centro y enrollá apretando bien.",
         "timerMinutes": 15
       },
       {
-        "text": "Hornear y enfriar: Cerrá el aluminio como un caramelo y horneá a 180 °C durante 45 minutos. Dejá enfriar por completo antes de cortar en rodajas.",
+        "text": "Hornear y enfriar: Cerrá el aluminio como un caramelo y horneá a 180 °C durante 45 minutos."
+      },
+      {
+        "text": "Dejá enfriar por completo antes de cortar en rodajas.",
         "timerMinutes": 45
       }
     ],
@@ -51975,7 +52510,10 @@
       "protein": "27g",
       "carbs": "5g",
       "fat": "18g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Lx6UeAYgrwU",
+    "videoTitle": "Rollo de carne picada con huevos cocidos - ¡No falta nunca en los cumpleaños!",
+    "videoChannel": "Gustoso.TV"
   },
   {
     "id": "cpd-solomillo-cerdo-vino-dulce",
@@ -52000,11 +52538,17 @@
     ],
     "steps": [
       {
-        "text": "Sellar y caramelizar: Salpimentá y sellá los solomillos enteros en cacerola con aceite; retirá. Rehogá la cebolla hasta transparentar y sumá la harina 1 minuto.",
+        "text": "Sellar y caramelizar: Salpimentá y sellá los solomillos enteros en cacerola con aceite; retirá."
+      },
+      {
+        "text": "Rehogá la cebolla hasta transparentar y sumá la harina 1 minuto.",
         "timerMinutes": 12
       },
       {
-        "text": "Reducir la salsa: Agregá el vino dulce y el caldo de ave, devolvé los solomillos y cociná 25 minutos a fuego medio hasta espesar.",
+        "text": "Reducir la salsa: Agregá el vino dulce y el caldo de ave."
+      },
+      {
+        "text": "Devolvé los solomillos y cociná 25 minutos a fuego medio hasta espesar.",
         "timerMinutes": 25
       }
     ],
@@ -52012,7 +52556,10 @@
       "protein": "34g",
       "carbs": "10g",
       "fat": "12g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IczHPzLR_FM",
+    "videoTitle": "Solomillo de cerdo al vino dulce",
+    "videoChannel": "Recetas de Chelo"
   },
   {
     "id": "cpd-solomillo-cerdo-panceta",
@@ -57299,6 +57846,9 @@
         "text": "Dorar en sartén untada con aceite de oliva de ambos lados hasta que queden crocantes.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_ePjHhCLFus",
+    "videoTitle": "EMPANADAS ÁRABES: masa 🔰 sin gluten + relleno [receta de sfijas o fatay para celíacos]",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   }
 ]
