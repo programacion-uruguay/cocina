@@ -2163,7 +2163,10 @@
         "text": "Estirá porciones de masa, cubrí con el relleno y horneá a 200 °C unos 25 a 30 minutos.",
         "timerMinutes": 28
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=4NTrXgGJMT8",
+    "videoTitle": "Lehmeyun de carne (Empandas árabes) | #EscuelaDeCocina",
+    "videoChannel": "La Cocina del 9"
   },
   {
     "id": "drive-masa-ravioles-empanadas",
@@ -6884,7 +6887,10 @@
         "text": "Sumá la merluza, los mejillones, los camarones y perejil; cociná 10 minutos moviendo la cazuela.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=tvsP71gQyvk",
+    "videoTitle": "Merluza a la marinera 🐟⚓️🦐 (con gambas, almejas y mejillones)",
+    "videoChannel": "Orielo’s Kitchen. Recetas sin lactosa"
   },
   {
     "id": "celiaco-pescado-a-la-sal",
@@ -12407,7 +12413,10 @@
       {
         "text": "Hornear a 200 °C hasta dorar y decorar con aceitunas negras."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=fC347W04agw",
+    "videoTitle": "🍕🍕 PIZZA DE JAMÓN Y MORRONES 💕💕 | Cocina de Restaurante en Casa",
+    "videoChannel": "Cocina de Restaurante en Casa"
   },
   {
     "id": "rapida-pizza-fugazzetta-verdeo",
@@ -13933,7 +13942,10 @@
         "text": "Hacer 3 cortes diagonales, pintar con clara, espolvorear sésamo, levar 30 minutos y hornear a 200 °C por 35 minutos.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=gsbz87NNVfs",
+    "videoTitle": "Pan con polenta (harina de maíz) fácil, rico y económico. En sartén y horno",
+    "videoChannel": "Cintia | Recetas Probando"
   },
   {
     "id": "rapida-english-muffins-sarten",
@@ -15984,7 +15996,10 @@
         "text": "Acomodar sobre base de puré de tomate condimentado, cubrir con la bechamel restante y parmesano, y gratinar 15 minutos a 200 °C.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=N117bxMfBn0",
+    "videoTitle": "Canelones de asado de carne | Receta paso a paso con Carlos de MASTERCHEF 3",
+    "videoChannel": "MasterChef España"
   },
   {
     "id": "pastas-canelones-esparragos-jamon-cuatro-quesos",
@@ -16451,7 +16466,10 @@
         "text": "Terminar con salsa y abundante mozzarella, y hornear a 180 °C durante 40 minutos hasta burbujear y dorar.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=U2jp0Y9nlbc",
+    "videoTitle": "COMO HACER LASAÑA de POLLO en SALSA ROJA 🍗",
+    "videoChannel": "Beta Presenta"
   },
   {
     "id": "pastas-lasana-carne-ricota-expres",
@@ -16948,7 +16966,10 @@
         "text": "Hervir los ñoquis 2 a 3 minutos hasta que floten, pasar a la salsa caliente y sumar los cubos de mozzarella para que se fundan al servir.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=POE2qAB_NjQ",
+    "videoTitle": "Ñoquis de Ricota a la Sorrentina / Gratinados con Salsa de Tomate y Queso",
+    "videoChannel": "El Pastificio de Nicola"
   },
   {
     "id": "pastas-noquis-calabaza-ricota-morrones-asados",
@@ -17942,7 +17963,10 @@
         "text": "Hervir los ravioles 4 minutos y servirlos con el pesto procesado de albahaca, nueces, oliva y parmesano.",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=hQXbXEcF5HM",
+    "videoTitle": "Ravioles de ricota y nuez con pesto - Morfi",
+    "videoChannel": "Telefe"
   },
   {
     "id": "pastas-raviolones-copetin-mozzarella-tomates-secos",
@@ -18242,7 +18266,10 @@
         "text": "Dejar reducir destapado a fuego mínimo entre 35 y 40 minutos revolviendo cada tanto hasta lograr un tuco espeso y brillante.",
         "timerMinutes": 38
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ahasGaRDvSs",
+    "videoTitle": "TUCO URUGUAYO A MI MANERA🍝URUGUAYAN PASTA SAUCE MY WAY🍝",
+    "videoChannel": "Las Delis de Moni"
   },
   {
     "id": "pastas-salsa-rosa-clasica",
@@ -19369,14 +19396,26 @@
     ],
     "steps": [
       {
-        "text": "Hervir 250 g de papas y pisarlas con cebolla rehogada en manteca, yema, cheddar y jamón cocido.",
+        "text": "Hervir 250 g de papas y pisarlas con cebolla rehogada en manteca."
+      },
+      {
+        "text": "Cheddar y jamón cocido.",
         "timerMinutes": 12
       },
       {
-        "text": "Acomodar láminas finas de papa cruda sobre placa enmantecada, distribuir el puré, tapar con más láminas pintadas con manteca y hornear a 220 °C por 20 minutos.",
+        "text": "Acomodar láminas finas de papa cruda sobre placa enmantecada."
+      },
+      {
+        "text": "Distribuir el puré."
+      },
+      {
+        "text": "Tapar con más láminas pintadas con manteca y hornear a 220 °C por 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=PkXnsPTWSNU",
+    "videoTitle": "SANDWICH JAMON Y CHEDDAR a LA PLANCHETTA",
+    "videoChannel": "La Planchetta"
   },
   {
     "id": "sandwich-tostado-zucchini-mozzarella",
@@ -20153,12 +20192,21 @@
     ],
     "steps": [
       {
-        "text": "Repartir sobre 4 rebanadas de pan el atún escurrido, las tiras de morrón, las aceitunas y 2 filetes de anchoa por sándwich."
+        "text": "Repartir sobre 4 rebanadas de pan el atún escurrido."
+      },
+      {
+        "text": "Las tiras de morrón."
+      },
+      {
+        "text": "Las aceitunas y 2 filetes de anchoa por sándwich."
       },
       {
         "text": "Cubrir con las rebanadas restantes y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=K-I4mJ53P6c",
+    "videoTitle": "Los Mejores Sándwiches de Atún",
+    "videoChannel": "Chef Oropeza"
   },
   {
     "id": "sandwich-negro-pastron-gruyere",
@@ -20315,13 +20363,22 @@
     ],
     "steps": [
       {
-        "text": "Batir el queso crema con el cheddar rallado, la mayonesa y el ajo en polvo hasta lograr una pasta lisa."
+        "text": "Batir el queso crema con el cheddar rallado."
       },
       {
-        "text": "Armar los sándwiches, untar por fuera con manteca y dorar en sartén 4 minutos por lado.",
+        "text": "La mayonesa y el ajo en polvo hasta lograr una pasta lisa."
+      },
+      {
+        "text": "Armar los sándwiches."
+      },
+      {
+        "text": "Untar por fuera con manteca y dorar en sartén 4 minutos por lado.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=m2EVeaRHT1c",
+    "videoTitle": "Receta de pan tostado con queso crema y tocineta",
+    "videoChannel": "Resuelve Con Bimbo Centroamérica"
   },
   {
     "id": "sandwich-parrilla-mozzarella-albahaca",
@@ -20604,13 +20661,19 @@
     ],
     "steps": [
       {
-        "text": "Enmantecar la cara externa del pan y colocar en el interior queso cheddar, tomate y albahaca."
+        "text": "Enmantecar la cara externa del pan y colocar en el interior queso cheddar."
+      },
+      {
+        "text": "Tomate y albahaca."
       },
       {
         "text": "Cocinar en plancha caliente 2 a 3 minutos por lado hasta dorar.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=fOO7FWhq71o",
+    "videoTitle": "Receta: cómo hacer un tostado de lomito y cheddar by Buenchef",
+    "videoChannel": "Buenchef"
   },
   {
     "id": "sandwich-arabe-dos-quesos-hummus",
@@ -21561,7 +21624,10 @@
         "text": "Espolvorear harina blanca y hornear 35 minutos a 200 °C hasta que suene hueco al golpear la base.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=WiXxpRWa7Cg",
+    "videoTitle": "Cómo hacer PAN CASERO INTEGRAL CON LEVADURA | MUY FÁCIL Y RÁPIDO🥖",
+    "videoChannel": "Chef Sergio Benito"
   },
   {
     "id": "pan-brioche-trenzado",
@@ -21621,7 +21687,10 @@
         "text": "Pintar con huevo batido, espolvorear sésamo y hornear a 180 °C unos 45 minutos.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=MJdA_eZWXaE",
+    "videoTitle": "PAN BRIOCHE TRENZADO | ALE DE NAVA",
+    "videoChannel": "Alejandra de Nava"
   },
   {
     "id": "pan-ciabatta-artesanal",
@@ -21851,7 +21920,10 @@
         "text": "Pasar a placa enmantecada, pintar con huevo, espolvorear sésamo y hornear a 190 °C de 20 a 25 minutos.",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=lMy31kMpNT4",
+    "videoTitle": "Pan de Semillas BAGELS Turcos",
+    "videoChannel": "Recetas que funcionan"
   },
   {
     "id": "pan-focaccia-oliva-casera",
@@ -22474,7 +22546,10 @@
       {
         "text": "Para el postre, cortá las frutillas, kiwi, manzana y durazno en cubos. Mezclá el jugo de limón con la miel, bañá las frutas y espolvoreá con sésamo."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uxUhC0dam1c",
+    "videoTitle": "Merluza en Salsa con Patatas: Receta Fácil y Deliciosa",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "light-almuerzo-6-salmon-verduras-ensalada-esparragos",
@@ -23463,7 +23538,10 @@
       {
         "text": "Aligerá la mayonesa con 2 cucharadas del líquido de los espárragos o agua, sumá el perejil picado, salá y aliñá la ensalada."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=VGj-6TFqiYY",
+    "videoTitle": "Ensalada de huevos y espárragos blancos",
+    "videoChannel": "María - losblogsdemaria -"
   },
   {
     "id": "fit250-ensalada-escarola-huevo-duro",
@@ -24010,9 +24088,18 @@
     ],
     "steps": [
       {
-        "text": "Mezclá las chauchas con la zanahoria, la cebolla y el perejil, rociá con el aceite de oliva y condimentá con sal y pimienta."
+        "text": "Mezclá las chauchas con la zanahoria."
+      },
+      {
+        "text": "La cebolla y el perejil."
+      },
+      {
+        "text": "Rociá con el aceite de oliva y condimentá con sal y pimienta."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=CO6JvqI0QJA",
+    "videoTitle": "Como hacer ENSALADA de VERDURAS de VAINITAS y ZANAHORIAS cocidas | Judias Verdes y Zanahoria",
+    "videoChannel": "Shenya Cook"
   },
   {
     "id": "fit250-ensalada-legumbres-jamon-crudo",
@@ -24757,9 +24844,15 @@
         "text": "Mezclá en un bol el atún desmenuzado con los morrones y la cebolla."
       },
       {
-        "text": "Batí el aceite de oliva con el vinagre y la sal, aliñá y decorá con los pepinillos y la cebolla de verdeo."
+        "text": "Batí el aceite de oliva con el vinagre y la sal."
+      },
+      {
+        "text": "Aliñá y decorá con los pepinillos y la cebolla de verdeo."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Ae81FiAhRag",
+    "videoTitle": "Ensalada de pimientos asados, atún y huevo aliñados | Entrantes para Navidad",
+    "videoChannel": "Orielo’s Kitchen. Recetas sin lactosa"
   },
   {
     "id": "fit250-ensalada-atun-vinagreta",
@@ -25278,7 +25371,10 @@
       {
         "text": "Aliñá con aceite, vinagre y sal antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=AFfCJ5u6jM4",
+    "videoTitle": "Pollo a la Valencia con arroz verde y ensalada de almendras",
+    "videoChannel": "RETATE A OTRO NIVEL"
   },
   {
     "id": "fit250-ensaladilla-andaluza-pollo-jamon",
@@ -25322,13 +25418,22 @@
     ],
     "steps": [
       {
-        "text": "Herví las pechugas, dejalas enfriar y picalas en trocitos chicos.",
+        "text": "Herví las pechugas."
+      },
+      {
+        "text": "Dejalas enfriar y picalas en trocitos chicos.",
         "timerMinutes": 15
       },
       {
-        "text": "Disponé en un bol por capas sin mezclar: primero pollo, luego lechuga, jamón crudo y cebolla. Agregá la mayonesa light al servir."
+        "text": "Disponé en un bol por capas sin mezclar: primero pollo, luego lechuga, jamón crudo y cebolla."
+      },
+      {
+        "text": "Agregá la mayonesa light al servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=oP3rUneljHU",
+    "videoTitle": "🥔🍗 Ensaladilla de pollo y jamón con Mayonesa Musa. ¡No podrás parar de comerla!",
+    "videoChannel": "Mayonesa Musa"
   },
   {
     "id": "fit250-ensaladilla-primavera-pollo",
@@ -25460,12 +25565,21 @@
     ],
     "steps": [
       {
-        "text": "Mezclá en una fuente la cebolla, tomate, ajo, perejil y aceitunas con el aceite de oliva y el vinagre."
+        "text": "Mezclá en una fuente la cebolla."
       },
       {
-        "text": "Sumá el pollo desmenuzado y los huevos duros picados, integrá bien y enfriá en heladera hasta servir."
+        "text": "Perejil y aceitunas con el aceite de oliva y el vinagre."
+      },
+      {
+        "text": "Sumá el pollo desmenuzado y los huevos duros picados."
+      },
+      {
+        "text": "Integrá bien y enfriá en heladera hasta servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=5rOSBw9nUn4",
+    "videoTitle": "SALPICÓN DE POLLO| RECETAS FÁCILES Y RÁPIDAS.",
+    "videoChannel": "Yesenia te ayuda a cocinar"
   },
   {
     "id": "fit250-ensalada-berros-rabanitos",
@@ -25786,7 +25900,10 @@
       {
         "text": "Licuá 300 ml de la sopa para espesar, volvé a la olla, calentá, condimentá y serví con perejil y cilantro."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=x7pZFZ0MiO0",
+    "videoTitle": "Deliciosa sopa de verduras con pollo y porotos, fácil y rico,para el frío del invierno",
+    "videoChannel": "Ela Cocina sin sal y sin azúcar "
   },
   {
     "id": "fit250-sopa-aromatica-verduras-choclo-fideos",
@@ -25891,7 +26008,10 @@
         "text": "Licuá un poco de caldo con el puré de tomate y reincorporá con el resto del caldo, jugos cítricos y fideos. Cociná 8 minutos hasta tiernizar y serví con perejil.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=APJ-SCAO2lY",
+    "videoTitle": "ESTA SOPA DE VERDURAS Y FIDEOS VA A SER TU PREFERIDA, ES MUY FÁCIL!!",
+    "videoChannel": "Recetas Por Un Tubo"
   },
   {
     "id": "fit250-sopa-crema-coliflor-arvejas",
@@ -26713,7 +26833,10 @@
       {
         "text": "Batí el queso blanco con mostaza, puré de ajo, langostinos y hierbas; serví sobre los espárragos rodeados de pepino y tomates cherry."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ftmnC7WPSeY",
+    "videoTitle": "Receta fácil de Salteado de langostinos con espárragos",
+    "videoChannel": "Kwan Homsai"
   },
   {
     "id": "fit250-alcauciles-rellenos-aceitunas-hierbas",
@@ -27337,7 +27460,10 @@
         "text": "Grillá las pechugas escurridas 3 minutos por lado, luego apoyalas sobre las verduras y cociná tapado 8 minutos más.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vXCv1l46uZE",
+    "videoTitle": "Receta de pechugas de pollo al horno con verduras | Jugosas y saludables",
+    "videoChannel": "Adelgazar sin hacer dietas"
   },
   {
     "id": "fit250-carne-vacuna-vino-tinto",
@@ -27955,10 +28081,19 @@
         "timerMinutes": 18
       },
       {
-        "text": "Aparte herví la leche con el azúcar, sumá la banana y las frutas secas, volcá despacio sobre la sémola revolviendo fuerte y cociná tapado 3 minutos hasta absorber.",
+        "text": "Aparte herví la leche con el azúcar."
+      },
+      {
+        "text": "Sumá la banana y las frutas secas."
+      },
+      {
+        "text": "Volcá despacio sobre la sémola revolviendo fuerte y cociná tapado 3 minutos hasta absorber.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=axGtFLrN6VY",
+    "videoTitle": "POSTRE ÁRABE de sémola: Harise ¡Receta súper fácil!",
+    "videoChannel": "De Todo Con Anis"
   },
   {
     "id": "fit250-helado-cremoso-vainilla-yogur",
@@ -28481,7 +28616,10 @@
       {
         "text": "Dejá enfriar el molde boca abajo al menos 1 hora antes de desmoldar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=XBzWgYW6acU",
+    "videoTitle": "ANGEL FOOD CAKE. IDEAL PARA APROVECHAR CLARAS  CONGELADAS Y ESTÁ DELICIOSO!!!",
+    "videoChannel": "mondopelayo"
   },
   {
     "id": "salsas-salsa-al-curry",
@@ -28747,7 +28885,10 @@
       {
         "text": "Colocar todos los ingredientes en un bol junto con el jugo de tomate, el comino y sal a gusto; tapar y dejar reposar para que se integren los sabores."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=9zqKkorPcjQ",
+    "videoTitle": "¿Cómo Preparar la Mejor Salsa de Tomate? ¡Aprende con Chef Oropeza!",
+    "videoChannel": "Chef Oropeza"
   },
   {
     "id": "salsas-salsa-de-chocolate",
@@ -29265,7 +29406,10 @@
       {
         "text": "Armar por capas alternando papa, huevo, tomate y atún, aliñando cada capa con la vinagreta. Coronar con las aceitunas negras, anchoas picadas y atún."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DGifwMhKD8M",
+    "videoTitle": "ENSALADA DE VERANO con patatas, repleta de verduras y con una vinagreta de anchoas y alcaparras",
+    "videoChannel": "Recetas De Escándalo"
   },
   {
     "id": "ensaladas-espinacas-ricota-frutas-miel",
@@ -29345,7 +29489,10 @@
       {
         "text": "Rociar la ensalada con la vinagreta y terminar con las semillas de lino por encima."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=p25xSmqnl6M",
+    "videoTitle": "ENSALADA DE ESPINACAS Y VINAGRETA DE MIEL (POR SALMOREJOCORDOBES)",
+    "videoChannel": "bsalmorejocordobes"
   },
   {
     "id": "ensaladas-carpaccio-tomates-parmesano-pesto",
@@ -29415,7 +29562,10 @@
       {
         "text": "Distribuir un poco de pesto sobre los tomates, colocar las lascas de queso encima y decorar con los tomates cherry."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Sj__tz7UKU8",
+    "videoTitle": "Recetas | Carpaccio de Raf con parmesano y pesto | Horticola Ikersa",
+    "videoChannel": "Hortícola Ikersa"
   },
   {
     "id": "ensaladas-nizarda-atun-olivada",
@@ -29494,7 +29644,10 @@
       {
         "text": "Emulsionar el aceite de oliva con el vinagre y la pasta de aceitunas; rociar sobre la ensalada y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8kRMj-EHTQg",
+    "videoTitle": "Cómo hacer una ensalada de atún diferente, con bonito, aceitunas y aliño de limón | EL COMIDISTA",
+    "videoChannel": "El Comidista en EL PAÍS"
   },
   {
     "id": "ensaladas-pollo-alcauciles-queso-cabra",
@@ -30631,7 +30784,10 @@
         "text": "Formar tortitas con las manos y dorarlas en sartén con aceite caliente de ambos lados (o a la plancha con apenas aceite).",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=hZOBGlZhdlU",
+    "videoTitle": "TORTITAS DE YUCA saludables",
+    "videoChannel": "Eliana Flores"
   },
   {
     "id": "veracruz-croquetas-dulces-mandioca",
@@ -30689,7 +30845,10 @@
         "text": "Cocinar en sartén a fuego medio hasta que queden bien doradas por fuera y cocidas por dentro.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Jsk4OeqFNRs",
+    "videoTitle": "Croquetas de mandiocas",
+    "videoChannel": "Emi Báez cocina"
   },
   {
     "id": "veracruz-ensalada-atun-aderezo-mani",
@@ -30847,7 +31006,10 @@
       {
         "text": "Mezclar los vegetales con el jugo de limón, decorar con las tiras de palta y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=AjI_3KrMBHs",
+    "videoTitle": "Ensalada verde con rabanitos, tomates, cebolla de verdeo y pepinos - recarga tu cuerpo con vitaminas",
+    "videoChannel": "Cocinar con Lana"
   },
   {
     "id": "veracruz-galletas-banana",
@@ -31171,7 +31333,10 @@
         "text": "Volcar en un molde enmantecado y espolvoreado con pan rallado; hornear a 180 °C durante 40 a 45 minutos hasta dorar y dejar enfriar.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=jYqCiHjHN0s",
+    "videoTitle": "BISCOCHUELO DULCE DE CHOCLO en LATA   / Como hacer torta de maíz super esponjoso y sin harina",
+    "videoChannel": "Fácil y En Casa"
   },
   {
     "id": "veracruz-infusion-anana-canela",
@@ -31994,7 +32159,10 @@
       {
         "text": "Espolvorear con azúcar impalpable al servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EB7I9h2zOPw",
+    "videoTitle": "Mil hojas con dulce de leche",
+    "videoChannel": "Isabel Vermal"
   },
   {
     "id": "airfryer-crumble-frutas-rojas",
@@ -32798,7 +32966,10 @@
       {
         "text": "Dejar enfriar completamente y cubrir con el queso crema batido con azúcar impalpable."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=a43tXqi2MV4",
+    "videoTitle": "Receta facil Pastel Tarta de Zanahoria con frosting de queso (Carrot Cake)",
+    "videoChannel": "recetasexplosivas"
   },
   {
     "id": "airfryer-rosquillas-canela",
@@ -33032,7 +33203,10 @@
       {
         "text": "Servir aún caliente con azúcar impalpable."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=55eaCSmxnuc",
+    "videoTitle": "Palitos de pan con canela",
+    "videoChannel": "Sabores en línea"
   },
   {
     "id": "airfryer-galletitas-de-limon-en-freidora",
@@ -34480,7 +34654,10 @@
         "text": "Espolvorear con una pizca de sal, un poco de pimienta y una pizca de orégano.",
         "timerMinutes": 7
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=2ZMVYyv6PVA",
+    "videoTitle": "Como Hacer Pizza de Jamón y Champiñones Caprichosa - Recetas de Pizza Casera",
+    "videoChannel": "DeUvasAPeras"
   },
   {
     "id": "airfryer-tarta-salada-de-puerros-en-freidora",
@@ -34560,7 +34737,10 @@
         "text": "Poner la freidora a 200º durante 15 minutos. Colocar el molde en la",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wAx4RW7_pwQ",
+    "videoTitle": "\"Tarta de queso y puerros\" una receta que te sacará el hambre",
+    "videoChannel": "Cucinare"
   },
   {
     "id": "airfryer-bocaditos-de-queso-empanados-en-freidora",
@@ -35060,7 +35240,10 @@
       {
         "text": "Una vez transcurrido el tiempo, compruebe las cestas y si no parecen"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Xrfy5VtzBVI",
+    "videoTitle": "Patatas rellenas de jamón y queso RIQUÍSIMAS !!!",
+    "videoChannel": "LA COCINA DE PEDRO Y YOLANDA"
   },
   {
     "id": "airfryer-canastitas-de-papa-con-huevo-y-queso-en-freidora",
@@ -35382,7 +35565,10 @@
       {
         "text": "Si las croquetas parecen poco doradas, puedes mantenerlas un par de"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uwTS_nhTCBE",
+    "videoTitle": "Brutales las CROQUETAS de PATATA y QUESO es una RECETA muy FACIL",
+    "videoChannel": "La cocina de Masito"
   },
   {
     "id": "airfryer-brochetas-de-cerdo-agridulces-en-freidora",
@@ -35949,7 +36135,10 @@
       {
         "text": "En cuanto esté cocido, sacarlo y el filete, dejarlo enfriar unos minutos, para que la cobertura se compacte."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZqQctZO9E2k",
+    "videoTitle": "Solomillo de cerdo al ajillo con champinones",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "airfryer-lomo-de-cerdo-a-la-naranja-en-freidora",
@@ -37385,7 +37574,10 @@
         "text": "Cocinar los ingredientes en la freidora de aire a 200° durante 8/10 minutos, dándoles la vuelta una vez y comprobando que están cocidos",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=sEybeB0nxnM",
+    "videoTitle": "🥦 Saltado de Pollo con Zapallito Italiano - Preparación paso a paso y rápida | Estilo Marilin",
+    "videoChannel": "Cocinando con Marilin"
   },
   {
     "id": "airfryer-pechuga-de-pollo-con-champinones-y-jamon-en-freidora",
@@ -37945,7 +38137,10 @@
       {
         "text": "Después de 4 minutos, dar la vuelta a las croquetas, rociarlas con más aceite y continuar la cocción durante otros 4 minutos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wePYO7NtGxM",
+    "videoTitle": "CROQUETAS DE GAMBAS O CAMARONES, APERITIVO ESPECIAL NAVIDAD - Loli Domínguez - Recetas de Navidad",
+    "videoChannel": "La Cocina de Loli Dominguez"
   },
   {
     "id": "airfryer-langostinos-al-horno-de-aire-en-freidora",
@@ -38157,7 +38352,10 @@
         "text": "Poner la freidora a 200º durante 5 minutos en el programa de pescado.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Cr2cIZpkgf4",
+    "videoTitle": "Receta fácil de merluza con costra de mayonesa",
+    "videoChannel": "Recetas Tradicionales de Cocina"
   },
   {
     "id": "airfryer-albondigas-de-atun-zapallito-y-ricota-en-freidora",
@@ -38865,7 +39063,10 @@
       {
         "text": "Compruebe el tiempo de cocción y aumente los minutos si es"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=QGLaxC04fLM",
+    "videoTitle": "Remolachas a la Parrilla.  al Fuego.  Cocidas. al carbón. #remolachas asadas. Receta a la parrilla.",
+    "videoChannel": "Fórmulas y Sabores."
   },
   {
     "id": "airfryer-croquetas-de-zapallito-y-papa-en-freidora",
@@ -40019,7 +40220,10 @@
         "text": "Volcar al molde, espolvorear con el resto de las chispas y hornear 30 a 35 minutos hasta que salga limpio el palillo.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=hxE6xUw3m7U",
+    "videoTitle": "BIZCOCHO DE CALABACÍN Y CHOCOLATE | Receta fácil",
+    "videoChannel": "Cocina fácil con MJ"
   },
   {
     "id": "airfryer-salteado-morron-zapallito-huevo",
@@ -40091,7 +40295,10 @@
         "text": "Cocinar 6 a 8 minutos hasta que cuajen las claras y servir con romero picado.",
         "timerMinutes": 7
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vvHfYyvXWLo",
+    "videoTitle": "🔥 Como HACER Revuelto de ZAPALLITOS VERDES CON HUEVO  🚀 |  💥 RECETA REVUELTO de ZAPALLITOS VERDES 💥",
+    "videoChannel": "Facu David Rodriguez"
   },
   {
     "id": "airfryer-chips-pepinillos-crocantes",
@@ -40157,7 +40364,10 @@
         "text": "Rociar con aceite y cocinar en una sola capa 8 minutos, dando vuelta a la mitad.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=MpnZz_VqGu4",
+    "videoTitle": "Pepinillos agridulces crocantes",
+    "videoChannel": "Cata Piedrahíta Recetas"
   },
   {
     "id": "airfryer-salmon-salsa-pepino-palta",
@@ -40833,7 +41043,10 @@
         "text": "Mezclar con la salsa barbacoa y la manteca derretida, y volver a la freidora 1 minuto para calentar.",
         "timerMinutes": 1
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=QZ_8AOXapkE",
+    "videoTitle": "Bocaditos de brócoli y queso - Receta",
+    "videoChannel": "Santi Repetto"
   },
   {
     "id": "airfryer-dip-cremoso-brocoli-arvejas",
@@ -41136,7 +41349,10 @@
         "text": "Colocar en una fuentecita apta para freidora con el agua en el fondo y hornear 20 minutos hasta que estén tiernas.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=I5aPb7cnt0Y",
+    "videoTitle": "Aprende a hacer: PERAS ASADAS CON NUECES, CANELA Y MIEL DE PALMA COCALÁN",
+    "videoChannel": "Miel de palma Cocalan"
   },
   {
     "id": "airfryer-cuadraditos-manzana-nueces-chocolate",
@@ -41599,7 +41815,10 @@
         "text": "Hornear en freidora a 150 °C durante 20 minutos, removiendo cada 5 minutos hasta que quede bien crocante.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=9Rhu0eVxv2I",
+    "videoTitle": "Cómo preparar MANI CONFITADO 😱 O GARRAPIÑADO PARA NEGOCIO💰💵💰  #streetfood #cocina #receta #family",
+    "videoChannel": "Victor Heredia Tapia"
   },
   {
     "id": "airfryer-almendras-tostadas-soja",
@@ -42298,7 +42517,10 @@
         "text": "Llená moldes individuales hasta 3/4 de su capacidad y cociná en la freidora a 170 °C por 16 minutos.",
         "timerMinutes": 16
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=l8dqJTErrvE",
+    "videoTitle": "Budín de limón y semillas de amapola. Receta clásica para la hora del té que no te puede faltar.",
+    "videoChannel": "Eileen Schmidt"
   },
   {
     "id": "airfryer-hamburguesas-de-lentejas",
@@ -42529,7 +42751,10 @@
         "text": "Cociná a 190 °C por 12 minutos hasta que queden bien doradas y crocantes.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=54QniPZML2Q",
+    "videoTitle": "Croquetas de arvejas 👩‍🍳💗👨‍🍳| Recetas La Campagnola",
+    "videoChannel": "Cocina La Campagnola"
   },
   {
     "id": "airfryer-bunuelos-de-espinaca",
@@ -42584,7 +42809,10 @@
         "text": "Colocá cucharadas sobre papel manteca aceitado y cociná a 185 °C por 12 minutos dando vuelta a mitad de cocción.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vU5-FtXKxCg",
+    "videoTitle": "BUÑUELOS DE VERDURAS FRITOS Y AL HORNO - de espinaca y de zanahoria",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "airfryer-pizza-de-berenjena",
@@ -42818,7 +43046,10 @@
         "text": "Acomodá los rollitos en una fuente con salsa de tomate y queso encima, y gratiná a 180 °C por 9 minutos.",
         "timerMinutes": 9
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=KKQZLtSyNQ4",
+    "videoTitle": "Cómo hacer Canelones Keto de Berenjena, Queso y Ricota  (Dieta Keto)",
+    "videoChannel": "Tengo Un Plan de Vida!"
   },
   {
     "id": "airfryer-tarta-rustica-brocoli",
@@ -43049,7 +43280,10 @@
         "text": "Volcá en una budinera chica apta para freidora y cociná a 170 °C por 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=VINDzke10bE",
+    "videoTitle": "Relleno increíble!!! budín de brócoli",
+    "videoChannel": "Cocineros Argentinos"
   },
   {
     "id": "airfryer-tarta-choclo-express",
@@ -43109,7 +43343,10 @@
         "text": "Cociná en la freidora a 175 °C durante 16 minutos hasta que dore.",
         "timerMinutes": 16
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=VEJ19YmPhHU",
+    "videoTitle": "Como hacer TARTA DE CHOCLO 🌽 RECETA FACIL",
+    "videoChannel": "LA RUSA COCINA"
   },
   {
     "id": "airfryer-bunuelos-acelga-arroz",
@@ -43164,7 +43401,10 @@
         "text": "Armá bolitas o tortitas sobre papel manteca aceitado y cociná a 185 °C por 12 minutos.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=RhlOuBxVAdo",
+    "videoTitle": "Croquetas de arroz y acelga - Recetas Florette",
+    "videoChannel": "Florette España"
   },
   {
     "id": "airfryer-pan-de-lentejas",
@@ -43322,7 +43562,10 @@
         "text": "Cociná a 160 °C durante 14 minutos moviendo cada 5 minutos, y salá al retirar.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=mM2Q8zlkGtU",
+    "videoTitle": "Como hacer CHIPS DE REMOLACHA muy fácil - Gustavo Osorio ✅💯",
+    "videoChannel": "Gustavo Osorio Toro"
   },
   {
     "id": "airfryer-chips-cascara-de-papa",
@@ -43409,14 +43652,22 @@
     ],
     "steps": [
       {
-        "text": "Mezclá la cebolla en pluma con el aceite, el aceto balsámico, el azúcar y una pizca de sal en un recipiente apto.",
-        "timerMinutes": 0
+        "text": "Mezclá la cebolla en pluma con el aceite."
+      },
+      {
+        "text": "El aceto balsámico."
+      },
+      {
+        "text": "El azúcar y una pizca de sal en un recipiente apto."
       },
       {
         "text": "Cociná a 170 °C durante 18 minutos revolviendo cada 6 minutos hasta que quede tierna y dorada.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ISrFb1o2BAA",
+    "videoTitle": "Cebollas caramelizadas con vinagre balsámico, la guarnición perfecta para tu carne asada.",
+    "videoChannel": "Chef Shaka"
   },
   {
     "id": "airfryer-zapallo-cabutia-limon-menta",
@@ -43789,7 +44040,10 @@
         "text": "Llevá el burrito sobre papel aluminio a la freidora a 180 °C durante 3 minutos hasta que el queso funda y la tortilla quede crocante.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uJSenYBo0uo",
+    "videoTitle": "DESAYUNO SENCILLO PERO BIEN SABROSO! Burrito 🌯.",
+    "videoChannel": "COCINA DE IGNACIO"
   },
   {
     "id": "airfryer-frittata-desayuno-chorizo",
@@ -43844,7 +44098,10 @@
         "text": "Volcá los huevos batidos sobre el relleno en el molde y cociná 5 minutos más a 180 °C hasta que cuaje.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=9vuHj2XXOqE",
+    "videoTitle": "🥓🍳 FRITTATA DE CHORIZO Y ESPINACAS | Receta Fácil y Deliciosa 😍🔥",
+    "videoChannel": "Mayonesa Musa"
   },
   {
     "id": "airfryer-panchos-envueltos-masa-queso",
@@ -43926,10 +44183,16 @@
         "timerMinutes": 0
       },
       {
-        "text": "Cociná en la freidora a 185 °C durante 8 minutos, dándolo vuelta a los 4 minutos para que dore parejo.",
+        "text": "Cociná en la freidora a 185 °C durante 8 minutos."
+      },
+      {
+        "text": "Dándolo vuelta a los 4 minutos para que dore parejo.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=WT8CZNon1sw",
+    "videoTitle": "Sandwich de queso cheddar y pimiento",
+    "videoChannel": "Todo Resuelto"
   },
   {
     "id": "airfryer-panchos-gratinados-queso",
@@ -44075,14 +44338,22 @@
     ],
     "steps": [
       {
-        "text": "Untá un lado de cada rebanada de pan con manteca y armá dos sándwiches rellenos con pavita, queso, repollo y salsa golf.",
-        "timerMinutes": 0
+        "text": "Untá un lado de cada rebanada de pan con manteca y armá dos sándwiches rellenos con pavita."
       },
       {
-        "text": "Cociná en la freidora a 155 °C durante 12 minutos, dándolos vuelta a los 6 minutos hasta que estén dorados.",
+        "text": "Repollo y salsa golf."
+      },
+      {
+        "text": "Cociná en la freidora a 155 °C durante 12 minutos."
+      },
+      {
+        "text": "Dándolos vuelta a los 6 minutos hasta que estén dorados.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=xYhF7ApmVoY",
+    "videoTitle": "SÁNDWICH REUBEN",
+    "videoChannel": "elcocinerofiel"
   },
   {
     "id": "airfryer-stromboli-jamon-quesos",
@@ -44767,7 +45038,10 @@
         "text": "Cociná en la freidora a 175 °C durante 14 a 17 minutos hasta que estén bien crocantes.",
         "timerMinutes": 16
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GeoucYcF7O8",
+    "videoTitle": "Coliflor asada picante",
+    "videoChannel": "Víctor Muñoz"
   },
   {
     "id": "airfryer-champinones-dos-quesos",
@@ -44985,7 +45259,10 @@
         "text": "Cociná en la freidora a 180 °C durante 12 minutos, dándolos vuelta a mitad de tiempo.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aGgoYIAkNyA",
+    "videoTitle": "El Pan con Ajo perfecto para acompañar tus comidas, Nudos de Ajo Caseros | Katastrofa La Cocina",
+    "videoChannel": "Katastrofa La Cocina"
   },
   {
     "id": "airfryer-papas-rellenas-dos-cocciones",
@@ -45040,7 +45317,10 @@
         "text": "Rellená las cáscaras con el puré, cubrí con el resto del queso y gratiná 15 a 20 minutos más hasta que dore.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=zIxy7VY42oA",
+    "videoTitle": "PAPAS RELLENAS HORNEADAS, RICAS Y SALUDABLES",
+    "videoChannel": "Cocinando con F C"
   },
   {
     "id": "airfryer-garbanzos-eneldo-limon",
@@ -45505,7 +45785,10 @@
         "text": "Sumá la cebolla morada, el pepino, el cilantro, sal, pimienta y otro chorrito de limón antes de cerrar.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=QnHWArKBb8s",
+    "videoTitle": "Sándwich de lomito de cerdo",
+    "videoChannel": "Sabores en línea"
   },
   {
     "id": "horno-tostado-jamon-queso-olivas-morron",
@@ -45554,14 +45837,19 @@
     ],
     "steps": [
       {
-        "text": "Untá un lado de 4 panes con manteca y colocalos hacia abajo en una placa. Cubrí con jamón, cheddar, aceitunas y morrón.",
-        "timerMinutes": 0
+        "text": "Untá un lado de 4 panes con manteca y colocalos hacia abajo en una placa."
+      },
+      {
+        "text": "Cubrí con jamón, cheddar, aceitunas y morrón."
       },
       {
         "text": "Tapá con los otros 4 panes enmantecados hacia arriba y horneá a 220 °C de 6 a 8 minutos por lado hasta dorar.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=NBdHroicq-0",
+    "videoTitle": "Tostado de jamón y queso sellado a baja temperatura!",
+    "videoChannel": "Senza Nervi Cocina"
   },
   {
     "id": "horno-pizza-fugazzeta-clasica",
@@ -45684,7 +45972,10 @@
         "text": "Horneá a 200 °C de 15 a 20 minutos hasta que la masa esté crocante y el queso derretido; terminá con albahaca.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ilYgRfGHBXA",
+    "videoTitle": "Prepararemos pizza de 3 sabores: Mixta de carnes con vegetales, combinada con antioqueña y hawaiana",
+    "videoChannel": "Hora 13 Noticias"
   },
   {
     "id": "horno-pizza-pollo-cebolla-mexicano",
@@ -45797,14 +46088,29 @@
     ],
     "steps": [
       {
-        "text": "Estirá la masa en pizzera aceitada, untá con la mezcla de salsa y extracto de tomate y precociná 8 minutos a 180 °C.",
+        "text": "Estirá la masa en pizzera aceitada."
+      },
+      {
+        "text": "Untá con la mezcla de salsa y extracto de tomate y precociná 8 minutos a 180 °C.",
         "timerMinutes": 8
       },
       {
-        "text": "Cubrí con la cebolla, aceitunas, tomates cherry, morrón, verdeo, jamón y muzzarella, y horneá 20 minutos más.",
+        "text": "Cubrí con la cebolla."
+      },
+      {
+        "text": "Tomates cherry."
+      },
+      {
+        "text": "Jamón y muzzarella."
+      },
+      {
+        "text": "Y horneá 20 minutos más.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=cUEXMp5Aku8",
+    "videoTitle": "PIZZA CASERA con masa INTEGRAL",
+    "videoChannel": "Nutriliano"
   },
   {
     "id": "horno-pizza-exquisita-panceta-anchoas",
@@ -46143,14 +46449,23 @@
     ],
     "steps": [
       {
-        "text": "Dorá el chorizo en una sartén hasta que esté cocido, agregá el puré de papas y mezclá bien.",
+        "text": "Dorá el chorizo en una sartén hasta que esté cocido."
+      },
+      {
+        "text": "Agregá el puré de papas y mezclá bien.",
         "timerMinutes": 8
       },
       {
-        "text": "Rellená cada tortilla, enrollá y doralas en sartén apenas aceitada por ambos lados.",
+        "text": "Rellená cada tortilla."
+      },
+      {
+        "text": "Enrollá y doralas en sartén apenas aceitada por ambos lados.",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=OWRO_I_eLGk",
+    "videoTitle": "TACOS AL VAPOR DE CHORIZO CON PAPAS Muy ricos y fácil de hacer. Les encantarán!",
+    "videoChannel": "COCINA DE IGNACIO"
   },
   {
     "id": "horno-arroz-pollo-mexicana-gratinado",
@@ -46210,7 +46525,10 @@
         "text": "Pasá a una fuente para horno, cubrí con porotos, salsa de tomate, queso crema y cheddar rallado; horneá 25 minutos a 180 °C.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=IhGzR8dC6nQ",
+    "videoTitle": "Receta de Arroz con Pollo Gratinado  | Recetas Rápidas",
+    "videoChannel": "Tastemade Español"
   },
   {
     "id": "cocina-caldo-casero-carne-verduras",
@@ -46447,7 +46765,10 @@
         "text": "Cociná tapado a fuego lento durante 45 minutos a 1 hora hasta que la carne y las papas estén tiernas.",
         "timerMinutes": 50
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=t0uJOBFvhMQ",
+    "videoTitle": "Guiso de espinaca con papas y carne | Receta casera paso a paso",
+    "videoChannel": "Cocinando con Rayshel"
   },
   {
     "id": "cocina-albondigas-salsa-tomillo",
@@ -46922,7 +47243,10 @@
         "text": "Agregá los garbanzos cocidos los últimos 5 minutos y serví bien caliente con perejil picado.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=JtiYTzoM1FY",
+    "videoTitle": "#Mondongo criollo/#Guiso de mondongo",
+    "videoChannel": "Cocinando con profe Juan"
   },
   {
     "id": "parrilla-asado-tira-limon",
@@ -47588,14 +47912,19 @@
     ],
     "steps": [
       {
-        "text": "Colocá jamón y muzzarella en el centro de cada tapa, humedecé los bordes y cerrá con repulgue.",
-        "timerMinutes": 0
+        "text": "Colocá jamón y muzzarella en el centro de cada tapa."
+      },
+      {
+        "text": "Humedecé los bordes y cerrá con repulgue."
       },
       {
         "text": "Pintá con huevo batido y horneá a 180 °C de 20 a 25 minutos hasta dorar.",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=_2S8HVIapng",
+    "videoTitle": "¡En 10 minutos prepará las empanadas de jamón y queso!",
+    "videoChannel": "La Cocina del 9"
   },
   {
     "id": "horno-empanadas-caprese",
@@ -47639,14 +47968,28 @@
     ],
     "steps": [
       {
-        "text": "Mezclá los cherry con la muzzarella, la albahaca, sal y pimienta.",
-        "timerMinutes": 0
+        "text": "Mezclá los cherry con la muzzarella."
       },
       {
-        "text": "Rellená las tapas, cerrá bien los bordes con repulgue, pintá con huevo y horneá a 220 °C por 20 minutos.",
+        "text": "La albahaca."
+      },
+      {
+        "text": "Sal y pimienta."
+      },
+      {
+        "text": "Rellená las tapas."
+      },
+      {
+        "text": "Cerrá bien los bordes con repulgue."
+      },
+      {
+        "text": "Pintá con huevo y horneá a 220 °C por 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=cCfuDlicz3A",
+    "videoTitle": "🔥 COMO Hacer EMPANADAS CAPRESE al HORNO Receta 🔥 CAPRESE Empandas CANASTITAS con Tapas de EMPANADAS",
+    "videoChannel": "Facu David Rodriguez"
   },
   {
     "id": "horno-empanadas-queso-azul-verdeo",
@@ -48081,14 +48424,29 @@
     ],
     "steps": [
       {
-        "text": "Rehogá la cebolla y el ají a fuego bajo, agregá la espinaca, el atún desmenuzado y por último los huevos duros picados.",
+        "text": "Rehogá la cebolla y el ají a fuego bajo."
+      },
+      {
+        "text": "Agregá la espinaca."
+      },
+      {
+        "text": "El atún desmenuzado y por último los huevos duros picados.",
         "timerMinutes": 8
       },
       {
-        "text": "Armá la pascualina entre las dos tapas, pinchá con tenedor, pintá con huevo y horneá a 180 °C unos 25 minutos.",
+        "text": "Armá la pascualina entre las dos tapas."
+      },
+      {
+        "text": "Pinchá con tenedor."
+      },
+      {
+        "text": "Pintá con huevo y horneá a 180 °C unos 25 minutos.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=rLFlQGB05r4",
+    "videoTitle": "\"Espacio Mujer\" 05 Pascualina de Atún y Espinaca",
+    "videoChannel": "Municipalidad de Lautaro"
   },
   {
     "id": "horno-tarta-pollo-papa-zanahoria",
@@ -48236,7 +48594,10 @@
       "protein": "16g",
       "carbs": "21g",
       "fat": "11g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FBZfic0TgUg",
+    "videoTitle": "Ensalada de piña y langostinos con salsa rosa casera",
+    "videoChannel": "Pilar S. A."
   },
   {
     "id": "cf-langostinos-empanados-almendra",
@@ -48905,7 +49266,10 @@
       "protein": "12g",
       "carbs": "42g",
       "fat": "21g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=HixAXY2Y2Pk",
+    "videoTitle": "PATATAS a la riojana con CHORIZO ¡Y un toque PICANTE!",
+    "videoChannel": "¡Que el papeo te acompañe!"
   },
   {
     "id": "cf-risotto-champinones-mariscos",
@@ -48993,7 +49357,10 @@
       "protein": "16g",
       "carbs": "21g",
       "fat": "18g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BLSa82ESJYQ",
+    "videoTitle": "SOPA de AJO CASTELLANA 😍 Receta con jamón y huevo ❤️CON ESTE FRÍO APETECE ALGO CALENTITO 🫕",
+    "videoChannel": "Cocinar en pijama"
   },
   {
     "id": "cf-sopa-crema-champinones-queso",
@@ -49345,7 +49712,10 @@
       "protein": "33g",
       "carbs": "7g",
       "fat": "23g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NCwqzJrN7CU",
+    "videoTitle": "SOLOMILLO DE CERDO STROGONOFF Receta fácil, sencilla y explicada paso a paso.",
+    "videoChannel": "En Ca Rafa Recetas para todos"
   },
   {
     "id": "cf-ternera-estofada-jardinera",
@@ -49745,7 +50115,10 @@
       "protein": "3g",
       "carbs": "23g",
       "fat": "6g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=-XaXfmvyY-Q",
+    "videoTitle": "Rosquillas de anís: la receta de mi madre",
+    "videoChannel": "Las Recetas de MJ"
   },
   {
     "id": "cf-tarta-durazno-almibar-cacao",
@@ -50006,7 +50379,10 @@
       "protein": "10g",
       "carbs": "30g",
       "fat": "13g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=zfdzfDGc-1k",
+    "videoTitle": "Cómo hacer tortilla de papas: ASÍ LA HAGO YO (tortilla española)",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "mch-ensalada-atun-papa-huevo",
@@ -50134,7 +50510,10 @@
       "protein": "48g",
       "carbs": "11g",
       "fat": "17g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Lw_iSrgfBCw",
+    "videoTitle": "Ensalada fría de pollo con crema / Riquísima!!",
+    "videoChannel": "María Estelar "
   },
   {
     "id": "mch-mini-hamburguesas-pollo",
@@ -50219,7 +50598,10 @@
       "protein": "13g",
       "carbs": "14g",
       "fat": "8g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sMoRlZ8pzCs",
+    "videoTitle": "COMO PREPARAR UN RICA CREMA DE AUYAMA CON POLLO",
+    "videoChannel": "Candelo Cocina"
   },
   {
     "id": "mch-patitas-pollo-portuguesa",
@@ -50261,7 +50643,10 @@
       "protein": "29g",
       "carbs": "16g",
       "fat": "19g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8EsTegedzDE",
+    "videoTitle": "Pollo a la portuguesa",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "mch-terrina-pollo-espinaca",
@@ -50396,7 +50781,10 @@
       "protein": "29g",
       "carbs": "31g",
       "fat": "15g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ihfsmqR13Kk",
+    "videoTitle": "Pionono navideño de palmitos y salsa golf! - Paco Almeida",
+    "videoChannel": "Paco Almeida"
   },
   {
     "id": "mch-minitarteletas-pollo-queso",
@@ -50753,7 +51141,10 @@
       "protein": "29g",
       "carbs": "1g",
       "fat": "18g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PWQQsP8T6nk",
+    "videoTitle": "receta caballa especiada frita al estilo oriental por el sushichef hung fai.avi",
+    "videoChannel": "atilareyuno"
   },
   {
     "id": "mch-atun-al-horno",
@@ -50793,7 +51184,10 @@
       "protein": "56g",
       "carbs": "1g",
       "fat": "10g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sM0jgkY09aA",
+    "videoTitle": "✨ lomos de atún en salsa // receta fácil y rápida ✨",
+    "videoChannel": "que comemos hoy?"
   },
   {
     "id": "mch-trucha-ajillo-papas-vapor",
@@ -51092,7 +51486,10 @@
       "protein": "32g",
       "carbs": "7g",
       "fat": "28g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=HdYu7byvsy8",
+    "videoTitle": "MATAMBRITO DE CERDO ARROLLADO",
+    "videoChannel": "Cocineros Argentinos"
   },
   {
     "id": "mch-ensalada-espinaca-panceta-champinones",
@@ -51134,7 +51531,10 @@
       "protein": "18g",
       "carbs": "6g",
       "fat": "25g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=cC3EuA9yUpA",
+    "videoTitle": "ENSALADA DE ESPINACAS CON TOCINO Y CHAMPIÑONES 🥗 / deliciosa y muy sencilla de preparar 😋👨🏻‍🍳",
+    "videoChannel": "El horno de Lucas"
   },
   {
     "id": "mch-lomitos-cerdo-verduras-mostaza",
@@ -51263,7 +51663,10 @@
       "protein": "27g",
       "carbs": "32g",
       "fat": "19g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lNGJo8d5eVw",
+    "videoTitle": "Albóndigas de cerdo a la barbacoa",
+    "videoChannel": "Cocineros Argentinos"
   },
   {
     "id": "mch-chuletas-cerdo-naranja-batatas",
@@ -51438,7 +51841,10 @@
       "protein": "46g",
       "carbs": "16g",
       "fat": "21g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qd3uTFzf-5w",
+    "videoTitle": "ALBONDIGAS EN SALSA DE TOMATE 🌟 Las más fáciles y ricas",
+    "videoChannel": "Cocina A Buenas Horas"
   },
   {
     "id": "mch-cuadril-encebollado",
@@ -51567,7 +51973,10 @@
       "protein": "37g",
       "carbs": "25g",
       "fat": "24g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RV0b-teIIx8",
+    "videoTitle": "Milanesa Rellena con Jamón y Queso ¡en 20 minutos! | Cocina Saludable by Philips",
+    "videoChannel": "Tastemade Español"
   },
   {
     "id": "mch-carne-en-su-jugo",
@@ -51696,7 +52105,10 @@
       "protein": "33g",
       "carbs": "38g",
       "fat": "11g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bp6T_zBWgus",
+    "videoTitle": "Sándwich  De Pollo En Pan Chip",
+    "videoChannel": "Marisa Sanchez Perez"
   },
   {
     "id": "inac-hamburguesa-pollo-papa-avena",
@@ -51950,7 +52362,10 @@
       "protein": "25g",
       "carbs": "32g",
       "fat": "40g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=c9vqw0cm2yk",
+    "videoTitle": "Fondue de queso en pan de campo | #EscuelaDeCocina",
+    "videoChannel": "La Cocina del 9"
   },
   {
     "id": "cpd-mini-pizzas-express",
@@ -52239,7 +52654,10 @@
         "timerMinutes": 5
       },
       {
-        "text": "Aderezar: Condimentá con pimienta negra recién molida, sal, aceite de oliva y vinagre.",
+        "text": "Aderezar: Condimentá con pimienta negra recién molida."
+      },
+      {
+        "text": "Aceite de oliva y vinagre.",
         "timerMinutes": 3
       }
     ],
@@ -52247,7 +52665,10 @@
       "protein": "19g",
       "carbs": "15g",
       "fat": "13g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=aWGLZmxOuqg",
+    "videoTitle": "Tartar de Mango, Salmón ahumado, y aguacate  #ensaladasdeverano #recetasfaciles  #mangoyaguacate",
+    "videoChannel": "La cocina fácil de Mani"
   },
   {
     "id": "cpd-gazpacho-frambuesas",
@@ -52322,11 +52743,20 @@
     ],
     "steps": [
       {
-        "text": "Procesar: Licuá todos los vegetales y frutillas junto con el hielo, sal, pimienta y vinagre hasta obtener una mezcla homogénea.",
+        "text": "Procesar: Licuá todos los vegetales y frutillas junto con el hielo."
+      },
+      {
+        "text": "Pimienta y vinagre hasta obtener una mezcla homogénea.",
         "timerMinutes": 6
       },
       {
-        "text": "Emulsionar y servir: Añadí el aceite de oliva, licuá brevemente, colá y refrigerá antes de servir.",
+        "text": "Emulsionar y servir: Añadí el aceite de oliva."
+      },
+      {
+        "text": "Licuá brevemente."
+      },
+      {
+        "text": "Colá y refrigerá antes de servir.",
         "timerMinutes": 4
       }
     ],
@@ -52334,7 +52764,10 @@
       "protein": "2g",
       "carbs": "12g",
       "fat": "9g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=amD5PDQ2X0M",
+    "videoTitle": "Cómo hacer un GAZPACHO DE FRESAS para el verano",
+    "videoChannel": "DAP"
   },
   {
     "id": "cpd-vichyssoise-clasica",
@@ -52684,7 +53117,10 @@
       "protein": "29g",
       "carbs": "29g",
       "fat": "30g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iaw_-8oiP3k",
+    "videoTitle": "¡Un Éxito Desde el Primer Bocado! Receta de Musaka Griega de Berenjenas y Carne",
+    "videoChannel": "Food and Glory | Recetas fáciles"
   },
   {
     "id": "cpd-tempura-zapallo",
@@ -52711,7 +53147,10 @@
         "timerMinutes": 3
       },
       {
-        "text": "Rebozar y freír: Pasá las láminas de zapallo por la masa fría y freí en aceite a 180 °C hasta dorar y quedar crocantes. Escurrí sobre papel.",
+        "text": "Rebozar y freír: Pasá las láminas de zapallo por la masa fría y freí en aceite a 180 °C hasta dorar y quedar crocantes."
+      },
+      {
+        "text": "Escurrí sobre papel.",
         "timerMinutes": 8
       }
     ],
@@ -52719,7 +53158,10 @@
       "protein": "4g",
       "carbs": "34g",
       "fat": "10g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pF7PCUzeO_c",
+    "videoTitle": "El sabor de Sabi: Tempura de flor de calabaza",
+    "videoChannel": "Cocina con Sabi"
   },
   {
     "id": "cpd-tempura-langostinos-palta",
@@ -52755,7 +53197,10 @@
       "protein": "13g",
       "carbs": "25g",
       "fat": "16g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=EGxiKp_HX6U",
+    "videoTitle": "Langostinos en Tempura Crujientes (estilo Japonés) 🍤",
+    "videoChannel": "Cocina con Coqui"
   },
   {
     "id": "cpd-calamares-en-su-tinta",
@@ -53174,7 +53619,10 @@
     ],
     "steps": [
       {
-        "text": "Dorar y guisar el pollo: Dorá los muslos en olla con aceite de oliva, agregá el sobre de sopa de cebolla y la cerveza y cociná tapado 25 minutos.",
+        "text": "Dorar y guisar el pollo: Dorá los muslos en olla con aceite de oliva."
+      },
+      {
+        "text": "Agregá el sobre de sopa de cebolla y la cerveza y cociná tapado 25 minutos.",
         "timerMinutes": 25
       },
       {
@@ -53186,7 +53634,10 @@
       "protein": "35g",
       "carbs": "34g",
       "fat": "15g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ypTLdkg6xCs",
+    "videoTitle": "Receta Super Fácil de Pollo Guisado con Cerveza y Sopa de Cebolla",
+    "videoChannel": "Cocina con Mishi"
   },
   {
     "id": "cpd-pollo-almendras-wok",
@@ -53473,7 +53924,10 @@
     ],
     "steps": [
       {
-        "text": "Envolver el solomillo: Frotá el solomillo con el caldo y pimienta, cubrí con las fetas de panceta y atá con hilo de cocina.",
+        "text": "Envolver el solomillo: Frotá el solomillo con el caldo y pimienta."
+      },
+      {
+        "text": "Cubrí con las fetas de panceta y atá con hilo de cocina.",
         "timerMinutes": 8
       },
       {
@@ -53485,7 +53939,10 @@
       "protein": "35g",
       "carbs": "1g",
       "fat": "23g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pTPPelA6mxo",
+    "videoTitle": "Una cena inspirada en la cocina alemana - Solomillo de cerdo en bacon, al horno",
+    "videoChannel": "Gustoso.TV"
   },
   {
     "id": "cpd-ternera-rellena-horno",
@@ -53511,11 +53968,23 @@
     ],
     "steps": [
       {
-        "text": "Armar el relleno: Salpimentá la carne abierta, untá con el paté, colocá encima la tortilla de huevo fina, la panceta, el queso y las salchichas.",
+        "text": "Armar el relleno: Salpimentá la carne abierta."
+      },
+      {
+        "text": "Untá con el paté."
+      },
+      {
+        "text": "Colocá encima la tortilla de huevo fina."
+      },
+      {
+        "text": "El queso y las salchichas.",
         "timerMinutes": 12
       },
       {
-        "text": "Bridar y hornear: Enrollá, atá con hilo de cocina y horneá en asadera aceitada a 180 °C durante 25 a 30 minutos hasta dorar.",
+        "text": "Bridar y hornear: Enrollá."
+      },
+      {
+        "text": "Atá con hilo de cocina y horneá en asadera aceitada a 180 °C durante 25 a 30 minutos hasta dorar.",
         "timerMinutes": 28
       }
     ],
@@ -53523,7 +53992,10 @@
       "protein": "41g",
       "carbs": "3g",
       "fat": "34g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DBYKrh-uPrw",
+    "videoTitle": "Niños envueltos. Rollitos de carne. Arrollados de Res. Carne rellena. Carne mechada. Ternera rellena",
+    "videoChannel": "Andrea"
   },
   {
     "id": "cpd-canutillos-cacao-pastelera",
@@ -53751,11 +54223,17 @@
     ],
     "steps": [
       {
-        "text": "Ahuecar las naranjas: Cortá las naranjas al medio, exprimilas con cuidado (obteniendo unos 125 ml de jugo) y limpiá bien las cáscaras.",
+        "text": "Ahuecar las naranjas: Cortá las naranjas al medio."
+      },
+      {
+        "text": "Exprimilas con cuidado (obteniendo unos 125 ml de jugo) y limpiá bien las cáscaras.",
         "timerMinutes": 8
       },
       {
-        "text": "Disolver y enfriar: Hidratá la gelatina, disolvela en el agua caliente con el azúcar, mezclá con el jugo de naranja y rellená las cáscaras. Refrigerá toda la noche.",
+        "text": "Disolver y enfriar: Hidratá la gelatina, disolvela en el agua caliente con el azúcar, mezclá con el jugo de naranja y rellená las cáscaras."
+      },
+      {
+        "text": "Refrigerá toda la noche.",
         "timerMinutes": 7
       }
     ],
@@ -53763,7 +54241,10 @@
       "protein": "3g",
       "carbs": "15g",
       "fat": "0g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sXuu1A94lJc",
+    "videoTitle": "Cómo hacer GELATINA DE NARANJA EN su CÁSCARA de una forma súper FÁCIL muy RÁPIDA y queda DELICIOSA",
+    "videoChannel": "Un día para tu semana"
   },
   {
     "id": "cpd-streusel-cerezas",
@@ -53920,11 +54401,17 @@
     ],
     "steps": [
       {
-        "text": "Calentar y licuar: Herví la leche con la crema y el azúcar, retirá del fuego y licuá junto con la banana pisada y la gelatina previamente hidratada.",
+        "text": "Calentar y licuar: Herví la leche con la crema y el azúcar."
+      },
+      {
+        "text": "Retirá del fuego y licuá junto con la banana pisada y la gelatina previamente hidratada.",
         "timerMinutes": 10
       },
       {
-        "text": "Enfriar: Repartí en 3 vasitos y llevá a heladera mínimo 4 horas. Decorá con crema batida y lluvia de chocolate.",
+        "text": "Enfriar: Repartí en 3 vasitos y llevá a heladera mínimo 4 horas."
+      },
+      {
+        "text": "Decorá con crema batida y lluvia de chocolate.",
         "timerMinutes": 5
       }
     ],
@@ -53932,7 +54419,10 @@
       "protein": "4g",
       "carbs": "43g",
       "fat": "14g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=J_JC9EqfrTE",
+    "videoTitle": "¿Cómo hacer PANNACOTTA en CASA | Pino Prestanizzi",
+    "videoChannel": "Pino Prestanizzi"
   },
   {
     "id": "cpd-red-velvet-cake",
@@ -54102,7 +54592,10 @@
       "protein": "6g",
       "carbs": "24g",
       "fat": "22g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=L1ft4H38re0",
+    "videoTitle": "Tarta Mousse de Natillas",
+    "videoChannel": "Rose G"
   },
   {
     "id": "cpd-torrijas-leche-canela",
@@ -54126,11 +54619,17 @@
     ],
     "steps": [
       {
-        "text": "Infusionar y embeber: Herví la leche y la crema con la rama de canela y cáscara de limón; dejá enfriar 10 minutos y remojá bien las rodajas de pan.",
+        "text": "Infusionar y embeber: Herví la leche y la crema con la rama de canela y cáscara de limón."
+      },
+      {
+        "text": "Dejá enfriar 10 minutos y remojá bien las rodajas de pan.",
         "timerMinutes": 15
       },
       {
-        "text": "Freír y rebozar: Pasá cada rodaja por huevo batido, freí en aceite caliente hasta dorar y pasá por azúcar con canela.",
+        "text": "Freír y rebozar: Pasá cada rodaja por huevo batido."
+      },
+      {
+        "text": "Freí en aceite caliente hasta dorar y pasá por azúcar con canela.",
         "timerMinutes": 10
       }
     ],
@@ -54138,7 +54637,10 @@
       "protein": "8g",
       "carbs": "40g",
       "fat": "22g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ypn0bWGTirk",
+    "videoTitle": "COMO HACER TORRIJAS DE LECHE Y CANELA",
+    "videoChannel": "LA COCINA DE LILA"
   },
   {
     "id": "cpd-torta-choclo-dulce",
@@ -54887,7 +55389,10 @@
         "text": "Colocar los discos en una placa ligeramente aceitada o con papel manteca y hornear durante 8 minutos, evitando que se sequen demasiado para conservar su flexibilidad.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=pUH7Bn7Nj1A",
+    "videoTitle": "PAN ÁRABE SIN GLUTEN (Pan de Pita) | SIN GLUTEN, SIN LACTOSA, VEGANO",
+    "videoChannel": "GLUTENDENCE | Cocina sin gluten"
   },
   {
     "id": "ext-pan-vapt-vupt-taza",
@@ -55131,7 +55636,10 @@
         "text": "Extender la masa bien fina sobre la asadera, espolvorear romero por encima y hornear a 200 °C unos 15 minutos hasta que quede crocante.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=c8pa8tY07ec",
+    "videoTitle": "Pan Rústico SIN GLUTEN (Sin Huevo): Crujiente y con corteza de verdad",
+    "videoChannel": "JJ citysingluten"
   },
   {
     "id": "ext-pan-banana-avena-sg",
@@ -55260,7 +55768,10 @@
         "text": "Apagar la licuadora, incorporar el polvo de hornear con cuchara, pasar al molde, espolvorear cebolla deshidratada y hornear 30 minutos.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=01ge_onVqDo",
+    "videoTitle": "▷« PAN de CACAHUETE o MANÍ en POLVO » 🍞 KETO ⚡ SIN GLUTEN ⚡ BAJO en CARBOHIDRATOS",
+    "videoChannel": "Cuídate y Mejora"
   },
   {
     "id": "ext-pan-psyllium-almendras-sg",
@@ -55397,7 +55908,10 @@
         "text": "Volcar en el molde, espolvorear semillas de lino encima y hornear durante 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=FFgSafiLYVw",
+    "videoTitle": "PAN DE HARINA DE ALMENDRAS, NUEVA RECETA, CON LINAZA - FACIL Y SIN GLUTEN",
+    "videoChannel": "Facil y Sin Gluten"
   },
   {
     "id": "ext-baguette-crujiente-sg",
@@ -55893,7 +56407,10 @@
         "text": "Hornear a 180 °C durante 35 minutos hasta dorar ligeramente.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=dMAfWUlFjqk",
+    "videoTitle": "Pan de Harina de Garbanzos en 5 min [SIN gluten y  SIN horno]",
+    "videoChannel": "Jorge Saludable"
   },
   {
     "id": "ext-pan-calabaza-queso-sg",
@@ -56931,7 +57448,10 @@
         "text": "Incorporar el almidón de mandioca dulce, formar bolitas con manos húmedas sobre asadera aceitada y hornear a 200 °C hasta dorar.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-dB8ETb38uc",
+    "videoTitle": "6 RECETAS sin gluten, sin cereales y sin frutos secos con TAPIOCA granulada",
+    "videoChannel": "bealnatural"
   },
   {
     "id": "ext-pan-semillas-sarraceno-chia-sg",
@@ -57849,7 +58369,10 @@
         "text": "Hacer un corte en el lomo, colocar un recipiente con agua caliente en la base del horno y hornear a 200 °C unos 30 minutos hasta quedar crocantes.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=tbqod3x_bdI",
+    "videoTitle": "Baguette O Pan Frances Sin T.A.C.C/Para Celíacos/Sin Gluten",
+    "videoChannel": "Dandote El Gusto"
   },
   {
     "id": "ext-pan-licuadora-doble-sg",
@@ -58162,7 +58685,10 @@
         "text": "Pasar a budinera, tapar y dejar crecer 1 hora. Hornear en horno precalentado a 180 °C durante 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=G6GQLwFNZ3k",
+    "videoTitle": "PAN SIN GLUTEN de HARINA PAN (harina de Maíz )  Y ADEMAS  ES SIN  LEVADURA",
+    "videoChannel": "JJ citysingluten"
   },
   {
     "id": "ext-pan-avena-semillas-rapido-sg",
@@ -58250,7 +58776,10 @@
         "text": "Pasar a molde para pan y hornear a 220 °C entre 25 y 30 minutos hasta dorar.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=lrV9l2y1RE4",
+    "videoTitle": "RECETA PERFECCIONADA DEL PAN de SALVADO DE AVENA",
+    "videoChannel": "ABCDietas y Salud"
   },
   {
     "id": "ext-pan-almendra-coco-casero-sg",
