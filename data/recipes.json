@@ -2045,7 +2045,8 @@
       {
         "text": "Mezclá en un plato con el pollo desmenuzado, aceite de oliva, mayonesa o yogur, sal y pimienta."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/drive-ensalada-pollo-repollo.webp"
   },
   {
     "id": "drive-rollitos-jamon-espinaca",
@@ -3538,7 +3539,8 @@
         "text": "Cociná revolviendo 10 minutos; retirá del fuego y sumá el queso fresco desmenuzado.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/celiaco-kiveve-zapallo-polenta.webp"
   },
   {
     "id": "celiaco-pan-polenta-queso",
@@ -7812,7 +7814,8 @@
       {
         "text": "Macerá la otra zanahoria rallada con el resto del jugo, limón, canela y cacao; escurrí y cubrí la base tras 2 horas de heladera."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/vegano-tarta-cruda-zanahoria.webp"
   },
   {
     "id": "vegano-tarta-fria-yogur",
@@ -11247,7 +11250,8 @@
       {
         "text": "Colocar la carne caliente sobre la base de los panes tostados, sumar ensalada de repollo encima y tapar."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-sloppy-joes-ensalada-repollo.webp"
   },
   {
     "id": "rapida-pan-arabe-carne-asada",
@@ -11425,7 +11429,8 @@
       {
         "text": "Cerrar el sándwich y dorar en tostadora o plancha un par de minutos por lado."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-tostado-jamon-huevo-anchoas.webp"
   },
   {
     "id": "rapida-sandwich-crocante-tomate-parmesano",
@@ -11665,7 +11670,8 @@
       {
         "text": "Cerrar, cortar al medio y servir fresco."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-sandwich-roquefort-jamon-rabanitos.webp"
   },
   {
     "id": "rapida-sandwich-atun-huevo-tartara",
@@ -12661,7 +12667,8 @@
         "text": "Hornear a 220 °C unos 10 a 15 minutos hasta dorar; decorar con albahaca fresca.",
         "timerMinutes": 13
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-pizza-atun-tomates-alcaparras.webp"
   },
   {
     "id": "rapida-pizza-chorizo-radicchio",
@@ -12719,7 +12726,8 @@
         "text": "Estirar la masa, cubrir con mozzarella, chorizo, radicchio salteado y parmesano; hornear 15 minutos a 200 °C.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-pizza-chorizo-radicchio.webp"
   },
   {
     "id": "rapida-masa-base-pizza",
@@ -13227,7 +13235,8 @@
       {
         "text": "Mezclar las verduras con el tomate, jamón y queso; salpimentar, verter la salsa y espolvorear con pimentón y perejil."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-ensalada-verduras-jamon-queso.webp"
   },
   {
     "id": "rapida-ensalada-alemana-papa-panceta",
@@ -14127,7 +14136,8 @@
         "text": "Colar la pasta caliente, volcarla en la sartén con la panceta a fuego mínimo y sumar el batido revolviendo 1 a 2 minutos sin hervir para lograr una salsa cremosa.",
         "timerMinutes": 2
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-fettuccinis-carbonara.webp"
   },
   {
     "id": "pastas-penne-espinaca-tomate-panceta",
@@ -18912,7 +18922,8 @@
       {
         "text": "Entibiar los panes árabes, abrir como bolsillo y rellenar con la mezcla caliente."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-pavita-barbacoa-pan-arabe.webp"
   },
   {
     "id": "sandwich-suizo-pavita-chucrut",
@@ -19813,7 +19824,8 @@
         "text": "Tostar apenas el pan en horno fuerte, untar la pasta de atún, cubrir con queso y tomate y gratinar 4 minutos.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-tostado-clasico-atun.webp"
   },
   {
     "id": "sandwich-atun-estragon-provolone",
@@ -20319,7 +20331,8 @@
       {
         "text": "Rellenar con las aceitunas picadas, el salame, jamón cocido, provolone y mozzarella; cerrar y cortar en 4 porciones."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-italiano-baguette-fiambres.webp"
   },
   {
     "id": "sandwich-tostado-clasico-queso-crema",
@@ -36712,7 +36725,8 @@
       {
         "text": "Servir el plato caliente."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-bife-con-morrones-en-freidora.webp"
   },
   {
     "id": "airfryer-morrones-rellenos-de-carne-en-freidora",
