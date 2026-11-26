@@ -52334,5 +52334,3900 @@
         "timerMinutes": 2
       }
     ]
+  },
+  {
+    "id": "ext-pan-sarten-sg",
+    "title": "Pan Rápido a la Sartén Sin Gluten",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Pancito individual sin gluten cocinado a la sartén en pocos minutos, con harina de almendras, lino dorado y sésamo.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "levadura seca o polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "semillas de sésamo tostado"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de almendras"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "hojuelas de amaranto o quinoa"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de lino dorado"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir el huevo en un bol con batidor o tenedor. Agregar las harinas, las hojuelas, el sésamo, la levadura o polvo de hornear y la sal, mezclando bien."
+      },
+      {
+        "text": "Calentar una sartén chica a fuego mínimo, volcar la masa y tapar. Cocinar 3 minutos hasta que dore abajo.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Dar vuelta con espátula y dorar 2 a 3 minutos del otro lado. Rellenar a gusto con queso.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-panini-sg",
+    "title": "Pan Panini Sin Gluten en Microondas",
+    "metodo": "microondas",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 4,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Pan estilo panini exprés sin gluten hecho con harina de nuez y linaza en 2 minutos al microondas y tostado en sartén.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina de nuez"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de linaza"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de linaza"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar todos los ingredientes en un recipiente rectangular chico apto para microondas hasta integrar bien."
+      },
+      {
+        "text": "Cocinar en microondas a potencia máxima durante 2 minutos.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Desmoldar, cortar al medio, rellenar a gusto y dorar en sartén antiadherente o sandwichera."
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-crujiente-romero-sg",
+    "title": "Pan Chato Crujiente de Almendras y Romero Sin Gluten",
+    "metodo": "horno",
+    "momento": "snacks",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "temperatureC": 200,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Tostadas o pan chato bien finito y crocante de harina de almendras perfumado con romero, sin harinas refinadas.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "harina de almendras"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "romero seco o fresco"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y condimentos a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 200 °C y aceitar o forrar con papel manteca una asadera."
+      },
+      {
+        "text": "Batir bien los huevos y agregar la harina de almendras, el aceite, el polvo de hornear, sal y condimentos."
+      },
+      {
+        "text": "Extender la masa bien fina sobre la asadera, espolvorear romero por encima y hornear a 200 °C unos 15 minutos hasta que quede crocante.",
+        "timerMinutes": 15
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-banana-avena-sg",
+    "title": "Pan de Banana y Avena Sin Gluten en Licuadora",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Budín o pan húmedo de banana madura y avena sin TACC hecho en licuadora con aceite de coco y canela.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "bananas bien maduras"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de coco"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar rubia o mascabo"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "avena sin TACC"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela molida"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C."
+      },
+      {
+        "text": "Licuar los huevos, las bananas, el aceite de coco, el azúcar y la canela. Agregar la avena y por último el polvo de hornear, mezclando suave."
+      },
+      {
+        "text": "Volcar en una budinera engrasada o de silicona (opcionalmente sumar pasas o nueces picadas) y hornear a 180 °C durante 30 minutos.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-mani-sg",
+    "title": "Pan de Maní Tostado Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan proteico sin harinas elaborado en licuadora a base de maní tostado, huevos y cebolla deshidratada.",
+    "ingredients": [
+      {
+        "amount": 420,
+        "unit": "g",
+        "item": "maní tostado sin sal (3 tazas)"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 160,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "escamas de cebolla deshidratada"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de coco para engrasar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C y engrasar una budinera con aceite de coco."
+      },
+      {
+        "text": "Procesar o licuar el maní tostado hasta triturarlo bien. Añadir los huevos, el agua y la sal y licuar unos 2 minutos hasta lograr una mezcla pareja."
+      },
+      {
+        "text": "Apagar la licuadora, incorporar el polvo de hornear con cuchara, pasar al molde, espolvorear cebolla deshidratada y hornear 30 minutos.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-psyllium-almendras-sg",
+    "title": "Pancitos de Almendras y Psyllium Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Pancitos ricos en fibra y bajos en carbohidratos con harina de almendras, psyllium y claras de huevo.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de almendras (1 y 1/4 tazas)"
+      },
+      {
+        "amount": 6,
+        "unit": "cdas",
+        "item": "psyllium en polvo"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 300,
+        "unit": "ml",
+        "item": "agua hirviendo"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "claras de huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y semillas de sésamo a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C."
+      },
+      {
+        "text": "Mezclar en un bol la harina de almendras, el psyllium, el polvo de hornear, el sésamo y la sal."
+      },
+      {
+        "text": "Agregar el agua hirviendo, el vinagre y las claras de huevo, batiendo hasta formar una masa firme."
+      },
+      {
+        "text": "Formar bolitas con las manos húmedas, colocar en placa engrasada y hornear a 180 °C durante 50 minutos.",
+        "timerMinutes": 50
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-linaza-almendras-sg",
+    "title": "Pan de Linaza Dorada y Almendras Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Fácil",
+    "description": "Pan de molde nutritivo sin TACC con harina de linaza dorada, almendras y aceite de oliva.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva extra virgen"
+      },
+      {
+        "amount": 160,
+        "unit": "g",
+        "item": "harina de linaza dorada (1 y 1/3 tazas)"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "harina de almendras (2/3 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de lino para espolvorear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C y engrasar una budinera."
+      },
+      {
+        "text": "Batir los huevos con el aceite de oliva, la harina de linaza, la harina de almendras, la sal y el agua. Apagar la batidora e incorporar el polvo de hornear con cuchara."
+      },
+      {
+        "text": "Volcar en el molde, espolvorear semillas de lino encima y hornear durante 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-baguette-crujiente-sg",
+    "title": "Baguette Crujiente Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 30,
+    "temperatureC": 220,
+    "servings": 6,
+    "difficulty": "Difícil",
+    "description": "Baguettes artesanales sin gluten con corteza bien crocante lograda con vapor de agua en el horno.",
+    "ingredients": [
+      {
+        "amount": 94,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 82,
+        "unit": "g",
+        "item": "harina de sorgo o trigo sarraceno"
+      },
+      {
+        "amount": 54,
+        "unit": "g",
+        "item": "almidón de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "clara de huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "miel"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua fría"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar las harinas, el almidón, la goma xantana, la levadura y la sal. Sumar la clara, miel, vinagre y la mitad del agua fría, batiendo e incorporando el resto del agua de a poco hasta lograr una masa manejable."
+      },
+      {
+        "text": "Dividir en 3 partes sobre mesada espolvoreada con harina de arroz y dar forma de baguette. Colocar en bandeja, rociar con agua, espolvorear harina y hacer cortes oblicuos."
+      },
+      {
+        "text": "Precalentar el horno a 220 °C con una fuente con agua caliente en la base para generar vapor. Hornear 30 minutos hasta dorar bien.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-focaccia-arroz-sg",
+    "title": "Focaccia Casera de Harina de Arroz Sin Gluten",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 35,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Focaccia esponjosa sin TACC con masa fluida de harina de arroz, aceite de oliva, romero y sal gruesa.",
+    "ingredients": [
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cda",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "romero fresco y sal gruesa a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disolver la levadura y el azúcar en el agua tibia y dejar espumar 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Mezclar la harina de arroz, goma xantana y bicarbonato. Aparte batir el huevo con 2 cdas de oliva y unir con la levadura y los secos hasta obtener una masa fluida."
+      },
+      {
+        "text": "Extender en fuente aceitada, cubrir con film y dejar levar 25 minutos.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Rociar con oliva, hacer huequitos con los dedos, espolvorear romero y sal gruesa (o aceitunas/tomates secos) y hornear a 200 °C unos 25 minutos.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-australiano-sg",
+    "title": "Pan Australiano Oscuro Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pan estilo australiano sin gluten con cacao amargo, miel, azúcar rubia y harina de maíz precocida.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "miel"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "harina de arroz (1/2 taza)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "harina de maíz precocida (1/2 taza)"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "almidón de mandioca dulce"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "fécula de papa"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "harina de linaza"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "cacao amargo en polvo"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los huevos, miel, aceite, vinagre, levadura y agua tibia hasta disolver bien."
+      },
+      {
+        "text": "Incorporar el resto de los ingredientes secos hasta formar una masa homogénea. Pasar a budinera (24 x 11 cm) aceitada y espolvoreada con cacao, alisando con cuchara húmeda."
+      },
+      {
+        "text": "Cubrir con film y dejar levar 30 minutos. Hacer tres cortes arriba, espolvorear un poco de harina de maíz y hornear a 180 °C durante 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-basico-papa-sg",
+    "title": "Pan Blanco Básico Sin Gluten con Papa",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 40,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan casero económico sin TACC con miga suave gracias al aporte de papa hervida y almidón de mandioca dulce.",
+    "ingredients": [
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "levadura fresca"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1 taza)"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "harina de arroz (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "papa hervida mediana picada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuar o batir el agua, la levadura, el azúcar, el aceite, la sal y el huevo."
+      },
+      {
+        "text": "Agregar el almidón de mandioca dulce, la harina de arroz y la papa hervida, batiendo hasta lograr una masa pareja."
+      },
+      {
+        "text": "Pasar a budinera enmantecada (25 x 9 x 7 cm), dejar leudar 30 minutos y hornear a 180 °C por 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-avena-arroz-sg",
+    "title": "Pan de Avena y Arroz Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan rápido sin amasado con copos de avena sin TACC, harina de arroz y linaza.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca instantánea"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz (1 taza)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "harina de linaza"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "copos de avena gruesos sin TACC (1 taza)"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua tibia"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar todos los ingredientes secos reservando la mitad de los copos de avena. Agregar el aceite y el agua tibia de a poco hasta formar una mezcla homogénea y pegajosa."
+      },
+      {
+        "text": "Volcar en budinera (26 x 10 x 7 cm) aceitada y espolvoreada con harina de arroz. Cubrir con el resto de la avena."
+      },
+      {
+        "text": "Hornear en horno precalentado a 180 °C durante 20 minutos.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-garbanzos-levadura-sg",
+    "title": "Pan de Harina de Garbanzos y Arroz Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 70,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pan proteico y sabroso con harina de garbanzos, harina de arroz y almidón de mandioca dulce.",
+    "ingredients": [
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina de garbanzos (1 taza)"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "harina de arroz (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1 taza)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 11,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "sal fina"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "vinagre de manzana"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar las harinas, goma xantana, levadura, azúcar y sal en un bol. Batir aparte el agua tibia, huevo, aceite y vinagre y unir todo."
+      },
+      {
+        "text": "Dar forma a los panes o colocar en molde engrasado y dejar reposar 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Hornear a 180 °C durante 35 minutos hasta dorar ligeramente.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-calabaza-queso-sg",
+    "title": "Pancitos de Zapallo Cabutiá Sin Gluten (Tipo Chipá)",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Bolitas doradas estilo pan de queso pero sin lácteos ni gluten, hechas con puré de zapallo cabutiá y almidones de mandioca.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "almidón de mandioca dulce"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "almidón de mandioca agrio"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "agua"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "zapallo cabutiá cocido y pisado (1 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de coco"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de chía (opcional)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar todos los ingredientes con las manos hasta conseguir una masa homogénea que no se pegue."
+      },
+      {
+        "text": "Formar bolitas del tamaño de un chipá y colocar en bandeja para horno."
+      },
+      {
+        "text": "Hornear a 180 °C durante 20 minutos hasta que estén doradas.",
+        "timerMinutes": 20
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-almendra-lino-levadura-sg",
+    "title": "Pan Esponjoso de Almendras y Lino Dorado Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 40,
+    "cookMinutes": 40,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pan tierno bajo en carbohidratos hecho con almendras molidas, almidón de mandioca dulce, lino dorado y levadura de pan.",
+    "ingredients": [
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "harina de almendras (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 110,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (3/4 taza)"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "harina de lino dorado (1/4 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "levadura seca para pan"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los ingredientes secos. Batir bien los huevos e incorporar los secos hasta integrar."
+      },
+      {
+        "text": "Colocar en budinera engrasada, tapar con repasador limpio y dejar levar 30 minutos en lugar tibio.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Hornear 5 minutos a fuego fuerte y luego bajar a 180-200 °C por 30 a 40 minutos.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-papa-hierbas-sg",
+    "title": "Pancitos de Papa y Hierbas Sin Gluten",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pancitos suaves tipo chipá sin lácteos hechos con puré de papa, almidón de mandioca, orégano y albahaca.",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "item": "puré de papa firme"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almidón de mandioca agrio"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almidón de mandioca dulce"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "aceite de oliva o girasol"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal, orégano y albahaca a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 190 °C."
+      },
+      {
+        "text": "Mezclar el agua tibia con el aceite y unir en un bol con el puré de papa, los almidones, huevos, sal y hierbas hasta lograr una masa pareja."
+      },
+      {
+        "text": "Formar bolitas con cuchara o manos húmedas sobre asadera sin necesidad de engrasar y hornear hasta dorar suavemente.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-boniato-amasado-sg",
+    "title": "Pancitos de Boniato Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 25,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Bollitos suaves y ligeramente dulces elaborados con puré de boniato, harina de arroz, almidón de mandioca y linaza.",
+    "ingredients": [
+      {
+        "amount": 220,
+        "unit": "g",
+        "item": "puré de boniato hervido (1 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de linaza"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 115,
+        "unit": "g",
+        "item": "harina de arroz (3/4 taza)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "goma xantana"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Batir el puré de boniato con el huevo, linaza, levadura, aceite, sal, goma xantana y azúcar."
+      },
+      {
+        "text": "Agregar la harina de arroz y el almidón de mandioca y amasar sobre mesada limpia hasta que no se pegue."
+      },
+      {
+        "text": "Formar bollitos (pueden rellenarse), acomodar en placa aceitada dejando separación y hornear a 180 °C unos 25 minutos.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-boniato-microondas-sg",
+    "title": "Pan Rápido de Boniato en Microondas Sin Gluten",
+    "metodo": "microondas",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 3,
+    "cookMinutes": 3,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "description": "Pancito individual exprés de puré de boniato, huevo y linaza cocido en 2 minutos al microondas.",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "boniato chico hervido hecho puré"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal a gusto"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de linaza (opcional)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pisar bien el boniato y mezclar con el huevo, la sal, la harina de linaza y por último el polvo de hornear."
+      },
+      {
+        "text": "Pasar a un recipiente chico apto para microondas y cocinar 2 minutos a potencia máxima.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Desmoldar, cortar al medio y dorar en sartén con un toque de manteca si se desea."
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-castanas-sg",
+    "title": "Pan de Castañas de Cajú y Nueces de Brasil Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 70,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Pan artesanal sin TACC con trocitos crocantes de castañas de cajú y nueces de Brasil.",
+    "ingredients": [
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 11,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "sal fina"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "manteca blanda"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "castañas de cajú picadas (1/2 taza)"
+      },
+      {
+        "amount": 525,
+        "unit": "g",
+        "item": "harina de arroz (3 y 1/2 tazas)"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "nueces de Brasil picadas (1/2 taza)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los ingredientes en el orden listado hasta obtener una masa homogénea."
+      },
+      {
+        "text": "Dividir en dos budineras medianas aceitadas y espolvoreadas con harina de arroz. Dejar reposar 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Hornear en horno precalentado a 180 °C durante 35 minutos hasta dorar. Enfriar antes de desmoldar.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-cebolla-licuadora-sg",
+    "title": "Pan de Cebolla Sin Gluten",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 50,
+    "cookMinutes": 45,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Pancitos aromáticos de cebolla licuada y harina de arroz, pintados con yema para lograr un dorado brillante.",
+    "ingredients": [
+      {
+        "amount": 750,
+        "unit": "g",
+        "item": "harina de arroz (aprox. 5 a 6 tazas)"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "cebolla mediana"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "yema de huevo para pincelar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar 2 tazas de harina de arroz con la levadura, azúcar y sal. Aparte licuar los huevos, el agua, el aceite y la cebolla."
+      },
+      {
+        "text": "Unir lo licuado a los secos e ir sumando el resto de la harina de arroz hasta formar masa. Reposar 30 minutos.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Armar bollitos en placa aceitada y enharinada con arroz, tapar hasta duplicar volumen, pincelar con yema y hornear a 180 °C unos 45 minutos.",
+        "timerMinutes": 45
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-zanahoria-arroz-sg",
+    "title": "Pan de Zanahoria en Licuadora Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan húmedo y colorido de zanahoria fresca licuada y harina de arroz, cubierto con semillas de sésamo.",
+    "ingredients": [
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "harina de arroz (1 y 1/4 tazas)"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "zanahoria fresca picada"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de sésamo o linaza para espolvorear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C y engrasar una budinera."
+      },
+      {
+        "text": "Licuar todos los ingredientes (dejando el polvo de hornear para el final) hasta obtener una mezcla lisa."
+      },
+      {
+        "text": "Volcar en el molde, espolvorear semillas por encima y hornear a 180 °C durante 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-coco-freidora-sg",
+    "title": "Pancitos de Harina de Coco en Freidora de Aire Sin Gluten",
+    "metodo": "freidora",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Bolitas tiernas sin gluten con harina de coco y almidón de mandioca agrio listas en 10 minutos en la freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "almidón de mandioca agrio (1/2 taza)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "harina de coco (1/2 taza)"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo batido"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el almidón de mandioca, la harina de coco y la sal. Sumar el huevo batido e integrar."
+      },
+      {
+        "text": "Agregar el agua y el aceite hasta formar una masa consistente."
+      },
+      {
+        "text": "Formar bolitas y cocinar en la freidora de aire precalentada a 180 °C durante 10 minutos. Dejar enfriar 15 minutos antes de comer.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-garbanzos-molde-sg",
+    "title": "Pan Rápido de Garbanzos y Linaza Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan sin levado previo a base de harina de garbanzos, linaza y polvo de hornear, ideal para sándwiches proteicos.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "harina de garbanzos (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "harina de linaza"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal marina"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "agua (o un poco más si precisa)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "polvo de hornear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C y engrasar un molde chico de unos 10 x 22 cm."
+      },
+      {
+        "text": "Batir en un bol los huevos con las harinas, sal y agua, dejando el polvo de hornear para el final."
+      },
+      {
+        "text": "Volcar en el molde y hornear a 180 °C durante 30 minutos.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-hamburguesa-freidora-sg",
+    "title": "Pan de Hamburguesa Sin Gluten en Freidora de Aire",
+    "metodo": "freidora",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Media",
+    "description": "Panes esponjosos sin TACC para hamburguesas levados y horneados directamente en la freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "almidón de mandioca dulce"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "leche tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "levadura seca activa"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los secos en un bol. Batir aparte leche, huevo, aceite y levadura, y unir hasta lograr una masa blanda y pegajosa."
+      },
+      {
+        "text": "Pasar a un molde apto para freidora aceitado y enharinado con arroz. Precalentar la freidora 3 min a 180 °C, apagarla y dejar el molde adentro 30 min para que leve.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Cocinar 15 minutos a 180 °C, cubrir con papel aluminio para no quemar arriba y cocinar otros 15 minutos a 180 °C.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-molde-arroz-xantana-sg",
+    "title": "Pan de Molde Clásico Sin Gluten con Goma Xantana",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 70,
+    "cookMinutes": 40,
+    "temperatureC": 200,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Pan lactal sin gluten de miga pareja para tostadas y sándwiches diarios.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "harina de arroz (2 tazas)"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 3,
+        "unit": "cdtas",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "margarina o aceite de oliva"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 360,
+        "unit": "ml",
+        "item": "agua tibia (1 y 1/2 tazas)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los secos y sumar los húmedos agregando el agua tibia de a poco hasta lograr una masa suave y consistente (no líquida)."
+      },
+      {
+        "text": "Colocar en budinera engrasada y dejar levar 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Hornear a 200 °C durante aproximadamente 40 minutos hasta dorar.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-name-hierbas-sg",
+    "title": "Pancitos de Ñame y Finas Hierbas Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pancitos sin gluten ni lácteos de ñame crudo rallado con ajo, finas hierbas y almidón de mandioca dulce.",
+    "ingredients": [
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "ñame crudo rallado (1 taza)"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de coco sin sabor o aceite de oliva"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "finas hierbas secas"
+      },
+      {
+        "amount": 1,
+        "unit": "diente",
+        "item": "ajo picado"
+      },
+      {
+        "amount": 110,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (3/4 taza)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 200 °C."
+      },
+      {
+        "text": "Mezclar el ñame rallado con el aceite, sal, finas hierbas y ajo. Sumar el almidón de mandioca hasta obtener una masa lisa que no se pegue."
+      },
+      {
+        "text": "Formar bolitas, acomodar en asadera y hornear a 200 °C durante 30 a 40 minutos.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-maiz-mandioca-levadura-sg",
+    "title": "Pan Rústico de Harina de Maíz y Mandioca Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 45,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pan dorado de harina de maíz, almidón de mandioca dulce, avena y linaza con miga tierna.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 30,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almidón de mandioca dulce"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de maíz"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "levadura seca instantánea"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina de linaza"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina de avena sin TACC"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar todos los ingredientes secos. Hacer un hueco, añadir huevos, agua y aceite, y batir 5 minutos a velocidad media."
+      },
+      {
+        "text": "Volcar en budinera (24 x 10 cm) aceitada y espolvoreada con harina de maíz. Tapar y dejar duplicar su volumen.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Hornear en horno precalentado a 200 °C durante unos 30 minutos. Dejar enfriar antes de desmoldar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-tapioca-avellanas-sg",
+    "title": "Pancitos de Tapioca Granulada y Avellanas Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Bollitos crocantes por fuera y elásticos por dentro a base de tapioca granulada hidratada en leche de avellanas casera.",
+    "ingredients": [
+      {
+        "amount": 600,
+        "unit": "ml",
+        "item": "agua (2 y 1/2 tazas)"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "avellanas crudas sin sal (1/2 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "tapioca granulada"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "condimentos secos (ajo, albahaca, orégano, romero) y sal a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuar el agua con las avellanas; sumar el huevo y el aceite y batir bien."
+      },
+      {
+        "text": "Mezclar la tapioca granulada con sal y condimentos, volcar el licuado y dejar hidratar hasta que absorba y los granos queden tiernos."
+      },
+      {
+        "text": "Incorporar el almidón de mandioca dulce, formar bolitas con manos húmedas sobre asadera aceitada y hornear a 200 °C hasta dorar.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-semillas-sarraceno-chia-sg",
+    "title": "Pan de Trigo Sarraceno, Chía y Semillas Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 30,
+    "cookMinutes": 70,
+    "temperatureC": 170,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Pan integral sin gluten muy nutritivo con gel de chía, trigo sarraceno, harina de almendras y semillas tostadas.",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "harina de trigo sarraceno"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "harina de almendras"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "semillas de chía"
+      },
+      {
+        "amount": 450,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "semillas de girasol"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "semillas de zapallo"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "semillas de lino"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 12,
+        "unit": "g",
+        "item": "polvo de hornear sin gluten"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hidratar la chía en 250 ml de agua durante 15 minutos hasta formar un gel.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Mezclar la harina de trigo sarraceno, almendras, polvo de hornear y sal. Sumar el resto del agua, aceite, gel de chía y las semillas (reservando un poco para decorar)."
+      },
+      {
+        "text": "Dejar reposar 10 minutos, pasar a budinera forrada con papel manteca, espolvorear las semillas reservadas y hornear a 170 °C durante 1 hora y 10 minutos. Enfriar antes de cortar.",
+        "timerMinutes": 70
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-trigo-sarraceno-clasico-sg",
+    "title": "Pan Artesanal de Trigo Sarraceno y Garbanzos Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 35,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Hogaza rústica sin gluten que combina trigo sarraceno, harina de arroz y harina de garbanzos.",
+    "ingredients": [
+      {
+        "amount": 260,
+        "unit": "g",
+        "item": "harina de trigo sarraceno (2 tazas)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz (1 taza)"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina de garbanzos (1 taza)"
+      },
+      {
+        "amount": 480,
+        "unit": "ml",
+        "item": "agua tibia (2 tazas)"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "azúcar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disolver la levadura y el azúcar en 1 taza de agua tibia y dejar espumar 5 minutos.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Mezclar las tres harinas con el polvo de hornear y la sal. Sumar la levadura activada y el resto del agua tibia de a poco hasta lograr una masa tersa."
+      },
+      {
+        "text": "Formar un bollo, tapar y dejar leudar 30 minutos. Hornear a 190 °C unos 35 minutos hasta que suene hueco al golpear la base.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-dulce-canela-sg",
+    "title": "Pan Dulce de Canela en Capas Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Budín o pan dulce sin gluten con claras batidas y capas de azúcar y canela.",
+    "ingredients": [
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite vegetal (1/4 taza)"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "azúcar (1 taza)"
+      },
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "claras de huevo batidas"
+      },
+      {
+        "amount": 280,
+        "unit": "g",
+        "item": "premezcla de harina sin gluten (2 tazas)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "bicarbonato de sodio"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua"
+      },
+      {
+        "amount": 8,
+        "unit": "cdas",
+        "item": "azúcar (para la cobertura)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "canela molida (para la cobertura)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite (para la cobertura)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C y engrasar una budinera."
+      },
+      {
+        "text": "Batir el aceite, azúcar y claras; intercalar la premezcla con polvo de hornear, bicarbonato y sal alternando con el agua."
+      },
+      {
+        "text": "Mezclar aparte los ingredientes de la cobertura. Alternar capas de masa y cobertura en el molde y hornear a 180 °C durante 40 minutos hasta que salga seco el palillo.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-suave-arroz-integral-sg",
+    "title": "Pancitos Suaves de Arroz Integral Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 45,
+    "cookMinutes": 35,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pancitos tiernos sin gluten hechos con harina de arroz integral, castañas de cajú, almidón de mandioca y semillas.",
+    "ingredients": [
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "agua tibia a 37 °C (3/4 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz integral (1 taza)"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina de castañas de cajú o almendras (1/2 taza)"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/4 taza)"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "fécula de papa o almidón de maíz (1/4 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el agua tibia, la levadura y el azúcar y dejar formar esponja 10 a 15 minutos.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Mezclar las harinas aparte, agregar la esponja, el huevo batido, aceite y sal removiendo bien."
+      },
+      {
+        "text": "Pasar a molde engrasado, espolvorear semillas opcionales y dejar duplicar. Hornear 5 minutos a temperatura alta y luego 25 a 30 minutos a 180-200 °C.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-integral-amaranto-quinoa-sg",
+    "title": "Pan Integral de Amaranto, Quinoa y Linaza Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 65,
+    "cookMinutes": 45,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Media",
+    "description": "Dos panes de molde integrales sin gluten enriquecidos con amaranto, quinoa y semillas de lino.",
+    "ingredients": [
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 600,
+        "unit": "ml",
+        "item": "agua tibia (2 y 1/2 tazas)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz integral (1 taza)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz blanco (1 taza)"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina de linaza (1/2 taza)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de lino"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "hojuelas de amaranto"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "quinoa en grano"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Activar la levadura con el azúcar y 1/2 taza de agua tibia. Mezclar los secos en un bol, agregar aceite, sal, huevos, levadura y el resto del agua de a poco."
+      },
+      {
+        "text": "Tapar y dejar reposar 50 minutos.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Dividir entre dos budineras aceitadas y enharinadas con arroz, reposar 10 minutos más y hornear a 180 °C durante 45 minutos.",
+        "timerMinutes": 45
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-sencillo-arroz-integral-sg",
+    "title": "Pan Sencillo de Arroz Integral Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 150,
+    "cookMinutes": 30,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Hogaza sencilla de solo cinco ingredientes con 100% harina de arroz integral, aceite de oliva y levadura.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "harina de arroz integral"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal gruesa"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combinar la harina de arroz integral con la levadura, aceite, sal y el agua tibia de a poco, amasando hasta obtener una masa blanda y lisa."
+      },
+      {
+        "text": "Tapar y dejar leudar 2 horas sin corrientes de aire.",
+        "timerMinutes": 120
+      },
+      {
+        "text": "Desgasificar suave, formar una bola sobre placa con papel manteca, hacer cortes encima y dejar crecer 30 minutos más. Hornear a 190 °C unos 30 minutos hasta dorar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-rustico-lento-sg",
+    "title": "Pan Rústico de Cocción Lenta Sin Gluten",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 120,
+    "temperatureC": 150,
+    "servings": 10,
+    "difficulty": "Media",
+    "description": "Pan de corteza rústica horneado a baja temperatura con mezcla de arroces, harina de garbanzos, miel y puré de papa.",
+    "ingredients": [
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "harina de arroz integral (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 190,
+        "unit": "g",
+        "item": "harina de arroz blanco (1 y 1/4 tazas)"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina de garbanzos (1 taza)"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "linaza molida (1/4 taza)"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdtas",
+        "item": "sal fina"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cdta",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite de oliva (1/4 taza)"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "miel (1/4 taza)"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "levadura seca instantánea"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "puré de papa (1/3 taza)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 150 °C y aceitar un molde para pan."
+      },
+      {
+        "text": "Unir aceite, agua, miel y levadura y reposar 5 minutos. Mezclar las harinas, linaza, sal y goma xantana e ir integrando los líquidos alternando con el puré de papa."
+      },
+      {
+        "text": "Formar una barra sin amasar en exceso, colocar en el molde y hornear a 150 °C unas 2 horas hasta que el palillo salga seco.",
+        "timerMinutes": 120
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-rapido-bollos-sg",
+    "title": "Bollos Rápidos Sin Gluten con Polvo de Hornear",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Bollos tiernos sin levado con leche vegetal y polvo de hornear, listos en menos de 40 minutos.",
+    "ingredients": [
+      {
+        "amount": 420,
+        "unit": "g",
+        "item": "premezcla de harina sin gluten (3 tazas)"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "margarina vegetal o manteca"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos medianos"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "item": "leche vegetal"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "yema para pintar"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar todos los ingredientes en un bol hasta integrar. Armar bollos con las palmas untadas y acomodar en placa aceitada."
+      },
+      {
+        "text": "Pintar con yema mientras el horno precalienta al máximo por 10 minutos."
+      },
+      {
+        "text": "Hornear 5 minutos a horno máximo, bajar a 200 °C por 10 minutos y terminar 10 minutos a 180 °C.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-brioche-sg",
+    "title": "Pan Brioche Esponjoso Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "dulces",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Pan brioche tierno y ligeramente dulce sin TACC, batido en batidora para lograr una miga aireada.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "premezcla básica sin gluten"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "manteca o margarina (o aceite de coco)"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "item": "agua tibia"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Colocar todos los ingredientes en la batidora, mezclar con espátula y luego batir 3 a 4 minutos hasta homogeneizar."
+      },
+      {
+        "text": "Pasar a budinera engrasada y dejar reposar al menos 30 minutos.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Hornear en horno precalentado a 180 °C entre 30 y 40 minutos.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-mandioca-curcuma-sg",
+    "title": "Pancitos de Mandioca y Cúrcuma Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Fácil",
+    "description": "Pancitos dorados sin lácteos ni gluten a base de puré de mandioca o papa, cúrcuma y almidones de mandioca.",
+    "ingredients": [
+      {
+        "amount": 260,
+        "unit": "g",
+        "item": "almidón de mandioca agrio (2 tazas)"
+      },
+      {
+        "amount": 390,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (3 tazas)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "orégano, romero o albahaca seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "cúrcuma y sal a gusto"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "aceite de oliva (3/4 taza)"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "mandioca o papa cocida hecha puré"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua aprox. (1/2 taza)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los almidones con las hierbas, cúrcuma, sal y aceite de oliva."
+      },
+      {
+        "text": "Sumar el puré y agregar el agua de a poco mientras se amasa hasta lograr una masa suave."
+      },
+      {
+        "text": "Formar bolitas sobre placa aceitada y hornear a 180 °C por 25 minutos, luego subir a 200 °C por 15 minutos hasta dorar.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-mandioca-chia-sg",
+    "title": "Pancitos de Mandioca y Chía Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Bollitos saludables de mandioca cocida, semillas de chía, cúrcuma y orégano sin gluten.",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "mandioca cocida hecha puré"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "cúrcuma"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "semillas de chía"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cda",
+        "item": "orégano seco"
+      },
+      {
+        "amount": 210,
+        "unit": "g",
+        "item": "premezcla de harina sin gluten (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "aceite de oliva (1/2 taza)"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua (1/2 taza)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C."
+      },
+      {
+        "text": "Mezclar la mandioca pisada con el aceite, sal, cúrcuma, chía, orégano, la harina sin gluten y el agua de a poco hasta formar una masa tersa."
+      },
+      {
+        "text": "Formar bolitas sobre asadera ligeramente aceitada y hornear a 180 °C unos 30 minutos hasta dorar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-frances-crocante-sg",
+    "title": "Pan Francés Porteño / Felipe Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 75,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Difícil",
+    "description": "Pancitos tipo felipe o pan francés con corteza crocante usando fermento previo y vapor en el horno.",
+    "ingredients": [
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "azúcar"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz (50 g fermento + 100 g masa)"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua tibia (100 ml fermento + 150 ml masa)"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "almidón de mandioca dulce"
+      },
+      {
+        "amount": 90,
+        "unit": "g",
+        "item": "almidón de maíz"
+      },
+      {
+        "amount": 4,
+        "unit": "g",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hacer el fermento mezclando la levadura, 100 ml de agua tibia, azúcar y 50 g de harina de arroz; tapar y reservar."
+      },
+      {
+        "text": "Unir el resto de los secos, añadir aceite, huevo, el fermento y los 150 ml de agua de a poco amasando 5 a 10 minutos."
+      },
+      {
+        "text": "Formar los panes con manos húmedas en placa aceitada y dejar levar 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Hacer un corte en el lomo, colocar un recipiente con agua caliente en la base del horno y hornear a 200 °C unos 30 minutos hasta quedar crocantes.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-licuadora-doble-sg",
+    "title": "Pan Rápido de Licuadora Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "temperatureC": 180,
+    "servings": 12,
+    "difficulty": "Fácil",
+    "description": "Masa liviana sin amasado batida íntegramente en licuadora que rinde dos panes de molde.",
+    "ingredients": [
+      {
+        "amount": 25,
+        "unit": "g",
+        "item": "levadura fresca para pan"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar"
+      },
+      {
+        "amount": 480,
+        "unit": "ml",
+        "item": "leche o agua tibia (2 tazas)"
+      },
+      {
+        "amount": 10,
+        "unit": "cdas",
+        "item": "harina de arroz"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "almidón de mandioca dulce"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "almidón de maíz"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "fécula de papa"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuar la levadura, azúcar y leche o agua tibia. Sumar la harina de arroz, almidones, huevos, aceite y sal y licuar hasta integrar."
+      },
+      {
+        "text": "Dejar levar tapado 15 a 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Repartir en dos budineras aceitadas y enharinadas con arroz y hornear a 180 °C durante 30 minutos hasta que el palillo salga limpio.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-multigran-sg",
+    "title": "Pan Multigranos con Sésamo y Tomillo Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 50,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 10,
+    "difficulty": "Fácil",
+    "description": "Pan de molde sin gluten cubierto con sésamo blanco y negro, linaza dorada y un toque de tomillo fresco.",
+    "ingredients": [
+      {
+        "amount": 350,
+        "unit": "g",
+        "item": "premezcla de harina sin gluten para pan"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "item": "sal fina"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos chicos"
+      },
+      {
+        "amount": 7,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 70,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "linaza dorada"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "semillas de sésamo blanco y negro"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "tomillo fresco"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "vinagre blanco"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "agua aprox."
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los secos excepto la sal (reservar parte de las semillas). Sumar huevos, vinagre, aceite y agua de a poco hasta lograr una pasta espesa y húmeda; añadir la sal."
+      },
+      {
+        "text": "Pasar a budinera aceitada y enharinada, decorar con semillas, rociar 3 cdas de agua por encima y dejar leudar 40 minutos.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Hornear a 180 °C durante 35 minutos hasta dorar.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-sal-aquafaba-sg",
+    "title": "Pancitos de Sal Veganos Sin Gluten (con Aquafaba)",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 25,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Bollitos salados sin huevo ni lácteos que logran esponjosidad batiendo el líquido de garbanzos (aquafaba).",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz (1 taza)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdtas",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "agua tibia (3/4 taza)"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "margarina vegetal derretida"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cdas",
+        "item": "líquido de garbanzos en conserva (aquafaba)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Activar la levadura con el agua tibia y azúcar hasta espumar. Mezclar harina, almidón, goma xantana y sal; sumar margarina derretida y levadura batiendo 2 minutos."
+      },
+      {
+        "text": "Batir el aquafaba hasta espumar e incorporar suave a la masa."
+      },
+      {
+        "text": "Formar bollitos con cuchara aceitada sobre placa con silicona o papel manteca, reposar 15 min y hornear a 190 °C unos 25 minutos.",
+        "timerMinutes": 25
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-harina-maiz-tradicional-sg",
+    "title": "Pan de Harina de Maíz Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "verduras",
+    "estilo": "economico",
+    "prepMinutes": 70,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan amarillo y tierno de harina de maíz y almidón de mandioca dulce con corteza suave.",
+    "ingredients": [
+      {
+        "amount": 280,
+        "unit": "g",
+        "item": "harina de maíz (2 tazas)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "agua tibia (1/3 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la harina de maíz, el almidón de mandioca dulce, la levadura, el azúcar y la sal."
+      },
+      {
+        "text": "Agregar el aceite de oliva, el agua tibia y el huevo hasta lograr una masa espesa y pesada (ajustar con agua si hace falta)."
+      },
+      {
+        "text": "Pasar a budinera, tapar y dejar crecer 1 hora. Hornear en horno precalentado a 180 °C durante 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-avena-semillas-rapido-sg",
+    "title": "Pan de Salvado de Avena y Semillas Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "temperatureC": 220,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan integral alto en fibra con salvado de avena sin TACC, almendras, psyllium y mix de semillas.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "salvado de avena sin TACC (1 taza)"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "harina de almendras (1 taza)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "psyllium"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 4,
+        "unit": "cdas",
+        "item": "aceite de oliva extra virgen"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "item": "mix de semillas (linaza, girasol, zapallo, chía)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 220 °C."
+      },
+      {
+        "text": "Batir los huevos, agua, aceite y vinagre. Incorporar los secos mezclados y las semillas, dejando reposar 5 minutos."
+      },
+      {
+        "text": "Pasar a molde para pan y hornear a 220 °C entre 25 y 30 minutos hasta dorar.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-almendra-coco-casero-sg",
+    "title": "Pan Casero de Almendras, Coco y Salvado de Avena Sin Gluten",
+    "metodo": "horno",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "temperatureC": 200,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "description": "Pan salado bajo en carbohidratos con almendras, coco, salvado de avena y un toque de pimienta negra.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "agua a temperatura ambiente (3/4 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite de oliva extra virgen"
+      },
+      {
+        "amount": 180,
+        "unit": "g",
+        "item": "harina de almendras (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "harina de coco"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "salvado de avena sin TACC (1 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "vinagre de manzana"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "polvo de hornear"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal y pimienta negra a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 200 °C y engrasar un molde para pan."
+      },
+      {
+        "text": "Batir los huevos con el agua, aceite y sal por 2 minutos. Incorporar las harinas y salvado; sumar el vinagre, polvo de hornear y pimienta."
+      },
+      {
+        "text": "Volcar en el molde y hornear a 200 °C durante 30 minutos.",
+        "timerMinutes": 30
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-vegano-psyllium-sg",
+    "title": "Pan Vegano Artesanal con Psyllium Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 75,
+    "cookMinutes": 40,
+    "temperatureC": 180,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Bollos veganos sin gluten ni huevo con corteza dorada de harina de maíz y sésamo.",
+    "ingredients": [
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "harina de arroz blanco (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 80,
+        "unit": "g",
+        "item": "fécula de papa (1/2 taza)"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "almidón de mandioca agrio"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "azúcar rubia"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "psyllium"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "harina de almendras (1/2 taza)"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca instantánea"
+      },
+      {
+        "amount": 45,
+        "unit": "ml",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 375,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "sésamo y harina de maíz para espolvorear"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los primeros 8 ingredientes secos. Añadir el aceite y el agua tibia de a poco hasta formar una masa amasable."
+      },
+      {
+        "text": "Formar una bola, untar apenas con oliva y dejar reposar 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Modelar los panes, untar con oliva, espolvorear harina de maíz y sésamo y hornear a 180 °C durante 40 minutos.",
+        "timerMinutes": 40
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-italiano-hogaza-sg",
+    "title": "Pan Italiano de Corteza Rústica Sin Gluten",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 180,
+    "cookMinutes": 45,
+    "temperatureC": 200,
+    "servings": 10,
+    "difficulty": "Difícil",
+    "description": "Hogaza grande estilo italiano sin TACC con fermentación prolongada y psyllium hidratado.",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "harina de arroz (2 tazas)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "fécula de papa (1 taza)"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/3 taza)"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "psyllium en polvo (1/3 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "harina de mijo u otra sin gluten"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "levadura seca para pan"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "aceite de oliva o girasol"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua (más extra si hace falta)"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal marina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "azúcar rubia"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Hidratar el psyllium en el agua durante 10 minutos hasta formar una pasta espesa.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Mezclar los secos y sumar los huevos, aceite y psyllium hidratado amasando hasta obtener masa maleable."
+      },
+      {
+        "text": "Formar una hogaza en placa aceitada, dejar leudar hasta duplicar (2 a 3 horas), hacer 3 cortes y hornear a 200 °C entre 40 y 50 minutos.",
+        "timerMinutes": 45
+      }
+    ]
+  },
+  {
+    "id": "ext-pan-canela-semillas-sg",
+    "title": "Pan Exprés de Canela, Almendras y Girasol Sin Gluten",
+    "metodo": "horno",
+    "momento": "merienda",
+    "categoria": "dulces",
+    "estilo": "fit",
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "temperatureC": 180,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "description": "Pancitos bajos en carbohidratos con harina de almendras, girasol, coco, linaza y canela.",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "harina de almendras"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "linaza molida"
+      },
+      {
+        "amount": 20,
+        "unit": "g",
+        "item": "harina de semillas de girasol"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "harina de coco"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "canela molida"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "polvo de hornear sin gluten"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "sal fina"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Precalentar el horno a 180 °C."
+      },
+      {
+        "text": "Batir todos los ingredientes en un bol hasta obtener una masa homogénea (sumar xilitol o miel si se prefiere dulce)."
+      },
+      {
+        "text": "Repartir en moldes chicos y hornear a 180 °C durante 35 minutos.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-masa-pizza-mandioca-sg",
+    "title": "Masa de Pizza Casera Sin Gluten",
+    "metodo": "horno",
+    "momento": "cena",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 30,
+    "cookMinutes": 15,
+    "temperatureC": 180,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Base de pizza crocante sin TACC elaborada con partes iguales de almidón de mandioca dulce y harina de arroz.",
+    "ingredients": [
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "harina de arroz (1 y 1/2 tazas)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdtas",
+        "item": "azúcar"
+      },
+      {
+        "amount": 1,
+        "unit": "cdta",
+        "item": "sal fina"
+      },
+      {
+        "amount": 180,
+        "unit": "ml",
+        "item": "agua tibia"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "item": "levadura seca o fresca"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos ligeramente batidos"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva extra virgen"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Disolver la levadura en el agua tibia. Mezclar almidón, harina de arroz, azúcar y sal; sumar el agua con levadura, huevos y aceite hasta formar masa."
+      },
+      {
+        "text": "Estirar en pizzera de 35 cm aceitada con oliva y dejar reposar tapada 20 minutos.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Precocinar 10 minutos a 180 °C, agregar salsa y queso a gusto y hornear 5 a 10 minutos más.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "ext-masa-pastelitos-freidora-sg",
+    "title": "Masa de Pastelitos / Empanadas Sin Gluten (Horno o Freidora)",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 40,
+    "cookMinutes": 35,
+    "temperatureC": 190,
+    "servings": 8,
+    "difficulty": "Media",
+    "description": "Masa fina y maleable sin gluten para armar pastelitos salados o empanadas al horno o en freidora de aire.",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "harina de arroz (2 tazas)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "almidón de maíz"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cdta",
+        "item": "goma xantana"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "aceite de oliva"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal a gusto"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "agua (1/4 taza o según necesite)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar los secos, sumar huevos, aceite y agua de a poco amasando hasta formar una masa pareja. Reposar 30 minutos tapada.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Estirar bien fina entre dos films con palote, cortar discos o rectángulos, rellenar a gusto y cerrar presionando los bordes con tenedor."
+      },
+      {
+        "text": "Hornear a 190 °C unos 35 minutos hasta dorar (o cocinar en freidora de aire a 200 °C durante 15 minutos).",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-masa-empanada-tarta-manteca-sg",
+    "title": "Masa Quebrada de Empanadas y Tartas Sin Gluten",
+    "metodo": "horno",
+    "momento": "almuerzo",
+    "categoria": "verduras",
+    "estilo": "clasico",
+    "prepMinutes": 75,
+    "cookMinutes": 35,
+    "temperatureC": 200,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Masa hojaldrada con manteca y yemas para tartas saladas o empanadas al horno 100% libre de gluten.",
+    "ingredients": [
+      {
+        "amount": 280,
+        "unit": "g",
+        "item": "premezcla de harina sin gluten (2 tazas)"
+      },
+      {
+        "amount": 140,
+        "unit": "g",
+        "item": "almidón de maíz o fécula de papa (1 taza)"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "manteca a temperatura ambiente"
+      },
+      {
+        "amount": 2,
+        "unit": "unidades",
+        "item": "yemas de huevo (más 1 para pincelar)"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "agua fría (cantidad necesaria)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal a gusto"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Arenar las harinas con la sal y la manteca. Agregar las yemas y agua fría de a poco hasta lograr una masa suave que no se pegue."
+      },
+      {
+        "text": "Envolver y llevar a la heladera 1 hora.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Forrar molde o armar empanadas, rellenar a gusto, pincelar con yema batida y hornear a 200 °C de 30 a 35 minutos hasta dorar.",
+        "timerMinutes": 35
+      }
+    ]
+  },
+  {
+    "id": "ext-panqueques-tortitas-arroz-sg",
+    "title": "Panqueques / Tortitas Finas de Arroz Sin Gluten",
+    "metodo": "cocina",
+    "momento": "desayuno",
+    "categoria": "verduras",
+    "estilo": "express",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Panqueques livianos de harina de arroz en licuadora para rellenar dulces o salados.",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "harina de arroz (1 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "unidad",
+        "item": "huevo"
+      },
+      {
+        "amount": 240,
+        "unit": "ml",
+        "item": "agua (1 taza)"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      },
+      {
+        "amount": 1,
+        "unit": "cda",
+        "item": "aceite neutro"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Licuar todos los ingredientes hasta lograr una mezcla fluida sin grumos."
+      },
+      {
+        "text": "Calentar una sartén antiadherente a fuego bajo, verter un cucharón fino cubriendo la base y cocinar hasta que los bordes se despeguen; dar vuelta y dorar el otro lado.",
+        "timerMinutes": 10
+      }
+    ]
+  },
+  {
+    "id": "ext-pasta-mandioca-arroz-sg",
+    "title": "Pasta Fresca Casera de Arroz y Mandioca Sin Gluten",
+    "metodo": "cocina",
+    "momento": "almuerzo",
+    "categoria": "pastas",
+    "estilo": "clasico",
+    "prepMinutes": 75,
+    "cookMinutes": 5,
+    "servings": 6,
+    "difficulty": "Media",
+    "description": "Masa de pasta artesanal sin TACC elaborada con puré de mandioca cocida, harina de arroz y fécula de papa.",
+    "ingredients": [
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "harina de arroz (3 tazas)"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "item": "fécula de papa (1 taza)"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 3,
+        "unit": "unidades",
+        "item": "huevos"
+      },
+      {
+        "amount": 5,
+        "unit": "cdas",
+        "item": "aceite neutro"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "mandioca cocida pisada"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "agua (1/2 taza aprox.)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar la harina de arroz, fécula de papa y almidón de mandioca (reservar 1/2 taza para estirar). Unir con huevos, aceite, sal, mandioca pisada y agua hasta lograr masa lisa."
+      },
+      {
+        "text": "Dejar reposar 1 hora. Estirar a 0,5 cm, enrollar y cortar fideos o tiras.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Hervir en abundante agua con un chorrito de aceite de oliva unos 2 minutos hasta que suban a la superficie. Servir con la salsa elegida.",
+        "timerMinutes": 3
+      }
+    ]
+  },
+  {
+    "id": "ext-sfijas-papa-carne-sg",
+    "title": "Sfijas / Esfihas de Papa y Carne Sin Gluten",
+    "metodo": "cocina",
+    "momento": "cena",
+    "categoria": "carnes",
+    "estilo": "clasico",
+    "prepMinutes": 25,
+    "cookMinutes": 10,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "description": "Triángulos rellenos de carne picada con masa nutritiva sin gluten de papa hervida, chía y avena.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "unidades",
+        "item": "papas medianas hervidas hechas puré"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "semillas de chía"
+      },
+      {
+        "amount": 3,
+        "unit": "cdas",
+        "item": "harina de avena sin TACC"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "item": "almidón de mandioca dulce (1/2 taza)"
+      },
+      {
+        "amount": 2,
+        "unit": "cdas",
+        "item": "aceite de oliva extra virgen"
+      },
+      {
+        "amount": 1,
+        "unit": "pizca",
+        "item": "sal fina"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "carne picada ya cocida y condimentada"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mezclar el puré de papa con la chía, aceite de oliva, almidón de mandioca, sal y por último la harina de avena hasta formar masa."
+      },
+      {
+        "text": "Tomar porciones, aplanar en la palma, rellenar con la carne picada cocida y cerrar formando triángulos."
+      },
+      {
+        "text": "Dorar en sartén untada con aceite de oliva de ambos lados hasta que queden crocantes.",
+        "timerMinutes": 10
+      }
+    ]
   }
 ]
