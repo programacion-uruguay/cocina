@@ -5909,7 +5909,10 @@
       {
         "text": "Mezclá bien y dejá reposar al menos 1 hora en heladera antes de tomar."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=TFnAsBg9DSo",
+    "videoTitle": "Jugo de naranja, limón, cúrcuma, jengibre y miel para subir las defensas y perder peso 🍊🍋🍯",
+    "videoChannel": "Sabor a la carta"
   },
   {
     "id": "infusion-naranja-albahaca-romero",
@@ -8041,14 +8044,26 @@
     ],
     "steps": [
       {
-        "text": "Cociná los tomates con salsa de soja 15 min; retirá y agregá albahaca. Ahuecá los zapallitos y mezclá la pulpa con porotos y cebolla.",
+        "text": "Cociná los tomates con salsa de soja 15 min; retirá y agregá albahaca."
+      },
+      {
+        "text": "Ahuecá los zapallitos y mezclá la pulpa con porotos y cebolla.",
         "timerMinutes": 15
       },
       {
-        "text": "Rellená los zapallitos, cubrí con salsa, horneá 20 minutos y serví con semillas de sésamo.",
+        "text": "Rellená los zapallitos."
+      },
+      {
+        "text": "Cubrí con salsa."
+      },
+      {
+        "text": "Horneá 20 minutos y serví con semillas de sésamo.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yqDe4p8k9j4",
+    "videoTitle": "ZAPALLITOS RELLENOS en salsa RIQUISIMOS rápidos y fáciles",
+    "videoChannel": "miel house"
   },
   {
     "id": "vegano-morrones-rellenos-berenjena",
@@ -8732,7 +8747,10 @@
         "text": "Formá medallones colocando un trozo de tofu en el centro y dorá a la plancha por ambos lados.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-OmozJS7Ass",
+    "videoTitle": "Receta de Hamburguesas de polenta y verduras por Karlos Arguiñano",
+    "videoChannel": "Hogarmania"
   },
   {
     "id": "vegano-hamburguesas-porotos",
@@ -9434,12 +9452,27 @@
     ],
     "steps": [
       {
-        "text": "Triturá el tofu. Disolvé el agar-agar en el agua caliente con la levadura y el jugo de limón."
+        "text": "Triturá el tofu."
       },
       {
-        "text": "Licuá todo junto con el tofu, aceite, salsa de soja y orégano; cociná unos segundos, volcá en molde húmedo y enfriá."
+        "text": "Disolvé el agar-agar en el agua caliente con la levadura y el jugo de limón."
+      },
+      {
+        "text": "Licuá todo junto con el tofu."
+      },
+      {
+        "text": "Salsa de soja y orégano."
+      },
+      {
+        "text": "Cociná unos segundos."
+      },
+      {
+        "text": "Volcá en molde húmedo y enfriá."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=AJys_E6Vy50",
+    "videoTitle": "Queso mozzarella vegano SIN ACEITE",
+    "videoChannel": "Nutririana"
   },
   {
     "id": "vegano-queso-parmesano-almendras",
@@ -11873,7 +11906,10 @@
       {
         "text": "Cerrar con la tapa de mostaza y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=j2LnxHh3sRY",
+    "videoTitle": "SANDWICH DE BERENJENA",
+    "videoChannel": "Cocineros Argentinos"
   },
   {
     "id": "rapida-sandwich-arabe-hummus-vegetales",
@@ -11986,7 +12022,10 @@
         "text": "Rellenar el pan con los vegetales asados, hongos y mayonesa de ajo; dar un golpe de horno de 5 minutos envuelto en aluminio y dividir en 4.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Lde9vt3FoeU",
+    "videoTitle": "¿Tienes una BERENJENA? Mira que idea de cena en pocos minutos. #sandwichsaludable #sandwich",
+    "videoChannel": "Paufeel"
   },
   {
     "id": "rapida-sandwich-palta-tomate-anchoa",
@@ -13371,7 +13410,10 @@
       {
         "text": "Acomodar en fuente en tiras y gajos, salpicar con ajo picado, sal, oliva y jugo de limón; servir tibia."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yXf398nSYNo",
+    "videoTitle": "ENSALADA TIBIA DE VEGETALES ASADOS",
+    "videoChannel": "Ana Julia Castro Ramirez"
   },
   {
     "id": "rapida-ensalada-garbanzos-salmon",
@@ -19221,7 +19263,10 @@
       {
         "text": "Servir cubierto con las verduras grilladas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Q1KT7DWyfBo",
+    "videoTitle": "Sandwich de queso fresco y verduras a la plancha",
+    "videoChannel": "BocadillosTV"
   },
   {
     "id": "sandwich-vegetales-albahaca-doble-pesto",
@@ -20325,13 +20370,25 @@
     ],
     "steps": [
       {
-        "text": "Armar los 4 sándwiches con mozzarella, rodajas de tomate, cebolla morada, albahaca, sal y pimienta."
+        "text": "Armar los 4 sándwiches con mozzarella."
+      },
+      {
+        "text": "Rodajas de tomate."
+      },
+      {
+        "text": "Cebolla morada."
+      },
+      {
+        "text": "Sal y pimienta."
       },
       {
         "text": "Dorar en sartén o plancha con aceite de oliva presionando con espátula 2 minutos por lado.",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=oDVeNYjwyuU",
+    "videoTitle": "Bocadillo de tomate a la plancha, mozzarella y cebolla pochada",
+    "videoChannel": "Hoy tenemos para comer"
   },
   {
     "id": "sandwich-croque-monsieur-doble-queso",
@@ -21065,9 +21122,18 @@
         "text": "Tostar apenas el pan integral y mezclar los huevos duros picados con la mayonesa light y la mostaza."
       },
       {
-        "text": "Untar el relleno, sumar abundante rúcula fresca, cerrar y cortar en triángulos."
+        "text": "Untar el relleno."
+      },
+      {
+        "text": "Sumar abundante rúcula fresca."
+      },
+      {
+        "text": "Cerrar y cortar en triángulos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=3gafUQq2Jeo",
+    "videoTitle": "SANDWICH DE LOS HUEVOS  - QUESO Y RÚCULA 🧀 🥚 | receta fácil y rápida",
+    "videoChannel": "YoSoyRinat"
   },
   {
     "id": "sandwich-intenso-panceta-especiada",
@@ -22275,7 +22341,10 @@
         "text": "Distribuí por encima la manteca en trocitos, las pasas escurridas, el pan rallado y el azúcar. Gratiná hasta dorar y serví tibio.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=fDQ6aUaww-Q",
+    "videoTitle": "Lentejas con Verduras fáciles y deliciosas",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "light-almuerzo-5-merluza-salsa-frutas-miel",
@@ -22698,7 +22767,10 @@
       {
         "text": "Mezclá los vegetales con las nueces picadas y las pasas. Batí el yogur con sal y pimienta, aliñá la ensalada y serví junto a la berenjena."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Dvovs0BtS-E",
+    "videoTitle": "La más exquisita y deliciosa ensalada de repollo y manzana.  😍🤤",
+    "videoChannel": "Q'Rico recetas"
   },
   {
     "id": "light-cena-3-brochetas-verduras-ensalada-pollo-esparragos",
@@ -22889,7 +22961,10 @@
       {
         "text": "Escurrí la papa y la coliflor, rocialas con la ajada y un chorrito de vinagre de manzana, y serví junto al puré."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=JCuy5FK4oN0",
+    "videoTitle": "Puré de Coliflor Cremoso  | Apto para diabéticos |  Recetas dieta  Keto",
+    "videoChannel": "Cocina con Leyla"
   },
   {
     "id": "fit250-ensalada-arroz-andaluza",
@@ -23059,7 +23134,10 @@
       {
         "text": "Decorá alrededor con la lechuga en juliana y el tercer huevo duro picado por encima. Rociá con la vinagreta de aceite, vinagre, sal y perejil."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=c52M3u_j0z8",
+    "videoTitle": "Ensalada de Arroz 👈 una receta de ensalada con mucho sabor",
+    "videoChannel": "LA COCINA DE LILA"
   },
   {
     "id": "fit250-ensalada-arroz-mediterraneo",
@@ -23132,7 +23210,10 @@
       {
         "text": "Mezclá en un bol los zapallitos salteados con el arroz integral, las hojas verdes, los brotes y las aceitunas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=aWmAqDswK8s",
+    "videoTitle": "¿Cómo preparar Ensalada de Arroz Integral? - Cocina Fresca",
+    "videoChannel": "Cocina Fresca"
   },
   {
     "id": "fit250-ensalada-arroz-jamon-cocido",
@@ -23441,12 +23522,27 @@
     ],
     "steps": [
       {
-        "text": "Lavá bien la escarola, escurrila y troceala con las manos en una ensaladera."
+        "text": "Lavá bien la escarola."
       },
       {
-        "text": "Agregá la cebolla de verdeo y las aceitunas, aliñá con sal, pimienta, vinagre y aceite, y cubrí con los tomates y huevos duros en rodajas."
+        "text": "Escurrila y troceala con las manos en una ensaladera."
+      },
+      {
+        "text": "Agregá la cebolla de verdeo y las aceitunas."
+      },
+      {
+        "text": "Aliñá con sal."
+      },
+      {
+        "text": "Vinagre y aceite."
+      },
+      {
+        "text": "Y cubrí con los tomates y huevos duros en rodajas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=NKFJ-MQrKCA",
+    "videoTitle": "ENSALADA DE ESCAROLA, PEPINO, CEBOLLA Y HUEVO",
+    "videoChannel": "Luis A."
   },
   {
     "id": "fit250-ensalada-colores-papa-remolacha-salmon",
@@ -23645,7 +23741,10 @@
       {
         "text": "Aliñá con aceite, vinagre, sal, orégano y pimienta negra antes de servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Ud7aUuF1nkw",
+    "videoTitle": "La ENSALADA ITALIANA más fácil y rápida (Porotos blancos y Atún) Receta Tradicional Toscana",
+    "videoChannel": "Menucc"
   },
   {
     "id": "fit250-ensalada-garbanzos-catalana",
@@ -23707,9 +23806,18 @@
         "text": "Colocá los garbanzos bien escurridos en una ensaladera y sumá los huevos duros y los tomates troceados junto con la cebolla."
       },
       {
-        "text": "Aliñá con aceite de oliva, vinagre de vino y sal, y serví espolvoreada con perejil fresco."
+        "text": "Aliñá con aceite de oliva."
+      },
+      {
+        "text": "Vinagre de vino y sal."
+      },
+      {
+        "text": "Y serví espolvoreada con perejil fresco."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=7IFVlEWhq-Q",
+    "videoTitle": "Ensalada de garbanzos cocidos, mas rápida es imposible.",
+    "videoChannel": "La cocina de Masito"
   },
   {
     "id": "fit250-ensalada-fria-lentejas-morron-tomate",
@@ -23832,13 +23940,28 @@
     ],
     "steps": [
       {
-        "text": "Herví las chauchas y las papas hasta que estén tiernas; dejá enfriar y cortá las papas en cubos.",
+        "text": "Herví las chauchas y las papas hasta que estén tiernas."
+      },
+      {
+        "text": "Dejá enfriar y cortá las papas en cubos.",
         "timerMinutes": 18
       },
       {
-        "text": "Mezclá en una ensaladera las chauchas, papas, choclo y cebolla, y aliñá con aceite, vinagre y sal."
+        "text": "Mezclá en una ensaladera las chauchas."
+      },
+      {
+        "text": "Choclo y cebolla."
+      },
+      {
+        "text": "Y aliñá con aceite."
+      },
+      {
+        "text": "Vinagre y sal."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=S0af_1Mnhsw",
+    "videoTitle": "COCINANDO CON EL RECUERDO DE  PAPÁ  | Ensalada de Chaucha Japonesa y Papas",
+    "videoChannel": "La Cocina de Miguel"
   },
   {
     "id": "fit250-ensalada-chauchas-zanahorias",
@@ -25479,13 +25602,28 @@
     ],
     "steps": [
       {
-        "text": "Herví las papas con cáscara sin que se deshagan, pelalas y cortalas en cubos.",
+        "text": "Herví las papas con cáscara sin que se deshagan."
+      },
+      {
+        "text": "Pelalas y cortalas en cubos.",
         "timerMinutes": 20
       },
       {
-        "text": "Mezclá en una fuente con los morrones, cebolla, remolacha y tomate, aliñá con aceite, vinagre y sal y dejá reposar unos minutos."
+        "text": "Mezclá en una fuente con los morrones."
+      },
+      {
+        "text": "Remolacha y tomate."
+      },
+      {
+        "text": "Aliñá con aceite."
+      },
+      {
+        "text": "Vinagre y sal y dejá reposar unos minutos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Wx-vWWyyzNU",
+    "videoTitle": "Ensalada de papas y remolacha",
+    "videoChannel": "MamásLatinas"
   },
   {
     "id": "fit250-sopa-intensa-puerros-hongos",
@@ -25837,7 +25975,10 @@
       {
         "text": "Licuá hasta obtener una crema lisa, volvé a calentar, integrá la manteca y rectificá la sal."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=POYO90tpguY",
+    "videoTitle": "Crema de Coliflor | Receta muy Fácil Rápida y Sana",
+    "videoChannel": "Cocina con Carmen"
   },
   {
     "id": "fit250-sopa-clasica-rapida-verduras-fideos",
@@ -25901,14 +26042,23 @@
     ],
     "steps": [
       {
-        "text": "Poné todas las verduras en una olla con 2 litros y medio de agua; cuando hierva agregá el caldo y cociná suave 12 minutos.",
+        "text": "Poné todas las verduras en una olla con 2 litros y medio de agua."
+      },
+      {
+        "text": "Cuando hierva agregá el caldo y cociná suave 12 minutos.",
         "timerMinutes": 12
       },
       {
-        "text": "Sumá los fideos y sal a gusto, cociná hasta que estén al dente y serví con queso rallado.",
+        "text": "Sumá los fideos y sal a gusto."
+      },
+      {
+        "text": "Cociná hasta que estén al dente y serví con queso rallado.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=APJ-SCAO2lY",
+    "videoTitle": "ESTA SOPA DE VERDURAS Y FIDEOS VA A SER TU PREFERIDA, ES MUY FÁCIL!!",
+    "videoChannel": "Recetas Por Un Tubo"
   },
   {
     "id": "fit250-sopa-crema-zanahoria-cilantro",
@@ -26042,7 +26192,10 @@
       {
         "text": "Colocá una rebanada de pan integral con queso y perejil en cada tazón y volcá encima la sopa bien caliente."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vmQKZbVYhVY",
+    "videoTitle": "La mejor sopa de cebolla francesa que has probado nunca",
+    "videoChannel": "Diegodoal"
   },
   {
     "id": "fit250-sopa-crema-berro",
@@ -26106,7 +26259,10 @@
       {
         "text": "Licuá hasta obtener una crema suave, incorporá la crema ácida, nuez moscada, sal y pimienta, y calentá sin que hierva."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8B2XKj4_fBI",
+    "videoTitle": "Cómo preparar Berros. 3 recetas: agua, crema y ensalada de berros y cómo conservarlos por más tiempo",
+    "videoChannel": "Huerto Mexicano"
   },
   {
     "id": "fit250-pizza-vegana-arroz-integral-tofu",
@@ -26206,7 +26362,10 @@
         "text": "Cubrí la base de arroz con la mezcla de verduras y tofu, y horneá a temperatura media (180 °C) por 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=fnE6bBwuLAU",
+    "videoTitle": "Pizza INTEGRAL divina + 2 pizzas veganas - Cómo hacer pizza E03",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "fit250-pizza-liviana-base-huevo-queso",
@@ -26281,7 +26440,10 @@
         "text": "Condimentá el puré de tomate con orégano, ají, sal y pimienta (cociná 5 min), cubrí la base con la salsa y el queso magro, y gratiná hasta fundir.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=oKcs-s-MtEE",
+    "videoTitle": "🍕 Pizza proteica sin harina | Base con huevo y queso cottage (ideal +40)",
+    "videoChannel": "🍝Recetas Saludables & RESET45Plus · Carina Campo"
   },
   {
     "id": "fit250-pizza-integral-centeno-vegetales",
@@ -26366,7 +26528,10 @@
         "text": "Estirá la masa en placa aceitada, cubrí con salsa de tomate, los vegetales salteados, el queso en rodajas y un hilo de oliva. Horneá fuerte hasta dorar.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-ztmX4NH4l8",
+    "videoTitle": "Vas a comer vegetales y te van a encantar - Pizza de espinaca y berenjenas!",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "fit250-pizza-integral-clasica-verduras",
@@ -26446,7 +26611,10 @@
         "text": "Cubrí la masa con la salsa, las verduras grilladas y el queso Port Salut light, y horneá a 200 °C hasta fundir y dorar.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=jcnsyw8CTVQ",
+    "videoTitle": "PIZZA 100% CON HARINA INTEGRAL, SALUDABLE Y FACIL | Maxi Cocina",
+    "videoChannel": "Maxi Cocina"
   },
   {
     "id": "fit250-esparragos-cremoso-langostinos",
@@ -26629,7 +26797,10 @@
         "text": "Rellená los corazones de alcaucil, rociá con apenas aceite, cubrí con aluminio y horneá 15 minutos; destapá y horneá 10-15 minutos más hasta tiernizar.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=dyWtbBlgejM",
+    "videoTitle": "Sorprendé a tu familia con una nueva receta: \"Alcauciles rellenos\"",
+    "videoChannel": "Cucinare"
   },
   {
     "id": "fit250-tortilla-alcauciles",
@@ -26672,10 +26843,16 @@
         "timerMinutes": 10
       },
       {
-        "text": "Batí los huevos con sal y pimienta, mezclá con los alcauciles y cuajá la tortilla en la sartén con el aceite restante de ambos lados.",
+        "text": "Batí los huevos con sal y pimienta."
+      },
+      {
+        "text": "Mezclá con los alcauciles y cuajá la tortilla en la sartén con el aceite restante de ambos lados.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=2XfmrGVQiuc",
+    "videoTitle": "COCINA AL TOQUE - TORTILLA DE ALCAUCILES",
+    "videoChannel": "cocinaaltoque"
   },
   {
     "id": "fit250-cazuela-girgolas-ajies-berros",
@@ -26826,7 +27003,10 @@
         "text": "Agregá los zapallitos y las arvejas y cociná suave 10 minutos más hasta que todo esté tierno.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=cfYmmJkAP9I",
+    "videoTitle": "Hoy cocinamos brócoli con patatas al ajillo y pimentón.",
+    "videoChannel": "Inna recetas faciles"
   },
   {
     "id": "fit250-pastel-papas-pan-integral-champinones",
@@ -26969,9 +27149,21 @@
         "timerMinutes": 10
       },
       {
-        "text": "Derretí la manteca en sartén grande, sumá la miel, zanahorias, albahaca y sal, y salteá 3 minutos hasta glasear."
+        "text": "Derretí la manteca en sartén grande."
+      },
+      {
+        "text": "Sumá la miel."
+      },
+      {
+        "text": "Albahaca y sal."
+      },
+      {
+        "text": "Y salteá 3 minutos hasta glasear."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=bDpi7Qy2q5M",
+    "videoTitle": "ZANAHORIAS GLASEADAS CON MIEL |",
+    "videoChannel": "kiwilimón"
   },
   {
     "id": "fit250-lasana-verduras-asadas-salsa-roja",
@@ -27407,14 +27599,26 @@
     ],
     "steps": [
       {
-        "text": "Blanqueá las espinacas en agua hirviendo, enfriá, escurrí y picá. En una olla calentá el aceite con el laurel y nacará el arroz escurrido.",
+        "text": "Blanqueá las espinacas en agua hirviendo, enfriá, escurrí y picá."
+      },
+      {
+        "text": "En una olla calentá el aceite con el laurel y nacará el arroz escurrido.",
         "timerMinutes": 5
       },
       {
-        "text": "Sumá las espinacas, el agua con sal y cociná tapado a fuego mínimo durante 20 minutos; condimentá con pimienta antes de servir.",
+        "text": "Sumá las espinacas."
+      },
+      {
+        "text": "El agua con sal y cociná tapado a fuego mínimo durante 20 minutos."
+      },
+      {
+        "text": "Condimentá con pimienta antes de servir.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=uiRriFCEvV8",
+    "videoTitle": "Arroz con espinacas 🍚 | Recetas con verduras | Lidl España",
+    "videoChannel": "Lidl España"
   },
   {
     "id": "fit250-budin-tricolor-arroz-verduras",
@@ -27552,13 +27756,22 @@
     ],
     "steps": [
       {
-        "text": "Mezclá las harinas con especias, tomate, morrón y agua fría de a poco hasta lograr una masa fluida y espesa."
+        "text": "Mezclá las harinas con especias."
       },
       {
-        "text": "Cociná por porciones en panquequera o sartén con un poco de manteca durante 4-5 minutos por lado hasta dorar; rociá con jugo de limón al servir.",
+        "text": "Morrón y agua fría de a poco hasta lograr una masa fluida y espesa."
+      },
+      {
+        "text": "Cociná por porciones en panquequera o sartén con un poco de manteca durante 4-5 minutos por lado hasta dorar."
+      },
+      {
+        "text": "Rociá con jugo de limón al servir.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=w4gWUr6yLnM",
+    "videoTitle": "Tortilla con HARINA de GARBANZO | TORTILLAS DE GARBANZO vegana SIN GRASA | Recetas Veganas",
+    "videoChannel": "Vivir Sanamente"
   },
   {
     "id": "fit250-croquetas-papa-coliflor-yogur",
@@ -28663,7 +28876,10 @@
       {
         "text": "Al momento de servir, si se desea, agregar la yema batida disuelta en el resto del jugo de limón."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=oidUrWmke4g",
+    "videoTitle": "Verdadero Guacamole 🥑| #VickyRecetaFacil",
+    "videoChannel": "VICKY RECETA FACIL"
   },
   {
     "id": "salsas-salsa-roquefort",
@@ -28860,7 +29076,10 @@
       {
         "text": "Servir el arroz tibio en porciones con unas gotas de salsa de soja, las nueces tostadas por encima y acompañar con las hojas de lechuga y espinaca fresca aliñadas con aceite, sal y aceto balsámico."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Z2oX9e8-MA8",
+    "videoTitle": "ENSALADA DE ARROZ INTEGRAL NUECES, PASASYARNANDANOSNUTRITIVA SALUDABLE ENSALADADE ARROZ NUECES (GM)",
+    "videoChannel": "Cocinando Para Todos Con Grey"
   },
   {
     "id": "ensaladas-tibia-hongos-queso-cabra",
@@ -28958,7 +29177,10 @@
       {
         "text": "Preparar una vinagreta con 3 cdas de aceite de oliva, 1 cda de vinagre, 2 cdtas de miel, sal y pimienta. Armar la ensalada con kanikama picado, huevo, hongos, vinagreta, queso tibio y nueces caramelizadas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=P_dUTjUJScU",
+    "videoTitle": "Cómo hacer Ensalada templada de queso de cabra y miel | El Dulce Paladar",
+    "videoChannel": "El Dulce Paladar"
   },
   {
     "id": "ensaladas-papas-atun-anchoas-vinagreta-aceitunas",
@@ -29591,7 +29813,10 @@
       {
         "text": "Espolvorear con las semillas de zapallo y sésamo tostado, y rociar con la vinagreta de miel."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GWb0fy9qeMc",
+    "videoTitle": "Ensalada con fresas queso feta y vinagreta de mostaza y miel",
+    "videoChannel": "Choví SL - Salsas Choví"
   },
   {
     "id": "ensaladas-arvejas-manzana-huevo-poche",
@@ -29672,7 +29897,10 @@
       {
         "text": "Mezclar las arvejas con el salteado de panceta y manzana, aliñar con la vinagreta y servir con los huevos poché por encima."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-0EvLqr3Cqo",
+    "videoTitle": "Arrancá la semana más light: \"Ensalada de hojas verdes, huevos poché y mostaza\"",
+    "videoChannel": "Cucinare"
   },
   {
     "id": "ensaladas-papas-asadas-atun-sesamo",
@@ -30346,7 +30574,10 @@
       {
         "text": "Dejar entibiar, cortar en porciones y servir."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=vaGuhc-Yyqc",
+    "videoTitle": "BUDIN de ESPINACA",
+    "videoChannel": "LA RUSA COCINA"
   },
   {
     "id": "veracruz-tortitas-mandioca",
@@ -33900,7 +34131,10 @@
         "text": "Colocar la sartén en la cesta de la freidora, poner la temperatura a 170º durante 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=qG8QSaDW9lM",
+    "videoTitle": "Tarta de coliflor tan rica y mucho más saludable al horno - ¡Sin carne!",
+    "videoChannel": "Gustoso.TV"
   },
   {
     "id": "airfryer-tartaletas-de-jamon-cocido-y-queso-en-freidora",
@@ -34589,7 +34823,10 @@
         "text": "Hornee a 180° durante 15 minutos, luego aumente a 200° durante otros 5 minutos.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=xT4y3VGLPXk",
+    "videoTitle": "Berenjenas rellenas de jamón y queso / IRRESISTIBLES",
+    "videoChannel": "Rosa cocinera y madre"
   },
   {
     "id": "airfryer-papas-con-salsa-de-atun-y-yogur-en-freidora",
@@ -34914,7 +35151,10 @@
         "text": "Hornear a 200º durante unos 8 minutos. Si todavía no parecen lo",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ra7PoWle-cE",
+    "videoTitle": "Canastitas de papa saludables y faciles - Facilisimo con Bedith",
+    "videoChannel": "Facilisimo con Bedith"
   },
   {
     "id": "airfryer-cebollas-rellenas-gratinadas-en-freidora",
@@ -35044,7 +35284,10 @@
         "text": "Una vez transcurrido el tiempo, compruebe el grado de cocción de las",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=1QgJ_eyqEqA",
+    "videoTitle": "Cebollas rellenas al estilo turco",
+    "videoChannel": "Las Recetas de MJ"
   },
   {
     "id": "airfryer-croquetas-de-papa-y-queso-en-freidora",
@@ -38262,7 +38505,10 @@
         "text": "Poner las zanahorias en la freidora de aire a 190ºC durante unos 15",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=E56v0bWVL7Y",
+    "videoTitle": "Bastones de zanahoria | Receta fácil y rápida | Piqueo saludable y delicioso",
+    "videoChannel": "No Cocino"
   },
   {
     "id": "airfryer-boniatos-crocantes-en-freidora",
@@ -38393,7 +38639,10 @@
         "text": "Seleccione el programa Verduras y deje que el brócoli se cocine",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GXTE5Arz7pY",
+    "videoTitle": "BROCOLI EN FREIDORA DE AIRE 🥦 Brócoli asado crujiente | SALUDABLE",
+    "videoChannel": "Rico Rico Recetas"
   },
   {
     "id": "airfryer-coliflor-asada-en-freidora",
@@ -38450,7 +38699,10 @@
       {
         "text": "Cocer durante unos 10 minutos, controlando el tiempo de cocción de"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=hOfVECC9yfM",
+    "videoTitle": "¡Cómo preparar una Coliflor Asada Rápida y Deliciosa! | Receta Fácil | Tulio Recomienda",
+    "videoChannel": "TULIO Recomienda"
   },
   {
     "id": "airfryer-zapallo-asado-en-freidora",
@@ -38564,7 +38816,10 @@
       {
         "text": "Te darás cuenta de que están cocidos cuando los toques y estén blandos."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=xbxIXB9Nf64",
+    "videoTitle": "PIMIENTOS ASADOS en FREIDORA de AIRE *Recetas AIRFRYER*",
+    "videoChannel": "BakeOrDie"
   },
   {
     "id": "airfryer-remolachas-asadas-en-freidora",
@@ -38707,7 +38962,10 @@
         "text": "Cocinar a 200° durante 4 minutos, luego sacudir la cesta, dar la vuelta",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=AlDDA_zbtek",
+    "videoTitle": "Croquetas de calabacín ¡Muy cremosas!",
+    "videoChannel": "Y hoy qué comemos "
   },
   {
     "id": "airfryer-papas-acordeon-hasselback-en-freidora",
@@ -38780,7 +39038,10 @@
       {
         "text": "Untar las papas con manteca derretida y hornearlas otros 10"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Yxke_R9gGOg",
+    "videoTitle": "Estas Papas Acordeón Son un Vicio (Crujientes y Fáciles)",
+    "videoChannel": "El Juez De la Cocina"
   },
   {
     "id": "airfryer-bastones-de-zapallito-empanados-en-freidora",
@@ -38873,7 +39134,10 @@
         "text": "Seleccione el programa de descongelación (o de verduras) y ajuste el tiempo a 8 minutos.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=yfcCd3S8AGE",
+    "videoTitle": "Bastones de calabacín en freidora de aire",
+    "videoChannel": "Más dulce que salado"
   },
   {
     "id": "airfryer-palta-crocante-especiada-en-freidora",
@@ -39049,7 +39313,10 @@
         "text": "Colocar los aros de cebolla en una sola capa en la cesta de la freidora precalentada y cocinar a 190° C durante 10 minutos hasta que se",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=-6XcEStDqwo",
+    "videoTitle": "Cómo hacer ARITOS DE CEBOLLA fritos en la #Airfryer sin usar aceite y bien crocantes",
+    "videoChannel": "Do it! Laura"
   },
   {
     "id": "airfryer-croquetas-de-choclo-y-zapallo-en-freidora",
@@ -39124,7 +39391,10 @@
       {
         "text": "Rocíe las croquetas resultantes con aceite y cocínelas durante 10"
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Ahi0v0_V2Z0",
+    "videoTitle": "COCINA CROQUETAS DE CALABAZA Y CHOCLO",
+    "videoChannel": "PURA VIDA"
   },
   {
     "id": "airfryer-croquetas-de-brocoli-y-lentejas-en-freidora",
@@ -39222,7 +39492,10 @@
       {
         "text": "Servir las croquetas aún calientes. Conclusiones Para concluir la discusión sobre la freidora de aire, se puede decir que es uno de los mejores inventos tanto en tecnología como en alimentación en los últimos años. También se puede decir que es posible cocinar un sinfín de recetas que habitualmente estamos acostumbrados a freír, o a hornear, sin ninguna dificultad especial, consiguiendo exactamente el mismo resultado. Por lo tanto, se convierte en una compra imprescindible, ya que no sólo es un excelente aliado en la cocina, sino también para nuestra propia salud. En este texto se ha repetido que es posible hacer frituras ligeras, crujientes y sabrosas con sólo una cucharada de aceite (hasta un 85% menos de grasa). En comparación con la fritura, el uso de una freidora de aire puede reducir la cantidad de grasa, calorías y compuestos potencialmente dañinos en los alimentos, lo que sólo beneficia a nuestra salud."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8eDweT-Ra5A",
+    "videoTitle": "Como Hacer CROQUETAS DE LENTEJAS Caseras | Receta de FALAFEL Fácil 😋",
+    "videoChannel": "Rica Receta TV"
   },
   {
     "id": "airfryer-quinua-banana-miel",
@@ -39445,7 +39718,10 @@
       {
         "text": "Servir tibio con perejil fresco picado por encima."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=3QF7rpp8yWE",
+    "videoTitle": "Salteado de VERDURAS y champiñones 🤩 WOK",
+    "videoChannel": "El Vecino Cocinero"
   },
   {
     "id": "airfryer-bife-lomo-huevos",
@@ -40378,7 +40654,10 @@
       {
         "text": "Abrir las berenjenas a lo largo, rellenar con la mezcla de porotos y rociar con aceite de oliva o yogur."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=rCNwSc8qipw",
+    "videoTitle": "Berenjenas rellenas en freidora de aire 🍆🤩 | Recetas con freidora de aire | Lidl España",
+    "videoChannel": "Lidl España"
   },
   {
     "id": "airfryer-quesadillas-garbanzos-muzzarella",
@@ -40492,7 +40771,10 @@
       {
         "text": "Rociar con el resto del aceite batido con aceto balsámico y servir con las nueces y pasas."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EB2IxBAsObA",
+    "videoTitle": "Zanahorias Asadas al Horno ¡Muy crujientes!. Dieta Mediterránea Recetas - Verduras al horno.",
+    "videoChannel": "Sardina Club"
   },
   {
     "id": "airfryer-bocaditos-brocoli-barbacoa",
@@ -40687,7 +40969,10 @@
       {
         "text": "Batir el resto del aceite con la miel, vinagre, limón y eneldo, y rociar sobre el hinojo tibio."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=4ysZiNxhVjg",
+    "videoTitle": "Hinojos a la griega, horneados con limón.",
+    "videoChannel": "Cristina Castañeira | Cocina & LifeStyle"
   },
   {
     "id": "airfryer-totopos-tortilla-crocantes",
@@ -41128,7 +41413,10 @@
       {
         "text": "Servir decorando con los espárragos y el resto de la salsa blanca tibia."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=SLKV_kdM8h0",
+    "videoTitle": "Tortilla de espárragos",
+    "videoChannel": "COCINAR NO ES DIFÍCIL ¡PRUÉBALO!"
   },
   {
     "id": "airfryer-fideos-gratinados-cebolla-queso",
@@ -41364,7 +41652,10 @@
       {
         "text": "Retirar en caliente, mezclar con la salsa de soja, sal y unas gotas de salsa picante, y dejar enfriar sobre papel absorbente."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=66A_niGLWw4",
+    "videoTitle": "Almendras tostadas y saladas",
+    "videoChannel": "Cómo Como"
   },
   {
     "id": "airfryer-cazuela-pan-jamon-queso",
@@ -41643,7 +41934,10 @@
         "text": "Aceitá apenas un molde apto para freidora, volcá la mezcla y cociná a 180 °C durante 10 minutos hasta que cuaje y dore suave.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=q6X7uipGlbg",
+    "videoTitle": "Cocina un Omelette de Huevo y Verduras en Freidora de Aire | HAZLO CON MAXICARNE",
+    "videoChannel": "Maxicarne Oficial"
   },
   {
     "id": "airfryer-muffins-huevo-espinaca",
@@ -41698,7 +41992,10 @@
         "text": "Llevá a la freidora de aire a 175 °C por 12 minutos hasta que estén firmes y dorados.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=iKwWMIiOdUM",
+    "videoTitle": "No Comas Pan, Ricos Muffin de Huevos para el Desayuno",
+    "videoChannel": "Gustillos Recetas"
   },
   {
     "id": "airfryer-pan-de-remolacha",
@@ -41758,7 +42055,10 @@
         "text": "Volcá en un molde chico aceitado apto para freidora y cociná a 175 °C durante 18 minutos.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=gBzaQH-GJ3c",
+    "videoTitle": "PAN de REMOLACHA 🍔/PAN Hamburguesa de COLOR ROSA🌸 Receta FÁCIL/ Hamburguesa GOURMET  ♡ PINKBURGER",
+    "videoChannel": "MAMACADAMIA"
   },
   {
     "id": "airfryer-tortitas-de-ricota",
@@ -42113,7 +42413,10 @@
         "text": "Llevá a la freidora de aire a 200 °C por 14 minutos agitando o girando a mitad de tiempo.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=3hH31DFB3ac",
+    "videoTitle": "Super Fácil Receta de BASTONES DE POLENTA al HORNO I Riquísimos!!!!!!",
+    "videoChannel": "El Mundo En Recetas"
   },
   {
     "id": "airfryer-medallones-de-atun",
@@ -42336,7 +42639,10 @@
         "text": "Volvé a la freidora 5 minutos más a 190 °C hasta que el queso se funda y gratine.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=FPTpTCF4_LI",
+    "videoTitle": "Pizza de alcachofa, berenjena y brie",
+    "videoChannel": "Casa Tarradellas"
   },
   {
     "id": "airfryer-tarta-zapallito-expres",
@@ -42396,7 +42702,10 @@
         "text": "Volcá en un molde aceitado de 16-18 cm y cociná a 175 °C durante 18 minutos.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GOEEEHtrUYU",
+    "videoTitle": "TARTA DE ZAPALLITOS/ Receta FACIL",
+    "videoChannel": "LA RUSA COCINA"
   },
   {
     "id": "airfryer-cazuela-lentejas-rapida",
@@ -42451,7 +42760,10 @@
         "text": "Destapá, revolvé y cociná 5 minutos más hasta que el boniato esté tierno y la salsa espese.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Vhs2K1VxIrE",
+    "videoTitle": "COMO HACER LENTEJAS (cazuela de lentejas)",
+    "videoChannel": "Aficionadosalacocina"
   },
   {
     "id": "airfryer-canelones-de-berenjena",
@@ -42561,7 +42873,10 @@
         "text": "Cociná a 175 °C durante 18 minutos hasta que cuaje y dore la superficie.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=D_kIH6zExBg",
+    "videoTitle": "Tarta de brocoli / Recetas de tartas saladas - Paulina Cocina",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "airfryer-bastones-choclo-queso",
@@ -42904,7 +43219,10 @@
         "text": "Cociná en la freidora a 175 °C durante 20 minutos hasta que esté firme al tacto.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=8E_MTiFFHF8",
+    "videoTitle": "PAN DE LENTEJAS Sin harinas Sin Gluten en #airfryer  Do It! Laura",
+    "videoChannel": "Do it! Laura"
   },
   {
     "id": "airfryer-nuggets-polenta-espinaca",
@@ -43049,7 +43367,10 @@
         "text": "Cociná en la freidora a 190 °C por 10 minutos agitando a la mitad hasta que queden crocantes.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DKD6Ozr5lxk",
+    "videoTitle": "Deliciosos chips de cascara de papas | Manos a la Obra",
+    "videoChannel": "Canal13C"
   },
   {
     "id": "airfryer-cebolla-caramelizada-balsamico",
@@ -43250,7 +43571,10 @@
         "text": "Cociná en la freidora a 185 °C por 12 minutos hasta que estén doradas.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ivAsDFBG2yA",
+    "videoTitle": "EMPANADAS de LENTEJAS🥟",
+    "videoChannel": "LA RUSA COCINA"
   },
   {
     "id": "airfryer-compota-manzana-natural",
@@ -44487,14 +44811,22 @@
     ],
     "steps": [
       {
-        "text": "Condimentá los champiñones con aceite de oliva, hierbas, sal y pimienta, y acomodalos con el hueco hacia arriba.",
-        "timerMinutes": 0
+        "text": "Condimentá los champiñones con aceite de oliva."
+      },
+      {
+        "text": "Sal y pimienta."
+      },
+      {
+        "text": "Y acomodalos con el hueco hacia arriba."
       },
       {
         "text": "Rellená cada tapa con la mezcla de muzzarella y cheddar y cociná en la freidora precalentada a 180 °C durante 8 minutos.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=XGdG2nCLo8c",
+    "videoTitle": "CHAMPIÑONES GRATINADOS al estilo turco 😋 - GUILLE RODRIGUEZ",
+    "videoChannel": "GUILLE RODRIGUEZ"
   },
   {
     "id": "airfryer-choclos-asados-queso-limon",
@@ -44763,7 +45095,10 @@
         "text": "Volvé a la freidora a 175 °C por 5 minutos más hasta que queden bien crocantes.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Tshmh8CMby0",
+    "videoTitle": "GARBANZOS CROCANTES l 5 SABORES  en Air fryer u horno - MACA BITES",
+    "videoChannel": "Maca Bites"
   },
   {
     "id": "airfryer-nachos-tortillas-maiz",
@@ -46036,14 +46371,23 @@
     ],
     "steps": [
       {
-        "text": "Salteá la cebolla y el ajo en aceite de oliva, agregá los tomates y los zapallitos y cociná 3 minutos.",
+        "text": "Salteá la cebolla y el ajo en aceite de oliva."
+      },
+      {
+        "text": "Agregá los tomates y los zapallitos y cociná 3 minutos.",
         "timerMinutes": 3
       },
       {
-        "text": "Incorporá los granos de choclo, salpimentá, tapá y cociná a fuego lento 10 minutos hasta que los zapallitos estén tiernos.",
+        "text": "Incorporá los granos de choclo."
+      },
+      {
+        "text": "Tapá y cociná a fuego lento 10 minutos hasta que los zapallitos estén tiernos.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=QoPW0wRzaRU",
+    "videoTitle": "Cómo preparar un Salteado de zapallito y maíz | Cook",
+    "videoChannel": "Cook uy"
   },
   {
     "id": "cocina-guiso-carne-papas-espinacas",
@@ -46211,10 +46555,19 @@
         "timerMinutes": 3
       },
       {
-        "text": "Agregá el caldo, cebolla, morrón, tomate, ajo, comino, cilantro, sal y pimienta; tapá y cociná a fuego bajo 20 minutos.",
+        "text": "Agregá el caldo."
+      },
+      {
+        "text": "Sal y pimienta."
+      },
+      {
+        "text": "Tapá y cociná a fuego bajo 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=sOPe19G6Xyc",
+    "videoTitle": "ARROZ blanco con PIMIENTOS y CILANTRO, BUENÍSIMO!! # 170",
+    "videoChannel": "Cocinando con PasteLucas"
   },
   {
     "id": "cocina-guiso-albondigas-repollo",
@@ -46668,7 +47021,10 @@
         "text": "Guardá en frasco cerrado en la heladera para que asienten los sabores antes de usar en carnes.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=PgL_v9c5ulU",
+    "videoTitle": "CHIMICHURRI CASERO | 🔥 La mejor forma de hacerlo - El acompañante para todos tus ASADOS y BBQ´s 🥩🤩",
+    "videoChannel": "RECETA EN CASA"
   },
   {
     "id": "cocina-milanesa-caballo-papas-fritas",
@@ -46894,7 +47250,10 @@
         "text": "Armá paquetitos con dos hojas de chala atadas con tiritas y horneá 15 minutos a 180 °C.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=hmzxI-EuSBw",
+    "videoTitle": "HUMITAS EN CHALA | receta paso a paso",
+    "videoChannel": "Made In Casa by Jime"
   },
   {
     "id": "cocina-bife-chorizo-papas-plomo",
@@ -47543,7 +47902,10 @@
         "text": "Volcá sobre la masa precocida y horneá 35 a 40 minutos hasta que cuaje y dore.",
         "timerMinutes": 38
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=bFymPX1sxxU",
+    "videoTitle": "TARTA PASCUALINA con espinacas y ricotta, fácil y deliciosa",
+    "videoChannel": "Temperos e Sabores"
   },
   {
     "id": "horno-pascualina-acelga-calabaza",
@@ -47587,14 +47949,35 @@
     ],
     "steps": [
       {
-        "text": "Rehogá la cebolla y el morrón hasta tiernizar; mezclá en un bowl con el puré de calabaza, la acelga picada, el queso, los huevos, sal y pimienta.",
+        "text": "Rehogá la cebolla y el morrón hasta tiernizar."
+      },
+      {
+        "text": "Mezclá en un bowl con el puré de calabaza."
+      },
+      {
+        "text": "La acelga picada."
+      },
+      {
+        "text": "Sal y pimienta.",
         "timerMinutes": 8
       },
       {
-        "text": "Forrá la tartera, volcá el relleno, cubrí con la segunda tapa, pintá con huevo y horneá 25 minutos a 180 °C.",
+        "text": "Forrá la tartera."
+      },
+      {
+        "text": "Volcá el relleno."
+      },
+      {
+        "text": "Cubrí con la segunda tapa."
+      },
+      {
+        "text": "Pintá con huevo y horneá 25 minutos a 180 °C.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=AXrqVW-ilJA",
+    "videoTitle": "Cómo hacer TARTA DE ACELGA tipo pascualina: CREMOSA Y RICA",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "horno-tarta-clasica-zapallitos-queso",
@@ -47638,14 +48021,23 @@
     ],
     "steps": [
       {
-        "text": "Rehogá las cebollas y los zapallitos en una olla con aceite hasta que estén tiernos; agregá el queso en cubos fuera del fuego.",
+        "text": "Rehogá las cebollas y los zapallitos en una olla con aceite hasta que estén tiernos."
+      },
+      {
+        "text": "Agregá el queso en cubos fuera del fuego.",
         "timerMinutes": 10
       },
       {
-        "text": "Sumá los huevos batidos con sal, volcá sobre la masa en la tartera y horneá 20 a 25 minutos a 200 °C.",
+        "text": "Sumá los huevos batidos con sal."
+      },
+      {
+        "text": "Volcá sobre la masa en la tartera y horneá 20 a 25 minutos a 200 °C.",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GOEEEHtrUYU",
+    "videoTitle": "TARTA DE ZAPALLITOS/ Receta FACIL",
+    "videoChannel": "LA RUSA COCINA"
   },
   {
     "id": "horno-pascualina-atun-espinaca",
@@ -48014,7 +48406,10 @@
       "protein": "10g",
       "carbs": "28g",
       "fat": "17g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=APYXHGP5E1w",
+    "videoTitle": "PIMIENTOS RELLENOS DE TORTILLA DE PATATAS !!!",
+    "videoChannel": "Rosa cocinera y madre"
   },
   {
     "id": "cf-pinchos-berenjena-jamon-queso",
@@ -48056,7 +48451,10 @@
       "protein": "16g",
       "carbs": "14g",
       "fat": "17g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=abG1UwGokO4",
+    "videoTitle": "Pinchos de berenjena con jamón y queso By #JavierRomero",
+    "videoChannel": "Las recetas de Javier Romero"
   },
   {
     "id": "cf-champinones-rellenos-jamon-langostinos",
@@ -48098,7 +48496,10 @@
       "protein": "14g",
       "carbs": "4g",
       "fat": "12g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JoK6RLkN0w0",
+    "videoTitle": "Champiñones rellenos de jamón y gambas (camarones)",
+    "videoChannel": "Anna recetasfaciles"
   },
   {
     "id": "cf-pulpo-gallega-papas",
@@ -48368,7 +48769,10 @@
       "protein": "18g",
       "carbs": "19g",
       "fat": "18g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8ersuAQcPVs",
+    "videoTitle": "Coliflor gratinada con bechamel y jamón",
+    "videoChannel": "Aceite La Masia"
   },
   {
     "id": "cf-esparragos-gratinados-jamon-bechamel",
@@ -48410,7 +48814,10 @@
       "protein": "15g",
       "carbs": "14g",
       "fat": "16g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=KZZ6knMnX44",
+    "videoTitle": "ESPÁRRAGOS GRATINADOS. Con jamón serrano. Receta tradicional. #nuberosaylila",
+    "videoChannel": "La Cocina de Nube Rosa y Lila"
   },
   {
     "id": "cf-garbanzos-riojana-chorizo-panceta",
@@ -48628,7 +49035,10 @@
       "protein": "9g",
       "carbs": "18g",
       "fat": "16g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=WUWNTNLggzc",
+    "videoTitle": "Crema de champiñones , una receta  riquísima, nutritiva y llena de sabor",
+    "videoChannel": "Katastrofa La Cocina"
   },
   {
     "id": "cf-sopa-pescado-mariscos-arroz",
@@ -49550,7 +49960,10 @@
       "protein": "13g",
       "carbs": "9g",
       "fat": "18g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7YP0hpJhBCM",
+    "videoTitle": "Huevos Pochés al Bechamel👩🏼‍🍳",
+    "videoChannel": "SABOR TRIUNFO"
   },
   {
     "id": "mch-tortilla-papa-horno",
@@ -51450,7 +51863,10 @@
       "protein": "14g",
       "carbs": "28g",
       "fat": "18g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=O0gCQflnP9E",
+    "videoTitle": "Cómo hacer TEQUEÑOS VENEZOLANOS (Deditos de Queso) ¡DELICIOSOS!",
+    "videoChannel": "Food and Glory | Recetas fáciles"
   },
   {
     "id": "cpd-provopizza-horno",
@@ -51706,7 +52122,10 @@
       "protein": "2g",
       "carbs": "14g",
       "fat": "9g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XdM2ICqj000",
+    "videoTitle": "Escalivada catalana: el plato de verduras que gusta incluso a los que no comen verdura",
+    "videoChannel": "Food and Glory | Recetas fáciles"
   },
   {
     "id": "cpd-mini-flanes-zapallito",
@@ -51855,11 +52274,17 @@
     ],
     "steps": [
       {
-        "text": "Licuar los ingredientes: Colocá las frambuesas, tomate, morrón, pepino, cebolla, ajo, sal, pimienta, vinagre y hielo en la licuadora y procesá hasta lograr crema lisa.",
+        "text": "Licuar los ingredientes: Colocá las frambuesas."
+      },
+      {
+        "text": "Vinagre y hielo en la licuadora y procesá hasta lograr crema lisa.",
         "timerMinutes": 6
       },
       {
-        "text": "Emulsionar y enfriar: Agregá el aceite de oliva y licuá 30 segundos más. Colá si deseás y serví bien frío.",
+        "text": "Emulsionar y enfriar: Agregá el aceite de oliva y licuá 30 segundos más."
+      },
+      {
+        "text": "Colá si deseás y serví bien frío.",
         "timerMinutes": 4
       }
     ],
@@ -51867,7 +52292,10 @@
       "protein": "2g",
       "carbs": "13g",
       "fat": "9g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iP1dmzWF_UY",
+    "videoTitle": "EL COCINERO FIEL #288 - GAZPACHO CON FRAMBUESAS (¡Y PEPINO!)",
+    "videoChannel": "elcocinerofiel"
   },
   {
     "id": "cpd-gazpacho-frutillas",
@@ -51947,7 +52375,10 @@
       "protein": "5g",
       "carbs": "23g",
       "fat": "15g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=kNsUA9PMH1o",
+    "videoTitle": "Recetas de vichyssoise - Karlos Arguiñano",
+    "videoChannel": "Hogarmania"
   },
   {
     "id": "cpd-fideua-mariscos",
@@ -52078,7 +52509,10 @@
       "protein": "21g",
       "carbs": "47g",
       "fat": "17g"
-    }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QjClgmcUp5A",
+    "videoTitle": "Enfrijoladas Con Frijoles Negros",
+    "videoChannel": "Cocinando con Mamá Lily"
   },
   {
     "id": "cpd-fideos-chinos-carne",
@@ -54510,7 +54944,10 @@
         "text": "Llevar al microondas a potencia máxima durante 90 segundos hasta que leve y esté firme al tacto. Desmoldar, cortar al medio si se desea y tostar apenas en sartén o tostadora.",
         "timerMinutes": 2
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wJdPn8BP5Gg",
+    "videoTitle": "🔸PAN sin gluten ESPONJOSO y elástico | 100% casero | miga suave",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "ext-pan-sarten-sg",
@@ -54573,7 +55010,10 @@
         "text": "Dar vuelta con espátula y dorar 2 a 3 minutos del otro lado. Rellenar a gusto con queso.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wJdPn8BP5Gg",
+    "videoTitle": "🔸PAN sin gluten ESPONJOSO y elástico | 100% casero | miga suave",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "ext-pan-panini-sg",
@@ -54630,7 +55070,10 @@
       {
         "text": "Desmoldar, cortar al medio, rellenar a gusto y dorar en sartén antiadherente o sandwichera."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Q3Ssd03K-UA",
+    "videoTitle": "Pan Proteico en 2 Minutos SIN Gluten, Sin Levadura, Sin Horno",
+    "videoChannel": "Fuego Loco"
   },
   {
     "id": "ext-pan-crujiente-romero-sg",
@@ -54883,7 +55326,10 @@
         "text": "Formar bolitas con las manos húmedas, colocar en placa engrasada y hornear a 180 °C durante 50 minutos.",
         "timerMinutes": 50
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ACbrn-yP3Ak",
+    "videoTitle": "¿Qué es el PSYLLIUM ? COMO SE UTILIZA EN EL PAN SIN GLUTEN (+ Receta de pan)",
+    "videoChannel": "JJ citysingluten"
   },
   {
     "id": "ext-pan-linaza-almendras-sg",
@@ -55029,7 +55475,10 @@
         "text": "Precalentar el horno a 220 °C con una fuente con agua caliente en la base para generar vapor. Hornear 30 minutos hasta dorar bien.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=E8WJ-uxfDD4",
+    "videoTitle": "Pan Baguette SIN GLUTEN, SIN LÁCTEOS y SIN HUEVOS 🍞 | Receta Fácil y Crujiente",
+    "videoChannel": "Instituto Savez"
   },
   {
     "id": "ext-focaccia-arroz-sg",
@@ -55205,7 +55654,10 @@
         "text": "Cubrir con film y dejar levar 30 minutos. Hacer tres cortes arriba, espolvorear un poco de harina de maíz y hornear a 180 °C durante 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=wJdPn8BP5Gg",
+    "videoTitle": "🔸PAN sin gluten ESPONJOSO y elástico | 100% casero | miga suave",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "ext-pan-basico-papa-sg",
@@ -55278,7 +55730,10 @@
         "text": "Pasar a budinera enmantecada (25 x 9 x 7 cm), dejar leudar 30 minutos y hornear a 180 °C por 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=GgiILeAZ6dY",
+    "videoTitle": "🥔 PAN de PAPA sin gluten ¡INCREÍBLEMENTE ESPONJOSO! 😋 | Recetas SIN GLUTEN",
+    "videoChannel": "Ramiro Bressan | Recetas SIN GLUTEN"
   },
   {
     "id": "ext-pan-avena-arroz-sg",
@@ -55351,7 +55806,10 @@
         "text": "Hornear en horno precalentado a 180 °C durante 20 minutos.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eYdBCKI_Jj0",
+    "videoTitle": "¡Pan de arroz sin gluten! Receta fácil en licuadora",
+    "videoChannel": "Gluten Morgen Español"
   },
   {
     "id": "ext-pan-garbanzos-levadura-sg",
@@ -55562,7 +56020,10 @@
         "text": "Hornear 5 minutos a fuego fuerte y luego bajar a 180-200 °C por 30 a 40 minutos.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Jvjfdj5afs0",
+    "videoTitle": "Pan casero de lino: SIN harina, sin gluten ¡y adelgaza!. Una receta de pan para celíacos genial.",
+    "videoChannel": "Paulina Cocina"
   },
   {
     "id": "ext-pan-papa-hierbas-sg",
@@ -55703,7 +56164,10 @@
         "text": "Formar bollitos (pueden rellenarse), acomodar en placa aceitada dejando separación y hornear a 180 °C unos 25 minutos.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=rOpX-Qd4mnc",
+    "videoTitle": "PAN DE CAMOTE CON HARINA DE ALMENDRAS| SIN GLUTEN| SIN REFINADOS",
+    "videoChannel": "SALUD Y BIENESTAR MENTE Y CUERPO"
   },
   {
     "id": "ext-pan-boniato-microondas-sg",
@@ -55755,7 +56219,10 @@
       {
         "text": "Desmoldar, cortar al medio y dorar en sartén con un toque de manteca si se desea."
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=fXMYe6ukovI",
+    "videoTitle": "Con 1 Batata  !! HAZ  este PAN SIN GLUTEN casero asís de rápido y fácil",
+    "videoChannel": "JJ citysingluten"
   },
   {
     "id": "ext-pan-castanas-sg",
@@ -55829,7 +56296,10 @@
         "text": "Hornear en horno precalentado a 180 °C durante 35 minutos hasta dorar. Enfriar antes de desmoldar.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=ZVLZQMV2jWc",
+    "videoTitle": "PAN de FRUTOS SECOS! Budín salado. Pan de nuez. Pan de almendras. Pan de castañas de cajú. Sin TACC",
+    "videoChannel": "Andrea"
   },
   {
     "id": "ext-pan-cebolla-licuadora-sg",
@@ -55903,7 +56373,10 @@
         "text": "Armar bollitos en placa aceitada y enharinada con arroz, tapar hasta duplicar volumen, pincelar con yema y hornear a 180 °C unos 45 minutos.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=PIZ-I572HJw",
+    "videoTitle": "Pan de Cebolla Delicioso, ¡MUCHA FIBRA!, Sin Gluten, Leche ni Huevo - Fácil y Rápido",
+    "videoChannel": "Patricia Leite Nutrición Deliciosa"
   },
   {
     "id": "ext-pan-zanahoria-arroz-sg",
@@ -56029,7 +56502,10 @@
         "text": "Formar bolitas y cocinar en la freidora de aire precalentada a 180 °C durante 10 minutos. Dejar enfriar 15 minutos antes de comer.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=B6fwkhyG8EU",
+    "videoTitle": "Pan Keto con Harina Coco de Queso y Especias. Libre de gluten - Low carb",
+    "videoChannel": "Joha Living"
   },
   {
     "id": "ext-pan-garbanzos-molde-sg",
@@ -56087,7 +56563,10 @@
         "text": "Volcar en el molde y hornear a 180 °C durante 30 minutos.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=6vjCCyh5L0s",
+    "videoTitle": "PAN DE LINAZA CON 2 INGREDIENTES. Sin gluten, sin huevo, sin lácteos. Fácil, rápido, muy nutritivo.",
+    "videoChannel": "Bring Up Berries"
   },
   {
     "id": "ext-pan-hamburguesa-freidora-sg",
@@ -56161,7 +56640,10 @@
         "text": "Cocinar 15 minutos a 180 °C, cubrir con papel aluminio para no quemar arriba y cocinar otros 15 minutos a 180 °C.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Ylg2iS3YROs",
+    "videoTitle": "🔸 PAN de HAMBURGUESA sin TACC | RECETA FÁCIL sin gluten y sin lácteos",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "ext-pan-molde-arroz-xantana-sg",
@@ -56235,7 +56717,10 @@
         "text": "Hornear a 200 °C durante aproximadamente 40 minutos hasta dorar.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=mEgvoeNaBoA",
+    "videoTitle": "SIN GOMA XANTANA ,SIN PSYLLIUM  hoy te enseño como hacer este PAN DE MOLDE SIN GLUTEN",
+    "videoChannel": "JJ citysingluten"
   },
   {
     "id": "ext-pan-name-hierbas-sg",
@@ -56293,7 +56778,10 @@
         "text": "Formar bolitas, acomodar en asadera y hornear a 200 °C durante 30 a 40 minutos.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=SI049AaUIVs",
+    "videoTitle": "Pan de Finas Hierbas 🌿 SIN GLUTEN 🍞 SIN ULTRAPROCESADOS | Repostería Saludable",
+    "videoChannel": "Cata Bayona | Cooking & Home"
   },
   {
     "id": "ext-pan-maiz-mandioca-levadura-sg",
@@ -56377,7 +56865,10 @@
         "text": "Hornear en horno precalentado a 200 °C durante unos 30 minutos. Dejar enfriar antes de desmoldar.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=t5viPmC6SFs",
+    "videoTitle": "Pan de maíz sin gluten (sin TACC)",
+    "videoChannel": "Lembas Gluten Free"
   },
   {
     "id": "ext-pan-tapioca-avellanas-sg",
@@ -56519,7 +57010,10 @@
         "text": "Dejar reposar 10 minutos, pasar a budinera forrada con papel manteca, espolvorear las semillas reservadas y hornear a 170 °C durante 1 hora y 10 minutos. Enfriar antes de cortar.",
         "timerMinutes": 70
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=a3U7eEqSX9M",
+    "videoTitle": "Pan SALUDABLE con SOLO 2 INGREDIENTES - trigo sarraceno y semillas - Sin GLUTEN y Sin LEVADURAS",
+    "videoChannel": "Amanda Ortiga"
   },
   {
     "id": "ext-pan-trigo-sarraceno-clasico-sg",
@@ -56588,7 +57082,10 @@
         "text": "Formar un bollo, tapar y dejar leudar 30 minutos. Hornear a 190 °C unos 35 minutos hasta que suene hueco al golpear la base.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=YxFPdA_hC6s",
+    "videoTitle": "Pan de Trigo Sarraceno sin Gluten -  Receta facil de Pan Integral Gluten Free #comohacer #singluten",
+    "videoChannel": "Cocineros Italianos - Recetas de Cocina Italiana"
   },
   {
     "id": "ext-pan-dulce-canela-sg",
@@ -56753,7 +57250,10 @@
         "text": "Pasar a molde engrasado, espolvorear semillas opcionales y dejar duplicar. Hornear 5 minutos a temperatura alta y luego 25 a 30 minutos a 180-200 °C.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=WZWoGs8bcs0",
+    "videoTitle": "PAN SIN GLUTEN DE HARINA DE ARROZ INTEGRAL",
+    "videoChannel": "Nutrición Maribel Ortells"
   },
   {
     "id": "ext-pan-integral-amaranto-quinoa-sg",
@@ -56852,7 +57352,10 @@
         "text": "Dividir entre dos budineras aceitadas y enharinadas con arroz, reposar 10 minutos más y hornear a 180 °C durante 45 minutos.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=J8sQTrpxvT4",
+    "videoTitle": "Pan de Kiwicha (Amaranto) || Sin gluten ni lactosa 💚",
+    "videoChannel": "Exótica de Oky"
   },
   {
     "id": "ext-pan-sencillo-arroz-integral-sg",
@@ -56906,7 +57409,10 @@
         "text": "Desgasificar suave, formar una bola sobre placa con papel manteca, hacer cortes encima y dejar crecer 30 minutos más. Hornear a 190 °C unos 30 minutos hasta dorar.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=DpT6FXFdtP8",
+    "videoTitle": "🍞 Receta PAN DE MASA MADRE SIN GLUTEN de arroz (Sin olla de hierro) Pan Integral",
+    "videoChannel": "Vegana Sin Gluten"
   },
   {
     "id": "ext-pan-rustico-lento-sg",
@@ -56989,7 +57495,10 @@
         "text": "Formar una barra sin amasar en exceso, colocar en el molde y hornear a 150 °C unas 2 horas hasta que el palillo salga seco.",
         "timerMinutes": 120
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=4E6JYMIcLgQ",
+    "videoTitle": "PAN RÚSTICO SIN GLUTEN EN OLLA DE COCCIÓN LENTA",
+    "videoChannel": "Ditas Veg"
   },
   {
     "id": "ext-pan-rapido-bollos-sg",
@@ -57182,7 +57691,10 @@
         "text": "Formar bolitas sobre placa aceitada y hornear a 180 °C por 25 minutos, luego subir a 200 °C por 15 minutos hasta dorar.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=VnivbpPcM-Y",
+    "videoTitle": "CHIPÁS PANECILLOS DE MANDIOCA Y QUESO SIN GLUTEN muy fácil e increiblemente deliciosos",
+    "videoChannel": "Temperos e Sabores"
   },
   {
     "id": "ext-pan-mandioca-chia-sg",
@@ -57416,7 +57928,10 @@
         "text": "Repartir en dos budineras aceitadas y enharinadas con arroz y hornear a 180 °C durante 30 minutos hasta que el palillo salga limpio.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=eYdBCKI_Jj0",
+    "videoTitle": "¡Pan de arroz sin gluten! Receta fácil en licuadora",
+    "videoChannel": "Gluten Morgen Español"
   },
   {
     "id": "ext-pan-multigran-sg",
@@ -57500,7 +58015,10 @@
         "text": "Hornear a 180 °C durante 35 minutos hasta dorar.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=45AlJdeAKxI",
+    "videoTitle": "PAN DE SESAMO SIN HORNO 4 INGRED SIN GLUTEN(AJONJOLI)",
+    "videoChannel": "LOUREN FREE TODO SIN HORNO"
   },
   {
     "id": "ext-pan-sal-aquafaba-sg",
@@ -57573,7 +58091,10 @@
         "text": "Formar bollitos con cuchara aceitada sobre placa con silicona o papel manteca, reposar 15 min y hornear a 190 °C unos 25 minutos.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=lDTgroKI8wo",
+    "videoTitle": "✅ Cómo hacer PANECILLOS SIN GLUTEN para BOCADILLOS (Veganos, sin huevo, sin lactosa) Muy fácil",
+    "videoChannel": "Vegana Sin Gluten"
   },
   {
     "id": "ext-pan-harina-maiz-tradicional-sg",
@@ -57886,7 +58407,10 @@
         "text": "Modelar los panes, untar con oliva, espolvorear harina de maíz y sésamo y hornear a 180 °C durante 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=IXpSmkbq68E",
+    "videoTitle": "🔆 PAN SIN GLUTEN FÁCIL Y RÁPIDO | Sin huevo, sin lácteos, sin grasa. Vegano.",
+    "videoChannel": "GLUTENDENCE | Cocina sin gluten"
   },
   {
     "id": "ext-pan-italiano-hogaza-sg",
@@ -57970,7 +58494,10 @@
         "text": "Formar una hogaza en placa aceitada, dejar leudar hasta duplicar (2 a 3 horas), hacer 3 cortes y hornear a 200 °C entre 40 y 50 minutos.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=c8pa8tY07ec",
+    "videoTitle": "Pan Rústico SIN GLUTEN (Sin Huevo): Crujiente y con corteza de verdad",
+    "videoChannel": "JJ citysingluten"
   },
   {
     "id": "ext-pan-canela-semillas-sg",
@@ -58115,7 +58642,10 @@
         "text": "Precocinar 10 minutos a 180 °C, agregar salsa y queso a gusto y hornear 5 a 10 minutos más.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=EjmD1-4lkEs",
+    "videoTitle": "PIZZA SIN GLUTEN con miga esponjosa y base crocante (masa básica para pizzetas y pizza sin TACC)",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "ext-masa-pastelitos-freidora-sg",
@@ -58179,7 +58709,10 @@
         "text": "Hornear a 190 °C unos 35 minutos hasta dorar (o cocinar en freidora de aire a 200 °C durante 15 minutos).",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=LmD47r-NH-4",
+    "videoTitle": "EMPANADAS SIN GLUTEN para principiantes | Cómo hacer masa para empanadas sin TACC",
+    "videoChannel": "Soy Celíaco, No Extraterrestre"
   },
   {
     "id": "ext-masa-empanada-tarta-manteca-sg",
