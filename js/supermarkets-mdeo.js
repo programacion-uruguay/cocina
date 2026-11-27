@@ -6685,6 +6685,8 @@ function matchCatalogProductForChain(ing, chain, multiplier) {
       directOffer && directOffer.url ? directOffer.url : chain.buildSearchUrl(prod.name || searchTerm);
     const fraction = estimateRecipeUsageFraction(ing, multiplier, prod.unit_size || "500 g");
     const proportionalUYU = Math.max(12, Math.round(packPrice * fraction));
+    const packsNeeded = Math.max(1, Math.ceil(fraction));
+    const packTotalUYU = packPrice * packsNeeded;
 
     return {
       ingredientKey: ikey,
@@ -6693,6 +6695,8 @@ function matchCatalogProductForChain(ing, chain, multiplier) {
       matchedUnitSize: prod.unit_size || "",
       matchedDietTags: prod.diet_tags || [],
       packPriceUYU: packPrice,
+      packsNeeded,
+      packTotalUYU,
       proportionalUYU,
       gondolaUrl: productUrl,
       fromPreciosDb: true
@@ -6710,6 +6714,8 @@ function matchCatalogProductForChain(ing, chain, multiplier) {
     matchedUnitSize: "",
     matchedDietTags: [],
     packPriceUYU: fallbackPrice,
+    packsNeeded: 1,
+    packTotalUYU: fallbackPrice,
     proportionalUYU: fallbackPrice,
     gondolaUrl: chain.buildSearchUrl(searchTerm),
     fromPreciosDb: false
@@ -6815,9 +6821,11 @@ function compareRecipeInMontevideo(recipe, servingsMultiplier, userCoords, sortB
       const matched = matchCatalogProductForChain(ing, chain, servingsMultiplier);
       const rawPrice = matched.proportionalUYU;
       const packPriceUYU = matched.packPriceUYU;
+      const packsNeeded = matched.packsNeeded || 1;
+      const packTotalUYU = matched.packTotalUYU || packPriceUYU;
       const priceUYU = checked ? 0 : rawPrice;
       totalUYU += priceUYU;
-      totalPacksUYU += checked ? 0 : packPriceUYU;
+      totalPacksUYU += checked ? 0 : packTotalUYU;
 
       const searchTerm = cleanSearchTerm(ing.item) || ing.item;
       return {
@@ -6829,6 +6837,8 @@ function compareRecipeInMontevideo(recipe, servingsMultiplier, userCoords, sortB
         priceUYU,
         estimatedFullPriceUYU: rawPrice,
         packPriceUYU,
+        packsNeeded,
+        packTotalUYU,
         matchedProductName: matched.matchedProductName,
         matchedBrand: matched.matchedBrand,
         matchedUnitSize: matched.matchedUnitSize,

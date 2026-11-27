@@ -1160,7 +1160,7 @@
                             item.matchedProductName
                               ? `<small class="ing-adapt-meta">
                                   ${dietBadge ? `<span class="ing-adapt-badge">${escapeHtml(dietBadge)}</span>` : ""}
-                                  📦 ${escapeHtml(item.matchedProductName)} · <strong>Envase: $ ${item.packPriceUYU || item.estimatedFullPriceUYU}</strong>
+                                  📦 ${escapeHtml(item.matchedProductName)} · <strong>${item.packsNeeded > 1 ? `${item.packsNeeded}× ` : ""}Envase: $ ${item.packPriceUYU || item.estimatedFullPriceUYU}</strong>
                                 </small>`
                               : ""
                           }
