@@ -106,6 +106,86 @@ const DIET_PLANS = {
     carbsG: 235,
     fatG: 60,
     description: "Elimina sal agregada, fiambres, caldos comerciales y encurtidos priorizando hierbas y limón."
+  },
+  colesterol: {
+    key: "colesterol",
+    label: "Baja en colesterol / Cardiosaludable",
+    shortLabel: "❤️ Baja en colesterol",
+    kcal: 1950,
+    proteinG: 100,
+    carbsG: 235,
+    fatG: 52,
+    description: "Reduce grasas saturadas, manteca, cremas y fiambres; prioriza oliva, pescado, legumbres y avena."
+  },
+  digestiva: {
+    key: "digestiva",
+    label: "Digestiva / Blanda (Gastritis y reflujo)",
+    shortLabel: "🫧 Digestiva / Blanda",
+    kcal: 1900,
+    proteinG: 95,
+    carbsG: 245,
+    fatG: 50,
+    description: "Evita picantes, fritos, salsas ácidas de tomate, ajo/cebolla crudos y cafeína."
+  },
+  sin_huevo: {
+    key: "sin_huevo",
+    label: "Sin huevo",
+    shortLabel: "🥚 Sin huevo",
+    kcal: 2000,
+    proteinG: 95,
+    carbsG: 240,
+    fatG: 65,
+    description: "Sustituye huevos, claras, yemas y mayonesa común por lino/chía hidratado, tofu o lactonesa sin huevo."
+  },
+  alta_proteina: {
+    key: "alta_proteina",
+    label: "Alta en proteínas (High Protein)",
+    shortLabel: "🥩 Alta en proteínas",
+    kcal: 2050,
+    proteinG: 145,
+    carbsG: 195,
+    fatG: 65,
+    description: "Enfocada en saciedad y deporte (≥ 25 g de proteína por porción) sin exceso calórico."
+  },
+  rica_fibra: {
+    key: "rica_fibra",
+    label: "Rica en fibra",
+    shortLabel: "🌾 Rica en fibra",
+    kcal: 1950,
+    proteinG: 95,
+    carbsG: 245,
+    fatG: 58,
+    description: "Prioriza legumbres, avena, verduras, semillas y cereales integrales para salud intestinal."
+  },
+  familiar: {
+    key: "familiar",
+    label: "Familiar / Para niños",
+    shortLabel: "👶 Familiar / Para niños",
+    kcal: 1950,
+    proteinG: 90,
+    carbsG: 245,
+    fatG: 62,
+    description: "Sabores suaves y amigables, sin picantes ni alcohol en salsas, ideales para toda la familia."
+  },
+  higado_graso: {
+    key: "higado_graso",
+    label: "Hígado graso / Baja en grasas",
+    shortLabel: "🩺 Hígado graso / Baja grasa",
+    kcal: 1800,
+    proteinG: 105,
+    carbsG: 205,
+    fatG: 45,
+    description: "Limita grasas saturadas, fritos, crema, fiambres y azúcares simples priorizando cocciones livianas."
+  },
+  baja_fodmap: {
+    key: "baja_fodmap",
+    label: "Baja en FODMAP (Colon irritable)",
+    shortLabel: "🦠 Baja en FODMAP",
+    kcal: 1950,
+    proteinG: 95,
+    carbsG: 230,
+    fatG: 60,
+    description: "Reemplaza ajo, cebolla, legumbres enteras, trigo y lácteos con lactosa por opciones bajas en fermentación."
   }
 };
 
@@ -474,6 +554,11 @@ function substituteSingleIngredient(ing, dietKey, restrictionsList = []) {
   const wantsKeto = dietKey === "keto";
   const wantsDeficit = dietKey === "deficit";
   const wantsNutFree = hasRestr("frutos secos");
+  const wantsEggFree = dietKey === "sin_huevo" || hasRestr("huevo");
+  const wantsLowCholesterol = dietKey === "colesterol" || dietKey === "higado_graso" || hasRestr("colesterol");
+  const wantsDigestive = dietKey === "digestiva";
+  const wantsFamily = dietKey === "familiar";
+  const wantsLowFodmap = dietKey === "baja_fodmap";
 
   const changes = [];
   let nextItem = rawItem;
@@ -657,6 +742,98 @@ function substituteSingleIngredient(ing, dietKey, restrictionsList = []) {
   if (wantsNutFree && /nuez|nueces|almendra|maní|avellana|castaña/.test(low)) {
     nextItem = "semillas de girasol o zapallo tostadas (sin frutos secos)";
     changes.push("Sin frutos secos");
+  }
+
+  // 9. Sin huevo
+  if (wantsEggFree && !wantsVegan) {
+    if (/(fettuccini|tallar|cinta|fideo|masa).*huevo/.test(low)) {
+      nextItem = "pasta seca de sémola sin huevo";
+      changes.push("Sin huevo");
+    } else if (/mayonesa/.test(low) && !/sin huevo|vegana/.test(low)) {
+      nextItem = "lactonesa casera o mayonesa vegetal sin huevo";
+      changes.push("Sin huevo");
+    } else if (/huevo|clara|yema/.test(low)) {
+      nextItem = "1 cda de lino o chía hidratada (o puré de banana/tofu para ligar)";
+      changes.push("Sin huevo");
+    }
+  }
+
+  // 10. Baja en colesterol / Hígado graso (Baja en grasas)
+  if (wantsLowCholesterol && changes.length === 0) {
+    const tag = dietKey === "higado_graso" ? "Hígado graso" : "Cardiosaludable";
+    if (/manteca/.test(low) && !/maní/.test(low)) {
+      nextItem = "aceite de oliva extra virgen (en menor cantidad)";
+      changes.push(tag);
+    } else if (/crema de leche/.test(low)) {
+      nextItem = "yogur natural descremado o queso crema 0% grasa";
+      changes.push(tag);
+    } else if (/panceta|chorizo|salame|pepperoni|salchicha/.test(low)) {
+      nextItem = "pechuga de pollo o lomo magro en tiritas con pimentón";
+      changes.push(tag);
+    } else if (/cheddar|roquefort|gruyere|provolone|parmesano|mozzarella|muzzarella/.test(low)) {
+      nextItem = "queso magro descremado o ricota magra";
+      changes.push(tag);
+    } else if (/yema/.test(low)) {
+      nextItem = "claras de huevo (sin colesterol)";
+      changes.push(tag);
+    } else if (dietKey === "higado_graso" && /azúcar|azucar/.test(low) && !/sin azúcar/.test(low)) {
+      nextItem = "stevia o fruta natural machacada (sin azúcar agregada)";
+      changes.push(tag);
+    }
+  }
+
+  // 11. Digestiva / Blanda (Gastritis y reflujo)
+  if (wantsDigestive && changes.length === 0) {
+    if (/ají|aji|picante|pimienta|cayena|curry|tabasco|jalapeñ|chipotle/.test(low)) {
+      nextItem = "hierbas suaves (orégano, perejil o tomillo)";
+      changes.push("Digestiva");
+    } else if (/salsa de tomate|tomate triturado|extracto de tomate|ketchup/.test(low)) {
+      nextItem = "salsa suave de zapallo o zanahoria cocida";
+      changes.push("Digestiva");
+    } else if (/\bajo\b|cebolla/.test(low) && !/verdeo/.test(low)) {
+      nextItem = "parte verde de puerro o cebollín bien cocido (suave)";
+      changes.push("Digestiva");
+    } else if (/vinagre|aceto/.test(low)) {
+      nextItem = "unas gotas de aceite de oliva suave y hierbas";
+      changes.push("Digestiva");
+    } else if (/café|cafe|chocolate|cacao/.test(low)) {
+      nextItem = "harina de algarroba o esencia de vainilla";
+      changes.push("Digestiva");
+    }
+  }
+
+  // 12. Baja en FODMAP (Colon irritable)
+  if (wantsLowFodmap && changes.length === 0) {
+    if (/\bajo\b/.test(low)) {
+      nextItem = "aceite de oliva infusionado con ajo (sin el diente)";
+      changes.push("Bajo FODMAP");
+    } else if (/cebolla/.test(low) && !/verdeo/.test(low)) {
+      nextItem = "parte verde de cebolla de verdeo o ciboulette";
+      changes.push("Bajo FODMAP");
+    } else if (/poroto|lenteja|garbanzo/.test(low)) {
+      nextItem = "tofu firme en cubos o quinoa cocida";
+      changes.push("Bajo FODMAP");
+    } else if (/leche/.test(low) && !/deslactosad|sin lactosa|vegetal/.test(low)) {
+      nextItem = rawItem.replace(/leche/i, "leche deslactosada");
+      changes.push("Bajo FODMAP");
+    } else if (/harina( 0000| 000| común| integral)?\b|pan rallado/.test(low) && !/arroz|maíz|avena|almendra/.test(low)) {
+      nextItem = "harina de arroz o avena certificada (bajo FODMAP)";
+      changes.push("Bajo FODMAP");
+    } else if (/miel/.test(low)) {
+      nextItem = "jarabe de arce puro o pizca de azúcar común";
+      changes.push("Bajo FODMAP");
+    }
+  }
+
+  // 13. Familiar / Para niños
+  if (wantsFamily && changes.length === 0) {
+    if (/ají|aji|picante|cayena|tabasco|jalapeñ|chipotle|pimienta negra/.test(low)) {
+      nextItem = "pimentón dulce suave y orégano";
+      changes.push("Familiar");
+    } else if (/vino|cerveza|ron|coñac|licor/.test(low)) {
+      nextItem = "caldo casero de verduras o jugo de naranja (sin alcohol)";
+      changes.push("Sin alcohol");
+    }
   }
 
   if (nextItem !== rawItem) {
@@ -853,7 +1030,10 @@ function evaluateDietCompatibility(nutrition, dietPlanKey, lightMode, adaptation
   const adaptedActive = Boolean(adaptationInfo && adaptationInfo.changedCount > 0 && adaptationInfo.isAdaptedActive);
   const needsAdaptation = Boolean(adaptationInfo && adaptationInfo.changedCount > 0 && !adaptationInfo.isAdaptedActive);
 
-  if (["sin_gluten", "sin_lactosa", "vegana", "vegetariana", "bajo_sodio", "sin_azucar"].includes(plan.key)) {
+  if ([
+    "sin_gluten", "sin_lactosa", "vegana", "vegetariana", "bajo_sodio", "sin_azucar",
+    "sin_huevo", "digestiva", "baja_fodmap", "familiar"
+  ].includes(plan.key)) {
     if (!adaptationInfo || adaptationInfo.changedCount === 0) {
       status = "optimal";
       message = `100% apta originalmente para dieta ${plan.label} (${perServing.kcal} kcal / porción).`;
@@ -863,6 +1043,40 @@ function evaluateDietCompatibility(nutrition, dietPlanKey, lightMode, adaptation
     } else if (needsAdaptation) {
       status = "warning";
       message = `Contiene ${adaptationInfo.changedCount} ${adaptationInfo.changedCount === 1 ? "ingrediente" : "ingredientes"} a sustituir para ${plan.label}. Activá «Adaptar ingredientes» arriba.`;
+    }
+  } else if (plan.key === "colesterol" || plan.key === "higado_graso") {
+    const maxFat = plan.key === "higado_graso" ? 12 : 14;
+    if (needsAdaptation) {
+      status = "warning";
+      message = `Contiene ${adaptationInfo.changedCount} ${adaptationInfo.changedCount === 1 ? "ingrediente" : "ingredientes"} a aligerar para ${plan.label}. Activá «Adaptar ingredientes» arriba.`;
+    } else if (perServing.fat <= maxFat) {
+      status = "optimal";
+      message = `Excelente para ${plan.label}: solo ${perServing.fat} g de grasa por porción (${perServing.kcal} kcal).`;
+    } else {
+      status = "good";
+      message = `Grasas moderadas (${perServing.fat} g / porc.); usá cocción al horno o freidora y reducí aceite.`;
+    }
+  } else if (plan.key === "alta_proteina") {
+    if (perServing.protein >= 25) {
+      status = "optimal";
+      message = `Excelente aporte proteico: ${perServing.protein} g de proteína por porción (${perServing.kcal} kcal).`;
+    } else if (perServing.protein >= 16) {
+      status = "good";
+      message = `Buen aporte (${perServing.protein} g prot.); ideal sumando huevo, pollo, atún o legumbres.`;
+    } else {
+      status = "warning";
+      message = `Aporte proteico bajo (${perServing.protein} g); acompañá con una porción de proteína magra.`;
+    }
+  } else if (plan.key === "rica_fibra") {
+    if (perServing.fiber >= 7) {
+      status = "optimal";
+      message = `Muy rica en fibra: ${perServing.fiber} g por porción (${perServing.kcal} kcal).`;
+    } else if (perServing.fiber >= 4) {
+      status = "good";
+      message = `Buen aporte de fibra (${perServing.fiber} g / porc.); podés sumar semillas o ensalada verde.`;
+    } else {
+      status = "warning";
+      message = `Fibra moderada (${perServing.fiber} g); acompañá con vegetales crudos, legumbres o avena.`;
     }
   } else if (plan.key === "keto") {
     if (perServing.carbs <= 14) {

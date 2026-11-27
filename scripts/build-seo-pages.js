@@ -7,7 +7,7 @@ const recetasDir = path.join(root, 'recetas');
 
 const siteArg = process.argv.find((a) => a.startsWith('--site='));
 const SITE_ORIGIN = (siteArg ? siteArg.slice('--site='.length) : 'https://que-cocino-hoy-4lz.pages.dev').replace(/\/+$/, '');
-const ASSET_VER = '20261127b';
+const ASSET_VER = '20261127h';
 
 const recipes = JSON.parse(fs.readFileSync(recipesPath, 'utf8'));
 
