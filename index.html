@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css?v=20261127j" />
+  <link rel="stylesheet" href="./css/styles.css?v=20261127n" />
   <link rel="stylesheet" href="./css/comer-bien.css?v=20261126" />
 </head>
 <body>
@@ -209,6 +209,9 @@
             <button type="button" role="tab" class="home-tab-btn" data-home-tab="ideas" aria-selected="false">
               <span id="home-tab-ideas-label">🍽️ Ideas por tiempo</span>
             </button>
+            <button type="button" role="tab" class="home-tab-btn" data-home-tab="fridge" aria-selected="false">
+              🧊 Mi Heladera
+            </button>
           </div>
 
           <div id="home-panel-wheel">
@@ -242,8 +245,11 @@
           </div>
 
           <section id="now-ideas-section" class="now-ideas-section" aria-label="Ideas para este momento" hidden></section>
+          <section id="home-panel-fridge" class="fridge-panel" aria-label="¿Qué tenés en la heladera?" hidden></section>
         </div>
       </div>
+
+      <section id="home-discover-strip" class="home-discover-strip" aria-label="Recomendaciones visuales según el horario"></section>
 
       <div id="cb-guest-banner" class="cb-guest-inline">
         <span>🌿 ¿Querés registrar tus comidas y planificar tu semana?</span>
@@ -335,6 +341,7 @@
   <script type="module" src="./js/firebase-cloud.js?v=20261127m"></script>
   <script src="./js/comer-bien.js?v=20261127m"></script>
   <script src="./js/plans.js?v=20261127k"></script>
-  <script src="./js/app.js?v=20261127k"></script>
+  <script src="./js/home-discover.js?v=20261127n"></script>
+  <script src="./js/app.js?v=20261127n"></script>
 </body>
 </html>

@@ -58,6 +58,7 @@
     homeTabIdeasLabel: document.getElementById("home-tab-ideas-label"),
     homePanelWheel: document.getElementById("home-panel-wheel"),
     nowIdeasSection: document.getElementById("now-ideas-section"),
+    homePanelFridge: document.getElementById("home-panel-fridge"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
     themeCycleBtn: document.getElementById("theme-cycle-btn"),
     searchForm: document.getElementById("search-form"),
@@ -1419,13 +1420,19 @@
       const metodo = getMenuItemById("metodo", r.metodo);
       const fav = isFavorite(r.id);
       const isGf = isGlutenFreeRecipe(r);
+      const waHref = window.QCHHomeDiscover?.getWhatsappShareHref
+        ? window.QCHHomeDiscover.getWhatsappShareHref(r, getRecipeCalories(r))
+        : "";
       return `
         <article class="now-idea-card" data-now-id="${r.id}">
           <div class="now-idea-top">
             <span class="now-idea-badge">${metodo?.emoji || "🍳"} ${metodo?.label || r.metodo}</span>
-            <button type="button" class="now-idea-fav ${fav ? "is-fav" : ""}" data-now-fav="${r.id}" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">
-              ${fav ? "♥" : "♡"}
-            </button>
+            <div class="now-idea-actions-mini">
+              ${waHref ? `<a href="${waHref}" target="_blank" rel="noopener noreferrer" class="now-idea-wa" data-now-wa aria-label="Compartir por WhatsApp" title="Compartir por WhatsApp">💬</a>` : ""}
+              <button type="button" class="now-idea-fav ${fav ? "is-fav" : ""}" data-now-fav="${r.id}" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">
+                ${fav ? "♥" : "♡"}
+              </button>
+            </div>
           </div>
           <h3 class="now-idea-title">${r.title}</h3>
           <div class="now-idea-tags">
@@ -1502,6 +1509,10 @@
       });
     });
 
+    els.nowIdeasSection.querySelectorAll("[data-now-wa]").forEach((a) => {
+      a.addEventListener("click", (e) => e.stopPropagation());
+    });
+
     els.nowIdeasSection.querySelectorAll("[data-now-fav]").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -1515,7 +1526,58 @@
     els.mobileNavBtns.forEach((btn) => {
       btn.classList.toggle("is-active", btn.dataset.mobileNav === activeKey);
     });
+    if (window.QCHHomeDiscover?.render) {
+      window.QCHHomeDiscover.render();
+    }
   }
+
+  function applyMoodFilter(moodKey) {
+    state.onlyFavorites = false;
+    state.onlyWithVideo = false;
+    state.resultsPage = 0;
+    state.searchQuery = "";
+    if (els.searchInput) els.searchInput.value = "";
+    if (els.searchSubmitBtn) els.searchSubmitBtn.hidden = true;
+    els.favToggleBtn?.classList.remove("is-active");
+    state.selectedPath = {};
+
+    if (moodKey === "fast") {
+      state.selectedPath = { estilo: "express" };
+    } else if (moodKey === "budget") {
+      state.selectedPath = { estilo: "economico" };
+    } else if (moodKey === "comfort") {
+      state.selectedPath = { metodo: "olla" };
+    } else if (moodKey === "light") {
+      state.selectedCalories = "low";
+      if (els.caloriesFilterSelect) els.caloriesFilterSelect.value = "low";
+    }
+    syncUI();
+    openResultsModal();
+  }
+
+  window.QCHApp = {
+    getRecipes: () => state.recipes,
+    getFilteredPoolForHome: () => {
+      const momentKey = getCurrentMomentKey();
+      return state.recipes.filter((r) => {
+        if (state.autoMomentByTime && r.momento !== momentKey) return false;
+        if (!matchesSeasonFilter(r)) return false;
+        if (!matchesCaloriesFilter(r)) return false;
+        if (!matchesDietFilter(r)) return false;
+        if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
+        return true;
+      });
+    },
+    getCurrentMomentKey,
+    getAutoMomentByTime: () => state.autoMomentByTime,
+    isFavorite,
+    toggleFavorite,
+    getRecipeCalories,
+    openRecipePage: (id) => {
+      window.location.href = getRecipePageUrl(id);
+    },
+    applyMoodFilter
+  };
 
   function renderQuickSuggestions() {
     if (!els.quickSuggestions) return;
@@ -1610,7 +1672,8 @@
     if (els.homeTabBtns) {
       els.homeTabBtns.forEach((btn) => {
         btn.addEventListener("click", () => {
-          const nextTab = btn.dataset.homeTab === "ideas" ? "ideas" : "wheel";
+          const raw = btn.dataset.homeTab;
+          const nextTab = raw === "ideas" ? "ideas" : raw === "fridge" ? "fridge" : "wheel";
           state.homeTab = nextTab;
           els.homeTabBtns.forEach((b) => {
             const active = b.dataset.homeTab === nextTab;
@@ -1619,6 +1682,10 @@
           });
           if (els.homePanelWheel) els.homePanelWheel.hidden = nextTab !== "wheel";
           if (els.nowIdeasSection) els.nowIdeasSection.hidden = nextTab !== "ideas";
+          if (els.homePanelFridge) els.homePanelFridge.hidden = nextTab !== "fridge";
+          if (nextTab === "fridge" && window.QCHHomeDiscover?.render) {
+            window.QCHHomeDiscover.render();
+          }
         });
       });
     }
