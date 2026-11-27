@@ -418,7 +418,7 @@ button {
 }
 
 .wheel-section {
-  padding: var(--space-5);
+  padding: var(--space-4);
   background: var(--wheel-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -430,9 +430,17 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-3);
+  gap: 0.6rem;
   min-height: 36px;
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+
+.wheel-header-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
 }
 
 .wheel-actions {
@@ -519,8 +527,8 @@ button {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 620px;
-  height: clamp(360px, 64vh, 600px);
+  max-width: 520px;
+  height: clamp(310px, 50vh, 460px);
   margin: 0 auto;
 }
 
@@ -752,8 +760,8 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: var(--space-3);
-  margin-top: var(--space-4);
+  gap: 0.55rem;
+  margin-top: var(--space-2);
 }
 
 .btn-surprise {
@@ -3843,18 +3851,17 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  gap: 0.55rem;
-  width: 100%;
-  margin-top: 0.25rem;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  margin-top: 0;
 }
 
 .smart-toggle {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  min-height: 38px;
-  padding: 0.42rem 0.88rem;
+  gap: 0.42rem;
+  min-height: 34px;
+  padding: 0.34rem 0.78rem;
   font-size: var(--fs-xs);
   font-weight: 700;
   color: var(--text);
@@ -3870,8 +3877,8 @@ button {
 }
 
 .smart-toggle-dot {
-  width: 9px;
-  height: 9px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: var(--text-muted);
   opacity: 0.45;
@@ -3883,7 +3890,7 @@ button {
   color: #ffffff;
   background: var(--primary);
   border-color: var(--primary);
-  box-shadow: 0 2px 10px rgba(217, 119, 6, 0.22);
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.22);
 }
 
 .smart-toggle.is-active .smart-toggle-dot {
@@ -3894,9 +3901,9 @@ button {
 .smart-select-wrap {
   display: inline-flex;
   align-items: center;
-  gap: 0.42rem;
-  min-height: 38px;
-  padding: 0.28rem 0.45rem 0.28rem 0.78rem;
+  gap: 0.35rem;
+  min-height: 34px;
+  padding: 0.2rem 0.45rem 0.2rem 0.72rem;
   font-size: var(--fs-xs);
   font-weight: 700;
   color: var(--text-muted);
@@ -3912,20 +3919,23 @@ button {
 }
 
 .smart-select {
-  border: none;
+  border: 0 !important;
+  box-shadow: none !important;
   background: transparent;
   color: var(--text);
   font-family: inherit;
   font-size: var(--fs-xs);
   font-weight: 700;
-  padding: 0.2rem 0.35rem 0.2rem 0.1rem;
+  padding: 0.15rem 0.25rem 0.15rem 0.1rem;
   cursor: pointer;
   outline: none;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+  .wheel-header-right,
   .smart-filters-bar {
-    gap: 0.45rem;
+    width: 100%;
+    justify-content: center;
   }
   .smart-toggle,
   .smart-select-wrap {
