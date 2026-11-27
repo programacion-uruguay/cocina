@@ -1295,9 +1295,9 @@
 
   function getCurrentMomentKey() {
     const h = new Date().getHours();
-    if (h >= 5 && h < 11) return "desayuno";
-    if (h >= 11 && h < 15) return "almuerzo";
-    if (h >= 15 && h < 19) return "merienda";
+    if (h < 10) return "desayuno";
+    if (h < 14) return "almuerzo";
+    if (h < 18) return "merienda";
     return "cena";
   }
 
@@ -1342,7 +1342,7 @@
       }
     ].map((col) => ({
       ...col,
-      items: pickColumnItems(col.all, 3)
+      items: pickColumnItems(col.all, 2)
     }));
 
     if (columns.every((c) => c.items.length === 0)) {
