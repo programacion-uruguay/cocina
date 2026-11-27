@@ -20,6 +20,7 @@
     homeTab: "wheel", // "wheel" | "ideas"
     selectedSeason: "all", // "all" | "verano" | "otono" | "invierno" | "primavera"
     selectedCalories: "all", // "all" | "low" | "mid" | "high"
+    selectedDiet: "all",
     resultsPage: 0,
     resultsPageSize: 6,
     favorites: loadFavorites(),
@@ -52,6 +53,7 @@
     timeMomentLabel: document.getElementById("time-moment-label"),
     seasonFilterSelect: document.getElementById("season-filter-select"),
     caloriesFilterSelect: document.getElementById("calories-filter-select"),
+    dietFilterSelect: document.getElementById("diet-filter-select"),
     homeTabBtns: document.querySelectorAll("[data-home-tab]"),
     homeTabIdeasLabel: document.getElementById("home-tab-ideas-label"),
     homePanelWheel: document.getElementById("home-panel-wheel"),
@@ -86,6 +88,7 @@
 
   const recipeCaloriesCache = new Map();
   const recipeSeasonsCache = new Map();
+  const recipeDietMatchCache = new Map();
 
   const SEASON_LABELS = {
     all: "Todas las estaciones",
@@ -190,6 +193,37 @@
     return true;
   }
 
+  function populateDietFilterSelect() {
+    if (!els.dietFilterSelect || typeof DIET_PLANS === "undefined") return;
+    const opts = ['<option value="all">Todas las dietas</option>'];
+    Object.values(DIET_PLANS).forEach((p) => {
+      opts.push(`<option value="${p.key}">${p.shortLabel || p.label}</option>`);
+    });
+    els.dietFilterSelect.innerHTML = opts.join("");
+    els.dietFilterSelect.value = state.selectedDiet;
+  }
+
+  function matchesDietFilter(r) {
+    if (state.selectedDiet === "all") return true;
+    const cacheKey = `${r.id}::${state.selectedDiet}`;
+    if (recipeDietMatchCache.has(cacheKey)) return recipeDietMatchCache.get(cacheKey);
+    let ok = true;
+    if (typeof getRecipeNutritionAndMedia === "function" && typeof evaluateDietCompatibility === "function") {
+      try {
+        const baseMedia = getRecipeNutritionAndMedia(r);
+        const adapt = typeof adaptRecipeIngredientsForDiet === "function"
+          ? adaptRecipeIngredientsForDiet(r, state.selectedDiet, null, false)
+          : null;
+        const ev = evaluateDietCompatibility(baseMedia.nutrition, state.selectedDiet, false, adapt);
+        ok = ev.status === "optimal" || ev.status === "good";
+      } catch {
+        ok = true;
+      }
+    }
+    recipeDietMatchCache.set(cacheKey, ok);
+    return ok;
+  }
+
   function syncSmartFiltersUI() {
     if (els.timeMomentToggle && els.timeMomentLabel) {
       const mKey = getCurrentMomentKey();
@@ -207,6 +241,10 @@
     if (els.caloriesFilterSelect) {
       els.caloriesFilterSelect.value = state.selectedCalories;
       els.caloriesFilterSelect.closest(".smart-select-wrap")?.classList.toggle("is-filtered", state.selectedCalories !== "all");
+    }
+    if (els.dietFilterSelect) {
+      els.dietFilterSelect.value = state.selectedDiet;
+      els.dietFilterSelect.closest(".smart-select-wrap")?.classList.toggle("is-filtered", state.selectedDiet !== "all");
     }
   }
 
@@ -338,6 +376,7 @@
       if (state.onlyWithVideo && !r.videoUrl) return false;
       if (!matchesSeasonFilter(r)) return false;
       if (!matchesCaloriesFilter(r)) return false;
+      if (!matchesDietFilter(r)) return false;
       if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
       if (customPath.metodo && r.metodo !== customPath.metodo) return false;
       if (effectiveMoment && r.momento !== effectiveMoment) return false;
@@ -505,6 +544,7 @@
     state.onlyWithVideo = false;
     state.selectedSeason = "all";
     state.selectedCalories = "all";
+    state.selectedDiet = "all";
     state.resultsPage = 0;
     activeQuickChip = null;
     els.searchInput.value = "";
@@ -591,6 +631,9 @@
     }
     if (state.selectedSeason !== "all") activeLabels.push(SEASON_LABELS[state.selectedSeason]);
     if (state.selectedCalories !== "all") activeLabels.push(CALORIES_LABELS[state.selectedCalories]);
+    if (state.selectedDiet !== "all" && typeof DIET_PLANS !== "undefined" && DIET_PLANS[state.selectedDiet]) {
+      activeLabels.push(DIET_PLANS[state.selectedDiet].shortLabel || DIET_PLANS[state.selectedDiet].label);
+    }
     if (state.searchQuery.trim()) activeLabels.push(`"${state.searchQuery.trim()}"`);
 
     els.resultsModalTitle.textContent = activeLabels.length
@@ -1310,6 +1353,7 @@
       if (state.autoMomentByTime && r.momento !== momentKey) return false;
       if (!matchesSeasonFilter(r)) return false;
       if (!matchesCaloriesFilter(r)) return false;
+      if (!matchesDietFilter(r)) return false;
       if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
       return true;
     });
@@ -1534,6 +1578,16 @@
     if (els.caloriesFilterSelect) {
       els.caloriesFilterSelect.addEventListener("change", () => {
         state.selectedCalories = els.caloriesFilterSelect.value || "all";
+        state.resultsPage = 0;
+        syncUI();
+        if (!els.resultsModal.hidden) renderResultsModal();
+      });
+    }
+
+    if (els.dietFilterSelect) {
+      populateDietFilterSelect();
+      els.dietFilterSelect.addEventListener("change", () => {
+        state.selectedDiet = els.dietFilterSelect.value || "all";
         state.resultsPage = 0;
         syncUI();
         if (!els.resultsModal.hidden) renderResultsModal();

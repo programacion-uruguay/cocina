@@ -74,6 +74,14 @@ window.CB_DATA = (() => {
     { id: 'sin_lactosa', label: 'Sin lactosa', emoji: '🥛', desc: 'Excluye lácteos comunes.', clinical: true },
     { id: 'bajo_sodio', label: 'Baja en sodio', emoji: '🧂', desc: 'Comida casera fresca, evitando enlatados.', clinical: true },
     { id: 'sin_azucar', label: 'Sin azúcar agregada', emoji: '🍯', desc: 'Prioriza fibra, granos integrales y fruta entera.', clinical: true },
+    { id: 'colesterol', label: 'Baja en colesterol', emoji: '❤️', desc: 'Cardiosaludable: menos grasas saturadas, más oliva, pescado y avena.', clinical: true },
+    { id: 'digestiva', label: 'Digestiva / Blanda', emoji: '🫧', desc: 'Ideal gastritis y reflujo: evita picantes, fritos y salsas ácidas.', clinical: true },
+    { id: 'sin_huevo', label: 'Sin huevo', emoji: '🥚', desc: 'Excluye huevos, yemas, claras y mayonesa común.', clinical: true },
+    { id: 'alta_proteina', label: 'Alta en proteínas', emoji: '🥩', desc: 'Enfocada en saciedad y deporte (≥ 25 g proteína/porción).', clinical: false },
+    { id: 'rica_fibra', label: 'Rica en fibra', emoji: '🌾', desc: 'Prioriza legumbres, verduras, avena y granos integrales.', clinical: false },
+    { id: 'familiar', label: 'Familiar / Para niños', emoji: '👶', desc: 'Sabores suaves, sin picante ni alcohol en salsas.', clinical: false },
+    { id: 'higado_graso', label: 'Hígado graso / Baja grasa', emoji: '🩺', desc: 'Cocciones livianas con bajo aporte de grasas y azúcares.', clinical: true },
+    { id: 'baja_fodmap', label: 'Baja en FODMAP', emoji: '🦠', desc: 'Para colon irritable: reduce ajo, cebolla, legumbres y lactosa.', clinical: true },
   ];
 
   const PREFERENCE_OPTIONS = [
