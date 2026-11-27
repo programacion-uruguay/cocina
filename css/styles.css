@@ -4636,10 +4636,77 @@ button {
 .home-discover-strip {
   display: flex;
   flex-direction: column;
-  gap: 1.35rem;
-  margin-top: 1.5rem;
-  padding-top: 1.35rem;
-  border-top: 1px solid var(--border);
+  gap: 1.25rem;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.home-info-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--primary-soft) 0%, var(--surface-2) 100%);
+  border: 1px solid var(--border);
+}
+
+.home-info-copy h2 {
+  margin: 0 0 0.25rem;
+  font-family: var(--font-editorial);
+  font-size: clamp(1.15rem, 1rem + 0.65vw, 1.5rem);
+  color: var(--text);
+}
+
+.home-info-copy p {
+  margin: 0;
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.home-info-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.home-info-btn-primary,
+.home-info-btn-secondary {
+  padding: 0.55rem 0.95rem;
+  font-family: inherit;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: transform 0.14s ease, filter 0.14s ease, border-color 0.14s ease;
+}
+
+.home-info-btn-primary {
+  border: none;
+  background: var(--primary);
+  color: #ffffff;
+  box-shadow: 0 3px 10px rgba(217, 72, 15, 0.22);
+}
+
+.home-info-btn-primary:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+.home-info-btn-secondary {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.home-info-btn-secondary:hover {
+  border-color: var(--primary);
+  color: var(--primary-text);
 }
 
 .discover-head {
@@ -5175,7 +5242,11 @@ button {
 
 @media (max-width: 640px) {
   .home-view-tabs {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home-info-banner {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .daily-featured-card {
     grid-template-columns: 1fr;

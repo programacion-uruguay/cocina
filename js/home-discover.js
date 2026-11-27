@@ -53,9 +53,9 @@
   }
 
   function getRecipePhotoUrl(r) {
-    if (r.imageUrl) return r.imageUrl;
     const ytId = extractYouTubeId(r.videoUrl);
     if (ytId) return `https://i.ytimg.com/vi/${ytId}/hqdefault.jpg`;
+    if (r.imageUrl) return r.imageUrl;
     return "./img/logo-og.jpg";
   }
 
@@ -86,10 +86,18 @@
     if (!recipes || !recipes.length) return null;
     const now = new Date();
     const dateSeed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
-    const withPhotoAndVideo = recipes.filter((r) => (r.imageUrl || r.videoUrl) && r.description);
-    const pool = withPhotoAndVideo.length ? withPhotoAndVideo : recipes;
+    const withVideo = recipes.filter((r) => r.videoUrl && r.description);
+    const pool = withVideo.length ? withVideo : recipes;
     const idx = dateSeed % pool.length;
     return pool[idx];
+  }
+
+  function getGreetingByHour() {
+    const h = new Date().getHours();
+    if (h < 10) return "¡Buen día! ¿Qué desayunamos hoy?";
+    if (h < 14) return "¡Buen mediodía! ¿Qué almorzamos hoy?";
+    if (h < 18) return "¡Buenas tardes! ¿Algo rico para la merienda?";
+    return "¡Buenas noches! ¿Qué cenamos hoy?";
   }
 
   function renderDiscoverStrip() {
@@ -200,6 +208,17 @@
       : "";
 
     container.innerHTML = `
+      <div class="home-info-banner">
+        <div class="home-info-copy">
+          <h2>${getGreetingByHour()}</h2>
+          <p>Explorá <strong>${allRecipes.length} recetas</strong> con fotos reales, videos paso a paso, <strong>18 dietas</strong> y precios en supermercados de Uruguay.</p>
+        </div>
+        <div class="home-info-actions">
+          <button type="button" class="home-info-btn-primary" id="jump-to-wheel-btn">🎡 Abrir Buscador Circular</button>
+          <button type="button" class="home-info-btn-secondary" id="jump-to-fridge-hero-btn">🧊 Mi Heladera</button>
+        </div>
+      </div>
+
       <div class="discover-carousel-block">
         <div class="discover-head">
           <div>
@@ -281,14 +300,19 @@
       });
     });
 
-    // Ir a Mi Heladera
-    container.querySelector("#jump-to-fridge-btn")?.addEventListener("click", () => {
+    // Ir al Buscador Circular o a Mi Heladera desde el inicio
+    container.querySelector("#jump-to-wheel-btn")?.addEventListener("click", () => {
+      document.querySelector('[data-home-tab="wheel"]')?.click();
+    });
+    const openFridge = () => {
       const fridgeTabBtn = document.querySelector('[data-home-tab="fridge"]');
       if (fridgeTabBtn) {
         fridgeTabBtn.click();
         fridgeTabBtn.scrollIntoView({ behavior: "smooth", block: "start" });
       }
-    });
+    };
+    container.querySelector("#jump-to-fridge-btn")?.addEventListener("click", openFridge);
+    container.querySelector("#jump-to-fridge-hero-btn")?.addEventListener("click", openFridge);
 
     bindCardInteractions(container);
   }

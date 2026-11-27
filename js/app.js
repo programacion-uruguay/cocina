@@ -17,7 +17,7 @@
     onlyFavorites: false,
     onlyWithVideo: false,
     autoMomentByTime: true,
-    homeTab: "wheel", // "wheel" | "ideas"
+    homeTab: "home", // "home" | "wheel" | "ideas" | "fridge"
     selectedSeason: "all", // "all" | "verano" | "otono" | "invierno" | "primavera"
     selectedCalories: "all", // "all" | "low" | "mid" | "high"
     selectedDiet: "all",
@@ -56,6 +56,7 @@
     dietFilterSelect: document.getElementById("diet-filter-select"),
     homeTabBtns: document.querySelectorAll("[data-home-tab]"),
     homeTabIdeasLabel: document.getElementById("home-tab-ideas-label"),
+    homeDiscoverStrip: document.getElementById("home-discover-strip"),
     homePanelWheel: document.getElementById("home-panel-wheel"),
     nowIdeasSection: document.getElementById("now-ideas-section"),
     homePanelFridge: document.getElementById("home-panel-fridge"),
@@ -1673,17 +1674,21 @@
       els.homeTabBtns.forEach((btn) => {
         btn.addEventListener("click", () => {
           const raw = btn.dataset.homeTab;
-          const nextTab = raw === "ideas" ? "ideas" : raw === "fridge" ? "fridge" : "wheel";
+          const nextTab = ["home", "wheel", "ideas", "fridge"].includes(raw) ? raw : "home";
           state.homeTab = nextTab;
           els.homeTabBtns.forEach((b) => {
             const active = b.dataset.homeTab === nextTab;
             b.classList.toggle("is-active", active);
             b.setAttribute("aria-selected", String(active));
           });
+          if (els.homeDiscoverStrip) els.homeDiscoverStrip.hidden = nextTab !== "home";
           if (els.homePanelWheel) els.homePanelWheel.hidden = nextTab !== "wheel";
           if (els.nowIdeasSection) els.nowIdeasSection.hidden = nextTab !== "ideas";
           if (els.homePanelFridge) els.homePanelFridge.hidden = nextTab !== "fridge";
-          if (nextTab === "fridge" && window.QCHHomeDiscover?.render) {
+          if (nextTab === "wheel") {
+            renderRadialMenu();
+          }
+          if ((nextTab === "home" || nextTab === "fridge") && window.QCHHomeDiscover?.render) {
             window.QCHHomeDiscover.render();
           }
         });
