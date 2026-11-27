@@ -17,6 +17,7 @@
     onlyFavorites: false,
     onlyWithVideo: false,
     autoMomentByTime: true,
+    homeTab: "wheel", // "wheel" | "ideas"
     selectedSeason: "all", // "all" | "verano" | "otono" | "invierno" | "primavera"
     selectedCalories: "all", // "all" | "low" | "mid" | "high"
     resultsPage: 0,
@@ -51,6 +52,9 @@
     timeMomentLabel: document.getElementById("time-moment-label"),
     seasonFilterSelect: document.getElementById("season-filter-select"),
     caloriesFilterSelect: document.getElementById("calories-filter-select"),
+    homeTabBtns: document.querySelectorAll("[data-home-tab]"),
+    homeTabIdeasLabel: document.getElementById("home-tab-ideas-label"),
+    homePanelWheel: document.getElementById("home-panel-wheel"),
     nowIdeasSection: document.getElementById("now-ideas-section"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
     themeCycleBtn: document.getElementById("theme-cycle-btn"),
@@ -1383,6 +1387,9 @@
     const headingTitle = state.autoMomentByTime
       ? `${momentMeta?.emoji || "🍽️"} ${momentLabels[momentKey] || "Ideas para ahora"}`
       : "🍽️ Ideas de todos los momentos";
+    if (els.homeTabIdeasLabel) {
+      els.homeTabIdeasLabel.textContent = `${headingTitle} (${pool.length})`;
+    }
     const filterNotes = [];
     if (state.selectedSeason !== "all") filterNotes.push(SEASON_LABELS[state.selectedSeason]);
     if (state.selectedCalories !== "all") filterNotes.push(CALORIES_LABELS[state.selectedCalories]);
@@ -1530,6 +1537,22 @@
         state.resultsPage = 0;
         syncUI();
         if (!els.resultsModal.hidden) renderResultsModal();
+      });
+    }
+
+    if (els.homeTabBtns) {
+      els.homeTabBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const nextTab = btn.dataset.homeTab === "ideas" ? "ideas" : "wheel";
+          state.homeTab = nextTab;
+          els.homeTabBtns.forEach((b) => {
+            const active = b.dataset.homeTab === nextTab;
+            b.classList.toggle("is-active", active);
+            b.setAttribute("aria-selected", String(active));
+          });
+          if (els.homePanelWheel) els.homePanelWheel.hidden = nextTab !== "wheel";
+          if (els.nowIdeasSection) els.nowIdeasSection.hidden = nextTab !== "ideas";
+        });
       });
     }
 

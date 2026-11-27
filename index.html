@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css?v=20261127e" />
+  <link rel="stylesheet" href="./css/styles.css?v=20261127f" />
   <link rel="stylesheet" href="./css/comer-bien.css?v=20261126" />
 </head>
 <body>
@@ -185,33 +185,46 @@
         </aside>
 
         <div class="wheel-main">
-          <div class="wheel-header">
-            <div id="breadcrumb" class="breadcrumb" aria-live="polite"></div>
-            <div class="wheel-actions">
-              <button type="button" id="back-wheel-btn" class="btn-back" hidden>← Atrás</button>
-              <button type="button" id="reset-wheel-btn" class="btn-reset" hidden>Reiniciar</button>
+          <div class="home-view-tabs" role="tablist" aria-label="Vista principal">
+            <button type="button" role="tab" class="home-tab-btn is-active" data-home-tab="wheel" aria-selected="true">
+              🎡 Menú Circular
+            </button>
+            <button type="button" role="tab" class="home-tab-btn" data-home-tab="ideas" aria-selected="false">
+              <span id="home-tab-ideas-label">🍽️ Ideas por tiempo</span>
+            </button>
+          </div>
+
+          <div id="home-panel-wheel">
+            <div class="wheel-header">
+              <div id="breadcrumb" class="breadcrumb" aria-live="polite"></div>
+              <div class="wheel-actions">
+                <button type="button" id="back-wheel-btn" class="btn-back" hidden>← Atrás</button>
+                <button type="button" id="reset-wheel-btn" class="btn-reset" hidden>Reiniciar</button>
+              </div>
+            </div>
+
+            <div id="radial-menu-container" class="radial-menu-container">
+              <!-- SVG generado dinámicamente por js/radial-menu.js -->
+            </div>
+
+            <div class="wheel-quick-bar">
+              <div id="quick-suggestions" class="quick-suggestions" aria-label="Sugerencias rápidas"></div>
+            </div>
+
+            <div id="wheel-legend" class="wheel-legend">
+              <button type="button" class="legend-item" data-step-index="0"><strong>1.</strong> Momento</button>
+              <span class="legend-sep">→</span>
+              <button type="button" class="legend-item" data-step-index="1"><strong>2.</strong> Ingrediente</button>
+              <span class="legend-sep">→</span>
+              <button type="button" class="legend-item" data-step-index="2"><strong>3.</strong> Método</button>
+              <span class="legend-sep">→</span>
+              <button type="button" class="legend-item" data-step-index="3"><strong>4.</strong> Estilo</button>
+              <span class="legend-sep">·</span>
+              <span class="legend-tip">Tocá el centro del círculo en cualquier momento para ver las recetas</span>
             </div>
           </div>
 
-          <div id="radial-menu-container" class="radial-menu-container">
-            <!-- SVG generado dinámicamente por js/radial-menu.js -->
-          </div>
-
-          <div class="wheel-quick-bar">
-            <div id="quick-suggestions" class="quick-suggestions" aria-label="Sugerencias rápidas"></div>
-          </div>
-
-          <div id="wheel-legend" class="wheel-legend">
-            <button type="button" class="legend-item" data-step-index="0"><strong>1.</strong> Momento</button>
-            <span class="legend-sep">→</span>
-            <button type="button" class="legend-item" data-step-index="1"><strong>2.</strong> Ingrediente</button>
-            <span class="legend-sep">→</span>
-            <button type="button" class="legend-item" data-step-index="2"><strong>3.</strong> Método</button>
-            <span class="legend-sep">→</span>
-            <button type="button" class="legend-item" data-step-index="3"><strong>4.</strong> Estilo</button>
-            <span class="legend-sep">·</span>
-            <span class="legend-tip">Tocá el centro del círculo en cualquier momento para ver las recetas</span>
-          </div>
+          <section id="now-ideas-section" class="now-ideas-section" aria-label="Ideas para este momento" hidden></section>
         </div>
       </div>
 
@@ -219,8 +232,6 @@
         <span>🌿 ¿Querés registrar tus comidas y planificar tu semana?</span>
         <a href="#login" id="cb-guest-login-link" class="cb-guest-inline-link">Ingresar a COMER BIEN →</a>
       </div>
-
-      <section id="now-ideas-section" class="now-ideas-section" aria-label="Ideas para este momento"></section>
     </section>
   </main>
 
@@ -305,6 +316,6 @@
   <script src="./js/storage.js?v=20261126"></script>
   <script src="./js/engine.js?v=20261126"></script>
   <script src="./js/comer-bien.js?v=20261126"></script>
-  <script src="./js/app.js?v=20261127a"></script>
+  <script src="./js/app.js?v=20261127b"></script>
 </body>
 </html>

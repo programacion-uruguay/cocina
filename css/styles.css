@@ -4151,3 +4151,61 @@ button {
     width: 100%;
   }
 }
+
+/* ---------- 14. Pestañas de vista principal (Menú Circular / Ideas por tiempo) ---------- */
+.home-view-tabs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.3rem;
+  margin-bottom: 0.85rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  align-self: flex-start;
+}
+
+.home-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 1rem;
+  font-family: inherit;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: background-color 0.16s ease, color 0.16s ease, box-shadow 0.16s ease;
+}
+
+.home-tab-btn:hover {
+  color: var(--text);
+}
+
+.home-tab-btn.is-active {
+  color: #ffffff;
+  background: var(--primary);
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.24);
+}
+
+.wheel-main .now-ideas-section {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+@media (max-width: 640px) {
+  .home-view-tabs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-tab-btn {
+    justify-content: center;
+    padding: 0.5rem 0.6rem;
+    font-size: var(--fs-xs);
+  }
+}
