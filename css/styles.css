@@ -3933,3 +3933,19 @@ button {
     justify-content: center;
   }
 }
+
+.brand-logo-img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #ffffff;
+  border: 2px solid color-mix(in srgb, var(--primary) 35%, var(--border));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+}
+
+.brand-logo-sm {
+  width: 36px;
+  height: 36px;
+}

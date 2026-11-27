@@ -7,7 +7,7 @@ const recetasDir = path.join(root, 'recetas');
 
 const siteArg = process.argv.find((a) => a.startsWith('--site='));
 const SITE_ORIGIN = (siteArg ? siteArg.slice('--site='.length) : 'https://que-cocino-hoy-4lz.pages.dev').replace(/\/+$/, '');
-const ASSET_VER = '20261126d';
+const ASSET_VER = '20261127b';
 
 const recipes = JSON.parse(fs.readFileSync(recipesPath, 'utf8'));
 
@@ -173,7 +173,8 @@ function buildRecipeHtml(r) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2323272b'/%3E%3Ccircle cx='32' cy='32' r='16' fill='%23ffffff'/%3E%3Cpath d='M25 22v8a3 3 0 0 0 3 3v9M28 22v8M31 22v8M38 22v20M38 22c3 0 4 3 4 7s-1 5-4 5' stroke='%232563eb' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="icon" type="image/png" href="../../img/favicon.png" />
+  <link rel="apple-touch-icon" href="../../img/logo-avatar.webp" />
   <link rel="stylesheet" href="../../css/styles.css?v=${ASSET_VER}" />
   <link rel="stylesheet" href="../../css/comer-bien.css?v=${ASSET_VER}" />
   <script>window.SITE_BASE="../../";window.PRESET_RECIPE_ID=${JSON.stringify(r.id)};</script>
@@ -183,6 +184,7 @@ function buildRecipeHtml(r) {
     <div class="topbar-inner studio-topbar-inner">
       <div class="studio-nav-left">
         <a href="../../index.html" class="btn-back-menu">← Menú Circular</a>
+        <img src="../../img/logo-avatar.webp" alt="¿Qué Cocino Hoy?" class="brand-logo-img brand-logo-sm" width="36" height="36" />
         <div class="brand-compact">
           <strong>¿Qué Cocino Hoy?</strong>
           <span id="studio-breadcrumb-meta" class="brand-sub">${escapeHtml(CAT_LABELS[r.categoria] || r.categoria || 'Receta')} · ${total} min</span>
