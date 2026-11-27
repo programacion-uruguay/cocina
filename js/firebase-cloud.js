@@ -42,6 +42,8 @@ googleProvider.setCustomParameters({ prompt: "select_account" });
 let currentFirebaseUser = null;
 let authListeners = [];
 let syncTimer = null;
+const inFlightUserLoads = new Map();
+const pendingProfileOverrides = new Map();
 
 function mapAuthError(err) {
   const code = err?.code || "";
@@ -98,32 +100,73 @@ function defaultProfileForFirebaseUser(fbUser, customName) {
 }
 
 async function loadCloudUserDoc(fbUser) {
-  const ref = doc(db, "users", fbUser.uid);
-  const snap = await getDoc(ref);
-  if (snap.exists()) {
-    return snap.data();
+  const uid = fbUser.uid;
+  if (inFlightUserLoads.has(uid)) {
+    return inFlightUserLoads.get(uid);
   }
 
-  const profile = defaultProfileForFirebaseUser(fbUser);
-  const localFavs = readLocalRadialFavorites();
-  const initialDoc = {
-    uid: fbUser.uid,
-    email: profile.email,
-    displayName: profile.fullName,
-    username: profile.username,
-    photoURL: profile.photoURL || "",
-    profile,
-    favorites: localFavs,
-    menuSlots: [],
-    dailyLogs: [],
-    shoppingList: [],
-    plan: readLocalPlanForCloud(),
-    createdAt: serverTimestamp(),
-    updatedAt: serverTimestamp()
-  };
+  const task = (async () => {
+    const ref = doc(db, "users", uid);
+    const snap = await getDoc(ref);
+    const override = pendingProfileOverrides.get(uid);
 
-  await setDoc(ref, initialDoc, { merge: true });
-  return initialDoc;
+    if (snap.exists()) {
+      const existing = snap.data();
+      if (override) {
+        pendingProfileOverrides.delete(uid);
+        const mergedProfile = {
+          ...(existing.profile || defaultProfileForFirebaseUser(fbUser)),
+          fullName: override.fullName || existing.displayName || fbUser.displayName || "Usuario",
+          username: override.username || existing.username || buildUsernameFromUser(fbUser)
+        };
+        await setDoc(
+          ref,
+          {
+            displayName: mergedProfile.fullName,
+            username: mergedProfile.username,
+            profile: mergedProfile,
+            updatedAt: serverTimestamp()
+          },
+          { merge: true }
+        );
+        return { ...existing, displayName: mergedProfile.fullName, username: mergedProfile.username, profile: mergedProfile };
+      }
+      return existing;
+    }
+
+    const profile = defaultProfileForFirebaseUser(fbUser, override?.fullName);
+    if (override?.username) {
+      profile.username = override.username;
+    }
+    pendingProfileOverrides.delete(uid);
+
+    const localFavs = readLocalRadialFavorites();
+    const initialDoc = {
+      uid,
+      email: profile.email,
+      displayName: profile.fullName,
+      username: profile.username,
+      photoURL: profile.photoURL || "",
+      profile,
+      favorites: localFavs,
+      menuSlots: [],
+      dailyLogs: [],
+      shoppingList: [],
+      plan: readLocalPlanForCloud(),
+      createdAt: serverTimestamp(),
+      updatedAt: serverTimestamp()
+    };
+
+    await setDoc(ref, initialDoc);
+    return initialDoc;
+  })();
+
+  inFlightUserLoads.set(uid, task);
+  try {
+    return await task;
+  } finally {
+    inFlightUserLoads.delete(uid);
+  }
 }
 
 function readLocalRadialFavorites() {
@@ -247,32 +290,19 @@ async function registerWithEmail({ fullName, email, password, username }) {
   try {
     const cleanEmail = String(email || "").trim().toLowerCase();
     const cleanName = String(fullName || "").trim();
+    const cleanUsername =
+      username && username.trim().length >= 3
+        ? username.trim().toLowerCase().replace(/[^a-z0-9_.-]/g, "").slice(0, 24)
+        : "";
     const res = await createUserWithEmailAndPassword(auth, cleanEmail, String(password || ""));
+    if (cleanName || cleanUsername) {
+      pendingProfileOverrides.set(res.user.uid, { fullName: cleanName, username: cleanUsername });
+    }
     if (cleanName) {
       await updateProfile(res.user, { displayName: cleanName });
     }
-    const profile = defaultProfileForFirebaseUser(res.user, cleanName);
-    if (username && username.trim().length >= 3) {
-      profile.username = username.trim().toLowerCase().replace(/[^a-z0-9_.-]/g, "").slice(0, 24) || profile.username;
-    }
-    const localFavs = readLocalRadialFavorites();
-    const initialDoc = {
-      uid: res.user.uid,
-      email: cleanEmail,
-      displayName: profile.fullName,
-      username: profile.username,
-      photoURL: "",
-      profile,
-      favorites: localFavs,
-      menuSlots: [],
-      dailyLogs: [],
-      shoppingList: [],
-      plan: readLocalPlanForCloud(),
-      createdAt: serverTimestamp(),
-      updatedAt: serverTimestamp()
-    };
-    await setDoc(doc(db, "users", res.user.uid), initialDoc, { merge: true });
-    return { fbUser: res.user, cloudDoc: initialDoc };
+    const cloudDoc = await loadCloudUserDoc(res.user);
+    return { fbUser: res.user, cloudDoc };
   } catch (err) {
     throw new Error(mapAuthError(err));
   }
