@@ -147,27 +147,24 @@
 
     const proStatusBanner = proActive
       ? `<div class="plans-status-banner is-active">
-           <strong>⭐ Tu prueba PRO está activa</strong>
-           <span>Te quedan ${daysLeft} ${daysLeft === 1 ? "día" : "días"} de acceso anticipado sin costo.</span>
+           <strong>⭐ Prueba PRO activa</strong> · Te quedan ${daysLeft} ${daysLeft === 1 ? "día" : "días"} de acceso anticipado sin costo.
          </div>`
       : `<div class="plans-status-banner">
-           <strong>🚀 Modo Lanzamiento — Acceso anticipado</strong>
-           <span>Todas las funciones están abiertas para que las pruebes sin límites. Activá tu prueba PRO gratis de ${PLANS_CONFIG.trialDays} días o anotate en la lista prioritaria.</span>
+           <strong>🚀 Lanzamiento:</strong> Todo abierto para probar. Activá tus ${PLANS_CONFIG.trialDays} días PRO gratis o anotate para precio fundador.
          </div>`;
 
     let secondaryActionsHtml = "";
     if (mpHref || waHref) {
       secondaryActionsHtml = `<div class="plan-secondary-links">
-        ${mpHref ? `<a href="${mpHref}" target="_blank" rel="noopener noreferrer" class="plan-cta-secondary">💳 Suscribirme con Mercado Pago</a>` : ""}
-        ${waHref ? `<a href="${waHref}" target="_blank" rel="noopener noreferrer" class="plan-cta-secondary">💬 Consultar por WhatsApp</a>` : ""}
+        ${mpHref ? `<a href="${mpHref}" target="_blank" rel="noopener noreferrer" class="plan-cta-secondary">💳 Mercado Pago</a>` : ""}
+        ${waHref ? `<a href="${waHref}" target="_blank" rel="noopener noreferrer" class="plan-cta-secondary">💬 WhatsApp</a>` : ""}
       </div>`;
     } else {
       secondaryActionsHtml = state.waitlistContact
-        ? `<div class="plan-waitlist-done">✅ Te anotamos en la lista prioritaria con <strong>${escapeHtml(state.waitlistContact)}</strong>. Te avisamos antes del lanzamiento pago (con beneficio fundador).</div>`
+        ? `<div class="plan-waitlist-done">✅ Anotado con <strong>${escapeHtml(state.waitlistContact)}</strong> (beneficio fundador).</div>`
         : `<form id="plans-waitlist-form" class="plan-waitlist-form">
-             <label for="plans-waitlist-input" class="plan-waitlist-label">¿Querés enterarte primero y recibir precio fundador por Mercado Pago / WhatsApp?</label>
              <div class="plan-waitlist-row">
-               <input type="text" id="plans-waitlist-input" class="plan-waitlist-input" placeholder="Tu WhatsApp o email..." required />
+               <input type="text" id="plans-waitlist-input" class="plan-waitlist-input" placeholder="Tu WhatsApp o email para precio fundador..." required />
                <button type="submit" class="plan-cta-secondary">Anotarme</button>
              </div>
            </form>`;
@@ -177,7 +174,7 @@
       <div class="plans-header">
         <span class="plans-eyebrow">¿Qué Cocino Hoy? · Uruguay</span>
         <h2 id="plans-modal-title">Elegí cómo querés cocinar</h2>
-        <p class="plans-subtitle">Las 942 recetas siempre son gratis. El Plan PRO suma salud, ahorro en el súper y planificación semanal.</p>
+        <p class="plans-subtitle">Las 942 recetas siempre son gratis. El Plan PRO suma salud, ahorro en el súper y planificación.</p>
       </div>
 
       ${proStatusBanner}
@@ -185,19 +182,18 @@
       <div class="plans-grid">
         <article class="plan-card plan-card-free">
           <div class="plan-card-head">
-            <span class="plan-tag">🆓 Plan Gratis</span>
-            <h3>Para todos los días</h3>
-            <div class="plan-price-row">
-              <span class="plan-price-main">Gratis</span>
-              <span class="plan-price-note">para siempre</span>
+            <div class="plan-head-top">
+              <span class="plan-tag">🆓 Plan Gratis</span>
+              <span class="plan-price-inline"><strong>Gratis</strong> · para siempre</span>
             </div>
+            <h3>Para todos los días</h3>
           </div>
           <ul class="plan-list">
-            <li><span class="plan-check">✓</span> Acceso a las <strong>942 recetas</strong> con fotos y videos</li>
-            <li><span class="plan-check">✓</span> <strong>Menú Circular</strong> e Ideas por horario</li>
-            <li><span class="plan-check">✓</span> Buscador por ingrediente, estación y calorías</li>
-            <li><span class="plan-check">✓</span> Dietas básicas (<em>Sin TACC, Vegetariana, Fit</em>)</li>
-            <li><span class="plan-check">✓</span> Favoritos guardados y temporizador de cocina</li>
+            <li><span class="plan-check">✓</span><span>Acceso a las <strong>942 recetas</strong> con fotos y videos</span></li>
+            <li><span class="plan-check">✓</span><span><strong>Menú Circular</strong>, Carrusel e Ideas por horario</span></li>
+            <li><span class="plan-check">✓</span><span>Buscador por ingrediente, estación y calorías</span></li>
+            <li><span class="plan-check">✓</span><span>Dietas básicas (<em>Sin TACC, Vegetariana, Fit</em>)</span></li>
+            <li><span class="plan-check">✓</span><span>Favoritos guardados y temporizador de cocina</span></li>
           </ul>
           <div class="plan-card-foot">
             <button type="button" class="plan-cta-ghost" data-close-plans>Seguir usando Gratis</button>
@@ -206,19 +202,18 @@
 
         <article class="plan-card plan-card-pro">
           <div class="plan-card-head">
-            <span class="plan-tag plan-tag-pro">⭐ Plan PRO · Acceso anticipado</span>
-            <h3>Salud, ahorro y semana resuelta</h3>
-            <div class="plan-price-row">
-              <span class="plan-price-main">Próximamente</span>
-              <span class="plan-price-note">Sin costo en lanzamiento</span>
+            <div class="plan-head-top">
+              <span class="plan-tag plan-tag-pro">⭐ Plan PRO</span>
+              <span class="plan-price-inline"><strong>Próximamente</strong> · Gratis en lanzamiento</span>
             </div>
+            <h3>Salud, ahorro y semana resuelta</h3>
           </div>
           <ul class="plan-list">
-            <li><span class="plan-check is-pro">★</span> <strong>Las 18 dietas completas</strong> (Diabética, Colesterol, Hígado graso, Gastritis, FODMAP, Sin huevo, Familiar/Niños y más)</li>
-            <li><span class="plan-check is-pro">★</span> <strong>Sustitución automática</strong> de ingredientes según tu dieta</li>
-            <li><span class="plan-check is-pro">★</span> <strong>Comparador de súperes de Uruguay</strong> (Tienda Inglesa, Disco, Devoto, Tata, Geant) + lista de compras</li>
-            <li><span class="plan-check is-pro">★</span> <strong>COMER BIEN completo</strong>: planificador semanal y control diario</li>
-            <li><span class="plan-check is-pro">★</span> Favoritos ilimitados y experiencia <strong>100% sin publicidad</strong></li>
+            <li><span class="plan-check is-pro">★</span><span><strong>18 dietas completas</strong> (Diabética, Colesterol, Hígado graso, Gastritis, FODMAP y más)</span></li>
+            <li><span class="plan-check is-pro">★</span><span><strong>Sustitución automática</strong> de ingredientes según tu dieta</span></li>
+            <li><span class="plan-check is-pro">★</span><span><strong>Comparador de súperes</strong> (Tienda Inglesa, Disco, Devoto, Tata, Geant)</span></li>
+            <li><span class="plan-check is-pro">★</span><span><strong>COMER BIEN completo:</strong> planificador semanal y control diario</span></li>
+            <li><span class="plan-check is-pro">★</span><span>Favoritos ilimitados y experiencia <strong>100% sin publicidad</strong></span></li>
           </ul>
           <div class="plan-card-foot">
             ${
