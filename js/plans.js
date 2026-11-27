@@ -211,7 +211,7 @@
           <ul class="plan-list">
             <li><span class="plan-check is-pro">★</span><span><strong>18 dietas completas</strong> (Diabética, Colesterol, Hígado graso, Gastritis, FODMAP y más)</span></li>
             <li><span class="plan-check is-pro">★</span><span><strong>Sustitución automática</strong> de ingredientes según tu dieta</span></li>
-            <li><span class="plan-check is-pro">★</span><span><strong>Comparador de súperes</strong> (Tienda Inglesa, Disco, Devoto, Tata, Geant)</span></li>
+            <li><span class="plan-check is-pro">★</span><span><strong>Comparador de súperes</strong> (Tienda Inglesa, Disco, Devoto, Tata)</span></li>
             <li><span class="plan-check is-pro">★</span><span><strong>COMER BIEN completo:</strong> planificador semanal y control diario</span></li>
             <li><span class="plan-check is-pro">★</span><span>Favoritos ilimitados y experiencia <strong>100% sin publicidad</strong></span></li>
           </ul>
@@ -222,7 +222,7 @@
                 : `<button type="button" id="plans-activate-trial-btn" class="plan-cta-primary">✨ Activar ${PLANS_CONFIG.trialDays} días PRO gratis</button>`
             }
             ${secondaryActionsHtml}
-            <p class="plan-footnote">Sin tarjeta · Próximamente suscripción en pesos uruguayos por Mercado Pago.</p>
+            <p class="plan-footnote">Sin tarjeta · Próximamente suscripción<br />en pesos uruguayos por Mercado Pago.</p>
           </div>
         </article>
       </div>
