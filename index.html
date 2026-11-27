@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css?v=20261127g" />
+  <link rel="stylesheet" href="./css/styles.css?v=20261127j" />
   <link rel="stylesheet" href="./css/comer-bien.css?v=20261126" />
 </head>
 <body>
@@ -108,6 +108,11 @@
           <span id="favorites-count" class="badge-count">0</span>
         </button>
 
+        <button type="button" id="plans-open-btn" class="btn-pro-nav" title="Ver planes Gratis y PRO (Acceso anticipado)">
+          <span aria-hidden="true">⭐</span>
+          <span class="btn-pro-label">PRO</span>
+        </button>
+
         <button type="button" id="cb-auth-btn" class="cb-auth-btn" title="Iniciar sesión o registrarse en COMER BIEN">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -170,7 +175,10 @@
           </div>
 
           <div class="sidebar-block">
-            <label class="sidebar-label" for="diet-filter-select">🥗 Dieta</label>
+            <div class="sidebar-label-row">
+              <label class="sidebar-label" for="diet-filter-select">🥗 Dieta</label>
+              <button type="button" class="pro-mini-badge" data-open-plans title="Las 18 dietas completas están incluidas en el Plan PRO (gratis durante el lanzamiento)">PRO</button>
+            </div>
             <div class="smart-select-wrap sidebar-select-wrap">
               <select id="diet-filter-select" class="smart-select" aria-label="Filtrar por tipo de dieta">
                 <option value="all">Todas las dietas</option>
@@ -325,6 +333,7 @@
   <script src="./js/storage.js?v=20261126"></script>
   <script src="./js/engine.js?v=20261126"></script>
   <script src="./js/comer-bien.js?v=20261126"></script>
+  <script src="./js/plans.js?v=20261127j"></script>
   <script src="./js/app.js?v=20261127i"></script>
 </body>
 </html>
