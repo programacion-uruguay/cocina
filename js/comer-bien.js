@@ -2062,7 +2062,7 @@
         category: inferShoppingCategory(i.item || ''),
       })),
       steps: (raw.steps || []).map((s) => (typeof s === 'string' ? s : s.text)),
-      nutritionExplanation: `Receta del catálogo Cocina Radial (${raw.categoria || 'variado'}). Acompañala con vegetales frescos o fruta de estación para equilibrar el plato según la Guía del MSP.`,
+      nutritionExplanation: `Receta del catálogo ¿Qué Cocino Hoy? (${raw.categoria || 'variado'}). Acompañala con vegetales frescos o fruta de estación para equilibrar el plato según la Guía del MSP.`,
     };
   }
 

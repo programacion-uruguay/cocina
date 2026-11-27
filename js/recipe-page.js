@@ -444,7 +444,7 @@
       const momento = getMenuItemById("momento", r.momento);
       els.breadcrumbMeta.textContent = `${[momento?.label, metodo?.label].filter(Boolean).join(" · ")} (${count} recetas)`;
     }
-    document.title = `${r.title} — Cocina Radial`;
+    document.title = `${r.title} — ¿Qué Cocino Hoy?`;
   }
 
   function formatAmount(baseAmount, multiplier) {
