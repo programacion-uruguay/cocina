@@ -16,6 +16,9 @@
     searchQuery: "",
     onlyFavorites: false,
     onlyWithVideo: false,
+    autoMomentByTime: true,
+    selectedSeason: "all", // "all" | "verano" | "otono" | "invierno" | "primavera"
+    selectedCalories: "all", // "all" | "low" | "mid" | "high"
     resultsPage: 0,
     resultsPageSize: 6,
     favorites: loadFavorites(),
@@ -44,6 +47,10 @@
     surpriseBtn: document.getElementById("surprise-btn"),
     quickSuggestions: document.getElementById("quick-suggestions"),
     quickFilterChips: document.querySelectorAll("[data-quick-chip]"),
+    timeMomentToggle: document.getElementById("time-moment-toggle"),
+    timeMomentLabel: document.getElementById("time-moment-label"),
+    seasonFilterSelect: document.getElementById("season-filter-select"),
+    caloriesFilterSelect: document.getElementById("calories-filter-select"),
     nowIdeasSection: document.getElementById("now-ideas-section"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
     themeCycleBtn: document.getElementById("theme-cycle-btn"),
@@ -73,11 +80,130 @@
   let wakeLockSentinel = null;
   let activeQuickChip = null;
 
+  const recipeCaloriesCache = new Map();
+  const recipeSeasonsCache = new Map();
+
+  const SEASON_LABELS = {
+    all: "Todas las estaciones",
+    verano: "☀️ Verano",
+    otono: "🍂 Otoño",
+    invierno: "❄️ Invierno",
+    primavera: "🌸 Primavera"
+  };
+
+  const CALORIES_LABELS = {
+    all: "Todas las calorías",
+    low: "🔥 ≤ 250 kcal",
+    mid: "🔥 250–450 kcal",
+    high: "🔥 > 450 kcal"
+  };
+
   function isGlutenFreeRecipe(r) {
     if (!r) return false;
     if (/-sg$/i.test(r.id || "")) return true;
     const text = `${r.title || ""} ${r.description || ""}`;
     return /sin\s*(gluten|tacc)/i.test(text);
+  }
+
+  function getRecipeCalories(r) {
+    if (!r) return 300;
+    if (recipeCaloriesCache.has(r.id)) return recipeCaloriesCache.get(r.id);
+    let kcal = 0;
+    if (typeof r.calories === "number" && r.calories > 0) {
+      kcal = Math.round(r.calories);
+    } else if (typeof getRecipeNutritionAndMedia === "function") {
+      try {
+        kcal = Math.round(getRecipeNutritionAndMedia(r).nutrition?.kcal || 0);
+      } catch {
+        kcal = 0;
+      }
+    }
+    if (!kcal) kcal = 300;
+    recipeCaloriesCache.set(r.id, kcal);
+    return kcal;
+  }
+
+  function getRecipeSeasons(r) {
+    if (!r) return new Set(["verano", "otono", "invierno", "primavera"]);
+    if (recipeSeasonsCache.has(r.id)) return recipeSeasonsCache.get(r.id);
+
+    const ingText = (r.ingredients || []).map((i) => (typeof i === "string" ? i : i.item || "")).join(" ");
+    const txt = `${r.title || ""} ${r.description || ""} ${ingText}`
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+
+    const seasons = new Set();
+    const isCold =
+      r.metodo === "sin_coccion" ||
+      /\b(ensalada|gazpacho|sopa fria|ceviche|helado|sorbete|paleta|infusion|sandia|melon|durazno|frutilla|mango|anana|pepino|palta|caprese|salpicon|frio|fria|fresco|fresca|vichyssoise)\b/.test(txt);
+    const isHotWinter =
+      /\b(guiso|locro|puchero|sopa|caldo|crema de|estofado|cazuela|polenta|lasana|canelones|noquis|ravioles|pastel de papas|gratinad|zapallo|calabaza|boniato|lentejas|porotos|garbanzos|coliflor|brocoli|puerro|mondongo|goulash|chupin|volcan|souffle|bolognesa|tuco|carbonara|fondue)\b/.test(txt);
+    const isAutumn =
+      /\b(zapallo|calabaza|boniato|manzana|pera|naranja|mandarina|hongos|champinon|nueces|almendras|avena|canela|risotto|polenta|budin|tarta|empanada|pan|horno)\b/.test(txt);
+    const isSpring =
+      /\b(esparrago|alcaucil|arveja|chaucha|espinaca|rucula|frutilla|limon|zanahoria|remolacha|ensalada|tarta|tortilla|wrap|sandwich|tostado|pescado|salmon|merluza|pollo|tomate|zapallito|choclo)\b/.test(txt);
+
+    if (isCold && !isHotWinter) {
+      seasons.add("verano");
+      seasons.add("primavera");
+    } else if (isHotWinter && !isCold) {
+      seasons.add("invierno");
+      seasons.add("otono");
+    } else {
+      if (isCold || r.metodo === "parrilla" || /\b(tomate|choclo|zapallito|berenjena|albahaca|limon|pescado|atun|camaron|langostino)\b/.test(txt)) {
+        seasons.add("verano");
+      }
+      if (isHotWinter || r.metodo === "horno") {
+        seasons.add("invierno");
+      }
+      if (isAutumn) seasons.add("otono");
+      if (isSpring) seasons.add("primavera");
+    }
+
+    if (seasons.size === 0) {
+      seasons.add("verano");
+      seasons.add("otono");
+      seasons.add("invierno");
+      seasons.add("primavera");
+    }
+
+    recipeSeasonsCache.set(r.id, seasons);
+    return seasons;
+  }
+
+  function matchesSeasonFilter(r) {
+    if (state.selectedSeason === "all") return true;
+    return getRecipeSeasons(r).has(state.selectedSeason);
+  }
+
+  function matchesCaloriesFilter(r) {
+    if (state.selectedCalories === "all") return true;
+    const kcal = getRecipeCalories(r);
+    if (state.selectedCalories === "low") return kcal <= 250;
+    if (state.selectedCalories === "mid") return kcal > 250 && kcal <= 450;
+    if (state.selectedCalories === "high") return kcal > 450;
+    return true;
+  }
+
+  function syncSmartFiltersUI() {
+    if (els.timeMomentToggle && els.timeMomentLabel) {
+      const mKey = getCurrentMomentKey();
+      const mMeta = getMenuItemById("momento", mKey);
+      els.timeMomentToggle.classList.toggle("is-active", state.autoMomentByTime);
+      els.timeMomentToggle.setAttribute("aria-pressed", String(state.autoMomentByTime));
+      els.timeMomentLabel.textContent = state.autoMomentByTime
+        ? `🕒 Por horario: ${mMeta?.label || mKey}`
+        : "🍽️ Todos los momentos";
+    }
+    if (els.seasonFilterSelect) {
+      els.seasonFilterSelect.value = state.selectedSeason;
+      els.seasonFilterSelect.closest(".smart-select-wrap")?.classList.toggle("is-filtered", state.selectedSeason !== "all");
+    }
+    if (els.caloriesFilterSelect) {
+      els.caloriesFilterSelect.value = state.selectedCalories;
+      els.caloriesFilterSelect.closest(".smart-select-wrap")?.classList.toggle("is-filtered", state.selectedCalories !== "all");
+    }
   }
 
   function releaseWakeLock() {
@@ -199,13 +325,18 @@
 
   function getFilteredRecipes(customPath = state.selectedPath) {
     const q = state.searchQuery.trim().toLowerCase();
+    const effectiveMoment =
+      customPath.momento ||
+      (state.autoMomentByTime && !state.onlyFavorites && !q ? getCurrentMomentKey() : null);
 
     return state.recipes.filter((r) => {
       if (state.onlyFavorites && !isFavorite(r.id)) return false;
       if (state.onlyWithVideo && !r.videoUrl) return false;
+      if (!matchesSeasonFilter(r)) return false;
+      if (!matchesCaloriesFilter(r)) return false;
       if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
       if (customPath.metodo && r.metodo !== customPath.metodo) return false;
-      if (customPath.momento && r.momento !== customPath.momento) return false;
+      if (effectiveMoment && r.momento !== effectiveMoment) return false;
       if (customPath.categoria && r.categoria !== customPath.categoria) return false;
       if (customPath.estilo && r.estilo !== customPath.estilo) return false;
 
@@ -368,6 +499,8 @@
     state.searchQuery = "";
     state.onlyFavorites = false;
     state.onlyWithVideo = false;
+    state.selectedSeason = "all";
+    state.selectedCalories = "all";
     state.resultsPage = 0;
     activeQuickChip = null;
     els.searchInput.value = "";
@@ -448,6 +581,12 @@
 
     if (state.onlyFavorites) activeLabels.unshift("Favoritos");
     if (state.onlyWithVideo) activeLabels.unshift("🎬 Con video");
+    if (!state.selectedPath.momento && state.autoMomentByTime && !state.onlyFavorites && !state.searchQuery.trim()) {
+      const mMeta = getMenuItemById("momento", getCurrentMomentKey());
+      if (mMeta) activeLabels.unshift(`🕒 ${mMeta.label}`);
+    }
+    if (state.selectedSeason !== "all") activeLabels.push(SEASON_LABELS[state.selectedSeason]);
+    if (state.selectedCalories !== "all") activeLabels.push(CALORIES_LABELS[state.selectedCalories]);
     if (state.searchQuery.trim()) activeLabels.push(`"${state.searchQuery.trim()}"`);
 
     els.resultsModalTitle.textContent = activeLabels.length
@@ -508,7 +647,7 @@
               <div class="card-footer-bar">
                 <div class="card-meta-inline">
                   <span>⏱️ ${totalMin}m</span>
-                  ${r.temperatureC ? `<span>🌡️ ${r.temperatureC}°</span>` : ""}
+                  <span>🔥 ${getRecipeCalories(r)} kcal</span>
                   <span>🍽️ ${r.servings}p</span>
                 </div>
                 <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
@@ -1164,12 +1303,14 @@
     const momentKey = getCurrentMomentKey();
     const momentMeta = getMenuItemById("momento", momentKey);
     const compatible = state.recipes.filter((r) => {
-      if (r.momento !== momentKey) return false;
+      if (state.autoMomentByTime && r.momento !== momentKey) return false;
+      if (!matchesSeasonFilter(r)) return false;
+      if (!matchesCaloriesFilter(r)) return false;
       if (window.CB_IS_RADIAL_RECIPE_COMPATIBLE && !window.CB_IS_RADIAL_RECIPE_COMPATIBLE(r)) return false;
       return true;
     });
 
-    const pool = compatible.length > 0 ? compatible : state.recipes;
+    const pool = compatible;
     const totalOf = (r) => (r.prepMinutes || 0) + (r.cookMinutes || 0);
 
     const pickColumnItems = (list, limit = 3) => {
@@ -1232,17 +1373,26 @@
           </div>
           <div class="now-idea-meta">
             <span>⏱️ ${totalMin} min</span>
+            <span>🔥 ${getRecipeCalories(r)} kcal</span>
             <span>🍽️ ${r.servings} porc.</span>
           </div>
         </article>
       `;
     };
 
+    const headingTitle = state.autoMomentByTime
+      ? `${momentMeta?.emoji || "🍽️"} ${momentLabels[momentKey] || "Ideas para ahora"}`
+      : "🍽️ Ideas de todos los momentos";
+    const filterNotes = [];
+    if (state.selectedSeason !== "all") filterNotes.push(SEASON_LABELS[state.selectedSeason]);
+    if (state.selectedCalories !== "all") filterNotes.push(CALORIES_LABELS[state.selectedCalories]);
+    const filterSuffix = filterNotes.length ? ` · ${filterNotes.join(" · ")}` : "";
+
     els.nowIdeasSection.innerHTML = `
       <div class="now-ideas-header">
         <div>
-          <h2>${momentMeta?.emoji || "🍽️"} ${momentLabels[momentKey] || "Ideas para ahora"}</h2>
-          <p class="now-ideas-sub">Organizadas por tiempo de preparación (${pool.length} opciones disponibles)</p>
+          <h2>${headingTitle}</h2>
+          <p class="now-ideas-sub">Organizadas por tiempo de preparación (${pool.length} opciones disponibles${filterSuffix})</p>
         </div>
         <button type="button" id="now-ideas-see-all" class="now-ideas-more-btn">Ver todas →</button>
       </div>
@@ -1275,7 +1425,7 @@
       state.searchQuery = "";
       if (els.searchInput) els.searchInput.value = "";
       els.quickFilterChips?.forEach((c) => c.classList.remove("is-active"));
-      state.selectedPath = { momento: momentKey };
+      state.selectedPath = state.autoMomentByTime ? { momento: momentKey } : {};
       state.resultsPage = 0;
       syncUI();
       openResultsModal();
@@ -1331,10 +1481,12 @@
   }
 
   function syncUI() {
+    syncSmartFiltersUI();
     radialMenu.setSelectedPath(state.selectedPath);
     renderBreadcrumb();
     renderLegend();
     renderQuickSuggestions();
+    renderNowIdeas();
     saveActiveFilter();
   }
 
@@ -1348,6 +1500,36 @@
         const order = ["warm", "dark", "light"];
         const nextIdx = (order.indexOf(state.theme) + 1) % order.length;
         applyTheme(order[nextIdx]);
+      });
+    }
+
+    if (els.timeMomentToggle) {
+      els.timeMomentToggle.addEventListener("click", () => {
+        state.autoMomentByTime = !state.autoMomentByTime;
+        if (!state.autoMomentByTime && state.selectedPath.momento) {
+          delete state.selectedPath.momento;
+        }
+        state.resultsPage = 0;
+        syncUI();
+        if (!els.resultsModal.hidden) renderResultsModal();
+      });
+    }
+
+    if (els.seasonFilterSelect) {
+      els.seasonFilterSelect.addEventListener("change", () => {
+        state.selectedSeason = els.seasonFilterSelect.value || "all";
+        state.resultsPage = 0;
+        syncUI();
+        if (!els.resultsModal.hidden) renderResultsModal();
+      });
+    }
+
+    if (els.caloriesFilterSelect) {
+      els.caloriesFilterSelect.addEventListener("change", () => {
+        state.selectedCalories = els.caloriesFilterSelect.value || "all";
+        state.resultsPage = 0;
+        syncUI();
+        if (!els.resultsModal.hidden) renderResultsModal();
       });
     }
 

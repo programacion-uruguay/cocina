@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css?v=20261126b" />
+  <link rel="stylesheet" href="./css/styles.css?v=20261127a" />
   <link rel="stylesheet" href="./css/comer-bien.css?v=20261126" />
 </head>
 <body>
@@ -102,6 +102,34 @@
           <button type="button" class="quick-chip" data-quick-chip="freidora">🍟 Freidora</button>
           <button type="button" class="quick-chip" data-quick-chip="economico">💰 Económicas</button>
           <button type="button" class="quick-chip" data-quick-chip="fit">💪 Fit</button>
+        </div>
+
+        <div id="smart-filters-bar" class="smart-filters-bar" aria-label="Filtros de horario, estación y calorías">
+          <button type="button" id="time-moment-toggle" class="smart-toggle is-active" aria-pressed="true" title="Filtra automáticamente según la hora actual. Tocá para desactivar y ver Desayuno, Almuerzo, Merienda, Cena y Snacks juntos.">
+            <span class="smart-toggle-dot" aria-hidden="true"></span>
+            <span id="time-moment-label">🕒 Por horario</span>
+          </button>
+
+          <label class="smart-select-wrap">
+            <span>🌦️ Estación</span>
+            <select id="season-filter-select" class="smart-select" aria-label="Filtrar por estación del año">
+              <option value="all">Todas</option>
+              <option value="verano">☀️ Verano</option>
+              <option value="otono">🍂 Otoño</option>
+              <option value="invierno">❄️ Invierno</option>
+              <option value="primavera">🌸 Primavera</option>
+            </select>
+          </label>
+
+          <label class="smart-select-wrap">
+            <span>🔥 Calorías</span>
+            <select id="calories-filter-select" class="smart-select" aria-label="Filtrar por calorías por porción">
+              <option value="all">Todas</option>
+              <option value="low">≤ 250 kcal (Livianas)</option>
+              <option value="mid">250–450 kcal (Moderadas)</option>
+              <option value="high">&gt; 450 kcal (Completas)</option>
+            </select>
+          </label>
         </div>
       </div>
 
@@ -201,11 +229,12 @@
   <script src="./js/menu-data.js?v=20261126"></script>
   <script src="./js/radial-menu.js?v=20261126"></script>
   <script src="./js/timer.js?v=20261126"></script>
-  <script src="./js/supermarkets-mdeo.js?v=20261126"></script>
+  <script src="./js/supermarkets-mdeo.js?v=20261127a"></script>
+  <script src="./js/nutrition-media.js?v=20261127a"></script>
   <script src="./js/data.js?v=20261126"></script>
   <script src="./js/storage.js?v=20261126"></script>
   <script src="./js/engine.js?v=20261126"></script>
   <script src="./js/comer-bien.js?v=20261126"></script>
-  <script src="./js/app.js?v=20261126b"></script>
+  <script src="./js/app.js?v=20261127a"></script>
 </body>
 </html>
