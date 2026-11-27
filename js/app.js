@@ -252,7 +252,6 @@
   function buildRecipeUrl(recipeId) {
     saveActiveFilter();
     const params = new URLSearchParams();
-    params.set("id", recipeId);
     MENU_LEVELS.forEach((l) => {
       const val = state.selectedPath[l.key];
       if (val) params.set(l.key, val);
@@ -260,7 +259,8 @@
     const q = state.searchQuery.trim();
     if (q) params.set("q", q);
     if (state.onlyFavorites) params.set("fav", "1");
-    return `./receta.html?${params.toString()}`;
+    const qs = params.toString();
+    return `./recetas/${encodeURIComponent(recipeId)}/${qs ? `?${qs}` : ""}`;
   }
 
   function openRecipeInNewTab(recipeId) {

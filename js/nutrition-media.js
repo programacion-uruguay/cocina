@@ -782,7 +782,10 @@ function getRecipeNutritionAndMedia(recipe, adaptedIngredients = null) {
       : computeDynamicNutritionForRecipe(recipe, adaptedIngredients || recipe.ingredients);
 
   const fallbackSvg = buildRecipeIllustrationSvg(recipe, accentColor, "plate");
-  const primaryPhotoUrl = recipe.imageUrl || extractYouTubeThumbUrl(recipe.videoUrl) || fallbackSvg;
+  const siteBase = (typeof window !== "undefined" && window.SITE_BASE) || "./";
+  const rawImg = recipe.imageUrl || "";
+  const resolvedImg = rawImg && !/^(https?:|data:|\/)/i.test(rawImg) ? `${siteBase}${rawImg}` : rawImg;
+  const primaryPhotoUrl = resolvedImg || extractYouTubeThumbUrl(recipe.videoUrl) || fallbackSvg;
 
   const photos = [
     {

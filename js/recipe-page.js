@@ -1307,7 +1307,7 @@
       if (localStorage.getItem("comer_bien_picking_for_inicio") === "1") {
         localStorage.removeItem("comer_bien_picking_for_inicio");
         localStorage.setItem("comer_bien_return_to_inicio", "1");
-        window.location.href = "./index.html";
+        window.location.href = `${(typeof window !== "undefined" && window.SITE_BASE) || "./"}index.html`;
         return;
       }
 
@@ -1862,8 +1862,16 @@
 
     if (pushUrl && window.history?.replaceState) {
       const url = new URL(window.location.href);
-      url.searchParams.set("id", found.id);
-      window.history.replaceState({}, "", url.toString());
+      const isPrettyRoute = /\/recetas\/[^/]+\/?$/.test(url.pathname);
+      if (isPrettyRoute) {
+        url.searchParams.delete("id");
+        const base = (typeof window !== "undefined" && window.SITE_BASE) || "../../";
+        const qs = url.search ? url.search : "";
+        window.history.replaceState({}, "", `${base}recetas/${encodeURIComponent(found.id)}/${qs}`);
+      } else {
+        url.searchParams.set("id", found.id);
+        window.history.replaceState({}, "", url.toString());
+      }
     }
 
     renderStudio();
@@ -1917,20 +1925,25 @@
     }
     bindGlobalEvents();
 
+    const siteBase = (typeof window !== "undefined" && window.SITE_BASE) || "./";
     try {
-      const res = await fetch("./data/recipes.json");
+      const res = await fetch(`${siteBase}data/recipes.json`);
       if (!res.ok) throw new Error("No se pudo cargar recipes.json");
       state.recipes = await res.json();
     } catch (err) {
       console.error(err);
       els.studio.innerHTML =
-        '<div class="empty-state"><h3>No se pudo cargar la receta</h3><a href="./index.html" class="btn-primary">Volver al menú circular</a></div>';
+        `<div class="empty-state"><h3>No se pudo cargar la receta</h3><a href="${siteBase}index.html" class="btn-primary">Volver al menú circular</a></div>`;
       return;
     }
 
     state.activeFilter = getActiveFilterContext();
     const params = new URLSearchParams(window.location.search);
-    const requestedId = params.get("id");
+    const pathMatch = window.location.pathname.match(/\/recetas\/([^/]+)\/?$/);
+    const requestedId =
+      (typeof window !== "undefined" && window.PRESET_RECIPE_ID) ||
+      (pathMatch ? decodeURIComponent(pathMatch[1]) : null) ||
+      params.get("id");
     const requestedTab = params.get("tab");
     const preferredMedia = requestedTab === "video" ? "video" : null;
     const initialPool = getFilteredRecipesForSelect();

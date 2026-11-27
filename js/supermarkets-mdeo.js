@@ -6358,9 +6358,9 @@ let MDEO_CATALOG_BY_INGREDIENT = {
 const MARKET_CATALOG_CACHE_KEY = "cocina_market_catalog_v1";
 const MARKET_CATALOG_REMOTE_URLS = [
   typeof window !== "undefined" && window.MARKET_CATALOG_URL ? window.MARKET_CATALOG_URL : null,
+  `${(typeof window !== "undefined" && window.SITE_BASE) || "./"}data/market-catalog.json`,
   "https://programacion-uruguay.github.io/cocina/data/market-catalog.json",
-  "https://raw.githubusercontent.com/programacion-uruguay/cocina/main/data/market-catalog.json",
-  "./data/market-catalog.json"
+  "https://raw.githubusercontent.com/programacion-uruguay/cocina/main/data/market-catalog.json"
 ].filter(Boolean);
 
 let MDEO_CATALOG_META = { source: "embedded", generatedAt: null, fetchedAt: null };
