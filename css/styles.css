@@ -527,8 +527,8 @@ button {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 520px;
-  height: clamp(310px, 50vh, 460px);
+  max-width: 580px;
+  height: clamp(390px, 60vh, 540px);
   margin: 0 auto;
 }
 
@@ -3958,4 +3958,103 @@ button {
 .brand-logo-sm {
   width: 36px;
   height: 36px;
+}
+
+/* ---------- 12. Layout 2 columnas: Panel lateral izquierdo + Menú circular ---------- */
+.wheel-workspace {
+  display: grid;
+  grid-template-columns: 270px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.wheel-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.sidebar-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.sidebar-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.sidebar-toggle {
+  width: 100%;
+  justify-content: flex-start;
+  min-height: 40px;
+  padding: 0.45rem 0.85rem;
+}
+
+.sidebar-select-wrap {
+  width: 100%;
+  min-height: 40px;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+}
+
+.sidebar-select-wrap .smart-select {
+  width: 100%;
+  font-size: var(--fs-sm);
+  padding: 0.25rem 0.2rem;
+}
+
+.sidebar-chips {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.4rem;
+  margin-top: 0;
+  justify-content: stretch;
+}
+
+.sidebar-chips .quick-chip {
+  width: 100%;
+  justify-content: center;
+  padding: 0.42rem 0.45rem;
+  font-size: 0.74rem;
+  white-space: nowrap;
+}
+
+.sidebar-surprise {
+  width: 100%;
+  margin-top: 0.2rem;
+  justify-content: center;
+}
+
+.wheel-main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 920px) {
+  .wheel-workspace {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .wheel-main {
+    order: -1;
+  }
+  .sidebar-chips {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .sidebar-chips {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
