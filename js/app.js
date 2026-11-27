@@ -1520,6 +1520,10 @@
         toggleFavorite(btn.dataset.nowFav);
       });
     });
+
+    if (window.QCHHomeDiscover?.render) {
+      window.QCHHomeDiscover.render();
+    }
   }
 
   function setMobileNavActive(activeKey) {
@@ -1527,9 +1531,6 @@
     els.mobileNavBtns.forEach((btn) => {
       btn.classList.toggle("is-active", btn.dataset.mobileNav === activeKey);
     });
-    if (window.QCHHomeDiscover?.render) {
-      window.QCHHomeDiscover.render();
-    }
   }
 
   function applyMoodFilter(moodKey) {
@@ -1926,6 +1927,9 @@
 
     syncUI();
     renderNowIdeas();
+    if (window.QCHHomeDiscover?.render) {
+      window.QCHHomeDiscover.render();
+    }
   }
 
   window.CB_REFRESH_RADIAL = () => {
