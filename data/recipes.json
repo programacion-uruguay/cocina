@@ -1827,7 +1827,8 @@
       {
         "text": "Rellená las claras y espolvoreá con pimentón ahumado."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/drive-huevos-rellenos-pimenton.webp"
   },
   {
     "id": "drive-lasagna-pollo-carne",
@@ -8410,7 +8411,8 @@
       {
         "text": "Desgraná los choclos, licuá todo con el caldo y albahaca, colá y serví bien frío."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/vegano-sopa-fria-tomate-choclo.webp"
   },
   {
     "id": "vegano-crema-zapallo",
@@ -11970,7 +11972,8 @@
       {
         "text": "Untar el interior con hummus y repartir en partes iguales el pepino, tomate y aceitunas negras."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-sandwich-arabe-hummus-vegetales.webp"
   },
   {
     "id": "rapida-sandwich-mediterraneo-portobello",
@@ -13619,7 +13622,8 @@
         "text": "Unir la manzana, el apio, las nueces y el aderezo; llevar 30 minutos a la heladera antes de servir.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/rapida-ensalada-waldorf-clasica.webp"
   },
   {
     "id": "rapida-pan-hamburguesa-sesamo",
@@ -14273,7 +14277,8 @@
       {
         "text": "Bajar el fuego al mínimo, incorporar la crema de leche, el parmesano y el perejil calentando sin que rompa hervor; mezclar con la pasta escurrida."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-fettuccinis-camarones-crema.webp"
   },
   {
     "id": "pastas-fettuccinis-albahaca-brie",
@@ -14342,7 +14347,8 @@
       {
         "text": "Escurrir la pasta bien caliente y volcarla directo sobre el bol marinado, mezclando enseguida para que el calor funda suavemente el queso Brie; terminar con parmesano."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-fettuccinis-albahaca-brie.webp"
   },
   {
     "id": "pastas-mac-cheese-sarten",
@@ -14406,7 +14412,8 @@
       {
         "text": "Retirar del fuego, sumar el queso rallado y mezclar hasta que se funda por completo."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-mac-cheese-sarten.webp"
   },
   {
     "id": "pastas-fideos-puttanesca",
@@ -14616,7 +14623,8 @@
         "text": "Agregar las lascas de salmón, la crema de leche, sal y pimienta; calentar 4 minutos a fuego suave y servir sobre la pasta con parmesano y eneldo.",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-espaguetis-salmon-eneldo.webp"
   },
   {
     "id": "pastas-linguinis-griega-champinones",
@@ -14685,7 +14693,8 @@
       {
         "text": "Integrar la pasta escurrida y servir coronando con el queso en cubos y las aceitunas negras."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-linguinis-griega-champinones.webp"
   },
   {
     "id": "pastas-espaguetis-pesto-albahaca-nueces",
@@ -14753,7 +14762,8 @@
       {
         "text": "Mezclar los espaguetis al dente con el pesto fuera del fuego y espolvorear abundante queso rallado."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-espaguetis-pesto-albahaca-nueces.webp"
   },
   {
     "id": "pastas-ensalada-griega-penne",
@@ -15111,7 +15121,8 @@
         "text": "Unir con la pasta en fuente de horno, cubrir con pan rallado y queso, y gratinar a 210 °C de 10 a 15 minutos.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-mostacholes-gratinados-arvejas-queso-azul.webp"
   },
   {
     "id": "pastas-caracoles-toscana-porotos-rucula",
@@ -15180,7 +15191,8 @@
       {
         "text": "Mezclar con la pasta escurrida y la rúcula fresca; coronar con pan rallado tostado mezclado con parmesano y albahaca."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-caracoles-toscana-porotos-rucula.webp"
   },
   {
     "id": "pastas-sopa-minestrone-chorizo-coditos",
@@ -15250,7 +15262,8 @@
         "text": "Incorporar los porotos cocidos y los fideos coditos, cocinando 9 minutos más hasta que la pasta esté tierna; servir con perejil y queso rallado.",
         "timerMinutes": 9
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-sopa-minestrone-chorizo-coditos.webp"
   },
   {
     "id": "pastas-ensalada-macarrones-esparragos-mozzarella",
@@ -15463,7 +15476,8 @@
       {
         "text": "Hervir los fideos moñito al dente, escurrir y mezclar con el guisito de pollo y queso rallado."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-monitos-pollo-salsa-roja.webp"
   },
   {
     "id": "pastas-panqueques-clasicos-canelones",
@@ -15516,7 +15530,8 @@
       {
         "text": "Apilar los 16 panqueques en un plato cubiertos con repasador limpio hasta rellenar."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-panqueques-clasicos-canelones.webp"
   },
   {
     "id": "pastas-canelones-espinaca-ricota-champinones",
@@ -15585,7 +15600,8 @@
         "text": "Armar los canelones, acomodarlos sobre base de salsa en asadera, cubrir con el resto de la salsa y queso, y hornear a 200 °C por 20 minutos tapados y 15 destapados.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-canelones-espinaca-ricota-champinones.webp"
   },
   {
     "id": "pastas-canelones-verdura-ricota-salsa-blanca",
@@ -15937,7 +15953,8 @@
         "text": "Armar los canelones en fuente, bañar con la salsa de hongos y el resto de mozzarella, y hornear a 180 °C (25 minutos tapado y 10 destapado).",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-canelones-carne-mozzarella-champinones.webp"
   },
   {
     "id": "pastas-canelones-tradicionales-dos-carnes",
@@ -16068,7 +16085,8 @@
         "text": "Acomodar en fuente, cubrir con el resto de la salsa cuatro quesos y parmesano, y gratinar 15 a 18 minutos a 180 °C.",
         "timerMinutes": 16
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-canelones-esparragos-jamon-cuatro-quesos.webp"
   },
   {
     "id": "pastas-canelones-pollo-verduras-ricota",
@@ -16204,7 +16222,8 @@
         "text": "Bañar con una salsa liviana hecha con el caldo tibio y el queso parmesano, y gratinar 12 a 15 minutos a 180 °C.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-canelones-espinaca-panceta-champinones.webp"
   },
   {
     "id": "pastas-canelones-verduras-choclo-semillas",
@@ -16418,7 +16437,8 @@
         "text": "Armar capas de vegetales, masa y salsa de queso, espolvorear parmesano y hornear 45 minutos a 180 °C.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-lasana-verduras-salsa-cheddar.webp"
   },
   {
     "id": "pastas-lasana-pollo-queso-crema",
@@ -16610,7 +16630,8 @@
         "text": "Hornear a 180 °C durante 45 minutos hasta que la masa esté tierna y el queso gratinado.",
         "timerMinutes": 45
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-lasana-acelga-zanahoria-mozzarella.webp"
   },
   {
     "id": "pastas-lasana-atun-salsa-blanca",
@@ -16663,7 +16684,8 @@
         "text": "Terminar con salsa blanca y queso parmesano, y hornear a 180 °C por 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-lasana-atun-salsa-blanca.webp"
   },
   {
     "id": "pastas-lasana-pollo-espinaca-quesos",
@@ -16912,7 +16934,8 @@
         "text": "Hervir los ñoquis hasta que suban a la superficie, escurrir con espumadera y sartenear 1 minuto con la crema de jamón.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-noquis-papa-semola-crema-jamon.webp"
   },
   {
     "id": "pastas-noquis-ricota-tomate-mozzarella",
@@ -17234,7 +17257,8 @@
         "text": "Cocinar los ñoquis en agua hirviendo con sal hasta que suban, colar y sartenear con la salsa y el parmesano.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-noquis-papa-salsa-queso-azul.webp"
   },
   {
     "id": "pastas-noquis-pan-canederli-champinones",
@@ -17484,7 +17508,8 @@
         "text": "Cocinar en abundante agua hirviendo con sal hasta que suban a la superficie y acompañar con tuco o manteca.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-noquis-caseros-arroz.webp"
   },
   {
     "id": "pastas-noquis-integrales-zanahoria",
@@ -17733,7 +17758,8 @@
         "text": "Hervir en abundante agua con sal unos 5 minutos y servir con tomates frescos apenas salteados en aceite de oliva.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-ravioles-papa-ricota-verdeo.webp"
   },
   {
     "id": "pastas-ravioles-calabaza-parmesano",
@@ -18098,7 +18124,8 @@
         "text": "Cocinar 10 minutos el tomate triturado con ajo y ají; hervir los ravioles 4 minutos y servir bien calientes.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pastas-ravioles-cerdo-porotos-salsa-picante.webp"
   },
   {
     "id": "pastas-salsa-bolognesa-clasica",
@@ -18686,7 +18713,8 @@
         "text": "Derretir la manteca en sartén amplia a fuego medio y dorar los sándwiches unos 3 minutos por lado hasta fundir el queso.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-tostado-pavita-cheddar.webp"
   },
   {
     "id": "sandwich-pollo-apio-light",
@@ -19188,7 +19216,8 @@
       {
         "text": "Disponer en capas tomate, pepino, palta, lechuga y brotes de alfalfa; cerrar y disfrutar en el momento."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-natural-palta-pepino.webp"
   },
   {
     "id": "sandwich-vegetal-pepinillos-palta",
@@ -19242,7 +19271,8 @@
       {
         "text": "Acomodar pepinillos, brotes rociados con oliva y vinagre, rodajas de tomate y lechuga; cerrar y servir."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-vegetal-pepinillos-palta.webp"
   },
   {
     "id": "sandwich-verduras-asadas-feta",
@@ -19358,7 +19388,8 @@
       {
         "text": "Rellenar con los morrones asados, el queso y las hojas frescas de albahaca; cerrar y servir."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-vegetales-albahaca-doble-pesto.webp"
   },
   {
     "id": "sandwich-crocante-papa-jamon",
@@ -19482,7 +19513,8 @@
         "text": "Rellenar las figacitas, cubrir con mozzarella, envolver en aluminio y hornear 15 minutos a 180 °C hasta fundir.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-tostado-zucchini-mozzarella.webp"
   },
   {
     "id": "sandwich-clasico-berenjena-grilla",
@@ -19537,7 +19569,8 @@
       {
         "text": "Tostar los panes, untar con mayonesa mezclada con ajo picado y armar con berenjena, tomate, queso y albahaca."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-clasico-berenjena-grilla.webp"
   },
   {
     "id": "sandwich-arabe-brie-coulis-morron",
@@ -19582,7 +19615,8 @@
         "text": "Rellenar con queso Brie y lomito ahumado; hornear 8 a 10 minutos a 180 °C hasta dorar y fundir.",
         "timerMinutes": 9
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-arabe-brie-coulis-morron.webp"
   },
   {
     "id": "sandwich-liviano-atun-aceitunas",
@@ -20630,7 +20664,8 @@
         "text": "Dorar en sartén a fuego medio de 2 a 3 minutos por lado.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-tostado-queso-aji-tomate.webp"
   },
   {
     "id": "sandwich-tostado-queso-albahaca",
@@ -20736,7 +20771,8 @@
         "text": "Hornear 8 minutos a 180 °C hasta dorar y fundir, y cortar en cuartos.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-arabe-dos-quesos-hummus.webp"
   },
   {
     "id": "sandwich-abierto-jamon-queso-huevo-frito",
@@ -20840,7 +20876,8 @@
         "text": "Sumar otra capa de cheddar, tapar con las rebanadas restantes y gratinar 3 minutos más hasta dorar.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-calentito-expres-atun.webp"
   },
   {
     "id": "sandwich-tostado-coliflor-zanahoria",
@@ -20895,7 +20932,8 @@
         "text": "Cerrar con manteca hacia afuera y dorar en sartén o tostador 3 minutos por lado.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-tostado-coliflor-zanahoria.webp"
   },
   {
     "id": "sandwich-tostado-verduras-chauchas",
@@ -20945,7 +20983,8 @@
         "text": "Untar el exterior con manteca vegetal y tostar 3 minutos por lado.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-tostado-verduras-chauchas.webp"
   },
   {
     "id": "sandwich-focaccia-caliente-atun",
@@ -21000,7 +21039,8 @@
         "text": "Pincelar por fuera con aceite de oliva y dorar en plancha 5 minutos hasta fundir el queso.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-focaccia-caliente-atun.webp"
   },
   {
     "id": "sandwich-caliente-queso-crema-leche",
@@ -21106,7 +21146,8 @@
         "text": "Hornear 10 minutos a 190 °C hasta dorar y fundir.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-calentito-brioche-jamon-crudo.webp"
   },
   {
     "id": "sandwich-bagels-pavita-fontina-arandanos",
@@ -21156,7 +21197,8 @@
         "text": "Gratinar 2 minutos al horno hasta fundir el queso y servir con lechuga y gajos de naranja.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-bagels-pavita-fontina-arandanos.webp"
   },
   {
     "id": "sandwich-integral-huevo-rucula",
@@ -21259,7 +21301,8 @@
       {
         "text": "Untar el pan tostado con manteca, armar con lechuga, tomate y panceta crocante."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-intenso-panceta-especiada.webp"
   },
   {
     "id": "sandwich-fresco-pan-arabe-jamon",
@@ -21359,7 +21402,8 @@
         "text": "Dorar ambos lados en sartén con manteca y espolvorear canela al servir.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-frances-dulce-ciruelas.webp"
   },
   {
     "id": "sandwich-yogur-sesamo-pasas",
@@ -21408,7 +21452,8 @@
       {
         "text": "Untar las rebanadas integrales y armar con queso, lechuga, tomate y pepino."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-yogur-sesamo-pasas.webp"
   },
   {
     "id": "sandwich-cerdo-limon-cilantro",
@@ -21458,7 +21503,8 @@
       {
         "text": "Abrir los panes, untar mayonesa y rellenar con el cerdo, salsa de ajo y chile, jugo de limón, cebolla, pepino y cilantro."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/sandwich-cerdo-limon-cilantro.webp"
   },
   {
     "id": "pan-blanco-basico-casero",
@@ -21873,7 +21919,8 @@
         "text": "Hornear a 200 °C de 18 a 20 minutos hasta dorar.",
         "timerMinutes": 19
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/pan-bollitos-franceses-caseros.webp"
   },
   {
     "id": "pan-bagels-sesamo-caseros",
@@ -22763,7 +22810,8 @@
       {
         "text": "Aliñá con aceite, vinagre, una pizca de ají molido, sal y pimienta, y espolvoreá con ciboulette antes de servir."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/light-cena-1-tortilla-hongos-ensalada-anana.webp"
   },
   {
     "id": "light-cena-2-berenjena-horno-ensalada-repollo-manzana",
@@ -23144,7 +23192,8 @@
       {
         "text": "Verté el aderezo sobre la ensalada, mezclá bien y espolvoreá con pimienta y perejil."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-ensalada-arroz-andaluza.webp"
   },
   {
     "id": "fit250-arroz-frio-ensalada-arvejas",
@@ -23696,7 +23745,8 @@
       {
         "text": "Decorá con el salmón ahumado en rollitos y el huevo picado, y aliñá con aceite, vinagre y sal."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-ensalada-colores-papa-remolacha-salmon.webp"
   },
   {
     "id": "fit250-cogollos-lechuga-tomates-atun",
@@ -23765,7 +23815,8 @@
       {
         "text": "Repartí encima los huevos duros en gajos, el atún desmenuzado, las aceitunas y la cebolla de verdeo. Salá a gusto y aliñá con la mezcla de mayonesa y mostaza."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-cogollos-lechuga-tomates-atun.webp"
   },
   {
     "id": "fit250-ensalada-porotos-blancos",
@@ -23977,7 +24028,8 @@
       {
         "text": "Prepará una vinagreta con aceite, vinagre, ajo machacado, sal y pimienta, verté encima y serví."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-ensalada-fria-lentejas-morron-tomate.webp"
   },
   {
     "id": "fit250-ensalada-chauchas-choclo-papas",
@@ -24644,7 +24696,8 @@
       {
         "text": "Decorá con los langostinos cortados al medio y la cebolla de verdeo en juliana, aliñá con aceite, vinagre y sal y serví."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-ensalada-lentejas-langostinos.webp"
   },
   {
     "id": "fit250-cogollos-lechuga-anchoas",
@@ -25819,7 +25872,8 @@
         "text": "Cociná a fuego mínimo revolviendo unos minutos, sumá los champiñones fileteados y herví 3 minutos más.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-sopa-intensa-puerros-hongos.webp"
   },
   {
     "id": "fit250-sopa-intensa-agridulce-porotos",
@@ -26246,7 +26300,8 @@
       {
         "text": "Licuá con el cilantro hasta lograr una crema lisa, salpimentá y serví decorada con la crema ácida y hojas de cilantro."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-sopa-crema-zanahoria-cilantro.webp"
   },
   {
     "id": "fit250-sopa-suiza-cebolla-vino-tinto",
@@ -27059,7 +27114,8 @@
         "text": "Sumá las gírgolas y al final el berro, cociná 4-5 minutos más, apagá el fuego e incorporá jugo de limón, ciboulette, curry, mostaza y sal.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-cazuela-girgolas-ajies-berros.webp"
   },
   {
     "id": "fit250-guisado-liviano-papas-verduras",
@@ -27237,7 +27293,8 @@
         "text": "Pasá el relleno a una fuente, cubrí con el puré y horneá a 220 °C por 35 minutos hasta dorar. Aparte salteá los champiñones en manteca, espesá con harina, caldo restante y crema para servir encima.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-pastel-papas-pan-integral-champinones.webp"
   },
   {
     "id": "fit250-zanahorias-glaseadas-miel-albahaca",
@@ -27384,7 +27441,8 @@
         "text": "Horneá tapado con aluminio 15 minutos a 190 °C, destapá y horneá 15-20 minutos más.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-lasana-verduras-asadas-salsa-roja.webp"
   },
   {
     "id": "fit250-pollo-verduras-mediterraneas",
@@ -27689,7 +27747,8 @@
         "text": "Fuera del fuego agregá perejil, queso fresco, leche en polvo y condimentos. Rellená los morrones, acomodá en fuente con 1 taza de agua y horneá a 180 °C por 25 minutos.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-morrones-rellenos-choclo.webp"
   },
   {
     "id": "fit250-arroz-con-espinacas",
@@ -27831,7 +27890,8 @@
         "text": "Cociná los tomates licuados con aceite, azúcar, sal y pimienta hasta espesar y serví sobre el budín.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-budin-tricolor-arroz-verduras.webp"
   },
   {
     "id": "fit250-tortilla-harina-garbanzos",
@@ -27979,7 +28039,8 @@
       {
         "text": "Bañá las croquetas con la salsa de tomate y yogur justo antes de llevar a la mesa."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-croquetas-papa-coliflor-yogur.webp"
   },
   {
     "id": "fit250-flan-casero-zapallo",
@@ -28155,7 +28216,8 @@
       {
         "text": "Integrá suavemente la leche en polvo y el yogur, llevá al freezer tapado y mezclá cada 45 minutos hasta que congele cremoso."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-helado-cremoso-vainilla-yogur.webp"
   },
   {
     "id": "fit250-bombones-zapallo-nueces-coco",
@@ -28348,7 +28410,8 @@
         "text": "Estirá, cortá tapas y horneá sobre placa aceitada a 180 °C durante 10 minutos. Dejá enfriar, rellená con mermelada de naranja y pasá los bordes por coco rallado.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-alfajores-maiz-mermelada-naranja.webp"
   },
   {
     "id": "fit250-halava-manzanas-pasas",
@@ -28394,7 +28457,8 @@
         "text": "Agregá el azúcar y cociná revolviendo hasta lograr textura de flan espeso; sumá las pasas 5 minutos más, volcá en fuente enmantecada, enfriá y cortá en rombos.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/fit250-halava-manzanas-pasas.webp"
   },
   {
     "id": "fit250-peras-caramelo-crema-yogur",
@@ -29825,7 +29889,8 @@
       {
         "text": "Mezclar en un bol chico el aceite de oliva, el aceto balsámico, la miel y la sal hasta emulsionar y rociar la ensalada."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ensaladas-espinacas-melon-brotes-frutos-secos.webp"
   },
   {
     "id": "ensaladas-jamon-crudo-melon-frutos-secos",
@@ -30392,7 +30457,8 @@
       {
         "text": "Hervir los huevos 10 minutos, enfriar y pelar. Mezclar papas, chauchas, panceta, cebolla y el aderezo tibio; servir sobre las hojas de lechuga con los huevos."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ensaladas-belga-chauchas-papas-panceta.webp"
   },
   {
     "id": "ensaladas-ensaladillo-morrones-asados-atun",
@@ -30637,7 +30703,8 @@
       {
         "text": "Disolver el azúcar, la mostaza, sal y pimienta en el vinagre; incorporar el aceite de oliva mezclando bien y aliñar la ensalada antes de servir."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ensaladas-pasta-tricolor-atun-anchoas.webp"
   },
   {
     "id": "veracruz-dulce-zapallo-casero",
@@ -31071,7 +31138,8 @@
         "text": "Formar discos o galletas circulares y dorar de ambos lados en sartén con aceite caliente (o a la plancha).",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/veracruz-galletas-banana.webp"
   },
   {
     "id": "veracruz-bolitas-coco-leche-condensada",
@@ -31109,7 +31177,8 @@
       {
         "text": "Formar bolitas con las manos y colocarlas en pirotines de papel."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/veracruz-bolitas-coco-leche-condensada.webp"
   },
   {
     "id": "veracruz-mousse-maracuya-merengue",
@@ -31201,7 +31270,8 @@
       {
         "text": "Procesar o mixear las rodajas congeladas hasta lograr una textura homogénea y cremosa; servir de inmediato."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/veracruz-helado-natural-banana.webp"
   },
   {
     "id": "veracruz-pan-banana-nueces",
@@ -31398,7 +31468,8 @@
         "text": "Agregar el ananá licuado y los cubitos con su jugo a la olla, hervir 5 minutos más y dejar reposar hasta enfriar (o servir tibio).",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/veracruz-infusion-anana-canela.webp"
   },
   {
     "id": "airfryer-brownies-chocolate-intenso",
@@ -31461,7 +31532,8 @@
         "text": "Cocinar a 160 °C durante 18 minutos (o 16 minutos para un centro más húmedo) y dejar enfriar 10 minutos antes de cortar.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-brownies-chocolate-intenso.webp"
   },
   {
     "id": "airfryer-churros-crujientes",
@@ -31769,7 +31841,8 @@
       {
         "text": "Dejar enfriar sobre una rejilla para que queden bien crocantes."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-galletas-avena-pasas.webp"
   },
   {
     "id": "airfryer-tarta-queso-mini",
@@ -31827,7 +31900,8 @@
         "text": "Cocinar en freidora de aire a 150 °C durante 22 minutos y llevar a la heladera al menos 2 horas antes de servir.",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-tarta-queso-mini.webp"
   },
   {
     "id": "airfryer-bananas-asadas-miel",
@@ -31872,7 +31946,8 @@
         "text": "Cocinar en freidora de aire a 190 °C durante 8 minutos hasta caramelizar y servir tibias (ideal con helado).",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-bananas-asadas-miel.webp"
   },
   {
     "id": "airfryer-profiteroles-rellenos",
@@ -31996,7 +32071,8 @@
       {
         "text": "Dejar enfriar 5 minutos en la bandeja antes de moverlas para que tomen firmeza."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-cookies-mantequilla-mani.webp"
   },
   {
     "id": "airfryer-souffle-chocolate",
@@ -32301,7 +32377,8 @@
         "text": "Llenar pirotines o moldes de muffin hasta 3/4 de su capacidad y cocinar en freidora de aire a 165 °C durante 18 minutos.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-muffins-arandanos.webp"
   },
   {
     "id": "airfryer-tarta-tatin-pera",
@@ -32525,7 +32602,8 @@
         "text": "Cortar rodajas de 1 cm y cocinar en freidora de aire a 190 °C durante 8 minutos dando vuelta a la mitad.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-palmeritas-azucar.webp"
   },
   {
     "id": "airfryer-flan-huevo-clasico",
@@ -32745,7 +32823,8 @@
         "text": "Templar en freidora de aire a 160 °C durante 5 minutos, bañar en chocolate derretido, espolvorear cacao y enfriar en heladera.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-trufas-oreo.webp"
   },
   {
     "id": "airfryer-crepes-suzette",
@@ -32790,7 +32869,8 @@
         "text": "Acomodar los panqueques sobre la salsa y cocinar en freidora de aire a 180 °C durante 8 minutos.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-crepes-suzette.webp"
   },
   {
     "id": "airfryer-biscotti-almendras",
@@ -32916,7 +32996,8 @@
         "text": "Para servir, cocinar las frutillas con el azúcar 10 minutos, procesar y cubrir cada cheesecake con el coulis.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-mini-cheesecakes-frutilla.webp"
   },
   {
     "id": "airfryer-torta-zanahoria-cream-cheese",
@@ -33295,7 +33376,8 @@
       {
         "text": "Comprobar el tiempo de cocción y si aún no están cocidos, continuar otros 2 minutos."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-galletitas-de-limon-en-freidora.webp"
   },
   {
     "id": "airfryer-galletitas-integrales-de-desayuno-en-freidora",
@@ -33367,7 +33449,8 @@
       {
         "text": "Si la cesta no es lo suficientemente grande, hornear varias veces."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-galletitas-integrales-de-desayuno-en-freidora.webp"
   },
   {
     "id": "airfryer-tartaletas-de-crema-pastelera-y-fruta-en-freidora",
@@ -33628,7 +33711,8 @@
       {
         "text": "Después de 10 minutos, compruebe el tiempo de cocción con un palillo. Si todavía está húmedo, continúe la cocción durante otros 2 minutos o hasta que el palillo esté seco."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-magdalenas-de-vainilla-en-freidora.webp"
   },
   {
     "id": "airfryer-budincitos-de-pera-y-chocolate-en-freidora",
@@ -33833,7 +33917,8 @@
         "text": "Comprueba siempre que están cocidos, y en cuanto estén listos deja enfriar los cupcakes durante 10 minutos y sírvelos.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-magdalenas-de-coco-en-freidora.webp"
   },
   {
     "id": "airfryer-magdalenas-de-cafe-en-freidora",
@@ -33936,7 +34021,8 @@
       {
         "text": "Servir aún caliente."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-magdalenas-de-cafe-en-freidora.webp"
   },
   {
     "id": "airfryer-bocaditos-de-coco-en-freidora",
@@ -34009,7 +34095,8 @@
       {
         "text": "Dejar enfriar los bizcochos durante 5-10 minutos y servir."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-bocaditos-de-coco-en-freidora.webp"
   },
   {
     "id": "airfryer-mini-calzones-de-jamon-y-muzzarella-en-freidora",
@@ -34478,7 +34565,8 @@
         "text": "Poner la freidora a 180º durante 6 minutos. Al final del tiempo compruebe los bollos y si aún no están lo suficientemente cocidos continúe la cocción un par de minutos más.",
         "timerMinutes": 6
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-pancitos-de-aceituna-en-freidora.webp"
   },
   {
     "id": "airfryer-sandwich-empanado-de-muzzarella-en-freidora",
@@ -34574,7 +34662,8 @@
         "text": "Rociar las mozzarellas con un poco de aceite y cocinarlas durante unos 4 minutos. Sacar el cestillo, dar la vuelta a las mozzarellas, rociar con una gota de aceite y dejar cocer otros 4 minutos",
         "timerMinutes": 4
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-sandwich-empanado-de-muzzarella-en-freidora.webp"
   },
   {
     "id": "airfryer-pizzetas-de-jamon-y-champinones-en-freidora",
@@ -34855,7 +34944,8 @@
       {
         "text": "Servir caliente con la salsa de su elección."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-bocaditos-de-queso-empanados-en-freidora.webp"
   },
   {
     "id": "airfryer-milanesitas-de-berenjena-en-freidora",
@@ -34941,7 +35031,8 @@
         "text": "Dar la vuelta a las berenjenas a mitad de la cocción y, en cuanto estén listas, servirlas calientes.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-milanesitas-de-berenjena-en-freidora.webp"
   },
   {
     "id": "airfryer-berenjenas-con-jamon-y-muzzarella-en-freidora",
@@ -35111,7 +35202,8 @@
       {
         "text": "Colocar las papas cuando estén listas en dos platos de servir y"
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-papas-con-salsa-de-atun-y-yogur-en-freidora.webp"
   },
   {
     "id": "airfryer-canastitas-de-papa-rellenas-de-jamon-en-freidora",
@@ -36339,7 +36431,8 @@
         "text": "Comprobar el tiempo de cocción y si aún no parecen cocidos,",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-bifes-de-cuadril-con-muzzarella-en-freidora.webp"
   },
   {
     "id": "airfryer-albondigas-de-carne-y-jamon-en-freidora",
@@ -37210,7 +37303,8 @@
         "text": "Coloque las alitas de pollo en la cesta de la freidora y cocínelas",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-alitas-de-pollo-con-miel-y-aji-en-freidora.webp"
   },
   {
     "id": "airfryer-alitas-de-pollo-al-parmesano-en-freidora",
@@ -37271,7 +37365,8 @@
         "text": "Rocíe las rejillas de la freidora con aceite en aerosol y añada las alitas, rociando también la parte superior de las alitas de pollo.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-alitas-de-pollo-al-parmesano-en-freidora.webp"
   },
   {
     "id": "airfryer-brochetas-de-pollo-al-yogur-en-freidora",
@@ -37682,7 +37777,8 @@
         "text": "Cocinar 10 minutos (con la función de pollo) hasta que la carne esté",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-pechuga-de-pollo-con-champinones-y-jamon-en-freidora.webp"
   },
   {
     "id": "airfryer-tiritas-de-pollo-con-sesamo-en-freidora",
@@ -37937,7 +38033,8 @@
         "text": "Rociar los calamares con unas gotas de aceite y hornearlos a 200º durante unos 7 minutos.",
         "timerMinutes": 7
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-calamares-crocantes-rabas-en-freidora.webp"
   },
   {
     "id": "airfryer-mejillones-gratinados-en-freidora",
@@ -38792,7 +38889,8 @@
         "text": "Colocar las papas fritas en la cesta precalentada y hornear durante 10 minutos a 200° C.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-boniatos-crocantes-en-freidora.webp"
   },
   {
     "id": "airfryer-brocoli-asado-en-freidora",
@@ -38976,7 +39074,8 @@
       {
         "text": "Asegúrese de agitar las rejillas a mitad de la cocción y compruebe el estado de la misma."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-zapallo-asado-en-freidora.webp"
   },
   {
     "id": "airfryer-morrones-asados-en-freidora",
@@ -39445,7 +39544,8 @@
       {
         "text": "Dar la vuelta a los paltas a mitad de la cocción y rociar con más"
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-palta-crocante-especiada-en-freidora.webp"
   },
   {
     "id": "airfryer-aros-de-cebolla-crocantes-en-freidora",
@@ -40082,7 +40182,8 @@
         "text": "Hornear 12 minutos hasta que al pinchar con un palillo salga limpio.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-cupcakes-doble-chocolate.webp"
   },
   {
     "id": "airfryer-wraps-espinaca-porotos-negros",
@@ -40158,7 +40259,8 @@
         "text": "Colocar en la cesta con el cierre hacia abajo y dorar 6 a 8 minutos hasta que queden crocantes.",
         "timerMinutes": 8
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-wraps-espinaca-porotos-negros.webp"
   },
   {
     "id": "airfryer-budin-zapallito-chocolate",
@@ -40457,7 +40559,8 @@
       {
         "text": "Mezclar pepino, palta, cebolla colorada, jugo cítrico, aceite y sal; servir sobre el salmón."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-salmon-salsa-pepino-palta.webp"
   },
   {
     "id": "airfryer-trucha-lima-ajo",
@@ -40937,7 +41040,8 @@
       {
         "text": "Servir enseguida con salsa criolla."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-quesadillas-garbanzos-muzzarella.webp"
   },
   {
     "id": "airfryer-zanahorias-asadas-nueces-pasas",
@@ -41128,7 +41232,8 @@
       {
         "text": "Llevar a una ollita con las arvejas, el ajo, orégano, sal y pimienta durante 10 minutos, y servir con queso rallado."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-dip-cremoso-brocoli-arvejas.webp"
   },
   {
     "id": "airfryer-hinojo-asado-limon-eneldo",
@@ -41247,7 +41352,8 @@
       {
         "text": "Dejar enfriar antes de servir para que tomen más crocancia."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-totopos-tortilla-crocantes.webp"
   },
   {
     "id": "airfryer-duraznos-asados-helado",
@@ -41295,7 +41401,8 @@
       {
         "text": "Servir tibios con una bocha de helado de vainilla encima, nueces picadas y un hilo de miel."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-duraznos-asados-helado.webp"
   },
   {
     "id": "airfryer-peras-asadas-nueces-pasas",
@@ -41447,7 +41554,8 @@
         "text": "Volcar en un molde cuadrado enmantecado y enharinado apto para la freidora y hornear a 160 °C durante 35 minutos hasta que salga limpio el palillo. Enfriar y cortar en cuadrados.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-cuadraditos-manzana-nueces-chocolate.webp"
   },
   {
     "id": "airfryer-cazuela-carne-berenjenas-gratinadas",
@@ -41582,7 +41690,8 @@
         "text": "Hornear 18 a 20 minutos hasta que estén apenas doradas en la base y pasar aún tibias por azúcar impalpable.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-medialunas-dulces-nuez.webp"
   },
   {
     "id": "airfryer-tortilla-souffle-esparragos",
@@ -41786,7 +41895,8 @@
         "text": "Formar bolitas, pasar por el resto del sésamo, aplastar con tenedor sobre papel manteca y hornear a 175 °C de 12 a 14 minutos.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-galletitas-sesamo-mani-miel.webp"
   },
   {
     "id": "airfryer-mani-garrapinado-crocante",
@@ -42023,7 +42133,8 @@
         "text": "Hornear en freidora a 150 °C durante 15 a 18 minutos hasta que doren apenas los bordes.",
         "timerMinutes": 18
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-galletitas-nuez-yema.webp"
   },
   {
     "id": "airfryer-torta-frutillas-malvaviscos",
@@ -42351,7 +42462,8 @@
         "text": "Formá porciones sobre papel manteca perforado o molde de silicona y cociná a 180 °C por 10 minutos, dándolas vuelta a mitad de cocción.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-tortitas-de-ricota.webp"
   },
   {
     "id": "airfryer-muffins-zapallo-canela",
@@ -42411,7 +42523,8 @@
         "text": "Repartí en pirotines de silicona y cociná a 170 °C durante 15 minutos hasta que al pinchar salga seco.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-muffins-zapallo-canela.webp"
   },
   {
     "id": "airfryer-tortitas-avena-naranja",
@@ -42471,7 +42584,8 @@
         "text": "Armá tortitas chicas sobre papel manteca y cociná a 180 °C por 10 minutos hasta dorar.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-tortitas-avena-naranja.webp"
   },
   {
     "id": "airfryer-budincitos-limon-semillas",
@@ -42594,7 +42708,8 @@
         "text": "Cociná en la freidora a 190 °C por 14 minutos, dándolas vuelta a la mitad.",
         "timerMinutes": 14
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-hamburguesas-de-lentejas.webp"
   },
   {
     "id": "airfryer-bastones-de-polenta",
@@ -43176,7 +43291,8 @@
         "text": "Cociná en freidora de aire a 190 °C durante 12 minutos girando a la mitad.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-bastones-choclo-queso.webp"
   },
   {
     "id": "airfryer-pizza-de-polenta",
@@ -43531,7 +43647,8 @@
         "text": "Cociná a 195 °C por 12 minutos sacudiendo la canasta a mitad de tiempo.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-nuggets-polenta-espinaca.webp"
   },
   {
     "id": "airfryer-chips-de-remolacha",
@@ -43731,7 +43848,8 @@
         "text": "Retirá y rociá en caliente con jugo de limón y menta fresca picada.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-zapallo-cabutia-limon-menta.webp"
   },
   {
     "id": "airfryer-bolitas-pure-boniato",
@@ -43781,7 +43899,8 @@
         "text": "Cociná a 195 °C durante 12 minutos hasta que estén bien doradas.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-bolitas-pure-boniato.webp"
   },
   {
     "id": "airfryer-empanadas-lentejas-boniato",
@@ -43994,7 +44113,8 @@
         "text": "Horneá durante 20 minutos hasta que el huevo cuaje y el pan esté crocante; luego colocá las tapitas encima y cociná 2 minutos más.",
         "timerMinutes": 22
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-huevos-horno-panecillos.webp"
   },
   {
     "id": "airfryer-burrito-de-desayuno",
@@ -44247,7 +44367,8 @@
         "text": "Colocá cada salchicha dentro de su pan, espolvoreá con queso por encima y llevá 2 minutos más a la freidora para gratinar.",
         "timerMinutes": 2
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-panchos-gratinados-queso.webp"
   },
   {
     "id": "airfryer-pizzeta-pan-pita",
@@ -44427,7 +44548,8 @@
         "text": "Cociná en la freidora a 180 °C durante 15 minutos, dando vuelta cada 5 minutos para que dore parejo.",
         "timerMinutes": 15
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-stromboli-jamon-quesos.webp"
   },
   {
     "id": "airfryer-bife-country-salsa-blanca",
@@ -44545,7 +44667,8 @@
         "text": "Cociná en la freidora a 175 °C durante 10 minutos sin necesidad de voltear hasta alcanzar el punto deseado.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-hamburguesas-caseras-clasicas.webp"
   },
   {
     "id": "airfryer-entrecot-jugoso",
@@ -44939,7 +45062,8 @@
         "text": "Cociná en la freidora precalentada a 180 °C durante 12 minutos y serví con gajos de limón.",
         "timerMinutes": 12
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-pescado-blanco-empanado.webp"
   },
   {
     "id": "airfryer-tacos-pescado-crocante",
@@ -45169,7 +45293,8 @@
         "text": "Retirá y serví con el queso desmenuzado y un buen chorrito de jugo de limón.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-choclos-asados-queso-limon.webp"
   },
   {
     "id": "airfryer-crutones-caseros",
@@ -45544,7 +45669,8 @@
         "text": "Serví acompañados del yogur de vainilla mezclado con la menta picada.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/airfryer-palitos-anana-coco-yogur.webp"
   },
   {
     "id": "cocina-hamburguesa-doble-pavita-avena",
@@ -45609,7 +45735,8 @@
         "text": "Armá los sándwiches dobles intercalando dos hamburguesas y dos fetas de cheddar, sumá tomate, lechuga, kétchup y mayonesa.",
         "timerMinutes": 0
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/cocina-hamburguesa-doble-pavita-avena.webp"
   },
   {
     "id": "cocina-salsa-queso-cheddar-morron",
@@ -46842,7 +46969,8 @@
         "text": "Sumá las albóndigas a la olla hirviendo, tapá y cociná a fuego bajo 30 minutos hasta que el arroz y la carne estén cocidos.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/cocina-albondigas-salsa-tomillo.webp"
   },
   {
     "id": "cocina-arroz-cacerola-morron-cilantro",
@@ -46962,7 +47090,8 @@
         "text": "Sumá las verduras, el repollo y los condimentos; cociná a fuego bajo de 30 a 40 minutos.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/cocina-guiso-albondigas-repollo.webp"
   },
   {
     "id": "sin-coccion-ceviche-clasico-camarones",
@@ -47081,7 +47210,8 @@
         "text": "Incorporá los porotos negros cocidos, rectificá la sazón y serví caliente sobre arroz blanco.",
         "timerMinutes": 5
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/cocina-chili-carne-chorizo-porotos.webp"
   },
   {
     "id": "cocina-locro-tradicional-criollo",
@@ -47475,7 +47605,8 @@
         "text": "Armá capas en fuente para horno (puré, carne, puré), espolvoreá con queso rallado y gratiná 30 minutos a 180 °C.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/horno-pastel-papas-clasico-aceitunas.webp"
   },
   {
     "id": "cocina-matambre-relleno-arrollado",
@@ -48653,7 +48784,8 @@
       "protein": "21g",
       "carbs": "16g",
       "fat": "16g"
-    }
+    },
+    "imageUrl": "img/recetas/cf-langostinos-empanados-almendra.webp"
   },
   {
     "id": "cf-pastel-merluza-langostinos",
@@ -48696,7 +48828,8 @@
       "protein": "22g",
       "carbs": "6g",
       "fat": "16g"
-    }
+    },
+    "imageUrl": "img/recetas/cf-pastel-merluza-langostinos.webp"
   },
   {
     "id": "cf-budin-verduras-salsa-rosa",
@@ -48740,7 +48873,8 @@
       "protein": "8g",
       "carbs": "10g",
       "fat": "16g"
-    }
+    },
+    "imageUrl": "img/recetas/cf-budin-verduras-salsa-rosa.webp"
   },
   {
     "id": "cf-morrones-verdes-tortilla-papa",
@@ -49101,7 +49235,8 @@
       "protein": "31g",
       "carbs": "56g",
       "fat": "12g"
-    }
+    },
+    "imageUrl": "img/recetas/cf-paella-mixta-tradicional.webp"
   },
   {
     "id": "cf-coliflor-gratinada-bechamel-jamon",
@@ -49550,7 +49685,8 @@
       "protein": "21g",
       "carbs": "48g",
       "fat": "24g"
-    }
+    },
+    "imageUrl": "img/recetas/cf-tortellinis-champinones-jamon-crudo.webp"
   },
   {
     "id": "cf-cachopo-asturiano-jamon-queso",
@@ -50306,7 +50442,8 @@
       "protein": "2g",
       "carbs": "11g",
       "fat": "7g"
-    }
+    },
+    "imageUrl": "img/recetas/cf-trufas-chocolate-blanco-coco-frutos-rojos.webp"
   },
   {
     "id": "mch-huevos-poche-acelga-bechamel",
@@ -50482,7 +50619,8 @@
       "protein": "3g",
       "carbs": "24g",
       "fat": "1g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-souffle-light-manzana-pera.webp"
   },
   {
     "id": "mch-ensalada-ave-multicolor",
@@ -51287,7 +51425,8 @@
       "protein": "35g",
       "carbs": "6g",
       "fat": "17g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-brocheta-conejo-panceta.webp"
   },
   {
     "id": "mch-conejo-cacerola-vino",
@@ -51331,7 +51470,8 @@
       "protein": "41g",
       "carbs": "18g",
       "fat": "14g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-conejo-cacerola-vino.webp"
   },
   {
     "id": "mch-croquetas-conejo-arroz",
@@ -51374,7 +51514,8 @@
       "protein": "23g",
       "carbs": "29g",
       "fat": "11g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-croquetas-conejo-arroz.webp"
   },
   {
     "id": "mch-ensalada-cocida-conejo",
@@ -51417,7 +51558,8 @@
       "protein": "29g",
       "carbs": "8g",
       "fat": "13g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-ensalada-cocida-conejo.webp"
   },
   {
     "id": "mch-muslitos-conejo-papillote",
@@ -51459,7 +51601,8 @@
       "protein": "33g",
       "carbs": "2g",
       "fat": "21g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-muslitos-conejo-papillote.webp"
   },
   {
     "id": "mch-matambrito-cerdo-arrollado-parrilla",
@@ -51813,7 +51956,8 @@
       "protein": "23g",
       "carbs": "12g",
       "fat": "19g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-relleno-carne-empanadas-tartas.webp"
   },
   {
     "id": "mch-albondigas-nalga-tomate",
@@ -51900,7 +52044,8 @@
       "protein": "35g",
       "carbs": "11g",
       "fat": "19g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-cuadril-encebollado.webp"
   },
   {
     "id": "mch-medallones-lomo-mostaza",
@@ -52032,7 +52177,8 @@
       "protein": "46g",
       "carbs": "24g",
       "fat": "26g"
-    }
+    },
+    "imageUrl": "img/recetas/mch-carne-en-su-jugo.webp"
   },
   {
     "id": "mch-palomita-mechada-horno",
@@ -52165,7 +52311,8 @@
       "protein": "32g",
       "carbs": "36g",
       "fat": "14g"
-    }
+    },
+    "imageUrl": "img/recetas/inac-hamburguesa-pollo-papa-avena.webp"
   },
   {
     "id": "inac-costillitas-cerdo-manzana-verde",
@@ -52205,7 +52352,8 @@
       "protein": "31g",
       "carbs": "24g",
       "fat": "23g"
-    }
+    },
+    "imageUrl": "img/recetas/inac-costillitas-cerdo-manzana-verde.webp"
   },
   {
     "id": "cpd-grissinis-caseros",
@@ -52247,7 +52395,8 @@
       "protein": "7g",
       "carbs": "45g",
       "fat": "5g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-grissinis-caseros.webp"
   },
   {
     "id": "cpd-tequenos-queso",
@@ -52335,7 +52484,8 @@
       "protein": "24g",
       "carbs": "46g",
       "fat": "31g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-provopizza-horno.webp"
   },
   {
     "id": "cpd-fondue-queso-pan",
@@ -52594,7 +52744,8 @@
       "protein": "9g",
       "carbs": "7g",
       "fat": "10g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-mini-flanes-zapallito.webp"
   },
   {
     "id": "cpd-ensalada-mango-langostinos",
@@ -53000,7 +53151,8 @@
       "protein": "29g",
       "carbs": "52g",
       "fat": "17g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-fideos-chinos-carne.webp"
   },
   {
     "id": "cpd-tentacion-janssons",
@@ -53339,7 +53491,8 @@
       "protein": "27g",
       "carbs": "40g",
       "fat": "9g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-guiso-calamares-papas.webp"
   },
   {
     "id": "cpd-timbal-palta-salmon",
@@ -53514,7 +53667,8 @@
       "protein": "40g",
       "carbs": "10g",
       "fat": "27g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-goulash-aleman.webp"
   },
   {
     "id": "cpd-hamburguesa-en-tapa-empanada",
@@ -53790,7 +53944,8 @@
       "protein": "25g",
       "carbs": "30g",
       "fat": "24g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-alitas-soja-limon-miel.webp"
   },
   {
     "id": "cpd-peceto-tierno-al-ajo",
@@ -53825,7 +53980,8 @@
       "protein": "49g",
       "carbs": "1g",
       "fat": "13g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-peceto-tierno-al-ajo.webp"
   },
   {
     "id": "cpd-rollo-carne-mixta-huevo",
@@ -54133,7 +54289,8 @@
       "protein": "1g",
       "carbs": "54g",
       "fat": "0g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-dulce-manzana-barra.webp"
   },
   {
     "id": "cpd-flan-queso-mascarpone",
@@ -54214,7 +54371,8 @@
       "protein": "4g",
       "carbs": "42g",
       "fat": "7g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-fruta-en-tempura.webp"
   },
   {
     "id": "cpd-gelatina-naranja-cascara",
@@ -54781,7 +54939,8 @@
       "protein": "4g",
       "carbs": "32g",
       "fat": "34g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-helado-casero-vainilla.webp"
   },
   {
     "id": "cpd-helado-banoffee",
@@ -54816,7 +54975,8 @@
       "protein": "6g",
       "carbs": "58g",
       "fat": "23g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-helado-banoffee.webp"
   },
   {
     "id": "cpd-helado-corte-casero",
@@ -54852,7 +55012,8 @@
       "protein": "3g",
       "carbs": "24g",
       "fat": "21g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-helado-corte-casero.webp"
   },
   {
     "id": "cpd-sorbete-naranja",
@@ -54975,7 +55136,8 @@
       "protein": "6g",
       "carbs": "45g",
       "fat": "19g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-muffins-chocolate-frambuesas.webp"
   },
   {
     "id": "cpd-galletas-chocolate-caseras",
@@ -55012,7 +55174,8 @@
       "protein": "4g",
       "carbs": "34g",
       "fat": "16g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-galletas-chocolate-caseras.webp"
   },
   {
     "id": "cpd-galletas-cristal-caramelo",
@@ -55053,7 +55216,8 @@
       "protein": "4g",
       "carbs": "45g",
       "fat": "15g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-galletas-cristal-caramelo.webp"
   },
   {
     "id": "cpd-galletas-crema-anis",
@@ -55091,7 +55255,8 @@
       "protein": "5g",
       "carbs": "45g",
       "fat": "10g"
-    }
+    },
+    "imageUrl": "img/recetas/cpd-galletas-crema-anis.webp"
   },
   {
     "id": "ext-tacos-mexicanos-pollo-caseros",
@@ -55200,7 +55365,8 @@
       {
         "text": "Servir el relleno caliente dentro de las tortillas tibias y acompañar con la salsa picante."
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-tacos-mexicanos-pollo-caseros.webp"
   },
   {
     "id": "ext-cheesecake-frutos-rojos-sin-azucar",
@@ -56084,7 +56250,8 @@
         "text": "Rociar con oliva, hacer huequitos con los dedos, espolvorear romero y sal gruesa (o aceitunas/tomates secos) y hornear a 200 °C unos 25 minutos.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-focaccia-arroz-sg.webp"
   },
   {
     "id": "ext-pan-australiano-sg",
@@ -56487,7 +56654,8 @@
         "text": "Hornear a 180 °C durante 20 minutos hasta que estén doradas.",
         "timerMinutes": 20
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-pan-calabaza-queso-sg.webp"
   },
   {
     "id": "ext-pan-almendra-lino-levadura-sg",
@@ -56617,7 +56785,8 @@
         "text": "Formar bolitas con cuchara o manos húmedas sobre asadera sin necesidad de engrasar y hornear hasta dorar suavemente.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-pan-papa-hierbas-sg.webp"
   },
   {
     "id": "ext-pan-boniato-amasado-sg",
@@ -56975,7 +57144,8 @@
         "text": "Volcar en el molde, espolvorear semillas por encima y hornear a 180 °C durante 40 minutos.",
         "timerMinutes": 40
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-pan-zanahoria-arroz-sg.webp"
   },
   {
     "id": "ext-pan-coco-freidora-sg",
@@ -58095,7 +58265,8 @@
         "text": "Hornear 5 minutos a horno máximo, bajar a 200 °C por 10 minutos y terminar 10 minutos a 180 °C.",
         "timerMinutes": 25
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-pan-rapido-bollos-sg.webp"
   },
   {
     "id": "ext-pan-brioche-sg",
@@ -58296,7 +58467,8 @@
         "text": "Formar bolitas sobre asadera ligeramente aceitada y hornear a 180 °C unos 30 minutos hasta dorar.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-pan-mandioca-chia-sg.webp"
   },
   {
     "id": "ext-pan-frances-crocante-sg",
@@ -58866,7 +59038,8 @@
         "text": "Volcar en el molde y hornear a 200 °C durante 30 minutos.",
         "timerMinutes": 30
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-pan-almendra-coco-casero-sg.webp"
   },
   {
     "id": "ext-pan-vegano-psyllium-sg",
@@ -59314,7 +59487,8 @@
         "text": "Forrar molde o armar empanadas, rellenar a gusto, pincelar con yema batida y hornear a 200 °C de 30 a 35 minutos hasta dorar.",
         "timerMinutes": 35
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-masa-empanada-tarta-manteca-sg.webp"
   },
   {
     "id": "ext-panqueques-tortitas-arroz-sg",
@@ -59363,7 +59537,8 @@
         "text": "Calentar una sartén antiadherente a fuego bajo, verter un cucharón fino cubriendo la base y cocinar hasta que los bordes se despeguen; dar vuelta y dorar el otro lado.",
         "timerMinutes": 10
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-panqueques-tortitas-arroz-sg.webp"
   },
   {
     "id": "ext-pasta-mandioca-arroz-sg",
@@ -59431,7 +59606,8 @@
         "text": "Hervir en abundante agua con un chorrito de aceite de oliva unos 2 minutos hasta que suban a la superficie. Servir con la salsa elegida.",
         "timerMinutes": 3
       }
-    ]
+    ],
+    "imageUrl": "img/recetas/ext-pasta-mandioca-arroz-sg.webp"
   },
   {
     "id": "ext-sfijas-papa-carne-sg",
