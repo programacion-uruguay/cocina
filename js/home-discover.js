@@ -94,10 +94,10 @@
 
   function getGreetingByHour() {
     const h = new Date().getHours();
-    if (h < 10) return "¡Buen día! ¿Qué desayunamos hoy?";
-    if (h < 14) return "¡Buen mediodía! ¿Qué almorzamos hoy?";
-    if (h < 18) return "¡Buenas tardes! ¿Algo rico para la merienda?";
-    return "¡Buenas noches! ¿Qué cenamos hoy?";
+    if (h < 10) return "¡Buen día!<br />¿Qué desayunamos hoy?";
+    if (h < 14) return "¡Buen mediodía!<br />¿Qué almorzamos hoy?";
+    if (h < 18) return "¡Buenas tardes!<br />¿Qué merendamos hoy?";
+    return "¡Buenas noches!<br />¿Qué cenamos hoy?";
   }
 
   function renderDiscoverStrip() {
