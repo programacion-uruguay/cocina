@@ -1,0 +1,25 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json",
+    "database": "(default)",
+    "location": "southamerica-east1"
+  },
+  "auth": {
+    "providers": {
+      "emailPassword": true,
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "Que Cocino Hoy",
+        "supportEmail": "robotica.paulo.freire.uy@gmail.com",
+        "authorizedRedirectUris": [
+          "https://que-cocino-hoy-uy.firebaseapp.com/__/auth/handler",
+          "https://que-cocino-hoy-4lz.pages.dev",
+          "https://quecocinohoy.uy",
+          "https://www.quecocinohoy.uy",
+          "http://localhost:5500",
+          "http://localhost:3000"
+        ]
+      }
+    }
+  }
+}

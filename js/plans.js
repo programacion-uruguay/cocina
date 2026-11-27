@@ -68,6 +68,15 @@
       trialExpiresAt: new Date(expires).toISOString()
     };
     writeState(next);
+    if (window.QCHCloud?.syncUserData) {
+      window.QCHCloud.syncUserData({
+        plan: {
+          tier: "pro_trial",
+          trialStartedAt: next.trialStartedAt,
+          trialExpiresAt: next.trialExpiresAt
+        }
+      });
+    }
     syncUI();
     renderModalContent();
     return next;
@@ -78,6 +87,9 @@
     if (!trimmed) return false;
     const current = readState();
     writeState({ ...current, waitlistContact: trimmed, waitlistJoinedAt: new Date().toISOString() });
+    if (window.QCHCloud?.submitWaitlist) {
+      window.QCHCloud.submitWaitlist(trimmed);
+    }
     renderModalContent();
     return true;
   }

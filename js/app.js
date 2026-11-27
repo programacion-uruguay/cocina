@@ -336,7 +336,20 @@
     } catch {
       // Ignorar errores de almacenamiento privado
     }
+    if (window.QCHCloud?.syncUserData) {
+      window.QCHCloud.syncUserData({ favorites: state.favorites });
+    }
   }
+
+  window.addEventListener("qch:favorites-synced", (ev) => {
+    const synced = ev.detail?.favorites;
+    if (Array.isArray(synced)) {
+      state.favorites = synced;
+      updateFavBadge();
+      renderNowIdeas();
+      if (els.resultsModal && !els.resultsModal.hidden) renderResultsModal();
+    }
+  });
 
   function isFavorite(id) {
     return state.favorites.includes(id);

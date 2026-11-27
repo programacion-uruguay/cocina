@@ -1,0 +1,232 @@
+rules_version = '2';
+
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Project: que-cocino-hoy-uy
+// Database: (default) — Cloud Firestore Standard edition
+//
+// Collection: users
+// Document ID: {uid} (Firebase Auth UID)
+// Access: Strictly owner-only get/create/update/delete; list denied.
+// Fields (all validated via hasOnly):
+//   - uid: string (optional, must equal path {uid}, immutable once set)
+//   - email: string | null (optional, <= 200 chars)
+//   - displayName: string | null (optional, <= 120 chars)
+//   - username: string | null (optional, <= 80 chars)
+//   - photoURL: string | null (optional, <= 500 chars, http/https URL if non-empty)
+//   - profile: map (optional, <= 30 keys) — household, budget, preferences, restrictions, habits
+//   - favorites: list (optional, <= 1000 items) — favorite recipe IDs
+//   - menuSlots: list (optional, <= 200 items) — weekly planner slots
+//   - dailyLogs: list (optional, <= 2000 items) — daily meal logs
+//   - shoppingList: list (optional, <= 500 items) — shopping list items
+//   - plan: map (optional, <= 20 keys) — subscription metadata; client may only
+//       set plan.tier to 'free' or 'pro_trial' (never escalate to 'pro';
+//       existing 'pro' tier may be preserved unchanged on update)
+//   - createdAt: timestamp | string (optional, <= 40 chars if string, immutable once set)
+//   - updatedAt: timestamp | string (optional, <= 40 chars if string)
+//
+// Collection: waitlist
+// Document ID: {docId} (auto-generated)
+// Access: Public create (guests and authenticated users); read/update/delete strictly denied.
+// Fields (all validated via hasOnly):
+//   - contact: string (required, 3..160 chars) — email or WhatsApp contact
+//   - uid: string | null (optional, must be null or equal to request.auth.uid)
+//   - source: string | null (optional, <= 80 chars) — UI entry point identifier
+//   - createdAt: timestamp | string (optional, <= 40 chars if string)
+//
+// ===============================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+
+    // Check if the request is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Check if the authenticated user owns the document at {userId}
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Ensure uid field (if present) matches the path {userId} on create
+    function uidUnchanged(userId) {
+      return !('uid' in request.resource.data) ||
+        (request.resource.data.uid is string && request.resource.data.uid == userId);
+    }
+
+    // Ensure uid field is not modified or removed on update once set
+    function uidNotModified(userId) {
+      return uidUnchanged(userId) &&
+        (!('uid' in resource.data) ||
+          (('uid' in request.resource.data) && request.resource.data.uid == resource.data.uid));
+    }
+
+    // Ensure createdAt is not modified or removed on update once set
+    function isCreatedAtImmutable() {
+      return !('createdAt' in resource.data) ||
+        (('createdAt' in request.resource.data) &&
+          request.resource.data.createdAt == resource.data.createdAt);
+    }
+
+    // Validate that the document contains only the allowed fields
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    // Validate that all required fields exist
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    // Validate optional string (may be omitted or null; if string, bounded by maxLen)
+    function isValidOptionalNullableString(data, field, maxLen) {
+      return !(field in data) ||
+        data[field] == null ||
+        (data[field] is string && data[field].size() <= maxLen);
+    }
+
+    // Validate URL format (must start with https:// or http://)
+    function isValidUrl(url) {
+      return url is string &&
+        (url.matches('^https://.*') || url.matches('^http://.*'));
+    }
+
+    // Validate optional photoURL (omitted, null, empty string, or http/https URL <= 500 chars)
+    function isValidOptionalPhotoUrl(data) {
+      return !('photoURL' in data) ||
+        data.photoURL == null ||
+        (data.photoURL is string &&
+          data.photoURL.size() <= 500 &&
+          (data.photoURL.size() == 0 || isValidUrl(data.photoURL)));
+    }
+
+    // Validate optional list with a maximum element count
+    function isValidOptionalList(data, field, maxSize) {
+      return !(field in data) ||
+        (data[field] is list && data[field].size() <= maxSize);
+    }
+
+    // Validate optional map with a maximum key count
+    function isValidOptionalMap(data, field, maxKeys) {
+      return !(field in data) ||
+        (data[field] is map && data[field].size() <= maxKeys);
+    }
+
+    // Validate optional timestamp or ISO-8601 date string
+    function isValidOptionalTimestamp(data, field) {
+      return !(field in data) ||
+        data[field] is timestamp ||
+        (data[field] is string && data[field].size() <= 40);
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+
+    // Prevent client-side privilege escalation to 'pro' on create
+    function isValidPlanTierOnCreate(data) {
+      return !('plan' in data) ||
+        !('tier' in data.plan) ||
+        (data.plan.tier is string && data.plan.tier in ['free', 'pro_trial']);
+    }
+
+    // Prevent client-side privilege escalation to 'pro' on update,
+    // while allowing an existing 'pro' document to keep 'pro' unchanged
+    function isValidPlanTierOnUpdate(data) {
+      return !('plan' in data) ||
+        !('tier' in data.plan) ||
+        (data.plan.tier is string && (
+          data.plan.tier in ['free', 'pro_trial'] ||
+          (data.plan.tier == 'pro' &&
+            'plan' in resource.data &&
+            resource.data.plan is map &&
+            'tier' in resource.data.plan &&
+            resource.data.plan.tier == 'pro')
+        ));
+    }
+
+    // Full schema & type validator for users/{uid} (called on BOTH create and update)
+    function isValidUserDoc(data, uid) {
+      return hasOnlyAllowedFields([
+          'uid',
+          'email',
+          'displayName',
+          'username',
+          'photoURL',
+          'profile',
+          'favorites',
+          'menuSlots',
+          'dailyLogs',
+          'shoppingList',
+          'plan',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        (!('uid' in data) || (data.uid is string && data.uid == uid)) &&
+        isValidOptionalNullableString(data, 'email', 200) &&
+        isValidOptionalNullableString(data, 'displayName', 120) &&
+        isValidOptionalNullableString(data, 'username', 80) &&
+        isValidOptionalPhotoUrl(data) &&
+        isValidOptionalMap(data, 'profile', 30) &&
+        isValidOptionalList(data, 'favorites', 1000) &&
+        isValidOptionalList(data, 'menuSlots', 200) &&
+        isValidOptionalList(data, 'dailyLogs', 2000) &&
+        isValidOptionalList(data, 'shoppingList', 500) &&
+        isValidOptionalMap(data, 'plan', 20) &&
+        isValidOptionalTimestamp(data, 'createdAt') &&
+        isValidOptionalTimestamp(data, 'updatedAt');
+    }
+
+    // Full schema & type validator for waitlist/{docId} on create
+    function isValidWaitlistEntry(data) {
+      return hasOnlyAllowedFields(['contact', 'uid', 'source', 'createdAt']) &&
+        hasRequiredFields(['contact']) &&
+        data.contact is string &&
+        data.contact.size() >= 3 &&
+        data.contact.size() <= 160 &&
+        (!('uid' in data) ||
+          data.uid == null ||
+          (isAuthenticated() && data.uid is string && data.uid == request.auth.uid)) &&
+        isValidOptionalNullableString(data, 'source', 80) &&
+        isValidOptionalTimestamp(data, 'createdAt');
+    }
+
+    // ===============================================================
+    // Collection Rules
+    // ===============================================================
+
+    // User profile & personal planner data (strictly owner-only, no cross-user listing)
+    match /users/{uid} {
+      allow get: if isOwner(uid);
+      allow list: if false;
+      allow create: if isOwner(uid) &&
+        uidUnchanged(uid) &&
+        isValidUserDoc(request.resource.data, uid) &&
+        isValidPlanTierOnCreate(request.resource.data);
+      allow update: if isOwner(uid) &&
+        uidNotModified(uid) &&
+        isCreatedAtImmutable() &&
+        isValidUserDoc(request.resource.data, uid) &&
+        isValidPlanTierOnUpdate(request.resource.data);
+      allow delete: if isOwner(uid);
+    }
+
+    // PRO launch waitlist (write-only for visitors & signed-in users; admin-only reads/writes)
+    match /waitlist/{docId} {
+      allow create: if isValidWaitlistEntry(request.resource.data);
+      allow read, update, delete: if false;
+    }
+
+    // Default deny-all fallback for any unmatched path
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

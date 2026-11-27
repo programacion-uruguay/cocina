@@ -54,7 +54,58 @@
   function persist() {
     if (state.user && state.userData) {
       S.saveUserData(state.user.username, state.userData);
+      if (state.user.isCloud && window.QCHCloud?.syncUserData) {
+        window.QCHCloud.syncUserData({
+          profile: state.user,
+          menuSlots: state.userData.menuSlots || [],
+          dailyLogs: state.userData.dailyLogs || [],
+          shoppingList: state.userData.shoppingList || [],
+        });
+      }
     }
+  }
+
+  function applyCloudSession(fbUser, cloudDoc) {
+    if (!fbUser) {
+      if (state.user && state.user.isCloud) {
+        state.user = null;
+        state.userData = null;
+        syncTopbarAndMode();
+      }
+      return;
+    }
+
+    const baseProfile = (cloudDoc && cloudDoc.profile) || {
+      uid: fbUser.uid,
+      username: (fbUser.displayName || fbUser.email?.split('@')[0] || 'usuario')
+        .toLowerCase()
+        .replace(/[^a-z0-9_.-]/g, '')
+        .slice(0, 24) || 'usuario',
+      fullName: fbUser.displayName || fbUser.email?.split('@')[0] || 'Usuario',
+      email: (fbUser.email || '').toLowerCase(),
+      photoURL: fbUser.photoURL || '',
+      householdSize: 2,
+      weeklyBudgetUyu: 3500,
+      preferences: [],
+      restrictions: [],
+      habits: { waterGlassesGoal: 8, cookingTimePreference: 'moderado', notes: '' },
+    };
+    baseProfile.uid = fbUser.uid;
+    baseProfile.isCloud = true;
+    if (!baseProfile.habits) {
+      baseProfile.habits = { waterGlassesGoal: 8, cookingTimePreference: 'moderado', notes: '' };
+    }
+
+    state.user = baseProfile;
+    const localData = S.getUserData(baseProfile.username);
+    state.userData = {
+      favorites: (cloudDoc && Array.isArray(cloudDoc.favorites) ? cloudDoc.favorites : localData.favorites) || [],
+      menuSlots: (cloudDoc && Array.isArray(cloudDoc.menuSlots) && cloudDoc.menuSlots.length ? cloudDoc.menuSlots : localData.menuSlots) || [],
+      dailyLogs: (cloudDoc && Array.isArray(cloudDoc.dailyLogs) && cloudDoc.dailyLogs.length ? cloudDoc.dailyLogs : localData.dailyLogs) || [],
+      shoppingList: (cloudDoc && Array.isArray(cloudDoc.shoppingList) && cloudDoc.shoppingList.length ? cloudDoc.shoppingList : localData.shoppingList) || [],
+    };
+    S.saveUserData(baseProfile.username, state.userData);
+    syncTopbarAndMode();
   }
 
   function syncTopbarAndMode() {
@@ -63,7 +114,7 @@
       els.authBtn.classList.add('is-logged');
       els.guestBanner?.classList.add('cb-hidden');
       els.modeBar.classList.remove('cb-hidden');
-      els.userStatusLabel.textContent = `Sesión: ${state.user.fullName || state.user.username}`;
+      els.userStatusLabel.textContent = `Sesión: ${state.user.fullName || state.user.username}${state.user.isCloud ? ' ☁️' : ''}`;
     } else {
       els.authBtn.innerHTML = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg><span>Ingresar</span>`;
       els.authBtn.classList.remove('is-logged');
@@ -140,29 +191,47 @@
           <div id="cb-auth-msg" class="cb-alert cb-hidden"></div>
 
           ${
+            tab !== 'recover'
+              ? `
+            <button type="button" id="cb-google-btn" class="cb-btn" style="width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:#ffffff;color:#1f2937;border:1px solid #d1d5db;font-weight:700;padding:10px 14px;">
+              <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true">
+                <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/>
+                <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/>
+                <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/>
+                <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.2-4.1 5.6l6.2 5.2C41 35.4 44 30.1 44 24c0-1.3-.1-2.4-.4-3.5z"/>
+              </svg>
+              <span>Continuar con Google</span>
+            </button>
+            <div style="display:flex;align-items:center;gap:8px;font-size:11px;color:var(--cb-muted);">
+              <span style="flex:1;height:1px;background:var(--cb-cream-dark);"></span>
+              <span>o con tu correo</span>
+              <span style="flex:1;height:1px;background:var(--cb-cream-dark);"></span>
+            </div>`
+              : ''
+          }
+
+          ${
             tab === 'login'
               ? `
             <form id="cb-form-login" style="display:flex;flex-direction:column;gap:12px;">
-              <div class="cb-field"><label>Nombre de usuario</label><input id="cb-l-user" required placeholder="Ej: sofia" /></div>
+              <div class="cb-field"><label>Correo electrónico (o usuario demo)</label><input id="cb-l-user" required placeholder="tu@correo.com o sofia" /></div>
               <div class="cb-field"><label>Contraseña</label><input id="cb-l-pass" type="password" required placeholder="Tu contraseña" /></div>
               <div style="text-align:right;"><button type="button" id="cb-go-rec" class="cb-btn cb-btn-ghost cb-btn-sm">¿Olvidaste tu contraseña?</button></div>
-              <button type="submit" class="cb-btn cb-btn-primary">Entrar a mi espacio →</button>
+              <button type="submit" id="cb-login-submit" class="cb-btn cb-btn-primary">Entrar a mi espacio →</button>
             </form>`
               : tab === 'register'
               ? `
             <form id="cb-form-reg" style="display:flex;flex-direction:column;gap:10px;">
-              <div class="cb-field"><label>Nombre de usuario</label><input id="cb-r-user" required minlength="3" placeholder="Ej: lucia_uy" /></div>
               <div class="cb-field"><label>Tu nombre</label><input id="cb-r-name" required placeholder="Ej: Lucía Fernández" /></div>
+              <div class="cb-field"><label>Nombre de usuario</label><input id="cb-r-user" required minlength="3" placeholder="Ej: lucia_uy" /></div>
               <div class="cb-field"><label>Correo electrónico</label><input id="cb-r-mail" type="email" required placeholder="lucia@correo.com" /></div>
               <div class="cb-field"><label>Contraseña (mín. 6 caracteres)</label><input id="cb-r-pass" type="password" required minlength="6" /></div>
-              <button type="submit" class="cb-btn cb-btn-primary">Registrarme →</button>
+              <button type="submit" id="cb-reg-submit" class="cb-btn cb-btn-primary">Crear cuenta en la nube →</button>
             </form>`
               : `
             <form id="cb-form-rec" style="display:flex;flex-direction:column;gap:10px;">
-              <div class="cb-field"><label>Nombre de usuario</label><input id="cb-rec-user" required placeholder="Ej: sofia" /></div>
-              <div class="cb-field"><label>Correo registrado</label><input id="cb-rec-mail" type="email" required placeholder="sofia@comerbien.uy" /></div>
-              <div class="cb-field"><label>Nueva contraseña</label><input id="cb-rec-pass" type="password" required minlength="6" /></div>
-              <button type="submit" class="cb-btn cb-btn-primary">Restablecer contraseña</button>
+              <div class="cb-field"><label>Correo electrónico registrado</label><input id="cb-rec-mail" type="email" required placeholder="tu@correo.com" /></div>
+              <button type="submit" id="cb-rec-submit" class="cb-btn cb-btn-primary">Enviar link de recuperación</button>
               <button type="button" id="cb-back-login" class="cb-btn cb-btn-ghost">Volver</button>
             </form>`
           }
@@ -216,53 +285,95 @@
         })
       );
 
-      document.getElementById('cb-form-login')?.addEventListener('submit', (e) => {
-        e.preventDefault();
+      document.getElementById('cb-google-btn')?.addEventListener('click', async () => {
+        if (!window.QCHCloud) {
+          showMsg('Cargando conexión con la nube, probá en un segundo...');
+          return;
+        }
+        const btn = document.getElementById('cb-google-btn');
+        if (btn) btn.disabled = true;
         try {
-          state.user = S.login(
-            document.getElementById('cb-l-user').value,
-            document.getElementById('cb-l-pass').value
-          );
-          state.userData = S.getUserData(state.user.username);
+          const { fbUser, cloudDoc } = await window.QCHCloud.loginWithGoogle();
+          applyCloudSession(fbUser, cloudDoc);
           state.mode = 'comerbien';
           closeModal();
           syncTopbarAndMode();
         } catch (err) {
           showMsg(err.message);
+          if (btn) btn.disabled = false;
         }
       });
 
-      document.getElementById('cb-form-reg')?.addEventListener('submit', (e) => {
+      document.getElementById('cb-form-login')?.addEventListener('submit', async (e) => {
         e.preventDefault();
+        const identifier = document.getElementById('cb-l-user').value.trim();
+        const pass = document.getElementById('cb-l-pass').value;
+        const submitBtn = document.getElementById('cb-login-submit');
+        if (submitBtn) submitBtn.disabled = true;
         try {
-          state.user = S.register({
+          if (identifier.includes('@') && window.QCHCloud) {
+            const { fbUser, cloudDoc } = await window.QCHCloud.loginWithEmail(identifier, pass);
+            applyCloudSession(fbUser, cloudDoc);
+            state.mode = 'comerbien';
+            closeModal();
+            syncTopbarAndMode();
+          } else {
+            state.user = S.login(identifier, pass);
+            state.userData = S.getUserData(state.user.username);
+            state.mode = 'comerbien';
+            closeModal();
+            syncTopbarAndMode();
+          }
+        } catch (err) {
+          showMsg(err.message);
+          if (submitBtn) submitBtn.disabled = false;
+        }
+      });
+
+      document.getElementById('cb-form-reg')?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const submitBtn = document.getElementById('cb-reg-submit');
+        if (submitBtn) submitBtn.disabled = true;
+        try {
+          const payload = {
             username: document.getElementById('cb-r-user').value,
             fullName: document.getElementById('cb-r-name').value,
             email: document.getElementById('cb-r-mail').value,
             password: document.getElementById('cb-r-pass').value,
-          });
-          state.userData = S.getUserData(state.user.username);
+          };
+          if (window.QCHCloud) {
+            const { fbUser, cloudDoc } = await window.QCHCloud.registerWithEmail(payload);
+            applyCloudSession(fbUser, cloudDoc);
+          } else {
+            state.user = S.register(payload);
+            state.userData = S.getUserData(state.user.username);
+          }
           state.mode = 'comerbien';
           closeModal();
           syncTopbarAndMode();
         } catch (err) {
           showMsg(err.message);
+          if (submitBtn) submitBtn.disabled = false;
         }
       });
 
-      document.getElementById('cb-form-rec')?.addEventListener('submit', (e) => {
+      document.getElementById('cb-form-rec')?.addEventListener('submit', async (e) => {
         e.preventDefault();
+        const email = document.getElementById('cb-rec-mail').value.trim();
+        const submitBtn = document.getElementById('cb-rec-submit');
+        if (submitBtn) submitBtn.disabled = true;
         try {
-          S.recoverPassword(
-            document.getElementById('cb-rec-user').value,
-            document.getElementById('cb-rec-mail').value,
-            document.getElementById('cb-rec-pass').value
-          );
-          tab = 'login';
-          renderAuth();
-          showMsg('Contraseña restablecida. Ya podés ingresar.', true);
+          if (window.QCHCloud) {
+            await window.QCHCloud.resetPasswordEmail(email);
+            tab = 'login';
+            renderAuth();
+            showMsg('Te enviamos un correo con el link para restablecer tu contraseña.', true);
+          } else {
+            showMsg('Necesitás conexión a internet para restablecer tu contraseña.');
+          }
         } catch (err) {
           showMsg(err.message);
+          if (submitBtn) submitBtn.disabled = false;
         }
       });
     }
@@ -1736,6 +1847,9 @@
       state.user.weeklyBudgetUyu = Math.max(0, Number(document.getElementById('cb-pf-b').value) || 0);
       state.user.habits.waterGlassesGoal = Number(document.getElementById('cb-pf-w').value) || 8;
       S.saveProfile(state.user);
+      if (state.user.isCloud && window.QCHCloud?.syncUserData) {
+        window.QCHCloud.syncUserData({ profile: state.user });
+      }
       syncTopbarAndMode();
       document.getElementById('cb-pf-ok').classList.remove('cb-hidden');
     });
@@ -1993,6 +2107,7 @@
 
   els.logoutBtn.addEventListener('click', () => {
     S.logout();
+    if (window.QCHCloud?.logout) window.QCHCloud.logout();
     state.user = null;
     state.userData = null;
     syncTopbarAndMode();
@@ -2083,6 +2198,11 @@
       // Silencioso si se abre por file:// sin servidor
     }
   }
+
+  window.addEventListener('qch:auth-changed', (ev) => {
+    const detail = ev.detail || {};
+    applyCloudSession(detail.fbUser, detail.cloudDoc);
+  });
 
   // Boot
   const existing = S.getActiveUser();
