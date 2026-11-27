@@ -92,6 +92,7 @@
     };
     baseProfile.uid = fbUser.uid;
     baseProfile.isCloud = true;
+    baseProfile.emailVerified = Boolean(fbUser.emailVerified);
     if (!baseProfile.habits) {
       baseProfile.habits = { waterGlassesGoal: 8, cookingTimePreference: 'moderado', notes: '' };
     }
@@ -133,6 +134,70 @@
 
     if (showCB) renderCBStage();
     if (window.CB_REFRESH_RADIAL) window.CB_REFRESH_RADIAL();
+
+    // Aviso suave de verificación de correo (solo cuentas con email/clave aún no verificadas)
+    let verifyBanner = document.getElementById('cb-verify-email-banner');
+    if (state.user && state.user.isCloud && state.user.email && !state.user.emailVerified) {
+      if (!verifyBanner) {
+        verifyBanner = document.createElement('div');
+        verifyBanner.id = 'cb-verify-email-banner';
+        verifyBanner.className = 'cb-mode-bar';
+        verifyBanner.style.background = '#fffbeb';
+        verifyBanner.style.borderColor = '#fcd34d';
+        verifyBanner.style.marginTop = '8px';
+        verifyBanner.style.flexWrap = 'wrap';
+        verifyBanner.style.gap = '8px';
+        els.modeBar.parentNode.insertBefore(verifyBanner, els.modeBar.nextSibling);
+      }
+      verifyBanner.innerHTML = `
+        <span style="font-size:13px;color:#92400e;">
+          📧 <strong>Verificá tu correo</strong> (${esc(state.user.email)}) — te enviamos un enlace a tu casilla.
+          <span id="cb-verify-status" style="margin-left:6px;font-weight:700;"></span>
+        </span>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;">
+          <button type="button" id="cb-resend-verify-btn" class="cb-btn cb-btn-sm cb-btn-outline">Reenviar correo</button>
+          <button type="button" id="cb-check-verify-btn" class="cb-btn cb-btn-sm cb-btn-primary">Ya verifiqué</button>
+        </div>
+      `;
+      verifyBanner.classList.remove('cb-hidden');
+
+      const statusEl = document.getElementById('cb-verify-status');
+      const resendBtn = document.getElementById('cb-resend-verify-btn');
+      const checkBtn = document.getElementById('cb-check-verify-btn');
+
+      resendBtn?.addEventListener('click', async () => {
+        if (!window.QCHCloud?.resendVerificationEmail) return;
+        resendBtn.disabled = true;
+        try {
+          await window.QCHCloud.resendVerificationEmail();
+          if (statusEl) {
+            statusEl.style.color = '#166534';
+            statusEl.textContent = '✓ Correo reenviado (revisá también Spam).';
+          }
+        } catch (err) {
+          if (statusEl) {
+            statusEl.style.color = '#b91c1c';
+            statusEl.textContent = err.message;
+          }
+          resendBtn.disabled = false;
+        }
+      });
+
+      checkBtn?.addEventListener('click', async () => {
+        if (!window.QCHCloud?.refreshEmailVerified) return;
+        checkBtn.disabled = true;
+        const ok = await window.QCHCloud.refreshEmailVerified();
+        if (!ok) {
+          if (statusEl) {
+            statusEl.style.color = '#92400e';
+            statusEl.textContent = 'Todavía figura pendiente. Abrí el enlace del email y tocá de nuevo.';
+          }
+          checkBtn.disabled = false;
+        }
+      });
+    } else if (verifyBanner) {
+      verifyBanner.classList.add('cb-hidden');
+    }
 
     // Banner contextual cuando viene desde "Buscar más en Menú Radial" en Inicio
     let pickBanner = document.getElementById('cb-pick-banner');

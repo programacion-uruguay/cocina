@@ -11,6 +11,7 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   sendPasswordResetEmail,
+  sendEmailVerification,
   updateProfile,
   signOut
 } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
@@ -301,10 +302,47 @@ async function registerWithEmail({ fullName, email, password, username }) {
     if (cleanName) {
       await updateProfile(res.user, { displayName: cleanName });
     }
+    try {
+      await sendEmailVerification(res.user);
+    } catch (verifyErr) {
+      console.warn("[QCHCloud] No se pudo enviar el correo de verificación:", verifyErr);
+    }
     const cloudDoc = await loadCloudUserDoc(res.user);
     return { fbUser: res.user, cloudDoc };
   } catch (err) {
     throw new Error(mapAuthError(err));
+  }
+}
+
+async function resendVerificationEmail() {
+  if (!currentFirebaseUser) {
+    throw new Error("Iniciá sesión primero.");
+  }
+  try {
+    await sendEmailVerification(currentFirebaseUser);
+    return true;
+  } catch (err) {
+    throw new Error(mapAuthError(err));
+  }
+}
+
+async function refreshEmailVerified() {
+  if (!currentFirebaseUser) return false;
+  try {
+    await currentFirebaseUser.reload();
+    const verified = Boolean(currentFirebaseUser.emailVerified);
+    if (verified) {
+      const cloudDoc = await loadCloudUserDoc(currentFirebaseUser);
+      window.dispatchEvent(
+        new CustomEvent("qch:auth-changed", {
+          detail: { fbUser: currentFirebaseUser, cloudDoc }
+        })
+      );
+    }
+    return verified;
+  } catch (err) {
+    console.warn("[QCHCloud] Error refrescando verificación:", err);
+    return false;
   }
 }
 
@@ -390,6 +428,8 @@ window.QCHCloud = {
   loginWithEmail,
   registerWithEmail,
   resetPasswordEmail,
+  resendVerificationEmail,
+  refreshEmailVerified,
   logout: logoutCloud,
   syncUserData: scheduleCloudSync,
   saveNow: saveCloudPatch,
