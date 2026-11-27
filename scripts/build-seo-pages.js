@@ -92,6 +92,7 @@ function buildRecipeSchema(r, canonicalUrl, imageUrl) {
       '@type': 'Organization',
       name: '¿Qué Cocino Hoy?'
     },
+    datePublished: '2026-11-26',
     prepTime: toIsoDuration(prep || Math.max(5, Math.round(total * 0.4))),
     cookTime: toIsoDuration(cook || Math.max(5, total - Math.round(total * 0.4))),
     totalTime: toIsoDuration(total),
@@ -117,6 +118,7 @@ function buildRecipeSchema(r, canonicalUrl, imageUrl) {
       name: r.videoTitle || r.title,
       description: schema.description,
       thumbnailUrl: [`https://i.ytimg.com/vi/${ytId}/hqdefault.jpg`],
+      uploadDate: '2026-11-26T12:00:00-03:00',
       embedUrl: `https://www.youtube.com/embed/${ytId}`,
       contentUrl: r.videoUrl
     };
