@@ -4058,3 +4058,96 @@ button {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* ---------- 13. Splash Screen de bienvenida (5 segundos) ---------- */
+.app-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: radial-gradient(circle at center, #ffffff 45%, #fbf7f1 100%);
+  opacity: 1;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.app-splash.is-hiding {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.app-splash-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.15rem;
+  width: min(560px, 92vw);
+  animation: splashFadeIn 0.5s ease-out both;
+}
+
+.app-splash-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 68vh;
+  object-fit: contain;
+  border-radius: 18px;
+}
+
+.app-splash-progress {
+  width: min(320px, 80%);
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(217, 119, 6, 0.16);
+  overflow: hidden;
+}
+
+.app-splash-progress-bar {
+  width: 0%;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #16a34a, #d97706);
+  animation: splashProgress 5s linear forwards;
+}
+
+.app-splash-skip {
+  padding: 0.42rem 1rem;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #6b5d4d;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(107, 93, 77, 0.22);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+
+.app-splash-skip:hover {
+  color: #1f2937;
+  border-color: #d97706;
+  background: #fffbeb;
+}
+
+@keyframes splashFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes splashProgress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

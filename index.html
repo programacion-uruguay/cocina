@@ -18,10 +18,55 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css?v=20261127d" />
+  <link rel="stylesheet" href="./css/styles.css?v=20261127e" />
   <link rel="stylesheet" href="./css/comer-bien.css?v=20261126" />
 </head>
 <body>
+  <!-- Splash de bienvenida (5 segundos) -->
+  <div id="app-splash" class="app-splash" role="dialog" aria-label="Bienvenida a ¿Qué Cocino Hoy?">
+    <div class="app-splash-card">
+      <img src="./img/splash-logo.webp" alt="¿Qué Cocino Hoy? — Recetas fáciles y ricas" class="app-splash-img" />
+      <div class="app-splash-progress" aria-hidden="true">
+        <div class="app-splash-progress-bar"></div>
+      </div>
+      <button type="button" id="app-splash-skip" class="app-splash-skip">Entrar ahora →</button>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var splash = document.getElementById("app-splash");
+      if (!splash) return;
+      var fromRecipe = /\/recetas\/|receta\.html/i.test(document.referrer || "");
+      if (fromRecipe) {
+        splash.remove();
+        return;
+      }
+      var closed = false;
+      function closeSplash() {
+        if (closed) return;
+        closed = true;
+        splash.classList.add("is-hiding");
+        setTimeout(function () {
+          if (splash && splash.parentNode) splash.parentNode.removeChild(splash);
+        }, 420);
+      }
+      var timer = setTimeout(closeSplash, 5000);
+      var skipBtn = document.getElementById("app-splash-skip");
+      if (skipBtn) {
+        skipBtn.addEventListener("click", function () {
+          clearTimeout(timer);
+          closeSplash();
+        });
+      }
+      splash.addEventListener("click", function (e) {
+        if (e.target === splash) {
+          clearTimeout(timer);
+          closeSplash();
+        }
+      });
+    })();
+  </script>
+
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand">
