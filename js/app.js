@@ -10,6 +10,15 @@
   const THEME_KEY = "cocina_radial_theme_v1";
   const ACTIVE_FILTER_KEY = "cocina_radial_active_filter_v1";
 
+  function getCurrentUruguaySeasonKey(date = new Date()) {
+    const m = date.getMonth() + 1;
+    const d = date.getDate();
+    if ((m === 12 && d >= 21) || m === 1 || m === 2 || (m === 3 && d < 21)) return "verano";
+    if ((m === 3 && d >= 21) || m === 4 || m === 5 || (m === 6 && d < 21)) return "otono";
+    if ((m === 6 && d >= 21) || m === 7 || m === 8 || (m === 9 && d < 21)) return "invierno";
+    return "primavera";
+  }
+
   const state = {
     recipes: [],
     selectedPath: {}, // { momento?, categoria?, metodo?, estilo? }
@@ -18,7 +27,7 @@
     onlyWithVideo: false,
     autoMomentByTime: true,
     homeTab: "home", // "home" | "wheel" | "ideas" | "fridge"
-    selectedSeason: "all", // "all" | "verano" | "otono" | "invierno" | "primavera"
+    selectedSeason: getCurrentUruguaySeasonKey(), // "all" | "verano" | "otono" | "invierno" | "primavera"
     selectedCalories: "all", // "all" | "low" | "mid" | "high"
     selectedDiet: "all",
     resultsPage: 0,
