@@ -36,6 +36,7 @@
   let customFridgeQuery = "";
   let fridgeHitsFilter = "auto"; // "auto" | "all" | number (1..4)
   let fridgePage = 1;
+  let lastFridgePoolSig = "";
 
   function normalizeText(str) {
     return String(str || "")
@@ -392,8 +393,16 @@
     const app = window.QCHApp;
     if (!panel || !app) return;
 
-    const recipes = app.getRecipes();
-    if (!recipes.length) return;
+    const allRecipes = app.getRecipes();
+    if (!allRecipes.length) return;
+
+    const recipes = app.getFilteredPoolForHome();
+    const poolSig = `${recipes.length}:${recipes[0]?.id || ""}:${recipes[recipes.length - 1]?.id || ""}`;
+    if (poolSig !== lastFridgePoolSig) {
+      lastFridgePoolSig = poolSig;
+      fridgeHitsFilter = "auto";
+      fridgePage = 1;
+    }
 
     const { activeCount, matches } = getFridgeMatches(recipes);
     const atLimit = activeCount >= MAX_FRIDGE_INGREDIENTS;
@@ -418,7 +427,8 @@
     } else if (matches.length === 0) {
       resultsHtml = `
         <div class="fridge-empty">
-          <p>No encontramos recetas con esa combinación exacta. Probá quitar algún ingrediente.</p>
+          <p>No encontramos recetas con esos ingredientes que cumplan tus filtros actuales del panel izquierdo (Horario, Estación, Calorías o Dieta).</p>
+          <p style="margin-top:0.4rem;">Probá desactivar <strong>Por horario</strong> o ampliar Estación / Calorías / Dieta.</p>
         </div>
       `;
     } else {
