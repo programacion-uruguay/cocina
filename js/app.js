@@ -60,6 +60,7 @@
     homePanelWheel: document.getElementById("home-panel-wheel"),
     nowIdeasSection: document.getElementById("now-ideas-section"),
     homePanelFridge: document.getElementById("home-panel-fridge"),
+    homePanelRoulette: document.getElementById("home-panel-roulette"),
     themeButtons: document.querySelectorAll("[data-theme-btn]"),
     themeCycleBtn: document.getElementById("theme-cycle-btn"),
     searchForm: document.getElementById("search-form"),
@@ -1524,6 +1525,9 @@
     if (window.QCHHomeDiscover?.render) {
       window.QCHHomeDiscover.render();
     }
+    if (window.QCHRoulette?.render && state.homeTab === "roulette") {
+      window.QCHRoulette.render();
+    }
   }
 
   function setMobileNavActive(activeKey) {
@@ -1675,7 +1679,7 @@
       els.homeTabBtns.forEach((btn) => {
         btn.addEventListener("click", () => {
           const raw = btn.dataset.homeTab;
-          const nextTab = ["home", "wheel", "ideas", "fridge"].includes(raw) ? raw : "home";
+          const nextTab = ["home", "wheel", "ideas", "fridge", "roulette"].includes(raw) ? raw : "home";
           state.homeTab = nextTab;
           els.homeTabBtns.forEach((b) => {
             const active = b.dataset.homeTab === nextTab;
@@ -1686,11 +1690,15 @@
           if (els.homePanelWheel) els.homePanelWheel.hidden = nextTab !== "wheel";
           if (els.nowIdeasSection) els.nowIdeasSection.hidden = nextTab !== "ideas";
           if (els.homePanelFridge) els.homePanelFridge.hidden = nextTab !== "fridge";
+          if (els.homePanelRoulette) els.homePanelRoulette.hidden = nextTab !== "roulette";
           if (nextTab === "wheel") {
             renderRadialMenu();
           }
           if ((nextTab === "home" || nextTab === "fridge") && window.QCHHomeDiscover?.render) {
             window.QCHHomeDiscover.render();
+          }
+          if (nextTab === "roulette" && window.QCHRoulette?.render) {
+            window.QCHRoulette.render();
           }
         });
       });
@@ -1929,6 +1937,9 @@
     renderNowIdeas();
     if (window.QCHHomeDiscover?.render) {
       window.QCHHomeDiscover.render();
+    }
+    if (window.QCHRoulette?.render && state.homeTab === "roulette") {
+      window.QCHRoulette.render();
     }
   }
 
