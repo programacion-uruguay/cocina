@@ -1622,7 +1622,7 @@
     toggleFavorite,
     getRecipeCalories,
     openRecipePage: (id) => {
-      window.location.href = getRecipePageUrl(id);
+      openRecipeInNewTab(id);
     },
     applyMoodFilter
   };

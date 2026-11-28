@@ -507,7 +507,8 @@
     });
 
     root.querySelectorAll("[data-discover-recipe]").forEach((el) => {
-      el.addEventListener("click", () => {
+      el.addEventListener("click", (e) => {
+        e.stopPropagation();
         app.openRecipePage(el.dataset.discoverRecipe);
       });
     });
