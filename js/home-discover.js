@@ -30,8 +30,12 @@
 
   const WA_ICON_SVG = `<svg class="wa-svg-icon" viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .14 5.35.14 11.92c0 2.1.55 4.15 1.59 5.96L0 24l6.29-1.65a11.86 11.86 0 0 0 5.77 1.47h.01c6.57 0 11.92-5.35 11.92-11.92 0-3.18-1.24-6.17-3.47-8.42ZM12.07 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.73.98 1-3.64-.24-.37a9.84 9.84 0 0 1-1.51-5.26c0-5.45 4.44-9.89 9.89-9.89 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88Zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg>`;
 
+  const MAX_FRIDGE_INGREDIENTS = 4;
+  const FRIDGE_PAGE_SIZE = 6;
   const selectedFridgeIds = new Set();
   let customFridgeQuery = "";
+  let fridgeHitsFilter = "auto"; // "auto" | "all" | number (1..4)
+  let fridgePage = 1;
 
   function normalizeText(str) {
     return String(str || "")
@@ -319,9 +323,10 @@
     bindCardInteractions(container);
   }
 
-  function getFridgeMatches(recipes) {
+  function getActiveFridgeTerms() {
     const activeTerms = [];
     selectedFridgeIds.forEach((id) => {
+      if (activeTerms.length >= MAX_FRIDGE_INGREDIENTS) return;
       const item = FRIDGE_ITEMS.find((f) => f.id === id);
       if (item) activeTerms.push(item.terms);
     });
@@ -329,8 +334,15 @@
       .split(/[,;\s]+/)
       .map((t) => t.trim())
       .filter((t) => t.length >= 3);
-    extra.forEach((word) => activeTerms.push([word]));
+    for (const word of extra) {
+      if (activeTerms.length >= MAX_FRIDGE_INGREDIENTS) break;
+      activeTerms.push([word]);
+    }
+    return activeTerms;
+  }
 
+  function getFridgeMatches(recipes) {
+    const activeTerms = getActiveFridgeTerms();
     if (!activeTerms.length) return { activeCount: 0, matches: [] };
 
     const scored = [];
@@ -359,6 +371,22 @@
     return { activeCount: activeTerms.length, matches: scored };
   }
 
+  function buildPaginationPages(current, total) {
+    if (total <= 7) {
+      return Array.from({ length: total }, (_, i) => i + 1);
+    }
+    const pages = new Set([1, total, current, current - 1, current + 1]);
+    const sorted = Array.from(pages)
+      .filter((p) => p >= 1 && p <= total)
+      .sort((a, b) => a - b);
+    const out = [];
+    for (let i = 0; i < sorted.length; i++) {
+      if (i > 0 && sorted[i] - sorted[i - 1] > 1) out.push("…");
+      out.push(sorted[i]);
+    }
+    return out;
+  }
+
   function renderFridgePanel() {
     const panel = document.getElementById("home-panel-fridge");
     const app = window.QCHApp;
@@ -368,11 +396,13 @@
     if (!recipes.length) return;
 
     const { activeCount, matches } = getFridgeMatches(recipes);
+    const atLimit = activeCount >= MAX_FRIDGE_INGREDIENTS;
 
     const chipsHtml = FRIDGE_ITEMS.map((item) => {
       const active = selectedFridgeIds.has(item.id);
+      const disabled = !active && atLimit;
       return `
-        <button type="button" class="fridge-chip ${active ? "is-active" : ""}" data-fridge-id="${item.id}" aria-pressed="${active}">
+        <button type="button" class="fridge-chip ${active ? "is-active" : ""}" data-fridge-id="${item.id}" aria-pressed="${active}" ${disabled ? "disabled" : ""}>
           <span>${item.emoji}</span> ${item.label}
         </button>
       `;
@@ -382,7 +412,7 @@
     if (activeCount === 0) {
       resultsHtml = `
         <div class="fridge-empty">
-          <p>👆 Tocá 2 o 3 ingredientes que tengas hoy en tu cocina y te mostramos qué podés preparar sin salir a comprar.</p>
+          <p>👆 Elegí hasta <strong>${MAX_FRIDGE_INGREDIENTS} ingredientes</strong> que tengas hoy en tu cocina y te mostramos qué podés preparar sin salir a comprar.</p>
         </div>
       `;
     } else if (matches.length === 0) {
@@ -392,25 +422,125 @@
         </div>
       `;
     } else {
-      const top = matches.slice(0, 8);
+      // Conteo por nivel de coincidencia (ej: 4/4, 3/4, 2/4, 1/4)
+      const countByHits = {};
+      for (let h = activeCount; h >= 1; h--) countByHits[h] = 0;
+      matches.forEach((m) => {
+        if (countByHits[m.hits] !== undefined) countByHits[m.hits]++;
+      });
+
+      // Si está en "auto" o el nivel elegido ya no existe, elegir el mayor nivel con resultados
+      if (
+        fridgeHitsFilter === "auto" ||
+        (fridgeHitsFilter !== "all" && (!countByHits[fridgeHitsFilter] || fridgeHitsFilter > activeCount))
+      ) {
+        let best = "all";
+        for (let h = activeCount; h >= 1; h--) {
+          if (countByHits[h] > 0) {
+            best = h;
+            break;
+          }
+        }
+        fridgeHitsFilter = best;
+        fridgePage = 1;
+      }
+
+      const visibleMatches =
+        fridgeHitsFilter === "all" ? matches : matches.filter((m) => m.hits === fridgeHitsFilter);
+
+      const totalPages = Math.max(1, Math.ceil(visibleMatches.length / FRIDGE_PAGE_SIZE));
+      if (fridgePage > totalPages) fridgePage = totalPages;
+      if (fridgePage < 1) fridgePage = 1;
+
+      const startIdx = (fridgePage - 1) * FRIDGE_PAGE_SIZE;
+      const pageItems = visibleMatches.slice(startIdx, startIdx + FRIDGE_PAGE_SIZE);
+
+      // Sub-pestañas por coincidencia
+      const tierTabs = [];
+      for (let h = activeCount; h >= 1; h--) {
+        if (countByHits[h] === 0) continue;
+        const icon = h === activeCount ? "✅" : h >= 2 ? "🟡" : "⚪";
+        const label =
+          h === activeCount
+            ? activeCount === 1
+              ? "Con 1 ingrediente"
+              : `Con los ${activeCount}`
+            : `Con ${h} de ${activeCount}`;
+        tierTabs.push(`
+          <button type="button" class="fridge-tier-btn ${fridgeHitsFilter === h ? "is-active" : ""}" data-fridge-tier="${h}">
+            ${icon} ${label} <span class="fridge-tier-count">${countByHits[h]}</span>
+          </button>
+        `);
+      }
+      if (activeCount > 1) {
+        tierTabs.push(`
+          <button type="button" class="fridge-tier-btn ${fridgeHitsFilter === "all" ? "is-active" : ""}" data-fridge-tier="all">
+            📋 Todas <span class="fridge-tier-count">${matches.length}</span>
+          </button>
+        `);
+      }
+
+      // Mapa de rangos de páginas cuando está en "Todas"
+      let rangeMapHtml = "";
+      if (fridgeHitsFilter === "all" && activeCount > 1) {
+        const ranges = [];
+        let cursor = 0;
+        for (let h = activeCount; h >= 1; h--) {
+          const cnt = countByHits[h];
+          if (!cnt) continue;
+          const firstPage = Math.floor(cursor / FRIDGE_PAGE_SIZE) + 1;
+          const lastPage = Math.floor((cursor + cnt - 1) / FRIDGE_PAGE_SIZE) + 1;
+          const pageLabel = firstPage === lastPage ? `pág. ${firstPage}` : `pág. ${firstPage}–${lastPage}`;
+          ranges.push(
+            `<button type="button" class="fridge-range-pill" data-fridge-page="${firstPage}"><strong>${h}/${activeCount} ingred.:</strong> ${pageLabel} (${cnt})</button>`
+          );
+          cursor += cnt;
+        }
+        rangeMapHtml = `<div class="fridge-range-map">${ranges.join("")}</div>`;
+      }
+
+      const pagesList = buildPaginationPages(fridgePage, totalPages);
+      const paginationHtml =
+        totalPages > 1
+          ? `
+        <div class="fridge-pagination" aria-label="Paginación de recetas de Mi Heladera">
+          <button type="button" class="fridge-page-btn" data-fridge-page="${fridgePage - 1}" ${fridgePage <= 1 ? "disabled" : ""}>← Anterior</button>
+          <div class="fridge-page-nums">
+            ${pagesList
+              .map((p) =>
+                p === "…"
+                  ? `<span class="fridge-page-ellipsis">…</span>`
+                  : `<button type="button" class="fridge-page-num ${p === fridgePage ? "is-active" : ""}" data-fridge-page="${p}">${p}</button>`
+              )
+              .join("")}
+          </div>
+          <button type="button" class="fridge-page-btn" data-fridge-page="${fridgePage + 1}" ${fridgePage >= totalPages ? "disabled" : ""}>Siguiente →</button>
+        </div>`
+          : "";
+
       resultsHtml = `
         <div class="fridge-results-head">
-          <span>Encontramos <strong>${matches.length}</strong> recetas con lo que tenés</span>
+          <span>Encontramos <strong>${matches.length}</strong> recetas · Mostrando <strong>${startIdx + 1}–${Math.min(startIdx + pageItems.length, visibleMatches.length)}</strong> de <strong>${visibleMatches.length}</strong></span>
           <button type="button" id="fridge-clear-btn" class="fridge-clear-btn">Limpiar selección</button>
         </div>
+        <div class="fridge-tier-tabs" role="tablist" aria-label="Filtrar por cantidad de ingredientes coincidentes">
+          ${tierTabs.join("")}
+        </div>
+        ${rangeMapHtml}
         <div class="fridge-results-grid">
-          ${top
+          ${pageItems
             .map(({ recipe: r, hits, total }) => {
               const photo = getRecipePhotoUrl(r);
               const totalMin = (Number(r.prepMinutes) || 0) + (Number(r.cookMinutes) || 0);
               const kcal = app.getRecipeCalories(r);
               const fav = app.isFavorite(r.id);
               const waHref = getWhatsappShareHref(r, kcal);
+              const matchClass = hits === total ? "is-full" : hits >= 2 ? "is-mid" : "is-low";
               return `
                 <article class="discover-card fridge-result-card" data-discover-recipe="${escapeHtml(r.id)}">
                   <div class="discover-card-media">
                     <img src="${escapeHtml(photo)}" alt="${escapeHtml(r.title)}" loading="lazy" decoding="async" />
-                    <span class="fridge-match-pill">✓ ${hits}/${total} ingred.</span>
+                    <span class="fridge-match-pill ${matchClass}">✓ ${hits}/${total} ingred.</span>
                     <div class="discover-card-actions">
                       <button type="button" class="discover-icon-btn ${fav ? "is-fav" : ""}" data-discover-fav="${escapeHtml(r.id)}" aria-label="Guardar en favoritos">
                         ${fav ? "♥" : "♡"}
@@ -432,6 +562,7 @@
             })
             .join("")}
         </div>
+        ${paginationHtml}
       `;
     }
 
@@ -440,14 +571,15 @@
         <div class="fridge-header">
           <div>
             <h2>🧊 ¿Qué tenés en la heladera?</h2>
-            <p>Marcá ingredientes que tenés a mano y cociná hoy sin ir al súper</p>
+            <p>Elegí hasta <strong>${MAX_FRIDGE_INGREDIENTS} ingredientes</strong> y cociná hoy sin ir al súper</p>
           </div>
+          <span class="fridge-counter-pill ${atLimit ? "is-limit" : ""}">${activeCount} / ${MAX_FRIDGE_INGREDIENTS} ingredientes</span>
         </div>
         <div class="fridge-chips-wrap">
           ${chipsHtml}
         </div>
         <div class="fridge-extra-row">
-          <input type="text" id="fridge-custom-input" class="fridge-custom-input" value="${escapeHtml(customFridgeQuery)}" placeholder="¿Tenés algo más? Ej: lentejas, brócoli, choclo..." />
+          <input type="text" id="fridge-custom-input" class="fridge-custom-input" value="${escapeHtml(customFridgeQuery)}" placeholder="${atLimit && !customFridgeQuery ? "Ya elegiste el máximo de 4 ingredientes (desmarcá uno para agregar otro)" : "¿Tenés algo más? Ej: lentejas, brócoli, choclo..."}" ${atLimit && !customFridgeQuery ? "disabled" : ""} />
         </div>
         ${resultsHtml}
       </div>
@@ -456,8 +588,13 @@
     panel.querySelectorAll("[data-fridge-id]").forEach((btn) => {
       btn.addEventListener("click", () => {
         const id = btn.dataset.fridgeId;
-        if (selectedFridgeIds.has(id)) selectedFridgeIds.delete(id);
-        else selectedFridgeIds.add(id);
+        if (selectedFridgeIds.has(id)) {
+          selectedFridgeIds.delete(id);
+        } else if (getActiveFridgeTerms().length < MAX_FRIDGE_INGREDIENTS) {
+          selectedFridgeIds.add(id);
+        }
+        fridgeHitsFilter = "auto";
+        fridgePage = 1;
         renderFridgePanel();
       });
     });
@@ -467,6 +604,8 @@
       let timer = null;
       customInput.addEventListener("input", (e) => {
         customFridgeQuery = e.target.value;
+        fridgeHitsFilter = "auto";
+        fridgePage = 1;
         clearTimeout(timer);
         timer = setTimeout(() => {
           const pos = customInput.selectionStart;
@@ -485,7 +624,29 @@
     panel.querySelector("#fridge-clear-btn")?.addEventListener("click", () => {
       selectedFridgeIds.clear();
       customFridgeQuery = "";
+      fridgeHitsFilter = "auto";
+      fridgePage = 1;
       renderFridgePanel();
+    });
+
+    panel.querySelectorAll("[data-fridge-tier]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const val = btn.dataset.fridgeTier;
+        fridgeHitsFilter = val === "all" ? "all" : Number(val);
+        fridgePage = 1;
+        renderFridgePanel();
+      });
+    });
+
+    panel.querySelectorAll("[data-fridge-page]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const p = Number(btn.dataset.fridgePage);
+        if (Number.isFinite(p) && p >= 1) {
+          fridgePage = p;
+          renderFridgePanel();
+          panel.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
     });
 
     bindCardInteractions(panel);
