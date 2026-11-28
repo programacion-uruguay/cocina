@@ -1675,31 +1675,37 @@
       });
     }
 
+    function setActiveHomeView(nextTab) {
+      state.homeTab = nextTab;
+      if (els.homeTabBtns) {
+        els.homeTabBtns.forEach((b) => {
+          const active = b.dataset.homeTab === nextTab;
+          b.classList.toggle("is-active", active);
+          b.setAttribute("aria-selected", String(active));
+        });
+      }
+      if (els.homeDiscoverStrip) els.homeDiscoverStrip.hidden = nextTab !== "home";
+      if (els.homePanelWheel) els.homePanelWheel.hidden = nextTab !== "wheel";
+      if (els.nowIdeasSection) els.nowIdeasSection.hidden = nextTab !== "ideas";
+      if (els.homePanelFridge) els.homePanelFridge.hidden = nextTab !== "fridge";
+      if (els.homePanelRoulette) els.homePanelRoulette.hidden = nextTab !== "roulette";
+      if (nextTab === "wheel") {
+        renderRadialMenu();
+      }
+      if ((nextTab === "home" || nextTab === "fridge") && window.QCHHomeDiscover?.render) {
+        window.QCHHomeDiscover.render();
+      }
+      if (nextTab === "roulette" && window.QCHRoulette?.render) {
+        window.QCHRoulette.render();
+      }
+    }
+
     if (els.homeTabBtns) {
       els.homeTabBtns.forEach((btn) => {
         btn.addEventListener("click", () => {
           const raw = btn.dataset.homeTab;
-          const nextTab = ["home", "wheel", "ideas", "fridge", "roulette"].includes(raw) ? raw : "home";
-          state.homeTab = nextTab;
-          els.homeTabBtns.forEach((b) => {
-            const active = b.dataset.homeTab === nextTab;
-            b.classList.toggle("is-active", active);
-            b.setAttribute("aria-selected", String(active));
-          });
-          if (els.homeDiscoverStrip) els.homeDiscoverStrip.hidden = nextTab !== "home";
-          if (els.homePanelWheel) els.homePanelWheel.hidden = nextTab !== "wheel";
-          if (els.nowIdeasSection) els.nowIdeasSection.hidden = nextTab !== "ideas";
-          if (els.homePanelFridge) els.homePanelFridge.hidden = nextTab !== "fridge";
-          if (els.homePanelRoulette) els.homePanelRoulette.hidden = nextTab !== "roulette";
-          if (nextTab === "wheel") {
-            renderRadialMenu();
-          }
-          if ((nextTab === "home" || nextTab === "fridge") && window.QCHHomeDiscover?.render) {
-            window.QCHHomeDiscover.render();
-          }
-          if (nextTab === "roulette" && window.QCHRoulette?.render) {
-            window.QCHRoulette.render();
-          }
+          const nextTab = ["home", "wheel", "ideas", "fridge"].includes(raw) ? raw : "home";
+          setActiveHomeView(nextTab);
         });
       });
     }
@@ -1795,11 +1801,12 @@
 
     if (els.surpriseBtn) {
       els.surpriseBtn.addEventListener("click", () => {
-        const filtered = getFilteredRecipes();
-        const pool = filtered.length > 0 ? filtered : state.recipes;
-        if (pool.length === 0) return;
-        const randomRecipe = pool[Math.floor(Math.random() * pool.length)];
-        openRecipeInNewTab(randomRecipe.id);
+        if (state.homeTab === "roulette" && window.QCHRoulette?.spin) {
+          window.QCHRoulette.spin();
+        } else {
+          setActiveHomeView("roulette");
+          els.homePanelRoulette?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
       });
     }
 
