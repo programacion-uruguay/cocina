@@ -291,6 +291,7 @@
     navBtn.title = active
       ? `Prueba PRO activa (${days} días restantes) — Ver beneficios`
       : "Ver planes Gratis y PRO (Acceso anticipado)";
+    window.dispatchEvent(new CustomEvent("qch:plan-changed", { detail: { isPro: active, daysLeft: days } }));
   }
 
   function init() {

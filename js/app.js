@@ -205,13 +205,43 @@
     return true;
   }
 
+  const FREE_DIET_KEYS = new Set(["balanced", "sin_gluten", "vegetariana", "deficit"]);
+
+  function isDietAllowedForUser(dietKey) {
+    if (!dietKey || dietKey === "all") return true;
+    if (FREE_DIET_KEYS.has(dietKey)) return true;
+    return Boolean(window.QCHPlans && typeof window.QCHPlans.isProActive === "function" && window.QCHPlans.isProActive());
+  }
+
   function populateDietFilterSelect() {
     if (!els.dietFilterSelect || typeof DIET_PLANS === "undefined") return;
+    const hasPro = Boolean(window.QCHPlans && typeof window.QCHPlans.isProActive === "function" && window.QCHPlans.isProActive());
+    const allPlans = Object.values(DIET_PLANS);
+    const freePlans = allPlans.filter((p) => FREE_DIET_KEYS.has(p.key));
+    const proPlans = allPlans.filter((p) => !FREE_DIET_KEYS.has(p.key));
+
     const opts = ['<option value="all">Todas las dietas</option>'];
-    Object.values(DIET_PLANS).forEach((p) => {
+    opts.push('<optgroup label="🆓 Plan Gratis">');
+    freePlans.forEach((p) => {
       opts.push(`<option value="${p.key}">${p.shortLabel || p.label}</option>`);
     });
+    opts.push("</optgroup>");
+
+    opts.push(`<optgroup label="${hasPro ? "⭐ Plan PRO (Desbloqueadas)" : "🔒 Plan PRO (Activalo gratis 7 días)"}">`);
+    proPlans.forEach((p) => {
+      const label = p.shortLabel || p.label;
+      if (hasPro) {
+        opts.push(`<option value="${p.key}">${label}</option>`);
+      } else {
+        opts.push(`<option value="${p.key}" disabled>🔒 ${label} · PRO</option>`);
+      }
+    });
+    opts.push("</optgroup>");
+
     els.dietFilterSelect.innerHTML = opts.join("");
+    if (!isDietAllowedForUser(state.selectedDiet)) {
+      state.selectedDiet = "all";
+    }
     els.dietFilterSelect.value = state.selectedDiet;
   }
 
@@ -1677,10 +1707,20 @@
     if (els.dietFilterSelect) {
       populateDietFilterSelect();
       els.dietFilterSelect.addEventListener("change", () => {
-        state.selectedDiet = els.dietFilterSelect.value || "all";
+        const chosen = els.dietFilterSelect.value || "all";
+        if (!isDietAllowedForUser(chosen)) {
+          els.dietFilterSelect.value = state.selectedDiet;
+          window.QCHPlans?.openModal();
+          return;
+        }
+        state.selectedDiet = chosen;
         state.resultsPage = 0;
         syncUI();
         if (!els.resultsModal.hidden) renderResultsModal();
+      });
+      window.addEventListener("qch:plan-changed", () => {
+        populateDietFilterSelect();
+        syncUI();
       });
     }
 
