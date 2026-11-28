@@ -697,12 +697,13 @@
         </div>
       </div>
 
-      <div class="cb-section-head">
+      ${sugHtml}
+
+      <div class="cb-section-head" style="margin-top:22px;">
         <h3>Tus 4 momentos de ${dayWord}</h3>
-        <button type="button" class="cb-btn cb-btn-sm cb-btn-outline" id="cb-go-radial">🎡 Buscar más en Menú Radial</button>
+        <button type="button" class="cb-btn cb-btn-sm cb-btn-outline" id="cb-go-radial">🎡 Buscar más en Ruleta de Recetas</button>
       </div>
       <div class="cb-grid-2">${momentsHtml}</div>
-      ${sugHtml}
     `;
 
     document.getElementById('cb-go-radial').addEventListener('click', () => {
