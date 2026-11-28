@@ -14,6 +14,7 @@
     preferredSupermarket: '', // '' = mejor precio entre supermercados de Montevideo
     pantry: ['huevo', 'papa', 'cebolla'],
     pantryWheelPath: { group: null, subgroup: null },
+    suggestionOffsets: {}, // { desayuno: 0, almuerzo: 1, ... } para el botón "Cambiar"
   };
 
   const els = {
@@ -605,40 +606,83 @@
         </div>`;
     }).join('');
 
+    const activePatternObj =
+      D.DIET_PATTERNS.find((p) => p.id === (state.user.dietPattern || 'equilibrada')) || D.DIET_PATTERNS[0];
+
+    const sugSeason = summary.suggestions[0]?.season || { emoji: '🌸', label: 'Estación' };
     const sugHtml =
       summary.suggestions.length > 0
         ? `
       <div style="margin-top:22px;">
-        <div class="cb-section-head"><h3>✨ Sugerencias para lo que falta hoy</h3></div>
-        <div class="cb-grid-3">
+        <div class="cb-section-head">
+          <div>
+            <h3>✨ Sugerencias de ${dayWord} · ${sugSeason.emoji} ${esc(sugSeason.label)}</h3>
+            <p style="margin:2px 0 0;font-size:12px;color:var(--cb-muted);">Cumplen tu dieta (${activePatternObj.emoji} ${esc(activePatternObj.label)}) y la estación actual en Uruguay</p>
+          </div>
+          <div class="cb-carousel-nav">
+            <button type="button" class="cb-carousel-arrow" id="cb-sug-prev" aria-label="Anterior">‹</button>
+            <button type="button" class="cb-carousel-arrow" id="cb-sug-next" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+        <div class="cb-sug-carousel" id="cb-sug-carousel">
           ${summary.suggestions
-            .filter((s) => s.recipe)
-            .map(
-              (s) => `
-            <article class="cb-recipe-card">
-              <div class="cb-recipe-thumb" data-cb-open="${s.recipe.id}">
-                <img src="${s.recipe.imageUrl}" alt="${esc(s.recipe.title)}" />
+            .filter((s) => s.recipe || s.plannedInfo?.recipe)
+            .map((s) => {
+              const candidates = s.candidates && s.candidates.length ? s.candidates : s.recipe ? [s.recipe] : [];
+              const offset = state.suggestionOffsets[s.moment] || 0;
+              const showingPlannedDirectly = Boolean(s.isPlanned && offset === 0 && s.plannedInfo?.recipe);
+              const displayedRecipe = showingPlannedDirectly
+                ? s.plannedInfo.recipe
+                : candidates[offset % candidates.length] || s.recipe;
+              if (!displayedRecipe) return '';
+              const isCurrentRecipePlanned = Boolean(
+                s.isPlanned &&
+                  (showingPlannedDirectly ||
+                    (s.plannedInfo?.recipe && s.plannedInfo.recipe.id === displayedRecipe.id))
+              );
+              const marketCost = E.getRecipeMarketInfo(
+                displayedRecipe,
+                displayedRecipe.servings,
+                state.preferredSupermarket || null
+              ).costUyu;
+              const reasonText = isCurrentRecipePlanned
+                ? `Ya está planificado para tu ${D.MOMENT_LABELS[s.moment].label.toLowerCase()} de ${dayWord}. Tocá Cambiar si querés ver otra alternativa.`
+                : s.reason;
+              return `
+            <article class="cb-recipe-card cb-sug-card ${isCurrentRecipePlanned ? 'is-planned' : ''}">
+              <div class="cb-recipe-thumb" data-cb-open="${displayedRecipe.id}">
+                <img src="${displayedRecipe.imageUrl}" alt="${esc(displayedRecipe.title)}" />
+                <span class="cb-sug-season-pill">${sugSeason.emoji} ${esc(sugSeason.label)}</span>
+                ${isCurrentRecipePlanned ? `<span class="cb-sug-planned-pill">✓ Planificado</span>` : ''}
               </div>
               <div class="cb-recipe-body">
-                <div data-cb-open="${s.recipe.id}">
+                <div data-cb-open="${displayedRecipe.id}">
                   <span class="cb-badge cb-badge-sage" style="margin-bottom:6px;">Para tu ${D.MOMENT_LABELS[s.moment].label}</span>
-                  <div style="font-weight:700;font-size:15px;">${esc(s.recipe.title)}</div>
-                  <p style="font-size:12px;color:var(--cb-muted);margin-top:4px;">${esc(s.reason)}</p>
+                  <div style="font-weight:700;font-size:15px;">${esc(displayedRecipe.title)}</div>
+                  <p style="font-size:12px;color:var(--cb-muted);margin-top:4px;">${esc(reasonText)}</p>
                 </div>
-                <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--cb-cream-dark);padding-top:8px;">
-                  <span style="font-size:12px;color:var(--cb-muted);">⏱ ${s.recipe.prepMinutes}m · ~$U ${E.getRecipeMarketInfo(s.recipe, s.recipe.servings, state.preferredSupermarket || null).costUyu}</span>
-                  <button type="button" class="cb-btn cb-btn-sm cb-btn-secondary" data-acsug="${s.moment}:${s.recipe.id}">Planificar ${dayWord}</button>
+                <div class="cb-sug-card-foot">
+                  <span style="font-size:12px;color:var(--cb-muted);">⏱ ${displayedRecipe.prepMinutes}m · ~$U ${marketCost}</span>
+                  <div class="cb-sug-card-btns">
+                    ${
+                      candidates.length > 1
+                        ? `<button type="button" class="cb-btn cb-btn-sm cb-btn-outline" data-cb-swap="${s.moment}" title="Ver otra opción compatible">🔄 Cambiar</button>`
+                        : ''
+                    }
+                    ${
+                      isCurrentRecipePlanned
+                        ? `<button type="button" class="cb-btn cb-btn-sm cb-btn-planned" disabled>✓ Planificado</button>`
+                        : `<button type="button" class="cb-btn cb-btn-sm cb-btn-secondary" data-acsug="${s.moment}:${displayedRecipe.id}">Planificar ${dayWord}</button>`
+                    }
+                  </div>
                 </div>
               </div>
-            </article>`
-            )
+            </article>`;
+            })
             .join('')}
         </div>
       </div>`
         : '';
-
-    const activePatternObj =
-      D.DIET_PATTERNS.find((p) => p.id === (state.user.dietPattern || 'equilibrada')) || D.DIET_PATTERNS[0];
 
     view.innerHTML = `
       <div class="cb-hero">
@@ -713,6 +757,10 @@
         const [m, rid] = b.dataset.acsug.split(':');
         const rec = D.RECIPES.find((r) => r.id === rid);
         if (!rec) return;
+        // Si ya había un planificado para este momento hoy, lo reemplazamos limpio
+        state.userData.dailyLogs = state.userData.dailyLogs.filter(
+          (l) => !(l.logDate === today && l.moment === m && l.status === 'planned')
+        );
         state.userData.dailyLogs.unshift({
           id: 'log-' + Date.now(),
           logDate: today,
@@ -722,10 +770,25 @@
           status: 'planned',
           foodGroups: rec.foodGroups,
         });
+        state.suggestionOffsets[m] = 0;
         persist();
         renderCBStage();
       })
     );
+    view.querySelectorAll('[data-cb-swap]').forEach((b) =>
+      b.addEventListener('click', () => {
+        const m = b.dataset.cbSwap;
+        state.suggestionOffsets[m] = (state.suggestionOffsets[m] || 0) + 1;
+        renderCBStage();
+      })
+    );
+    const sugTrack = view.querySelector('#cb-sug-carousel');
+    view.querySelector('#cb-sug-prev')?.addEventListener('click', () => {
+      sugTrack?.scrollBy({ left: -340, behavior: 'smooth' });
+    });
+    view.querySelector('#cb-sug-next')?.addEventListener('click', () => {
+      sugTrack?.scrollBy({ left: 340, behavior: 'smooth' });
+    });
     bindCBRecipes(view);
   }
 

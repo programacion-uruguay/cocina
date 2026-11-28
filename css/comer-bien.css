@@ -597,3 +597,120 @@
   background: var(--cb-sage);
   border: 1px solid #c6dec9;
 }
+
+/* ---------- Carrusel de sugerencias diarias (Estación + Dieta + Cambiar + Planificado) ---------- */
+.cb-carousel-nav {
+  display: inline-flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.cb-carousel-arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--cb-cream-dark, #e2e8f0);
+  background: #ffffff;
+  color: var(--cb-ink, #1f2937);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.14s ease, transform 0.14s ease, color 0.14s ease;
+}
+
+.cb-carousel-arrow:hover {
+  border-color: var(--cb-forest, #1b5e3a);
+  color: var(--cb-forest, #1b5e3a);
+  transform: scale(1.06);
+}
+
+.cb-sug-carousel {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 2px 2px 10px;
+  scrollbar-width: thin;
+}
+
+.cb-sug-card {
+  flex: 0 0 310px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.cb-sug-card.is-planned {
+  border-color: #16a34a;
+  box-shadow: 0 4px 14px rgba(22, 163, 74, 0.12);
+}
+
+.cb-sug-card .cb-recipe-thumb {
+  position: relative;
+}
+
+.cb-sug-season-pill,
+.cb-sug-planned-pill {
+  position: absolute;
+  top: 8px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  backdrop-filter: blur(4px);
+}
+
+.cb-sug-season-pill {
+  left: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #1f2937;
+}
+
+.cb-sug-planned-pill {
+  right: 8px;
+  background: rgba(22, 163, 74, 0.92);
+  color: #ffffff;
+}
+
+.cb-sug-card .cb-recipe-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cb-sug-card-foot {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px solid var(--cb-cream-dark, #e5e7eb);
+  padding-top: 10px;
+}
+
+.cb-sug-card-btns {
+  display: flex;
+  gap: 6px;
+}
+
+.cb-sug-card-btns .cb-btn {
+  flex: 1;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.cb-btn-planned {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+  font-weight: 700;
+  cursor: default;
+}
+
+@media (max-width: 640px) {
+  .cb-sug-card {
+    flex: 0 0 272px;
+  }
+}
