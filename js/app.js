@@ -373,6 +373,9 @@
   }
 
   function saveFavorites() {
+    if (window.CB_IS_GUEST_MODE && window.CB_IS_GUEST_MODE()) {
+      return; // Modo invitado: no guardar nada en localStorage ni en la nube
+    }
     try {
       localStorage.setItem(FAVORITES_KEY, JSON.stringify(state.favorites));
     } catch {

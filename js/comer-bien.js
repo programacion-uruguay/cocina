@@ -53,6 +53,7 @@
 
   function persist() {
     if (state.user && state.userData) {
+      if (state.user.isGuest) return; // Modo invitado: no guardar nada ni en localStorage ni en la nube
       S.saveUserData(state.user.username, state.userData);
       if (state.user.isCloud && window.QCHCloud?.syncUserData) {
         window.QCHCloud.syncUserData({
@@ -64,6 +65,8 @@
       }
     }
   }
+
+  window.CB_IS_GUEST_MODE = () => Boolean(state.user && state.user.isGuest);
 
   function applyCloudSession(fbUser, cloudDoc) {
     if (!fbUser) {
@@ -111,11 +114,15 @@
 
   function syncTopbarAndMode() {
     if (state.user) {
-      els.authBtn.innerHTML = `<span>👤 @${esc(state.user.username)}</span>`;
+      els.authBtn.innerHTML = state.user.isGuest
+        ? `<span>👤 Invitado</span>`
+        : `<span>👤 @${esc(state.user.username)}</span>`;
       els.authBtn.classList.add('is-logged');
       els.guestBanner?.classList.add('cb-hidden');
       els.modeBar.classList.remove('cb-hidden');
-      els.userStatusLabel.textContent = `Sesión: ${state.user.fullName || state.user.username}${state.user.isCloud ? ' ☁️' : ''}`;
+      els.userStatusLabel.textContent = state.user.isGuest
+        ? 'Sesión: Invitado (sin guardar)'
+        : `Sesión: ${state.user.fullName || state.user.username}${state.user.isCloud ? ' ☁️' : ''}`;
     } else {
       els.authBtn.innerHTML = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg><span>Ingresar</span>`;
       els.authBtn.classList.remove('is-logged');
@@ -199,6 +206,34 @@
       verifyBanner.classList.add('cb-hidden');
     }
 
+    // Advertencia persistente en modo Invitado (no se guarda nada ni en local)
+    let guestWarn = document.getElementById('cb-guest-mode-warning');
+    if (state.user && state.user.isGuest) {
+      if (!guestWarn) {
+        guestWarn = document.createElement('div');
+        guestWarn.id = 'cb-guest-mode-warning';
+        guestWarn.className = 'cb-mode-bar';
+        guestWarn.style.background = '#fef2f2';
+        guestWarn.style.borderColor = '#fca5a5';
+        guestWarn.style.marginTop = '8px';
+        guestWarn.style.flexWrap = 'wrap';
+        guestWarn.style.gap = '8px';
+        els.modeBar.parentNode.insertBefore(guestWarn, els.modeBar.nextSibling);
+      }
+      guestWarn.innerHTML = `
+        <span style="font-size:13px;color:#991b1b;">
+          ⚠️ <strong>Modo Invitado:</strong> no se guarda ningún dato (ni en la nube ni en tu equipo). Al cerrar o recargar la página se perderá todo.
+        </span>
+        <button type="button" id="cb-guest-upgrade-btn" class="cb-btn cb-btn-sm cb-btn-primary">Crear cuenta gratis</button>
+      `;
+      guestWarn.classList.remove('cb-hidden');
+      document.getElementById('cb-guest-upgrade-btn')?.addEventListener('click', () => {
+        openAuthModal('register');
+      });
+    } else if (guestWarn) {
+      guestWarn.classList.add('cb-hidden');
+    }
+
     // Banner contextual cuando viene desde "Buscar más en Menú Radial" en Inicio
     let pickBanner = document.getElementById('cb-pick-banner');
     if (state.user && state.mode === 'radial' && state.pickingForInicio) {
@@ -279,7 +314,7 @@
             tab === 'login'
               ? `
             <form id="cb-form-login" style="display:flex;flex-direction:column;gap:12px;">
-              <div class="cb-field"><label>Correo electrónico (o usuario demo)</label><input id="cb-l-user" required placeholder="tu@correo.com o sofia" /></div>
+              <div class="cb-field"><label>Correo electrónico</label><input id="cb-l-user" type="email" required placeholder="tu@correo.com" /></div>
               <div class="cb-field"><label>Contraseña</label><input id="cb-l-pass" type="password" required placeholder="Tu contraseña" /></div>
               <div style="text-align:right;"><button type="button" id="cb-go-rec" class="cb-btn cb-btn-ghost cb-btn-sm">¿Olvidaste tu contraseña?</button></div>
               <button type="submit" id="cb-login-submit" class="cb-btn cb-btn-primary">Entrar a mi espacio →</button>
@@ -301,17 +336,12 @@
             </form>`
           }
 
-          <div style="border-top:1px solid var(--cb-cream-dark);padding-top:12px;">
-            <div style="font-size:11px;font-weight:700;color:var(--cb-muted);margin-bottom:8px;">✨ USUARIOS DE DEMOSTRACIÓN</div>
-            <div class="cb-grid-2" style="gap:8px;">
-              <button type="button" class="cb-card" style="text-align:left;padding:10px;cursor:pointer;" data-demo="sofia:comer1234">
-                <strong style="font-size:13px;">sofia</strong>
-                <div style="font-size:11px;color:var(--cb-muted);">Clave: comer1234</div>
-              </button>
-              <button type="button" class="cb-card" style="text-align:left;padding:10px;cursor:pointer;" data-demo="mateo:comer1234">
-                <strong style="font-size:13px;">mateo</strong>
-                <div style="font-size:11px;color:var(--cb-muted);">Sin lactosa · comer1234</div>
-              </button>
+          <div style="border-top:1px solid var(--cb-cream-dark);padding-top:12px;display:flex;flex-direction:column;gap:8px;">
+            <button type="button" id="cb-guest-mode-btn" class="cb-btn cb-btn-outline" style="width:100%;font-weight:700;">
+              👤 Entrar como Invitado (sin registro)
+            </button>
+            <div style="font-size:11.5px;color:#991b1b;background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:8px 10px;line-height:1.4;">
+              ⚠️ <strong>Aviso:</strong> en modo Invitado <strong>no se guarda nada</strong> (ni en la nube ni en tu equipo). Al recargar o cerrar la página se borra todo.
             </div>
           </div>
         </div>
@@ -340,15 +370,30 @@
         renderAuth();
       });
 
-      els.modalBox.querySelectorAll('[data-demo]').forEach((b) =>
-        b.addEventListener('click', () => {
-          const [u, p] = b.dataset.demo.split(':');
-          tab = 'login';
-          renderAuth();
-          document.getElementById('cb-l-user').value = u;
-          document.getElementById('cb-l-pass').value = p;
-        })
-      );
+      document.getElementById('cb-guest-mode-btn')?.addEventListener('click', () => {
+        const guestProfile = {
+          username: 'invitado',
+          fullName: 'Invitado',
+          email: '',
+          isGuest: true,
+          isCloud: false,
+          householdSize: 2,
+          weeklyBudgetUyu: 3500,
+          preferences: [],
+          restrictions: [],
+          habits: { waterGlassesGoal: 8, cookingTimePreference: 'moderado', notes: '' },
+        };
+        state.user = guestProfile;
+        state.userData = {
+          favorites: [],
+          menuSlots: E && E.generateWeeklyMenu ? E.generateWeeklyMenu(guestProfile) : [],
+          dailyLogs: [],
+          shoppingList: [],
+        };
+        state.mode = 'comerbien';
+        closeModal();
+        syncTopbarAndMode();
+      });
 
       document.getElementById('cb-google-btn')?.addEventListener('click', async () => {
         if (!window.QCHCloud) {
@@ -1911,9 +1956,11 @@
       state.user.householdSize = Math.max(1, Number(document.getElementById('cb-pf-h').value) || 1);
       state.user.weeklyBudgetUyu = Math.max(0, Number(document.getElementById('cb-pf-b').value) || 0);
       state.user.habits.waterGlassesGoal = Number(document.getElementById('cb-pf-w').value) || 8;
-      S.saveProfile(state.user);
-      if (state.user.isCloud && window.QCHCloud?.syncUserData) {
-        window.QCHCloud.syncUserData({ profile: state.user });
+      if (!state.user.isGuest) {
+        S.saveProfile(state.user);
+        if (state.user.isCloud && window.QCHCloud?.syncUserData) {
+          window.QCHCloud.syncUserData({ profile: state.user });
+        }
       }
       syncTopbarAndMode();
       document.getElementById('cb-pf-ok').classList.remove('cb-hidden');
