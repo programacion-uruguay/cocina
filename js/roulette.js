@@ -209,7 +209,7 @@
           </div>
           <div class="roulette-winner-subactions">
             <button type="button" class="daily-btn-icon ${fav ? "is-fav" : ""}" id="roulette-fav-btn">${fav ? "♥ Guardada" : "♡ Guardar"}</button>
-            ${waHref ? `<a href="${waHref}" target="_blank" rel="noopener noreferrer" class="daily-btn-wa">💬 Enviar por WhatsApp</a>` : ""}
+            ${waHref ? `<a href="${waHref}" target="_blank" rel="noopener noreferrer" class="daily-btn-wa">${window.QCHHomeDiscover?.WA_ICON_SVG || ""}<span>WhatsApp</span></a>` : ""}
           </div>
         </div>
       </article>

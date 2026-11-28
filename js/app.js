@@ -1439,7 +1439,7 @@
           <div class="now-idea-top">
             <span class="now-idea-badge">${metodo?.emoji || "🍳"} ${metodo?.label || r.metodo}</span>
             <div class="now-idea-actions-mini">
-              ${waHref ? `<a href="${waHref}" target="_blank" rel="noopener noreferrer" class="now-idea-wa" data-now-wa aria-label="Compartir por WhatsApp" title="Compartir por WhatsApp">💬</a>` : ""}
+              ${waHref ? `<a href="${waHref}" target="_blank" rel="noopener noreferrer" class="now-idea-wa" data-now-wa aria-label="Compartir por WhatsApp" title="Compartir por WhatsApp">${window.QCHHomeDiscover?.WA_ICON_SVG || "💬"}</a>` : ""}
               <button type="button" class="now-idea-fav ${fav ? "is-fav" : ""}" data-now-fav="${r.id}" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">
                 ${fav ? "♥" : "♡"}
               </button>
