@@ -4987,23 +4987,25 @@ button {
 .daily-featured-cta {
   margin-top: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 0.4rem;
 }
 
 .daily-btn-primary,
 .daily-btn-icon,
 .daily-btn-wa {
-  padding: 0.45rem 0.75rem;
+  width: 100%;
+  padding: 0.48rem 0.75rem;
   border-radius: var(--radius-sm);
   font-family: inherit;
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   font-weight: 700;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 0.28rem;
+  justify-content: center;
+  gap: 0.3rem;
   transition: filter 0.14s ease, border-color 0.14s ease;
 }
 
@@ -5531,8 +5533,8 @@ button {
 }
 
 .roulette-winner-subactions {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 0.45rem;
 }
 
