@@ -190,7 +190,7 @@
           </div>
           <ul class="plan-list">
             <li><span class="plan-check">✓</span><span>Acceso a las <strong>942 recetas</strong> con fotos y videos</span></li>
-            <li><span class="plan-check">✓</span><span><strong>Menú Circular</strong>, Carrusel e Ideas por horario</span></li>
+            <li><span class="plan-check">✓</span><span><strong>Ruleta de Recetas</strong>, Carrusel e Ideas por horario</span></li>
             <li><span class="plan-check">✓</span><span>Buscador por ingrediente, estación y calorías</span></li>
             <li><span class="plan-check">✓</span><span>Dietas básicas (<em>Sin TACC, Vegetariana, Fit</em>)</span></li>
             <li><span class="plan-check">✓</span><span>Favoritos guardados y temporizador de cocina</span></li>

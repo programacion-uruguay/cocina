@@ -214,7 +214,7 @@
           <p>Explorá <strong>${allRecipes.length} recetas</strong> con fotos reales, videos paso a paso, <strong>18 dietas</strong> y precios en supermercados de Uruguay.</p>
         </div>
         <div class="home-info-actions">
-          <button type="button" class="home-info-btn-primary" id="jump-to-wheel-btn">🎡 Abrir Buscador Circular</button>
+          <button type="button" class="home-info-btn-primary" id="jump-to-wheel-btn">🎡 Abrir Ruleta de Recetas</button>
           <button type="button" class="home-info-btn-secondary" id="jump-to-fridge-hero-btn">🧊 Mi Heladera</button>
         </div>
       </div>
